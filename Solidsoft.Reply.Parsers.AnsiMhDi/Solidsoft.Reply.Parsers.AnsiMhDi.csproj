@@ -14,6 +14,7 @@
 	<PackageIcon>Solidsoft Reply - LOGO Square_small.jpg</PackageIcon>
 	<Description>A comprehensive validating parser for ANSI MH10.8.2 Data Identifiers (DIs).</Description>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageTags>ansi;mh10.8.2;di;parser;barcode;datamatrix;qr;code-128</PackageTags>
 	<RepositoryUrl>https://github.com/Solidsoft-Reply/Solidsoft.Reply.Parsers.AnsiMhDi</RepositoryUrl>
 	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
