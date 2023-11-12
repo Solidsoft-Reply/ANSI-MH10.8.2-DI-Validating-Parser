@@ -22,8 +22,6 @@
 
 // ReSharper disable BadListLineBreaks
 
-using System.Security.Cryptography.X509Certificates;
-
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 
 using System;
@@ -1641,7 +1639,7 @@ public static class EntityResolver
                 14009,
                 new EntityDescriptor(
                     "PPN",
-                    "Pharmacy Product Number maintained by IFA (www.ifaffm.de) and structured as follows: Two-digit product registration agency code followed by the registered product number (assigned by product registration agencies) and two PPN check digits.",
+                    "Pharmacy Product Number maintained by IFA (www.ifaffm.de) with the following elements; Data Identifier (DI), two-digit product registration agency code (PRAC), the product reference (PR), and the two PPN check digits (CC), in the form DI PRAC PR CC.",
                     $@"^{GetAlphanumericRegEx(5, 22)}$")
             },
             {
@@ -1665,6 +1663,13 @@ public static class EntityResolver
                     "RLA ENCODED",
                     "The Data construct is defined and controlled by the RLA, comprised of 2 segments: the field identifier (FI) code, immediately followed by the data as defined for that element according to the data dictionary of the RLA. It is essentially a catalog of fields with standardized content. The Field Identifiers are posted at http://rla.org/12ncodes  The use and structure of these codes are defined at:  http://rla.org/12nformat. Examples can be found at that site.",
                     $@"^{GetAlphanumericRegEx(1, -1)}$")
+            },
+            {
+                14015,
+                new EntityDescriptor(
+                    "CAICT INDUSTRIAL INTERNET ID",
+                    "Representing Industrial Internet Identifier Codes controlled and maintained by CAICT, used in the Industrial Internet Identifier Resolution System of China and constructed as <DI><IAC><TTC><STC><CIN><SN>, in the form an3+a3+n3+n3+n8+an1…33, where an3 is the Data Identifier (DI), a3 is the Issuing Agency Code (IAC = “VAA”), n3 is the Top-Tier Code (TTC), n3 is the Secondary-Tier Code (STC), n8 is the Company Identification Number (CIN) controlled and assigned by the Secondary-Tier platform and an1…33 is the Serial Number (SN) that is controlled and assigned by the holder of the CIN, and is unique within that CIN holders’ domain, using the characters 0 through 9, upper- and lower\u0002case A through Z, * (asterisk), + (plus sign), - (dash), . (period or full stop), / (forward slash), ( (left parenthesis), ) (right parenthesis), ! (exclamation mark).",
+                    $@"^{GetAlphaRegEx(3, 3)}{GetNumericRegEx(14, 14)}{GetAlphanumericRegEx(1, 33)}$")
             },
             {
                 16000,
@@ -1978,6 +1983,27 @@ public static class EntityResolver
                     $@"^{GetAlphanumericRegEx(1, 50)}$")
             },
             {
+                16053,
+                new EntityDescriptor(
+                    "SPECIFIC MARINE EQUIPMENT",
+                    "Identifier for Specific Marine Equipment approved under the European Union Directive on Marine Equipment (2014/90/EU) and Implementing Regulation (EU) 2018/608.",
+                    $@"^{GetAlphaRegEx(1, 1)}{GetNumericRegEx(4, 4)}{GetAlphanumericRegEx(5, 20)}$")
+            },
+            {
+                16054,
+                new EntityDescriptor(
+                    "UDI DI",
+                    "UDI-DI (Unique Device Identification - Device Identifier) for Medical Devices (MD) and In-vitro-Diagnostics (IvD) as the unique key to public UDI data bases (GUDID, EUDAMED, etc.), according to national regulatory requirements, as outlined by the International Medical Device Regulators Forum (IMDRF). All printable characters of the UTF-8 character set are allowed.",
+                    $@"^{GetAlphanumericRegEx(1, 35)}$")
+            },
+            {
+                16055,
+                new EntityDescriptor(
+                    "DNV CERT REF",
+                    "DNV certification reference. Indicates that the data contains a reference to a product certificate/verification statement/report, issued by DNV. Data identifier shall be followed by letters “NV” and certificate number. When certificate Number has postfix, it should be included in the datastream by using the “-“ separator character. Revision indicators shall not be provided.",
+                    $@"^{GetAlphanumericRegEx(1, -1)}$")
+            },
+            {
                 17000,
                 new EntityDescriptor(
                     "QUANTITY",
@@ -2006,9 +2032,17 @@ public static class EntityResolver
                     $@"^{GetAlphanumericRegEx(2, 2)}$")
             },
             {
-                17004, new EntityDescriptor("GROSS AMOUNT", "Gross Amount.", $@"^{GetAlphanumericRegEx(1, -1)}$")
+                17004, new EntityDescriptor(
+                    "GROSS AMOUNT", 
+                    "Gross Amount.", 
+                    $@"^{GetAlphanumericRegEx(1, -1)}$")
             },
-            { 17005, new EntityDescriptor("NET AMOUNT", "Net Amount.", $@"^{GetAlphanumericRegEx(1, -1)}$") },
+            {
+                17005, new EntityDescriptor(
+                    "NET AMOUNT", 
+                    "Net Amount.", 
+                    $@"^{GetAlphanumericRegEx(1, -1)}$")
+            },
             {
                 17006,
                 new EntityDescriptor(
@@ -2185,6 +2219,14 @@ public static class EntityResolver
                     // ReSharper disable once StringLiteralTypo
                     "Currency, ISO 4217 currency code. Structure:  an3+an3  <DI><Currency, e.g. EUR>. Character set:  A-Z, 0 to 9. Example of encoding using ISO alphabetic code of US Dollar:   31QUSD. Example of encoding using ISO alphabetic code of EURO: 31QEUR. Example of encoding using ISO numeric code of EURO: 31Q978.",
                     $@"^({GetAlphaRegEx(3, 3)}|{GetNumericRegEx(3, 3)})$")
+            },
+            {
+                17032, new EntityDescriptor(
+                    "LOINC CODE",
+
+                    // ReSharper disable once StringLiteralTypo
+                    "Clinical term code as defined with the clinical nomenclature: “The international standard for identifying health measurements, observations, and documents – LOINC” (https://loinc.org), in the following sequence: <DI><LOINC Code><Plus Sign><Value>. The unit and format of the Value is defined by the LOINC Code.",
+                    $@"^{GetAlphanumericRegEx(3, 35)}$")
             },
             {
                 18001,
@@ -2926,6 +2968,13 @@ public static class EntityResolver
                     $@"^{GetAlphaRegEx(2, 2)}{GetAlphanumericRegEx(3, 18)}$")
             },
             {
+                22025,
+                new EntityDescriptor(
+                    "NCAGE CAGE MANUFACTURER CODE",
+                    "Declaring that the NCAGE/CAGE code that follows DI 25V is the Manufacturer. Party to a transaction wherein the NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE) code used behind DI 25V is declared to be the manufacturer of the item(s) involved in the transaction. Data following DI 25V will consist of five upper\u0002case alphanumeric characters, excluding the letters “I” and “O”.",
+                    $@"^{GetAlphanumericRegEx(5, 5)}$")
+            },
+            {
                 23000,
                 new EntityDescriptor(
                     "WORK ORDER NUMBER",
@@ -3017,7 +3066,13 @@ public static class EntityResolver
                     "Mutually Defined Between Customer and Carrier",
                     $@"^{GetAlphanumericRegEx(1, -1)}$")
             },
-            { 26003, new EntityDescriptor("FREE TEXT", "Free Text", $@"^{GetAlphanumericRegEx(1, -1)}$") },
+            {
+                26003,
+                new EntityDescriptor(
+                    "FREE TEXT", 
+                    "Free Text", 
+                    $@"^{GetAlphanumericRegEx(1, -1)}$")
+            },
             {
                 26004,
                 new EntityDescriptor(

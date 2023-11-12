@@ -586,6 +586,11 @@ public enum DataIdentifier
     IacCinPersonalId = 8025,
 
     /// <summary>
+    ///   The IAC CIN personal ID + EDIFACT party qualifier
+    /// </summary>
+    IacCinPersonalIdEdifactPartyQualifier = 8026,
+
+    /// <summary>
     ///   The vin.
     /// </summary>
     Vin = 9000,
@@ -1065,6 +1070,11 @@ public enum DataIdentifier
     RlaEncoded = 14012,
 
     /// <summary>
+    ///   CAICT Industrial Internet Identifier Codes.
+    /// </summary>
+    CaictIndustrialInternetId = 14015,
+
+    /// <summary>
     ///   The customer item id.
     /// </summary>
     CustomerItemId = 16000,
@@ -1275,6 +1285,21 @@ public enum DataIdentifier
     Color = 16052,
 
     /// <summary>
+    ///   Specific Marine Equipment.
+    /// </summary>
+    SpecificMarineEquipment = 16053,
+
+    /// <summary>
+    ///   Unique Device Identification - Device Identifier.
+    /// </summary>
+    UdiDi = 16054,
+
+    /// <summary>
+    ///   DNV certificate reference.
+    /// </summary>
+    DnvCertificateReference = 16055,
+    
+    /// <summary>
     ///   The quantity.
     /// </summary>
     Quantity = 17000,
@@ -1428,6 +1453,11 @@ public enum DataIdentifier
     ///   The currency.
     /// </summary>
     Currency = 17031,
+
+    /// <summary>
+    ///   The LOINC code.
+    /// </summary>
+    LoincCode = 17032,
 
     /// <summary>
     ///   The RMA.
@@ -1949,6 +1979,11 @@ public enum DataIdentifier
     ///   The customer VAT number.
     /// </summary>
     CustomerVatNumber = 22024,
+
+    /// <summary>
+    ///   NCAGE/CAGE manufacturer code.
+    /// </summary>
+    NcageCageManufacturerCode = 22025,
 
     /// <summary>
     ///   The work order number.
