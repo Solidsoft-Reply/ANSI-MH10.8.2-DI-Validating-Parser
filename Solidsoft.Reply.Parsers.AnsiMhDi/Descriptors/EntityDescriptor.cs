@@ -40,12 +40,32 @@ public class EntityDescriptor
     /// <summary>
     ///   The regular expression pattern of the entity.
     /// </summary>
-    private readonly string? _pattern;
+    private readonly Func<Regex> _pattern;
 
     /// <summary>
     ///   The regular expression pattern of the entity.
     /// </summary>
     private Regex? _validator;
+
+    /////////// <summary>
+    ///////////   Initializes a new instance of the <see cref="EntityDescriptor" /> class.
+    /////////// </summary>
+    /////////// <param name="dataTitle">
+    ///////////   The data title.
+    /////////// </param>
+    /////////// <param name="description">
+    ///////////   The description.
+    /////////// </param>
+    /////////// <param name="pattern">
+    ///////////   The pattern.
+    /////////// </param>
+    ////////public EntityDescriptor(string? dataTitle, string? description, string? pattern)
+    ////////{
+    ////////    DataTitle = dataTitle;
+    ////////    Description = description;
+    ////////    _pattern = pattern;
+    ////////    _validator = null;
+    ////////}
 
     /// <summary>
     ///   Initializes a new instance of the <see cref="EntityDescriptor" /> class.
@@ -59,8 +79,7 @@ public class EntityDescriptor
     /// <param name="pattern">
     ///   The pattern.
     /// </param>
-    public EntityDescriptor(string? dataTitle, string? description, string? pattern)
-    {
+    public EntityDescriptor(string? dataTitle, string? description, Func<Regex> pattern) {
         DataTitle = dataTitle;
         Description = description;
         _pattern = pattern;
@@ -88,7 +107,7 @@ public class EntityDescriptor
     /// </summary>
 
     // ReSharper disable once MemberCanBePrivate.Global
-    public Regex Pattern => _validator ??= new Regex(_pattern ?? string.Empty, RegexOptions.Compiled);
+    public Regex Pattern => _validator ??= _pattern();
 
     /// <summary>
     ///   Validate data against the descriptor.
