@@ -558,7 +558,7 @@ public static partial class EntityResolver
     /// Regular Expression: Alpha {3} Numeric {14} Alphanumeric {1, 33}
     /// </summary>
     /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{3}\d{14}[0-9A-Z]{1,33}$", RegexOptions.None, "en-US")]
+    [GeneratedRegex(@"[A-Z]{3}\d{14}[0-9A-Za-z*+-./()!]{1,33}$", RegexOptions.None, "en-US")]
     private static partial Regex Alpha03Numeric14Alphanumeric0133RegEx();
 
     /// <summary>
@@ -665,7 +665,7 @@ public static partial class EntityResolver
     /// <returns>A regular expression.</returns>
     [GeneratedRegex(@"[A-Z]{2}[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{3,27}$", RegexOptions.None, "en-US")]
     private static partial Regex Alpha02Invariant0327RegEx();
-
+    
     /// <summary>
     ///  Regular Expression: Numeric {1}
     /// </summary>
@@ -900,14 +900,14 @@ public static partial class EntityResolver
                     "RECEPTACLE ASSET",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Receptacle Asset Number - Consisting of two joined parts: - Identification of an organisation in accordance with ISO/IEC 15459 and a unique entity identification assigned in accordance with rules established by the issuing agency. - A unique serial number assigned by the entity, ending with a 3-character container type code taken from EDIFACT Code List 8053 or UPU standard M82-3. (If the container type code listed is less than three characters in length, the field will be dash '-' filled left to the length of three characters).",
+                    "Receptacle Asset Number - Consisting of two joined parts:\n- Identification of an organisation in accordance with ISO/IEC 15459 and a unique entity identification assigned in accordance with rules established by the issuing agency.\n- A unique serial number assigned by the entity, ending with a 3-character container type code taken from EDIFACT Code List 8053 or UPU standard M82-3. (If the container type code listed is less than three characters in length, the field will be dash '-' filled left to the length of three characters).",
                     Alphanumeric0132Alphanumeric03WithDashesRegEx)
             },
             {
                 2007,
                 new EntityDescriptor(
                     "CONTAINER SERIAL",
-                    "Container Serial Number. According to ISO 6346. OC EI CSN CD, where the OC is the three letter owner code assigned in cooperation with BIC, the EI is the one letter equipment category identifier, the CSN is a 6-digit unique container identification assigned by the equipment owner, and CD is a modulus 11 check digit calculated in accordance with Annex A, ISO 6346.",
+                    "Container Serial Number.\nAccording to ISO 6346. OC EI CSN CD, where the OC is the three letter owner code assigned in cooperation with BIC, the EI is the one letter equipment category identifier, the CSN is a 6-digit unique container identification assigned by the equipment owner, and CD is a modulus 11 check digit calculated in accordance with Annex A, ISO 6346.",
                     Alpha04Numeric07RegEx)
             },
             {
@@ -921,14 +921,14 @@ public static partial class EntityResolver
                 2009,
                 new EntityDescriptor(
                     "CONTAINER SIZE ",
-                    "Container Size/Type Code. According to ISO 6346, Section 4.2.",
+                    "Container Size/Type Code.\nAccording to ISO 6346, Section 4.2.",
                     AlphanumericRegEx4)
             },
             {
                 2010,
                 new EntityDescriptor(
                     "CONTAINER OWNERSHIP",
-                    "Container Ownership Code. Actual four-character abbreviation marked on the container by the owner. For DOD owned containers see Defense Transportation Regulation App EE-6.",
+                    "Container Ownership Code. Actual four-character abbreviation marked on the container by the owner. For DOD owned containers see Defense Transportation Regulation App EE-6.\n2020 Update: data source reference updated to the Defense Transportation Regulation, Part II, App TT located at:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm",
                     AlphanumericRegEx4)
             },
             {
@@ -956,7 +956,7 @@ public static partial class EntityResolver
                 2014,
                 new EntityDescriptor(
                     "TAG STATUS ",
-                    "Tag Status. Y=Authorized / N=Unauthorized.",
+                    "Tag Status.\nY=Authorized / N=Unauthorized.",
                     YesNoLetterRegEx)
             },
             {
@@ -964,21 +964,21 @@ public static partial class EntityResolver
                     "DANGEROUS CARGO CLASS ",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Dangerous Cargo Class. IMDG Class in the format 'n.na' where n = numeric, decimal point expressly encoded, and a = conditional alphabetic qualifier. http://docs.imo.org/.",
+                    "Dangerous Cargo Class.\nIMDG Class in the format 'n.na' where n = numeric, decimal point expressly encoded, and a = conditional alphabetic qualifier. http://docs.imo.org/.",
                     DangerousCargoClassRegEx)
             },
             {
                 2016,
                 new EntityDescriptor(
                     "DANGEROUS GOODS ",
-                    "UN Code for Dangerous Goods ",
+                    "UN Code for Dangerous Goods.\nFor dangerous cargo provided by shipper in accordance with UN Code.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\n2020 Update: URL changed to http://www.unece.org/trans/danger/danger.html",
                     AlphanumericRegEx4)
             },
             {
                 2017,
                 new EntityDescriptor(
                     "TRANSPORTATION SUBJECT ",
-                    "Name Of Transportation Subject. Vessel name or vehicle code/train trip number in English.",
+                    "Name Of Transportation Subject.\nVessel name or vehicle code/train trip number in English.",
                     AlphanumericRegEx0135)
             },
             {
@@ -986,28 +986,28 @@ public static partial class EntityResolver
                     "VESSEL REGISTRATION ",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Vessel Registration Number. The three letters 'IMO' followed by the seven-digit number assigned to all ships by IHS Fairplay when constructed. http://www.imonumbers.lrfairplay.com/.",
+                    "Vessel Registration Number.\nThe three letters 'IMO' followed by the seven-digit number assigned to all ships by IHS Fairplay when constructed. http://www.imonumbers.lrfairplay.com/.",
                     VesselRegistrationNumberRegEx)
             },
             {
                 2019,
                 new EntityDescriptor(
                     "VOYAGE",
-                    "Voyage number/Trip number. Letter and number.",
+                    "Voyage number/Trip number.\nLetter and number.",
                     AlphanumericRegEx18)
             },
             {
                 2020,
                 new EntityDescriptor(
                     "VESSEL COUNTRY ",
-                    "Vessel Country. ISO 3166-1 Alpha 2 Code.",
+                    "Vessel Country.\nISO 3166-1 Alpha 2 Code.",
                     AlphanumericRegEx2)
             },
             {
                 2021,
                 new EntityDescriptor(
                     "ELECTRONIC SEAL",
-                    "Reserved for Electronic Seal Numbers. Comprised of the 18185-1 seal tag ID - 32 bits and the ISO 14816 16-bit manufacturers ID (ISO 646).",
+                    "Reserved for Electronic Seal Numbers.\nComprised of the 18185-1 seal tag ID - 32 bits and the ISO 14816 16-bit manufacturers ID (ISO 646).",
                     ElectronicSealNumbersRegEx)
             },
             {
@@ -1015,7 +1015,7 @@ public static partial class EntityResolver
                     "ENTRY",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Entry Number/Type. Comprised of the three-digit filer code, followed by the sevendigit entry number, and completed with the one digit check digit. Entry Filer Code represents the three-character alphanumeric filer code assigned to the filer or importer by CBP. Entry Number represents the seven-digit number assigned by the filer. The number may be assigned in any manner convenient, provided that the same number is not assigned to more than one CBP Form 7501. Leading zeros must be shown. Check Digit is computed on the previous 10 characters. The formula for calculating the check digit can be found in Appendix 1, CBP 7501 Instructions. Entry type is a two-digit code compliant to Block 2, CBP 7501 Instructions.",
+                    "Entry Number/Type.\nComprised of the three-digit filer code, followed by the sevendigit entry number, and completed with the one digit check digit. Entry Filer Code represents the three-character alphanumeric filer code assigned to the filer or importer by CBP. Entry Number represents the seven-digit number assigned by the filer. The number may be assigned in any manner convenient, provided that the same number is not assigned to more than one CBP Form 7501. Leading zeros must be shown. Check Digit is computed on the previous 10 characters. The formula for calculating the check digit can be found in Appendix 1, CBP 7501 Instructions.\nEntry type is a two-digit code compliant to Block 2, CBP 7501 Instructions.",
                     Alphanumeric11Numeric02)
             },
             {
@@ -1023,14 +1023,14 @@ public static partial class EntityResolver
                     "SURETY ",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Surety Number. The three-digit numeric code that identifies the surety company on the Customs Bond. This code can be found in block 7 of the CBP Form 301, or is available through CBP's automated system to ABI filers, via the importer bond query transaction. For U.S. Government importations and entry types not requiring surety, code 999 should appear in this block. When cash or Government securities are used in lieu of surety, use code 998.",
+                    "Surety Number.\nThe three-digit numeric code that identifies the surety company on the Customs Bond. This code can be found in block 7 of the CBP Form 301, or is available through CBP's automated system to ABI filers, via the importer bond query transaction. For U.S. Government importations and entry types not requiring surety, code 999 should appear in this block. When cash or Government securities are used in lieu of surety, use code 998.",
                     SuretyNumberRegEx)
             },
             {
                 2024,
                 new EntityDescriptor(
                     "FOREIGN PORT OF LADING ",
-                    "Foreign Port of Lading. 'Schedule K' (Classification of Foreign Ports by Geographic Trade Area and Country) for the foreign port at which the merchandise was actually laden on the vessel that carried the merchandise to the U.S. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.",
+                    "Foreign Port of Lading.\n'Schedule K' (Classification of Foreign Ports by Geographic Trade Area and Country) for the foreign port at which the merchandise was actually laden on the vessel that carried the merchandise to the U.S. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\n2020 Update: URL changed to: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf",
                     ForeignPortOfLadingRegEx)
             },
             {
@@ -1076,14 +1076,14 @@ public static partial class EntityResolver
                 2030,
                 new EntityDescriptor(
                     "PACKAGING ITEM",
-                    "Packaging Item Number. Number to identify the type of packaging item (material) used when packing products and packages The number will enable packaging item (material) be identified and separated from products, packages, Returnable Transport Items (RTIs) and Returnable Packaging Items (RPIs) during packing. The number is constructed as a sequence of minimum 1 data element: Packaging item (material) number that is unique within the holder's domain.",
+                    "Packaging Item Number.\nNumber to identify the type of packaging item (material) used when packing products and packages.\nThe number will enable packaging item (material) be identified and separated from products, packages, Returnable Transport Items (RTIs) and Returnable Packaging Items (RPIs) during packing.\nThe number is constructed as a sequence of minimum 1 data element:\nPackaging item (material) number that is unique within the holder's domain.",
                     AlphanumericRegEx0235)
             },
             {
                 2031,
                 new EntityDescriptor(
                     "PACKAGING ",
-                    "Global Unique Packaging Number Global unique number to identify the type of packaging item (material) used when packing products and packages. The global unique number will enable packaging items (materials) be identified and separated from products, packages, Returnable Transport Items (RTIs) and Returnable Packaging Items (RPIs) during packing. The number is constructed as a sequence of 3 concatenated data elements: The IAC, followed by the CIN, followed by the Packaging item (material) number that is unique within the CIN holder's domain.",
+                    "Global Unique Packaging Number\nGlobal unique number to identify the type of packaging item (material) used when packing products and packages.\nThe global unique number will enable packaging items (materials) be identified and separated from products, packages, Returnable Transport Items (RTIs) and Returnable Packaging Items (RPIs) during packing.\nThe number is constructed as a sequence of 3 concatenated data elements:\nThe IAC, followed by the CIN, followed by the Packaging item (material) number that is unique within the CIN holder's domain.",
                     AlphanumericRegEx0635)
             },
             {
@@ -1203,7 +1203,7 @@ public static partial class EntityResolver
                 4008,
                 new EntityDescriptor(
                     "EVENT, DATE AND TIME ",
-                    "Event, Date, And Time. ISO format YYYYMMDDHHMM (24 hour clock - UTC) immediately followed by a UN/EDIFACT Code Qualifier 2005 providing a code specifying type of date), e.g., 11 [Date when goods are expected to be dispatched/shipped message is issued.]; 17 [Estimated delivery date/time when goods are expected to be delivered]; 35 [Date on which goods are delivered to their destination.]; 118 [Booking Confirmed]; 129 [Date when the vessel/merchandise departed the last foreign port in the exporting country.]; 132 [Date/time when the carrier estimates that a means of transport should arrive at the port of discharge or place of destination.]; 133 [Date/time when carrier estimates that a means of transport should depart at the place of departure]; 137 [Date/time when the supplier ships parts based on the customer's request. (Date when DESADV message is issued. Recommendation is the DESADV is issued within 30 minutes of goods being picked up at ShipFrom party]; 146 [Estimated Entry date (Customs) date on which the official date of a Customs Entry is anticipated.]; 151 [Import Date (Arrived at port with intent to unlade]; 186 Departs a Facility ('Gate-out)]; 204 [Date on which Customs releases merchandise to the carrier or importer]; 253 [Departs from a Port ('Vessel Departure')]; 252 [Arrives at a Port ('Vessel Arrival')]; 283 [Arrives at a Facility ('Gate-in)]; 342 [Conveyance Loaded]; 351 [Terminal Gate Inspection]; 411 [Ordered Stuffed]; 412 [Ordered Stripped]; 420 [Conveyance unloaded]; 534 [Repaired]; 677 [Confirmed Stuffed]; 678 [Confirmed Stripped]; 696 [Filing Date].",
+                    "Event, Date, And Time.\nISO format YYYYMMDDHHMM (24 hour clock - UTC) immediately followed by a UN/EDIFACT Code Qualifier 2005 providing a code specifying type of date), e.g.,\n11 [Date when goods are expected to be dispatched/shipped message is issued.];\n17 [Estimated delivery date/time when goods are expected to be delivered];\n35 [Date on which goods are delivered to their destination.];\n118 [Booking Confirmed];\n129 [Date when the vessel/merchandise departed the last foreign port in the exporting country.];\n132 [Date/time when the carrier estimates that a means of transport should arrive at the port of discharge or place of destination.];\n133 [Date/time when carrier estimates that a means of transport should depart at the place of departure];\n137 [Date/time when the supplier ships parts based on the customer's request. (Date when DESADV message is issued. Recommendation is the DESADV is issued within 30 minutes of goods being picked up at ShipFrom party];\n146 [Estimated Entry date (Customs) date on which the official date of a Customs Entry is anticipated.];\n151 [Import Date (Arrived at port with intent to unlade];\n186 Departs a Facility ('Gate-out)];\n204 [Date on which Customs releases merchandise to the carrier or importer];\n253 [Departs from a Port ('Vessel Departure')];\n252 [Arrives at a Port ('Vessel Arrival')];\n283 [Arrives at a Facility ('Gate-in)];\n342 [Conveyance Loaded];\n351 [Terminal Gate Inspection];\n411 [Ordered Stuffed];\n412 [Ordered Stripped];\n420 [Conveyance unloaded];\n534 [Repaired];\n677 [Confirmed Stuffed];\n678 [Confirmed Stripped];\n696 [Filing Date].",
                     EventDateAndTimeRegEx)
             },
             {
@@ -1280,14 +1280,14 @@ public static partial class EntityResolver
                 4018,
                 new EntityDescriptor(
                     "TAG ACTIVATION TIME",
-                    "Tag Activation Time. YYYYMMDDHHMM (24 hour clock - UTC).",
+                    "Tag Activation Time.\nYYYYMMDDHHMM (24 hour clock - UTC).",
                     DatePatternYyyyMmDdHhMmRegEx)
             },
             {
                 4019,
                 new EntityDescriptor(
                     "TAG DEACTIVATION TIME ",
-                    "Tag Deactivation Time. YYYYMMDDHHMM (24 hour clock - UTC).",
+                    "Tag Deactivation Time.\nYYYYMMDDHHMM (24 hour clock - UTC).",
                     DatePatternYyyyMmDdHhMmRegEx)
             },
             {
@@ -1309,7 +1309,7 @@ public static partial class EntityResolver
                 4022,
                 new EntityDescriptor(
                     "RECORD TIME",
-                    "Record Time. YYYYMMDDHHMM (24 hour clock - UTC).",
+                    "Record Time.\nYYYYMMDDHHMM (24 hour clock - UTC).",
                     DatePatternYyyyMmDdHhMmRegEx)
             },
             {
@@ -1317,22 +1317,20 @@ public static partial class EntityResolver
                     "UTC DATE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Date, represented in modified UTC compliant form: yyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] where square brackets indicate optionality and yyyy is the year, mmdd the month and day, hhmmss the time of day in hours minutes and seconds, fff the fractions of sections and poooo the offset from UTC expressed in hours and minutes, the offset being positive if p is a point (.), negative if P is a minus sign (-). EXAMPLE: 2005 - (UTC) calendar year 2005; 200505 - (UTC) calendar month May 2005; 20050518 - (UTC) 18 May 2005; 200505181247 - 12:47 UTC on 18 May 2005; 200505181247.0100 - 12:47 local time, being 11:47 UTC, on 18 May 2005; 20050518124723099 - 99 milliseconds after UTC 12:47:23 on 18 May 200.",
+                    "Date, represented in modified UTC compliant form:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] where square brackets indicate optionality and yyyy is the year, mmdd the month and day, hhmmss the time of day in hours minutes and seconds, fff the fractions of sections and poooo the offset from UTC expressed in hours and minutes, the offset being positive if p is a point (.), negative if P is a minus sign (-).\nEXAMPLE:\n2005 - (UTC) calendar year 2005;\n200505 - (UTC) calendar month May 2005;\n20050518 - (UTC) 18 May 2005;\n200505181247 - 12:47 UTC on 18 May 2005;\n200505181247.0100 - 12:47 local time, being 11:47 UTC, on 18 May 2005;\n20050518124723099 - 99 milliseconds after UTC 12:47:23 on 18 May 200.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 4024,
                 new EntityDescriptor(
                     "QUALIFIED DATE",
-                    "Qualified Date, comprising the concatenation of: - an ISO/IEC 15459 issuing agency code; - a date qualifier conforming to the specifications of that issuing agency; - a date whose format and interpretation comply with the specifications of the issuing agency for that date qualifier.",
+                    "Qualified Date, comprising the concatenation of:\n- an ISO/IEC 15459 issuing agency code;\n- a date qualifier conforming to the specifications of that issuing agency;\n- a date whose format and interpretation comply with the specifications of the issuing agency for that date qualifier.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 4025, new EntityDescriptor(
-                    "BEST BEFORE DATE",
-
-                    // ReSharper disable once StringLiteralTypo
-                    "Best before date: (YYYYMMDD). Example: 25D20170202 = February 2, 2017.",
+                    "BEST BEFORE DATE", 
+                    "Best before date: (YYYYMMDD).\nExample: 25D20170202 = February 2, 2017",
                     DatePatternYyyyMmDdRegEx)
             },
             {
@@ -1340,7 +1338,7 @@ public static partial class EntityResolver
                     "FIRST FREEZE DATE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "First freeze date (YYYYMMDD). The first freeze date is defined as the date on which products are frozen directly after slaughtering, harvesting, catching or after initial processing. Example: 26D20170721 = July 21, 2017.",
+                    "First freeze date (YYYYMMDD).\nThe first freeze date is defined as the date on which products are frozen directly after slaughtering, harvesting, catching or after initial processing.\nExample: 26D20170721 = July 21, 2017.",
                     DatePatternYyyyMmDdRegEx)
             },
             {
@@ -1348,14 +1346,14 @@ public static partial class EntityResolver
                     "HARVEST DATE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Harvest date (YYYYMMDD). The date when an animal was slaughtered or killed, a fish has been harvested, or a crop was harvested. Example: 27D20170615 = June 15, 2017.",
+                    "Harvest date (YYYYMMDD).\nThe date when an animal was slaughtered or killed, a fish has been harvested, or a crop was harvested.\nExample: 27D20170615 = June 15, 2017.",
                     DatePatternYyyyMmDdRegEx)
             },
             {
                 4028,
                 new EntityDescriptor(
                     "HARVEST DATE RANGE",
-                    "Harvest date range (YYYYMMDDYYYYMMDD). The start date and end date range over which harvesting occurred. For example; animals were slaughtered or killed, fish were harvested, or a crop was harvested. The data stream is defined as the first YYYYMMDD as the start date and the last YYYYMMDD as the end date. Example: 28D2017012320170214 = Start; January 23, 2017. End; February 14, 2017.",
+                    "Harvest date range (YYYYMMDDYYYYMMDD).\nThe start date and end date range over which harvesting occurred.\nFor example; animals were slaughtered or killed, fish were harvested, or a crop was harvested.\nThe data stream is defined as the first YYYYMMDD as the start date and the last YYYYMMDD as the end date.\nExample:\n28D2017012320170214 = Start; January 23, 2017. End; February 14, 2017.",
                     HarvestDateRangeRegEx)
             },
             {
@@ -1383,28 +1381,28 @@ public static partial class EntityResolver
                 5003,
                 new EntityDescriptor(
                     "MINIMUM ALLOWED TEMPERATURE",
-                    "Minimum Allowed Temperature. Minimum permitted temperature; Degrees Celsius, '-' (minus) encoded, if required.",
+                    "Minimum Allowed Temperature.\nMinimum permitted temperature; Degrees Celsius, '-' (minus) encoded, if required.",
                     MinusNumeric0104RegEx)
             },
             {
                 5004,
                 new EntityDescriptor(
                     "MAXIMUM ALLOWED RELATIVE HUMIDITY",
-                    "Maximum Allowed Relative Humidity. Maximum permitted relative humidity, implied as percent.",
+                    "Maximum Allowed Relative Humidity.\nMaximum permitted relative humidity, implied as percent.",
                     Numeric0102RegEx)
             },
             {
                 5005,
                 new EntityDescriptor(
                     "MINIMUM ALLOWED RELATIVE HUMIDITY",
-                    "Minimum Allowed Relative Humidity. Maximum permitted relative humidity, expressed as percent.",
+                    "Minimum Allowed Relative Humidity.\nMaximum permitted relative humidity, expressed as percent.",
                     Numeric0102RegEx)
             },
             {
                 5006,
                 new EntityDescriptor(
                     "REFRIGERATOR CONTAINER TEMPERATURE",
-                    "Refrigerator Container Temperature. For temperature-controlled cargo, target specified by shipper, Degrees Celsius, '-' (minus) encoded, if required.",
+                    "Refrigerator Container Temperature.\nFor temperature-controlled cargo, target specified by shipper, Degrees Celsius, '-' (minus) encoded, if required.",
                     MinusNumeric0104RegEx)
             },
             {
@@ -1426,7 +1424,7 @@ public static partial class EntityResolver
                     "PACKAGING MATERIAL",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Declaration of Packaging Material Category*, Code* and Weight for a given packaging material used in a given packaging according to the EU packaging and packaging waste directive. (Material category and code defined in Annex M). 12ECCMMMMMMNNNNNUU where:  - '12E' (an3) is the Data Identifier;  - 'CC' (n2) is the Material Category per Annex M;  - 'MMMMMM' (an1...6) is the Material Code per Annex M;  - 'NNNNN' (n5) Material Weight, including decimal point (e.g., 12.12); - 'UU' (an2) is the Unit of measure for weight (e.g., KG, GR, LB or OZ per ANSI X12.3 as in Annex D).",
+                    "Declaration of Packaging Material Category*, Code* and Weight for a given packaging material used in a given packaging according to the EU packaging and packaging waste directive. (Material category and code defined in Annex M).\n12ECCMMMMMMNNNNNUU where:  - '12E' (an3) is the Data Identifier;\n  - 'CC' (n2) is the Material Category per Annex M;\n  - 'MMMMMM' (an1...6) is the Material Code per Annex M;\n  - 'NNNNN' (n5) Material Weight, including decimal point (e.g., 12.12);\n - 'UU' (an2) is the Unit of measure for weight (e.g., KG, GR, LB or OZ per ANSI X12.3 as in Annex D).",
                     Numeric02AlphanumericDash0106NumericDot05Alphanumeric02RegEx)
             },
             {
@@ -1447,7 +1445,7 @@ public static partial class EntityResolver
                 6001,
                 new EntityDescriptor(
                     "PARENT",
-                    "My 'parent' is . . . Unique identifier followed by a Data Identifier and associated data (for use with returnable packaging). This Data Identifier must immediately follow the field (constructed of a Data Identifier, data and a group separator) with which it is associated.",
+                    "My parent ______ is . . . Unique identifier followed by a Data Identifier and associated data (for use with returnable packaging). This Data Identifier must immediately follow the field (constructed of a Data Identifier, data and a group separator) with which it is associated.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -1461,7 +1459,7 @@ public static partial class EntityResolver
                 6004,
                 new EntityDescriptor(
                     "LOGICAL ASSIGNMENT",
-                    "Logical Assignment of a Page of Information within a group of pages that are spread across several data carriers, structured as a sequence of up to three (3) concatenated data elements, separated by a slash ( / ) :  Page number (required), followed by page count (optional, required for the last page), followed by an alphanumeric group ID (optional; if used then required for all pages and structured in accordance with ISO/IEC 15459-3 as a sequence of 3 data elements: Issuing Agency Code, followed by the Company Identification Number, followed by an alphanumeric code unique within the issuer's domain). Trailing slashes are optional.",
+                    "Logical Assignment of a Page of Information within a group of pages that are spread across several data carriers, structured as a sequence of up to three (3) concatenated data elements, separated by a slash ( / ) :\n  Page number (required), followed by page count (optional, required for the last page), followed by an alphanumeric group ID (optional; if used then required for all pages and structured in accordance with ISO/IEC 15459-3 as a sequence of 3 data elements: Issuing Agency Code, followed by the Company Identification Number, followed by an alphanumeric code unique within the issuer's domain).\n Trailing slashes are optional.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -1476,7 +1474,7 @@ public static partial class EntityResolver
                     "NAME",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Name of Party. Name of a party followed by a plus (+) character followed by one or more code values from EDIFACT Code List 3035 'Party Qualifier', e.g., BY [Buyer]; CF   [Container operator]; CN [Consignee]; CS [Consolidator]; DEI  [Vessel operator/captain of vessel]; FA [Operational staff code]; IM [Importer]; MF   [Manufacturer]; OS [Shipper]; SE [Seller]; ST [Ship To]; UC [Ultimate consignee].",
+                    "Name of Party.\nName of a party followed by a plus (+) character followed by one or more code values from EDIFACT Code List 3035 'Party Qualifier', e.g.;\nBY [Buyer];\nCF   [Container operator];\nCN [Consignee];\nCS [Consolidator];\nDEI  [Vessel operator/captain of vessel];\nFA [Operational staff code];\nIM [Importer];\nMF   [Manufacturer];\nOS [Shipper];\nSE [Seller];\nST [Ship To];\nUC [Ultimate consignee].",
                     AlphanumericPlus0160RegEx)
             },
             {
@@ -1507,7 +1505,8 @@ public static partial class EntityResolver
                     "National Social Security Number.",
                     Alphanumeric01UnboundRegEx)
             },
-            { 8005, new EntityDescriptor(
+            { 
+                8005, new EntityDescriptor(
                 "LAST NAME", 
                 "Last Name.",
                 Alphanumeric01UnboundRegEx) },
@@ -1523,7 +1522,7 @@ public static partial class EntityResolver
                     "CONTACT PHONE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Contact Phone. Country Code, Area Code, Exchange, number [XX YYY ZZZ ZZZZ].",
+                    "Contact Phone.\nCountry Code, Area Code, Exchange, number [XX YYY ZZZ ZZZZ].",
                     Numeric1012RegEx)
             },
             {
@@ -1538,7 +1537,7 @@ public static partial class EntityResolver
                     "CONSIGNEE NUMBER",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Consignee Number. The unique identifying number can be the IRS, EIN, SSN, or the CBP assigned number, as required on the Security Filing. Only the following formats shall be used: IRS EIN: NN-NNNNNNN; IRS EIN w/ suffix: NN-NNNNNNNXX; SSN:   NNN-NN-NNNN; CBP assigned nbr: YYDDPP-NNNNN.",
+                    "Consignee Number.\nThe unique identifying number can be the IRS, EIN, SSN, or the CBP assigned number, as required on the Security Filing. Only the following formats shall be used: IRS EIN: NN-NNNNNNN;\nIRS EIN w/ suffix:\nNN-NNNNNNNXX;\nSSN:   NNN-NN-NNNN;\nCBP assigned nbr: YYDDPP-NNNNN.",
                     AlphanumericRegEx1012)
             },
             {
@@ -1559,15 +1558,15 @@ public static partial class EntityResolver
                 8012,
                 new EntityDescriptor(
                     "MILITARY GRADE",
-                    "Military Grade (E1-E9, W1-W5, and O1-O10).",
-                    AlphanumericRegEx2)
+                    "Military Grade (E1-E9, W1-W5, and O1-O10).\n2020 Update: Metadata format has been changed to agree with the actual officer grades in use by the military: “an2+an3”. The Explanation information has been changed to: “Military Grade (E1-E9, W1-W5, and O1-O11).",
+                    AlphanumericRegEx3)
             },
             {
                 8015, new EntityDescriptor(
                     "NI NUMBER",
 
                     // ReSharper disable once StringLiteralTypo
-                    "A National Identification Number, National Identity Number, or National Insurance Number used as a means of identifying individuals within a country for the purposes of work, taxation, government benefits, health care, and other governmentallyrelated functions. This structure of the identifier is DI (15H) followed by the ISO 3166-1 Alpha2 Country Code followed by the predominant government assigned identification code for individuals.",
+                    "A National Identification Number, National Identity Number, or National Insurance Number used as a means of identifying individuals within a country for the purposes of work, taxation, government benefits, health care, and other governmentally-related functions.\nThis structure of the identifier is DI (15H) followed by the ISO 3166-1 Alpha2 Country Code followed by the predominant government assigned identification code for individuals.",
                     AlphanumericRegEx0322)
             },
             {
@@ -1581,7 +1580,7 @@ public static partial class EntityResolver
                 8026,
                 new EntityDescriptor(
                     "PERSONAL ID",
-                    "Globally Unique Personal ID, with a \"Party Qualifier\" code value from EDIFACT Code List 3035, assigned by a holder of a Company Identification Code (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 5 concatenated data elements: IAC followed by CIN, followed by an ID unique within the CIN holder\'s domain, followed by the Plus character (+) and a code value from EDIFACT Code List 3035 \"Party Qualifier.\"",
+                    "Globally Unique Personal ID, with a \"Party Qualifier\" code value from EDIFACT Code List 3035, assigned by a holder of a Company Identification Code (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 5 concatenated data elements: IAC followed by CIN, followed by an ID unique within the CIN holder\'s domain, followed by the Plus character (+) and a code value from EDIFACT Code List 3035 \"Party Qualifier.\", e.g.:\nBG Employer\nGP Packer\nLK Patient\nLL Patient companion\nLM Medical treatment executant\nMF Manufacturer of goods\nExample: 26HLHHIBC987XY65+LK",
                     Alphanumeric0335Alpha0103RegEx)
             },
             {
@@ -1610,7 +1609,7 @@ public static partial class EntityResolver
                     "PRODUCTION VEHICLE IDENTIFIER ",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Unique production vehicle identifier that will be used during the vehicle production processes, consisting of the Body Tag Number (BTN; or any other descriptor used to identify the raw car body, or stated another way, the assemblage of parts that are used to start the vehicle's production), followed by the '+' character, then followed by the Production Order Number (PON), followed by the '+' character, and then followed by the Manufacturer-assigned Serial Number (SN). NOTE: The SN component shall be replaced by the VIN as soon as the VIN is available in the assembly process. The construction will be as follows; '5I' 'BTN' '+' 'PON' '+' 'SN'            changing to (when VIN available); '5I' 'BTN' '+' 'PON' '+' 'VIN'   NOTE: Quotes and spaces are shown for clarity only; they are not part of the data. NOTE: This DI is never to be concatenated with other DIs in a linear symbol or other media where the concatenation character is a plus (+) character. Examples: SN version: 5IABCD1234+CO1234+W0L201600500001; VIN version:  5IABCD1234+CO1234+W0L0XAP68F4050901.",
+                    "Unique production vehicle identifier that will be used during the vehicle production processes, consisting of the Body Tag Number (BTN; or any other descriptor used to identify the raw car body, or stated another way, the assemblage of parts that are used to start the vehicle’s production), followed by the “+” character, then followed by the Production Order Number (PON), followed by the “+” character, and then followed by the Manufacturer-assigned Serial Number (SN). NOTE – The SN component shall be replaced by the VIN as soon as the VIN is available in the assembly process.\nThe construction will be as follows;\n\"5I” “BTN” “+” “PON” “+” “SN”\nchanging to (when VIN available)\n“5I” “BTN” “+” “PON” “+” “VIN”\nNOTE – Quotes and spaces are shown for clarity only; they are not part of the data.\nNOTE – This DI is never to be concatenated with other DIs in a linear symbol or other media where the concatenation character is a plus (+) character.\nExamples:\nSN version: 5IABCD1234+CO1234+W0L201600500001\nVIN version: 5IABCD1234+CO1234+W0L0XAP68F4050901",
                     AlphanumericWithPlus01UnboundRegEx)
             },
             {
@@ -1676,7 +1675,7 @@ public static partial class EntityResolver
                     "MMSI",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Maritime Mobile Service Identity (MMSI). A nine digit number regulated by the International Telecommunications Union to uniquely identify a ship or a coast radio station. Example:  8J211123456.",
+                    "Maritime Mobile Service Identity (MMSI).\nA nine digit number regulated by the International Telecommunications Union to uniquely identify a ship or a coast radio station. Example:  8J211123456.",
                     Numeric09RegEx)
             },
             {
@@ -1830,35 +1829,35 @@ public static partial class EntityResolver
                 11020,
                 new EntityDescriptor(
                     "LICENSE IDENTIFIER",
-                    "License Identifier, being a globally unique identifier for a license or contract under which items are generated, submitted for processing and/or paid for, that is constructed by concatenating: - an ISO/IEC 15459 issuing agency code; - a license or contract number which accords with specifications of the issuing agency concerned; and that: - comprises only upper case alphabetic and/or numeric characters; - is unique (that is, is distinct from any other ISO/IEC 15459 compliant identifier) within the domain of the issuing agency6; - cannot be derived from any other ISO/IEC 15459 compliant identifier, issued under the same issuing agency, by the simple addition of characters to, or their removal from, its end.",
+                    "License Identifier, being a globally unique identifier for a license or contract under which items are generated, submitted for processing and/or paid for, that is constructed by concatenating:\n - an ISO/IEC 15459 issuing agency code;\n - a license or contract number which accords with specifications of the issuing agency concerned;\n and that:\n - comprises only upper case alphabetic and/or numeric characters;\n - is unique (that is, is distinct from any other ISO/IEC 15459 compliant identifier) within the domain of the issuing agency6;\n - cannot be derived from any other ISO/IEC 15459 compliant identifier, issued under the same issuing agency, by the simple addition of characters to, or their removal from, its end.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 11021,
                 new EntityDescriptor(
                     "CUSTOMER DATA",
-                    "Customer Data, being data that: - from a customer perspective, is related to or associated with an item or transaction, or to a batch or related items or transactions, and - comprises up to 35 printable characters and/or spaces, other than plus (+), drawn from the character set defined in ISO/IEC 646.",
+                    "Customer Data, being data that:\n - from a customer perspective, is related to or associated with an item or transaction, or to a batch or related items or transactions, and\n - comprises up to 35 printable characters and/or spaces, other than plus (+), drawn from the character set defined in ISO/IEC 646.",
                     InvariantNoPlus01UnboundPlusRegEx)
             },
             {
                 11022,
                 new EntityDescriptor(
                     "TRANSACTION AUTHENTICATION",
-                    "'22K' Transaction Authentication Information, being a value, constructed by concatenating: - an ISO/IEC 15459 issuing agency code; - a value which accords with specifications of the issuing agency concerned, that allows verification of the authenticity of the transaction concerned and, in particular, that the transaction was initiated by the party, claimed within the transaction to have been its initiator, by: - the recipient of a transaction, and/or - one or more of the parties involved in its handling or processing, and/or - a trusted third party.",
+                    "'22K' Transaction Authentication Information, being a value, constructed by concatenating:\n - an ISO/IEC 15459 issuing agency code;\n - a value which accords with specifications of the issuing agency concerned,\n that allows verification of the authenticity of the transaction concerned and, in particular, that the transaction was initiated by the party, claimed within the transaction to have been its initiator, by:\n - the recipient of a transaction, and/or\n - one or more of the parties involved in its handling or processing, and/or\n - a trusted third party.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 11025,
                 new EntityDescriptor(
                     "CARRIER TRANSPORT UNITS GROUPINGS",
-                    "Global Unique Identification of Groupings of Transport Units Assigned by the Carrier, defined as: Identification of a Party to a Transaction as defined assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 3 concatenated data elements:  IAC, followed by CIN, followed by the Bill of Lading or Waybill or Shipment Identification Code that is unique within the CIN holder's domain.",
+                    "Global Unique Identification of Groupings of Transport Units Assigned by the Carrier, defined as:\nIdentification of a Party to a Transaction as defined assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 3 concatenated data elements:  IAC, followed by CIN, followed by the Bill of Lading or Waybill or Shipment Identification Code that is unique within the CIN holder's domain.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 11026,
                 new EntityDescriptor(
                     "SHIPPER TRANSPORT UNITS GROUPINGS",
-                    "Global Unique Identification of Groupings of Transport Units Assigned by the Shipper, defined as: Identification of a Party to a Transaction assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 3 concatenated data elements:  IAC, followed by CIN, followed by the Bill of Lading or Waybill or Shipment Identification Code that is unique within the CIN holder's domain.",
+                    "Global Unique Identification of Groupings of Transport Units Assigned by the Shipper, defined as:\nIdentification of a Party to a Transaction assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 3 concatenated data elements:  IAC, followed by CIN, followed by the Bill of Lading or Waybill or Shipment Identification Code that is unique within the CIN holder's domain.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -1974,14 +1973,14 @@ public static partial class EntityResolver
                 12016,
                 new EntityDescriptor(
                     "TAG ACTIVATION LOCATION",
-                    "Tag Activation Location. English location name (character set:  0-9, A-Z <Space>).",
+                    "Tag Activation Location.\nEnglish location name (character set:  0-9, A-Z <Space>).",
                     AlphanumericSpace0160RegEx)
             },
             {
                 12017,
                 new EntityDescriptor(
                     "TAG DEACTIVATION LOCATION",
-                    "Tag Deactivation Location. English location name (character set:  0-9, A-Z <Space>).",
+                    "Tag Deactivation Location.\nEnglish location name (character set:  0-9, A-Z <Space>).",
                     AlphanumericSpace0160RegEx)
             },
             {
@@ -1989,7 +1988,7 @@ public static partial class EntityResolver
                     "FAO FISHING AREA",
 
                     // ReSharper disable once StringLiteralTypo
-                    "FAO fishing area code as defined by the Fisheries and Aquaculture Department of the FAO (http://www.fao.org. Search for Fishing Area Code sub-site). All characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed. Examples: 18L37.1.3 Western Mediterranean Sea, Sardinia; 18L47.B.1 Atlantic, Southeast, SEAFO Division, Namibia EEZ; 18L67    Pacific, Northeast.",
+                    "FAO fishing area code as defined by the Fisheries and Aquaculture Department of the FAO (http://www.fao.org. Search for Fishing Area Code sub-site).\nAll characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed.\nExamples:\n18L37.1.3 Western Mediterranean Sea, Sardinia;\n18L47.B.1 Atlantic, Southeast, SEAFO Division, Namibia EEZ;\n18L67    Pacific, Northeast.",
                     Invariant0212RegEx)
             },
             {
@@ -2039,7 +2038,7 @@ public static partial class EntityResolver
                     "LOCATION",
 
                     // ReSharper disable once StringLiteralTypo
-                    "'26L' Location Code, being a code identifying a location or geographic area, or an associated group of such locations or areas, that has relevance to a related transaction and that complies with one or the structures defined in (a) to (f) below: a) two upper case alphabetic character corresponding to the ISO 3166-1 two alpha country code of the country in which, or consisting of which, the location(s) or area(s) are situated; b) three upper case alphabetic characters corresponding to the IATA code of the airport or city in, close to, or consisting of which the location(s) or area(s) are situated; c) four or more characters of which the first three correspond to an ISO 3166-1 country code followed by a dash (-), with the balance being a postcode in the country concerned; d) four or more characters of which the first three correspond to an ISO 3166-1 country code followed by a dot (.), with the balance being an ISO 3166-2 country subdivision code in the country concerned; e) five upper case alphabetic characters corresponding to the UN/LOCODE of the area in, close to, or consisting of which, the location(s) or area(s) are situated; f) the concatenation, being not less than seven or more than 35 characters in length, of: - an ISO/IEC 15459 issuing agency code; - a location code, consisting of characters drawn from the set {A-Z; 0-9} which accords with specifications of the issuing agency concerned.",
+                    "'26L' Location Code, being a code identifying a location or geographic area, or an associated group of such locations or areas, that has relevance to a related transaction and that complies with one or the structures defined in (a) to (f) below:\na) two upper case alphabetic character corresponding to the ISO 3166-1 two alpha country code of the country in which, or consisting of which, the location(s) or area(s) are situated;\nb) three upper case alphabetic characters corresponding to the IATA code of the airport or city in, close to, or consisting of which the location(s) or area(s) are situated;\nc) four or more characters of which the first three correspond to an ISO 3166-1 country code followed by a dash (-), with the balance being a postcode in the country concerned;\nd) four or more characters of which the first three correspond to an ISO 3166-1 country code followed by a dot (.), with the balance being an ISO 3166-2 country subdivision code in the country concerned;\ne) five upper case alphabetic characters corresponding to the UN/LOCODE of the area in, close to, or consisting of which, the location(s) or area(s) are situated;\nf) the concatenation, being not less than seven or more than 35 characters in length, of:\n- an ISO/IEC 15459 issuing agency code;\n- a location code, consisting of characters drawn from the set {A-Z; 0-9} which accords with specifications of the issuing agency concerned.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2047,49 +2046,49 @@ public static partial class EntityResolver
                     "EVENT LOCATION",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Event Location UN/LOCODE. UN/LOCODE followed by a plus (+) character followed by one or more code values from EDIFACT Code List 3227  'Location function code qualifier', e.g., 7 Place of Final Delivery; 5 Port of Departure; 9 Port of Lading; 11 Port of Unlading; 13 Place of transhipment; 24 Port of Entry; 35 Exportation country; 88 Place of Carrier Receipt; 125 Foreign Port prior to Depart to U.S; 147 Stowage cell/position; 159 Place of delivery (to consignee); 248 Loading Location http://www.unece.org/cefact/locode/.",
+                    "Event Location UN/LOCODE.\nUN/LOCODE followed by a plus (+) character followed by one or more code values from EDIFACT Code List 3227  'Location function code qualifier', e.g.,\n7 Place of Final Delivery;\n5 Port of Departure;\n9 Port of Lading;\n11 Port of Unlading;\n13 Place of transhipment;\n24 Port of Entry;\n35 Exportation country;\n88 Place of Carrier Receipt;\n125 Foreign Port prior to Depart to U.S;\n147 Stowage cell/position;\n159 Place of delivery (to consignee);\n248 Loading Location\nhttp://www.unece.org/cefact/locode/.",
                     Alpha04Numeric0103RegEx)
             },
             {
                 12028,
                 new EntityDescriptor(
                     "NUMBER AND STREET",
-                    "Number and Street Address. Used in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L.",
+                    "Number and Street Address.\nUsed in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L.",
                     AlphanumericRegEx0135)
             },
             {
                 12029,
                 new EntityDescriptor(
                     "CITY",
-                    "City Name. Used in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L.",
+                    "City Name.\nUsed in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L.",
                     AlphanumericRegEx0135)
             },
             {
                 12030,
                 new EntityDescriptor(
                     "COUNTRY SUB ENTITY",
-                    "Country Sub-entity Details. Used in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L.",
+                    "Country Sub-entity Details.\nUsed in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L.",
                     AlphanumericRegEx0109)
             },
             {
                 12031,
                 new EntityDescriptor(
                     "POSTAL CODE",
-                    "Postal Code. Used in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L (If a '-' dash is used, it shall be expressly encoded).",
+                    "Postal Code.\nUsed in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L (If a '-' dash is used, it shall be expressly encoded).",
                     AlphanumericRegEx0411)
             },
             {
                 12032,
                 new EntityDescriptor(
                     "COUNTRY",
-                    "Country Code. ISO 3166-1 Alpha 2 Code  Used in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L.",
+                    "Country Code.\nISO 3166-1 Alpha 2 Code\nUsed in conjunction with H, 6H, 28L, 29L, 30L, 31L, 32L.",
                     Alpha02RegEx)
             },
             {
                 12033,
                 new EntityDescriptor(
                     "URL",
-                    "Uniform Resource Locator (URL). Includes all characters that form a URL, including header data such as e.g., http://. Character set as listed in RFC 1738.",
+                    "Uniform Resource Locator (URL).\nIncludes all characters that form a URL, including header data such as e.g., http://. Character set as listed in RFC 1738.",
                     UniformResourceLocatorRegEx)
             },
             {
@@ -2097,7 +2096,7 @@ public static partial class EntityResolver
                     "P2P URL",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Pointer to Process URL (P2P URL) for initiating a URL to carry all other data elements encoded in an AIDC media according to the following rule: Scan the code and initiate the URL starting with the P2P URL string, omitting DI 34L and ISO/IEC 15434 envelope syntax (prefix and postfix) and append all other data elements that have been scanned in same sequence as encoded in the media, including DIs and data element separators. Convert special characters in the appended data into RFC 1738 format (e.g., Group Separator 'GS' translated into RFC 1738 sequence %1D). Note that this does not apply to the P2P URL itself. Example: Encoded data string (using ISO/IEC 15434) [)>RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT results in the following URL with the transmitted data: HTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108. Note: data from the '05' format envelope was not incorporated in the URL since the 34L was encoded in the '06' format envelope.",
+                    "Pointer to Process URL (P2P URL) for initiating a URL to carry all other data elements encoded in an AIDC media according to the following rule: Scan the code and initiate the URL starting with the P2P URL string, omitting DI 34L and ISO/IEC 15434 envelope syntax (prefix and postfix) and append all other data elements that have been scanned in same sequence as encoded in the media, including DIs and data element separators. Convert special characters in the appended data into RFC 1738 format (e.g., Group Separator 'GS' translated into RFC 1738 sequence %1D). Note that this does not apply to the P2P URL itself.\nExample: Encoded data string (using ISO/IEC 15434) [)>RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nresults in the following URL with the transmitted data:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nNote: data from the '05' format envelope was not incorporated in the URL since the 34L was encoded in the '06' format envelope.",
                     UniformResourceLocatorRegEx)
             },
             {
@@ -2105,7 +2104,7 @@ public static partial class EntityResolver
                     "SITE APPROVAL",
 
                     // ReSharper disable once StringLiteralTypo
-                    "A government-assigned approval number of vessel / aquaculture site / farm / processor, starting with an ISO 31661 alpha-2 country code, followed by the approval number. All characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed. Example: 35LIECK0107EC = Country; Ireland. Vessel Name; FV Endurance DA31.",
+                    "A government-assigned approval number of vessel / aquaculture site / farm / processor, starting with an ISO 31661 alpha-2 country code, followed by the approval number.\nAll characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed.\nExample:\n35LIECK0107EC = Country; Ireland. Vessel Name; FV Endurance DA31.",
                     Alpha02Invariant0327RegEx)
             },
             {
@@ -2113,7 +2112,7 @@ public static partial class EntityResolver
                     "PRODUCER APPROVAL",
 
                     // ReSharper disable once StringLiteralTypo
-                    "A government-assigned approval number of producer or farm or first deboning / cutting hall, starting with an ISO 3166-1 alpha-2 country code, followed by the approval number. All characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed. Example: 36LIECK0107EC = Country; Ireland. Vessel Name; FV Endurance DA31.",
+                    "A government-assigned approval number of producer or farm or first deboning / cutting hall, starting with an ISO 3166-1 alpha-2 country code, followed by the approval number.\nAll characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed.\nExample:\n36LIECK0107EC = Country; Ireland. Vessel Name; FV Endurance DA31.",
                     Alpha02Alphanumeric0327RegEx)
             },
             {
@@ -2148,35 +2147,35 @@ public static partial class EntityResolver
                 13010,
                 new EntityDescriptor(
                     "FORM 2410",
-                    "Army Form 2410 data. Format is data value preceded by the block number of the form 2410. Field lengths and acceptable characters can be found at; http://www.apd.army.mil/pdffiles/p738_751.pdf.",
+                    "Army Form 2410 data. Format is data value preceded by the block number of the form 2410. Field lengths and acceptable characters can be found at;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Update: The URL has been modified to:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1408",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 13011,
                 new EntityDescriptor(
                     "FORM 2408",
-                    "Army Form 2408 data. Format is data value preceded by the block number of the form 2408. Field lengths and acceptable characters can be found at; http://www.apd.army.mil/pdffiles/p738_751.pdf.",
+                    "Army Form 2408 data. Format is data value preceded by the block number of the form 2408. Field lengths and acceptable characters can be found at;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Update: The URL has been modified to:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1400",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 13012,
                 new EntityDescriptor(
                     "FORM 2407",
-                    "Army Form 2407 data. Format is data value preceded by the block number of the form 2407. Field lengths and acceptable characters can be found at; http://www.apd.army.mil/pdffiles/p738_751.pdf.",
+                    "Army Form 2407 data. Format is data value preceded by the block number of the form 2407. Field lengths and acceptable characters can be found at;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Update: The URL has been modified to:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1391",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 13013,
                 new EntityDescriptor(
                     "FORM 95",
-                    "Air Force Form 95 data. Format is data value preceded by the block number of the form 95. Field lengths and acceptable characters can be found at; http://www.gsa.gov/portal/forms/download/116418.",
+                    "Air Force Form 95 data. Format is data value preceded by the block number of the form 95. Field lengths and acceptable characters can be found at;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 Update: The Name of the Form is “Air Force Technical Order Form 95 (AFTO Form 95).” Details about the Form are sourced in Air Force Technical Order (TO) 00-20-1. The URL for this TO has been modified to:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 13014,
                 new EntityDescriptor(
                     "FORM 4790",
-                    "Navy Form 4790 data. Format is data value preceded by the block number of the form 2410. Field lengths and acceptable characters can be found at; http://www.navair.navy.mil/logistics/4790/library/Chapter%201 5.pdf.",
+                    "Navy Form 4790 data. Format is data value preceded by the block number of the form 2410. Field lengths and acceptable characters can be found at;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%201 5.pdf.\n2020 Update: The URL is no longer valid.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2220,7 +2219,7 @@ public static partial class EntityResolver
                     "AIAG ENCODED",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Coding Structure and Formats in Accordance with AIAG Recommendations. The full Data Identifier is in the form 5Nxx where the 'xx' is found in the full code list that can be found at http://www.mhi.org/standards - see under 'MH10 Data Identifiers (Continuous Maintenance Version)'.",
+                    "Coding Structure and Formats in Accordance with AIAG Recommendations. The full Data Identifier is in the form 5Nxx where the 'xx' is found in the full code list that can be found at https://www.aiag.org/",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2230,21 +2229,21 @@ public static partial class EntityResolver
                     "MILSTRIP ENCODED",
 
                     // ReSharper disable once StringLiteralTypo
-                    "U.S. DOD Requisition and Issue Procedure Codes. The format is the appropriate MILSTRIP code followed by the data value associated with that code. (The full list of codes is available at;  http://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.",
+                    "U.S. DOD Requisition and Issue Procedure Codes. The format is the appropriate MILSTRIP code followed by the data value associated with that code. (The full list of codes is available at;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\n2020 Update: The URL has been modified to:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 14007,
                 new EntityDescriptor(
                     "DTR ENCODED",
-                    "U.S. Defense Transportation Regulation Codes. The format is the DTR code followed by the appropriate data value associated with that code. (The full list of codes is available at;  http://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.",
+                    "U.S. Defense Transportation Regulation Codes. The format is the DTR code followed by the appropriate data value associated with that code. (The full list of codes is available at;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\n2020 Update: The URL has been modified to:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 14008,
                 new EntityDescriptor(
                     "PRODUCTION ANIMAL IDENTIFICATION",
-                    "Production Animal Identification Codes. The format is the production animal code followed by the appropriate data value associated with that code. The Technical Report and the full list of Extended Data Elements (codes) is maintained at; http://www.aimglobal.org/store/view_product.asp?id=4926441  Extended Data Elements (Codes). http://www.aimglobal.org/store/view_product.asp?id=4926483 Technical Report.",
+                    "Production Animal Identification Codes. The format is the production animal code followed by the appropriate data value associated with that code. The Technical Report and the full list of Extended Data Elements (codes) is maintained at;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441  Extended Data Elements (Codes).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Technical Report.\n2020 Update: The URLs have been modified to:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2259,14 +2258,14 @@ public static partial class EntityResolver
                 14009,
                 new EntityDescriptor(
                     "PPN",
-                    "Pharmacy Product Number maintained by IFA (www.ifaffm.de) with the following elements; Data Identifier (DI), two-digit product registration agency code (PRAC), the product reference (PR), and the two PPN check digits (CC), in the form DI PRAC PR CC.",
+                    "Pharmacy Product Number maintained by IFA (www.ifaffm.de) with the following elements; Data Identifier (DI), two-digit product registration agency code (PRAC), the product reference (PR), and the two PPN check digits (CC), in the form DI PRAC PR CC.\nNOTE – space is added as a separator for visual clarity and is not part of the data.\nExamples:\n  • 9N1112345678CC\n  • 9N1312345MEDDEVICE1245678900CC",
                     AlphanumericRegEx0522)
             },
             {
                 14010,
                 new EntityDescriptor(
                     "IAC CIN ENCODED",
-                    "Data in the format and using semantics defined by the holder of a Company Identification Number (CIN) that has been issued by an Issuing Agency Code (IAC) in accordance with ISO/IEC 15459, defined as a sequence of concatenated data elements:  IAC, followed by CIN, followed by the separator character ':' (colon) followed by the data in the format and using semantics as defined by the CIN holder. NOTE: Only the data syntax rules (if any) as provided by the declared IAC+CIN within each DI '10N' data stream shall be applied to the data following DI 10N+IAC+CIN. NOTE: Due to an error in the assignment of DI '10N' (there is no central authority for data-definition nor maintenance), no new uses of DI '10N' should be implemented. The function of DI '10N' is established in Category 18, MISCELLANEOUS with DI '5R'. It is strongly recommended that existing applications that use DI '10N' migrate to DI 5R'.",
+                    "Data in the format and using semantics defined by the holder of a Company Identification Number (CIN) that has been issued by an Issuing Agency Code (IAC) in accordance with ISO/IEC 15459, defined as a sequence of concatenated data elements:  IAC, followed by CIN, followed by the separator character ':' (colon) followed by the data in the format and using semantics as defined by the CIN holder.\nNOTE: Only the data syntax rules (if any) as provided by the declared IAC+CIN within each DI '10N' data stream shall be applied to the data following DI 10N+IAC+CIN.\nNOTE: Due to an error in the assignment of DI '10N' (there is no central authority for data-definition nor maintenance), no new uses of DI '10N' should be implemented.\nThe function of DI '10N' is established in Category 18, MISCELLANEOUS with DI '5R'. It is strongly recommended that existing applications that use DI '10N' migrate to DI 5R'.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2274,21 +2273,21 @@ public static partial class EntityResolver
                     "RLA ENCODED",
 
                     // ReSharper disable once StringLiteralTypo
-                    "The Data construct is defined and controlled by the RLA, and is comprised of 2 segments: the field identifier code, immediately followed by the data as defined for that element according to the data dictionary of the RLA. It is essentially a catalog of fields with standardized content. The Field Identifiers are posted at http://rla.org/11ncodes. The use and structure of these codes are defined at:  http://rla.org/11nformat   Additional examples can be found at that site as well. DI '11N' shall never be encoded in a 2D or RFID tag together with any other DI elements. NOTE: Due to an error in the assignment of DI '11N' (the language which states: 'DI '11N' shall never be encoded in a 2D or RFID tag together with any other DI elements.' is not a valid statement), no new uses of DI '11N' should be implemented. The function of DI '11N' is established in DI '12N'. It is strongly recommended that existing applications that use DI '11N' migrate to DI '12N'.",
+                    "The Data construct is defined and controlled by the RLA, and is comprised of 2 segments: the field identifier code, immediately followed by the data as defined for that element according to the data dictionary of the RLA. It is essentially a catalog of fields with standardized content. The Field Identifiers are posted at http://rla.org/11ncodes. The use and structure of these codes are defined at:  http://rla.org/11nformat   Additional examples can be found at that site as well. DI '11N' shall never be encoded in a 2D or RFID tag together with any other DI elements.\nNOTE: Due to an error in the assignment of DI '11N' (the language which states: 'DI '11N' shall never be encoded in a 2D or RFID tag together with any other DI elements.' is not a valid statement), no new uses of DI '11N' should be implemented. The function of DI '11N' is established in DI '12N'. It is strongly recommended that existing applications that use DI '11N' migrate to DI '12N'.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 14012,
                 new EntityDescriptor(
                     "RLA ENCODED",
-                    "The Data construct is defined and controlled by the RLA, comprised of 2 segments: the field identifier (FI) code, immediately followed by the data as defined for that element according to the data dictionary of the RLA. It is essentially a catalog of fields with standardized content. The Field Identifiers are posted at http://rla.org/12ncodes  The use and structure of these codes are defined at:  http://rla.org/12nformat. Examples can be found at that site.",
+                    "The Data construct is defined and controlled by the RLA, comprised of 2 segments: the field identifier (FI) code, immediately followed by the data as defined for that element according to the data dictionary of the RLA. It is essentially a catalog of fields with standardized content. The Field Identifiers are posted at http://rla.org/12ncodes  The use and structure of these codes are defined at:  http://rla.org/12nformat. Examples can be found at that site.\n2020 Update: The URL has changed to:\nhttps://rla.org/page/sqrl-code-listing",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 14015,
                 new EntityDescriptor(
                     "CAICT INDUSTRIAL INTERNET ID",
-                    "Representing Industrial Internet Identifier Codes controlled and maintained by CAICT, used in the Industrial Internet Identifier Resolution System of China and constructed as <DI><IAC><TTC><STC><CIN><SN>, in the form an3+a3+n3+n3+n8+an1…33, where an3 is the Data Identifier (DI), a3 is the Issuing Agency Code (IAC = “VAA”), n3 is the Top-Tier Code (TTC), n3 is the Secondary-Tier Code (STC), n8 is the Company Identification Number (CIN) controlled and assigned by the Secondary-Tier platform and an1…33 is the Serial Number (SN) that is controlled and assigned by the holder of the CIN, and is unique within that CIN holders’ domain, using the characters 0 through 9, upper- and lower\u0002case A through Z, * (asterisk), + (plus sign), - (dash), . (period or full stop), / (forward slash), ( (left parenthesis), ) (right parenthesis), ! (exclamation mark).",
+                    "Representing Industrial Internet Identifier Codes controlled and maintained by CAICT, used in the Industrial Internet Identifier Resolution System of China and constructed as <DI><IAC><TTC><STC><CIN><SN>, in the form an3+a3+n3+n3+n8+an1…33, where an3 is the Data Identifier (DI), a3 is the Issuing Agency Code (IAC = “VAA”), n3 is the Top-Tier Code (TTC), n3 is the Secondary-Tier Code (STC), n8 is the Company Identification Number (CIN) controlled and assigned by the Secondary-Tier platform and an1…33 is the Serial Number (SN) that is controlled and assigned by the holder of the CIN, and is unique within that CIN holders’ domain, using the characters 0 through 9, upper- and lower\u0002case A through Z, * (asterisk), + (plus sign), - (dash), . (period or full stop), / (forward slash), ( (left parenthesis), ) (right parenthesis), ! (exclamation mark).\nExamples:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h",
                     Alpha03Numeric14Alphanumeric0133RegEx)
             },
             {
@@ -2316,14 +2315,14 @@ public static partial class EntityResolver
                 16003,
                 new EntityDescriptor(
                     "GS1 MFR/ITEM CODE",
-                    "Combined Manufacturer Identification Code/Item Code Under the 12/13-digit GS1 Formats, plus supplemental codes, if any.",
+                    "Combined Manufacturer Identification Code/Item Code Under the 12/13-digit GS1 Formats, plus supplemental codes, if any.\n2020 Update: GS1 recommends this DI no longer be used and that users of this DI migrate to GS1 data qualifiers (Application Identifiers) per ISO/IEC 15418 and ISO/IEC 15459-3.",
                     Numeric1314RegEx)
             },
             {
                 16004,
                 new EntityDescriptor(
                     "GS1 ITEM CODE PORTION",
-                    "Item Code Portion of GS1 Formats.",
+                    "Item Code Portion of GS1 Formats.\n2020 Update: GS1 recommends this DI no longer be used and that users of this DI migrate to GS1 data qualifiers (Application Identifiers) per ISO/IEC 15418 and ISO/IEC 15459-3.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2357,7 +2356,7 @@ public static partial class EntityResolver
                     "GS1 GTIN-14",
 
                     // ReSharper disable once StringLiteralTypo
-                    "14-digit GS1 format for GTIN-14 code structure.",
+                    "14-digit GS1 format for GTIN-14 code structure.\n2020 Update: GS1 recommends this DI no longer be used and that users of this DI migrate to GS1 data qualifiers (Application Identifiers) per ISO/IEC 15418 and ISO/IEC 15459-3.",
                     Numeric14RegEx)
             },
             {
@@ -2435,7 +2434,7 @@ public static partial class EntityResolver
                 16017,
                 new EntityDescriptor(
                     "GS1 SUPPLIER ID & ITEM CODE",
-                    "Combined GS1 Supplier Identification and Item Code Assigned By The Supplier.",
+                    "Combined GS1 Supplier Identification and Item Code Assigned By The Supplier.\n2020 Update: GS1 recommends this DI no longer be used and that users of this DI migrate to GS1 data qualifiers (Application Identifiers) per ISO/IEC 15418 and ISO/IEC 15459-3.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2509,7 +2508,7 @@ public static partial class EntityResolver
                     "HTS-6 CODE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Commodity HTS-6 Code; Using the format:  4012.11 or 4012.11.4000  (Decimal point is expressly encoded) The Harmonized System (HS) Classification is a 6-digit standardized numerical method of classifying traded products. HS numbers are used by customs authorities around the world to identify products for the application of duties and taxes. Additional digits are added to the HS number by some governments to further distinguish products in certain categories. In the United States, numbers used to classify exported products are called 'Schedule B' numbers. The U.S. Census Bureau administers the Schedule B system. Schedule B numbers, not HS numbers, must be provided on the Shippers' Export Declaration (SED). http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf    Import codes are administered by the U.S. International Trade Commission (USITC). http://hts.usitc.gov/.",
+                    "Commodity HTS-6 Code; Using the format:  4012.11 or 4012.11.4000  (Decimal point is expressly encoded) The Harmonized System (HS) Classification is a 6-digit standardized numerical method of classifying traded products. HS numbers are used by customs authorities around the world to identify products for the application of duties and taxes. Additional digits are added to the HS number by some governments to further distinguish products in certain categories. In the United States, numbers used to classify exported products are called 'Schedule B' numbers. The U.S. Census Bureau administers the Schedule B system. Schedule B numbers, not HS numbers, must be provided on the Shippers' Export Declaration (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nImport codes are administered by the U.S. International Trade Commission (USITC). http://hts.usitc.gov/\n2020 Update: the http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf link is no longer active. Consult the shipper for an SED form.",
                     Numeric0712RegEx)
             },
             {
@@ -2577,7 +2576,7 @@ public static partial class EntityResolver
                     "EXPORT CONTROLLED BY",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Export Controlled Item. Subject to export control and or restrictions as identified in the Wassenaar Arrangement. DI followed by the Alpha-2 ISO 3166 Country Code of the country that imposed the restriction followed by Wassenaar Code (http://www.wassenaar.org/controllists/index.html).",
+                    "Export Controlled Item. Subject to export control and or restrictions as identified in the Wassenaar Arrangement. DI followed by the Alpha-2 ISO 3166 Country Code of the country that imposed the restriction followed by Wassenaar Code (http://www.wassenaar.org/controllists/index.html).\n2020 Update: The URL has changed to https://www.wassenaar.org/control-lists/",
                     AlphanumericRegEx0309)
             },
             {
@@ -2585,28 +2584,28 @@ public static partial class EntityResolver
                     "MANUFACTURER ITEM ID",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Manufacturer-Assigned Item Identifier - comprising an item number assigned by the item manufacturer, followed by a plus (+) sign, followed - if required to uniquely identify the item within the manufacturer's product range - by a manufacturerassigned item version. Example 50PABC+6 would represent item number ABC, item version 6 Note: The item number shall always be followed by a plus sign, even if no item version is present. This is required to permit the unambiguous concatenation of manufacturerassigned item identifier with another data construct using the concatenation character plus (+). For example, the combination of a 50P manufacturer-assigned item identifier with no item version and a serial number (Data identifier S) on an entity might be encoded as 50PDEF++S1234.",
+                    "Manufacturer-Assigned Item Identifier - comprising an item number assigned by the item manufacturer, followed by a plus (+) sign, followed - if required to uniquely identify the item within the manufacturer's product range - by a manufacturerassigned item version.\nExample 50PABC+6 would represent item number ABC, item version 6\nNOTE - The item number shall always be followed by a plus sign, even if no item version is present. This is required to permit the unambiguous concatenation of manufacturerassigned item identifier with another data construct using the concatenation character plus (+). For example, the combination of a 50P manufacturer-assigned item identifier with no item version and a serial number (Data identifier S) on an entity might be encoded as 50PDEF++S1234.",
                     AlphanumericRegEx0335)
             },
             {
                 16051,
                 new EntityDescriptor(
                     "ITEM ID",
-                    "Globally Unique Item Identifier comprising the Identification of a party to a transaction assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, followed by a plus (+) sign, followed by the Manufacturer-assigned item identifier as defined with 50P Example: 51PJ4LBE0431863103+ABC+ would represent the item with item number ABC and no version number manufactured by the company with Belgian VAT number 0431863103.",
+                    "Globally Unique Item Identifier comprising the Identification of a party to a transaction assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, followed by a plus (+) sign, followed by the Manufacturer-assigned item identifier as defined with 50P\nExample: 51PJ4LBE0431863103+ABC+ would represent the item with item number ABC and no version number manufactured by the company with Belgian VAT number 0431863103.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 16052,
                 new EntityDescriptor(
                     "COLOR",
-                    "Color Code. Color of an item/object identified by a code or term mutually agreed upon between trading partners.",
+                    "Color Code.\nColor of an item/object identified by a code or term mutually agreed upon between trading partners.",
                     AlphanumericRegEx0150)
             },
             {
                 16053,
                 new EntityDescriptor(
                     "SPECIFIC MARINE EQUIPMENT",
-                    "Identifier for Specific Marine Equipment approved under the European Union Directive on Marine Equipment (2014/90/EU) and Implementing Regulation (EU) 2018/608.",
+                    "Identifier for Specific Marine Equipment approved under the European Union Directive on Marine Equipment (2014/90/EU) and Implementing Regulation (EU) 2018/608.\nFormat:\n• DI (an3);\n• Type of conformity assessment (CA) module(s) set out in Annex II to Directive 2014/90/EU used for the conformity assessment (a1);\n• Notified body (NB) identification number assigned by the Commission in accordance with point 3.1 of Annex IV to Directive 2014/90/EU (n4);\n• Certificate (an5…20)",
                     Alpha01Numeric04Alphanumeric0520RegEx)
             },
             {
@@ -2620,7 +2619,7 @@ public static partial class EntityResolver
                 16055,
                 new EntityDescriptor(
                     "DNV CERT REF",
-                    "DNV certification reference. Indicates that the data contains a reference to a product certificate/verification statement/report, issued by DNV. Data identifier shall be followed by letters “NV” and certificate number. When certificate Number has postfix, it should be included in the datastream by using the “-“ separator character. Revision indicators shall not be provided.",
+                    "DNV certification reference. Indicates that the data contains a reference to a product certificate/verification statement/report, issued by DNV. Data identifier shall be followed by letters “NV” and certificate number. When certificate Number has postfix, it should be included in the datastream by using the “-“ separator character. Revision indicators shall not be provided.\nExamples:\n1. 55PNVXXXXXXX, where 55P is the data identifier, XXXXXXX is DNV Certificate Number.\n2. 55PNVXXXXXXX-Y, where 55P is the data identifier, XXXXXXX-Y is DNV Certificate Number with postfix Y.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2681,35 +2680,35 @@ public static partial class EntityResolver
                 17008,
                 new EntityDescriptor(
                     "CONTAINER RATED WEIGHT",
-                    "Manufacturer-assigned weight carrying capability of the container. Assigned at time of manufacture. Unit of measure is kg.",
+                    "Container Rated Weight\nManufacturer-assigned weight carrying capability of the container. Assigned at time of manufacture. Unit of measure is kg.",
                     Numeric0406RegEx)
             },
             {
                 17009,
                 new EntityDescriptor(
                     "PIECE WEIGHT",
-                    "Weight of a single item.",
+                    "Piece Weight\nWeight of a single item.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 17011,
                 new EntityDescriptor(
                     "TARE WEIGHT",
-                    "Weight of an empty container. Container body weight. Manufacturer-assigned weight of the empty container. Assigned at time of manufacture. Unit of measure is kg (Tare weight).",
+                    "Tare Weight: weight of an empty container.\nContainer body weight.\nManufacturer-assigned weight of the empty container. Assigned at time of manufacture. Unit of measure is kg (Tare weight).",
                     Numeric0406RegEx)
             },
             {
                 17012,
                 new EntityDescriptor(
                     "MONETARY VALUE",
-                    "Monetary Value established by the Supplier in the format of: the value followed by an ISO 4217 data element code for representing unit of value of currencies and funds (e.g., 12Q2.50USD) (2.50 Monetary Value in USA Dollars). Significance mutually defined. Entry Value: Value followed by an ISO 4217 data element code for representing unit of value of currencies and funds (e.g., 12Q2.50USD) (2.50 Monetary Value in USA Dollars).",
+                    "Monetary Value established by the Supplier in the format of: the value followed by an ISO 4217 data element code for representing unit of value of currencies and funds (e.g., 12Q2.50USD) (2.50 Monetary Value in USA Dollars) significance mutually defined.\nEntry Value;\nValue followed by an ISO 4217 data element code for representing unit of value of currencies and funds (e.g., 12Q2.50USD) (2.50 Monetary Value in USA Dollars)",
                     Numeric0110Alphanumeric03RegEx)
             },
             {
                 17013,
                 new EntityDescriptor(
                     "PIECE OF PIECES",
-                    "# of # ('this is the nth piece of x pieces in this shipment'). Presented in the format 'n/x', where the '/' (slash) is used as a delimiter between two values.",
+                    "# of # ('this is the nth piece of x pieces in this shipment').\nPresented in the format 'n/x', where the '/' (slash) is used as a delimiter between two values.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2808,28 +2807,28 @@ public static partial class EntityResolver
                 17027,
                 new EntityDescriptor(
                     "SINGLE PRODUCT NET PRICE",
-                    "Single Product Price Value, Net, '.' (dot) used as decimal point (e.g. 27Q1000.5 for the price value of 1000.50). Structure:  an3+an1...20   <DI><price value>. Character set:  0 to 9, dot (ISO 646 ASCII value decimal 46, hexadecimal 2E). Example of encoding using a net price value of 1000: 27Q1000. Example of encoding using a net price value of 1000.50: 27Q1000.5. NOTE: If currency is required it can be taken from another data element used in same code, e.g. 12Q.",
+                    "Single Product Price Value, Net, '.' (dot) used as decimal point (e.g. 27Q1000.5 for the price value of 1000.50).\nStructure:  an3+an1...20\n   <DI><price value>.\nCharacter set:  0 to 9, dot (ISO 646 ASCII value decimal 46, hexadecimal 2E).\nExample of encoding using a net price value of 1000:\n27Q1000.\nExample of encoding using a net price value of 1000.50:\n27Q1000.5.\nNOTE - If currency is required it can be taken from another data element used in same code, e.g. 12Q.",
                     NumericDot0120RegEx)
             },
             {
                 17028,
                 new EntityDescriptor(
                     "SINGLE PRICE CHARGE VALUE FOR POSTAGE AND PACKAGING",
-                    "Single Price Charge Value For Postage And Packaging, '.' (dot) represents the position of a comma (e.g. 30Q100.50 for the value of 100,50). Structure:  an3+an1...10   <DI><price value>. Character set:  0 to 9, dot. Example of encoding using postage & packing value of 100: 30Q100. Example of encoding using postage & packing value of 100,50: 30Q100.50. NOTE: If currency is required it can be taken from another data element used in same code, e.g. 12Q.",
+                    "Single Price Charge Value For Postage And Packaging, '.' (dot) represents the position of a comma (e.g. 30Q100.50 for the value of 100,50).\nStructure:  an3+an1...10\n   <DI><price value>.\nCharacter set:  0 to 9, dot.\nExample of encoding using postage & packing value of 100:\n30Q100.\nExample of encoding using postage & packing value of 100,50:\n30Q100.50.\nNOTE - If currency is required it can be taken from another data element used in same code, e.g. 12Q.",
                     NumericDot0110RegEx)
             },
             {
                 17029,
                 new EntityDescriptor(
                     "DISCOUNT PERCENTAGE",
-                    "Discount Percentage, '.' (dot) represents the position of a comma (e.g. 31Q8.5 for a discount value of 8,5%). Structure:  an3+n1...6 (12.456)   <DI><discount percentage (%)>. Character set:  0 to 9, dot Example of encoding using discount percentage of 10%: 31Q10. Example of encoding using discount percentage of 8,5%: 31Q8.5.",
+                    "Discount Percentage, '.' (dot) represents the position of a comma (e.g. 31Q8.5 for a discount value of 8,5%).\nStructure:  an3+n1...6 (12.456)\n   <DI><discount percentage (%)>.\nCharacter set:  0 to 9, dot\nExample of encoding using discount percentage of 10%:\n31Q10.\nExample of encoding using discount percentage of 8,5%:\n31Q8.5.",
                     NumericDot0106RegEx)
             },
             {
                 17030,
                 new EntityDescriptor(
                     "VAT PERCENTAGE",
-                    "VAT Percentage, '.' (dot) represents the position of a comma (e.g. 27Q8.5 for the VAT value of 8.5%). Structure:  an3+an1...5 (12.45)    <DI><VAT percentage (%)>. Character set:  0 to 9, dot. Example of encoding using VAT percentage of 19%: 27Q19. Example of encoding using VAT percentage of 8,5%: 27Q8.5.",
+                    "VAT Percentage, '.' (dot) represents the position of a comma (e.g. 27Q8.5 for the VAT value of 8.5%).\nStructure:  an3+an1...5 (12.45)\n    <DI><VAT percentage (%)>.\nCharacter set:  0 to 9, dot.\nExample of encoding using VAT percentage of 10%:\n27Q19.\nExample of encoding using VAT percentage of 8,5%:\n27Q8.5.",
                     NumericDot0105RegEx)
             },
             {
@@ -2837,7 +2836,7 @@ public static partial class EntityResolver
                     "CURRENCY",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Currency, ISO 4217 currency code. Structure:  an3+an3  <DI><Currency, e.g. EUR>. Character set:  A-Z, 0 to 9. Example of encoding using ISO alphabetic code of US Dollar:   31QUSD. Example of encoding using ISO alphabetic code of EURO: 31QEUR. Example of encoding using ISO numeric code of EURO: 31Q978.",
+                    "Currency, ISO 4217 currency code.\nStructure:  an3+an3\n  <DI><Currency, e.g. EUR>.\nCharacter set:  A-Z, 0 to 9.\nExample of encoding using ISO alphabetic code of US Dollar:\n31QUSD.\nExample of encoding using ISO alphabetic code of EURO:\n31QEUR.\nExample of encoding using ISO numeric code of EURO:\n31Q978.",
                     Alpha03Numeric03RegEx)
             },
             {
@@ -2845,7 +2844,7 @@ public static partial class EntityResolver
                     "LOINC CODE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Clinical term code as defined with the clinical nomenclature: “The international standard for identifying health measurements, observations, and documents – LOINC” (https://loinc.org), in the following sequence: <DI><LOINC Code><Plus Sign><Value>. The unit and format of the Value is defined by the LOINC Code.",
+                    "Clinical term code as defined with the clinical nomenclature: “The international standard for identifying health measurements, observations, and documents – LOINC” (https://loinc.org), in the following sequence: <DI><LOINC Code><Plus Sign><Value>. The unit and format of the Value is defined by the LOINC Code.\nExample: 32Q28903-3+60 = LOINC Code 28903-3: Left contact lens Axis (degrees); with Value = 60.",
                     AlphanumericRegEx0335)
             },
             {
@@ -2874,7 +2873,7 @@ public static partial class EntityResolver
                 18005,
                 new EntityDescriptor(
                     "IAC CIN DATE",
-                    "Data in the format and using semantics defined by the holder of a Company Identification Number (CIN) that has been issued by an Issuing Agency Code (IAC) in accordance with ISO/IEC 15459, defined as a sequence of concatenated data elements:  IAC, followed by CIN, followed by the separator character ':' (colon) followed by the data in the format and using semantics as defined by the CIN holder. NOTE: Only the data syntax rules (if any) as provided by the declared IAC+CIN within each DI '5R' data stream shall be applied to the data following DI 5R+IAC+CIN.4.",
+                    "Data in the format and using semantics defined by the holder of a Company Identification Number (CIN) that has been issued by an Issuing Agency Code (IAC) in accordance with ISO/IEC 15459, defined as a sequence of concatenated data elements:  IAC, followed by CIN, followed by the separator character ':' (colon) followed by the data in the format and using semantics as defined by the CIN holder.\nNOTE - Only the data syntax rules (if any) as provided by the declared IAC+CIN within each DI '5R' data stream shall be applied to the data following DI 5R+IAC+CIN.4.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2882,7 +2881,7 @@ public static partial class EntityResolver
                     "SIGNATURE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "ISO/IEC 20248 digital signature data construct. If the underlying data carrier encoding is 7 bits, then only the ISO/IEC 20248 raw format may be used. Example with an URL format:  <6R><https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO>  Example with a raw format:  <6R><Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO>  An ISO/IEC 20248 data structure contains a digital signature which is used to verify the specified data elements of the message of data elements. The value of 6R, as the first parameter, and the data elements to be verified (stripped from all non-printable characters), as the second parameter, is passed to the ISO/IEC 20248 DecoderVerifier - which will return the verification result: ACCEPT, REJECT or ERROR(error code), and the JSON object of decoded ISO/IEC 20248 additional fields. The ISO/IEC 20248 data structure may contain additional fields and instructions to decode and verify one or more messages of data elements. These instructions will be processed by the ISO/IEC 20248 DecoderVerifier.",
+                    "ISO/IEC 20248 digital signature data construct. If the underlying data carrier encoding is 7 bits, then only the ISO/IEC 20248 raw format may be used.\nExample with an URL format:\n<6R><https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO>\nExample with a raw format:\n<6R><Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO>\nAn ISO/IEC 20248 data structure contains a digital signature which is used to verify the specified data elements of the message of data elements. The value of 6R, as the first parameter, and the data elements to be verified (stripped from all non-printable characters), as the second parameter, is passed to the ISO/IEC 20248 DecoderVerifier - which will return the verification result: ACCEPT, REJECT or ERROR(error code), and the JSON object of decoded ISO/IEC 20248 additional fields. The ISO/IEC 20248 data structure may contain additional fields and instructions to decode and verify one or more messages of data elements. These instructions will be processed by the ISO/IEC 20248 DecoderVerifier.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -2892,7 +2891,7 @@ public static partial class EntityResolver
                     "ASFIS CODE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Aquatic Sciences and Fisheries Information System (ASFIS) 'Inter-agency 3-alpha species code', maintained by the Food and Agriculture Organisation of the United Nations (www.fao.org, then search for 'ASFIS'). Examples; 7RMUC = Mud carp; 7RPCD = Australian freshwater herring; 7RWSH = Great white shark.",
+                    "Aquatic Sciences and Fisheries Information System (ASFIS) 'Inter-agency 3-alpha species code', maintained by the Food and Agriculture Organisation of the United Nations (www.fao.org, then search for 'ASFIS').\nExamples;\n7RMUC = Mud carp;\n7RPCD = Australian freshwater herring;\n7RWSH = Great white shark.",
                     AlphanumericRegEx0103)
             },
             {
@@ -2900,14 +2899,14 @@ public static partial class EntityResolver
                     "FAO CODE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Food and Agricultural Organisation (FAO) International Standard Classification of Fishing Gears (ISSCFG) code. (www.fao.org)  All characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed. Examples: 8R02.1.0 = Beach seines; 8R03.1.5 = Shrimp trawls; 8R05.1.0 = Portable lift net.",
+                    "Food and Agricultural Organisation (FAO) International Standard Classification of Fishing Gears (ISSCFG) code. (www.fao.org)\nAll characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed.\nExamples:\n8R02.1.0 = Beach seines;\n8R03.1.5 = Shrimp trawls;\n8R05.1.0 = Portable lift net.",
                     AlphanumericRegEx0110)
             },
             {
                 18009,
                 new EntityDescriptor(
                     "FAO PRODUCTION METHOD",
-                    "Production method for fish and seafood as specified by the Fisheries and Aquaculture Department of the Food and Agricultural Organisation (FAO) of the United Nations, according to EU Regulation 1379/2013. (www.fao.org). All characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed. Examples; 9R01 = Caught at sea; 9R02 = Caught in fresh water; 9R03 = Farmed.",
+                    "Production method for fish and seafood as specified by the Fisheries and Aquaculture Department of the Food and Agricultural Organisation (FAO) of the United Nations, according to EU Regulation 1379/2013. (www.fao.org).\nAll characters of the GS1 General Specification-defined subset of ISO/IEC 646 are allowed.\nExamples;\n9R01 = Caught at sea;\n9R02 = Caught in fresh water;\n9R03 = Farmed.",
                     AlphanumericRegEx2)
             },
             {
@@ -2971,7 +2970,7 @@ public static partial class EntityResolver
                     "SUPPLIER ID",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Supplier ID/Unique Container ID presented in the data format specified by the GS1 SSCC-18",
+                    "Supplier ID/Unique Container ID presented in the data format specified by the GS1 SSCC-18\n2020 Update: Refer to the GS1 General Specifications pertaining to the most recent version of SSCC.",
                     Numeric18RegEx)
             },
             {
@@ -3034,7 +3033,7 @@ public static partial class EntityResolver
                 19017,
                 new EntityDescriptor(
                     "GS1 SUPPLIER AND UNIQUE PACKAGE IDENTIFICATION",
-                    "Combined 6-digit GS1 Supplier Identification and Unique Package Identification Assigned by the Supplier",
+                    "Combined 6-digit GS1 Supplier Identification and Unique Package Identification Assigned by the Supplier\n2020 Update: GS1 recommends this DI no longer be used and that users of this DI migrate to GS1 data qualifiers (Application Identifiers) per ISO/IEC 15418 and ISO/IEC 15459-3.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -3098,14 +3097,14 @@ public static partial class EntityResolver
                 19026,
                 new EntityDescriptor(
                     "READER ID",
-                    "Equipment Identifier, being a globally unique identifier for a device, an item of equipment or instance of a computer application used in the production, transport, processing or other handling of items, that is constructed by concatenating: - an ISO/IEC 15459 issuing agency code; - an equipment number which accords with specifications of the issuing agency concerned; and that: - comprises only upper case alphabetic and/or numeric characters; - is unique (that is, is distinct from any other ISO/IEC 15459 compliant identifier) within the domain of the issuing agency; - cannot be from any other ISO/IEC 15459 compliant identifier, issued under the same issuing agency, by the simple addition of characters to, or their removal from, it end. Reader ID Equipment identifier, being a globally unique identifier for a device, an item of equipment or instance of a computer application used in the production, transport, processing or other handling of items",
+                    "Equipment Identifier, being a globally unique identifier for a device, an item of equipment or instance of a computer application used in the production, transport, processing or other handling of items, that is constructed by concatenating:\n - an ISO/IEC 15459 issuing agency code;\n - an equipment number which accords with specifications of the issuing agency concerned; and that:\n - comprises only upper case alphabetic and/or numeric characters;\n - is unique (that is, is distinct from any other ISO/IEC 15459 compliant identifier) within the domain of the issuing agency;\n - cannot be from any other ISO/IEC 15459 compliant identifier, issued under the same issuing agency, by the simple addition of characters to, or their removal from, it end.\nReader ID.\nEquipment identifier, being a globally unique identifier for a device, an item of equipment or instance of a computer application used in the production, transport, processing or other handling of items.",
                     AlphanumericRegEx0135)
             },
             {
                 19027,
                 new EntityDescriptor(
                     "ITEM NUMBER WITHIN BATCH",
-                    "Item Number Within Batch, being a string of numeric digits: - that uniquely distinguishes an item, within an identifiable batch of related items, from all other items in the same batch; - whose length is the same for all items within the batch concerned.",
+                    "Item Number Within Batch, being a string of numeric digits:\n - that uniquely distinguishes an item, within an identifiable batch of related items, from all other items in the same batch;\n - whose length is the same for all items within the batch concerned.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -3185,7 +3184,7 @@ public static partial class EntityResolver
                     "ICCID",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Integrated Circuit Card Identifier (ICCID) in accordance with ITU-T Recommendation E.118 and ETSI Recommendation GSM 11.11; a maximum of 20 digits consisting of Issuer identification number (IIN; maximum of 7 digits), Individual account identification (variable; length determined by IIN, but the same length within individual IINs), Check digit (single digit calculated using Luhn algorithm http://en.wikipedia.org/wiki/Luhn_algorithm). 43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = account identification, c = check digit)",
+                    "Integrated Circuit Card Identifier (ICCID) in accordance with ITU-T Recommendation E.118 and ETSI Recommendation GSM 11.11; a maximum of 20 digits consisting of Issuer identification number (IIN; maximum of 7 digits), Individual account identification (variable; length determined by IIN, but the same length within individual IINs), Check digit (single digit calculated using Luhn algorithm\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = account identification, c = check digit)",
                     Numeric1426RegEx)
             },
             {
@@ -3228,7 +3227,7 @@ public static partial class EntityResolver
                     "EPC NUMBER",
 
                     // ReSharper disable once StringLiteralTypo
-                    "EPC number (Typically Serialized Global Trade Identification Number - SGTIN)",
+                    "EPC number (Typically Serialized Global Trade Identification Number - SGTIN)\n2020 Update: The term “EPC number” is no longer used by GS1. Refer to GS1 General Specifications and the Tag Data Standard for current terminology",
                     AlphanumericRegEx1626)
             },
             {
@@ -3305,14 +3304,14 @@ public static partial class EntityResolver
                 20026,
                 new EntityDescriptor(
                     "BATCH IDENTIFIER",
-                    "Batch Identifier comprising the concatenation of either: - a data identifier 26S mail processing equipment identifier, or - a data identifier 20K license identifier, or - a data identifier 18V party identifier that: - is distinct from any other ISO/IEC 15459 compliant identifier within the domain of the issuing agency concerned; - cannot be derived from another party identifier or any other ISO/IEC 15459 compliant identifier, issued under the same issuing agency, by the simple addition of characters to, or their removal from, its end; with a data identifier 27T batch number, the two being separated by a dash (-) character.",
+                    "Batch Identifier comprising the concatenation of either:\n - a data identifier 26S mail processing equipment identifier, or\n - a data identifier 20K license identifier, or\n - a data identifier 18V party identifier that:\n - is distinct from any other ISO/IEC 15459 compliant identifier within the domain of the issuing agency concerned;\n - cannot be derived from another party identifier or any other ISO/IEC 15459 compliant identifier, issued under the same issuing agency, by the simple addition of characters to, or their removal from, its end;\n with a data identifier 27T batch number, the two being separated by a dash (-) character.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 20027,
                 new EntityDescriptor(
                     "BATCH NUMBER",
-                    "Batch Number, issued under the control of an identified party or unit of processing equipment, or under the provisions of an identified license, that: - uniquely distinguishes one batch of related items from all other batches to which a batch number is assigned by the party or equipment, or under the license, concerned; - comprises a string of maximum length 10 characters, of which the first (numeric) character indicates the number of following characters, each of which is taken from the set {0-9; A-Z}.",
+                    "Batch Number, issued under the control of an identified party or unit of processing equipment, or under the provisions of an identified license, that:\n - uniquely distinguishes one batch of related items from all other batches to which a batch number is assigned by the party or equipment, or under the license, concerned;\n - comprises a string of maximum length 10 characters, of which the first (numeric) character indicates the number of following characters, each of which is taken from the set {0-9; A-Z}.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -3383,21 +3382,21 @@ public static partial class EntityResolver
                     "UPU LOCATION CODE",
 
                     // ReSharper disable once StringLiteralTypo
-                    "UPU Location Code, being a code identifying a location or geographic area, or an associated group of such locations or areas, that has relevance to a related transaction and that complies with one of the structures defined in a) to g) below: a) two upper case alphabetic characters corresponding to the ISO 3166-1 two alpha country code of the country in which, or consisting of which, the location(s) or area(s) are situated; b) three upper case alphabetic characters corresponding to the IATA code of the airport or city in, close to, or consisting of which the location(s) or area(s) are situated; c) four or more characters of which the first three correspond to an ISO 3166-1 country code followed by a dash (-), with the balance being a postcode in the country concerned; d) four or more characters of which the first three correspond to an ISO 3166-1 country code followed by a dot (.), with the balance being an ISO 3166-2 country subdivision code in the country concerned; e) five upper case alphabetic characters corresponding to the UN/LOCODE of the area in, close to, or consisting of which, the location(s) or area(s) are situated; f) six upper case alphanumeric characters corresponding to a UPU IMPC code allocated in accordance with UPU standard S34; g) the concatenation, being not less than seven nor more than 25 characters in length, of: - an issuer code allocated in accordance with UPU standards S31; - a location code, consisting of characters drawn from the set {A-Z; 0-9} which accords with specifications of the issuer concerned.",
+                    "UPU Location Code, being a code identifying a location or geographic area, or an associated group of such locations or areas, that has relevance to a related transaction and that complies with one of the structures defined in a) to g) below:\na) two upper case alphabetic characters corresponding to the ISO 3166-1 two alpha country code of the country in which, or consisting of which, the location(s) or area(s) are situated;\nb) three upper case alphabetic characters corresponding to the IATA code of the airport or city in, close to, or consisting of which the location(s) or area(s) are situated;\nc) four or more characters of which the first three correspond to an ISO 3166-1 country code followed by a dash (-), with the balance being a postcode in the country concerned;\nd) four or more characters of which the first three correspond to an ISO 3166-1 country code followed by a dot (.), with the balance being an ISO 3166-2 country subdivision code in the country concerned;\ne) five upper case alphabetic characters corresponding to the UN/LOCODE of the area in, close to, or consisting of which, the location(s) or area(s) are situated;\nf) six upper case alphanumeric characters corresponding to a UPU IMPC code allocated in accordance with UPU standard S34;\ng) the concatenation, being not less than seven nor more than 25 characters in length, of:\n - an issuer code allocated in accordance with UPU standards S31;\n - a location code, consisting of characters drawn from the set {A-Z; 0-9} which accords with specifications of the issuer concerned.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 21018,
                 new EntityDescriptor(
                     "QUALIFIED UPU LOCATION CODE",
-                    "Qualified UPU Location Code, concatenation of: - a location category drawn from UPU code list 139; - a data identifier 17U UPU location code.",
+                    "Qualified UPU Location Code, concatenation of:\n - a location category drawn from UPU code list 139;\n - a data identifier 17U UPU location code.",
                     Alphanumeric01UnboundRegEx)
             },
             {
                 21019,
                 new EntityDescriptor(
                     "LICENSE PLATE WITH SERVICE DATA AND LOCATION CODE",
-                    "License Plate with Service Data and Location Code is a compound data construct, compliant with the specification in UPU standard S25, which includes specification of: - an ISO/IEC 15459-compliant item identifier; - a data identifier 5U compliant specification of the service to be provided in respect of the item; - a data identifier 17U compliant UPU location code or a data identifier 18U compliant qualified UPU location code. Note:  For further details, please refer to UPU standard S25. The distinction between a simple UPU location code (DI 17U) and a qualified UPU location code (DI 18U) can be determined from the first character. If this is numeric, 18U applies; if it is alphabetic, 17U applies.",
+                    "License Plate with Service Data and Location Code is a compound data construct, compliant with the specification in UPU standard S25, which includes specification of:\n - an ISO/IEC 15459-compliant item identifier;\n - a data identifier 5U compliant specification of the service to be provided in respect of the item;\n - a data identifier 17U compliant UPU location code or a data identifier 18U compliant qualified UPU location code.\n Note - For further details, please refer to UPU standard S25. The distinction between a simple UPU location code (DI 17U) and a qualified UPU location code (DI 18U) can be determined from the first character. If this is numeric, 18U applies; if it is alphabetic, 17U applies.",
                     Alphanumeric01UnboundRegEx)
             },
             {
@@ -3425,14 +3424,14 @@ public static partial class EntityResolver
                 22002,
                 new EntityDescriptor(
                     "U.P.C. COMPANY PREFIX",
-                    "U.P.C. Company Prefix.",
+                    "U.P.C. Company Prefix.\n2020 Update: GS1 recommends this DI no longer be used and that users of this DI migrate to GS1 data qualifiers (Application Identifiers) per ISO/IEC 15418 and ISO/IEC 15459-3.\nAccording to GS1, the term “U.P.C.” is no longer used and the metadata (an2+n8) is no longer correct.GS1 recommends this DI not be used for future applications.",
                     Numeric09RegEx)
             },
             {
                 22003,
                 new EntityDescriptor(
                     "GS1 COMPANY PREFIX", 
-                    "GS1 Company Prefix.", 
+                    "GS1 Company Prefix.\n2020 Update: GS1 recommends this DI no longer be used and that users of this DI migrate to GS1 data qualifiers (Application Identifiers) per ISO/IEC 15418 and ISO/IEC 15459-3.\nAccording to GS1, the metadata (an2+n9) is no longer correct.GS1 recommends this DI not be used for future applications.", 
                     Numeric09RegEx)
             },
             {
@@ -3481,7 +3480,7 @@ public static partial class EntityResolver
                 22010,
                 new EntityDescriptor(
                     "MANUFACTURER ID",
-                    "Manufacturer ID  NOTE: See Appendix 2, CBP 7501 Instructions.",
+                    "Manufacturer ID\nNOTE - See Appendix 2, CBP 7501 Instructions.",
                     AlphanumericRegEx1015)
             },
             {
@@ -3575,7 +3574,7 @@ public static partial class EntityResolver
                     "CARRIER SCAC",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Carrier SCAC Standard Carrier Alpha Code - The National Motor Freight Traffic Association, Inc., (NMFTA) assigns SCACs for all companies except those codes used for identification of freight containers not operating exclusively in North America, intermodal chassis and trailers, non-railroad owned rail cars, and railroads. http://www.nmfta.org/Pages/welcome.aspx  Companies seeking identification codes for freight containers not operating in North America should contact the Bureau International des Containers, 38, rue des Blancs Manteaux, F75004 Paris, France, email:  bic@bic-code.org, web www.biccode.org. Railroads and owners of intermodal chassis, trailers and non-railroad owned rail cars should contact Railinc Customer Service, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, email: private.marks@railinc.com.",
+                    "Carrier SCAC.\nStandard Carrier Alpha Code - The National Motor Freight Traffic Association, Inc., (NMFTA) assigns SCACs for all companies except those codes used for identification of freight containers not operating exclusively in North America, intermodal chassis and trailers, non-railroad owned rail cars, and railroads. http://www.nmfta.org/Pages/welcome.aspx\nCompanies seeking identification codes for freight containers not operating in North America should contact the Bureau International des Containers, 38, rue des Blancs Manteaux, F75004 Paris, France, email:  bic@bic-code.org, web www.biccode.org. Railroads and owners of intermodal chassis, trailers and non-railroad owned rail cars should contact Railinc Customer Service, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, email: private.marks@railinc.com.",
                     AlphanumericRegEx4)
             },
             {
@@ -3583,14 +3582,14 @@ public static partial class EntityResolver
                     "SUPPLIER VAT NUMBER",
 
                     // ReSharper disable once StringLiteralTypo
-                    "Government-assigned Value Added Tax identification number identifying supplier, starting with an ISO 3166-1 alpha-2 country code (except for Greece, which uses the ISO 639-1 language code EL), followed by the government-assigned VAT number. Example: 23VIE6388047V  assigned to Google IrelanD.",
+                    "Government-assigned Value Added Tax identification number identifying supplier, starting with an ISO 3166-1 alpha-2 country code (except for Greece, which uses the ISO 639-1 language code EL), followed by the government-assigned VAT number.\nExample:\n23VIE6388047V  assigned to Google IrelanD.",
                     Alpha02Alphanumeric0318RegEx)
             },
             {
                 22024,
                 new EntityDescriptor(
                     "CUSTOMER VAT NUMBER",
-                    "Government-assigned Value Added Tax identification number identifying customer, starting with an ISO 3166-1 alpha-2 country code (except for Greece, which uses the ISO 639-1 language code EL), followed by the government-assigned VAT number. Example: 24VIE6388047V  assigned to Google Ireland.",
+                    "Government-assigned Value Added Tax identification number identifying customer, starting with an ISO 3166-1 alpha-2 country code (except for Greece, which uses the ISO 639-1 language code EL), followed by the government-assigned VAT number.\nExample:\n24VIE6388047V  assigned to Google Ireland.",
                     Alpha02Alphanumeric0318RegEx)
             },
             {
