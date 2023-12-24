@@ -4,5 +4,3 @@
 // a specific target and scoped to a namespace, type, member, etc.
 
 using System.Diagnostics.CodeAnalysis;
-
-[assembly: SuppressMessage("CodeQuality", "IDE0079:Remove unnecessary suppression", Justification = "<Pending>", Scope = "member", Target = "~M:Solidsoft.Reply.Parsers.AnsiMhDi.AscResolvedDataIdentifier.#ctor(Solidsoft.Reply.Parsers.Common.ParserException,System.Int32,System.String)")]

@@ -21,6 +21,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 [assembly: CLSCompliant(true)]
+
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 
 using Common;

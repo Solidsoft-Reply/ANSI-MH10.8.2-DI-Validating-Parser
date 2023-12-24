@@ -25,6 +25,7 @@
 		$(PackageReleaseNotes)
 	</Description>
 	<Version>1.0.0</Version>
+	<NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
