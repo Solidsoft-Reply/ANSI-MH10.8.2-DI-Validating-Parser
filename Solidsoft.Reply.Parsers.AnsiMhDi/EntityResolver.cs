@@ -198,7 +198,7 @@ public static partial class EntityResolver
     private static partial Regex Gs1Function1RegEx();
 
     /// <summary>
-    ///    Returns a regular expression for the the message header preamble defined by ISO/IEC 15434 ",
+    ///    Returns a regular expression for the message header preamble defined by ISO/IEC 15434 ",
     /// </summary>
     /// <returns>A regular expression.</returns>
     [GeneratedRegex(@"^\[\)\>\x1E", RegexOptions.None, "en-US")]
@@ -275,7 +275,7 @@ public static partial class EntityResolver
     private static partial Regex FormatYyyyWwRegEx();
 
     /// <summary>
-    ///    Returns a regular expression for the oldest and newest manufacturing date in the format YYWWYYWW..
+    ///    Returns a regular expression for the oldest and newest manufacturing date in the format YYWWYYWW.
     /// </summary>
     /// <returns>A regular expression.</returns>
     [GeneratedRegex(@"^\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))$", RegexOptions.None, "en-US")]

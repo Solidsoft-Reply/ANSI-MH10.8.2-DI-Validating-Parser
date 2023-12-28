@@ -16,7 +16,7 @@
 // limitations under the License.
 // </license>
 // <summary>
-// A descriptor for a ASC MH10.8.2 entity.
+// A descriptor for an ASC MH10.8.2 entity.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ using Properties;
 using Common;
 
 /// <summary>
-///   A descriptor for a ASC MH10.8.2 entity.
+///   A descriptor for an ASC MH10.8.2 entity.
 /// </summary>
 
 // ReSharper disable once ClassWithVirtualMembersNeverInherited.Global
@@ -114,7 +114,7 @@ public class EntityDescriptor
     /// </summary>
     /// <param name="value">The data to be validated.</param>
     /// <param name="validationErrors">A list of validation errors.</param>
-    /// <returns>True, if valid. Otherwise false.</returns>
+    /// <returns>True, if valid. Otherwise, false.</returns>
     public virtual bool IsValid(string? value, out IList<ParserException> validationErrors)
     {
         validationErrors = new List<ParserException>();
