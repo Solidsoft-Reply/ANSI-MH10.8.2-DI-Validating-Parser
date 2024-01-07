@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<TargetFramework>net7.0</TargetFramework>
-	<LangVersion>11.0</LangVersion>
+	<TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+	<LangVersion>12.0</LangVersion>
 	<ImplicitUsings>enable</ImplicitUsings>
 	<Nullable>enable</Nullable>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -13,14 +13,15 @@
 	<PackageProjectUrl>https://www.reply.com/solidsoft-reply/en/</PackageProjectUrl>
 	<PackageIcon>Solidsoft Reply - LOGO Square_small.jpg</PackageIcon>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
-	<PackageTags>ansi;mh10.8.2;di;parser;barcode;datamatrix;qr;code-128</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	  <PackageTags>ansi;mh10.8.2;di;parser;barcode;datamatrix;qr;code-128</PackageTags>
 	<RepositoryUrl>https://github.com/Solidsoft-Reply/Solidsoft.Reply.Parsers.AnsiMhDi</RepositoryUrl>
-	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	<PackageReleaseNotes>
 		1) Added localisation support for French, German and Spanish.
 	</PackageReleaseNotes>
 	<Description>
-		AA comprehensive validating parser for ANSI MH10.8.2 Data Identifiers (DIs).
+		A comprehensive validating parser for ANSI MH10.8.2 Data Identifiers (DIs).
 
 		Latest Release Notes:
 		--------------
@@ -28,10 +29,33 @@
 	</Description>
 	<Version>1.0.1</Version>
 	<NeutralLanguage>en</NeutralLanguage>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Solidsoft.Reply.Parsers.Common\Solidsoft.Reply.Parsers.Common\Solidsoft.Reply.Parsers.Common.csproj" />
+    <None Remove="LICENSE.txt" />
+    <None Remove="README.md" />
+    <None Remove="Solidsoft Reply - LOGO Square_small.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+	  <ProjectReference Include="..\..\Solidsoft.Reply.Parsers.Common\Solidsoft.Reply.Parsers.Common\Solidsoft.Reply.Parsers.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Resource>
+    <Resource Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Resource>
+    <Resource Include="Solidsoft Reply - LOGO Square_small.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -56,21 +80,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="LICENSE.txt">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Update="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Update="Solidsoft Reply - LOGO Square_small.jpg">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>

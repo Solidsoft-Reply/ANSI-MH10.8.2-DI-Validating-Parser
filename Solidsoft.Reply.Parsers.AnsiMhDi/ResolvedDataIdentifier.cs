@@ -35,7 +35,7 @@ public class ResolvedDataIdentifier : IResolvedEntity
     /// <summary>
     ///   A list of resolver exceptions.
     /// </summary>
-    private readonly List<ParserException> _exceptions = new();
+    private readonly List<ParserException> _exceptions = [];
 
     /// <summary>
     ///   Initializes a new instance of the <see cref="ResolvedDataIdentifier" /> class.
