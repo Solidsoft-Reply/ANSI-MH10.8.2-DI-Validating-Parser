@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="EntityDescriptor.cs" company="Solidsoft Reply Ltd.">
-//   (c) 2018-2023 Solidsoft Reply Ltd. All rights reserved.
+//   (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
 // </copyright>
 // <license>
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -47,26 +47,6 @@ public class EntityDescriptor
     /// </summary>
     private Regex? _validator;
 
-    /////////// <summary>
-    ///////////   Initializes a new instance of the <see cref="EntityDescriptor" /> class.
-    /////////// </summary>
-    /////////// <param name="dataTitle">
-    ///////////   The data title.
-    /////////// </param>
-    /////////// <param name="description">
-    ///////////   The description.
-    /////////// </param>
-    /////////// <param name="pattern">
-    ///////////   The pattern.
-    /////////// </param>
-    ////////public EntityDescriptor(string? dataTitle, string? description, string? pattern)
-    ////////{
-    ////////    DataTitle = dataTitle;
-    ////////    Description = description;
-    ////////    _pattern = pattern;
-    ////////    _validator = null;
-    ////////}
-
     /// <summary>
     ///   Initializes a new instance of the <see cref="EntityDescriptor" /> class.
     /// </summary>
@@ -89,7 +69,6 @@ public class EntityDescriptor
     /// <summary>
     ///   Gets the data title of the entity.
     /// </summary>
-
     // ReSharper disable once MemberCanBePrivate.Global
     // ReSharper disable once UnusedAutoPropertyAccessor.Global
     public string? DataTitle { get; }
@@ -97,7 +76,6 @@ public class EntityDescriptor
     /// <summary>
     ///   Gets the description of the entity.
     /// </summary>
-
     // ReSharper disable once MemberCanBePrivate.Global
     // ReSharper disable once UnusedAutoPropertyAccessor.Global
     public string? Description { get; }
@@ -105,7 +83,6 @@ public class EntityDescriptor
     /// <summary>
     ///   Gets the compiled regular expression object for validating the entity.
     /// </summary>
-
     // ReSharper disable once MemberCanBePrivate.Global
     public Regex Pattern => _validator ??= _pattern();
 

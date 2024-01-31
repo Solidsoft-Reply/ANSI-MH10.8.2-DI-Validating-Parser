@@ -1,6 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="Parser.cs" company="Solidsoft Reply Ltd.">
-//   (c) 2018-2023 Solidsoft Reply Ltd. All rights reserved.
+//   (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
 // </copyright>
 // <license>
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -35,14 +35,22 @@ using Properties;
 /// <summary>
 ///   Barcode Parser for ANSI MH10.8 data.
 /// </summary>
-public static partial class Parser
-{
+#if NET7_0_OR_GREATER
+public static partial class Parser {
     /// <summary>
     ///   Code generator for regular expression that captures a data identifier (0..3 digits followed by a letter).
     /// </summary>
     /// <returns></returns>
     [GeneratedRegex(@"^\d{0,3}[a-zA-Z]", RegexOptions.IgnoreCase, "en-US")]
     private static partial Regex MatchDataIdentifierRegex();
+#else
+public static class Parser {
+    /// <summary>
+    ///   Code generator for regular expression that captures a data identifier (0..3 digits followed by a letter).
+    /// </summary>
+    /// <returns></returns>
+    private static readonly Regex MatchDataIdentifierRegex = new(@"^\d{0,3}[a-zA-Z]", RegexOptions.IgnoreCase);
+#endif
 
     /// <summary>
     ///   Parse ANSI MH10.8-encoded data.
@@ -72,7 +80,7 @@ public static partial class Parser
             return;
         }
 
-        DoParseRecords(data, processResolvedEntity, initialPosition);
+        DoParseRecords(data ?? string.Empty, processResolvedEntity, initialPosition);
     }
 
     /// <summary>
@@ -104,25 +112,53 @@ public static partial class Parser
 
             // Does the record buffer contain at least one field separator?
             var fieldPosition = currentPosition;
-            var fieldBuffer = recordBuffer.Contains(fieldSeparator, StringComparison.Ordinal)
-                                  /* Yes - Move data up the first field separator from the record buffer into the field buffer. */
-                                  ? recordBuffer[..recordBuffer.IndexOf(fieldSeparator, StringComparison.Ordinal)]
-                                  /* No - Move all data from the record buffer into the field buffer. */
-                                  : recordBuffer;
+            var fieldBuffer = recordBuffer.Contains(
+                fieldSeparator
+#if NETCOREAPP2_1_OR_GREATER 
+                    , StringComparison.Ordinal
+#endif
+                )
+                    /* Yes - Move data up the first field separator from the record buffer into the field buffer. */
+                    ? recordBuffer
+#if NET6_0_OR_GREATER
+                        [..recordBuffer.IndexOf(fieldSeparator, StringComparison.Ordinal)]
+#else
+                        .Substring(0, recordBuffer.IndexOf(fieldSeparator
+#if NET2_1_OR_GREATER
+                            , StringComparison.Ordinal
+#endif
+                        ))
+#endif
+                    /* No - Move all data from the record buffer into the field buffer. */
+                    : recordBuffer;
 
             // Remove field from record buffer.
-            recordBuffer = recordBuffer[fieldBuffer.Length..];
+            recordBuffer = recordBuffer
+#if NET6_0_OR_GREATER
+                    [fieldBuffer.Length..];
+#else
+                    .Substring(fieldBuffer.Length);          
+#endif
             currentPosition += fieldBuffer.Length;
 
             // Remove any leading field separator from the record buffer
             var recordBufferLength = recordBuffer.Length;
             recordBuffer = recordBuffer.StartsWith(fieldSeparator, StringComparison.Ordinal)
-                               ? recordBuffer[fieldSeparator.Length..]
+                               ? recordBuffer
+#if NET6_0_OR_GREATER                                 
+                                    [fieldSeparator.Length..]
+#else
+                                    .Substring(fieldSeparator.Length)
+#endif
                                : recordBuffer;
             currentPosition += recordBufferLength - recordBuffer.Length;
 
             // Capture the data identifier (0..3 digits followed by a letter)
-            var match = MatchDataIdentifierRegex().Match(fieldBuffer);
+            var match = MatchDataIdentifierRegex
+#if NET7_0_OR_GREATER
+                ()
+#endif
+                .Match(fieldBuffer);
 
             if (!match.Success)
             {
@@ -135,7 +171,13 @@ public static partial class Parser
             fieldPosition += match.Value.Length;
 
             // Transmit data for further processing.
-            processResolvedEntity?.Invoke(fieldBuffer[match.Length..].Resolve(match.Value, fieldPosition));
+            processResolvedEntity?.Invoke(fieldBuffer
+#if NET6_0_OR_GREATER
+                [match.Length..]
+#else
+                .Substring(match.Length)
+#endif
+                .Resolve(match.Value, fieldPosition));
         }
 
         void HandleMissingDataIdentifierError(int fieldPosition)
@@ -189,26 +231,47 @@ public static partial class Parser
             // Is the data terminated by a format trailer?
             var recordPosition = currentPosition;
 
-            var recordBuffer = dataBuffer.Contains(formatTrailer, StringComparison.Ordinal)
+            var recordBuffer = dataBuffer.Contains(
+                formatTrailer
+#if NETCOREAPP2_1_OR_GREATER
+                , StringComparison.Ordinal
+#endif
+                )
                                    /* Yes - Does the data buffer start with a format header? */
                                    ? FormatTrailerTestFormatHeader()
                                    /* No - Does the data buffer start with a format header */
                                    : NoFormatTrailerTestFormatHeader();
 
             // Remove record from data buffer.
-            dataBuffer = dataBuffer[recordBuffer.Length..];
+            dataBuffer = dataBuffer
+#if NET6_0_OR_GREATER
+                [recordBuffer.Length..]
+#else
+                .Substring(recordBuffer.Length)
+#endif
+                ;
             currentPosition += recordBuffer.Length;
 
             // Remove any leading format trailer from the data buffer
             var dataBufferLength = dataBuffer.Length;
             dataBuffer = dataBuffer.StartsWith(formatTrailer, StringComparison.Ordinal)
-                             ? dataBuffer[formatTrailer.Length..]
+                             ? dataBuffer
+#if NET6_0_OR_GREATER                                 
+                                [formatTrailer.Length..]
+#else
+                                .Substring(formatTrailer.Length)
+#endif
                              : dataBuffer;
             currentPosition += dataBufferLength - dataBuffer.Length;
 
             // Remove any leading format header from the record buffer
             recordBuffer = recordBuffer.StartsWith(formatHeader, StringComparison.Ordinal)
-                               ? recordBuffer[formatHeader.Length..]
+                               ? recordBuffer
+#if NET6_0_OR_GREATER 
+                                    [formatHeader.Length..]
+#else
+                                    .Substring(formatHeader.Length)
+#endif
                                : recordBuffer;
 
             // Does the record buffer contain data?
@@ -223,7 +286,12 @@ public static partial class Parser
 
             string FormatTrailerTestFormatHeader() => dataBuffer.StartsWith(formatHeader, StringComparison.Ordinal)
                 /* Yes - Copy data up to and including the first format trailer into record buffer */
-                ? dataBuffer[..dataBuffer.IndexOf(formatTrailer, StringComparison.Ordinal)]
+                ? dataBuffer
+#if NET6_0_OR_GREATER
+                    [..dataBuffer.IndexOf(formatTrailer, StringComparison.Ordinal)]
+#else
+                    .Substring(dataBuffer.IndexOf(formatTrailer, StringComparison.Ordinal))
+#endif
                 /* No - Handle errors */
                 : HandleFormatDataError(Resources.Ansi_Mh10_8_2_001);
 
