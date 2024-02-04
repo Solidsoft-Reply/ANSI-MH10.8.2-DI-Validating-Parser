@@ -18,7 +18,7 @@
 	  <PackageTags>ansi;mh10.8.2;di;parser;barcode;datamatrix;qr;code-128</PackageTags>
 	<RepositoryUrl>https://github.com/Solidsoft-Reply/Solidsoft.Reply.Parsers.AnsiMhDi</RepositoryUrl>
 	<PackageReleaseNotes>
-		1) Extended target platform reach to .NET Standard 2.0, .NET 6.0, .NET 7.0 and .NET 8.0.
+		1) Added Italian language support.
 	</PackageReleaseNotes>
 	<Description>
 		A comprehensive validating parser for ANSI MH10.8.2 Data Identifiers (DIs).
@@ -27,7 +27,7 @@
 		--------------
 		$(PackageReleaseNotes)
 	</Description>
-	<Version>1.0.2</Version>
+	<Version>1.0.3</Version>
 	<NeutralLanguage>en</NeutralLanguage>
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
@@ -76,7 +76,76 @@
     <EmbeddedResource Update="Properties\Resources.fr.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Update="Properties\Resources.resx">
+    <EmbeddedResource Update="Properties\Resources.it.resx">
+	  <DependentUpon>Resources.resx</DependentUpon>
+	</EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.bg.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.cs.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.da.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.el.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.et.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.fi.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.ga.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.hr.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.hu.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.is.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.lt.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.lv.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.mt.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.nl.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.no.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.pl.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.pt.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.rm.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.ro.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.sk.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.sl.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.sv.resx">
+		  <DependentUpon>Resources.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>

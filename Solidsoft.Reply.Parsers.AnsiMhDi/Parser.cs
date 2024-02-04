@@ -20,6 +20,8 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
+using System.Diagnostics;
+
 [assembly: CLSCompliant(true)]
 
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
@@ -80,7 +82,7 @@ public static class Parser {
             return;
         }
 
-        DoParseRecords(data ?? string.Empty, processResolvedEntity, initialPosition);
+        DoParseRecords(data, processResolvedEntity, initialPosition);
     }
 
     /// <summary>
@@ -282,7 +284,11 @@ public static class Parser {
             }
 
             DoParseFields(recordBuffer, processResolvedEntity, recordPosition);
+#pragma warning disable S1751
+#pragma warning disable S3626
             continue;
+#pragma warning restore S3626
+#pragma warning restore S1751
 
             string FormatTrailerTestFormatHeader() => dataBuffer.StartsWith(formatHeader, StringComparison.Ordinal)
                 /* Yes - Copy data up to and including the first format trailer into record buffer */
