@@ -119,54 +119,41 @@
   </resheader>
   <data name="Ansi_Mh10_8_2_001" xml:space="preserve">
     <value>header</value>
-    <comment>Text</comment>
   </data>
   <data name="Ansi_Mh10_8_2_002" xml:space="preserve">
     <value>trailer</value>
-    <comment>Text</comment>
   </data>
   <data name="Ansi_Mh10_8_2_Error_001" xml:space="preserve">
-    <value>No records provided.</value>
-    <comment>Error</comment>
+    <value>Nebyly poskytnuty žádné záznamy.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_002" xml:space="preserve">
-    <value>Invalid format. No format {0} provided.</value>
-    <comment>Error</comment>
+    <value>Neplatný formát. Nebyl poskytnut formát {0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_003" xml:space="preserve">
-    <value>No data provided.</value>
-    <comment>Error</comment>
+    <value>Nebyla poskytnuta žádná data.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_004" xml:space="preserve">
-    <value>Invalid field. No data identifier.</value>
-    <comment>Error</comment>
+    <value>Neplatné pole. Nebyl poskytnut identifikátor dat.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_005" xml:space="preserve">
-    <value>Validation for DI{0} timed out.</value>
-    <comment>Error</comment>
+    <value>Ověření pro DI{0} vypršelo.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_006" xml:space="preserve">
-    <value>The entity value cannot be null for DI{0}.</value>
-    <comment>Error</comment>
+    <value>Hodnota entity nemůže být pro DI{0} nulová.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_007" xml:space="preserve">
-    <value>The value{0} is invalid for DI {1}.</value>
-    <comment>Error</comment>
+    <value>Hodnota{0} je neplatná pro DI {1}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_008" xml:space="preserve">
-    <value>The value is invalid for DI{0}.</value>
-    <comment>Error</comment>
+    <value>Hodnota je neplatná pro DI{0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_009" xml:space="preserve">
-    <value>Invalid data identifier {0}.</value>
-    <comment>Error</comment>
+    <value>Neplatný identifikátor dat {0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_010" xml:space="preserve">
-    <value>Invalid data identifier.</value>
-    <comment>Error</comment>
+    <value>Neplatný identifikátor dat.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>The value{0} does not match the specified pattern for the data element.</value>
-    <comment>Error</comment>
+    <value>Hodnota{0} neodpovídá určenému vzoru pro datový prvek.</value>
   </data>
 </root>

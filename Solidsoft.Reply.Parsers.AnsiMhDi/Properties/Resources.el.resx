@@ -119,54 +119,41 @@
   </resheader>
   <data name="Ansi_Mh10_8_2_001" xml:space="preserve">
     <value>header</value>
-    <comment>Text</comment>
   </data>
   <data name="Ansi_Mh10_8_2_002" xml:space="preserve">
     <value>trailer</value>
-    <comment>Text</comment>
   </data>
   <data name="Ansi_Mh10_8_2_Error_001" xml:space="preserve">
-    <value>No records provided.</value>
-    <comment>Error</comment>
+    <value>Δεν παρέχονται εγγραφές.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_002" xml:space="preserve">
-    <value>Invalid format. No format {0} provided.</value>
-    <comment>Error</comment>
+    <value>Μη έγκυρη μορφή. Δεν παρέχεται μορφή {0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_003" xml:space="preserve">
-    <value>No data provided.</value>
-    <comment>Error</comment>
+    <value>Δεν παρέχονται δεδομένα.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_004" xml:space="preserve">
-    <value>Invalid field. No data identifier.</value>
-    <comment>Error</comment>
+    <value>Μη έγκυρο πεδίο. Δεν υπάρχει αναγνωριστικός ταυτότητας δεδομένων.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_005" xml:space="preserve">
-    <value>Validation for DI{0} timed out.</value>
-    <comment>Error</comment>
+    <value>Η επικύρωση για τον DI{0} έληξε.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_006" xml:space="preserve">
-    <value>The entity value cannot be null for DI{0}.</value>
-    <comment>Error</comment>
+    <value>Η τιμή της οντότητας δεν μπορεί να είναι κενή για τον DI{0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_007" xml:space="preserve">
-    <value>The value{0} is invalid for DI {1}.</value>
-    <comment>Error</comment>
+    <value>Η τιμή{0} είναι άκυρη για τον DI {1}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_008" xml:space="preserve">
-    <value>The value is invalid for DI{0}.</value>
-    <comment>Error</comment>
+    <value>Η τιμή είναι άκυρη για τον DI{0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_009" xml:space="preserve">
-    <value>Invalid data identifier {0}.</value>
-    <comment>Error</comment>
+    <value>Μη έγκυρος αναγνωριστικός ταυτότητας δεδομένων {0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_010" xml:space="preserve">
-    <value>Invalid data identifier.</value>
-    <comment>Error</comment>
+    <value>Μη έγκυρος αναγνωριστικός ταυτότητας δεδομένων.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>The value{0} does not match the specified pattern for the data element.</value>
-    <comment>Error</comment>
+    <value>Η τιμή{0} δεν ταιριάζει με το καθορισμένο μοτίβο για το στοιχείο δεδομένων.</value>
   </data>
 </root>
