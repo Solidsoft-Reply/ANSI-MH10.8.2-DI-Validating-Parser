@@ -118,55 +118,42 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Ansi_Mh10_8_2_001" xml:space="preserve">
-    <value>header</value>
-    <comment>Text</comment>
+    <value>antraštė</value>
   </data>
   <data name="Ansi_Mh10_8_2_002" xml:space="preserve">
-    <value>trailer</value>
-    <comment>Text</comment>
+    <value>pabaiga</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_001" xml:space="preserve">
-    <value>No records provided.</value>
-    <comment>Error</comment>
+    <value>Nepateikti įrašai.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_002" xml:space="preserve">
-    <value>Invalid format. No format {0} provided.</value>
-    <comment>Error</comment>
+    <value>Netinkamas formatas. Nėra pateikto formato {0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_003" xml:space="preserve">
-    <value>No data provided.</value>
-    <comment>Error</comment>
+    <value>Nepateikti duomenys.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_004" xml:space="preserve">
-    <value>Invalid field. No data identifier.</value>
-    <comment>Error</comment>
+    <value>Netinkamas laukas. Nėra duomenų identifikatoriaus.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_005" xml:space="preserve">
-    <value>Validation for DI{0} timed out.</value>
-    <comment>Error</comment>
+    <value>Validacija DI{0} pasibaigė laiko limitas.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_006" xml:space="preserve">
-    <value>The entity value cannot be null for DI{0}.</value>
-    <comment>Error</comment>
+    <value>Entiteto vertė negali būti tuščia DI{0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_007" xml:space="preserve">
-    <value>The value{0} is invalid for DI {1}.</value>
-    <comment>Error</comment>
+    <value>Vertė{0} yra netinkama DI {1}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_008" xml:space="preserve">
-    <value>The value is invalid for DI{0}.</value>
-    <comment>Error</comment>
+    <value>Vertė yra netinkama DI{0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_009" xml:space="preserve">
-    <value>Invalid data identifier {0}.</value>
-    <comment>Error</comment>
+    <value>Netinkamas duomenų identifikatorius {0}.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_010" xml:space="preserve">
-    <value>Invalid data identifier.</value>
-    <comment>Error</comment>
+    <value>Netinkamas duomenų identifikatorius.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>The value{0} does not match the specified pattern for the data element.</value>
-    <comment>Error</comment>
+    <value>Vertė{0} neatitinka nustatyto duomenų elemento rašto.</value>
   </data>
 </root>

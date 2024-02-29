@@ -130,9 +130,6 @@
 	  <EmbeddedResource Update="Properties\Resources.pt.resx">
 		  <DependentUpon>Resources.resx</DependentUpon>
 	  </EmbeddedResource>
-	  <EmbeddedResource Update="Properties\Resources.rm.resx">
-		  <DependentUpon>Resources.resx</DependentUpon>
-	  </EmbeddedResource>
 	  <EmbeddedResource Update="Properties\Resources.ro.resx">
 		  <DependentUpon>Resources.resx</DependentUpon>
 	  </EmbeddedResource>
