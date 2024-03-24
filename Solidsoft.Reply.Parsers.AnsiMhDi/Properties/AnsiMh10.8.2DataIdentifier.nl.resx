@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>Het 'PLUS'-teken. Health Industry Business Communications Council (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Uniek kentekennummer.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Uniek kentekennummer toegewezen aan een transporteenheid die het laagste niveau van verpakking is, de onbreekbare eenheid.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Uniek kentekennummer toegewezen aan een transporteenheid die meerdere pakketten bevat.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Uniek kentekennummer toegewezen aan een transporteenheid die het laagste niveau van verpakking is, de onbreekbare eenheid en die EDI-gegevens heeft geassocieerd met de eenheid.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Uniek kentekennummer toegewezen aan een transporteenheid die meerdere pakketten bevat en die geassocieerd is met EDI-gegevens.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Uniek kentekennummer toegewezen aan een gemengde transporteenheid die ongelijke items bevat op een enkele klantentransactie en wel of geen EDI-gegevens kan hebben.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Uniek kentekennummer toegewezen aan een hoofdtransporteenheid die gelijke items bevat op een enkele klantentransactie en wel of geen EDI-gegevens kan hebben.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Kentekennummer van voertuigregistratie (niet uniek zonder identificatie van land en uitgevende overheidsregio/autoriteit)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Maritime Mobile Service Identity (MMSI).\nEen negencijferig nummer gereguleerd door de Internationale Telecommunicatie-unie om een schip of een kustzendstation uniek te identificeren. Voorbeeld: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Bestelnummer toegewezen door Klant om een Aankooptransactie te identificeren (bijv., bestelordernummer).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Bestelnummer toegewezen door Leverancier om een Aankooptransactie te identificeren.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Bill of Lading/Waybill/Zending Identificatiecode toegewezen door Leverancier/Verzender.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Bill of Lading/Waybill/Zending Identificatiecode toegewezen door Vervoerder.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Regelnummer van de bestelling toegewezen door Klant om een Aankooptransactie te identificeren.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Referentienummer toegewezen door de Klant om een Zending Autorisatie (Release) tegen een vastgestelde Inkooporder te identificeren.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>PRO# Toegewezen door Vervoerder.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Vervoerswijze in Vrije Tekstformaat onderling gedefinieerd tussen Klant en Leverancier (bijv., Lucht, Vrachtwagen, Boot, Trein).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Contractnummer.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Generieke Transactie Referentiecode (intern toegewezen of onderling gedefinieerd).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Factuurnummer.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Paklijstnummer.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Standard Carrier Alpha Code) (an4 - dash '-' gevuld links) en vervoerder toegewezen PROgressief nummer.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Bill of Lading Nummer /Transport Ontvangstbewijs Nummer SCAC + Container vracht B/L nummer of vrachtbriefnummer.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Gecombineerd Bestelnummer en Regelnummer in het formaat nn...nn+nn...n waarbij een plus (+) symbool wordt gebruikt als scheidingsteken tussen het Bestelnummer en Regelnummer.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>KANBAN Nummer.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>DELINS Nummer: code toegewezen om een document te identificeren dat leveringsinformatie bevat.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Chequenummer.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Gestructureerde Referentie.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Foreign Military Sales Case Nummer.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Licentie Identificator, zijnde een wereldwijd unieke identificator voor een licentie of contract waaronder items worden gegenereerd, ingediend voor verwerking en/of betaald, dat is opgebouwd door het aaneenschakelen van:\n - een ISO/IEC 15459 uitgevende instantiecode;\n - een licentie- of contractnummer dat voldoet aan de specificaties van de betreffende uitgevende instantie;\n en dat:\n - uitsluitend bestaat uit hoofdletters alfabetische en/of numerieke tekens;\n - uniek is (dat wil zeggen, verschilt van elke andere ISO/IEC 15459 conforme identificator) binnen het domein van de uitgevende instantie;\n - niet kan worden afgeleid van een andere ISO/IEC 15459 conforme identificator, uitgegeven onder dezelfde uitgevende instantie, door eenvoudigweg tekens toe te voegen aan, of te verwijderen uit, het einde ervan.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Klantgegevens, zijnde gegevens die:\n - vanuit het perspectief van de klant, gerelateerd zijn aan of geassocieerd worden met een item of transactie, of met een partij gerelateerde items of transacties, en\n - bestaat uit maximaal 35 afdrukbare tekens en/of spaties, anders dan plus (+), getrokken uit de tekenset gedefinieerd in ISO/IEC 646.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>'22K' Transactie Authenticatie Informatie, zijnde een waarde, opgebouwd door het aaneenschakelen van:\n - een ISO/IEC 15459 uitgevende instantiecode;\n - een waarde die voldoet aan de specificaties van de betreffende uitgevende instantie,\n die de authenticiteit van de betreffende transactie verifieert en, in het bijzonder, dat de transactie is geïnitieerd door de partij, die binnen de transactie wordt geclaimd als de initiator ervan, door:\n - de ontvanger van een transactie, en/of\n - een of meer van de partijen betrokken bij de afhandeling of verwerking ervan, en/of\n - een vertrouwde derde partij.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Globaal Unieke Identificatie van Groeperingen van Transporteenheden Toegewezen door de Vervoerder, gedefinieerd als:\nIdentificatie van een Partij bij een Transactie zoals gedefinieerd toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door de Bill of Lading of Waybill of Zending Identificatiecode die uniek is binnen het domein van de CIN-houder.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Globaal Unieke Identificatie van Groeperingen van Transporteenheden Toegewezen door de Verzender, gedefinieerd als:\nIdentificatie van een Partij bij een Transactie toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door de Bill of Lading of Waybill of Zending Identificatiecode die uniek is binnen het domein van de CIN-houder.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Leverancier Toegewezen Offertenummer - Nummer toegewezen aan een offerte door de leverancier als reactie op een offerteaanvraag van de klant.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Opslaglocatie.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Locatie.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>'Ship To:' Locatiecode gedefinieerd door een industriestandaard of onderling gedefinieerd.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>'Ship From:' Locatiecode gedefinieerd door een industriestandaard of onderling gedefinieerd.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Land van Oorsprong, tweecijferige ISO 3166 landcode. Met overeenkomst van handelspartners en wanneer het Land van Oorsprong gemengd is, Landcode 'AA' zal worden gebruikt.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>'Ship For:' Locatiecode gedefinieerd door een industriestandaard of onderling gedefinieerd.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Route Code toegewezen door de leverancier om een specifiek transportpad aan te duiden.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>6-karakter Department of Defense Activity Code (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Haven van Inscheping - Onderling Gedefinieerd.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Haven van Ontscheping - Onderling Gedefinieerd.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Locatie (Breedtegraad/Lengtegraad/Hoogte) gecodeerd in het formaat xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>'Ship To:' Locatie (Breedtegraad/Lengtegraad/Hoogte) gecodeerd in het formaat xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>'Ship From:' Locatie (Breedtegraad/Lengtegraad/Hoogte) gecodeerd in het formaat xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Ship For: Locatie (Breedtegraad/Lengtegraad/Hoogte) gecodeerd in het formaat xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Tag Activeringslocatie.\nEngelse locatienaam (tekenset: 0-9, A-Z &lt;Spatie&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Tag Deactiveringslocatie.\nEngelse locatienaam (tekenset: 0-9, A-Z &lt;Spatie&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>FAO visgebiedcode zoals gedefinieerd door de Visserij- en Aquacultuurafdeling van de FAO (http://www.fao.org. Zoek naar Visgebiedcode sub-site).\nAlle tekens van de door GS1 Algemene Specificatie gedefinieerde subset van ISO/IEC 646 zijn toegestaan.\nVoorbeelden:\n18L37.1.3 Westelijke Middellandse Zee, Sardinië;\n18L47.B.1 Atlantische Oceaan, Zuidoost, SEAFO Divisie, Namibië EEZ;\n18L67 Stille Oceaan, Noordoost.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Eerste Niveau (intern toegewezen).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Tweede Niveau (intern toegewezen).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Derde Niveau (intern toegewezen.</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Vierde Niveau (intern toegewezen).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Vijfde Niveau (intern toegewezen).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Identificatie van een Partij bij een Transactie, bijv., 25L IAC CIN LOC toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door de fysieke interne locatie (LOC) die uniek is binnen het domein van de CIN-houder.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Locatiecode, zijnde een code die een locatie of geografisch gebied identificeert, of een geassocieerde groep van dergelijke locaties of gebieden, die relevantie heeft voor een gerelateerde transactie en die voldoet aan een van de structuren gedefinieerd in (a) tot (f) hieronder:\na) twee hoofdletters alfabetische tekens overeenkomend met de ISO 3166-1 twee alfa landcode van het land waarin, of bestaande uit, de locatie(s) of gebied(en) zich bevinden;\nb) drie hoofdletters alfabetische tekens overeenkomend met de IATA-code van de luchthaven of stad in, dichtbij, of bestaande uit, de locatie(s) of gebied(en);\nc) vier of meer tekens waarvan de eerste drie overeenkomen met een ISO 3166-1 landcode gevolgd door een streepje (-), met de rest zijnde een postcode in het betreffende land;\nd) vier of meer tekens waarvan de eerste drie overeenkomen met een ISO 3166-1 landcode gevolgd door een punt (.), met de rest zijnde een ISO 3166-2 landsdeelcode in het betreffende land;\ne) vijf hoofdletters alfabetische tekens overeenkomend met de UN/LOCODE van het gebied in, dichtbij, of bestaande uit, de locatie(s) of gebied(en);\nf) de aaneenschakeling, zijnde niet minder dan zeven noch meer dan 35 tekens in lengte, van:\n- een ISO/IEC 15459 uitgevende instantiecode;\n- een locatiecode, bestaande uit tekens getrokken uit de set {A-Z; 0-9} die voldoet aan de specificaties van de betreffende uitgevende instantie.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Evenement Locatie UN/LOCODE.\nUN/LOCODE gevolgd door een plus (+) teken gevolgd door een of meer code waarden van EDIFACT Code Lijst 3227 'Locatiefunctie code kwalificatie', bijv.,\n7 Plaats van Definitieve Levering;\n5 Haven van Vertrek;\n9 Haven van Lading;\n11 Haven van Lossing;\n13 Plaats van Overlading;\n24 Haven van Invoer;\n35 Exportland;\n88 Plaats van Vervoerder Ontvangst;\n125 Buitenlandse Haven voorafgaand aan Vertrek naar VS;\n147 Stuwage cel/positie;\n159 Plaats van levering (aan geadresseerde);\n248 Laadlocatie\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Nummer en Straatadres.\nGebruikt in combinatie met H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Stadsnaam.\nGebruikt in combinatie met H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Details van Land Onder-eenheid.\nGebruikt in combinatie met H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Postcode.\nGebruikt in combinatie met H, 6H, 28L, 29L, 30L, 31L, 32L (Als een '-' streepje wordt gebruikt, moet dit uitdrukkelijk worden gecodeerd).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Landcode.\nISO 3166-1 Alpha 2 Code\nGebruikt in combinatie met H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Uniform Resource Locator (URL).\nBevat alle tekens die een URL vormen, inclusief kopgegevens zoals bijv., http://. Tekenset zoals vermeld in RFC 1738.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Pointer to Process URL (P2P URL) voor het initiëren van een URL om alle andere gegevenselementen te dragen die gecodeerd zijn in een AIDC-media volgens de volgende regel: Scan de code en initieer de URL beginnend met de P2P URL-string, waarbij DI 34L en ISO/IEC 15434 envelopsyntaxis (prefix en postfix) worden weggelaten en alle andere gegevenselementen die zijn gescand in dezelfde volgorde als gecodeerd in de media, inclusief DIs en gegevenselementscheidingstekens, worden toegevoegd. Zet speciale tekens in de toegevoegde gegevens om naar RFC 1738-formaat (bijv., Groepsscheidingsteken 'GS' vertaald naar RFC 1738 reeks %1D). Let op dat dit niet van toepassing is op de P2P URL zelf.\nVoorbeeld: Gecodeerde gegevensreeks (met gebruik van ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108GS34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=RS05GS13131108RSEOT\nresulteert in de volgende URL met de overgedragen gegevens:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SUN123456789PA12345%1D4LUS%1D16D20131108.\nOpmerking: gegevens uit de '05' formaatomhulling werden niet opgenomen in de URL omdat de 34L was gecodeerd in de '06' formaatomhulling.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Een door de overheid toegewezen goedkeuringsnummer van vaartuig / aquacultuurlocatie / boerderij / verwerker, beginnend met een ISO 3166-1 alfa-2 landcode, gevolgd door het goedkeuringsnummer.\nAlle tekens van de door GS1 Algemene Specificatie gedefinieerde subset van ISO/IEC 646 zijn toegestaan.\nVoorbeeld:\n35LIECK0107EC = Land; Ierland. Scheepsnaam; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Een door de overheid toegewezen goedkeuringsnummer van producent of boerderij of eerste ontbenings- / snijhal, beginnend met een ISO 3166-1 alfa-2 landcode, gevolgd door het goedkeuringsnummer.\nAlle tekens van de door GS1 Algemene Specificatie gedefinieerde subset van ISO/IEC 646 zijn toegestaan.\nVoorbeeld:\n36LIECK0107EC = Land; Ierland. Scheepsnaam; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Ship From:' - Locatiecode gedefinieerd door een postautoriteit (bijv., 5-cijferige en 9-cijferige ZIP-codes die Amerikaanse locaties identificeren of 6-karakter postcodes die Canadese locaties identificeren).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Ship To:' - Locatiecode gedefinieerd door een postautoriteit (bijv., 5-cijferige en 9-cijferige ZIP-codes die Amerikaanse locaties identificeren of 6-karakter postcodes die Canadese locaties identificeren).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>'Ship From:' - Locatiecode gedefinieerd door een postautoriteit in het formaat: postcodes (bijv., 5-cijferige ZIP-codes die Amerikaanse locaties identificeren of 6- of 7-karakter postcodes die Britse locaties identificeren) gevolgd door een tweecijferige ISO 3166 landcode (bijv., US of GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>'Ship To:' - Locatiecode gedefinieerd door een postautoriteit in het formaat: postcodes (bijv., 5-cijferige ZIP-codes die Amerikaanse locaties identificeren of 6- of 7-karakter postcodes die Britse locaties identificeren) gevolgd door een tweecijferige ISO 3166 landcode (bijv., US of GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Army Form 2410 data. Formaat is gegevenswaarde voorafgegaan door het bloknummer van formulier 2410. Veldlengtes en acceptabele tekens zijn te vinden op;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Update: De URL is gewijzigd naar:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Army Form 2408 data. Formaat is gegevenswaarde voorafgegaan door het bloknummer van formulier 2408. Veldlengtes en acceptabele tekens zijn te vinden op;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Update: De URL is gewijzigd naar:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Army Form 2407 data. Formaat is gegevenswaarde voorafgegaan door het bloknummer van formulier 2407. Veldlengtes en acceptabele tekens zijn te vinden op;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Update: De URL is gewijzigd naar:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Air Force Form 95 data. Formaat is gegevenswaarde voorafgegaan door het bloknummer van formulier 95. Veldlengtes en acceptabele tekens zijn te vinden op;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 Update: De naam van het formulier is "Air Force Technical Order Form 95 (AFTO Form 95)." Details over het formulier zijn te vinden in Air Force Technical Order (TO) 00-20-1. De URL voor deze TO is gewijzigd naar:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Navy Form 4790 data. Formaat is gegevenswaarde voorafgegaan door het bloknummer van formulier 2410. Veldlengtes en acceptabele tekens zijn te vinden op;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%2015.pdf.\n2020 Update: De URL is niet langer geldig.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>National/NATO Stock Number (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Productkenmerkgegevens gedefinieerd door de Chemical Industry Data Exchange (CIDX).</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Coderingsstructuur in overeenstemming met het formaat gedefinieerd door Electronic Industries Association Japan (EIAJ).</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Coderingsstructuur en formaten in overeenstemming met GS1 Toepassingsidentificatoren (AI plus gegevens) (GS1).</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Coderingsstructuur en formaten in overeenstemming met AIAG-aanbevelingen. De volledige Gegevensidentificator is in de vorm 5Nxx waarbij de 'xx' te vinden is in de volledige codexlijst die te vinden is op https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>U.S. DOD Requisition and Issue Procedure Codes. Het formaat is de geschikte MILSTRIP-code gevolgd door de gegevenswaarde geassocieerd met die code. (De volledige lijst met codes is beschikbaar op;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\n2020 Update: De URL is gewijzigd naar:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/)</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>U.S. Defense Transportation Regulation Codes. Het formaat is de DTR-code gevolgd door de geschikte gegevenswaarde geassocieerd met die code. (De volledige lijst met codes is beschikbaar op;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\n2020 Update: De URL is gewijzigd naar:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf)</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Productie Dier Identificatiecodes. Het formaat is de productiediercode gevolgd door de geschikte gegevenswaarde geassocieerd met die code. Het Technisch Rapport en de volledige lijst van Uitgebreide Gegevenselementen (codes) wordt onderhouden op;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Uitgebreide Gegevenselementen (Codes).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Technisch Rapport.\n2020 Update: De URLs zijn gewijzigd naar:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Apotheek Productnummer onderhouden door IFA (www.ifaffm.de) met de volgende elementen; Gegevensidentificator (DI), tweecijferige productregistratiebureau code (PRAC), het productreferentie (PR), en de twee PPN-controletekens (CC), in de vorm DI PRAC PR CC.\nOPMERKING - ruimte is toegevoegd als scheidingsteken voor visuele duidelijkheid en maakt geen deel uit van de gegevens.\nVoorbeelden:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Gegevens in het formaat en met de semantiek gedefinieerd door de houder van een Bedrijfsidentificatienummer (CIN) dat is uitgegeven door een Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459, gedefinieerd als een reeks van aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door het scheidingsteken ':' (dubbele punt) gevolgd door de gegevens in het formaat en met de semantiek zoals gedefinieerd door de CIN-houder.\nOPMERKING: Alleen de gegevenssyntaxisregels (indien aanwezig) zoals verstrekt door de verklaarde IAC+CIN binnen elke DI '10N' gegevensstroom zullen worden toegepast op de gegevens volgend op DI 10N+IAC+CIN.\nOPMERKING: Door een fout in de toewijzing van DI '10N' (er is geen centrale autoriteit voor gegevensdefinitie noch onderhoud), mogen geen nieuwe toepassingen van DI '10N' worden geïmplementeerd.\nDe functie van DI '10N' is vastgesteld in Categorie 18, DIVERSEN met DI '5R'. Het wordt ten zeerste aanbevolen dat bestaande toepassingen die DI '10N' gebruiken migreren naar DI 5R'.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>De Gegevensconstructie wordt gedefinieerd en beheerd door de RLA, en bestaat uit 2 segmenten: de veldidentificatiecode, direct gevolgd door de gegevens zoals gedefinieerd voor dat element volgens het gegevenswoordenboek van de RLA. Het is in wezen een catalogus van velden met gestandaardiseerde inhoud. De Veldidentificatoren worden gepost op http://rla.org/11ncodes. Het gebruik en de structuur van deze codes worden gedefinieerd op: http://rla.org/11nformat Aanvullende voorbeelden zijn te vinden op die site. DI '11N' mag nooit worden gecodeerd in een 2D- of RFID-tag samen met andere DI-elementen.\nOPMERKING: Door een fout in de toewijzing van DI '11N' (de taal die stelt: 'DI '11N' mag nooit worden gecodeerd in een 2D- of RFID-tag samen met andere DI-elementen.' is geen geldige uitspraak), mogen geen nieuwe toepassingen van DI '11N' worden geïmplementeerd. De functie van DI '11N' is vastgesteld in DI '12N'. Het wordt ten zeerste aanbevolen dat bestaande toepassingen die DI '11N' gebruiken migreren naar DI '12N'.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>De Gegevensconstructie wordt gedefinieerd en beheerd door de RLA, bestaande uit 2 segmenten: de veldidentificatie (FI) code, direct gevolgd door de gegevens zoals gedefinieerd voor dat element volgens het gegevenswoordenboek van de RLA. Het is in wezen een catalogus van velden met gestandaardiseerde inhoud. De Veldidentificatoren worden gepost op http://rla.org/12ncodes De gebruik en structuur van deze codes worden gedefinieerd op: http://rla.org/12nformat. Voorbeelden zijn te vinden op die site.\n2020 Update: De URL is gewijzigd naar:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Vertegenwoordiging van Industriële Internet Identificatiecodes beheerd en onderhouden door CAICT, gebruikt in het Industriële Internet Identificatie Resolutie Systeem van China en geconstrueerd als &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, in de vorm an3+a3+n3+n3+n8+an1...33, waar an3 de Gegevensidentificator (DI) is, a3 is de Uitgevende Instantiecode (IAC = "VAA"), n3 is de Hoogste Niveau Code (TTC), n3 is de Secundaire Niveau Code (STC), n8 is het Bedrijfsidentificatienummer (CIN) beheerd en toegewezen door het Secundaire Niveau platform en an1...33 is het Serienummer (SN) dat wordt beheerd en toegewezen door de houder van de CIN, en is uniek binnen het domein van die CIN-houder, met gebruik van de tekens 0 tot 9, hoofd- en kleine letters A tot Z, * (asterisk), + (plusteken), - (streepje), . (punt of volledige stop), / (schuine streep), ( (linker haakje), ) (rechter haakje), ! (uitroepteken).\nVoorbeelden:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Artikelidentificatiecode toegewezen door Klant.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Artikelidentificatiecode toegewezen door Leverancier.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Code Toegewezen om het Revisieniveau voor een Artikel te Specificeren (bijv., engineeringwijzigingsniveau, editie, of revisie).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Gecombineerde Fabrikant Identificatiecode/Artikelcode Onder de 12/13-cijferige GS1 Formaten, plus aanvullende codes, indien aanwezig.\n2020 Update: GS1 beveelt aan deze DI niet langer te gebruiken en dat gebruikers van deze DI migreren naar GS1 gegevenskwalificaties (Toepassingsidentificatoren) per ISO/IEC 15418 en ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Artikelcode Gedeelte van GS1 Formaten.\n2020 Update: GS1 beveelt aan deze DI niet langer te gebruiken en dat gebruikers van deze DI migreren naar GS1 gegevenskwalificaties (Toepassingsidentificatoren) per ISO/IEC 15418 en ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Vrachtklassificatie Artikelnummer Toegewezen door Vervoerder voor het Classificeren van Gevaarlijke Materialen (bijv., Vrachtvervoer, Lucht, Boot, Trein Classificatie).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Gecombineerde Leverancier Identificatie en Artikelcode (intern toegewezen of onderling gedefinieerd).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Common Language Equipment Identification (CLEI) toegewezen door de fabrikant aan sommige telecommunicatieapparatuur.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>14-cijferige GS1 formaat voor GTIN-14 code structuur.\n2020 Update: GS1 beveelt aan deze DI niet langer te gebruiken en dat gebruikers van deze DI migreren naar GS1 gegevenskwalificaties (Toepassingsidentificatoren) per ISO/IEC 15418 en ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Gecombineerde Fabrikant Identificatiecode (9-cijferig DUNS-nummer toegewezen door Dun &amp; Bradstreet) en de Artikelcode/Onderdeelnummer (toegewezen door de fabrikant).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Gevaarlijk Materiaal Code zoals gedefinieerd door ANSI X12.3 in het formaat Gegevenselement 208 (1-tekens code kwalificatie) gevolgd door Gegevenselement 209 (Gevaarlijk Materiaal Code).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10-tekens CLEI Code voor telecommunicatieapparatuur.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Documenttype (bijv., Picklijst, Ontwerptekening, etc.) (intern toegewezen of onderling gedefinieerd).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>VMRS Systeemcode.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>VMRS Systeem- en Assemblagecode.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>VMRS Systeem-, Assemblage- en Onderdeelcode.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>VMRS Systeem-, Assemblage- of Onderdeelcode. (Gebruiker Gewijzigd).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Gecombineerde GS1 Leverancier Identificatie en Unieke Pakketidentificatie Toegewezen door de Leverancier.\n2020 Update: GS1 beveelt aan deze DI niet langer te gebruiken en dat gebruikers van deze DI migreren naar GS1 gegevenskwalificaties (Toepassingsidentificatoren) per ISO/IEC 15418 en ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Gecombineerde VMRS leveranciers-ID en Leverancier Toegewezen Onderdeelnummer.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Component van een Artikel. (Eén product bevat in meerdere pakketten).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Eerste Niveau (Klant Toegewezen).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Tweede Niveau (Klant Toegewezen).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Derde Niveau (Klant Toegewezen).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Vierde Niveau (Klant Toegewezen).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Vijfde Niveau (Klant Toegewezen).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Identificatie van een Partij bij een Transactie Toegewezen door een Houder van een Bedrijfsidentificatienummer (CIN) en inclusief de Gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door het leverancier toegewezen onderdeelnummer dat uniek is binnen het domein van de CIN-houder.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Onderdeelnummer van Volgende Hogere Assemblage.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Commodity HTS-6 Code; Met gebruik van het formaat: 4012.11 of 4012.11.4000 (Decimaalpunt is uitdrukkelijk gecodeerd) De Geharmoniseerde Systeem (HS) Classificatie is een 6-cijferige gestandaardiseerde numerieke methode om verhandelde producten te classificeren. HS-nummers worden gebruikt door douaneautoriteiten wereldwijd om producten te identificeren voor de toepassing van rechten en belastingen. Extra cijfers worden door sommige regeringen toegevoegd aan het HS-nummer om producten in bepaalde categorieën verder te onderscheiden. In de Verenigde Staten worden nummers gebruikt om geëxporteerde producten te classificeren 'Schedule B'-nummers genoemd. Het U.S. Census Bureau beheert het Schedule B-systeem. Schedule B-nummers, niet HS-nummers, moeten worden verstrekt op de Shippers' Export Declaration (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nImportcodes worden beheerd door de U.S. International Trade Commission (USITC). http://hts.usitc.gov/\n2020 Update: de http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf link is niet langer actief. Raadpleeg de verzender voor een SED-formulier.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Ladingsnaam. Eenvoudige taalbeschrijving (Engels).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Productclassificatiecode zoals gedefinieerd met de GMDN (Global Medical Device Nomenclature - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Eerste Niveau (Leverancier Toegewezen).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Tweede Niveau (Leverancier Toegewezen).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Derde Niveau (Leverancier Toegewezen).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Vierde Niveau (Leverancier Toegewezen).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Vijfde Niveau (Leverancier Toegewezen).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Een Code Toegewezen door een Klant aan het Identificatienummer van de Fabrikant's Material Safety Data Sheet (MSDS) document dat de gebruiken, gevaren en chemische samenstelling van een gevaarlijk materiaal beschrijft.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Export Gecontroleerd Item. Onderhevig aan exportcontrole en/of beperkingen zoals geïdentificeerd in het Wassenaar Arrangement. DI gevolgd door de Alpha-2 ISO 3166 Landcode van het land dat de beperking heeft opgelegd gevolgd door Wassenaar Code (http://www.wassenaar.org/controllists/index.html).\n2020 Update: De URL is gewijzigd naar https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Fabrikant-Toegewezen Item Identificator - bestaande uit een itemnummer toegewezen door de itemfabrikant, gevolgd door een plus (+) teken, gevolgd - indien vereist om het item uniek te identificeren binnen het productassortiment van de fabrikant - door een fabrikant toegewezen itemversie.\nVoorbeeld 50PABC+6 zou itemnummer ABC, itemversie 6 vertegenwoordigen\nOPMERKING - Het itemnummer moet altijd worden gevolgd door een plusteken, zelfs als er geen itemversie aanwezig is. Dit is vereist om de ondubbelzinnige aaneenschakeling van fabrikant-toegewezen itemidentificator met een ander gegevensconstructie met behulp van het aaneenschakelingskarakter plus (+) mogelijk te maken. Bijvoorbeeld, de combinatie van een 50P fabrikant-toegewezen itemidentificator zonder itemversie en een serienummer (Gegevensidentificator S) op een entiteit kan worden gecodeerd als 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Wereldwijd Unieke Item Identificator bestaande uit de Identificatie van een partij bij een transactie toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gevolgd door een plus (+) teken, gevolgd door de Fabrikant-toegewezen itemidentificator zoals gedefinieerd met 50P\nVoorbeeld: 51PJ4LBE0431863103+ABC+ zou het item met itemnummer ABC en geen versienummer vertegenwoordigen gefabriceerd door het bedrijf met Belgisch BTW-nummer 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Kleurcode.\nKleur van een item/object geïdentificeerd door een code of term onderling overeengekomen tussen handelspartners.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Identificator voor Specifieke Maritieme Uitrusting goedgekeurd onder de Europese Unie Richtlijn voor Maritieme Uitrusting (2014/90/EU) en Uitvoeringsverordening (EU) 2018/608.\nFormaat:\n• DI (an3);\n• Type conformiteitsbeoordelingsmodule(s) uiteengezet in Bijlage II bij Richtlijn 2014/90/EU gebruikt voor de conformiteitsbeoordeling (a1);\n• Aangemelde instantie (NB) identificatienummer toegewezen door de Commissie in overeenstemming met punt 3.1 van Bijlage IV bij Richtlijn 2014/90/EU (n4);\n• Certificaat (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Unique Device Identification - Apparaat Identificator) voor Medische Hulpmiddelen (MD) en In-vitro-Diagnostica (IvD) als de unieke sleutel naar openbare UDI-databanken (GUDID, EUDAMED, etc.), volgens nationale regelgevende vereisten, zoals uiteengezet door het International Medical Device Regulators Forum (IMDRF). Alle afdrukbare tekens van de UTF-8 tekenset zijn toegestaan.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>DNV certificatie referentie. Geeft aan dat de gegevens een referentie bevatten naar een productcertificaat/verificatieverklaring/rapport, uitgegeven door DNV. Gegevensidentificator moet worden gevolgd door de letters "NV" en certificaatnummer. Wanneer certificaatnummer een postfix heeft, moet dit worden opgenomen in de gegevensstroom door gebruik te maken van het "-" scheidingsteken. Revisie-indicatoren mogen niet worden verstrekt.\nVoorbeelden:\n1. 55PNVXXXXXXX, waarbij 55P de gegevensidentificator is, XXXXXXX is DNV Certificaatnummer.\n2. 55PNVXXXXXXX-Y, waarbij 55P de gegevensidentificator is, XXXXXXX-Y is DNV Certificaatnummer met postfix Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Hoeveelheid, Aantal Stukken, of Bedrag (alleen numeriek) (eenheid van maat en betekenis onderling gedefinieerd).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Theoretische Lengte/Gewicht (alleen numeriek).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Daadwerkelijk Gewicht (alleen numeriek).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Meet Eenheid, zoals gedefinieerd door de twee tekens ANSI X12.3 Gegevenselement Nummer 355 Meetcode.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Bruto Bedrag.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Netto Bedrag.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Waar Meerdere Containers een Enkel Product Vormen (de inhoud van elke container moet worden gecombineerd met de inhoud van de andere containers om een enkel product te vormen) moet de Gegevensidentificator '6Q' worden gebruikt om de verschillende containers te koppelen. Het formaat # van # ('dit is het nth stuk van x stukken om het product te definiëren') Gepresenteerd in het formaat 'n/x', waarbij de '/' (slash) wordt gebruikt als scheidingsteken tussen twee waarden.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Hoeveelheid, Bedrag, of Aantal Stukken in het formaat: Hoeveelheid gevolgd door de twee tekens ANSI X12.3 Gegevenselement Nummer 355 Meetcode.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Container Nominale Gewicht\nFabrikant-toegewezen gewicht draagvermogen van de container. Toegewezen op het moment van fabricage. Meet eenheid is kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Stukgewicht\nGewicht van een enkel item.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Taragewicht: gewicht van een lege container.\nContainer lichaamsgewicht.\nFabrikant-toegewezen gewicht van de lege container. Toegewezen op het moment van fabricage. Meet eenheid is kg (Taragewicht).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Monetair Waarde vastgesteld door de Leverancier in het formaat van: de waarde gevolgd door een ISO 4217 gegevenselementcode voor het vertegenwoordigen van eenheid van waarde van valuta's en fondsen (bijv., 12Q2.50USD) (2.50 Monetair Waarde in USA Dollars) betekenis onderling gedefinieerd.\nInvoerwaarde;\nWaarde gevolgd door een ISO 4217 gegevenselementcode voor het vertegenwoordigen van eenheid van waarde van valuta's en fondsen (bijv., 12Q2.50USD) (2.50 Monetair Waarde in USA Dollars)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># van # ('dit is het nth stuk van x stukken in deze zending').\nGepresenteerd in het formaat 'n/x', waarbij de '/' (slash) wordt gebruikt als scheidingsteken tussen twee waarden.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Begin Secundaire Hoeveelheid.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Einde Secundaire Hoeveelheid.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Aantal Stukken in Van.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Aantal Zendingen in Van.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Kubus uitgedrukt in kubieke meters of kubieke voeten gevolgd door de ANSI X12.3 gegevenselementnummer 355 meetcode (CR of CF). Geen geïmpliceerd decimaalteken.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Breedte uitgedrukt in lineaire meters of lineaire voeten gevolgd door de ANSI X12.3 gegevenselementnummer 355 meetcode (LC of LF). Geen geïmpliceerd decimaalteken.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Hoogte uitgedrukt in lineaire meters of lineaire voeten gevolgd door de ANSI X12.3 gegevenselementnummer 355 meetcode (LC of LF). Geen geïmpliceerd decimaalteken.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Lengte uitgedrukt in lineaire meters of lineaire voeten gevolgd door de ANSI X12.3 gegevenselementnummer 355 meetcode (LC of LF). Geen geïmpliceerd decimaalteken.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Netto Gewicht Van Zending uitgedrukt in ponden of kilogrammen (kilo's) gevolgd door de ANSI X12.3 gegevenselementnummer 355 meet eenheid (LB of KG). Geen geïmpliceerd decimaalteken.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Lengte Van Van uitgedrukt in lineaire meters of lineaire voeten gevolgd door de ANSI X12.3 gegevenselementnummer 355 meet eenheid (LC of LF). Geen geïmpliceerd decimaalteken.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Binnenkubus van een Van uitgedrukt in kubieke meters of kubieke voeten gevolgd door de ANSI X12.3 gegevenselementnummer 355 van meetcode (CR of CF). Geen geïmpliceerd decimaalteken.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Net Explosief Gewicht (een berekende waarde van explosieve equivalent uitgedrukt in pond TNT). De maat van NEW wordt internationaal gebruikt voor explosieve veiligheid afstandsboogberekeningen. Geen geïmpliceerd decimaalteken.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Verpakkingsniveau, specificerend het hiërarchische niveau van verpakking in overeenstemming met HIBC (Health Industry Bar Code) specificaties.</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Enkele Product Prijs Waarde, Netto, '.' (punt) gebruikt als decimaalteken (bijv. 27Q1000.5 voor de prijswaarde van 1000.50).\nStructuur: an3+an1...20\n &lt;DI&gt;&lt;prijs waarde&gt;.\nTekenset: 0 tot 9, punt (ISO 646 ASCII waarde decimaal 46, hexadecimaal 2E).\nVoorbeeld van codering met een netto prijswaarde van 1000:\n27Q1000.\nVoorbeeld van codering met een netto prijswaarde van 1000.50:\n27Q1000.5.\nOPMERKING - Als valuta vereist is, kan deze worden genomen van een ander gegevenselement gebruikt in dezelfde code, bijv. 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Enkele Prijs Laadwaarde Voor Postage En Verpakking, '.' (punt) vertegenwoordigt de positie van een komma (bijv. 30Q100.50 voor de waarde van 100,50).\nStructuur: an3+an1...10\n &lt;DI&gt;&lt;prijs waarde&gt;.\nTekenset: 0 tot 9, punt.\nVoorbeeld van codering met een porto &amp; verpakking waarde van 100:\n30Q100.\nVoorbeeld van codering met een porto &amp; verpakking waarde van 100,50:\n30Q100.50.\nOPMERKING - Als valuta vereist is, kan deze worden genomen van een ander gegevenselement gebruikt in dezelfde code, bijv. 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Kortingspercentage, '.' (punt) vertegenwoordigt de positie van een komma (bijv. 31Q8.5 voor een korting waarde van 8,5%).\nStructuur: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;kortingspercentage (%)&gt;.\nTekenset: 0 tot 9, punt\nVoorbeeld van codering met een kortingspercentage van 10%:\n31Q10.\nVoorbeeld van codering met een kortingspercentage van 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>BTW Percentage, '.' (punt) vertegenwoordigt de positie van een komma (bijv. 27Q8.5 voor de BTW waarde van 8.5%).\nStructuur: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;BTW percentage (%)&gt;.\nTekenset: 0 tot 9, punt.\nVoorbeeld van codering met een BTW percentage van 10%:\n27Q19.\nVoorbeeld van codering met een BTW percentage van 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Valuta, ISO 4217 valutacode.\nStructuur: an3+an3\n &lt;DI&gt;&lt;Valuta, bijv. EUR&gt;.\nTekenset: A-Z, 0 tot 9.\nVoorbeeld van codering met ISO alfabetische code van US Dollar:\n31QUSD.\nVoorbeeld van codering met ISO alfabetische code van EURO:\n31QEUR.\nVoorbeeld van codering met ISO numerieke code van EURO:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Klinische termcode zoals gedefinieerd met de klinische nomenclatuur: "De internationale standaard voor het identificeren van gezondheidsmetingen, observaties, en documenten - LOINC" (https://loinc.org), in de volgende volgorde: &lt;DI&gt;&lt;LOINC Code&gt;&lt;Plus Teken&gt;&lt;Waarde&gt;. De eenheid en formaat van de Waarde wordt gedefinieerd door de LOINC Code.\nVoorbeeld: 32Q28903-3+60 = LOINC Code 28903-3: Linker contactlens As (graden); met Waarde = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Retourautorisatiecode (RMA) toegewezen door de Leverancier</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Retourcode Toegewezen door de Klant</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>U.S. Department of Defense Identificatiecode (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Gegevens in het formaat en met de semantiek gedefinieerd door de houder van een Bedrijfsidentificatienummer (CIN) dat is uitgegeven door een Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459, gedefinieerd als een reeks van aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door het scheidingsteken ':' (dubbele punt) gevolgd door de gegevens in het formaat en met de semantiek zoals gedefinieerd door de CIN-houder.\nOPMERKING - Alleen de gegevenssyntaxisregels (indien aanwezig) zoals verstrekt door de verklaarde IAC+CIN binnen elke DI '5R' gegevensstroom zullen worden toegepast op de gegevens volgend op DI 5R+IAC+CIN.4.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 digitale handtekening gegevensconstructie. Als de onderliggende gegevensdragercodering 7 bits is, mag alleen het ISO/IEC 20248 ruwe formaat worden gebruikt.\nVoorbeeld met een URL-formaat:\n&lt;6R&gt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO\nVoorbeeld met een ruw formaat:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nEen ISO/IEC 20248 gegevensstructuur bevat een digitale handtekening die wordt gebruikt om de gespecificeerde gegevenselementen van de gegevensbericht te verifiëren. De waarde van 6R, als de eerste parameter, en de gegevenselementen die moeten worden geverifieerd (gestript van alle niet-afdrukbare tekens), als de tweede parameter, wordt doorgegeven aan de ISO/IEC 20248 DecoderVerifier - die het verificatieresultaat zal teruggeven: ACCEPTEREN, AFKEUREN of FOUT(foutcode), en het JSON-object van gedecodeerde ISO/IEC 20248 aanvullende velden. De ISO/IEC 20248 gegevensstructuur kan aanvullende velden en instructies bevatten om een of meer berichten van gegevenselementen te decoderen en te verifiëren. Deze instructies zullen worden verwerkt door de ISO/IEC 20248 DecoderVerifier.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Aquatic Sciences and Fisheries Information System (ASFIS) 'Inter-agency 3-alfaspeciescode', onderhouden door de Voedsel- en Landbouworganisatie van de Verenigde Naties (www.fao.org, zoek dan naar 'ASFIS').\nVoorbeelden;\n7RMUC = Modderkarper;\n7RPCD = Australische zoetwaterharing;\n7RWSH = Grote witte haai.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Food and Agricultural Organisation (FAO) Internationale Standaardclassificatie van Visserijgereedschappen (ISSCFG) code. (www.fao.org)\nAlle tekens van de door GS1 Algemene Specificatie gedefinieerde subset van ISO/IEC 646 zijn toegestaan.\nVoorbeelden:\n8R02.1.0 = Strandzegens;\n8R03.1.5 = Garnalentrawls;\n8R05.1.0 = Draagbare hefnetten.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Productiemethode voor vis en zeevruchten zoals gespecificeerd door de Visserij- en Aquacultuurafdeling van de Voedsel- en Landbouworganisatie (FAO) van de Verenigde Naties, volgens EU-verordening 1379/2013. (www.fao.org).\nAlle tekens van de door GS1 Algemene Specificatie gedefinieerde subset van ISO/IEC 646 zijn toegestaan.\nVoorbeelden;\n9R01 = Gevangen op zee;\n9R02 = Gevangen in zoet water;\n9R03 = Gekweekt.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Serienummer of Code Toegewezen door de Leverancier aan een Entiteit voor zijn Levensduur, (bijv., computer serienummer, traceerbaarheidsnummer, contractgereedschap identificatie)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Aanvullende Code Toegewezen door de Leverancier aan een Entiteit voor zijn Levensduur (bijv., traceerbaarheidsnummer, computer serienummer)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Advance Shipment Notification (ASN) Zending ID (SID) komt overeen met ANSI ASC X12 Gegevenselement 396</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Unieke Pakketidentificatie Toegewezen door Leverancier (laagste niveau van verpakking dat een pakket ID-code heeft; moet gelijke items bevatten)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Pakketidentificatie Toegewezen door Leverancier aan hoofdverpakking die gelijke items bevat op een enkele klantenbestelling</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Pakketidentificatie Toegewezen door Leverancier aan hoofdverpakking die ongelijke items bevat op een enkele klantenbestelling</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Pakketidentificatie Toegewezen door Leverancier aan hoofdverpakking die gelijke items bevat over meerdere klantenbestellingen</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Pakketidentificatie Toegewezen door Leverancier aan hoofdverpakking die ongelijke items bevat over meerdere klantenbestellingen</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Leverancier ID/Unieke Container ID gepresenteerd in het gegevensformaat gespecificeerd door de GS1 SSCC-18\n2020 Update: Raadpleeg de GS1 Algemene Specificaties met betrekking tot de meest recente versie van SSCC.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Pakketidentificatie, Generiek (onderling gedefinieerd)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Machine, Cel, of Gereedschaps ID Code</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Vaste Activa ID Code</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Documentnummer (intern toegewezen of onderling gedefinieerd)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Container Beveiligingszegel</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>4e Klasse Niet-identieke pakketpost manifestatie</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Serienummer Toegewezen door de Verkopende Entiteit, dat alleen kan worden gebruikt in combinatie met '13V'</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Versienummer, bijv., Softwareversie</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Gecombineerde 6-cijferige GS1 Leverancier Identificatie en Unieke Pakketidentificatie Toegewezen door de Leverancier\n2020 Update: GS1 beveelt aan deze DI niet langer te gebruiken en dat gebruikers van deze DI migreren naar GS1 gegevenskwalificaties (Toepassingsidentificatoren) per ISO/IEC 15418 en ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>CAGE Code &amp; Serienummer Uniek Binnen CAGE</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Gecombineerde Dun &amp; Bradstreet bedrijfsidentificatie van de leverancier gevolgd door een unieke pakketidentificatie toegewezen door de leverancier, in het formaat nn...nn+nn...n waarbij een plusteken (+) wordt gebruikt als scheidingsteken tussen het DUNS-nummer en unieke pakketidentificatie</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Traceerbaarheidscode voor een Entiteit Toegewezen door de Klant</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Band Identificatienummer zoals gedefinieerd door het U.S. Department of Transportation (D.O.T) onder U.S. Code 49 CFR 574.5.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Unieke Individuele Identiteit voor Mobiele Telefoons</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Media Access Control (MAC) Adres in overeenstemming met IEEE 802.11</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Volgens ISO/IEC 15963 (waarde is een conversie van de bitwaarde naar 8-bits ASCII-waarden). Deze Gegevensidentificator kan mogelijk elke ASCII-256 waarde aannemen. Voor vrachtcontainertags is de Registratieautoriteit (RA) voor fabrikanten de RA voor ISO 14816. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Identificatie van een partij bij een transactie toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door het leverancier toegewezen serienummer dat uniek is binnen het domein van de CIN-houder (Zie Bijlage C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Apparatuur Identificator, zijnde een wereldwijd unieke identificator voor een apparaat, een item van apparatuur of instantie van een computerapplicatie gebruikt in de productie, transport, verwerking of andere afhandeling van items, dat is opgebouwd door het aaneenschakelen van:\n - een ISO/IEC 15459 uitgevende instantiecode;\n - een apparatuurnummer dat voldoet aan de specificaties van de betreffende uitgevende instantie; en dat:\n - uitsluitend bestaat uit hoofdletters alfabetische en/of numerieke tekens;\n - uniek is (dat wil zeggen, verschilt van elke andere ISO/IEC 15459 conforme identificator) binnen het domein van de uitgevende instantie;\n - niet kan worden afgeleid van een andere ISO/IEC 15459 conforme identificator, uitgegeven onder dezelfde uitgevende instantie, door eenvoudigweg tekens toe te voegen aan, of te verwijderen uit, het einde ervan.\nLezer ID.\nApparatuur identificator, zijnde een wereldwijd unieke identificator voor een apparaat, een item van apparatuur of instantie van een computerapplicatie gebruikt in de productie, transport, verwerking of andere afhandeling van items.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Artikelnummer Binnen Partij, zijnde een reeks numerieke cijfers:\n - die een item, binnen een identificeerbare partij van gerelateerde items, uniek onderscheidt van alle andere items in dezelfde partij;\n - waarvan de lengte hetzelfde is voor alle items binnen de betreffende partij.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Partij-en-Artikelnummer, zijnde de aaneenschakeling van een gegevensidentificator 27T partijnummer en de gegevensidentificator 27S artikelnummer van een item behorend tot de betreffende partij.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Aanvullende Traceerbaarheidscode voor een Entiteit Toegewezen door de Leverancier naast of verschillend van de traceerbaarheidscodes verstrekt door 'S' of '1S'</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Begin Serienummer voor serienummers in volgorde</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Einde Serienummer voor serienummers in volgorde</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Serienummer van Volgende Hogere Assemblage</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Serienummer of Onderdeelnummer van Einditem</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Bumpernummer (Gebruikt in Eenheid DOD Verplaatsing)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Palletidentificator (Gebruikt voor geladen 463L luchtpallets)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Unieke Item Identificator bestaande uit een reeks van 5 gegevenselementen: 'IAC', gevolgd door 'CIN', gevolgd door 'Onderdeelnummer (PN)', gevolgd door het '+' teken, gevolgd door het leverancier toegewezen (of beheerd) 'Onderdeel Serienummer (PSN)' dat wereldwijd uniek is binnen het domein van de CIN-houder; in het formaat IAC CIN PN + PSN (ruimtes voorzien voor visuele duidelijkheid alleen; ze maken geen deel uit van de gegevens). Zie Bijlage C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Unieke Item Identificator (UII) in 25S formaat voorafgegaan door numerieke waarde die serienummerelementlengte aangeeft voor gebruik door systemen die het 'serienummer' component van een samengesteld Serienummerelement (IAC+CIN+SN) vereisen Formaat: DI+LI+IAC+CIN+SN (LI=lengte van SN)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Geïntegreerde Circuitkaart Identificator (ICCID) in overeenstemming met ITU-T Aanbeveling E.118 en ETSI Aanbeveling GSM 11.11; maximaal 20 cijfers bestaande uit Uitgever identificatienummer (IIN; maximaal 7 cijfers), Individuele accountidentificatie (variabel; lengte bepaald door IIN, maar dezelfde lengte binnen individuele IINs), Controlecijfer (enkel cijfer berekend met behulp van Luhn-algoritme\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = accountidentificatie, c = controlecijfer)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Eerste Niveau (Leverancier Toegewezen)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Tweede Niveau (Leverancier Toegewezen)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Derde Niveau (Leverancier Toegewezen)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Vierde Niveau (Leverancier Toegewezen)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Vijfde Niveau (Leverancier Toegewezen)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC-nummer (Typisch Geserialiseerd Globaal Handelsidentificatienummer - SGTIN)\n2020 Update: De term "EPC-nummer" wordt niet langer gebruikt door GS1. Raadpleeg de GS1 Algemene Specificaties en de Tag Data Standard voor de huidige terminologie</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Versleuteld serienummer toegewezen door de Leverancier aan een entiteit, dat kan worden geverifieerd door een onafhankelijke vertrouwde derde partij. Het versleutelde serienummer beschrijft geen parameters van de entiteit zonder decryptie door een onafhankelijke derde partij.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>Het 'AMPERSAND'-teken. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Containertype (intern toegewezen of onderling gedefinieerd).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Traceerbaarheidsnummer toegewezen door de Klant om een unieke groep entiteiten te identificeren/volgen (bijv., partij, batch, warmte).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Traceerbaarheidsnummer toegewezen door de Leverancier om een unieke groep entiteiten te identificeren/volgen (bijv., partij, batch, warmte).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Exclusieve Toewijzing (U.S. EPA voertuigidentificatie voor emissietesten).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Retourneerbare Container Identificatiecode toegewezen door de containereigenaar of de betreffende regelgevende instantie (bijv., een metalen kuip, mand, haspel, eenheidsladingapparaat (ULD), aanhangwagen, tank, of intermodale container) (sluit gasflessen uit Zie '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Gasfles Container Identificatiecode toegewezen door de fabrikant in overeenstemming met U.S. Department of Transportation (D.O.T.) normen.</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Eerste Niveau (Klant Toegewezen).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Tweede Niveau (Klant Toegewezen).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Derde Niveau (Klant Toegewezen).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Vierde Niveau (Klant Toegewezen.</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Vijfde Niveau (Klant Toegewezen.</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Identificatie van een partij bij een transactie toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door het leverancier toegewezen traceerbaarheidsnummer dat uniek is binnen het domein van de CIN-houder.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Partij-identificator bestaande uit de aaneenschakeling van ofwel:\n - een gegevensidentificator 26S mailverwerkingsapparatuur identificator, of\n - een gegevensidentificator 20K licentie-identificator, of\n - een gegevensidentificator 18V partij-identificator die:\n - onderscheidend is van elke andere ISO/IEC 15459 conforme identificator binnen het domein van de betreffende uitgevende instantie;\n - niet kan worden afgeleid van een andere partij-identificator of een andere ISO/IEC 15459 conforme identificator, uitgegeven onder dezelfde uitgevende instantie, door eenvoudigweg tekens toe te voegen aan, of te verwijderen uit, het einde ervan;\n met een gegevensidentificator 27T partijnummer, de twee gescheiden door een streepje (-) teken.</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Partijnummer, uitgegeven onder controle van een geïdentificeerde partij of eenheid van verwerkingsapparatuur, of onder de voorzieningen van een geïdentificeerde licentie, dat:\n - een partij van gerelateerde items uniek onderscheidt van alle andere partijen waaraan een partijnummer is toegewezen door de betreffende partij of apparatuur, of onder de licentie;\n - bestaat uit een reeks van maximaal 10 tekens, waarvan het eerste (numerieke) teken het aantal volgende tekens aangeeft, elk genomen uit de set .</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Motorvracht Transportuitrusting Identificatiecode toegewezen door de fabrikant in overeenstemming met Internationale Organisatie voor Standaardisatie (ISO) normen.</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Eerste niveau (toegewezen door leverancier).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Tweede niveau (toegewezen door leverancier).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Derde niveau (toegewezen door leverancier).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Vierde niveau (toegewezen door leverancier).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Vijfde niveau (toegewezen door leverancier).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Standaard Carrier Alfa Code (SCAC) (4 alfanumerieke karakters) en een optioneel door de vervoerder toegewezen aanhangwagernummer (één tot tien alfanumerieke karakters). Indien gebruikt, wordt het door de vervoerder toegewezen aanhangwagernummer van de SCAC gescheiden door een streepje '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Ontvangstmiddel Activa Nummer - Bestaande uit twee samengevoegde delen:\n- Identificatie van een organisatie in overeenstemming met ISO/IEC 15459 en een unieke entiteitsidentificatie toegewezen volgens de regels vastgesteld door de uitgevende instantie.\n- Een uniek serienummer toegewezen door de entiteit, eindigend met een 3-karakter containertype code genomen uit EDIFACT Code Lijst 8053 of UPU standaard M82-3. (Als de containertype code minder dan drie karakters lang is, wordt het veld links opgevuld met een streepje '-' tot de lengte van drie karakters).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Containernummer.\nVolgens ISO 6346. OC EI CSN CD, waarbij OC de drieletterige eigenaarscode is toegewezen in samenwerking met BIC, EI de éénletterige uitrustingscategorie-identificator, CSN een 6-cijferige unieke containeridentificatie toegewezen door de eigenaar van de uitrusting, en CD een modulus 11 controlecijfer berekend in overeenstemming met Bijlage A, ISO 6346.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Identificatie van een retourneerbare containereigenaar toegewezen in samenwerking met BIC.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Containertype/Grootte Code.\nVolgens ISO 6346, Sectie 4.2.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Eigendomscode van de container. Daadwerkelijke vierkarakter afkorting gemarkeerd op de container door de eigenaar. Voor door DOD eigendom containers zie Defense Transportation Regulation App EE-6.\n2020 Update: databron referentie bijgewerkt naar de Defense Transportation Regulation, Deel II, App TT gelegen op:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Van nummer (volledig nummer minus controlecijfer).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Controlecijfer van Van Nummer geïdentificeerd in 11B.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Containernummercode (laatste 5 cijfers van nummer niet tellend controlecijfer).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Tagstatus.\nY=Geautoriseerd / N=Niet geautoriseerd.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Gevaarlijke Goederen Klasse.\nIMDG Klasse in het formaat 'n.na' waar n = numeriek, decimaal punt uitdrukkelijk gecodeerd, en a = voorwaardelijke alfabetische kwalificatie. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>UN-code voor gevaarlijke goederen.\nVoor gevaarlijke lading geleverd door de verzender in overeenstemming met UN-code.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\n2020 Update: URL gewijzigd naar http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Naam van vervoersobject.\nNaam van het schip of voertuigcode/treinreisnummer in het Engels.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Registratienummer van het schip.\nDe drie letters 'IMO' gevolgd door het zeven-cijferige nummer toegewezen aan alle schepen door IHS Fairplay bij constructie. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Reisnummer/Tripnummer.\nLetter en nummer.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Vlaggenland van het schip.\nISO 3166-1 Alpha 2 Code.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Gereserveerd voor Elektronische Zegelnummers.\nBestaande uit de 18185-1 zegeltag-ID - 32 bits en de ISO 14816 16-bits fabrikanten-ID (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Invoernummer/Type.\nBestaande uit de driecijferige expediteurcode, gevolgd door het zevencijferige invoernummer, en afgerond met het één cijferige controlecijfer. Invoer Expediteurcode vertegenwoordigt de drie-karakter alfanumerieke expediteurcode toegewezen aan de expediteur of importeur door CBP. Invoernummer vertegenwoordigt het zevencijferige nummer toegewezen door de expediteur. Het nummer kan op elke handige manier worden toegewezen, mits hetzelfde nummer niet aan meer dan één CBP Formulier 7501 wordt toegewezen. Voorloopnullen moeten worden getoond. Controlecijfer wordt berekend op de voorgaande 10 karakters. De formule voor het berekenen van het controlecijfer is te vinden in Bijlage 1, CBP 7501 Instructies.\nInvoertype is een tweecijferige code conform Blok 2, CBP 7501 Instructies.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Borgnummer.\nDe driecijferige numerieke code die de borgmaatschappij op de Douaneborg identificeert. Deze code is te vinden in blok 7 van het CBP Formulier 301, of is beschikbaar via het geautomatiseerde systeem van CBP voor ABI-indieners, via de importeurborgquerytransactie. Voor importaties van de Amerikaanse overheid en invoertypes die geen borg vereisen, moet code 999 in dit blok verschijnen. Wanneer contant geld of overheidseffecten worden gebruikt in plaats van een borg, gebruik code 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Buitenlandse Haven van Lading.\n'Schedule K' (Classificatie van Buitenlandse Havens per Geografisch Handelsgebied en Land) voor de buitenlandse haven waar de goederen daadwerkelijk aan boord van het schip zijn geladen dat de goederen naar de VS vervoerde. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\n2020 Update: URL gewijzigd naar: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Identificatie van een Partij bij een Transactie zoals gedefinieerd in ISO 17364, toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door het RTI serienummer dat uniek is binnen het domein van de CIN-houder.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Unieke Retourneerbare Transport Item Identificator bestaande uit een reeks van 5 gegevenselementen: 'IAC', gevolgd door 'CIN', gevolgd door 'RTI Nummer' (RTIN), gevolgd door het '+' teken, gevolgd door het door de leverancier toegewezen (of beheerde) 'RTI Serienummer' (RTISN) dat wereldwijd uniek is binnen het domein van de CIN-houder; in het formaat IAC CIN RTIN + RTISN (spaties toegevoegd voor visuele duidelijkheid; ze maken geen deel uit van de gegevens). Zie Bijlage C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Wereldwijd Unieke Asset Identificator van een Grote Laadcarrier (LLC) Retourneerbaar Transport Item (RTI) met een zijbasis van = 1000 mm, zoals gedefinieerd in ISO 17365:2013, tertiaire verpakking, laag 3 bestaande uit een reeks van 5 gegevenselementen: 'IAC', gevolgd door 'CIN', gevolgd door RTI Type Code 'RTITC', gevolgd door het '+' teken, gevolgd door het door de eigenaar toegewezen (of beheerde) RTI Serienummer 'RTISN' dat wereldwijd uniek is binnen het domein van de CIN-houder in het formaat IAC CIN RTITC + RTISN (spaties toegevoegd voor visuele duidelijkheid; ze maken geen deel uit van de gegevens).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Wereldwijd Unieke Asset Identificator van een Kleine Laadcarrier (SLC) Retourneerbaar Transport Item met een zijbasis van &lt; 1000 mm, zoals gedefinieerd in ISO 17364:2013 (RTI), tertiaire verpakking, laag 2 bestaande uit een reeks van 5 gegevenselementen: 'IAC', gevolgd door 'CIN', gevolgd door RTI Type Code 'RTITC', gevolgd door het '+' teken, gevolgd door het door de eigenaar toegewezen (of beheerde) RTI Serienummer 'RTISN' dat wereldwijd uniek is binnen het domein van de CIN-houder in het formaat IAC CIN RTITC + RTISN (spaties toegevoegd voor visuele duidelijkheid; ze maken geen deel uit van de gegevens).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Wereldwijd Unieke Retourneerbare Verpakking Item (RPI) identificator van de categorie verpakkingshulp (deksel, blister, inleg, ...) bestaande uit een reeks van 5 gegevenselementen: 'IAC', gevolgd door 'CIN', gevolgd door 'RPI Nummer' RPIN, gevolgd door het '+' teken, gevolgd door het door de eigenaar toegewezen (of beheerde) 'RPI Serienummer' RPISN dat wereldwijd uniek is binnen het domein van de CIN-houder in het formaat IAC CIN RPIN + RPISN (spaties toegevoegd voor visuele duidelijkheid; ze maken geen deel uit van de gegevens).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Verpakkingsitemnummer.\nNummer om het type verpakkingsitem (materiaal) te identificeren dat wordt gebruikt bij het verpakken van producten en pakketten.\nHet nummer maakt het mogelijk verpakkingsitems (materialen) te identificeren en te scheiden van producten, pakketten, Retourneerbare Transport Items (RTI's) en Retourneerbare Verpakkingsitems (RPI's) tijdens het verpakken.\nHet nummer wordt geconstrueerd als een reeks van minimaal 1 gegevenselement:\nVerpakkingsitem (materiaal) nummer dat uniek is binnen het domein van de houder.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Wereldwijd Uniek Verpakkingsnummer\nWereldwijd uniek nummer om het type verpakkingsitem (materiaal) te identificeren dat wordt gebruikt bij het verpakken van producten en pakketten.\nHet wereldwijd unieke nummer maakt het mogelijk verpakkingsitems (materialen) te identificeren en te scheiden van producten, pakketten, Retourneerbare Transport Items (RTI's) en Retourneerbare Verpakkingsitems (RPI's) tijdens het verpakken.\nHet nummer wordt geconstrueerd als een reeks van 3 aaneengeschakelde gegevenselementen:\nDe IAC, gevolgd door de CIN, gevolgd door het Verpakkingsitem (materiaal) nummer dat uniek is binnen het domein van de CIN-houder.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Wereldwijd Unieke Retourneerbare Verpakkingsitem (RPI) zoals gedefinieerd in ISO 17364, toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door het RPI serienummer dat uniek is binnen het domein van de CIN-houder.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Specificatie van een postdienst en bijbehorende procesgegevens in overeenstemming met UPU standaard S25 gegevensconstruct 'Servicegegevens'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Licentiepostgegevens, in overeenstemming met de specificatie in UPU standaard S25.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Specificatie van aanvullende postdienst en bijbehorende procesgegevens in overeenstemming met UPU standaard S25 gegevensconstruct 'Aanvullende Servicegegevens'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Postadministratie Identificaties, zijnde de identificatie, uitgedrukt in overeenstemming met de specificatie in UPU standaard S25, van één of meerdere postadministraties betrokken bij de verwerking van een poststuk of partij.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>UPU Locatiecode, zijnde een code die een locatie of geografisch gebied identificeert, of een bijbehorende groep van dergelijke locaties of gebieden, die relevant is voor een gerelateerde transactie en die voldoet aan een van de structuren gedefinieerd in a) tot g) hieronder:\na) twee hoofdletters corresponderend met de ISO 3166-1 twee alfabetische landcode van het land waarin, of bestaande uit welke, de locatie(s) of gebied(en) zich bevinden;\nb) drie hoofdletters corresponderend met de IATA-code van de luchthaven of stad in, dicht bij, of bestaande uit welke de locatie(s) of gebied(en) zich bevinden;\nc) vier of meer karakters waarvan de eerste drie overeenkomen met een ISO 3166-1 landcode gevolgd door een streepje (-), met het saldo zijnde een postcode in het betreffende land;\nd) vier of meer karakters waarvan de eerste drie overeenkomen met een ISO 3166-1 landcode gevolgd door een punt (.), met het saldo zijnde een ISO 3166-2 landsdeelcode in het betreffende land;\ne) vijf hoofdletters corresponderend met de UN/LOCODE van het gebied in, dicht bij, of bestaande uit welke, de locatie(s) of gebied(en) zich bevinden;\nf) zes hoofdletter alfanumerieke karakters corresponderend met een UPU IMPC-code toegewezen in overeenstemming met UPU standaard S34;\ng) de concatenatie, zijnde niet minder dan zeven noch meer dan 25 karakters in lengte, van:\n - een uitgever code toegewezen in overeenstemming met UPU standaarden S31;\n - een locatiecode, bestaande uit karakters getrokken uit de set {A-Z; 0-9} die overeenkomt met de specificaties van de uitgever in kwestie.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Gekwalificeerde UPU Locatiecode, concatenatie van:\n - een locatiecategorie getrokken uit UPU-codelijst 139;\n - een data-identificator 17U UPU locatiecode.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Kentekenplaat met Servicedata en Locatiecode is een samengestelde gegevensconstructie, in overeenstemming met de specificatie in UPU standaard S25, die specificatie omvat van:\n - een ISO/IEC 15459-conforme itemidentificator;\n - een data-identificator 5U conforme specificatie van de te verlenen dienst met betrekking tot het item;\n - een data-identificator 17U conforme UPU locatiecode of een data-identificator 18U conforme gekwalificeerde UPU locatiecode.\n Let op - Voor verdere details, raadpleeg UPU standaard S25. Het onderscheid tussen een eenvoudige UPU locatiecode (DI 17U) en een gekwalificeerde UPU locatiecode (DI 18U) kan worden bepaald uit het eerste karakter. Als dit numeriek is, is 18U van toepassing; als het alfabetisch is, geldt 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>OCR Data Locator.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Leverancierscode toegewezen door klant.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Leverancierscode toegewezen door leverancier.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>U.P.C. Bedrijfsprefix.\n2020 Update: GS1 raadt af dit DI te gebruiken en gebruikers van dit DI over te stappen op GS1 datakwalificaties (Application Identifiers) per ISO/IEC 15418 en ISO/IEC 15459-3.\nVolgens GS1 wordt de term "U.P.C." niet langer gebruikt en de metadata (an2+n8) is niet langer correct. GS1 raadt af dit DI te gebruiken voor toekomstige toepassingen.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>GS1 Bedrijfsprefix.\n2020 Update: GS1 raadt af dit DI te gebruiken en gebruikers van dit DI over te stappen op GS1 datakwalificaties (Application Identifiers) per ISO/IEC 15418 en ISO/IEC 15459-3.\nVolgens GS1 is de metadata (an2+n9) niet langer correct. GS1 raadt af dit DI te gebruiken voor toekomstige toepassingen.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Vervoerdersidentificatiecode toegewezen door een industriestandaard onderling gedefinieerd door de leverancier, vervoerder en klant.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Financiële Instelling Identificatiecode (onderling gedefinieerd).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Fabrikantenidentificatiecode (onderling gedefinieerd.</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Code toegewezen aan een partij die financiële aansprakelijkheid heeft voor een entiteit of groep van entiteiten (bijv., eigenaar van voorraad) (onderling gedefinieerd).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Klantencode toegewezen door de klant.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Klantencode toegewezen door de leverancier.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Fabrikanten-ID\nLET OP - Zie Bijlage 2, CBP 7501 Instructies.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Organisatie met budgetverantwoordelijkheid voor een entiteit, proces of procedure (bijv., winkel, divisie, afdeling)(intern toegewezen).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>DUNS-nummer Identificerende Fabrikant.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>DUNS-nummer Identificerende Leverancier.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>DUNS-nummer Identificerende Klant.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Door vervoerder toegewezen verzendernummer.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>VMRS Leveranciers-ID.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>U.S. DoD CAGE Code.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Identificatie van een partij bij een transactie waarbij het gegevensformaat bestaat uit twee aaneengeschakelde segmenten. Het eerste segment is de Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459, het tweede segment is een unieke entiteitsidentificatie Bedrijfsidentificatienummer (CIN) toegewezen volgens de regels vastgesteld door de uitgevende instantie (zie http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Specificatie van de rol(len) van een partij, bij een transactie, bestaande uit één of meer code waarden uit EDIFACT Code Lijst 3035 'Party Qualifier', gescheiden door plus (+) karakters (Nooit te concatenaten met andere DIs in een lineair symbool of andere media waar het concatenatieteken een plus (+) karakter is).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Identificatie van een partij bij een transactie toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door een plus (+) karakter gevolgd door één of meer code waarden uit EDIFACT Code Lijst 3035 'Party Qualifier', gescheiden door plus (+) karakters (Nooit te concatenaten met andere DIs in een lineair symbool of andere media waar het concatenatieteken een plus (+) karakter is).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Identificatie van een partij bij een transactie, bijv., 21V IAC CIN OSU, toegewezen door een houder van een Bedrijfsidentificatienummer (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als een reeks van 3 aaneengeschakelde gegevenselementen: IAC, gevolgd door CIN, gevolgd door de organisatorische subeenheid identificatie toegewezen door de CIN die uniek is binnen het domein van de CIN-houder.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>Vervoerder SCAC.\nStandaard Vervoerder Alfa Code - De National Motor Freight Traffic Association, Inc., (NMFTA) wijst SCACs toe voor alle bedrijven behalve die codes gebruikt voor identificatie van vrachtcontainers die niet exclusief in Noord-Amerika opereren, intermodale chassis en aanhangers, niet-spoorweg eigendom spoorwegwagons, en spoorwegen. http://www.nmfta.org/Pages/welcome.aspx\nBedrijven die identificatiecodes zoeken voor vrachtcontainers die niet in Noord-Amerika opereren, moeten contact opnemen met het Bureau International des Containers, 38, rue des Blancs Manteaux, F75004 Parijs, Frankrijk, e-mail: bic@bic-code.org, web www.biccode.org. Spoorwegen en eigenaren van intermodale chassis, aanhangers en niet-spoorweg eigendom spoorwegwagons moeten contact opnemen met Railinc Klantenservice, T.a.v.: Privé Merken, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, e-mail: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Door de overheid toegewezen BTW-identificatienummer dat de leverancier identificeert, beginnend met een ISO 3166-1 alfa-2 landcode (behalve voor Griekenland, dat de ISO 639-1 taalcode EL gebruikt), gevolgd door het door de overheid toegewezen BTW-nummer.\nVoorbeeld:\n23VIE6388047V toegewezen aan Google Ierland.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Door de overheid toegewezen BTW-identificatienummer dat de klant identificeert, beginnend met een ISO 3166-1 alfa-2 landcode (behalve voor Griekenland, dat de ISO 639-1 taalcode EL gebruikt), gevolgd door het door de overheid toegewezen BTW-nummer.\nVoorbeeld:\n24VIE6388047V toegewezen aan Google Ierland.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Verklaring dat de NCAGE/CAGE-code die volgt op DI 25V de Fabrikant is. Partij bij een transactie waarin de NAVO Commerciële En Overheids Entiteit (NCAGE) / Commerciële En Overheids Entiteit (CAGE) code gebruikt achter DI 25V wordt verklaard als de fabrikant van de item(s) betrokken bij de transactie. Gegevens volgend op DI 25V zullen bestaan uit vijf hoofdletter alfanumerieke karakters, met uitzondering van de letters "I" en "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Werkordernummer (bijv., 'Productiepapier') (intern toegewezen).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Operatievolgnummer. Een nummer dat de volgorde van een bepaalde operatie in een reeks van operaties definieert, over het algemeen in een productie- of assemblageproces.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Operatiecode/Werkcode - het type werk dat moet worden uitgevoerd (intern toegewezen of onderling gedefinieerd).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Gecombineerd Werkordernummer en Operatievolgnummer in het formaat nn...n+nn...n waar een plusteken (+) wordt gebruikt als scheidingsteken tussen het Werkordernummer en het Operatievolgnummer.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Statuscode (intern toegewezen of onderling gedefinieerd).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Werkcode - identificeert systeem, subsysteem, assemblage, component enz. waarop onderhoud wordt uitgevoerd.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Nomenclatuur - (intern toegewezen of onderling gedefinieerd).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Formulier Controle Nummer - Voorafgedrukt controle nummer op formulieren.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Kwaliteitscontrole Inspecteur - Achternaam.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Telefoonnummer van de Persoon/Activiteit die het Formulier invult - uitgedrukt in het formaat (landcode) stad- of netnummer plus lokaal nummer d.w.z. (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Onderling Gedefinieerd Tussen Klant en Leverancier</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Onderling Gedefinieerd Tussen Vervoerder en Leverancier</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Onderling Gedefinieerd Tussen Klant en Vervoerder</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Vrije Tekst</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Onderling Gedefinieerd Tussen Vervoerder en Handelspartner</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Kopgegevens)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 1 Gegevens)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 2 Gegevens)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 3 Gegevens)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 4 Gegevens)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 5 Gegevens)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 6 Gegevens)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 7 Gegevens)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 8 Gegevens)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 9 Gegevens)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 10 Gegevens)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 11 Gegevens)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 12 Gegevens)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 13 Gegevens)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 14 Gegevens)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 15 Gegevens)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 16 Gegevens)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 17 Gegevens)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 18 Gegevens)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 19 Gegevens)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 20 Gegevens)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 21 Gegevens)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 22 Gegevens)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 23 Gegevens)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 24 Gegevens)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 25 Gegevens)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 26 Gegevens)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 27 Gegevens)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 28 Gegevens)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 29 Gegevens)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 30 Gegevens)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 31 Gegevens)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 32 Gegevens)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 33 Gegevens)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 34 Gegevens)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 35 Gegevens)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 36 Gegevens)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 37 Gegevens)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 38 Gegevens)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 39 Gegevens)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 40 Gegevens)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 41 Gegevens)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 42 Gegevens)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 43 Gegevens)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 44 Gegevens)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 45 Gegevens)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 46 Gegevens)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 47 Gegevens)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 48 Gegevens)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 49 Gegevens)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 50 Gegevens)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 51 Gegevens)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 52 Gegevens)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 53 Gegevens)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 54 Gegevens)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 55 Gegevens)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 56 Gegevens)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 57 Gegevens)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 58 Gegevens)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 59 Gegevens)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 60 Gegevens)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 61 Gegevens)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 62 Gegevens)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 63 Gegevens)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 64 Gegevens)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 65 Gegevens)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 66 Gegevens)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 67 Gegevens)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 68 Gegevens)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 69 Gegevens)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 70 Gegevens)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 71 Gegevens)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 72 Gegevens)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 73 Gegevens)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 74 Gegevens)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 75 Gegevens)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 76 Gegevens)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 77 Gegevens)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 78 Gegevens)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 79 Gegevens)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 80 Gegevens)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 81 Gegevens)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 82 Gegevens)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 83 Gegevens)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 84 Gegevens)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 85 Gegevens)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 86 Gegevens)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 87 Gegevens)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 88 Gegevens)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Gestructureerde Vrije Tekst (Regel 89 Gegevens)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>Het 'GELIJK' teken. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Vervolg van een Artikelcode (Categorie 16) toegewezen door Klant die te lang is voor een vereiste veldgrootte.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Vervolg van Traceerbaarheidscode (Categorie 20) toegewezen door Leverancier.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Vervolg van Serienummer (Categorie 19) toegewezen door Leverancier.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Vervolg van Vrije Tekst (Categorie 26) onderling bepaald tussen Leverancier/Vervoerder/Klant.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Vervolg van Transactiereferentie (Categorie 11) onderling bepaald tussen Leverancier/Vervoerder/Klant.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Vervolg van Artikelcode (Categorie 16) Toegewezen door Leverancier.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Functie 1 (FUNC1) teken. Verschijnt op de eerste positie volgend op het startteken van de symbologie van een Code 128, Code 49, of Code 16K Symbool om een GS1-gecontroleerd symbool aan te duiden.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Formaat YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Formaat DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Formaat MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Formaat YDDD (Juliaans).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Formaat YYDDD (Juliaans).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>ISO-formaat YYMMDD direct gevolgd door een ANSI X12.3 Data Element Nummer 374 Kwalificatie die een code geeft die het type datum specificeert (bijv., verzenddatum, productiedatum).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>ISO-formaat YYYYMMDD direct gevolgd door een ANSI X12.3 Data Element Nummer 374 Kwalificatie die een code geeft die het type datum specificeert (bijv., verzenddatum, productiedatum).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Formaat MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Evenement, Datum, En Tijd.\nISO-formaat YYYYMMDDHHMM (24-uursklok - UTC) direct gevolgd door een UN/EDIFACT Code Kwalificatie 2005 die een code geeft die het type datum specificeert), bijv.,\n11 [Datum waarop verwacht wordt dat goederen worden verzonden/verzonden bericht wordt uitgegeven.];\n17 [Geschatte leveringsdatum/tijd wanneer goederen worden verwacht te worden geleverd];\n35 [Datum waarop goederen worden geleverd op hun bestemming.];\n118 [Boeking Bevestigd];\n129 [Datum waarop het schip/de goederen de laatste buitenlandse haven in het exporterende land hebben verlaten.];\n132 [Datum/tijd wanneer de vervoerder inschat dat een transportmiddel moet aankomen in de haven van lossing of plaats van bestemming.];\n133 [Datum/tijd wanneer de vervoerder inschat dat een transportmiddel moet vertrekken op de plaats van vertrek];\n137 [Datum/tijd wanneer de leverancier onderdelen verzendt op basis van het verzoek van de klant. (Datum waarop DESADV-bericht wordt uitgegeven. Aanbeveling is dat de DESADV wordt uitgegeven binnen 30 minuten nadat goederen zijn opgehaald bij ShipFrom partij];\n146 [Geschatte Invoerdatum (Douane) datum waarop de officiële datum van een Douaneaangifte wordt verwacht.];\n151 [Importdatum (Aangekomen in haven met de intentie om te lossen];\n186 Vertrekt van een Faciliteit ('Gate-out)];\n204 [Datum waarop Douane de goederen vrijgeeft aan de vervoerder of importeur];\n253 [Vertrekt van een Haven ('Vessel Departure')];\n252 [Arriveert bij een Haven ('Vessel Arrival')];\n283 [Arriveert bij een Faciliteit ('Gate-in)];\n342 [Transportmiddel Geladen];\n351 [Terminal Gate Inspectie];\n411 [Besteld Gestuffed];\n412 [Besteld Gestript];\n420 [Transportmiddel gelost];\n534 [Gerepareerd];\n677 [Bevestigd Gestuffed];\n678 [Bevestigd Gestript];\n696 [Indieningsdatum].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Datum (structuur en betekenis onderling bepaald).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Formaat YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Formaat YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Formaat YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Oudste en Nieuwste Productiedatum in het formaat YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Vervaldatum (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Vervaldatum (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Productiedatum (YYYYMMDD) - Datum van fabricage.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Productiedatum (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Tag Activatietijd.\nYYYYMMDDHHMM (24-uursklok - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Tag Deactivatietijd.\nYYYYMMDDHHMM (24-uursklok - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Inspectiedatum (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Vereiste Leveringsdatum (DDD Juliaans) of DOD MILSTAMP Code.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Opnametijd.\nYYYYMMDDHHMM (24-uursklok - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Datum, weergegeven in aangepaste UTC conforme vorm:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] waar vierkante haakjes optioneel aangeven en yyyy het jaar is, mmdd de maand en dag, hhmmss de tijd van de dag in uren minuten en seconden, fff de fracties van seconden en poooo de afwijking van UTC uitgedrukt in uren en minuten, de afwijking zijnde positief als p een punt (.) is, negatief als P een minteken (-) is.\nVOORBEELD:\n2005 - (UTC) kalenderjaar 2005;\n200505 - (UTC) kalendermaand mei 2005;\n20050518 - (UTC) 18 mei 2005;\n200505181247 - 12:47 UTC op 18 mei 2005;\n200505181247.0100 - 12:47 lokale tijd, zijnde 11:47 UTC, op 18 mei 2005;\n20050518124723099 - 99 milliseconden na UTC 12:47:23 op 18 mei 200.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Gekwalificeerde Datum, bestaande uit de aaneenschakeling van:\n- een ISO/IEC 15459 uitgevende instantiecode;\n- een datumkwalificatie conform de specificaties van die uitgevende instantie;\n- een datum waarvan het formaat en de interpretatie overeenkomen met de specificaties van de uitgevende instantie voor die datumkwalificatie.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Ten minste houdbaar tot: (YYYYMMDD).\nVoorbeeld: 25D20170202 = 2 februari 2017</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Eerste vriesdatum (YYYYMMDD).\nDe eerste vriesdatum wordt gedefinieerd als de datum waarop producten direct na slachting, oogst, vangst of na initiële verwerking worden ingevroren.\nVoorbeeld: 26D20170721 = 21 juli 2017.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Oogstdatum (YYYYMMDD).\nDe datum waarop een dier werd geslacht of gedood, een vis werd geoogst, of een gewas werd geoogst.\nVoorbeeld: 27D20170615 = 15 juni 2017.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Oogstdatumbereik (YYYYMMDDYYYYMMDD).\nDe startdatum en einddatum waarbinnen de oogst plaatsvond.\nBijvoorbeeld; dieren werden geslacht of gedood, vissen werden geoogst, of een gewas werd geoogst.\nDe gegevensstroom wordt gedefinieerd als de eerste YYYYMMDD als de startdatum en de laatste YYYYMMDD als de einddatum.\nVoorbeeld:\n28D2017012320170214 = Start; 23 januari 2017. Einde; 14 februari 2017.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Linker Vierkante Haak', 'Rechter Haakje', 'Groter dan Teken', 'Record Separator' tekens. Gegevensstructuur conform aan ISO/IEC 15434, Informatietechnologie - Automatische Identificatie en Gegevensvang Technieken - Syntax voor Hoge Capaciteit ADC Media.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Geclassificeerde Stoffen Classificatie - 'Milieu Classificatie Code' inclusief loodvrije (Pb-vrije) afwerkingscategorieën gedefinieerd in JESD97 (IPC JEDEC J-STD-609), en toekomstige door de industrie of overheidsinstantie toegewezen codes gerelateerd aan milieu-regelgevingsnaleving en gevaarlijke materiaalinhoud.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Luchtdruk - (hoogte) uitgedrukt in Pascal's als de standaard internationale maat.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Maximaal Toegestane Temperatuur. Maximaal toegestane temperatuur; graden Celsius, '-' (min) gecodeerd, indien nodig.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Minimaal Toegestane Temperatuur.\nMinimaal toegestane temperatuur; graden Celsius, '-' (min) gecodeerd, indien nodig.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Maximaal Toegestane Relatieve Vochtigheid.\nMaximaal toegestane relatieve vochtigheid, geïmpliceerd als procent.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Minimaal Toegestane Relatieve Vochtigheid.\nMaximaal toegestane relatieve vochtigheid, uitgedrukt als procent.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Koelcontainer Temperatuur.\nVoor temperatuurgecontroleerde lading, doel gespecificeerd door verzender, graden Celsius, '-' (min) gecodeerd, indien nodig.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Cumulatieve Tijd Temperatuur Index - uitgedrukt als het aantal metingen of tellingen.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Tijd Temperatuur Index - Volgende Hogere Assemblage - uitgedrukt als het aantal metingen of tellingen.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Verklaring van Verpakkingsmateriaal Categorie*, Code* en Gewicht voor een gegeven verpakkingsmateriaal gebruikt in een gegeven verpakking volgens de EU-richtlijn voor verpakkingen en verpakkingsafval. (Materiaalcategorie en code gedefinieerd in Bijlage M).\n12ECCMMMMMMNNNNNUU waar: - '12E' (an3) is de Data Identifier;\n - 'CC' (n2) is de Materiaalcategorie per Bijlage M;\n - 'MMMMMM' (an1...6) is de Materiaalcode per Bijlage M;\n - 'NNNNN' (n5) Materiaalgewicht, inclusief decimaalpunt (bijv., 12.12);\n - 'UU' (an2) is de Eenheid van maat voor gewicht (bijv., KG, GR, LB of OZ per ANSI X12.3 zoals in Bijlage D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>De gegevens volgend op DI 13E zullen een van de MSL-indicatoren zijn (1, 2, 2a, 3, 4, 5, 5a, 6) zoals getoond in de NIVEAU-kolom in Tabel 5-1 van JEDEC standaard IPC/JEDEC J-STD-020E. De Tabel wordt hieronder alleen ter referentie getoond; de momenteel uitgegeven versie van de genoemde standaard moet worden gebruikt om de juiste MSL voor het daadwerkelijke component te verkrijgen. Voorbeeld: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>Het 'STREEPJE' of 'MIN' teken. Farmaceutisch Centraal Nummer (PZN), gecontroleerd door IFA-ABDATA, Duitsland (Registratie van deze systeemidentificator verloopt op 2016-07-01). Vervangen door '9N'.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Loopkop.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Mijn ouder ______ is . . . Unieke identifier gevolgd door een Data Identifier en bijbehorende gegevens (voor gebruik met retourneerbare verpakkingen). Deze Data Identifier moet direct volgen op het veld (opgebouwd uit een Data Identifier, gegevens en een groepsscheidingsteken) waarmee het is geassocieerd.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Ik heb ______ kinderen . . . (voor gebruik met retourneerbare verpakkingen, bijv.; 3F10, voor tien kinderen). Deze Data Identifier moet direct volgen op het veld (opgebouwd uit een Data Identifier, gegevens en een groepsscheidingsteken) waarmee het is geassocieerd.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Logische Toewijzing van een Pagina van Informatie binnen een groep pagina's die verspreid zijn over meerdere gegevensdragers, gestructureerd als een reeks van maximaal drie (3) aaneengeschakelde gegevenselementen, gescheiden door een schuine streep ( / ) :\n Paginanummer (vereist), gevolgd door paginatelling (optioneel, vereist voor de laatste pagina), gevolgd door een alfanumerieke groeps-ID (optioneel; indien gebruikt dan vereist voor alle pagina's en gestructureerd in overeenstemming met ISO/IEC 15459-3 als een reeks van 3 gegevenselementen: Uitgevende Instantie Code, gevolgd door het Bedrijfsidentificatienummer, gevolgd door een alfanumerieke code uniek binnen het domein van de uitgever).\n Sluitende schuine strepen zijn optioneel.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Ik heb ______ kinderen en zij zijn . . . (voor gebruik met retourneerbare verpakkingen) Deze Data Identifier moet direct volgen op het veld (opgebouwd uit een Data Identifier, gegevens en een groepsscheidingsteken) waarmee het is geassocieerd.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>Het 'UITROEPTEKEN'. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Naam van Partij.\nNaam van een partij gevolgd door een plus (+) karakter gevolgd door één of meer code waarden uit EDIFACT Code Lijst 3035 'Party Qualifier', bijv.;\nBY [Koper];\nCF [Containeroperator];\nCN [Geadresseerde];\nCS [Consolidator];\nDEI [Scheepsoperator/kapitein van het schip];\nFA [Operationeel personeelscode];\nIM [Importeur];\nMF [Fabrikant];\nOS [Verzender];\nSE [Verkoper];\nST [Ship To];\nUC [Eindontvanger].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Werknemer Identificatiecode toegewezen door werkgever.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>U.S. Social Security Number.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>ID-nummer voor Niet-Werknemer (intern toegewezen of onderling gedefinieerd) (bijv., contractwerkers, leveranciers, service- en bezorgpersoneel).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Nationaal Sociaalzekerheidsnummer.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Achternaam.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Partijnaam (Regel 2).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Contact Telefoon.\nLandcode, Netnummer, Wissel, nummer [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Contact Email.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Ontvangersnummer.\nHet unieke identificatienummer kan het IRS, EIN, SSN of het door CBP toegewezen nummer zijn, zoals vereist op de Security Filing. Alleen de volgende formaten mogen worden gebruikt: IRS EIN: NN-NNNNNNN;\nIRS EIN met achtervoegsel:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP toegewezen nr: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Persoonlijke Identificatiecode (eerste initiaal, laatste initiaal, laatste vier van SSN).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Voornaam en Middelste Initiaal.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Militaire Rang (E1-E9, W1-W5, en O1-O10).\n2020 Update: Metadataformaat is gewijzigd om overeen te komen met de daadwerkelijke officiersrangen die door het leger worden gebruikt: "an2+an3". De uitleginformatie is gewijzigd naar: "Militaire Rang (E1-E9, W1-W5, en O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Een Nationaal Identificatienummer, National Identity Number, of National Insurance Number gebruikt als een middel om individuen binnen een land te identificeren voor de doeleinden van werk, belasting, overheidsvoordelen, gezondheidszorg, en andere overheidsgerelateerde functies.\nDeze structuur van de identifier is DI (15H) gevolgd door de ISO 3166-1 Alpha2 Landcode gevolgd door de overheersende door de overheid toegewezen identificatiecode voor individuen.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Wereldwijd Unieke Persoonlijke ID. toegewezen door een houder van een Bedrijfsidentificatiecode (CIN) en inclusief de gerelateerde Uitgevende Instantiecode (IAC) in overeenstemming met ISO/IEC 15459 en het register ervan, gestructureerd als reeks van 3 aaneengeschakelde gegevenselementen: IAC gevolgd door CIN, gevolgd door de ID uniek binnen het domein van de houder.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Wereldwijd Unieke Persoonlijke ID, met een "Party Qualifier" code waarde uit EDIFACT Code Lijst 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Exclusieve Toewijzing - Voertuigidentificatienummer (VIN) zoals gedefinieerd in de VS onder 49 CFR, Sectie Sectie 565 en internationaal door ISO 3779. (Dit zijn volledig compatibele gegevensstructuren).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Afgekorte VIN-code.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Wereldwijd unieke transportvoertuigidentificator (bijv., Vrachtwagens) bestaande uit het Voertuigidentificatienummer (VIN) zoals gedefinieerd in de VS onder 49 CFR Sectie Sectie 565, en internationaal door ISO 3779, gevolgd door het '+' teken, dan gevolgd door het door de overheid uitgegeven kentekennummer van het voertuig in de vorm van '4I' 'VIN' '+' 'door de overheid uitgegeven kentekennummer van het voertuig' (aanhalings- en spatietekens getoond voor duidelijkheid; ze maken geen deel uit van de gegevens).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Unieke productievoertuigidentificator die zal worden gebruikt tijdens de voertuigproductieprocessen, bestaande uit het Carrosserienummer (BTN; of elke andere descriptor gebruikt om de ruwe autobouw te identificeren, of met andere woorden, de assemblage van onderdelen die worden gebruikt om het voertuigproductieproces te starten), gevolgd door het '+' teken, dan gevolgd door het Productieordernummer (PON), gevolgd door het '+' teken, en dan gevolgd door het door de fabrikant toegewezen Serienummer (SN). OPMERKING - Het SN-component moet worden vervangen door de VIN zodra de VIN beschikbaar is in het assemblageproces.\nDe constructie zal als volgt zijn;\n\5I" "BTN" "+" "PON" "+" "SN"\nveranderend naar (wanneer VIN beschikbaar)\n"5I" "BTN" "+" "PON" "+" "VIN"\nOPMERKING - Aanhalingstekens en spaties worden getoond voor duidelijkheid; ze maken geen deel uit van de gegevens.\nOPMERKING - Dit DI mag nooit worden geconcateneerd met andere DIs in een lineair symbool of andere media waar het concatenatieteken een plus (+) teken is.\nVoorbeelden:\nSN-versie: 5IABCD1234+CO1234+W0L201600500001\nVIN-versie: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

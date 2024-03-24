@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>'PLUS' rakstzīme. Veselības nozares biznesa komunikāciju padome (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Unikāls transportlīdzekļa numura zīmes numurs.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Unikāls transportlīdzekļa numura zīmes numurs, kas piešķirts transporta vienībai, kas ir zemākais iepakojuma līmenis, nedalāmā vienība.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Unikāls transportlīdzekļa numura zīmes numurs, kas piešķirts transporta vienībai, kurā ir vairāki iepakojumi.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Unikāls transportlīdzekļa numura zīmes numurs, kas piešķirts transporta vienībai, kas ir zemākais iepakojuma līmenis, nedalāmā vienība un kurai ir saistīti EDI dati.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Unikāls transportlīdzekļa numura zīmes numurs, kas piešķirts transporta vienībai, kurā ir vairāki iepakojumi un kas ir saistīta ar EDI datiem.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Unikāls transportlīdzekļa numura zīmes numurs, kas piešķirts jauktai transporta vienībai, kas satur dažādus priekšmetus vienā klienta darījumā un var būt vai nebūt saistīta ar EDI datiem.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Unikāls transportlīdzekļa numura zīmes numurs, kas piešķirts galvenajai transporta vienībai, kas satur līdzīgus priekšmetus vienā klienta darījumā un var būt vai nebūt saistīta ar EDI datiem.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Transportlīdzekļa reģistrācijas numura zīme (nav unikāla bez valsts un izsniedzošās valdības reģiona/iestādes identifikācijas)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Jūras mobilā dienesta identitāte (MMSI).\nDevītciparu numurs, ko regulē Starptautiskā Telekomunikāciju Savienība, lai unikāli identificētu kuģi vai krasta radio staciju. Piemērs: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Pasūtījuma numurs, ko piešķīris Klients, lai identificētu Pirkšanas Darījumu (piemēram, pirkšanas pasūtījuma numurs).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Pasūtījuma numurs, ko piešķīris Piegādātājs, lai identificētu Pirkšanas Darījumu.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Kravas vēstules/Kravas ceļazīmes/Sūtījuma identifikācijas kods, ko piešķīris Piegādātājs/Krāvējs.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Kravas vēstules/Kravas ceļazīmes/Sūtījuma identifikācijas kods, ko piešķīris Pārvadātājs.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Pasūtījuma rindas numurs, ko piešķīris Klients, lai identificētu Pirkšanas Darījumu.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Atsauces numurs, ko piešķīris Klients, lai identificētu Sūtījuma Autorizāciju (Izlaišanu) pret noteiktu Pirkšanas Pasūtījumu.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>PRO# Pārvadātājam piešķirts.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Pārvadātāja veids Brīvā Teksta formātā, savstarpēji definēts starp Klientu un Piegādātāju (piemēram, Gaisa, Kravas auto, Kuģis, Dzelzceļš).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Līguma numurs.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Vispārīgais Darījuma Atsauces Kods (iekšēji piešķirts vai savstarpēji definēts).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Rēķina numurs.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Iepakojuma saraksta numurs.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Standarta Pārvadātāja Alfabēta Kods) (an4 - aizpildīts ar defisi '-') un pārvadātāja piešķirts PROgresīvais numurs.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Kravas vēstules numurs /Transporta kvīts numurs SCAC + konteineru kravas B/L numurs vai ceļazīme.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Apvienotais Pasūtījuma numurs un Rindas numurs formātā nn...nn+nn...n, kur plusa (+) simbols tiek izmantots kā atdalītājs starp Pasūtījuma numuru un Rindas numuru.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>KANBAN numurs.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>DELINS numurs: kods, kas piešķirts, lai identificētu dokumentu, kas satur piegādes informāciju.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Čeka numurs.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Strukturēta Atsauce.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Ārvalstu Militāro Pārdošanu Lietas Numurs.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Licences Identifikators, būdams globāli unikāls identifikators licencei vai līgumam, saskaņā ar kuru preces tiek radītas, iesniegtas apstrādei un/vai apmaksātas, kas tiek veidots, konkatenējot:\n - ISO/IEC 15459 izdošanas aģentūras kodu;\n - licences vai līguma numuru, kas atbilst attiecīgās izdošanas aģentūras prasībām;\n un kas:\n - sastāv tikai no lielajiem alfabēta burtiem un/vai cipariem;\n - ir unikāls (tas ir, atšķiras no jebkura cita ISO/IEC 15459 atbilstoša identifikatora) izdošanas aģentūras domēnā;\n - nevar tikt iegūts no jebkura cita ISO/IEC 15459 atbilstoša identifikatora, kas izdots zem tās pašas izdošanas aģentūras, vienkārši pievienojot rakstzīmes tā beigās vai noņemot tās.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Klienta Dati, būdami dati, kas:\n - no klienta perspektīvas, ir saistīti vai asociēti ar preci vai darījumu, vai ar partiju vai saistītām precēm vai darījumiem, un\n - sastāv līdz 35 drukājamiem rakstzīmēm un/vai atstarpēm, izņemot plusa (+) zīmi, izmantojot rakstzīmju kopu, kas definēta ISO/IEC 646.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>'22K' Darījuma Autentifikācijas Informācija, būdams vērtība, kas veidota, konkatenējot:\n - ISO/IEC 15459 izdošanas aģentūras kodu;\n - vērtību, kas atbilst attiecīgās izdošanas aģentūras prasībām,\n kas ļauj pārbaudīt darījuma autentiskumu un jo īpaši to, ka darījumu ir sācis puse, kas darījumā apgalvota kā tās iniciators, izmantojot:\n - darījuma saņēmēju, un/vai\n - vienu vai vairākas puses, kas iesaistītas tā apstrādē vai apiešanā, un/vai\n - uzticamu trešo personu.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Globāli Unikāla Transporta Vienību Grupējuma Identifikācija, ko piešķīris Pārvadātājs, definēta kā:\nIdentifikācija Pusei Darījumā, kas piešķirta uzņēmuma Identifikācijas Numura (CIN) turētāja un iekļaujot attiecīgo Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēta kā 3 konkatenētu datu elementu virkne: IAC, seko CIN, seko Kravas vēstules vai Ceļazīmes vai Sūtījuma identifikācijas kods, kas ir unikāls CIN turētāja domēnā.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Globāli Unikāla Transporta Vienību Grupējuma Identifikācija, ko piešķīris Kuģotājs, definēta kā:\nIdentifikācija Pusei Darījumā, kas piešķirta uzņēmuma Identifikācijas Numura (CIN) turētāja un iekļaujot attiecīgo Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēta kā 3 konkatenētu datu elementu virkne: IAC, seko CIN, seko Kravas vēstules vai Ceļazīmes vai Sūtījuma identifikācijas kods, kas ir unikāls CIN turētāja domēnā.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Piegādātāja Piešķirtais Piedāvājuma Numurs - Numurs, kas piešķirts piedāvājumam no piegādātāja atbildē uz klienta pieprasījumu piedāvājumam.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Uzglabāšanas Vieta.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Atrašanās Vieta.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>'Ship To:' Atrašanās Vieta, kas definēta pēc nozares standarta vai savstarpēji definēta.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>'Ship From:' Atrašanās Vieta, kas definēta pēc nozares standarta vai savstarpēji definēta.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Izcelsmes Valsts, divu burtu ISO 3166 valsts kods. Ar tirdzniecības partneru piekrišanu un gadījumā, ja Izcelsmes Valsts ir jaukta, jāizmanto Valsts Kods 'AA'.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>'Ship For:' Atrašanās Vieta, kas definēta pēc nozares standarta vai savstarpēji definēta.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Maršruta Kods, ko piešķīris piegādātājs, lai norādītu konkrētu transportēšanas ceļu.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>6-ciparu Aizsardzības departamenta darbības kods (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Iekraušanas Osta - Savstarpēji Definēta.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Izkraušanas Osta - Savstarpēji Definēta.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Atrašanās Vieta (Platums/Garums/Augstums) kodēta formātā xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>'Ship To:' Atrašanās Vieta (Platums/Garums/Augstums) kodēta formātā xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>'Ship From:' Atrašanās Vieta (Platums/Garums/Augstums) kodēta formātā xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Ship For: Atrašanās Vieta (Platums/Garums/Augstums) kodēta formātā xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Tag Aktivizēšanas Vieta.\nAngļu valodas atrašanās vietas nosaukums (rakstzīmju kopums: 0-9, A-Z &lt;Atstarpe&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Tag Deaktivizēšanas Vieta.\nAngļu valodas atrašanās vietas nosaukums (rakstzīmju kopums: 0-9, A-Z &lt;Atstarpe&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>FAO zvejniecības apgabala kods, kā definēts Zivsaimniecības un Akvakultūras departamentā FAO (http://www.fao.org. Meklējiet Zvejniecības Apgabala Kods apakšvietni).\nAtļauti visi rakstzīmes no GS1 Vispārīgās Specifikācijas definētā ISO/IEC 646 apakškopas.\nPiemēri:\n18L37.1.3 Rietumvidusjūra, Sardīnija;\n18L47.B.1 Atlantijas okeāns, dienvidaustrumi, SEAFO Divīzija, Namībijas EEZ;\n18L67 Klusais okeāns, ziemeļaustrumi.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Pirmā Līmeņa (iekšēji piešķirts).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Otrā Līmeņa (iekšēji piešķirts).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Trešā Līmeņa (iekšēji piešķirts).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Ceturtais Līmeņa (iekšēji piešķirts).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Piektā Līmeņa (iekšēji piešķirts).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Identifikācija Pusei Darījumā, piemēram, 25L IAC CIN LOC, kas piešķirta uzņēmuma Identifikācijas Numura (CIN) turētāja un iekļaujot attiecīgo Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēta kā 3 konkatenētu datu elementu virkne: IAC, seko CIN, seko fiziskai iekšējai atrašanās vietai (LOC), kas ir unikāla CIN turētāja domēnā.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Atrašanās Vieta, būdams kods, kas identificē atrašanās vietu vai ģeogrāfisku apgabalu, vai ar šādām atrašanās vietām vai apgabaliem saistītu grupu, kas ir svarīga saistītā darījuma kontekstā un kas atbilst vienai no zemāk definētajām struktūrām:\na) divi lielie alfabēta burti, kas atbilst ISO 3166-1 divu alfabēta burtu valsts kodam valstī, kurā vai no kuras sastāv atrašanās vieta(s) vai apgabals(i);\nb) trīs lielie alfabēta burti, kas atbilst IATA lidostas vai pilsētas kodam, kurā, tuvu kurai vai no kuras sastāv atrašanās vieta(s) vai apgabals(i);\nc) četri vai vairāk rakstzīmes, no kurām pirmās trīs atbilst ISO 3166-1 valsts kodam, kam seko defiss (-), un atlikušās ir pastkoda attiecīgajā valstī;\nd) četri vai vairāk rakstzīmes, no kurām pirmās trīs atbilst ISO 3166-1 valsts kodam, kam seko punkts (.), un atlikušās ir ISO 3166-2 valsts apakšnodalījuma kods attiecīgajā valstī;\ne) pieci lielie alfabēta burti, kas atbilst ANO/LOCODE apgabalam, kurā, tuvu kuram vai no kura sastāv atrašanās vieta(s) vai apgabals(i);\nf) konkatenācija, kas ir ne mazāk kā septiņi un ne vairāk kā 35 rakstzīmes garš, no:\n- ISO/IEC 15459 izdošanas aģentūras koda;\n- atrašanās vietas koda, kas sastāv no rakstzīmēm {A-Z; 0-9}, kas atbilst attiecīgās izdošanas aģentūras prasībām.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Pasākuma Vieta UN/LOCODE.\nUN/LOCODE seko plusa (+) zīmei, kam seko viena vai vairākas koda vērtības no EDIFACT Koda Saraksta 3227 'Atrašanās vietas funkcijas koda kvalifikators', piemēram,\n7 Galīgā piegādes vieta;\n5 Izkraušanas osta;\n9 Iekraušanas osta;\n11 Izkraušanas osta;\n13 Pārkraušanas vieta;\n24 Ieejas osta;\n35 Eksportējošā valsts;\n88 Pārvadātāja saņemšanas vieta;\n125 Ārvalstu osta pirms izbraukšanas uz ASV;\n147 Kravas novietojuma šūna/pozīcija;\n159 Piegādes vieta (saņēmējam);\n248 Iekraušanas vieta\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Numurs un Ielas Adrese.\nIzmanto kopā ar H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Pilsētas Nosaukums.\nIzmanto kopā ar H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Valsts Apakšvienības Detaļas.\nIzmanto kopā ar H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Pasta Kods.\nIzmanto kopā ar H, 6H, 28L, 29L, 30L, 31L, 32L (Ja tiek izmantots defiss '-', tas jākodē skaidri).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Valsts Kods.\nISO 3166-1 Alfa 2 Kods\nIzmanto kopā ar H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Vienotais Resursu Atrašanās Vietas Nosaukums (URL).\nIetver visas rakstzīmes, kas veido URL, ieskaitot galvenes datus, piemēram, http://. Rakstzīmju kopums kā norādīts RFC 1738.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Process URL norāde (P2P URL) iniciēšanai URL, lai pārvadātu visus citus kodētos datu elementus AIDC medijā saskaņā ar šādu noteikumu: Skanēt kodu un iniciēt URL, sākot ar P2P URL virkni, izņemot DI 34L un ISO/IEC 15434 aploksnes sintaksi (prefiksu un sufiksu) un pievienot visus pārējos datu elementus, kas tika nolasīti tajā pašā secībā kā kodēti medijā, ieskaitot DIs un datu elementu atdalītājus. Īpašās rakstzīmes pievienotajos datos pārvērst RFC 1738 formātā (piemēram, Grupas Atdalītājs 'GS' pārvērsts RFC 1738 secībā %1D). Ņemiet vērā, ka tas neattiecas uz P2P URL pašu.\nPiemērs: Kodētā datu virkne (izmantojot ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nrezultē šādu URL ar pārraidītajiem datiem:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nPiezīme: dati no '05' formāta aploksnes netika iekļauti URL, tā kā 34L tika kodēts '06' formāta aploksnē.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Valsts piešķirts apstiprinājuma numurs kuģim / akvakultūras vietai / fermā / apstrādātājam, sākot ar ISO 31661 alfa-2 valsts kodu, kam seko apstiprinājuma numurs.\nAtļautas visas GS1 Vispārīgās Specifikācijas definētās ISO/IEC 646 apakškopas rakstzīmes.\nPiemērs:\n35LIECK0107EC = Valsts; Īrija. Kuģa Nosaukums; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Valsts piešķirts apstiprinājuma numurs ražotājam vai fermai vai pirmajai atkaulošanas / griešanas zālei, sākot ar ISO 3166-1 alfa-2 valsts kodu, kam seko apstiprinājuma numurs.\nAtļautas visas GS1 Vispārīgās Specifikācijas definētās ISO/IEC 646 apakškopas rakstzīmes.\nPiemērs:\n36LIECK0107EC = Valsts; Īrija. Kuģa Nosaukums; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Ship From:' - Atrašanās vietas kods, ko definē pasta iestāde (piemēram, 5-ciparu un 9-ciparu ZIP kodi, kas identificē ASV atrašanās vietas vai 6-ciparu pasta kodi, kas identificē Kanādas atrašanās vietas).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Ship To:' - Atrašanās vietas kods, ko definē pasta iestāde (piemēram, 5-ciparu un 9-ciparu ZIP kodi, kas identificē ASV atrašanās vietas vai 6-ciparu pasta kodi, kas identificē Kanādas atrašanās vietas).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>'Ship From:' - Atrašanās vietas kods, ko definē pasta iestāde formātā: pastkodi (piemēram, 5-ciparu ZIP kodi, kas identificē ASV atrašanās vietas vai 6- vai 7-ciparu pastkodi, kas identificē Apvienotās Karalistes atrašanās vietas) kam seko divu burtu ISO 3166 valsts kods (piemēram, US vai GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>'Ship To:' - Atrašanās vietas kods, ko definē pasta iestāde formātā: pastkodi (piemēram, 5-ciparu ZIP kodi, kas identificē ASV atrašanās vietas vai 6- vai 7-ciparu pastkodi, kas identificē Apvienotās Karalistes atrašanās vietas) kam seko divu burtu ISO 3166 valsts kods (piemēram, US vai GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Armijas Formas 2410 dati. Formāts ir datu vērtība, ko papildina formas 2410 bloka numurs. Lauku garumi un pieņemamās rakstzīmes ir atrodami vietnē;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020. gada atjauninājums: URL ir mainīts uz:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Armijas Formas 2408 dati. Formāts ir datu vērtība, ko papildina formas 2408 bloka numurs. Lauku garumi un pieņemamās rakstzīmes ir atrodami vietnē;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020. gada atjauninājums: URL ir mainīts uz:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Armijas Formas 2407 dati. Formāts ir datu vērtība, ko papildina formas 2407 bloka numurs. Lauku garumi un pieņemamās rakstzīmes ir atrodami vietnē;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020. gada atjauninājums: URL ir mainīts uz:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Gaisa spēku Formas 95 dati. Formāts ir datu vērtība, ko papildina formas 95 bloka numurs. Lauku garumi un pieņemamās rakstzīmes ir atrodami vietnē;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020. gada atjauninājums: Formas nosaukums ir "Gaisa spēku Tehniskās pavēles forma 95 (AFTO Forma 95)." Informācija par formu ir avots Gaisa spēku Tehniskajā pavēlē (TO) 00-20-1. URL šai TO ir mainīts uz:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Jūras spēku Formas 4790 dati. Formāts ir datu vērtība, ko papildina formas 2410 bloka numurs. Lauku garumi un pieņemamās rakstzīmes ir atrodami vietnē;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%2015.pdf.\n2020. gada atjauninājums: URL vairs nav derīgs.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Nacionālais/NATO Krājuma Numurs (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Produkta Raksturlielumu Dati, ko definē Ķīmijas rūpniecības datu apmaiņa (CIDX).</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Kodēšanas Struktūra saskaņā ar Elektronisko Industriju Asociācijas Japānā (EIAJ) definēto formātu.</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Kodēšanas Struktūra un Formāti saskaņā ar GS1 Pielietojuma Identifikatoriem (AI plus dati) (GS1).</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Kodēšanas Struktūra un Formāti saskaņā ar AIAG Ieteikumiem. Pilnais Datu Identifikators ir formātā 5Nxx, kur 'xx' atrodams pilnajā kodu sarakstā, kas pieejams vietnē https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>ASV Aizsardzības ministrijas Pieprasījumu un Izsniegšanas Procedūru Kodi. Formāts ir attiecīgais MILSTRIP kods, kam seko ar šo kodu saistītā datu vērtība. (Pilns kodu saraksts ir pieejams vietnē;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\n2020. gada atjauninājums: URL ir mainīts uz:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/)</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>ASV Aizsardzības Transporta Regulējuma Kodi. Formāts ir DTR kods, kam seko ar šo kodu saistītā datu vērtība. (Pilns kodu saraksts ir pieejams vietnē;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\n2020. gada atjauninājums: URL ir mainīts uz:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf)</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Ražošanas Dzīvnieku Identifikācijas Kodi. Formāts ir ražošanas dzīvnieka kods, kam seko ar šo kodu saistītā datu vērtība. Tehniskais ziņojums un pilns Paplašināto Datu Elementu (kodu) saraksts tiek uzturēts vietnē;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Paplašinātie Datu Elementi (Kodi).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Tehniskais Ziņojums.\n2020. gada atjauninājums: URL ir mainīts uz:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Aptiekas Produkta Numurs, ko uztur IFA (www.ifaffm.de) ar šādiem elementiem; Datu Identifikators (DI), divciparu produkta reģistrācijas aģentūras kods (PRAC), produkta atsauce (PR) un divi PPN pārbaudes cipari (CC), formātā DI PRAC PR CC.\nPIEZĪME - telpa tiek pievienota kā atdalītājs vizuālai skaidrībai un nav daļa no datiem.\nPiemēri:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Dati formātā un semantikā, ko definē uzņēmuma Identifikācijas Numura (CIN) turētājs, kam ir piešķirts Izdošanas Aģentūras Kods (IAC) saskaņā ar ISO/IEC 15459, definēti kā konkatenētu datu elementu virkne: IAC, seko CIN, seko atdalītāja rakstzīme ':' (kols) seko dati formātā un semantikā kā definējis CIN turētājs.\nPIEZĪME: Tikai datu sintakses noteikumi (ja tādi ir) kā norādīts deklarētajā IAC+CIN katrā DI '10N' datu plūsmā tiks piemēroti datiem, kas seko DI 10N+IAC+CIN.\nPIEZĪME: Sakarā ar kļūdu DI '10N' piešķiršanā (nav centrālās autoritātes datu definīcijai vai uzturēšanai), jaunas DI '10N' lietošanas nevajadzētu ieviest.\nDI '10N' funkcija ir noteikta Kategorijā 18, DAŽĀDI ar DI '5R'. Ir stingri ieteicams esošajām lietojumprogrammām, kas izmanto DI '10N', migrēt uz DI 5R'.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Datu konstrukts ir definēts un kontrolēts RLA, un sastāv no 2 segmentiem: lauka identifikatora kods, ko nekavējoties seko dati, kā definēti attiecīgajam elementam saskaņā ar RLA datu vārdnīcu. Būtībā tas ir lauku katalogs ar standartizētu saturu. Lauka Identifikatori tiek publicēti vietnē http://rla.org/11ncodes. Šo kodu lietošana un struktūra ir definēta vietnē: http://rla.org/11nformat Papildu piemēri atrodami šajā vietnē. DI '11N' nekad nedrīkst tikt kodēts 2D vai RFID birka kopā ar jebkuriem citiem DI elementiem.\nPIEZĪME: Sakarā ar kļūdu DI '11N' piešķiršanā (apgalvojums: 'DI '11N' nekad nedrīkst tikt kodēts 2D vai RFID birka kopā ar jebkuriem citiem DI elementiem.' nav derīgs apgalvojums), jaunas DI '11N' lietošanas nevajadzētu ieviest. DI '11N' funkcija ir noteikta DI '12N'. Ir stingri ieteicams esošajām lietojumprogrammām, kas izmanto DI '11N', migrēt uz DI '12N'.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Datu konstrukts ir definēts un kontrolēts RLA, sastāv no 2 segmentiem: lauka identifikatora (FI) kods, ko nekavējoties seko dati, kā definēti attiecīgajam elementam saskaņā ar RLA datu vārdnīcu. Būtībā tas ir lauku katalogs ar standartizētu saturu. Lauka Identifikatori tiek publicēti vietnē http://rla.org/12ncodes. Šo kodu lietošana un struktūra ir definēta vietnē: http://rla.org/12nformat. Piemēri atrodami šajā vietnē.\n2020. gada atjauninājums: URL ir mainījies uz:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Rādītājs Industriālo Interneta Identifikatoru Kodiem, ko kontrolē un uztur CAICT, izmantojot Ķīnas Industriālā Interneta Identifikatoru Izšķirtspējas Sistēmu un konstruējot kā &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, formātā an3+a3+n3+n3+n8+an1...33, kur an3 ir Datu Identifikators (DI), a3 ir Izdošanas Aģentūras Kods (IAC = "VAA"), n3 ir Augšējā Līmeņa Kods (TTC), n3 ir Sekundārā Līmeņa Kods (STC), n8 ir Uzņēmuma Identifikācijas Numurs (CIN), ko kontrolē un piešķir Sekundārā Līmeņa platforma un an1...33 ir Seriālais Numurs (SN), ko kontrolē un piešķir CIN turētājs, un kas ir unikāls šī CIN turētāja domēnā, izmantojot rakstzīmes no 0 līdz 9, lielos un mazos burtus A līdz Z, * (zvaigznīti), + (plusa zīmi), - (defisi), . (punktu vai pilnu apstāšanās zīmi), / (slīpsvītru), ( (kreiso iekavu), ) (labo iekavu), ! (izsaukuma zīmi).\nPiemēri:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Preces Identifikācijas Kods, ko piešķīris Klients.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Preces Identifikācijas Kods, ko piešķīris Piegādātājs.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Kods, Kas Piešķirts, lai Norādītu Preces Revīzijas Līmeni (piem., inženierijas izmaiņu līmeni, izdevumu vai revīziju).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Apvienotais Ražotāja Identifikācijas Kods/Preces Kods saskaņā ar 12/13-ciparu GS1 Formātiem, plus papildu kodi, ja tādi ir.\n2020. gada atjauninājums: GS1 iesaka šo DI vairs nelietot un, ka DI lietotājiem vajadzētu pāriet uz GS1 datu kvalifikatoriem (Pielietojuma Identifikatoriem) saskaņā ar ISO/IEC 15418 un ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Preces Koda Daļa GS1 Formātos.\n2020. gada atjauninājums: GS1 iesaka šo DI vairs nelietot un, ka DI lietotājiem vajadzētu pāriet uz GS1 datu kvalifikatoriem (Pielietojuma Identifikatoriem) saskaņā ar ISO/IEC 15418 un ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Kravas Klasifikācijas Preces Numurs, ko Pārvadātājs piešķīris nolūkā novērtēt bīstamas preces (piem., Autotransports, Gaisa transports, Kuģis, Dzelzceļš).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Apvienotais Piegādātāja Identifikācijas un Preces Kods (iekšēji piešķirts vai savstarpēji definēts).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Kopējās Valodas Aprīkojuma Identifikācija (CLEI), ko piešķīris ražotājs dažiem telekomunikāciju iekārtām.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>14-ciparu GS1 formāts GTIN-14 koda struktūrai.\n2020. gada atjauninājums: GS1 iesaka šo DI vairs nelietot un, ka DI lietotājiem vajadzētu pāriet uz GS1 datu kvalifikatoriem (Pielietojuma Identifikatoriem) saskaņā ar ISO/IEC 15418 un ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Apvienotais Ražotāja Identifikācijas Kods (9-ciparu DUNS numurs, ko piešķīris Dun &amp; Bradstreet) un Preces Kods/Daļas Numurs (piešķīris ražotājs).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Bīstamo Materiālu Kods, kā definēts ANSI X12.3 formātā Datu Elements 208 (1 rakstzīmes koda kvalifikators) seko Datu Elements 209 (Bīstamo Materiālu Kods).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10-ciparu CLEI Kods telekomunikāciju iekārtām.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Dokumenta Tips (piem., Izņemšanas Saraksts, Projektēšanas Zīmējums utt.) (iekšēji piešķirts vai savstarpēji definēts).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>VMRS Sistēmas Kods.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>VMRS Sistēmas un Montāžas Kods.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>VMRS Sistēmas, Montāžas un Daļas Kods.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>VMRS Sistēmas, Montāžas vai Daļas Kods. (Lietotāja Modificēts).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Apvienotais GS1 Piegādātāja Identifikācija un Preces Kods, ko Piešķīris Piegādātājs.\n2020. gada atjauninājums: GS1 iesaka šo DI vairs nelietot un, ka DI lietotājiem vajadzētu pāriet uz GS1 datu kvalifikatoriem (Pielietojuma Identifikatoriem) saskaņā ar ISO/IEC 15418 un ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Apvienotais VMRS piegādātāja ID un Piegādātāja Piešķirtais Daļas Numurs.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Vienības Sastāvdaļa. (Viens produkts, kas ietverts vairākos iepakojumos).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Pirmā Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Otrā Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Trešā Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Ceturtais Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Piektā Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Identifikācija Pusei Darījumā, ko Piešķīris Uzņēmuma Identifikācijas Numura (CIN) Turētājs un iekļaujot attiecīgo Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēta kā 3 konkatenētu datu elementu virkne: IAC, seko CIN, seko piegādātāja piešķirtais unikālais daļas numurs, kas ir unikāls CIN turētāja domēnā.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Nākamās Augstākās Montāžas Daļas Numurs.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Preču HTS-6 Kods; Izmantojot formātu: 4012.11 vai 4012.11.4000 (Decimālais punkts tiek izteikti kodēts) Harmonizētā sistēma (HS) Klasifikācija ir 6-ciparu standartizēta skaitliska metode, lai klasificētu tirdzniecības preces. HS numurus izmanto muitas iestādes visā pasaulē, lai identificētu preces muitas nodevu un nodokļu piemērošanai. Dažas valstis pievieno HS numuram papildu ciparus, lai vēl vairāk atšķirtu produktus noteiktās kategorijās. Savienotajās Valstīs, numurus, kas izmanto, lai klasificētu eksportētās preces, sauc par 'Schedule B' numuriem. 'Schedule B' sistēmu pārvalda ASV Tautas Skaitīšanas Birojs. 'Schedule B' numuri, nevis HS numuri, jānorāda Kravas Eksporta Deklarācijā (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nImporta kodus pārvalda ASV Starptautiskās Tirdzniecības Komisija (USITC). http://hts.usitc.gov/\n2020. gada atjauninājums: saite http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf vairs nav aktīva. Konsultējieties ar krāvēju par SED formu.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Kravas Nosaukums. Vienkāršas valodas apraksts (angļu valodā).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Produkta Klasifikācijas Kods, kas definēts ar GMDN (Globālā Medicīnas Ierīču Nomenklatūra - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Pirmā Līmeņa (Piegādātāja Piešķirts).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Otrā Līmeņa (Piegādātāja Piešķirts).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Trešā Līmeņa (Piegādātāja Piešķirts).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Ceturtais Līmeņa (Piegādātāja Piešķirts).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Piektā Līmeņa (Piegādātāja Piešķirts).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Kods, ko Klients Piešķīris Ražotāja Materiālu Drošības Datu Lapas (MSDS) Identifikācijas Numuram, kas apraksta bīstama materiāla lietojumu, bīstamību un ķīmisko sastāvu.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Eksporta Kontrolēta Prece. Pakļauta eksporta kontrolei un/vai ierobežojumiem, kā noteikts Vāsenāras Nolīgumā. DI seko Alfa-2 ISO 3166 Valsts Kods valstij, kas noteikusi ierobežojumu, seko Vāsenāras Kods (http://www.wassenaar.org/controllists/index.html).\n2020. gada atjauninājums: URL ir mainījies uz https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Ražotāja Piešķirts Preces Identifikators - sastāv no preces numura, ko piešķīris preces ražotājs, kam seko plusa (+) zīme, seko - ja nepieciešams, lai unikāli identificētu preci ražotāja produktu klāstā - ražotāja piešķirta preces versija.\nPiemērs 50PABC+6 norāda uz preces numuru ABC, preces versiju 6\nPIEZĪME - Preces numuram vienmēr seko plusa zīme, pat ja preces versija nav norādīta. Tas ir nepieciešams, lai nodrošinātu nepārprotamu ražotāja piešķirta preces identifikatora konkatenāciju ar citu datu konstruktu, izmantojot konkatenācijas rakstzīmi plusu (+). Piemēram, 50P ražotāja piešķirta preces identifikatora bez preces versijas kombinācija ar sērijas numuru (Datu identifikators S) uz vienības varētu tikt kodēta kā 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Globāli Unikāls Preces Identifikators, kas sastāv no Transakcijas puses identifikācijas, ko piešķīris Uzņēmuma Identifikācijas Numura (CIN) turētājs un iekļaujot attiecīgo Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, kam seko plusa (+) zīme, kam seko ražotāja piešķirts preces identifikators, kā definēts ar 50P\nPiemērs: 51PJ4LBE0431863103+ABC+ norāda uz preci ar preces numuru ABC un bez versijas numura, ko ražojis uzņēmums ar Beļģijas PVN numuru 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Krāsas Kods.\nPreces/objekta krāsa, ko identificē ar kodu vai terminu, kas savstarpēji vienojies starp tirdzniecības partneriem.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Specifisks Jūras Aprīkojuma Identifikators, kas apstiprināts saskaņā ar Eiropas Savienības Direktīvu par Jūras Aprīkojumu (2014/90/ES) un Īstenošanas Regulu (ES) 2018/608.\nFormāts:\n• DI (an3);\n• Konformitātes novērtējuma (CA) moduļu(-u) tips, kas noteikts Direktīvas 2014/90/ES II pielikumā izmantotajam konformitātes novērtējumam (a1);\n• Paziņotās iestādes (NB) identifikācijas numurs, ko Komisija piešķīrusi saskaņā ar Direktīvas 2014/90/ES IV pielikuma punktu 3.1 (n4);\n• Sertifikāts (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Unikālās Ierīces Identifikācija - Ierīces Identifikators) Medicīnas Ierīcēm (MD) un In-vitro Diagnostikas (IvD) ierīcēm kā unikāla atslēga publiskajām UDI datu bāzēm (GUDID, EUDAMED utt.), saskaņā ar valstu regulatīvajām prasībām, kā noteikts Starptautiskajā Medicīnas Ierīču Regulatoru Forumā (IMDRF). Atļautas visas drukājamo rakstzīmju UTF-8 rakstzīmju kopas.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>DNV sertifikācijas atsauce. Norāda, ka dati satur atsauci uz produkta sertifikātu/pārbaudes paziņojumu/ziņojumu, ko izdevis DNV. Datu identifikatoram jāseko burtiem "NV" un sertifikāta numuram. Ja sertifikāta numuram ir pēcfikss, tas jāiekļauj datu plūsmā, izmantojot "-" atdalītāja rakstzīmi. Revīzijas indikatori netiek sniegti.\nPiemēri:\n1. 55PNVXXXXXXX, kur 55P ir datu identifikators, XXXXXXX ir DNV Sertifikāta Numurs.\n2. 55PNVXXXXXXX-Y, kur 55P ir datu identifikators, XXXXXXX-Y ir DNV Sertifikāta Numurs ar pēcfiksu Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Daudzums, Gabalu Skaits vai Apjoms (tikai ciparos) (mērvienība un nozīme savstarpēji definēta).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Teorētiskais Garums/Svars (tikai ciparos).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Faktiskais Svars (tikai ciparos).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Mērvienība, kā definēts ar divu zīmju ANSI X12.3 Datu Elementa Numuru 355 Mērvienības Koda.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Bruto Summa.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Neto Summa.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Ja Vairāki Konteineri Veido Vienotu Produktu (katra konteinera saturs jāapvieno ar pārējo konteineru saturu, lai izveidotu vienotu produktu), Datu Identifikatoram '6Q' jātiek izmantotam, lai saistītu dažādos konteinerus. Formāts # no # ('šis ir n-tais gabals no x gabaliem, kas definē produktu') Prezentēts formātā 'n/x', kur '/' (slīpsvītra) tiek izmantota kā atdalītājs starp divām vērtībām.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Daudzums, Apjoms vai Gabalu Skaits formātā: Daudzums, kam seko divu zīmju ANSI X12.3 Datu Elementa Numuru 355 Mērvienības Kods.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Konteinera Nominalizētais Svars\nRažotāja piešķirtā konteinera nestspēja. Piešķirts ražošanas laikā. Mērvienība ir kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Vienas Vienības Svars\nVienas preces svars.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Tara: tukša konteinera svars.\nKonteinera ķermeņa svars.\nRažotāja piešķirts tukša konteinera svars. Piešķirts ražošanas laikā. Mērvienība ir kg (Tara svars).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Monetārā Vērtība, ko noteicis Piegādātājs formātā: vērtība, kam seko ISO 4217 datu elements valūtas vienības pārstāvībai (piem., 12Q2.50USD) (2.50 Monetārā Vērtība ASV Dolāros) nozīme savstarpēji definēta.\nIeejas Vērtība;\nVērtība, kam seko ISO 4217 datu elements valūtas vienības pārstāvībai (piem., 12Q2.50USD) (2.50 Monetārā Vērtība ASV Dolāros)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># no # ('šis ir n-tais gabals no x gabaliem šajā sūtījumā').\nPrezentēts formātā 'n/x', kur '/' (slīpsvītra) tiek izmantota kā atdalītājs starp divām vērtībām.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Sākotnējā Sekundārā Daudzums.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Beigu Sekundārā Daudzums.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Gabalu Skaits Furgonā.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Sūtījumu Skaits Furgonā.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Kubs izteikts kubikmetros vai kubikpēdās, kam seko ANSI X12.3 datu elementa numura 355 mērvienības kods (CR vai CF). Neiekļauta domēna punkta pieņēmums.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Platums izteikts lineāros metros vai lineāros pēdās, kam seko ANSI X12.3 datu elementa numura 355 mērvienības kods (LC vai LF). Neiekļauta domēna punkta pieņēmums.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Augstums izteikts lineāros metros vai lineāros pēdās, kam seko ANSI X12.3 datu elementa numura 355 mērvienības kods (LC vai LF). Neiekļauta domēna punkta pieņēmums.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Garums izteikts lineāros metros vai lineāros pēdās, kam seko ANSI X12.3 datu elementa numura 355 mērvienības kods (LC vai LF). Neiekļauta domēna punkta pieņēmums.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Sūtījuma Neto Svars izteikts mārciņās vai kilogramos (kilos) seko ANSI X12.3 datu elementa numura 355 mērvienība (LB vai KG). Neiekļauta domēna punkta pieņēmums.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Furgona Garums izteikts lineāros metros vai lineāros pēdās, kam seko ANSI X12.3 datu elementa numura 355 mērvienības kods (LC vai LF). Neiekļauta domēna punkta pieņēmums.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Furgona Iekšējais Kubs izteikts kubikmetros vai kubikpēdās, kam seko ANSI X12.3 datu elementa numura 355 mērvienības kods (CR vai CF). Neiekļauta domēna punkta pieņēmums.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Neto Sprāgstvielu Svars (izteikts kā sprāgstvielu ekvivalents mārciņās TNT). NEW mērs tiek izmantots starptautiski sprāgstvielu drošības daudzuma attāluma loka aprēķinos. Neiekļauta domēna punkta pieņēmums.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Iepakojuma Līmenis, norādot iepakojuma hierarhisko līmeni saskaņā ar HIBC (Veselības nozares svītrkoda) specifikācijām.</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Vienas Preces Cena Vērtība, Neto, '.' (punkts) tiek izmantots kā decimālais punkts (piem., 27Q1000.5 cena vērtībai 1000.50).\nStruktūra: an3+an1...20\n &lt;DI&gt;&lt;cenas vērtība&gt;.\nRakstzīmju kopums: 0 līdz 9, punkts (ISO 646 ASCII vērtība decimāli 46, heksadecimāli 2E).\nKodēšanas piemērs, izmantojot neto cenas vērtību 1000:\n27Q1000.\nKodēšanas piemērs, izmantojot neto cenas vērtību 1000.50:\n27Q1000.5.\nPIEZĪME - Ja nepieciešama valūta, to var ņemt no cita datu elementa, kas izmantots tajā pašā kodā, piem., 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Vienas Cenas Uzlādes Vērtība Pasta un Iepakojuma, '.' (punkts) pārstāv komata pozīciju (piem., 30Q100.50 vērtībai 100,50).\nStruktūra: an3+an1...10\n &lt;DI&gt;&lt;cenas vērtība&gt;.\nRakstzīmju kopums: 0 līdz 9, punkts.\nKodēšanas piemērs, izmantojot pasta un iepakošanas vērtību 100:\n30Q100.\nKodēšanas piemērs, izmantojot pasta un iepakošanas vērtību 100,50:\n30Q100.50.\nPIEZĪME - Ja nepieciešama valūta, to var ņemt no cita datu elementa, kas izmantots tajā pašā kodā, piem., 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Atlaides Procents, '.' (punkts) pārstāv komata pozīciju (piem., 31Q8.5 atlaižu vērtībai 8,5%).\nStruktūra: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;atlaides procents (%)&gt;.\nRakstzīmju kopums: 0 līdz 9, punkts\nKodēšanas piemērs, izmantojot atlaižu procentu 10%:\n31Q10.\nKodēšanas piemērs, izmantojot atlaižu procentu 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>PVN Procents, '.' (punkts) pārstāv komata pozīciju (piem., 27Q8.5 PVN vērtībai 8.5%).\nStruktūra: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;PVN procents (%)&gt;.\nRakstzīmju kopums: 0 līdz 9, punkts.\nKodēšanas piemērs, izmantojot PVN procentu 10%:\n27Q19.\nKodēšanas piemērs, izmantojot PVN procentu 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Valūta, ISO 4217 valūtas kods.\nStruktūra: an3+an3\n &lt;DI&gt;&lt;Valūta, piem., EUR&gt;.\nRakstzīmju kopums: A-Z, 0 līdz 9.\nKodēšanas piemērs, izmantojot ISO alfabētisko kodu ASV dolāram:\n31QUSD.\nKodēšanas piemērs, izmantojot ISO alfabētisko kodu eiro:\n31QEUR.\nKodēšanas piemērs, izmantojot ISO ciparu kodu eiro:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Klīniskais termina kods, kas definēts ar klīnisko nomenklatūru: "Starptautiskais standarts veselības mērījumiem, novērojumiem un dokumentiem - LOINC" (https://loinc.org), sekojošā secībā: &lt;DI&gt;&lt;LOINC Kods&gt;&lt;Plusa Zīme&gt;&lt;Vērtība&gt;. Vienības un formāts Vērtībai ir definēts ar LOINC Kodu.\nPiemērs: 32Q28903-3+60 = LOINC Kods 28903-3: Kreisās kontakta lēcas Ass (grādos); ar Vērtību = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Atgriešanas Autorizācijas Kods (RMA), ko piešķīris Piegādātājs</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Atgriešanas Kods, ko Piešķīris Klients</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>ASV Aizsardzības ministrijas Identifikācijas Kods (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Dati formātā un semantikā, ko definē uzņēmuma Identifikācijas Numura (CIN) turētājs, kam ir piešķirts Izdošanas Aģentūras Kods (IAC) saskaņā ar ISO/IEC 15459, definēti kā konkatenētu datu elementu virkne: IAC, seko CIN, seko atdalītāja rakstzīme ':' (kols) seko dati formātā un semantikā kā definējis CIN turētājs.\nPIEZĪME - Tikai datu sintakses noteikumi (ja tādi ir) kā norādīts deklarētajā IAC+CIN katrā DI '5R' datu plūsmā tiks piemēroti datiem, kas seko DI 5R+IAC+CIN.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 digitālā paraksta datu konstrukts. Ja pamatā esošā datu nesēja kodēšana ir 7 biti, tad var izmantot tikai ISO/IEC 20248 neapstrādāto formātu.\nPiemērs ar URL formātu:\n&lt;6R&gt;&lt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO&gt;\nPiemērs ar neapstrādāto formātu:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nISO/IEC 20248 datu struktūra ietver digitālo parakstu, kas tiek izmantots, lai pārbaudītu norādītos datu elementus ziņojumā. Vērtība 6R, kā pirmais parametrs, un pārbaudāmie datu elementi (noņemot visas nedrukājamās rakstzīmes) kā otrais parametrs tiek nodoti ISO/IEC 20248 Dekodētājam-Pārbaudītājam - kas atgriezīs pārbaudes rezultātu: PIEŅEMT, NORAIDĪT vai KĻŪDA (kļūdas kods), un dekodēto papildu ISO/IEC 20248 lauku JSON objektu. ISO/IEC 20248 datu struktūra var ietvert papildu laukus un instrukcijas viena vai vairāku datu elementu ziņojumu dekodēšanai un pārbaudei. Šīs instrukcijas tiks apstrādātas ar ISO/IEC 20248 Dekodētāju-Pārbaudītāju.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Aquatic Sciences and Fisheries Information System (ASFIS) "Starptautiskais 3-burtu sugas kods", ko uztur Pārtikas un lauksaimniecības organizācija Apvienoto Nāciju Organizācijā (www.fao.org, tad meklēt 'ASFIS').\nPiemēri;\n7RMUC = Dubļu karpa;\n7RPCD = Austrālijas saldūdens siļķe;\n7RWSH = Lielais baltais haizivs.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Pārtikas un Lauksaimniecības Organizācijas (FAO) Starptautiskais Zvejniecības Piederumu Klasifikācijas Standarts (ISSCFG) kods. (www.fao.org)\nAtļautas visas GS1 Vispārīgās Specifikācijas definētās ISO/IEC 646 apakškopas rakstzīmes.\nPiemēri:\n8R02.1.0 = Krasta zvejas tīkli;\n8R03.1.5 = Garneļu tralas;\n8R05.1.0 = Pārnēsājamie pacelšanas tīkli.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Zivju un jūras produktu ražošanas metode, kā noteikts ar Pārtikas un Lauksaimniecības Organizācijas (FAO) Zivsaimniecības un Akvakultūras departamentu, saskaņā ar ES Regulu 1379/2013. (www.fao.org).\nAtļautas visas GS1 Vispārīgās Specifikācijas definētās ISO/IEC 646 apakškopas rakstzīmes.\nPiemēri;\n9R01 = Uztverts jūrā;\n9R02 = Uztverts saldūdenī;\n9R03 = Audzēts.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Sērijas Numurs vai Kods, ko Piegādātājs Piešķīris Entītei Tās Mūža Garumā, (piem., datora sērijas numurs, izsekošanas numurs, līguma instrumenta identifikācija)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Papildu Kods, ko Piegādātājs Piešķīris Entītei Tās Mūža Garumā (piem., izsekošanas numurs, datora sērijas numurs)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Iepriekšējā Sūtījuma Paziņojuma (ASN) Sūtījuma ID (SID) atbilst ANSI ASC X12 Datu Elementam 396</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Unikāla Iepakojuma Identifikācija, ko Piešķīris Piegādātājs (zemākā līmeņa iepakojums, kam ir iepakojuma ID kods; jāsatur līdzīgi priekšmeti)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Iepakojuma Identifikācija, ko Piešķīris Piegādātājs galvenajam iepakojumam, kas satur līdzīgus priekšmetus vienā klienta pasūtījumā</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Iepakojuma Identifikācija, ko Piešķīris Piegādātājs galvenajam iepakojumam, kas satur dažādus priekšmetus vienā klienta pasūtījumā</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Iepakojuma Identifikācija, ko Piešķīris Piegādātājs galvenajam iepakojumam, kas satur līdzīgus priekšmetus vairākos klienta pasūtījumos</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Iepakojuma Identifikācija, ko Piešķīris Piegādātājs galvenajam iepakojumam, kas satur dažādus priekšmetus vairākos klienta pasūtījumos</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Piegādātāja ID/Unikāls Konteinera ID, kas prezentēts datu formātā, kas noteikts saskaņā ar GS1 SSCC-18\n2020. gada atjauninājums: Skatiet GS1 Vispārīgās Specifikācijas par jaunāko SSCC versiju.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Iepakojuma Identifikācija, Vispārīga (savstarpēji definēta)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Mašīnas, Ceha vai Rīka ID Kods</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Fiksētā Aktīva ID Kods</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Dokumenta Numurs (iekšēji piešķirts vai savstarpēji definēts)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Konteinera Drošības Plomba</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>Ceturto klasi atšķirīgo sūtījumu pastu manifestēšana</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Pārdevēja piešķirts sērijas numurs, ko var izmantot tikai kopā ar '13V'</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Versijas Numurs, piem., Programmatūras Versija</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Apvienotais 6-ciparu GS1 Piegādātāja Identifikācija un Unikāla Iepakojuma Identifikācija, ko Piešķīris Piegādātājs\n2020. gada atjauninājums: GS1 iesaka šo DI vairs nelietot un, ka DI lietotājiem vajadzētu pāriet uz GS1 datu kvalifikatoriem (Pielietojuma Identifikatoriem) saskaņā ar ISO/IEC 15418 un ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>CAGE Kods &amp; Sērijas Numurs Unikāls CAGE Ietvaros</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Apvienotais Dun &amp; Bradstreet kompānijas identifikācija piegādātājam sekojoši unikālai iepakojuma identifikācijai, ko piešķīris piegādātājs, formātā nn...nn+nn...n, kur plusa simbols (+) tiek izmantots kā atdalītājs starp DUNS Numuru un unikālo iepakojuma identifikāciju</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Klienta Piešķirts Izsekošanas Kods Entītei</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Riepu Identifikācijas Numurs, ko definējis ASV Transporta Departaments (D.O.T) saskaņā ar ASV Kodu 49 CFR 574.5.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Unikāla Individuāla Identitāte Mobilajiem Telefoniem</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Mediju Piekļuves Kontroles (MAC) Adrese, kas atbilst IEEE 802.11</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Saskaņā ar ISO/IEC 15963 (vērtība ir tās bitu vērtības pārveidojums uz 8-bitu ASCII vērtībām). Šis Datu Identifikators var pieņemt jebkuru ASCII-256 vērtību. Kravas konteinera birku reģistrācijas aģentūra (RA) ražotājiem ir ISO 14816 RA. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Identifikācija pusei darījumā, ko piešķīris Uzņēmuma Identifikācijas Numura (CIN) turētājs un iekļaujot attiecīgo Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēta kā 3 konkatenētu datu elementu virkne: IAC, seko CIN, seko piegādātāja piešķirtais sērijas numurs, kas ir unikāls CIN turētāja domēnā (Sk. Pielikumu C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Aprīkojuma Identifikators, būdams globāli unikāls identifikators ierīcei, aprīkojuma vienībai vai datorprogrammas instanču izmantošanai preču ražošanā, transportēšanā, apstrādē vai citāda veida apiešanā, kas veidots, konkatenējot:\n - ISO/IEC 15459 izdošanas aģentūras kodu;\n - aprīkojuma numuru, kas atbilst attiecīgās izdošanas aģentūras prasībām; un kas:\n - sastāv tikai no lielajiem alfabēta burtiem un/vai cipariem;\n - ir unikāls (tas ir, atšķiras no jebkura cita ISO/IEC 15459 atbilstoša identifikatora) izdošanas aģentūras domēnā;\n - nevar tikt iegūts no cita ISO/IEC 15459 atbilstoša identifikatora, kas izdots zem tās pašas izdošanas aģentūras, vienkārši pievienojot rakstzīmes tā beigās vai noņemot tās.\nLasītāja ID.\nAprīkojuma identifikators, būdams globāli unikāls identifikators ierīcei, aprīkojuma vienībai vai datorprogrammas instanču izmantošanai preču ražošanā, transportēšanā, apstrādē vai citāda veida apiešanā.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Preces Numurs Partijā, būdams skaitļu virkne:\n - kas unikāli atšķir vienu preci, identificējamā partijā saistītu preču vidū, no visām pārējām precēm tajā pašā partijā;\n - kuras garums ir vienāds visām precēm attiecīgajā partijā.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Partijas-un-Preces Numurs, būdams datu identifikatora 27T partijas numura un datu identifikatora 27S preces numura konkatenācija precei, kas pieder attiecīgajai partijai.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Papildu Izsekošanas Kods Entītei, ko Piešķīris Piegādātājs papildus vai atšķirībā no izsekošanas kodiem, kas sniegti ar 'S' vai '1S'</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Sākuma Sērijas Numurs sērijas numuriem secībā</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Beigu Sērijas Numurs sērijas numuriem secībā</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Nākamās Augstākās Montāžas Sērijas Numurs</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Gala Produkta Sērijas Numurs vai Daļas Numurs</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Bufera Numurs (Izmanto Vienību DOD Pārvietošanā)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Palešu Identifikators (Izmanto iekrautām 463L gaisa paletēm)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Unikāls Preces Identifikators, kas sastāv no 5 datu elementu secības: 'IAC', seko 'CIN', seko 'Daļas Numurs (PN)', seko plusa (+) zīme, seko piegādātāja piešķirts (vai pārvaldīts) 'Daļas Sērijas Numurs (PSN)', kas globāli unikāls CIN turētāja domēnā; formātā IAC CIN PN + PSN (atstarpes sniegtas vizuālai skaidrībai tikai; tās nav daļa no datiem). Skatīt Pielikumu C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Unikāls Preces Identifikators (UII) formātā 25S, kam seko ciparu vērtība, kas norāda sērijas numura elementa garumu sistēmām, kurām nepieciešams 'sērijas numura' komponents konkatenētā Sērijas Numura elementā (IAC+CIN+SN) Formāts: DI+LI+IAC+CIN+SN (LI=SN garums)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Integrētās Shēmas Kartes Identifikators (ICCID) saskaņā ar ITU-T Ieteikumu E.118 un ETSI Ieteikumu GSM 11.11; maksimāli 20 cipari, kas sastāv no Izdevēja identifikācijas numura (IIN; maksimāli 7 cipari), Individuālā konta identifikācijas (mainīgs; garums tiek noteikts ar IIN, bet tas ir vienāds visām IIN), Pārbaudes cipars (viens cipars, kas aprēķināts, izmantojot Luhn algoritmu\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = konta identifikācija, c = pārbaudes cipars)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Pirmā Līmeņa (Piegādātāja Piešķirts)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Otrā Līmeņa (Piegādātāja Piešķirts)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Trešā Līmeņa (Piegādātāja Piešķirts)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Ceturtais Līmeņa (Piegādātāja Piešķirts)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Piektā Līmeņa (Piegādātāja Piešķirts)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC numurs (Parasti Serializēts Globālais Tirdzniecības Identifikācijas Numurs - SGTIN)\n2020. gada atjauninājums: GS1 vairs nelieto terminu "EPC numurs". Skatiet GS1 Vispārīgās Specifikācijas un Birkas Datu Standartu pašreizējai terminoloģijai.</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Šifrēts sērijas numurs, ko Piegādātājs piešķīris entītei, ko var autentificēt neatkarīga uzticama trešā persona. Šifrētais sērijas numurs bez atšifrēšanas neatkarīgai trešajai personai neapraksta nekādus entītes parametrus.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>'AMPERSAND' rakstzīme. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Konteinera Tips (iekšēji piešķirts vai savstarpēji definēts).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Izsekošanas Numurs, ko piešķīris Klients, lai identificētu/izsekotu unikālu entīšu grupu (piem., partiju, sēriju, partijas).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Izsekošanas Numurs, ko piešķīris Piegādātājs, lai identificētu/izsekotu unikālu entīšu grupu (piem., partiju, sēriju, partijas).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Ekskluzīva Piešķiršana (ASV EPA transportlīdzekļa identifikācija emisiju testēšanai).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Atkārtoti Izmantojama Konteinera Identifikācijas Kods, ko piešķīris konteinera īpašnieks vai attiecīgā regulatīvā aģentūra (piem., metāla kubls, grozs, spole, vienības kravas ierīce (ULD), piekabe, tvertne vai starpkontinentālais konteiners) (izņemot gāzes cilindrus Skat. '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Gāzes Cilindra Konteinera Identifikācijas Kods, ko piešķīris ražotājs saskaņā ar ASV Transporta departamenta (D.O.T.) standartiem.</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Pirmā Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Otrā Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Trešā Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Ceturtais Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Piektā Līmeņa (Klienta Piešķirts).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Identifikācija pusei darījumā, ko piešķīris Uzņēmuma Identifikācijas Numura (CIN) turētājs un iekļaujot attiecīgo Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēta kā 3 konkatenētu datu elementu virkne: IAC, seko CIN, seko piegādātāja piešķirtais izsekošanas numurs, kas ir unikāls CIN turētāja domēnā.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Partijas Identifikators, kas sastāv no:\n - datu identifikatora 26S pasta apstrādes iekārtas identifikatora, vai\n - datu identifikatora 20K licences identifikatora, vai\n - datu identifikatora 18V puses identifikatora, kas:\n - atšķiras no jebkura cita ISO/IEC 15459 atbilstoša identifikatora izdošanas aģentūras domēnā;\n - nevar tikt iegūts no cita puses identifikatora vai jebkura cita ISO/IEC 15459 atbilstoša identifikatora, kas izdots zem tās pašas izdošanas aģentūras, vienkārši pievienojot rakstzīmes tā beigās vai noņemot tās;\n ar datu identifikatoru 27T partijas numuru, abus atdalot ar defisa (-) rakstzīmi.</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Partijas Numurs, kas izdots puses vai apstrādes iekārtas kontroles vai licences nosacījumu ietvaros, kas:\n - unikāli atšķir vienu partiju saistītu preču no visām citām partijām, kurām piešķirts partijas numurs attiecīgās puses, iekārtas vai licences ietvaros;\n - sastāv no maksimāli 10 rakstzīmēm garas virknes, kurās pirmā (ciparu) rakstzīme norāda sekojošo rakstzīmju skaitu, katra no tām ir ņemta no kopuma {A-Z; 0-9}.</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Autotransporta Transportlīdzekļa Identifikācijas Kods, ko piešķīris ražotājs saskaņā ar Starptautisko Organizāciju Standartizācijai (ISO) standartiem.</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Pirmā līmeņa (Piegādātāja piešķirts).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Otrā līmeņa (Piegādātāja piešķirts).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Trešā līmeņa (Piegādātāja piešķirts).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Ceturtais līmeņis (Piegādātāja piešķirts).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Piektā līmeņa (Piegādātāja piešķirts).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Standarta kravas pārvadātāja alfabētiskais kods (SCAC) (4 alfanumēriski simboli) un neobligāts pārvadātāja piešķirts treilera numurs (no viena līdz desmit alfanumēriskiem simboliem). Izmantojot, pārvadātāja piešķirts treilera numurs ir atdalīts no SCAC ar domuzīmi '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Uztveres līdzekļa numurs - sastāv no divām savienotām daļām:\n- Organizācijas identifikācija saskaņā ar ISO/IEC 15459 un unikāla subjekta identifikācija, piešķirta saskaņā ar izdošanas aģentūras noteikumiem.\n- Entītei piešķirts unikāls sērijas numurs, kas beidzas ar 3 rakstzīmju konteineru tipa kodu no EDIFACT koda saraksta 8053 vai UPU standarta M82-3. (Ja konteineru tipa kods ir mazāks par trīs rakstzīmēm garš, lauks tiks aizpildīts ar domuzīmēm '-' pa kreisi līdz trīs rakstzīmju garumam).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Konteinera sērijas numurs.\nSaskaņā ar ISO 6346. OC EI CSN CD, kur OC ir trīs burtu īpašnieka kods, piešķirts sadarbībā ar BIC, EI ir vienas burta aprīkojuma kategorijas identifikators, CSN ir 6 ciparu unikāls konteinera identifikācijas numurs, ko piešķīris aprīkojuma īpašnieks, un CD ir moduļa 11 pārbaudes cipars, kas aprēķināts saskaņā ar Pielikumu A, ISO 6346.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Atkārtoti izmantojamā konteinera īpašnieka identifikācija, piešķirta sadarbībā ar BIC.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Konteinera izmēra/tipa kods.\nSaskaņā ar ISO 6346, 4.2 sadaļu.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Konteinera īpašumtiesību kods. Faktiskais četru simbolu saīsinājums, kas marķēts uz konteinera īpašnieka. DOD īpašumā esošiem konteineriem skatīt Aizsardzības transporta regulējuma pielikumu EE-6.\n2020. gada atjauninājums: datu avota atsauce atjaunināta uz Aizsardzības transporta regulējumu, II daļa, pielikums TT, kas atrodams:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Furgona numurs (pilns numurs bez pārbaudes cipara).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Van numura pārbaudes cipars, identificēts 11B.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Konteinera numura kods (pēdējie 5 cipari no numura, neskaitot pārbaudes ciparu).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Taga statuss.\nY=Autorizēts / N=Neautorizēts.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Bīstamas kravas klase.\nIMDG klase formātā 'n.na', kur n = cipars, decimālkomats izteikti kodēts, un a = nosacīts alfabētisks kvalifikators. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>Bīstamo preču ANO kods.\nBīstamai kravai, ko nosūtījis kravas nosūtītājs saskaņā ar ANO kodu.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\n2020. gada atjauninājums: URL mainīts uz http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Transports objekta nosaukums.\nKuģa nosaukums vai transportlīdzekļa kods/vilcienu reisa numurs angļu valodā.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Kuģa reģistrācijas numurs.\nTrīs burti 'IMO' seko septiņciparu numurs, kas piešķirts visiem kuģiem, kad tie ir uzbūvēti, no IHS Fairplay. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Reisa numurs/Brauciena numurs.\nBurti un numuri.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Kuģa valsts.\nISO 3166-1 Alpha 2 kods.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Rezervēts elektroniskajiem zīmogiem.\nSastāv no 18185-1 zīmoga taga ID - 32 biti un ISO 14816 16-bitu ražotāja ID (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Ieraksta numurs/tips.\nSastāv no trīsciparu pildītāja koda, kam seko septiņciparu ieraksta numurs, un tiek pabeigts ar vienu ciparu pārbaudes ciparu. Ieraksta pildītāja kods pārstāv trīszīmju alfanumērisko pildītāja kodu, kas piešķirts pildītājam vai importētājam no CBP. Ieraksta numurs pārstāv septiņciparu numuru, kas piešķirts pildītājam. Numuru var piešķirt jebkurā ērtā veidā, ar nosacījumu, ka tas pats numurs netiek piešķirts vairāk nekā vienai CBP Formai 7501. Jārāda vadošās nulles. Pārbaudes cipars tiek aprēķināts, balstoties uz iepriekšējiem 10 rakstzīmēm. Formula pārbaudes cipara aprēķināšanai atrodama Pielikumā 1, CBP 7501 instrukcijās.\nIeraksta tips ir divciparu kods, kas atbilst Blokam 2, CBP 7501 instrukcijām.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Garantijas numurs.\nTrīsciparu skaitliskais kods, kas identificē garantijas uzņēmumu Muitas Obligācijā. Šo kodu var atrast CBP Formas 301 7. blokā, vai tas ir pieejams caur CBP automatizēto sistēmu ABI pildītājiem, caur importētāja obligācijas pieprasījuma darījumu. ASV valdības importam un ieraksta tipiem, kas neprasa garantiju, šajā blokā jāparādās kodam 999. Kad tiek izmantota skaidra nauda vai valdības vērtspapīri garantijas vietā, izmantojiet kodu 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Ārvalstu iekraušanas ostas.\n'Schedule K' (Ārvalstu ostu klasifikācija pēc ģeogrāfiskās tirdzniecības zonas un valsts) ārvalstu ostai, kurā patiesībā tika iekrauta krava uz kuģa, kas nogādāja kravu ASV. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\n2020. gada atjauninājums: URL mainīts uz: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Transakcijas pušu identifikācija, kā definēts ISO 17364, piešķirta ar Uzņēmuma Identifikācijas Numura (CIN) turētāja un ietverot saistīto Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēts kā 3 secīgi savienotu datu elementu virkne: IAC, kam seko CIN, kam seko RTI sērijas numurs, kas ir unikāls CIN turētāja domēnā.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Unikāls Atkārtoti Izmantojama Transporta Preces Identifikators, kas sastāv no 5 datu elementu virknes: 'IAC', kam seko 'CIN', kam seko 'RTI Numurs' (RTIN), kam seko '+' simbols, kam seko piegādātāja piešķirts (vai pārvaldīts) 'RTI Sērijas Numurs' (RTISN), kas ir globāli unikāls CIN turētāja domēnā formātā IAC CIN RTIN + RTISN (atstarpes pievienotas tikai vizuālai skaidrībai; tās nav daļa no datiem). Skatīt Pielikumu C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Globāli Unikāls Lielo Kravu Nesēju (LLC) Atkārtoti Izmantojamo Transporta Preču (RTI) Identifikators ar malas pamatu = 1000 mm, kā definēts ISO 17365:2013, trešējās iepakojuma kārtas, kas sastāv no 5 datu elementu virknes: 'IAC', kam seko 'CIN', kam seko RTI Tipa Kods 'RTITC', kam seko '+' simbols, kam seko īpašnieka piešķirts (vai pārvaldīts) RTI Sērijas Numurs 'RTISN', kas ir globāli unikāls CIN turētāja domēnā formātā IAC CIN RTITC + RTISN (atstarpes pievienotas tikai vizuālai skaidrībai; tās nav daļa no datiem).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Globāli Unikāls Mazo Kravu Nesēju (SLC) Atkārtoti Izmantojamo Transporta Preču Identifikators ar malas pamatu &lt; 1000 mm, kā definēts ISO 17364:2013 (RTI), trešējās iepakojuma kārtas, kas sastāv no 5 datu elementu virknes: 'IAC', kam seko 'CIN', kam seko RTI Tipa Kods 'RTITC', kam seko '+' simbols, kam seko īpašnieka piešķirts (vai pārvaldīts) RTI Sērijas Numurs 'RTISN', kas ir globāli unikāls CIN turētāja domēnā formātā IAC CIN RTITC + RTISN (atstarpes pievienotas tikai vizuālai skaidrībai; tās nav daļa no datiem).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Globāli Unikāls Atkārtoti Izmantojamu Iepakojuma Preču (RPI) identifikators iepakojuma palīdzības kategorijai (vāks, blisteris, ieliktnis, ...), kas sastāv no 5 datu elementu virknes: 'IAC', kam seko 'CIN', kam seko 'RPI Numurs' RPIN, kam seko '+' simbols, kam seko īpašnieka piešķirts (vai pārvaldīts) 'RPI Sērijas Numurs' RPISN, kas ir globāli unikāls CIN turētāja domēnā formātā IAC CIN RPIN + RPISN (atstarpes pievienotas tikai vizuālai skaidrībai; tās nav daļa no datiem).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Iepakojuma preces numurs.\nNumurs, lai identificētu iepakojuma preces (materiāla) tipu, kas izmantots, iepakojot produktus un iepakojumus.\nNumurs ļaus identificēt iepakojuma preces (materiālus) un atdalīt tos no produktiem, iepakojumiem, Atkārtoti Izmantojamiem Transporta Priekšmetiem (RTI) un Atkārtoti Izmantojamiem Iepakojuma Priekšmetiem (RPI) iepakojuma laikā.\nNumurs tiek konstruēts kā vismaz 1 datu elementa virkne:\nIepakojuma preces (materiāla) numurs, kas ir unikāls turētāja domēnā.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Globāli Unikāls Iepakojuma Numurs\nGlobāli unikāls numurs, lai identificētu iepakojuma preces (materiāla) tipu, kas izmantots, iepakojot produktus un iepakojumus.\nGlobāli unikāls numurs ļaus identificēt iepakojuma preces (materiālus) un atdalīt tos no produktiem, iepakojumiem, Atkārtoti Izmantojamiem Transporta Priekšmetiem (RTI) un Atkārtoti Izmantojamiem Iepakojuma Priekšmetiem (RPI) iepakojuma laikā.\nNumurs tiek konstruēts kā 3 savienotu datu elementu virkne:\nIAC, kam seko CIN, kam seko Iepakojuma preces (materiāla) numurs, kas ir unikāls CIN turētāja domēnā.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Globāli Unikāls Atkārtoti Izmantojamu Iepakojuma Preču (RPI) identifikators, kā definēts ISO 17364, piešķirts ar Uzņēmuma Identifikācijas Numura (CIN) turētāja un ietverot saistīto Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēts kā 3 secīgi savienotu datu elementu virkne: IAC, kam seko CIN, kam seko RPI sērijas numurs, kas ir unikāls CIN turētāja domēnā.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Pastu pakalpojuma un saistīto procesu datu specifikācija saskaņā ar UPU standartu S25 datu konstrukciju 'Pakalpojuma Dati'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Licencēšanas Pasta Dati, saskaņā ar specifikāciju UPU standartā S25.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Papildu pastu pakalpojuma un saistīto procesu datu specifikācija saskaņā ar UPU standartu S25 datu konstrukciju 'Papildu Pakalpojuma Dati'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Pasta Administrāciju Identifikācijas, būdams identifikācija, izteikta saskaņā ar specifikāciju UPU standartā S25, vienas vai vairāku pasta administrāciju, kas iesaistītas pasta sūtījuma vai partijas apstrādē, identifikācija.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>UPU Atrašanās vietas Kods, būdams kods, kas identificē atrašanās vietu vai ģeogrāfisko apgabalu, vai ar šīm vietām vai apgabaliem saistītu grupu, kam ir nozīme saistītajā darījumā un kas atbilst vienai no zemāk norādītajām struktūrām: a) divi lielie alfabēta burti, kas atbilst ISO 3166-1 divu burtu valsts kodam valstī, kurā vai kuru sastādījot atrodas atrašanās vieta(s) vai apgabals(i); b) trīs lielie alfabēta burti, kas atbilst IATA koda lidostai vai pilsētai, kurā, tuvu kurai vai kuras sastāvā atrodas atrašanās vieta(s) vai apgabals(i); c) četri vai vairāk simboli, kuru pirmie trīs atbilst ISO 3166-1 valsts kodam, kam seko domuzīme (-), ar pārējo būdams attiecīgās valsts pastkods; d) četri vai vairāk simboli, kuru pirmie trīs atbilst ISO 3166-1 valsts kodam, kam seko punkts (.), ar pārējo būdams ISO 3166-2 valsts apakšnodalījuma kods attiecīgajā valstī; e) pieci lielie alfabēta burti, kas atbilst UN/LOCODE apgabalam, kurā, tuvu kuram vai kuru sastādījot atrodas atrašanās vieta(s) vai apgabals(i); f) seši lielie alfanumēriskie simboli, kas atbilst UPU IMPC kodam, kas piešķirts saskaņā ar UPU standartu S34; g) konkatenācija, kuras garums ir ne mazāks par septiņiem un ne vairāk par 25 rakstzīmēm, sastāvot no: izdošanas aģentūras piešķirta izdevēja koda saskaņā ar UPU standartiem S31; atrašanās vietas koda, kas sastāv no simboliem no kopas {A-Z; 0-9}, kas atbilst izdevēja specifikācijām.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Kvalificēts UPU Atrašanās vietas Kods, konkatenācija no: atrašanās vietas kategorijas no UPU koda saraksta 139; datu identifikatora 17U UPU atrašanās vietas kods.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Numura Zīme ar Pakalpojuma Datiem un Atrašanās vietas Kodu ir salikts datu konstrukts, kas atbilst specifikācijai UPU standartā S25, kurā ietilpst: ISO/IEC 15459 atbilstošs preces identifikators; datu identifikatoram 5U atbilstoša specifikācija par pakalpojumu, kas jāsniedz attiecībā uz preci; datu identifikatoram 17U atbilstošs UPU atrašanās vietas kods vai datu identifikatoram 18U atbilstošs kvalificēts UPU atrašanās vietas kods. Piezīme - Papildu informāciju skatīt UPU standartā S25. Atšķirība starp vienkāršu UPU atrašanās vietas kodu (DI 17U) un kvalificētu UPU atrašanās vietas kodu (DI 18U) var noteikt pēc pirmā rakstzīmes. Ja tā ir skaitliska, tad piemērojams 18U; ja tā ir alfabētiska, tad piemērojams 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>OCR Datu Atrašanās vietas Identifikators.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Piegādātāja Kods, ko Piešķīris Klients.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Piegādātāja Kods, ko Piešķīris Piegādātājs.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>U.P.C. Uzņēmuma Prefikss.\n2020. gada atjauninājums: GS1 iesaka šo DI vairs nelietot un aicina šī DI lietotājus pāriet uz GS1 datu kvalifikatoriem (Pielietojuma Identifikatoriem) saskaņā ar ISO/IEC 15418 un ISO/IEC 15459-3.\nSaskaņā ar GS1, terminu "U.P.C." vairs nelieto un metadati (an2+n8) vairs nav pareizi. GS1 iesaka šo DI nelietot nākotnes pieteikumos.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>GS1 Uzņēmuma Prefikss.\n2020. gada atjauninājums: GS1 iesaka šo DI vairs nelietot un aicina šī DI lietotājus pāriet uz GS1 datu kvalifikatoriem (Pielietojuma Identifikatoriem) saskaņā ar ISO/IEC 15418 un ISO/IEC 15459-3.\nSaskaņā ar GS1, metadati (an2+n9) vairs nav pareizi. GS1 iesaka šo DI nelietot nākotnes pieteikumos.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Pārvadātāja Identifikācijas Kods, kas piešķirts pēc nozares standarta, ko kopīgi definējis Piegādātājs, Pārvadātājs un Klients.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Finanšu Iestādes Identifikācijas Kods (kopīgi definēts).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Ražotāja Identifikācijas Kods (kopīgi definēts).</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Kods, kas piešķirts pusei, kurai ir finansiālā atbildība par entīti vai entīšu grupu (piemēram, preču īpašnieks) (kopīgi definēts).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Klienta Kods, ko Piešķīris Klients.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Klienta Kods, ko Piešķīris Piegādātājs.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Ražotāja ID\nPIEZĪME - Skatīt Pielikumu 2, CBP 7501 Instrukcijās.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Organizācija ar budžeta atbildību par entīti, procesu vai procedūru (piemēram, veikals, nodaļa, departaments) (iekšēji piešķirts).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>DUNS Numurs, kas Identificē Ražotāju.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>DUNS Numurs, kas Identificē Piegādātāju.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>DUNS Numurs, kas Identificē Klientu.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Pārvadātāja Piešķīrts Kravas Nosūtītāja Numurs.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>VMRS Piegādātāja ID.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>ASV Aizsardzības Departamenta CAGE Kods.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Transakcijas puses identifikācija, kurā datu formāts sastāv no divām konkatenētām daļām. Pirmā daļa ir Izdošanas Aģentūras Kods (IAC) saskaņā ar ISO/IEC 15459, otrā daļa ir unikāla subjekta identifikācija Uzņēmuma Identifikācijas Numurs (CIN), kas piešķirts saskaņā ar izdošanas aģentūras noteikumiem (skatīt http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Puses lomas(-u) specifikācija darījumā, kas sastāv no viena vai vairākiem koda vērtībām no EDIFACT Koda Saraksta 3035 'Puses Kvalifikators', atdalītas ar plusa (+) zīmēm (Nekad nav konkatenējams ar citiem DI lineārā simbolā vai citos medijos, kur konkatenācijas rakstzīme ir plusa (+) zīme).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Transakcijas puses identifikācija, ko piešķīris Uzņēmuma Identifikācijas Numura (CIN) turētājs un ietverot saistīto Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēts kā 3 secīgi savienotu datu elementu virkne: IAC, kam seko CIN, kam seko plusa (+) simbols, kam seko viena vai vairākas koda vērtības no EDIFACT Koda Saraksta 3035 'Puses Kvalifikators', atdalītas ar plusa (+) zīmēm (Nekad nav konkatenējams ar citiem DI lineārā simbolā vai citos medijos, kur konkatenācijas rakstzīme ir plusa (+) zīme).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Transakcijas puses identifikācija, piemēram, 21V IAC CIN OSU, ko piešķīris Uzņēmuma Identifikācijas Numura (CIN) turētājs un ietverot saistīto Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēts kā 3 secīgi savienotu datu elementu virkne: IAC, kam seko CIN, kam seko organizācijas apakšvienības identifikācija, ko piešķīris CIN, kas ir unikāls CIN turētāja domēnā.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>Pārvadātāja SCAC.\nStandarta Pārvadātāja Alfabēta Kods - Nacionālā Autotransporta Kravu Satiksmes Asociācija, Inc., (NMFTA) piešķir SCAC visiem uzņēmumiem, izņemot tos kodus, kas izmantoti kravu konteineru identifikācijai, kas nedarbojas ekskluzīvi Ziemeļamerikā, intermodālie šasijas un piekabes, ne dzelzceļa īpašumā esoši vagoni un dzelzceļi. http://www.nmfta.org/Pages/welcome.aspx\nUzņēmumiem, kas meklē identifikācijas kodus kravu konteineriem, kas nedarbojas Ziemeļamerikā, jāsazinās ar Starptautisko Konteineru Biroju, 38, rue des Blancs Manteaux, F75004 Paris, Francija, e-pasts: bic@bic-code.org, tīmekļa vietne www.biccode.org. Dzelzceļi un intermodālie šasijas, piekabju un ne dzelzceļa īpašumā esošu vagonu īpašniekiem jāsazinās ar Railinc Klientu Servisu, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, e-pasts: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Valdības piešķirts pievienotās vērtības nodokļa identifikācijas numurs, kas identificē piegādātāju, sākot ar ISO 3166-1 alfa-2 valsts kodu (izņemot Grieķiju, kur tiek izmantots ISO 639-1 valodas kods EL), kam seko valdības piešķirts PVN numurs.\nPiemērs:\n23VIE6388047V piešķirts Google Īrijai.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Valdības piešķirts pievienotās vērtības nodokļa identifikācijas numurs, kas identificē klientu, sākot ar ISO 3166-1 alfa-2 valsts kodu (izņemot Grieķiju, kur tiek izmantots ISO 639-1 valodas kods EL), kam seko valdības piešķirts PVN numurs.\nPiemērs:\n24VIE6388047V piešķirts Google Īrijai.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Apstiprinājums, ka sekojošais NCAGE/CAGE kods, kas seko DI 25V, ir Ražotājs. Transakcijas puse, kurā NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE) kods, kas izmantots aiz DI 25V, ir deklarēts kā preču ražotājs, kas iesaistīts transakcijā. Aiz DI 25V sekojošie dati sastāv no pieciem lielajiem alfanumēriskajiem simboliem, izņemot burtus "I" un "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Darba Pasūtījuma Numurs (piemēram, 'Ražošanas Papīrs') (iekšēji piešķirts).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Operācijas Secības Numurs. Numurs, kas definē konkrētas operācijas kārtību operāciju sērijā, parasti ražošanas vai montāžas procesā.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Operācijas Kods/Darba Kods - darba veida, kas jāveic, tips (iekšēji piešķirts vai kopīgi definēts).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Apvienots Darba Pasūtījuma Numurs un Operācijas Secības Numurs formātā nn...n+nn...n, kur plusa simbols (+) tiek izmantots kā atdalītājs starp Darba Pasūtījuma Numuru un Operācijas Secības Numuru.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Statusa Kods (iekšēji piešķirts vai kopīgi definēts).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Darba Vienības Kods - identificē sistēmu, apakšsistēmu, montāžu, komponenti utt., kurā tiek veikta apkope.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Nomenklatūra - (iekšēji piešķirts vai kopīgi definēts).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Formas Kontroles Numurs - Iepriekš iespiests kontroles numurs uz formām.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Kvalitātes Kontroles Inspektors - Uzvārds.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Personas/Activitātes, kas Aizpilda Formu, Tālruņa Numurs - izteikts formātā (valsts kods) pilsētas vai rajona kods plus vietējais numurs, piemēram, (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Savstarpēji Definēts Starp Klientu un Piegādātāju</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Savstarpēji Definēts Starp Pārvadātāju un Piegādātāju</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Savstarpēji Definēts Starp Klientu un Pārvadātāju</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Brīvs Teksts</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Savstarpēji Definēts Starp Pārvadātāju un Tirdzniecības Partneri</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (Galvenes Dati)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (1. līnijas Dati)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (2. līnijas Dati)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (3. līnijas Dati)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (4. līnijas Dati)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (5. līnijas Dati)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (6. līnijas Dati)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (7. līnijas Dati)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (8. līnijas Dati)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (9. līnijas Dati)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (10. līnijas Dati)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (11. līnijas Dati)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (12. līnijas Dati)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (13. līnijas Dati)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (14. līnijas Dati)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (15. līnijas Dati)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (16. līnijas Dati)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (17. līnijas Dati)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (18. līnijas Dati)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (19. līnijas Dati)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (20. līnijas Dati)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (21. līnijas Dati)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (22. līnijas Dati)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (23. līnijas Dati)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (24. līnijas Dati)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (25. līnijas Dati)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (26. līnijas Dati)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (27. līnijas Dati)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (28. līnijas Dati)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (29. līnijas Dati)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (30. līnijas Dati)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (31. līnijas Dati)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (32. līnijas Dati)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (33. līnijas Dati)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (34. līnijas Dati)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (35. līnijas Dati)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (36. līnijas Dati)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (37. līnijas Dati)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (38. līnijas Dati)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (39. līnijas Dati)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (40. līnijas Dati)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (41. līnijas Dati)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (42. līnijas Dati)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (43. līnijas Dati)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (44. līnijas Dati)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (45. līnijas Dati)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (46. līnijas Dati)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (47. līnijas Dati)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (48. līnijas Dati)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (49. līnijas Dati)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (50. līnijas Dati)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (51. līnijas Dati)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (52. līnijas Dati)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (53. līnijas Dati)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (54. līnijas Dati)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (55. līnijas Dati)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (56. līnijas Dati)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (57. līnijas Dati)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (58. līnijas Dati)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (59. līnijas Dati)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (60. līnijas Dati)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (61. līnijas Dati)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (62. līnijas Dati)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (63. līnijas Dati)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (64. līnijas Dati)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (65. līnijas Dati)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (66. līnijas Dati)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (67. līnijas Dati)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (68. līnijas Dati)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (69. līnijas Dati)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (70. līnijas Dati)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (71. līnijas Dati)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (72. līnijas Dati)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (73. līnijas Dati)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (74. līnijas Dati)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (75. līnijas Dati)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (76. līnijas Dati)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (77. līnijas Dati)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (78. līnijas Dati)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (79. līnijas Dati)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (80. līnijas Dati)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (81. līnijas Dati)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (82. līnijas Dati)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (83. līnijas Dati)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (84. līnijas Dati)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (85. līnijas Dati)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (86. līnijas Dati)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (87. līnijas Dati)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (88. līnijas Dati)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Strukturēts Brīvs Teksts (89. līnijas Dati)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>'Līdzvērtīga' zīme. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Turpinājums Klienta Piešķirtajam Preces Kodam (Kategorija 16), kas ir pārāk garš, lai ietilptu obligātajā lauka izmērā.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Turpinājums Piegādātāja Piešķirtajam Izsekošanas Kodam (Kategorija 20).</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Turpinājums Piegādātāja Piešķirtajam Sērijas Numuram (Kategorija 19).</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Turpinājums Brīvam Tekstam (Kategorija 26), kas savstarpēji definēts starp Piegādātāju/Pārvadātāju/Klientu.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Turpinājums Darījuma Atsauces (Kategorija 11), kas savstarpēji definēts starp Piegādātāju/Pārvadātāju/Klientu.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Turpinājums Piegādātāja Piešķirtajam Preces Kodam (Kategorija 16).</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Funkcija 1 (FUNC1) rakstzīme. Parādās pirmajā pozīcijā pēc simbolu sākuma rakstzīmes Code 128, Code 49 vai Code 16K simbolā, lai norādītu GS1 kontrolētu simbolu.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Formāts YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Formāts DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Formāts MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Formāts YDDD (Jūlija).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Formāts YYDDD (Jūlija).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>ISO formāts YYMMDD tūlīt pēc ANSI X12.3 Datu Elementa Numura 374 Kvalifikatora, kas sniedz kodu, norādot datuma veidu (piem., nosūtīšanas datums, ražošanas datums).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>ISO formāts YYYYMMDD tūlīt pēc ANSI X12.3 Datu Elementa Numura 374 Kvalifikatora, kas sniedz kodu, norādot datuma veidu (piem., nosūtīšanas datums, ražošanas datums).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Formāts MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Notikums, Datums un Laiks.\nISO formāts YYYYMMDDHHMM (24 stundu pulkstenis - UTC) tūlīt pēc UN/EDIFACT Koda Kvalifikatora 2005, kas sniedz kodu, norādot datuma veidu), piemēram,\n11 [Datums, kad preces tiek gaidītas nosūtīšanai/piegādei, kad ziņojums ir izdots.];\n17 [Aptuvenais piegādes datums/laiks, kad preces tiek gaidītas piegādātas];\n35 [Datums, kad preces tiek piegādātas to galamērķī.];\n118 [Rezervācija apstiprināta];\n129 [Datums, kad kuģis/preces atstāj pēdējo ārvalstu ostu eksportējošajā valstī.];\n132 [Datums/laiks, kad pārvadātājs prognozē, ka transports ieradīsies izkraušanas ostā vai galamērķī.];\n133 [Datums/laiks, kad pārvadātājs prognozē, ka transports atstās iziešanas vietu];\n137 [Datums/laiks, kad piegādātājs nosūta daļas, pamatojoties uz klienta pieprasījumu. (Datums, kad DESADV ziņojums ir izdots. Ieteicams, ka DESADV tiek izdots 30 minūšu laikā pēc preču izņemšanas no nosūtīšanas puses];\n146 [Aptuvenais Ieejas datums (Muita) - datums, kad tiek gaidīts oficiālais muitas ieejas datums.];\n151 [Importa datums (Ieradās ostā ar nodomu izkraut];\n186 Iziet no Iekārtas ('Vārtu iziešana)];\n204 [Datums, kad Muita atbrīvo preces pārvadātājam vai importētājam];\n253 [Iziet no Ostas ('Kuģa iziešana')];\n252 [Ierodas Ostā ('Kuģa ierašanās')];\n283 [Ierodas Iekārtā ('Vārtu ieiešana)];\n342 [Transportlīdzeklis Ielādēts];\n351 [Termināļa Vārtu Pārbaude];\n411 [Pasūtīta Iepakošana];\n412 [Pasūtīta Izpakošana];\n420 [Transportlīdzeklis Izlādēts];\n534 [Remontēts];\n677 [Apstiprināta Iepakošana];\n678 [Apstiprināta Izpakošana];\n696 [Iesniegšanas Datums].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Datums (struktūra un nozīme savstarpēji definētas).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Formāts YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Formāts YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Formāts YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Vecākais un Jaunākais Ražošanas Datums formātā YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Derīguma Termiņa Beigu Datums (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Derīguma Termiņa Beigu Datums (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Ražošanas Datums (YYYYMMDD) - Ražošanas datums.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Ražošanas Datums (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Birku Aktivizēšanas Laiks.\nYYYYMMDDHHMM (24 stundu pulkstenis - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Birku Deaktivizēšanas Laiks.\nYYYYMMDDHHMM (24 stundu pulkstenis - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Pārbaudes Datums (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Nepieciešamais Piegādes Datums (DDD Jūliāns) vai DOD MILSTAMP Kods.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Ieraksta Laiks.\nYYYYMMDDHHMM (24 stundu pulkstenis - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Datums, izteikts modificētā UTC atbilstīgā formā:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo], kur kvadrātiekavas norāda uz izvēles iespēju, yyyy ir gads, mmdd ir mēnesis un diena, hhmmss ir dienas laiks stundās, minūtēs un sekundēs, fff ir sekunžu daļas, un poooo ir nobīde no UTC, izteikta stundās un minūtēs, nobīde ir pozitīva, ja p ir punkts (.), un negatīva, ja P ir mīnusa zīme (-).\nPIEMĒRS:\n2005 - (UTC) kalendārais gads 2005;\n200505 - (UTC) kalendārais mēnesis Maijs 2005;\n20050518 - (UTC) 18. Maijs 2005;\n200505181247 - 12:47 UTC 18. Maijā 2005;\n200505181247.0100 - 12:47 vietējais laiks, kas ir 11:47 UTC, 18. Maijā 2005;\n20050518124723099 - 99 milisekundes pēc 12:47:23 UTC 18. Maijā 2005.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Kvalificēts Datums, kas sastāv no konkatenācijas:\n- ISO/IEC 15459 izdošanas aģentūras kods;\n- datuma kvalifikators, kas atbilst šīs izdošanas aģentūras specifikācijām;\n- datums, kura formāts un interpretācija atbilst izdošanas aģentūras specifikācijām attiecīgajam datuma kvalifikatoram.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Labākais pirms datums: (YYYYMMDD).\nPiemērs: 25D20170202 = 2017. gada 2. februāris</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Pirmās saldēšanas datums (YYYYMMDD).\nPirmās saldēšanas datums tiek definēts kā datums, kad produkti tiek sasaldēti tieši pēc nogalināšanas, novākšanas, nozvejas vai pēc sākotnējās apstrādes.\nPiemērs: 26D20170721 = 2017. gada 21. jūlijs.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Novākšanas datums (YYYYMMDD).\nDatums, kad tika nogalināta dzīvnieks vai zivs tika nozvejota, vai kultūrauga novākšana.\nPiemērs: 27D20170615 = 2017. gada 15. jūnijs.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Novākšanas datuma diapazons (YYYYMMDDYYYYMMDD).\nSākuma datums un beigu datuma diapazons, kurā notika novākšana.\nPiemēram; dzīvnieki tika nogalināti vai nozvejoti, vai kultūraugs tika novākts.\nDatu plūsma tiek definēta kā pirmā YYYYMMDD kā sākuma datums un pēdējā YYYYMMDD kā beigu datums.\nPiemērs:\n28D2017012320170214 = Sākums; 2017. gada 23. janvāris. Beigas; 2017. gada 14. februāris.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Kreisā Kvadrātiekava', 'Labā Iekava', 'Lielāka Par Zīme', 'Ieraksta Atdalītājs' rakstzīmes. Datu struktūra atbilst ISO/IEC 15434, Informācijas tehnoloģija - Automātiskā Identifikācija un Datu Uztveršanas Tehnikas - Sintakse augstas ietilpības ADC medijiem.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Ierobežotu vielu klasifikācija - 'Vides Klasifikācijas Kods', ieskaitot bezsvina (Pb-Free) apdares kategorijas, kā definēts JESD97 (IPC JEDEC J-STD-609), un nākotnē nozares vai valdības aģentūras piešķirtie kodi, kas saistīti ar vides regulatīvo atbilstību un bīstamo materiālu saturu.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Gaisa Spiediens - (augstums) izteikts Paskālos kā starptautiski pieņemta mērvienība.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Maksimāli Atļautā Temperatūra. Maksimāli atļautā temperatūra; grādi pēc Celsija, '-' (mīnuss) kodēts, ja nepieciešams.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Minimāli Atļautā Temperatūra.\nMinimāli atļautā temperatūra; grādi pēc Celsija, '-' (mīnuss) kodēts, ja nepieciešams.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Maksimāli Atļautā Relatīvā Mitruma Līmenis.\nMaksimāli atļautais relatīvais mitrums, izteikts procentos.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Minimāli Atļautā Relatīvā Mitruma Līmenis.\nMinimāli atļautais relatīvais mitrums, izteikts procentos.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Ledusskapja Konteinera Temperatūra.\nTemperatūras kontroles kravai, mērķis, ko nosaka nosūtītājs, grādi pēc Celsija, '-' (mīnuss) kodēts, ja nepieciešams.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Kumulatīvais Laika Temperatūras Indekss - izteikts kā mērījumu vai skaitīšanas skaits.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Laika Temperatūras Indekss - Nākamais Augstākais Montāžas - izteikts kā mērījumu vai skaitīšanas skaits.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Iepakojuma Materiāla Kategorijas*, Koda* un Svara Deklarācija noteiktam iepakojuma materiālam, kas izmantots noteiktā iepakojumā saskaņā ar ES iepakojuma un iepakojuma atkritumu direktīvu. (Materiāla kategorija un kods definēti Pielikumā M).\n12ECCMMMMMMNNNNNUU kur: - '12E' (an3) ir Datu Identifikators;\n - 'CC' (n2) ir Materiāla Kategorija saskaņā ar Pielikumu M;\n - 'MMMMMM' (an1...6) ir Materiāla Kods saskaņā ar Pielikumu M;\n - 'NNNNN' (n5) Materiāla Svars, ieskaitot decimāldaļu punktu (piem., 12.12);\n - 'UU' (an2) ir svara mērvienība (piem., KG, GR, LB vai OZ saskaņā ar ANSI X12.3 kā Pielikumā D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>Datu aiz DI 13E būs viens no MSL indikatoriem (1, 2, 2a, 3, 4, 5, 5a, 6), kā parādīts līmeņa kolonnā Tabulā 5-1 JEDEC standartā IPC/JEDEC J-STD-020E. Tabula ir parādīta tikai kā atsauce; lai iegūtu pareizo MSL konkrētajai komponentei, jāizmanto attiecīgā standarta pašreizējā versija. Piemērs: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>'Mīnusa' jeb 'Defisa' rakstzīme. Farmaceitiskais centrālais numurs (PZN), ko kontrolē IFA-ABDATA, Vācija (Šī sistēmas identifikatora reģistrācija beidzas 2016. gada 1. jūlijā). Aizstāts ar '9N'.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Cikla Galvene.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Mana vecāka ______ ir . . . Unikāls identifikators, kam seko Datu Identifikators un saistītie dati (izmantojams ar atkārtoti izmantojamu iepakojumu). Šim Datu Identifikatoram jāseko tūlīt pēc lauka (kas sastāv no Datu Identifikatora, datiem un grupas atdalītāja) ar kuru tas ir saistīts.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Man ir ______ bērni . . . (izmantojams ar atkārtoti izmantojamu iepakojumu, piemēram; 3F10, desmit bērniem). Šim Datu Identifikatoram jāseko tūlīt pēc lauka (kas sastāv no Datu Identifikatora, datiem un grupas atdalītāja) ar kuru tas ir saistīts.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Loģiska Informācijas Lapas Piešķiršana grupā lapu, kas izkliedētas pār vairākiem datu nesējiem, strukturēta kā līdz trim (3) konkatenētiem datu elementiem, atdalītiem ar slīpsvītru ( / ):\n Lapas numurs (obligāti), kam seko lapu skaits (neobligāti, obligāti pēdējai lapai), kam seko alfanumērisks grupas ID (neobligāti; ja izmantots, tad obligāti visām lapām un strukturēts saskaņā ar ISO/IEC 15459-3 kā trīs datu elementu virkne: Izdošanas Aģentūras Kods, kam seko Uzņēmuma Identifikācijas Numurs, kam seko alfanumērisks kods, kas ir unikāls izdevēja domēnā).\n Slēdzošās slīpsvītras ir neobligātas.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Man ir ______ bērni un tie ir . . . (izmantojams ar atkārtoti izmantojamu iepakojumu) Šim Datu Identifikatoram jāseko tūlīt pēc lauka (kas sastāv no Datu Identifikatora, datiem un grupas atdalītāja) ar kuru tas ir saistīts.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>'Izsauciens' zīme. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Puses Nosaukums.\nKādas puses nosaukums, kam seko plusa (+) rakstzīme, kam seko viena vai vairākas koda vērtības no EDIFACT Koda Saraksta 3035 'Puses Kvalifikators', piemēram;\nBY [Pircējs];\nCF [Konteinera operators];\nCN [Saņēmējs];\nCS [Konsolidētājs];\nDEI [Kuģa operators/kuģa kapteinis];\nFA [Operacionālā personāla kods];\nIM [Importētājs];\nMF [Ražotājs];\nOS [Nosūtītājs];\nSE [Pārdevējs];\nST [Nosūtījuma Adresāts];\nUC [Galamērķa saņēmējs].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Darbinieka Identifikācijas Kods, ko piešķīris darba devējs.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>ASV Sociālās Drošības Numurs.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Identifikācijas Numurs Ne-Darbiniekam (iekšēji piešķirts vai savstarpēji definēts) (piemēram, līgumdarbiniekiem, piegādātājiem, servisa un piegādes personālam).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Valsts Sociālās Drošības Numurs.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Uzvārds.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Puses Nosaukums (2. līnija).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Kontaktpersonas Tālrunis.\nValsts Kods, Rajona Kods, Apgabala Kods, numurs [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Kontaktpersonas E-pasts.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Saņēmēja Numurs.\nUnikālais identifikācijas numurs var būt IRS, EIN, SSN vai CBP piešķirts numurs, kas nepieciešams Drošības Paziņojumā. Jāizmanto tikai šādi formāti: IRS EIN: NN-NNNNNNN;\nIRS EIN ar sufiksu: NN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP piešķirts nr.: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Personas Identifikācijas Kods (pirmais iniciālis, pēdējais iniciālis, pēdējie četri no SSN).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Vārds un Vidējais Iniciālis.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Militārā Pakāpe (E1-E9, W1-W5, un O1-O10).\n2020. gada atjauninājums: Metadatu formāts mainīts, lai atbilstu militārajām pakāpēm, kas faktiski tiek izmantotas armijā: "an2+an3". Skaidrojuma informācija mainīta uz: "Militārā Pakāpe (E1-E9, W1-W5, un O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Nacionālais Identifikācijas Numurs, Nacionālais Identitātes Numurs vai Nacionālais Apdrošināšanas Numurs, ko izmanto kā līdzekli indivīdu identificēšanai valstī darba, nodokļu, valdības pabalstu, veselības aprūpes un citām valdības saistītām funkcijām.\nStruktūra identifikatoram ir DI (15H) sekojot ISO 3166-1 Alpha2 Valsts Kodam sekojot valdības piešķirtam identifikācijas kodam indivīdiem.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Globāli Unikāls Personas ID. ko piešķīris Uzņēmuma Identifikācijas Koda (CIN) turētājs un ietverot saistīto Izdošanas Aģentūras Kodu (IAC) saskaņā ar ISO/IEC 15459 un tā reģistru, strukturēts kā 3 savienotu datu elementu secība: IAC sekojot CIN, sekojot ID, kas ir unikāls turētāja domēnā.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Globāli Unikāls Personas ID, ar "Puses Kvalifikatora" koda vērtību no EDIFACT Koda Saraksta 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Ekskluzīva Piešķiršana - Transportlīdzekļa Identifikācijas Numurs (VIN), kā definēts ASV saskaņā ar 49 CFR, Sadaļa 565 un starptautiski ar ISO 3779. (Šie ir pilnībā saderīgi datu struktūras).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Saīsināts VIN Kods.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Globāli unikāls transportlīdzekļa identifikators (piem., Kravas automašīnām), kas sastāv no Transportlīdzekļa Identifikācijas Numura (VIN), kā definēts ASV saskaņā ar 49 CFR Sadaļa 565, un starptautiski ar ISO 3779, kam seko '+' zīme, pēc tam seko valdības izdotais Transportlīdzekļa Reģistrācijas Numura Zīme formātā '4I' 'VIN' '+' 'valdības izdotais Transportlīdzekļa Reģistrācijas Numura Zīme' (pēdiņas un atstarpes parādītas tikai skaidrības nolūkos; tās nav daļa no datiem).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Unikāls ražošanas transportlīdzekļa identifikators, ko izmantos transportlīdzekļa ražošanas procesos, kas sastāv no Korpuss Taga Numura (BTN; jebkurs cits aprakstītājs, kas izmantots, lai identificētu neapstrādātu automobiļa korpusu, vai citiem vārdiem, daļu kopumu, kas tiek izmantots, lai sāktu transportlīdzekļa ražošanu), seko '+' zīme, pēc tam seko Ražošanas Pasūtījuma Numurs (PON), seko '+' zīme, un pēc tam seko Ražotāja piešķirts Sērijas Numurs (SN). PIEZĪME - SN komponentu aizstāj ar VIN, tiklīdz VIN kļūst pieejams montāžas procesā.\nKonstrukcija būs šāda;\n"5I" "BTN" "+" "PON" "+" "SN"\nmainoties uz (kad VIN pieejams)\n"5I" "BTN" "+" "PON" "+" "VIN"\nPIEZĪME - Pēdiņas un atstarpes ir parādītas tikai skaidrības nolūkā; tās nav daļa no datiem.\nPIEZĪME - Šis DI nekad nav jākonkatenē ar citiem DI lineārajā simbolā vai citos medijos, kur konkatenācijas rakstzīme ir plusa (+) zīme.\nPiemēri:\nSN versija: 5IABCD1234+CO1234+W0L201600500001\nVIN versija: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

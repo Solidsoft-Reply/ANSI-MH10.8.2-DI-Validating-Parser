@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>Il-karattru 'PLUS'. Il-Kunsill tal-Komunikazzjonijiet tan-Negozju tal-Industrija tas-Saħħa (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Numru tal-pjanċa tal-liċenzja unika.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Numru tal-pjanċa tal-liċenzja unika assenjat għal unità tat-trasport li hija l-inqas livell ta' ippakkjar, l-unità li ma tistax tinkiser.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Numru tal-pjanċa tal-liċenzja unika assenjat għal unità tat-trasport li fiha pakketti multipli.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Numru tal-pjanċa tal-liċenzja unika assenjat għal unità tat-trasport li hija l-inqas livell ta' ippakkjar, l-unità li ma tistax tinkiser u li għandha data EDI assoċjata mal-unità.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Numru tal-pjanċa tal-liċenzja unika assenjat għal unità tat-trasport li fiha pakketti multipli u li hija assoċjata ma' data EDI.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Numru tal-pjanċa tal-liċenzja unika assenjat għal unità tat-trasport mħallta li fiha oġġetti mhux simili f'transazzjoni waħda tal-klijent u jista' jkollha jew ma jkollhiex data EDI assoċjata.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Numru tal-pjanċa tal-liċenzja unika assenjat għal unità ewlenija tat-trasport li fiha oġġetti simili f'transazzjoni waħda tal-klijent u jista' jkollha jew ma jkollhiex data EDI assoċjata.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Numru tal-Pjanċa tal-Liċenzja tal-Reġistrazzjoni tal-Vettura (mhux uniku mingħajr identifikazzjoni tal-pajjiż u r-reġjun/aġenzija governattiva li toħroġha)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Identità tas-Servizz Marittimu Mobbli (MMSI).\nNumru ta' disa' ċifri rregolat mill-Unjoni Internazzjonali tat-Telekomunikazzjonijiet biex jidentifika b'mod uniku vapur jew stazzjon tar-radju tal-kosta. Eżempju: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Numru tal-Ordni assenjat mill-Klijent biex jidentifika Transazzjoni tax-Xiri (eż., numru tal-ordni tax-xiri).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Numru tal-Ordni assenjat mill-Fornitur biex jidentifika Transazzjoni tax-Xiri.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Bill tal-Merkanzija/Vjaġġar/Trasport assenjat mill-Fornitur/Trasportatur.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Bill tal-Merkanzija/Vjaġġar/Trasport assenjat mill-Operatur tat-Trasport.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Numru tal-Linja tal-ordni assenjat mill-Klijent biex jidentifika Transazzjoni tax-Xiri.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Numru ta' Referenza assenjat mill-Klijent biex jidentifika Awtorizzazzjoni tat-Tbaħħir (Rilaxx) kontra Ordni tax-Xiri stabbilita.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>PRO# Assenjat mill-Operatur tat-Trasport.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Mod tat-Trasportatur f'Format ta' Test Ħieles definit b'mod reċiproku bejn il-Klijent u l-Fornitur (eż., Ajru, Trakk, Dgħajsa, Ferrovija).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Numru tal-Kuntratt.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Kodiċi Ġeneriku ta' Referenza tat-Transazzjoni (assenjat internament jew definit b'mod reċiproku).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Numru tal-Fattura.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Numru tal-Lista tal-Ippakkjar.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Kodiċi Alfa tal-Operatur Standard) (an4 - mimli b'tiret '-') u numru assenjat mill-operatur PROgressive.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Numru tal-Bill tal-Merkanzija / Numru tar-Riċevuta tat-Trasport SCAC + Numru tal-B/L tal-merkanzija tal-kontenitur jew numru tal-waybill.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Numru tal-Ordni Kombinat u Numru tal-Linja fil-format nn...nn+nn...n fejn simbolu plus (+) jintuża bħala delimiter bejn in-Numru tal-Ordni u n-Numru tal-Linja.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>Numru KANBAN.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>Numru DELINS: kodiċi assenjat biex jidentifika dokument li fih informazzjoni dwar il-kunsinna.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Numru taċ-Ċekk.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Referenza Strutturata.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Numru tal-Każ tal-Bejgħ Militari Barrani.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Identifikatur tal-Liċenzja, li jkun identifikatur globalment uniku għal liċenzja jew kuntratt taħt liema l-oġġetti jiġu ġġenerati, sottomessi għall-ipproċessar u/jew imħallsa għalih, li huwa mibni billi jikkonkatena:\n - kodiċi tal-aġenzija li toħroġ skont l-ISO/IEC 15459;\n - numru ta' liċenzja jew kuntratt li jaqbel mas-speċifikazzjonijiet tal-aġenzija li toħroġ kkonċernata;\n u li:\n - jikkonsisti biss fi karattri alfabetiċi u/jew numeriċi ta' ittri kbar;\n - huwa uniku (jiġifieri, huwa distint minn kwalunkwe identifikatur ieħor konformi mal-ISO/IEC 15459) fl-ambitu tal-aġenzija li toħroġ;\n - ma jistax jiġi derivat minn kwalunkwe identifikatur ieħor konformi mal-ISO/IEC 15459, maħruġ taħt l-istess aġenzija li toħroġ, billi sempliċiment jiżdiedu karattri għalih, jew jitneħħew minn, it-tarf tiegħu.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Data tal-Klijent, li tkun data li:\n - mill-perspettiva tal-klijent, hija relatata ma' oġġett jew transazzjoni, jew għal grupp jew oġġetti relatati jew transazzjonijiet, u\n - tikkonsisti sa 35 karattri stampabbli u/jew spazji, minbarra plus (+), miġbuda mis-sett tal-karattri definit fl-ISO/IEC 646.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>'22K' Informazzjoni dwar l-Awtentikazzjoni tat-Transazzjoni, li tkun valur, mibni billi jikkonkatena:\n - kodiċi tal-aġenzija li toħroġ skont l-ISO/IEC 15459;\n - valur li jaqbel mas-speċifikazzjonijiet tal-aġenzija li toħroġ kkonċernata,\n li jippermetti l-verifika tal-awtentiċità tat-transazzjoni kkonċernata u, b'mod partikolari, li t-transazzjoni ġiet inizjata mill-parti, iddikjarata fit-transazzjoni li kienet l-inizjatur tagħha, minn:\n - ir-riċevitur ta' transazzjoni, u/jew\n - waħda jew aktar mill-partijiet involuti fl-immaniġġjar jew fl-ipproċessar tagħha, u/jew\n - parti terza ta' fiduċja.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Identifikazzjoni Unika Globali ta' Grupp ta' Unitajiet tat-Trasport Assenjati mill-Operatur tat-Trasport, definita bħala:\nIdentifikazzjoni ta' Parti għal-Transazzjoni kif definit assenjat minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluż il-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont l-ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit mill-Kodiċi tal-Identifikazzjoni tal-Bill tal-Merkanzija jew Waybill jew Kodiċi tal-Identifikazzjoni tat-Trasport li huwa uniku fl-ambitu tad-detentur tal-CIN.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Identifikazzjoni Unika Globali ta' Grupp ta' Unitajiet tat-Trasport Assenjati mill-Mittent, definita bħala:\nIdentifikazzjoni ta' Parti għal Transazzjoni assenjata minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluż il-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont l-ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit mill-Kodiċi tal-Identifikazzjoni tal-Bill tal-Merkanzija jew Waybill jew Kodiċi tal-Identifikazzjoni tat-Trasport li huwa uniku fl-ambitu tad-detentur tal-CIN.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Numru tal-Kwotazzjoni Assenjat mill-Fornitur - Numru assenjat għal kwotazzjoni mill-fornitur b'reazzjoni għal talba għal kwotazzjoni mill-klijent.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Post tal-Ħażna.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Post.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>'Kunsinna Lejn:' Kodiċi tal-Post Definit skont standard tal-industrija jew definit b'mod reċiproku.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>'Mibgħut Minn:' Kodiċi tal-Post Definit skont standard tal-industrija jew definit b'mod reċiproku.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Pajjiż ta' Oriġini, kodiċi ta' żewġ karattri ISO 3166. Bil-ftehim tas-sħab kummerċjali u meta l-Pajjiż ta' Oriġini huwa mħallat, għandu jintuża l-Kodiċi tal-Pajjiż 'AA'.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>'Kunsinna Għal:' Kodiċi tal-Post Definit skont standard tal-industrija jew definit b'mod reċiproku.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Kodiċi tar-Rotta assenjat mill-fornitur biex jiddeskrivi triq tat-trasport speċifika.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>Kodiċi tal-Attività tad-Dipartiment tad-Difiża ta' 6 karattri (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Port ta' Imbarkazzjoni - Definit b'mod reċiproku.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Port ta' Dħul - Definit b'mod reċiproku.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Post (Latitudni/Longitudni/Altitudni) kodifikat fil-format xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>'Kunsinna Lejn:' Post (Latitudni/Longitudni/Altitudni) kodifikat fil-format xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>'Mibgħut Minn:' Post (Latitudni/Longitudni/Altitudni) kodifikat fil-format xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Kunsinna Għal: Post (Latitudni/Longitudni/Altitudni) kodifikat fil-format xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Post ta' Attivazzjoni tat-Tag.\nIsem tal-post bl-Ingliż (sett tal-karattri: 0-9, A-Z &lt;Spazju&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Post tad-Deattivazzjoni tat-Tag.\nIsem tal-post bl-Ingliż (sett tal-karattri: 0-9, A-Z &lt;Spazju&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>Kodiċi tal-qasam tas-sajd tal-FAO kif definit mid-Dipartiment tas-Sajd u l-Akkwakultura tal-FAO (http://www.fao.org. Fittex għas-sottos-sit tal-Kodiċi tal-Qasam tas-Sajd).\nIl-karattri kollha tas-subsett definit mill-GS1 tas-ISO/IEC 646 huma permessi.\nEżempji:\n18L37.1.3 Baħar tal-Punent tal-Mediterran, Sardinja;\n18L47.B.1 Atlantiku, Nofsinhar tal-Lvant, Diviżjoni tal-SEAFO, EEZ tan-Namibja;\n18L67 Paċifiku, Nofsinhar tal-Lvant.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Ewwel Livell (assenjat internament).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>It-Tieni Livell (assenjat internament).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>It-Tielet Livell (assenjat internament).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Ir-Raba' Livell (assenjat internament).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Il-Ħames Livell (assenjat internament).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Identifikazzjoni ta' Parti għal Transazzjoni, eż., 25L IAC CIN LOC assenjat minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluż il-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont l-ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit mill-post intern fiżiku (LOC) li huwa uniku fl-ambitu tad-detentur tal-CIN.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Kodiċi tal-Post, li jkun kodiċi li jidentifika post jew żona ġeografika, jew grupp assoċjat ta' tali postijiet jew żoni, li għandu rilevanza għal transazzjoni relatata u li jikkonforma ma' waħda mill-istrutturi definiti minn (a) sa (f) hawn taħt:\na) żewġ ittri alfabetiċi kbar li jikkorrispondu mal-kodiċi tal-pajjiż ISO 3166-1 ta' żewġ ittri tal-pajjiż fejn, jew li minnu jikkonsisti, il-post(i) jew iż-żona(i) jinsabu;\nb) tliet ittri alfabetiċi kbar li jikkorrispondu mal-kodiċi tal-IATA tal-ajruport jew tal-belt fejn, viċin, jew li minnu jikkonsisti, il-post(i) jew iż-żona(i) jinsabu;\nc) erba' karattri jew aktar li l-ewwel tlieta jikkorrispondu għal kodiċi tal-pajjiż ISO 3166-1 segwiti minn tratt (-), bil-bqija jkunu kodiċi postali fil-pajjiż kkonċernat;\nd) erba' karattri jew aktar li l-ewwel tlieta jikkorrispondu għal kodiċi tal-pajjiż ISO 3166-1 segwiti minn punt (.), bil-bqija jkunu kodiċi tas-sottodiviżjoni tal-pajjiż ISO 3166-2 fil-pajjiż kkonċernat;\ne) ħames ittri alfabetiċi kbar li jikkorrispondu mal-UN/LOCODE taż-żona fejn, viċin, jew li minnu jikkonsisti, il-post(i) jew iż-żona(i) jinsabu;\nf) il-konkatenazzjoni, li ma tkunx inqas minn sebgħa jew aktar minn 35 karattru fit-tul, ta':\n- kodiċi tal-aġenzija li toħroġ skont l-ISO/IEC 15459;\n- kodiċi tal-post, li jikkonsisti f'karattri miġbura mis-sett {A-Z; 0-9} li jaqblu mas-speċifikazzjonijiet tal-aġenzija li toħroġ kkonċernata.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Post tal-Event UN/LOCODE.\nUN/LOCODE segwit minn karattru plus (+) segwit minn wieħed jew aktar valuri tal-kodiċi minn Lista tal-Kodiċi EDIFACT 3227 'Kwalifikatur tal-funzjoni tal-post', eż.,\n7 Post tal-Kunsinna Finali;\n5 Port tat-Tluq;\n9 Port tal-Tagħbija;\n11 Port tal-Ħatt;\n13 Post tat-trasbord;\n24 Port tad-Dħul;\n35 Pajjiż tal-Esportazzjoni;\n88 Post tar-Riċevuta mill-Operatur tat-Trasport;\n125 Port Barrani qabel it-Tluq lejn l-Istati Uniti;\n147 Ċellula/Stowage tal-pożizzjoni;\n159 Post tal-kunsinna (lill-konsenjatarju);\n248 Post tat-Tagħbija\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Numru u Indirizz tat-Triq.\nUżat flimkien ma' H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Isem tal-Belt.\nUżat flimkien ma' H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Dettalji tas-Sottodiviżjoni tal-Pajjiż.\nUżat flimkien ma' H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Kodiċi Postali.\nUżat flimkien ma' H, 6H, 28L, 29L, 30L, 31L, 32L (Jekk jintuża tratt '-', għandu jiġi kkodifikat espressament).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Kodiċi tal-Pajjiż.\nISO 3166-1 Alpha 2 Code\nUżat flimkien ma' H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Uniform Resource Locator (URL).\nJinkludi l-karattri kollha li jiffurmaw URL, inklużi d-data tal-header bħal eż., http://. Sett tal-karattri kif elenkat f'RFC 1738.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Pointer to Process URL (P2P URL) għall-inizjar ta' URL li jġorr l-elementi kollha tad-data kodifikati f'mezz AIDC skont ir-regola li ġejja: Iskenja l-kodiċi u inizja l-URL tibda bl-istring tal-P2P URL, tiġbor l-elementi kollha tad-data li ġew iskenjati fl-istess sekwenza kif ġew kodifikati fil-mezz, inklużi d-DIs u s-separaturi tal-elementi tad-data. Ikkonverti l-karattri speċjali fl-URL anness fil-format RFC 1738 (eż., Separator tal-Grupp 'GS' tradott fis-sekwenza RFC 1738 %1D). Nota li dan ma japplikax għall-P2P URL innifsu.\nEżempju: String tad-data kodifikata (bl-użu tal-ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nirriżulta fl-URL li ġej bil-data trasmessa:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nNota: id-data mill-envelop '05' ma ġietx inkorporata fl-URL peress li l-34L kienet kodifikata fl-envelop '06'.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Numru ta' approvazzjoni assenjat mill-gvern tal-vapur / sit tal-akkwakultura / razzett / proċessur, li jibda b'kodiċi tal-pajjiż ISO 31661 alpha-2, segwit min-numru tal-approvazzjoni.\nIl-karattri kollha tad-definizzjoni tas-subsett tal-GS1 tal-ISO/IEC 646 huma permessi.\nEżempju:\n35LIECK0107EC = Pajjiż; Irlanda. Isem tal-Vapur; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Numru ta' approvazzjoni assenjat mill-gvern tal-produttur jew razzett jew l-ewwel sala tad-deboning / qtugħ, li jibda b'kodiċi tal-pajjiż ISO 3166-1 alpha-2, segwit min-numru tal-approvazzjoni.\nIl-karattri kollha tad-definizzjoni tas-subsett tal-GS1 tal-ISO/IEC 646 huma permessi.\nEżempju:\n36LIECK0107EC = Pajjiż; Irlanda. Isem tal-Vapur; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Mibgħut Minn:' - Kodiċi tal-post definit minn awtorità postali (eż., kodiċijiet ZIP ta' 5 ċifri u 9 ċifri li jidentifikaw postijiet fl-Istati Uniti jew kodiċijiet postali ta' 6 karattri li jidentifikaw postijiet fil-Kanada).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Kunsinna Lejn:' - Kodiċi tal-post definit minn awtorità postali (eż., kodiċijiet ZIP ta' 5 ċifri u 9 ċifri li jidentifikaw postijiet fl-Istati Uniti jew kodiċijiet postali ta' 6 karattri li jidentifikaw postijiet fil-Kanada).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>'Mibgħut Minn:' - Kodiċi tal-post definit minn awtorità postali fil-format: kodiċijiet postali (eż., kodiċijiet ZIP ta' 5 ċifri li jidentifikaw postijiet fl-Istati Uniti jew kodiċijiet postali ta' 6- jew 7-karattri li jidentifikaw postijiet fir-Renju Unit) segwit minn kodiċi ta' żewġ karattri tal-pajjiż ISO 3166 (eż., US jew GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>'Kunsinna Lejn:' - Kodiċi tal-post definit minn awtorità postali fil-format: kodiċijiet postali (eż., kodiċijiet ZIP ta' 5 ċifri li jidentifikaw postijiet fl-Istati Uniti jew kodiċijiet postali ta' 6- jew 7-karattri li jidentifikaw postijiet fir-Renju Unit) segwit minn kodiċi ta' żewġ karattri tal-pajjiż ISO 3166 (eż., US jew GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Data tal-Formola 2410 tal-Armata. Il-format huwa l-valur tad-data segwit min-numru tal-blokka tal-formola 2410. It-tulijiet tal-qasam u l-karattri aċċettabbli jistgħu jinstabu fuq;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nAġġornament 2020: L-URL ġie mibdul għal:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Data tal-Formola 2408 tal-Armata. Il-format huwa l-valur tad-data segwit min-numru tal-blokka tal-formola 2408. It-tulijiet tal-qasam u l-karattri aċċettabbli jistgħu jinstabu fuq;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nAġġornament 2020: L-URL ġie mibdul għal:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Data tal-Formola 2407 tal-Armata. Il-format huwa l-valur tad-data segwit min-numru tal-blokka tal-formola 2407. It-tulijiet tal-qasam u l-karattri aċċettabbli jistgħu jinstabu fuq;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nAġġornament 2020: L-URL ġie mibdul għal:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Data tal-Formola 95 tal-Forza tal-Ajru. Il-format huwa l-valur tad-data segwit min-numru tal-blokka tal-formola 95. It-tulijiet tal-qasam u l-karattri aċċettabbli jistgħu jinstabu fuq;\nhttp://www.gsa.gov/portal/forms/download/116418.\nAġġornament 2020: L-isem tal-Formola huwa "Formola tal-Ordni Teknika tal-Forza tal-Ajru 95 (AFTO Form 95)." Id-dettalji dwar il-Formola huma sorsjati fl-Ordni Teknika tal-Forza tal-Ajru (TO) 00-20-1. L-URL għal dan il-TO ġie mibdul għal:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Data tal-Formola 4790 tan-Navy. Il-format huwa l-valur tad-data segwit min-numru tal-blokka tal-formola 2410. It-tulijiet tal-qasam u l-karattri aċċettabbli jistgħu jinstabu fuq;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%2015.pdf.\nAġġornament 2020: L-URL m'għadux validu.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Numru tal-Istokk Nazzjonali/NATO (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Data tal-Karatteristika tal-Prodott definita mill-Iskambju tad-Data tal-Industrija Kimika (CIDX).</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Struttura tal-Kodifikazzjoni skont il-Format definit mill-Assoċjazzjoni tal-Industriji Elettroniċi tal-Ġappun (EIAJ).</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Struttura tal-Kodifikazzjoni u Formats skont l-Applikazzjoni tal-GS1 Identifikaturi (AI plus data) (GS1).</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Struttura tal-Kodifikazzjoni u Formats skont ir-Rakkomandazzjonijiet tal-AIAG. L-Identifikatur tad-Data sħiħ huwa fil-forma 5Nxx fejn l-'xx' jinstab fil-lista sħiħa tal-kodiċijiet li tista' tinstab fuq https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>Kodiċijiet tal-Proċedura ta' Talba u Ħruġ tad-DOD tal-Istati Uniti. Il-format huwa l-kodiċi MILSTRIP xieraq segwit mill-valur tad-data assoċjata ma' dak il-kodiċi. (Il-lista sħiħa tal-kodiċijiet hija disponibbli fuq;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\nAġġornament 2020: L-URL ġie mibdul għal:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/)</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>Kodiċijiet tar-Regolament tat-Trasport tad-Difiża tal-Istati Uniti. Il-format huwa l-kodiċi DTR segwit mill-valur tad-data assoċjata ma' dak il-kodiċi. (Il-lista sħiħa tal-kodiċijiet hija disponibbli fuq;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\nAġġornament 2020: L-URL ġie mibdul għal:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Kodiċijiet tal-Identifikazzjoni tal-Annimali tal-Produzzjoni. Il-format huwa l-kodiċi tal-annimal tal-produzzjoni segwit mill-valur tad-data assoċjata ma' dak il-kodiċi. Ir-Rapport Tekniku u l-lista sħiħa tal-Elementi tad-Data Estiżi (kodiċijiet) hija miżmuma fuq;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Elementi tad-Data Estiżi (Kodiċijiet).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Rapport Tekniku.\nAġġornament 2020: L-URLs ġew mibdula għal:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Numru tal-Prodott tal-Farmaċija miżmum mill-IFA (www.ifaffm.de) b'dawn l-elementi; Identifikatur tad-Data (DI), kodiċi ta' żewġ ċifri tal-aġenzija tar-reġistrazzjoni tal-prodott (PRAC), ir-referenza tal-prodott (PR), u ż-żewġ ċifri tal-verifika PPN (CC), fil-forma DI PRAC PR CC.\nNOTA - spazju huwa miżjud bħala separatur għall-kjarità viżiva u mhuwiex parti mid-data.\nEżempji:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Data fil-format u bl-użu tas-semantika definiti mid-detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) li ġie maħruġ minn Kodiċi tal-Aġenzija li Toħroġ (IAC) skont l-ISO/IEC 15459, definit bħala sekwenza ta' elementi tad-data konkatenati: IAC, segwit minn CIN, segwit mill-karattru separatur ':' (kolon) segwit mid-data fil-format u bl-użu tas-semantika kif definit mid-detentur tal-CIN.\nNOTA: Biss ir-regoli tas-sintassi tad-data (jekk jeżistu) kif provduti mill-IAC+CIN iddikjarat fi kwalunkwe stream tad-data DI '10N' għandhom jiġu applikati għad-data li ġejja wara DI 10N+IAC+CIN.\nNOTA: Minħabba żball fl-assenjazzjoni tad-DI '10N' (ma hemm l-ebda awtorità ċentrali għad-definizzjoni tad-data jew il-manutenzjoni), m'għandhomx jiġu implimentati użi ġodda tad-DI '10N'.\nIl-funzjoni tad-DI '10N' hija stabbilita fil-Kategorija 18, VARJI b'DI '5R'. Huwa rrakkomandat b'mod qawwi li applikazzjonijiet eżistenti li jużaw DI '10N' jemigraw lejn DI 5R'.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Il-Kostrutt tad-Data huwa definit u kkontrollat mill-RLA, u huwa magħmul minn 2 segmenti: il-kodiċi tal-identifikatur tal-qasam, segwit minnufan minnufan mill-data kif definit għal dak l-element skont id-dizzjunarju tad-data tal-RLA. Essenzjalment, huwa katalogu ta' oqsma b'kontenut standardizzat. L-Identifikaturi tal-Qasam huma ppostjati fuq http://rla.org/11ncodes. L-użu u l-istruttura ta' dawn il-kodiċijiet huma definiti fuq: http://rla.org/11nformat. Eżempji addizzjonali jistgħu jinstabu fuq dak is-sit ukoll. DI '11N' qatt m'għandu jiġi kkodifikat f'tag 2D jew RFID flimkien ma' kwalunkwe elementi DI oħra.\nNOTA: Minħabba żball fl-assenjazzjoni tad-DI '11N' (il-lingwa li tgħid: 'DI '11N' qatt m'għandu jiġi kkodifikat f'tag 2D jew RFID flimkien ma' kwalunkwe elementi DI oħra.' mhijiex dikjarazzjoni valida), m'għandhomx jiġu implimentati użi ġodda tad-DI '11N'. Il-funzjoni tad-DI '11N' hija stabbilita f'DI '12N'. Huwa rrakkomandat b'mod qawwi li applikazzjonijiet eżistenti li jużaw DI '11N' jemigraw lejn DI '12N'.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Il-Kostrutt tad-Data huwa definit u kkontrollat mill-RLA, magħmul minn 2 segmenti: il-kodiċi tal-identifikatur tal-qasam (FI), segwit minnufan mill-data kif definit għal dak l-element skont id-dizzjunarju tad-data tal-RLA. Essenzjalment, huwa katalogu ta' oqsma b'kontenut standardizzat. L-Identifikaturi tal-Qasam huma ppostjati fuq http://rla.org/12ncodes. L-użu u l-istruttura ta' dawn il-kodiċijiet huma definiti fuq: http://rla.org/12nformat. Eżempji jistgħu jinstabu fuq dak is-sit.\nAġġornament 2020: L-URL inbidel għal:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Ir-rappreżentazzjoni tal-Kodiċijiet tal-Identifikatur tal-Internet Industrijali kkontrollati u miżmuma mill-CAICT, użati fis-Sistema ta' Riżoluzzjoni tal-Identifikatur tal-Internet Industrijali taċ-Ċina u mibnija bħala &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, fil-forma an3+a3+n3+n3+n8+an1...33, fejn an3 huwa l-Identifikatur tad-Data (DI), a3 huwa l-Kodiċi tal-Aġenzija li Toħroġ (IAC = "VAA"), n3 huwa l-Kodiċi tat-Tier ta' Fuq (TTC), n3 huwa l-Kodiċi tat-Tier Sekondarju (STC), n8 huwa n-Numru ta' Identifikazzjoni tal-Kumpanija (CIN) kkontrollat u assenjat mill-pjattaforma tat-Tier Sekondarju u an1...33 huwa n-Numru tas-Serje (SN) li huwa kkontrollat u assenjat mid-detentur tal-CIN, u huwa uniku fl-ambitu tad-dominju tal-detenturi tal-CIN, bl-użu tal-karattri minn 0 sa 9, ittri kbar u żgħar minn A sa Z, * (asterisk), + (sinjal tal-plus), - (tratt), . (punt jew full stop), / (slash 'il quddiem), ( (parentesi xellugija), ) (parentesi leminija), ! (sinjal tal-ammirazzjoni).\nEżempji:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Oġġett assenjat mill-Klijent.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Oġġett assenjat mill-Fornitur.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Kodiċi Assenjat biex Jispeċifika l-Livell tar-Reviżjoni għal Oġġett (eż., livell ta' bidla fl-inġinerija, edizzjoni, jew reviżjoni).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Kombinazzjoni tal-Kodiċi tal-Identifikazzjoni tal-Manifattur/Oġġett Taħt il-Formati ta' 12/13-ċifri tal-GS1, flimkien ma' kodiċijiet supplimentari, jekk ikun hemm.\nAġġornament 2020: GS1 jirrakkomanda li dan id-DI m'għadux jintuża u li l-utenti ta' dan id-DI jemigraw lejn kwalifikaturi tad-data tal-GS1 (Identifikaturi tal-Applikazzjoni) skont l-ISO/IEC 15418 u l-ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Porzjon tal-Kodiċi tal-Oġġett tal-Formati tal-GS1.\nAġġornament 2020: GS1 jirrakkomanda li dan id-DI m'għadux jintuża u li l-utenti ta' dan id-DI jemigraw lejn kwalifikaturi tad-data tal-GS1 (Identifikaturi tal-Applikazzjoni) skont l-ISO/IEC 15418 u l-ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Numru tal-Klassifikazzjoni tal-Merkanzija Assenjat mill-Operatur tat-Trasport għall-Fini tal-Klassifikazzjoni ta' Materjali Perikolużi (eż., Klassifikazzjoni għat-Trasport bil-Mutur, bl-Ajru, bid-Dgħajsa, bil-Ferrovija).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Kombinazzjoni tal-Identifikazzjoni tal-Fornitur u l-Kodiċi tal-Oġġett (assenjat internament jew definit b'mod reċiproku).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Identifikazzjoni tal-Tagħmir Komuni fil-Lingwa (CLEI) assenjata mill-manifattur għal xi tagħmir tat-telekomunikazzjoni.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>Struttura tal-format tal-GS1 ta' 14-ċifra għall-istruttura tal-kodiċi GTIN-14.\nAġġornament 2020: GS1 jirrakkomanda li dan id-DI m'għadux jintuża u li l-utenti ta' dan id-DI jemigraw lejn kwalifikaturi tad-data tal-GS1 (Identifikaturi tal-Applikazzjoni) skont l-ISO/IEC 15418 u l-ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Kombinazzjoni tal-Kodiċi tal-Identifikazzjoni tal-Manifattur (numru DUNS ta' 9-ċifri assenjat minn Dun &amp; Bradstreet) u l-Kodiċi tal-Oġġett/Numru tal-Parti (assenjat mill-manifattur).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Kodiċi tal-Materjal Perikoluż kif definit minn ANSI X12.3 fil-format Element tad-Data 208 (kwalifikatur tal-kodiċi ta' 1-karattru) segwit minn Element tad-Data 209 (Kodiċi tal-Materjal Perikoluż).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>Kodiċi CLEI ta' 10-karattri għal tagħmir tat-telekomunikazzjoni.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Tip ta' Dokument (eż., Lista tal-Picks, Tpinġija tad-Disinn, eċċ.) (assenjat internament jew definit b'mod reċiproku).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>Kodiċi tas-Sistema VMRS.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>Kodiċi tas-Sistema u tal-Assemblea VMRS.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>Kodiċi tas-Sistema, tal-Assemblea, u tal-Parti VMRS.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>Kodiċi tas-Sistema, tal-Assemblea, jew tal-Parti VMRS. (Modifikat mill-Utent).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Kombinazzjoni tal-Identifikazzjoni tal-Fornitur tal-GS1 u l-Kodiċi tal-Oġġett Assenjat mill-Fornitur.\nAġġornament 2020: GS1 jirrakkomanda li dan id-DI m'għadux jintuża u li l-utenti ta' dan id-DI jemigraw lejn kwalifikaturi tad-data tal-GS1 (Identifikaturi tal-Applikazzjoni) skont l-ISO/IEC 15418 u l-ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Kombinazzjoni tal-ID tal-Fornitur VMRS u n-Numru tal-Parti Assenjat mill-Fornitur.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Komponent ta' Oġġett. (Prodott wieħed f'pakketti multipli).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Ewwel Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>It-Tieni Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>It-Tielet Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Ir-Raba' Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Il-Ħames Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Identifikazzjoni ta' Parti għal Transazzjoni Assenjata minn Detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluża l-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont l-ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit min-numru tal-parti assenjat mill-fornitur li huwa uniku fl-ambitu tad-detentur tal-CIN.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Numru tal-Parti tal-Assemblea li Jmiss Ogħla.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Kodiċi tal-Komodità HTS-6; Bl-użu tal-format: 4012.11 jew 4012.11.4000 (Il-punt huwa kkodifikat espressament) Il-Klassifikazzjoni tas-Sistema Armonizzata (HS) hija metodu numeriku standardizzat ta' 6-ċifri għall-klassifikazzjoni tal-prodotti kummerċjati. In-numri HS jintużaw mill-awtoritajiet doganali madwar id-dinja biex jidentifikaw il-prodotti għall-applikazzjoni ta' dazji u taxxi. Ċifri addizzjonali jiġu miżjuda man-numru HS minn xi governi biex jiddistingwu ulterjorment il-prodotti f'ċerti kategoriji. Fl-Istati Uniti, in-numri użati biex jikklassifikaw il-prodotti esportati jissejħu 'numri Schedule B'. Il-Bureau tal-Census tal-Istati Uniti jamministra s-sistema Schedule B. In-numri Schedule B, mhux in-numri HS, iridu jiġu pprovduti fuq id-Dikjarazzjoni tal-Esportazzjoni tal-Merkanti (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nIl-kodiċijiet tal-importazzjoni huma amministrati mill-Kummissjoni tal-Kummerċ Internazzjonali tal-Istati Uniti (USITC). http://hts.usitc.gov/\nAġġornament 2020: il-link http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf m'għadux attiv. Konsulta mal-mittent għal formola SED.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Isem tal-Merkanzija. Deskrizzjoni fil-lingwaġġ sempliċi (bl-Ingliż).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Kodiċi tal-Klassifikazzjoni tal-Prodott kif definit mal-GMDN (Nomenklatura Globali tal-Dispożittivi Mediċi - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Ewwel Livell (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>It-Tieni Livell (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>It-Tielet Livell (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Ir-Raba' Livell (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Il-Ħames Livell (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Kodiċi Assenjat minn Klijent għall-Numru tal-Identifikazzjoni tal-Folja tad-Data tas-Sikurezza tal-Materjal (MSDS) tal-Manifattur li jiddeskrivi l-użi, ir-riskji, u l-kompożizzjoni kimika ta' materjal perikoluż.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Oġġett taħt Kontroll tal-Esportazzjoni. Suġġett għal kontroll u/jew restrizzjonijiet tal-esportazzjoni kif identifikati fl-Arranġament ta' Wassenaar. DI segwit mill-Kodiċi Alpha-2 tal-ISO 3166 tal-pajjiż li impona r-restrizzjoni segwit mill-Kodiċi ta' Wassenaar (http://www.wassenaar.org/controllists/index.html).\nAġġornament 2020: L-URL inbidel għal https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Identifikatur tal-Oġġett Assenjat mill-Manifattur - li jikkonsisti f'numru tal-oġġett assenjat mill-manifattur tal-oġġett, segwit minn sinjal tal-plus (+), segwit - jekk meħtieġ biex jidentifika unikament l-oġġett fir-reġistru tal-prodott tal-manifattur - minn verżjoni tal-oġġett assenjata mill-manifattur.\nEżempju 50PABC+6 tirrappreżenta n-numru tal-oġġett ABC, verżjoni tal-oġġett 6\nNOTA - In-numru tal-oġġett dejjem għandu jiġi segwit minn sinjal tal-plus, anke jekk ma tkunx preżenti verżjoni tal-oġġett. Dan huwa meħtieġ biex jippermetti l-konkatenazzjoni bla ambigwità tal-identifikatur tal-oġġett assenjat mill-manifattur ma' kostrutt tad-data ieħor bl-użu tal-karattru tal-konkatenazzjoni plus. Per eżempju, il-kombinazzjoni ta' identifikatur tal-oġġett assenjat mill-manifattur 50P mingħajr verżjoni tal-oġġett u numru tas-serje (Identifikatur tad-Data S) fuq entità tista' tiġi kkodifikata bħala 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Identifikatur tal-Oġġett Uniku Globalment li jikkonsisti fl-Identifikazzjoni ta' parti għal transazzjoni assenjata minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluża l-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont l-ISO/IEC 15459 u r-reġistru tiegħu, segwit minn sinjal tal-plus (+), segwit mill-identifikatur tal-oġġett assenjat mill-manifattur kif definit b'50P\nEżempju: 51PJ4LBE0431863103+ABC+ tirrappreżenta l-oġġett bin-numru tal-oġġett ABC u mingħajr verżjoni tal-oġġett manifatturat mill-kumpanija bil-VAT numru Belġjan 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Kodiċi tal-Kulur.\nIl-kulur ta' oġġett/oġġetti identifikat b'kodiċi jew terminu miftiehem reċiprokament bejn is-sħab kummerċjali.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Identifikatur għal Tagħmir Marittimu Speċifiku approvat taħt id-Direttiva tal-Unjoni Ewropea dwar it-Tagħmir Marittimu (2014/90/EU) u r-Regolament Implimentattiv (UE) 2018/608.\nFormat:\n• DI (an3);\n• Tip ta' modulu(i) tal-valutazzjoni tal-konformità kif stabbilit fl-Anness II għad-Direttiva 2014/90/EU użat għall-valutazzjoni tal-konformità (a1);\n• Numru ta' identifikazzjoni tal-korp notifikat assenjat mill-Kummissjoni skont il-punt 3.1 tal-Anness IV għad-Direttiva 2014/90/EU (n4);\n• Ċertifikat (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Identifikazzjoni Unika tad-Dispożittiv - Identifikatur tad-Dispożittiv) għal Dispożittivi Mediċi (MD) u Dijanjostiċi In-vitro (IvD) bħala ċ-ċavetta unika għal bażijiet tad-data pubbliċi tal-UDI (GUDID, EUDAMED, eċċ.), skont ir-rekwiżiti regolatorji nazzjonali, kif delineat mill-Forum Internazzjonali tar-Regolaturi tal-Dispożittivi Mediċi (IMDRF). Il-karattri stampabbli kollha tas-sett tal-karattri UTF-8 huma permessi.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>Referenza ta' ċertifikazzjoni DNV. Tindika li d-data fiha referenza għaċ-ċertifikat tal-prodott/dikjarazzjoni ta' verifika/rapport, maħruġ minn DNV. L-identifikatur tad-data għandu jiġi segwit mill-ittri "NV" u n-numru taċ-ċertifikat. Meta n-numru taċ-ċertifikat ikollu postfix, dan għandu jiġi inkluż fl-istrixxa tad-data billi jintuża l-karattru separatur "-" (tratt). Indikaturi tar-reviżjoni m'għandhomx jiġu pprovduti.\nEżempji:\n1. 55PNVXXXXXXX, fejn 55P huwa l-identifikatur tad-data, XXXXXXX huwa n-Numru taċ-Ċertifikat DNV.\n2. 55PNVXXXXXXX-Y, fejn 55P huwa l-identifikatur tad-data, XXXXXXX-Y huwa n-Numru taċ-Ċertifikat DNV b'postfix Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Kwantità, Numru ta' Biċċiet, jew Ammont (biss numeriku) (l-unità tal-kejl u s-sinifikat definiti b'mod reċiproku).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Tul/Peż Teoretiku (biss numeriku).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Piż Attwali (biss numeriku).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Unità tal-Kejl, kif definit mill-kodiċi ta' żewġ karattri tal-Element tad-Data ANSI X12.3 Numru 355 Kodiċi tal-Unità tal-Kejl.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Ammont Gross.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Ammont Nett.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Fejn Kontenituri Multipli Jikkostitwixxu Prodott Wieħed (il-kontenut ta' kull kontenitur irid jiġi kkombinat mal-kontenut tal-kontenituri l-oħra biex jikkostitwixxi prodott wieħed) l-Identifikatur tad-Data '6Q' għandu jintuża biex jgħaqqad il-kontenituri varji. Il-format # minn # ('dan huwa t-taqsima n minn x biċċiet biex jiddefinixxi l-prodott') Preżentat fil-format 'n/x', fejn il '/' (slash) jintuża bħala delimiter bejn żewġ valuri.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Kwantità, Ammont, jew Numru ta' Biċċiet fil-format: Kwantità segwita mill-kodiċi ta' żewġ karattri tal-Element tad-Data ANSI X12.3 Numru 355 Kodiċi tal-Unità tal-Kejl.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Piż Klassifikat tal-Kontenitur\nPiż li jista' jġorr il-kontenitur assenjat mill-manifattur. Assenjat fil-ħin tal-manifattura. L-unità tal-kejl hija kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Piż tal-Biċċa\nPiż ta' oġġett individwali.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Piż tat-Tara: piż ta' kontenitur vojt.\nPiż tal-korp tal-kontenitur.\nPiż assenjat mill-manifattur tal-kontenitur vojt. Assenjat fil-ħin tal-manifattura. L-unità tal-kejl hija kg (Piż tat-Tara).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Valur Monetarju stabbilit mill-Fornitur fil-format ta': il-valur segwit minn kodiċi tal-element tad-data ISO 4217 għar-rappreżentazzjoni tal-unità tal-valur tal-muniti u l-fondi (eż., 12Q2.50USD) (2.50 Valur Monetarju f'Dollari tal-Istati Uniti) is-sinifikat definit b'mod reċiproku.\nValur tad-Dħul;\nValur segwit minn kodiċi tal-element tad-data ISO 4217 għar-rappreżentazzjoni tal-unità tal-valur tal-muniti u l-fondi (eż., 12Q2.50USD) (2.50 Valur Monetarju f'Dollari tal-Istati Uniti)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># minn # ('dan huwa t-taqsima n minn x biċċiet f'dan it-trasport').\nPreżentat fil-format 'n/x', fejn il '/' (slash) jintuża bħala delimiter bejn żewġ valuri.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Kwantità Sekondarja Bidu.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Kwantità Sekondarja Tmiem.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Numru ta' Biċċiet fil-Van.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Numru ta' Kunsinni fil-Van.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Kubatura espressa f'metri kubi jew piedi kubi segwita mill-kodiċi tal-Element tad-Data ANSI X12.3 numru 355 tal-unità tal-kejl (CR jew CF). L-ebda punt deċimali impliċit.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Wisa' espress f'metri lineari jew piedi lineari segwit mill-kodiċi tal-Element tad-Data ANSI X12.3 numru 355 tal-unità tal-kejl (LC jew LF). L-ebda punt deċimali impliċit.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Għoli espress f'metri lineari jew piedi lineari segwit mill-kodiċi tal-Element tad-Data ANSI X12.3 numru 355 tal-unità tal-kejl (LC jew LF). L-ebda punt deċimali impliċit.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Tul espress f'metri lineari jew piedi lineari segwit mill-kodiċi tal-Element tad-Data ANSI X12.3 numru 355 tal-unità tal-kejl (LC jew LF). L-ebda punt deċimali impliċit.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Piż Nett tat-Trasport espress f'libbri jew kilogrammi (kili) segwit mill-kodiċi tal-Element tad-Data ANSI X12.3 numru 355 tal-unità tal-kejl (LB jew KG). L-ebda punt deċimali impliċit.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Tul tal-Van espress f'metri lineari jew piedi lineari segwit mill-kodiċi tal-Element tad-Data ANSI X12.3 numru 355 tal-unità tal-kejl (LC jew LF). L-ebda punt deċimali impliċit.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Kubu Intern ta' Van espress f'metri kubi jew piedi kubi segwit mill-kodiċi tal-Element tad-Data ANSI X12.3 numru 355 tal-kodiċi tal-unità tal-kejl (CR jew CF). L-ebda punt deċimali impliċit.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Piż Esplosiv Nett (valur ikkalkulat ta' ekwivalenti esplosiv espress f'libbra ta' TNT). Il-kejl tal-NEW jintuża internazzjonalment għal kalkoli tal-ark tal-distanza ta' sigurtà tal-kwantità ta' esplosivi. L-ebda punt deċimali impliċit.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Livell tal-Ippakkjar, li jispeċifika l-livell ġerarkiku tal-ippakkjar skont l-ispeċifikazzjonijiet tal-HIBC (Health Industry Bar Code).</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Valur tal-Prezz Uniku tal-Prodott, Nett, '.' (punt) użat bħala punt deċimali (eż. 27Q1000.5 għall-valur tal-prezz ta' 1000.50).\nStruttura: an3+an1...20\n &lt;DI&gt;&lt;valur tal-prezz&gt;.\nSett tal-karattri: 0 sa 9, punt (valur ASCII ISO 646 deċimali 46, eżadeċimali 2E).\nEżempju ta' kodifikazzjoni bl-użu ta' valur tal-prezz nett ta' 1000:\n27Q1000.\nEżempju ta' kodifikazzjoni bl-użu ta' valur tal-prezz nett ta' 1000.50:\n27Q1000.5.\nNOTA - Jekk meħtieġ il-munita tista' tiġi meħuda minn element tad-data ieħor użat fl-istess kodiċi, eż. 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Valur tal-Ħlas Uniku għall-Posta u l-Ippakkjar, '.' (punt) jirrappreżenta l-pożizzjoni ta' virgola (eż. 30Q100.50 għall-valur ta' 100,50).\nStruttura: an3+an1...10\n &lt;DI&gt;&lt;valur tal-ħlas&gt;.\nSett tal-karattri: 0 sa 9, punt.\nEżempju ta' kodifikazzjoni bl-użu tal-valur tal-posta u l-ippakkjar ta' 100:\n30Q100.\nEżempju ta' kodifikazzjoni bl-użu tal-valur tal-posta u l-ippakkjar ta' 100,50:\n30Q100.50.\nNOTA - Jekk meħtieġ il-munita tista' tiġi meħuda minn element tad-data ieħor użat fl-istess kodiċi, eż. 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Perċentwal tad-Diskont, '.' (punt) jirrappreżenta l-pożizzjoni ta' virgola (eż. 31Q8.5 għal valur tad-diskont ta' 8,5%).\nStruttura: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;perċentwal tad-diskont (%)&gt;.\nSett tal-karattri: 0 sa 9, punt\nEżempju ta' kodifikazzjoni bl-użu tal-perċentwal tad-diskont ta' 10%:\n31Q10.\nEżempju ta' kodifikazzjoni bl-użu tal-perċentwal tad-diskont ta' 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>Perċentwal tal-VAT, '.' (punt) jirrappreżenta l-pożizzjoni ta' virgola (eż. 27Q8.5 għall-valur tal-VAT ta 8.5%).\nStruttura: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;Perċentwal tal-VAT (%)&gt;.\nSett tal-karattri: 0 sa 9, punt.\nEżempju ta' kodifikazzjoni bl-użu tal-perċentwal tal-VAT ta' 10%:\n27Q19.\nEżempju ta' kodifikazzjoni bl-użu tal-perċentwal tal-VAT ta' 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Munita, kodiċi tal-munita ISO 4217.\nStruttura: an3+an3\n &lt;DI&gt;&lt;Munita, eż. EUR&gt;.\nSett tal-karattri: A-Z, 0 sa 9.\nEżempju ta' kodifikazzjoni bl-użu tal-kodiċi alfanumeriku ISO tad-Dollaru Amerikan:\n31QUSD.\nEżempju ta' kodifikazzjoni bl-użu tal-kodiċi alfanumeriku ISO tal-EURO:\n31QEUR.\nEżempju ta' kodifikazzjoni bl-użu tal-kodiċi numeriku ISO tal-EURO:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Kodiċi tal-terminu kliniku kif definit bin-nomenklatura klinika: "L-istandard internazzjonali għall-identifikazzjoni tal-kejl tas-saħħa, osservazzjonijiet, u dokumenti - LOINC" (https://loinc.org), fis-sekwenza li ġejja: &lt;DI&gt;&lt;Kodiċi LOINC&gt;&lt;Sinjal tal-Plus&gt;&lt;Valur&gt;. L-unità u l-format tal-Valur huma definiti mill-Kodiċi LOINC.\nEżempju: 32Q28903-3+60 = Kodiċi LOINC 28903-3: Assi tal-Lenti ta' Kuntatt tax-Xellug (gradi); b'Valur = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Kodiċi tal-Awtorizzazzjoni tar-Ritorn (RMA) assenjat mill-Fornitur</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Kodiċi tar-Ritorn Assenjat mill-Klijent</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tad-Dipartiment tad-Difiża tal-Istati Uniti (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Data fil-format u bl-użu tas-semantika definiti mid-detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) li ġie maħruġ minn Kodiċi tal-Aġenzija li Toħroġ (IAC) skont l-ISO/IEC 15459, definita bħala sekwenza ta' elementi tad-data konkatenati: IAC, segwit minn CIN, segwit mill-karattru separatur ':' (kolon) segwit mid-data fil-format u bl-użu tas-semantika kif definit mid-detentur tal-CIN.\nNOTA - Biss ir-regoli tas-sintassi tad-data (jekk jeżistu) kif provduti mill-IAC+CIN iddikjarat fi kwalunkwe stream tad-data DI '5R' għandhom jiġu applikati għad-data li ġejja wara DI 5R+IAC+CIN.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 kostrutt tad-data tad-firma diġitali. Jekk il-kodifikazzjoni tad-data sottostanti tkun ta' 7 bits, allura jista' jintuża biss il-format mhux maħdum tal-ISO/IEC 20248.\nEżempju b'format URL:\n&lt;6R&gt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO\nEżempju b'format mhux maħdum:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nStruttura tad-data tal-ISO/IEC 20248 fiha firma diġitali li tintuża biex tivverifika l-elementi tad-data speċifiċkati tal-messaġġ. Il-valur ta' 6R, bħala l-ewwel parametru, u l-elementi tad-data li għandhom jiġu vverifikati (neħħija ta' kull karattru mhux stampabbli), bħala t-tieni parametru, jiġu trasmessi lill-ISO/IEC 20248 DecoderVerifier - li mbagħad jirritorna r-riżultat tal-verifika: AĊĊETTAT, MIĊĦUD jew ŻBALL(kodiċi ta' żball), flimkien mal-oġġett JSON tad-dekodifikazzjoni tal-qasam addizzjonali tal-ISO/IEC 20248. L-istruttura tad-data tal-ISO/IEC 20248 tista' tinkludi qasam addizzjonali u struzzjonijiet biex tiddikodifika u tivverifika messaġġ wieħed jew aktar ta' elementi tad-data. Dawn l-istruzzjonijiet jiġu pproċessati mill-ISO/IEC 20248 DecoderVerifier.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Sistema tal-Informazzjoni dwar ix-Xjenzi Akkwatiċi u s-Sajd (ASFIS) 'kodiċi ta' speċi ta' 3-ittri inter-aġenzija', miżmuma mill-Organizzazzjoni tal-Ikel u l-Agrikoltura tan-Nazzjonijiet Uniti (www.fao.org, imbagħad tfittex għal 'ASFIS').\nEżempji;\n7RMUC = Carp tat-tajn;\n7RPCD = Herring frisk tal-Awstralja;\n7RWSH = Kelb il-baħar abjad kbir.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Kodiċi tal-Klassifikazzjoni Internazzjonali Standard tal-Għodod tas-Sajd (ISSCFG) tal-Organizzazzjoni tal-Ikel u l-Agrikoltura (FAO) tan-Nazzjonijiet Uniti. (www.fao.org)\nIl-karattri kollha tad-definizzjoni tas-subsett tal-GS1 tal-ISO/IEC 646 huma permessi.\nEżempji:\n8R02.1.0 = Xbieki tas-sejħa fuq il-bajja;\n8R03.1.5 = Xbieki tal-gambli;\n8R05.1.0 = Nases tal-ġbid portabbli.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Metodu tal-Produzzjoni għal ħut u frott tal-baħar kif speċifikat mid-Dipartiment tas-Sajd u l-Akkwakultura tal-Organizzazzjoni tal-Ikel u l-Agrikoltura (FAO) tan-Nazzjonijiet Uniti, skont ir-Regolament tal-UE 1379/2013. (www.fao.org).\nIl-karattri kollha tad-definizzjoni tas-subsett tal-GS1 tal-ISO/IEC 646 huma permessi.\nEżempji;\n9R01 = Maqbud fil-baħar;\n9R02 = Maqbud f'ilmijiet ħelwin;\n9R03 = Allevat.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Numru tas-Serje jew Kodiċi Assenjat mill-Fornitur lil Entità għall-Ħajja Tiegħu, (eż., numru tas-serje tal-kompjuter, numru ta' traċċabilità, identifikazzjoni tal-għodda tal-kuntratt)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Kodiċi Addizzjonali Assenjat mill-Fornitur lil Entità għall-Ħajja Tiegħu (eż., numru ta' traċċabilità, numru tas-serje tal-kompjuter)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Notifika tal-Ġarr Bil-Quddiem (ASN) ID tal-Kunsinna (SID) tikkorrispondi mal-Element tad-Data ANSI ASC X12 396</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Identifikazzjoni Unika tal-Pakkett Assenjata mill-Fornitur (l-inqas livell ta' ippakkjar li għandu kodiċi ta' identifikazzjoni tal-pakkett; għandu jkun fih oġġetti simili)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Identifikazzjoni tal-Pakkett Assenjata mill-Fornitur għall-ippakkjar ewlieni li fih oġġetti simili f'ordni waħda tal-klijent</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Identifikazzjoni tal-Pakkett Assenjata mill-Fornitur għall-ippakkjar ewlieni li fih oġġetti mhux simili f'ordni waħda tal-klijent</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Identifikazzjoni tal-Pakkett Assenjata mill-Fornitur għall-ippakkjar ewlieni li fih oġġetti simili fuq ordnijiet multipli tal-klijenti</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Identifikazzjoni tal-Pakkett Assenjata mill-Fornitur għall-ippakkjar ewlieni li fih oġġetti mhux simili fuq ordnijiet multipli tal-klijenti</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>ID tal-Fornitur/ID tal-Kontenitur Uniku kif speċifikat fil-format speċifikat mill-GS1 SSCC-18\nAġġornament 2020: Ikkonsulta l-Ispeċifikazzjonijiet Ġenerali tal-GS1 għall-verżjoni l-aktar reċenti ta' SSCC.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Identifikazzjoni tal-Pakkett, Ġenerika (definita b'mod reċiproku)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Kodiċi tal-Magna, Ċellula, jew Għodda</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Assi Fiss</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Numru tad-Dokument (assenjat internament jew definit b'mod reċiproku)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Siġill tas-Sigurtà tal-Kontenitur</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>Manifest tal-Posta tal-Pakketti Non-identiċi tal-4 Klassi</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Numru tas-Serje Assenjat mill-Entità tal-Fornitur, li jista' jintuża biss flimkien ma' '13V'</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Numru tal-Verżjoni, eż., Verżjoni tas-Softwer</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Kombinazzjoni ta' 6-ċifri tal-Identifikazzjoni tal-Fornitur tal-GS1 u l-Identifikazzjoni Unika tal-Pakkett Assenjata mill-Fornitur\nAġġornament 2020: GS1 jirrakkomanda li dan id-DI m'għadux jintuża u li l-utenti ta' dan id-DI jemigraw lejn kwalifikaturi tad-data tal-GS1 (Identifikaturi tal-Applikazzjoni) skont l-ISO/IEC 15418 u l-ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>Kodiċi CAGE &amp; Numru tas-Serje Uniku fi ħdan CAGE</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Kombinazzjoni tal-identifikazzjoni tal-kumpanija Dun &amp; Bradstreet tal-fornitur segwita minn identifikazzjoni unika tal-pakkett assenjata mill-fornitur, fil-format nn...nn+nn...n fejn simbolu plus (+) jintuża bħala delimiter bejn in-Numru DUNS u l-identifikazzjoni unika tal-pakkett</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Kodiċi tat-Traċċabilità għal Entità Assenjata mill-Klijent</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Numru tal-Identifikazzjoni tat-Tajer kif definit mid-Dipartiment tat-Trasport tal-Istati Uniti (D.O.T) taħt il-Kodiċi tal-Istati Uniti 49 CFR 574.5.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Identità Unika Individwali għal Telefowns Mobbli Ċellulari</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Indirizz tal-Kontroll tal-Aċċess għall-Midja (MAC) konformi ma' IEEE 802.11</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Skont l-ISO/IEC 15963 (il-valur huwa konverżjoni tal-valur tal-bits tiegħu għal valuri ASCII ta' 8-bit). Dan l-Identifikatur tad-Data jista' possibbilment jassumi kwalunkwe valur ASCII-256. Għal tags tal-kontenituri tal-merkanzija, l-Awtorità tar-Reġistrazzjoni (RA) għall-manifatturi hija l-RA għall-ISO 14816. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Identifikazzjoni ta' parti għal transazzjoni assenjata minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluża l-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont l-ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit min-numru tas-serje assenjat mill-fornitur li huwa uniku fl-ambitu tad-detentur tal-CIN (Ara Anness C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Identifikatur tal-Ekwipaġġ, li jkun identifikatur globalment uniku għal apparat, oġġett ta' tagħmir jew istanza ta' applikazzjoni tal-kompjuter użata fil-produzzjoni, it-trasport, l-ipproċessar jew immaniġġjar ieħor ta' oġġetti, li huwa mibni billi jikkonkatena:\n - kodiċi tal-aġenzija li toħroġ skont l-ISO/IEC 15459;\n - numru ta' tagħmir li jaqbel mas-speċifikazzjonijiet tal-aġenzija li toħroġ kkonċernata; u li:\n - jikkonsisti biss fi karattri alfabetiċi u/jew numeriċi ta' ittri kbar;\n - huwa uniku (jiġifieri, huwa distint minn kwalunkwe identifikatur ieħor konformi mal-ISO/IEC 15459) fl-ambitu tal-aġenzija li toħroġ;\n - ma jistax jiġi derivat minn kwalunkwe identifikatur ieħor konformi mal-ISO/IEC 15459, maħruġ taħt l-istess aġenzija li toħroġ, billi sempliċiment jiżdiedu karattri għalih, jew jitneħħew minn, it-tarf tiegħu.\nID tal-Qarrej.\nIdentifikatur tal-ekwipaġġ, li jkun identifikatur globalment uniku għal apparat, oġġett ta' tagħmir jew istanza ta' applikazzjoni tal-kompjuter użata fil-produzzjoni, it-trasport, l-ipproċessar jew immaniġġjar ieħor ta' oġġetti.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Numru tal-Oġġett Fi ħdan il-Grupp, li jkun sensiela ta' ċifri numeriċi:\n - li jiddistingwu unikament oġġett, fi grupp identifikabbli ta' oġġetti relatati, minn kull oġġett ieħor fl-istess grupp;\n - li t-tul tiegħu huwa l-istess għall-oġġetti kollha fi ħdan il-grupp kkonċernat.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Numru tal-Grupp-u-Oġġett, li jkun il-konkatenazzjoni ta' numru tal-grupp identifikatur tad-data 27T u l-numru tal-oġġett identifikatur tad-data 27S ta' oġġett li jappartjeni għall-grupp kkonċernat.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Kodiċi ta' Traċċabilità Addizzjonali Għal Entità Assenjat mill-Fornitur minbarra jew differenti mill-kodiċijiet ta' traċċabilità pprovduti minn 'S' jew '1S'.</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Numru tas-Serje tal-Bidu għal numri tas-serje f'sekwenza.</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Numru tas-Serje tal-Aħħar għal numri tas-serje f'sekwenza.</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Numru tas-Serje tal-Assemblea li Jmiss Ogħla.</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Numru tas-Serje jew Numru tal-Parti tal-Oġġett Finali.</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Numru tal-Bumper (Użat f'Mossa ta' Unità DOD).</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Identifikatur tal-Pallet (Użat għal pallets tal-ajru 463L mgħobbija).</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Identifikatur tal-Oġġett Uniku li jikkonsisti f'sekwenza ta' 5 elementi tad-data: 'IAC', segwit minn 'CIN', segwit minn 'Numru tal-Parti (PN)', segwit mill-karattru '+' , segwit minn 'Numru tas-Serje tal-Parti (PSN)' assenjat mill-fornitur li huwa globalment uniku fl-ambitu tad-detentur tal-CIN; fil-format IAC CIN PN + PSN (l-ispazji pprovduti għall-kjarità viżwali biss; mhumiex parti mid-data). Ara Anness C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Identifikatur Uniku tal-Oġġett (UII) fil-format 25S segwit minn valur numeriku li jindika t-tul tal-element tas-serje għal sistemi li jeħtieġu l-komponent 'numru tas-serje' ta' element serjali konkatenat (IAC+CIN+SN) Format: DI+LI+IAC+CIN+SN (LI=tul ta' SN)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Identifikatur tal-Kard tal-Ċirkwit Integrat (ICCID) skont ir-Rakkomandazzjoni E.118 tal-ITU-T u r-Rakkomandazzjoni GSM 11.11 tal-ETSI; massimu ta' 20 ċifra li tikkonsisti f'Numru ta' Identifikazzjoni tal-Ħarġa (IIN; massimu ta' 7 ċifri), Identifikazzjoni individwali tal-kont (variabbli; it-tul iddeterminat minn IIN, iżda l-istess tul għal IINs individwali), Ċifra tal-kontroll (ċifra waħda kkalkulata bl-użu tal-algoritmu ta' Luhn\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = identifikazzjoni tal-kont, c = ċifra tal-kontroll)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Ewwel Livell (Assenjat mill-Fornitur)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>It-Tieni Livell (Assenjat mill-Fornitur)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>It-Tielet Livell (Assenjat mill-Fornitur)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Ir-Raba' Livell (Assenjat mill-Fornitur)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Il-Ħames Livell (Assenjat mill-Fornitur)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>Numru EPC (Tipikament Global Trade Item Number Serjalizzat - SGTIN)\nAġġornament 2020: It-terminu "Numru EPC" m'għadux jintuża minn GS1. Ikkonsulta l-Ispeċifikazzjonijiet Ġenerali tal-GS1 u l-Istandard tad-Data tat-Tagħbija għat-terminoloġija kurrenti.</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Numru tas-serje kkriptat assenjat mill-fornitur lil entità, li jista' jiġi awtentikat minn parti terza indipendenti ta' fiduċja. In-numru tas-serje kkriptat ma jiddeskrivix xi parametri tal-entità mingħajr dekodifikazzjoni minn parti terza indipendenti.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>Il-karattru 'AMPERSAND'. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Tip ta' Kontenitur (assenjat internament jew definit b'mod reċiproku).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Numru ta' Traċċabilità assenjat mill-Klijent biex jidentifika/jsegwi grupp uniku ta' entitajiet (eż., lott, grupp, sħana).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Numru ta' Traċċabilità assenjat mill-Fornitur biex jidentifika/jsegwi grupp uniku ta' entitajiet (eż., lott, grupp, sħana).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Assenjazzjoni Esklussiva (Identifikazzjoni tal-vettura tal-EPA tal-Istati Uniti għat-testijiet tal-emissjonijiet).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Kontenitur li Jista' Jerġa' Jintuża assenjat mis-sid tal-kontenitur jew mill-aġenzija regolatorja xierqa (eż., banju tal-metall, basket, reel, unit load device (ULD), trailer, tank, jew kontenitur intermodali) (jeskludi ċ-ċilindri tal-gass Ara '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Kontenitur taċ-Ċilindru tal-Gass assenjat mill-manifattur konformi mal-istandards tad-Dipartiment tat-Trasport tal-Istati Uniti (D.O.T.).</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Ewwel Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>It-Tieni Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>It-Tielet Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Ir-Raba' Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Il-Ħames Livell (Assenjat mill-Klijent).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Identifikazzjoni ta' parti għal transazzjoni assenjata minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluża l-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont l-ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit min-numru ta' traċċabilità assenjat mill-fornitur li huwa uniku fl-ambitu tad-detentur tal-CIN.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Numru tal-Grupp li jikkonsisti fil-konkatenazzjoni ta' jew:\n - identifikatur tad-data 26S tal-identifikatur tal-apparat tal-ipproċessar tal-posta, jew\n - identifikatur tad-data 20K tal-identifikatur tal-liċenzja, jew\n - identifikatur tad-data 18V tal-identifikatur tal-parti li:\n - huwa distint minn kwalunkwe identifikatur ieħor konformi mal-ISO/IEC 15459 fl-ambitu tal-aġenzija li toħroġ kkonċernata;\n - ma jistax jiġi derivat minn identifikatur ieħor tal-parti jew kwalunkwe identifikatur ieħor konformi mal-ISO/IEC 15459, maħruġ taħt l-istess aġenzija li toħroġ, billi sempliċement jiżdiedu karattri għalih, jew jitneħħew minn, it-tarf tiegħu;\n mal-identifikatur tad-data 27T tan-numru tal-grupp, iż-żewġ separati b'karattru tratt (-).</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Numru tal-Grupp, maħruġ taħt il-kontroll ta' parti identifikata jew unità ta' apparat tal-ipproċessar, jew taħt il-provvedimenti ta' liċenzja identifikata, li:\njiddistingwi unikament grupp wieħed ta' oġġetti relatati minn kull grupp ieħor li lilu tingħata numru tal-grupp mill-parti jew l-apparat kkonċernat, jew taħt il-liċenzja;\njikkonsisti f'sensiela ta' massimu ta' 10 karattri, li l-ewwel karattru (numeriku) jindika n-numru ta' karattri li ġejjin, kull wieħed minnhom meħud mis-sett {A-Z; 0-9}.</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Kodiċi tal-Ekwipaġġ tal-Ġarr Assenjat mill-manifattur konformi mal-istandards tal-Organizzazzjoni Internazzjonali għall-Istandardizzazzjoni (ISO).</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Livell Ewwel (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Livell It-Tieni (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Livell It-Tielet (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Livell Ir-Raba' (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Livell Il-Ħames (Assenjat mill-Fornitur).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Kodiċi Alfanumeriku Standard tal-Portatur (SCAC) (4 karattri alfanumeriċi) u numru tat-trailer assenjat mill-portatur fakultattiv (minn wieħed sa għaxar karattri alfanumeriċi). Meta jintuża, in-numru tat-trailer assenjat mill-portatur huwa separata mill-SCAC b'tiret '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Numru tal-Assi tal-Kontenitur - Magħmul minn żewġ partijiet magħquda:\n- Identifikazzjoni ta' organizzazzjoni skont ISO/IEC 15459 u identifikazzjoni unika tal-entità assenjata skont ir-regoli stabbiliti mill-aġenzija li tagħti l-ħruġ.\n- Numru serjali uniku assenjat mill-entità, li jispiċċa b'kodiċi tat-tip tal-kontenitur ta' 3 karattri meħud mil-Lista tal-Kodiċijiet EDIFACT 8053 jew l-istandard UPU M82-3. (Jekk il-kodiċi tat-tip tal-kontenitur elenkat huwa inqas minn tliet karattri fit-tul, il-qasam jiġi mimli b'tiret '-' mix-xellug sal-tul ta' tliet karattri).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Numru tas-Serje tal-Kontenitur.\nSkont ISO 6346. OC EI CSN CD, fejn l-OC huwa l-kodiċi tas-sid tat-tliet ittri assenjat b'koperazzjoni ma' BIC, l-EI huwa l-identifikatur tal-kategorija tal-apparat ta' ittra waħda, il-CSN huwa identifikazzjoni unika tal-kontenitur ta' 6 ċifri assenjata mis-sid tal-apparat, u CD huwa ċifra ta' kontroll modulus 11 kalkulata skont l-Anness A, ISO 6346.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Identifikazzjoni ta' sid tal-Kontenitur li jista' jerġa' jintuża assenjat b'koperazzjoni ma' BIC.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Kodiċi tad-Daqs/Tip tal-Kontenitur.\nSkont ISO 6346, Taqsima 4.2.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Kodiċi tas-Sid tal-Kontenitur. Abbrevjazzjoni attwali ta' erba' karattri mmarkata fuq il-kontenitur mis-sid. Għal kontenituri proprjetà tad-DOD ara r-Regolament tat-Trasport tad-Difiża App EE-6.\nAġġornament 2020: sors tad-data aġġornat għar-Regolament tat-Trasport tad-Difiża, Parti II, App TT jinsab fuq:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Numru tal-Van (numru sħiħ mingħajr iċ-ċifra tal-kontroll).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Ċifra tal-kontroll tan-Numru tal-Van identifikata fl-11B.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Kodiċi tan-Numru tal-Kontenitur (l-aħħar 5 ċifri tan-numru barra miċ-ċifra tal-kontroll).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Status tat-Tag.\nY=Awtorizzat / N=Mhux Awtorizzat.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Klassi tal-Merkanzija Perikoluża.\nKlassi IMDG fil-format 'n.na' fejn n = numeriku, punt deċimali espressament kodifikat, u a = kwalifikatur alfabetiku kondizzjonali. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>Kodiċi UN għal Merkanzija Perikoluża.\nGħal merkanzija perikoluża mogħtija mill-shipper skont il-Kodiċi UN.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\nAġġornament 2020: L-URL inbidel għal http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Isem tas-Suġġett tat-Trasport.\nIsem tal-vapur jew kodiċi tal-vettura/numru tal-vjaġġ tal-ferrovija bl-Ingliż.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Numru tar-Reġistrazzjoni tal-Vapur.\nIt-tliet ittri 'IMO' segwiti min-numru ta' seba' ċifri assenjat lil kull vapur minn IHS Fairplay meta jinbena. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Numru tal-vjaġġ/Numru tal-vjaġġ.\nIttra u numru.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Pajjiż tal-Vapur.\nKodiċi Alpha 2 ISO 3166-1.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Riżervat għan-Numri tas-Siġilli Elettroniċi.\nMagħmul mill-ID tat-tag tas-siġill 18185-1 - 32 bit u l-ID tal-manifattur ISO 14816 16-bit (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Numru tad-Dħul/Tip.\nMagħmul mit-tliet ċifri tal-kodiċi tal-fajler, segwit min-numru tad-dħul ta' seba' ċifri, u kompletat biċ-ċifra tal-kontroll ta' ċifra waħda. Il-Kodiċi tal-Fajler jirrappreżenta l-kodiċi alfanumeriku ta' tliet karattri assenjat lill-fajler jew lill-importatur mill-CBP. In-Numru tad-Dħul jirrappreżenta n-numru ta' seba' ċifri assenjat mill-fajler. In-numru jista' jiġi assenjat b'kull mod konvenjenti, sakemm l-istess numru ma jiġix assenjat għal aktar minn Formola tal-CBP 7501 waħda. Iż-żerojiet ewlenin iridu jintwerew. Iċ-ċifra tal-kontroll hija kkalkulata fuq l-10 karattri preċedenti. Il-formula għall-kalkolu taċ-ċifra tal-kontroll tista' tinstab fl-Anness 1, Istruzzjonijiet tal-CBP 7501.\nIt-tip tad-dħul huwa kodiċi ta' żewġ ċifri konformi ma' Blokka 2, Istruzzjonijiet tal-CBP 7501.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Numru tas-Suretà.\nIl-kodiċi numeriku ta' tliet ċifri li jidentifika l-kumpanija tas-suretà fuq il-Bond tad-Dwana. Dan il-kodiċi jista' jinstab fil-blokka 7 tal-Formola tal-CBP 301, jew huwa disponibbli permezz tas-sistema awtomatizzata tal-CBP għall-fajlers tal-ABI, permezz tat-tranżazzjoni tal-inkjesta tal-bond tal-importatur. Għal importazzjonijet tal-Gvern tal-Istati Uniti u tipi ta' dħul li ma jeħtiġux suretà, il-kodiċi 999 għandu jidher f'dan il-blokka. Meta flus kontanti jew titoli tal-Gvern jintużaw minflok suretà, uża l-kodiċi 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Port Barrani tat-Tagħbija.\n'Schedule K' (Klassifikazzjoni tal-Portijiet Barranin skont iż-Żona Kummerċjali Ġeografika u l-Pajjiż) għall-port barrani fejn il-merkanzija kienet attwalment imtella' fuq il-vapur li ġab il-merkanzija lejn l-Istati Uniti. http://www.navigationdatacenter.us/wcsc/scheduleK/schedulek.htm.\nAġġornament 2020: L-URL inbidel għal: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Identifikazzjoni ta' Parti għal Tranżazzjoni kif definit f'ISO 17364, assenjat minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluż il-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit min-numru tas-serje RTI li huwa uniku fid-dominju tad-detentur tal-CIN.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Identifikatur Uniku ta' Oġġett tat-Trasport li Jista' Jerġa' Jintuża magħmul minn sekwenza ta' 5 elementi tad-data: 'IAC', segwit minn 'CIN', segwit min-Numru 'RTIN' (RTIN), segwit mill-karattru '+', segwit min-numru tas-serje 'RTISN' (RTISN) assenjat (jew immaniġġjat) mill-fornitur li huwa globalment uniku fid-dominju tad-detentur tal-CIN; fil-format IAC CIN RTIN + RTISN (ispazji miżjuda għall-ċarezza viżiva biss; m'humiex parti mid-data). Ara l-Anness C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Identifikatur Globali Uniku tal-Assi ta' Oġġett tat-Trasport (RTI) ta' Portatur Kbira (LLC) b'bażi tal-ġenb ta' = 1000 mm, kif definit f'ISO 17365:2013, ippakkjar terzjarju, saff 3 magħmul minn sekwenza ta' 5 elementi tad-data: 'IAC', segwit minn 'CIN', segwit min-Kodiċi tat-Tip RTI 'RTITC', segwit mill-karattru '+', segwit min-numru tas-serje 'RTISN' (RTISN) assenjat (jew immaniġġjat) mis-sid li huwa globalment uniku fid-dominju tad-detentur tal-CIN fil-format IAC CIN RTITC + RTISN (ispazji miżjuda għall-ċarezza viżiva biss; m'humiex parti mid-data).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Identifikatur Globali Uniku tal-Assi ta' Oġġett tat-Trasport (RTI) ta' Portatur Żgħir (SLC) b'bażi tal-ġenb ta' &lt; 1000 mm, kif definit f'ISO 17364:2013 (RTI), ippakkjar terzjarju, saff 2 magħmul minn sekwenza ta' 5 elementi tad-data: 'IAC', segwit minn 'CIN', segwit min-Kodiċi tat-Tip RTI 'RTITC', segwit mill-karattru '+', segwit min-numru tas-serje 'RTISN' (RTISN) assenjat (jew immaniġġjat) mis-sid li huwa globalment uniku fid-dominju tad-detentur tal-CIN fil-format IAC CIN RTITC + RTISN (ispazji miżjuda għall-ċarezza viżiva biss; m'humiex parti mid-data).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Identifikatur Globali Uniku tal-Oġġett tal-Ippakkjar li Jista' Jerġa' Jintuża (RPI) tal-kategorija għajnuna fl-ippakkjar (għatu, blister, inlay, ...) magħmul minn sekwenza ta' 5 elementi tad-data: 'IAC', segwit minn 'CIN', segwit min-'RPI Number' RPIN, segwit mill-karattru '+', segwit min-numru tas-serje 'RPISN' (RPISN) assenjat (jew immaniġġjat) mis-sid li huwa globalment uniku fid-dominju tad-detentur tal-CIN fil-format IAC CIN RPIN + RPISN (ispazji miżjuda għall-ċarezza viżiva biss; m'humiex parti mid-data).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Numru tal-Oġġett tal-Ippakkjar.\nNumru biex jidentifika t-tip ta' oġġett tal-ippakkjar (materjal) użat meta jiġu ppakkjati prodotti u pakketti.\nIn-numru se jippermetti li oġġetti tal-ippakkjar (materjali) jiġu identifikati u separati minn prodotti, pakketti, Oġġetti tat-Trasport li Jistgħu Jerġgħu jintużaw (RTIs) u Oġġetti tal-Ippakkjar li Jistgħu Jerġgħu jintużaw (RPIs) waqt l-ippakkjar.\nIn-numru huwa mibni bħala sekwenza ta' mill-inqas 1 element tad-data:\nNumru tal-oġġett tal-ippakkjar (materjal) li huwa uniku fid-dominju tas-sid.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Numru Uniku Globali tal-Ippakkjar\nNumru uniku globali biex jidentifika t-tip ta' oġġett tal-ippakkjar (materjal) użat meta jiġu ppakkjati prodotti u pakketti.\nIn-numru uniku globali se jippermetti li oġġetti tal-ippakkjar (materjali) jiġu identifikati u separati minn prodotti, pakketti, Oġġetti tat-Trasport li Jistgħu Jerġgħu jintużaw (RTIs) u Oġġetti tal-Ippakkjar li Jistgħu Jerġgħu jintużaw (RPIs) waqt l-ippakkjar.\nIn-numru huwa mibni bħala sekwenza ta' 3 elementi tad-data konkatenati:\nL-IAC, segwit mill-CIN, segwit min-numru tal-oġġett tal-ippakkjar (materjal) li huwa uniku fid-dominju tas-sid tal-CIN.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Identifikatur Globali Uniku tal-Oġġett tal-Ippakkjar li Jista' Jerġa' Jintuża (RPI) kif definit f'ISO 17364, assenjat minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluż il-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit min-numru tas-serje RPI li huwa uniku fid-dominju tad-detentur tal-CIN.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Speċifikazzjoni ta' servizz postali u data tal-proċess assoċjata skont l-istandard UPU S25 'Data tal-Servizz'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Data tal-Liċenzjar Postali, skont l-ispeċifikazzjoni fl-istandard UPU S25.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Speċifikazzjoni ta' servizz postali supplimentari u data tal-proċess assoċjata skont l-istandard UPU S25 'Data tal-Servizz Supplimentari'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Identifikazzjonijiet tal-Amministrazzjoni Postali, tkun l-identifikazzjoni, espressa skont l-ispeċifikazzjoni fl-istandard UPU S25, ta' waħda jew aktar amministrazzjonijiet postali involuti fil-proċessar ta' oġġett tal-posta jew lott.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>Kodiċi tal-Posta UPU, li jkun kodiċi li jidentifika post jew żona ġeografika, jew grupp assoċjat ta' tali postijiet jew żoni, li għandu rilevanza għal tranżazzjoni relatata u li jikkonforma ma' waħda mill-istrutturi definiti f'a) sa g) hawn taħt:\na) żewġ karattri alfabettiċi kbar li jikkorrispondu mal-kodiċi tal-pajjiż ISO 3166-1 alfa 2 tal-pajjiż li fih, jew li jikkonsisti minnu, il-post(i) jew iż-żona(i);\nb) tliet karattri alfabettiċi kbar li jikkorrispondu mal-kodiċi IATA tal-ajruport jew il-belt li fihom, qrib, jew li jikkonsisti minnhom, il-post(i) jew iż-żona(i);\nc) erba' karattri jew aktar li l-ewwel tlieta jikkorrispondu mal-kodiċi tal-pajjiż ISO 3166-1 segwit minn tiret (-), bil-bqija jkunu kodiċi postali fil-pajjiż ikkonċernat;\nd) erba' karattri jew aktar li l-ewwel tlieta jikkorrispondu mal-kodiċi tal-pajjiż ISO 3166-1 segwit minn punt (.), bil-bqija jkunu kodiċi ta' sottodiviżjoni tal-pajjiż ISO 3166-2 fil-pajjiż ikkonċernat;\ne) ħames karattri alfabettiċi kbar li jikkorrispondu mal-kodiċi UN/LOCODE taż-żona li fihom, qrib, jew li jikkonsisti minnhom, il-post(i) jew iż-żona(i);\nf) sitt karattri alfanumeriċi kbar li jikkorrispondu mal-kodiċi IMPC tal-UPU allokati skont l-istandard UPU S34;\ng) il-konkatenazzjoni, li tkun mhux inqas minn seba' u mhux aktar minn 25 karattru fit-tul, ta':\n - kodiċi tal-ħruġ allokati skont l-istandards tal-UPU S31;\n - kodiċi tal-post, li jikkonsisti minn karattri meħuda mis-sett {A-Z; 0-9} li jaqblu mas-speċifikazzjonijiet tal-ħarreġ ikkonċernat.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Kodiċi tal-Posta UPU Kwalifikat, konkatenazzjoni ta':\n - kategorija tal-post miġbura mil-lista tal-kodiċi tal-UPU 139;\n - identifikatur tad-data 17U kodiċi tal-posta UPU.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Pjanċa tal-Liċenzja b'Data tas-Servizz u Kodiċi tal-Post huwa kostruzzjoni ta' data komposta, konformi mas-speċifikazzjoni fl-istandard UPU S25, li tinkludi speċifikazzjoni ta':\n - identifikatur tal-oġġett konformi ma' ISO/IEC 15459;\n - speċifikazzjoni konformi mal-identifikatur tad-data 5U tas-servizz li għandu jingħata rigward l-oġġett;\n - kodiċi tal-posta UPU konformi mal-identifikatur tad-data 17U jew kodiċi tal-posta UPU kwalifikat konformi mal-identifikatur tad-data 18U.\n Nota - Għal aktar dettalji, jekk jogħġbok irreferi għall-istandard UPU S25. Id-distinzjoni bejn kodiċi sempliċi tal-posta UPU (DI 17U) u kodiċi tal-posta UPU kwalifikat (DI 18U) tista' tiġi determinata mill-ewwel karattru. Jekk dan huwa numeriku, japplika 18U; jekk huwa alfabettiku, japplika 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>OCR Data Locator.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Kodiċi tal-Fornitur Assenjat mill-Klijent.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Kodiċi tal-Fornitur Assenjat mill-Fornitur.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>Prefiss tal-Kumpanija U.P.C.\nAġġornament 2020: GS1 jirrakkomanda li dan l-ID m'għadux jintuża u li l-utenti ta' dan l-ID jgħaddu għall-kwalifikaturi tad-data GS1 (Identifikaturi tal-Applikazzjoni) skont ISO/IEC 15418 u ISO/IEC 15459-3.\nSkont GS1, it-terminu "U.P.C." m'għadux jintuża u l-metadata (an2+n8) m'għadhiex korretta. GS1 jirrakkomanda li dan l-ID ma jintużax għal applikazzjonijiet futuri.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>Prefiss tal-Kumpanija GS1.\nAġġornament 2020: GS1 jirrakkomanda li dan l-ID m'għadux jintuża u li l-utenti ta' dan l-ID jgħaddu għall-kwalifikaturi tad-data GS1 (Identifikaturi tal-Applikazzjoni) skont ISO/IEC 15418 u ISO/IEC 15459-3.\nSkont GS1, il-metadata (an2+n9) m'għadhiex korretta. GS1 jirrakkomanda li dan l-ID ma jintużax għal applikazzjonijiet futuri.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Portatur assenjat minn standard industrijali definit b'mod reċiproku mill-Fornitur, il-Portatur, u l-Klijent.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Istituzzjoni Finanzjarja (definit b'mod reċiproku).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Kodiċi tal-Identifikazzjoni tal-Manifattur (definit b'mod reċiproku).</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Kodiċi assenjat lil parti li għandha responsabbiltà finanzjarja għal entità jew grupp ta' entitajiet (eż., sid tal-inventarju) (definit b'mod reċiproku).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Kodiċi tal-Klijent Assenjat mill-Klijent.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Kodiċi tal-Klijent Assenjat mill-Fornitur.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>ID tal-Manifattur\nNOTA - Ara l-Anness 2, Istruzzjonijiet tal-CBP 7501.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Organizzazzjoni b'responsabbiltà ta' baġit għal entità, proċess, jew proċedura (eż., ħanut, diviżjoni, dipartiment) (assenjat internament).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>Numru DUNS li Jidentifika l-Manifattur.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>Numru DUNS li Jidentifika l-Fornitur.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>Numru DUNS li Jidentifika l-Klijent.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Numru tal-Shipper Assenjat mill-Portatur.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>ID tal-Fornitur VMRS.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>Kodiċi CAGE tad-Dipartiment tad-Difiża tal-Istati Uniti.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Identifikazzjoni ta' parti għal tranżazzjoni fejn il-format tad-data jikkonsisti f'żewġ segmenti konkatenati. L-ewwel segment huwa l-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont ISO/IEC 15459, it-tieni segment huwa identifikazzjoni unika tal-entità Numru ta' Identifikazzjoni tal-Kumpanija (CIN) assenjat skont ir-regoli stabbiliti mill-aġenzija li tagħti l-ħruġ (ara http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Speċifikazzjoni tar-rwol(i) ta' parti, f'tranżazzjoni, li tikkonsisti minn wieħed jew aktar valuri ta' kodiċi mill-Lista tal-Kodiċijiet EDIFACT 3035 'Kwalifikatur tal-Parti', separati minn karattri tal-plus (+) (Qatt m'għandu jiġi konkatenat ma' DIs oħra f'simbolu lineari jew midja oħra fejn il-karattru tal-konkatenazzjoni huwa karattru tal-plus (+)).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Identifikazzjoni ta' parti għal tranżazzjoni assenjata minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluża l-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit minn karattru tal-plus (+) segwit minn wieħed jew aktar valuri ta' kodiċi mill-Lista tal-Kodiċijiet EDIFACT 3035 'Kwalifikatur tal-Parti', separati minn karattri tal-plus (+) (Qatt m'għandu jiġi konkatenat ma' DIs oħra f'simbolu lineari jew midja oħra fejn il-karattru tal-konkatenazzjoni huwa karattru tal-plus (+)).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Identifikazzjoni ta' parti għal tranżazzjoni, eż., 21V IAC CIN OSU, assenjata minn detentur ta' Numru ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluża l-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC, segwit minn CIN, segwit mill-identifikazzjoni tas-sottounità organizzattiva assenjata mill-CIN li hija unika fid-dominju tad-detentur tal-CIN.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>Carrier SCAC.\nStandard Carrier Alpha Code - The National Motor Freight Traffic Association, Inc., (NMFTA) jassenja SCACs għal kumpaniji kollha ħlief dawk il-kodiċijiet użati għall-identifikazzjoni ta' kontenituri tal-merkanzija li ma joperawx esklussivament fl-Amerika ta' Fuq, chassis intermodali u trailers, karozzi tal-ferrovija li mhumiex proprjetà tal-ferroviji, u l-ferroviji. http://www.nmfta.org/Pages/welcome.aspx\nKumpaniji li jfittxu kodiċijiet ta' identifikazzjoni għal kontenituri tal-merkanzija li ma joperawx fl-Amerika ta' Fuq għandhom jikkuntattjaw il-Bureau International des Containers, 38, rue des Blancs Manteaux, F75004 Paris, France, email: bic@bic-code.org, web www.biccode.org. Il-ferroviji u s-sidien ta' chassis intermodali, trailers u karozzi tal-ferrovija li mhumiex proprjetà tal-ferroviji għandhom jikkuntattjaw is-servizz tal-klijenti ta' Railinc, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, email: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Numru tal-VAT assenjat mill-Gvern li jidentifika l-fornitur, jibda b'kodiċi tal-pajjiż ISO 3166-1 alpha-2 (ħlief għall-Greċja, li tuża l-kodiċi tal-lingwa ISO 639-1 EL), segwit min-numru tal-VAT assenjat mill-gvern.\nEżempju:\n23VIE6388047V assenjat lil Google Ireland.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Numru tal-VAT assenjat mill-Gvern li jidentifika l-klijent, jibda b'kodiċi tal-pajjiż ISO 3166-1 alpha-2 (ħlief għall-Greċja, li tuża l-kodiċi tal-lingwa ISO 639-1 EL), segwit min-numru tal-VAT assenjat mill-gvern.\nEżempju:\n24VIE6388047V assenjat lil Google Ireland.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Dikjarazzjoni li l-kodiċi NCAGE/CAGE li jsegwi DI 25V huwa l-Manifattur. Parti f'tranżazzjoni fejn il-kodiċi tal-Entità Kummerċjali u tal-Gvern tan-NATO (NCAGE) / Kodiċi tal-Entità Kummerċjali u tal-Gvern (CAGE) użat wara DI 25V huwa ddikjarat li huwa l-manifattur tal-oġġett(i) involut(i) fit-tranżazzjoni. Id-data li ssegwi DI 25V tikkonsisti f'ħames karattri alfanumeriċi kbar, ħlief l-ittri "I" u "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Numru tal-Ordni tax-Xogħol (eż., 'Karta tal-Produzzjoni') (assenjat internament).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Numru tas-Sekwenza tal-Operazzjoni. Numru li jiddefinixxi l-ordni ta' operazzjoni partikolari f'serje ta' operazzjonijiet, ġeneralment f'proċess ta' manifattura jew assemblaġġ.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Kodiċi tal-Operazzjoni/Kodiċi tax-Xogħol - it-tip ta' xogħol li għandu jsir (assenjat internament jew definit b'mod reċiproku).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Numru tal-Ordni tax-Xogħol u Numru tas-Sekwenza tal-Operazzjoni fil-format nn...n+nn...n fejn simbolu tal-plus (+) jintuża bħala deliminatur bejn in-Numru tal-Ordni tax-Xogħol u n-Numru tas-Sekwenza tal-Operazzjoni.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Kodiċi tal-Istatus (assenjat internament jew definit b'mod reċiproku).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Kodiċi tal-Unità tax-Xogħol - jidentifika s-sistema, sottosistema, assemblaġġ, komponent eċċ. li fuqu jsir il-manutenzjoni.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Nomenklatura - (assenjat internament jew definit b'mod reċiproku).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Numru tal-Kontroll tal-Formola - Numru tal-kontroll ipprintjat minn qabel fuq il-formoli.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Ispettur tal-Assigurazzjoni tal-Kwalità - Kunjom.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Numru tat-Telefon tal-Persuna/Attività li Timla l-Formola - espress fil-format (kodiċi tal-pajjiż) kodiċi tal-belt jew taż-żona segwit min-numru lokali jiġifieri (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Definit b'Mod Reċiproku Bejn il-Klijent u l-Fornitur</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Definit b'Mod Reċiproku Bejn il-Portatur u l-Fornitur</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Definit b'Mod Reċiproku Bejn il-Klijent u l-Portatur</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Test Ħieles</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Definit b'Mod Reċiproku Bejn il-Portatur u s-Sieħeb Kummerċjali</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Intestatura)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 1)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 2)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 3)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 4)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 5)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 6)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 7)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 8)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 9)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 10)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 11)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 12)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 13)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 14)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 15)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 16)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 17)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 18)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 19)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 20)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 21)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 22)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 23)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 24)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 25)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 26)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 27)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 28)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 29)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 30)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 31)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 32)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 33)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 34)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 35)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 36)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 37)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 38)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 39)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 40)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 41)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 42)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 43)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 44)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 45)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 46)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 47)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 48)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 49)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 50)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 51)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 52)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 53)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 54)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 55)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 56)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 57)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 58)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 59)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 60)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 61)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 62)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 63)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 64)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 65)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 66)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 67)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 68)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 69)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 70)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 71)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 72)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 73)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 74)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 75)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 76)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 77)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 78)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 79)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 80)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 81)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 82)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 83)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 84)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 85)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 86)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 87)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 88)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Test Ħieles Strutturat (Data tal-Linja 89)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>Il-karattru 'EQUAL'. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Kontinwazzjoni ta' Kodiċi tal-Oġġett (Kategorija 16) assenjat mill-Klijent li huwa twil wisq għal daqs ta' qasam meħtieġ.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Kontinwazzjoni ta' Kodiċi tat-Traċċabbiltà (Kategorija 20) assenjat mill-Fornitur.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Kontinwazzjoni tan-Numru tas-Serje (Kategorija 19) assenjat mill-Fornitur.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Kontinwazzjoni tat-Test Ħieles (Kategorija 26) definit b'mod reċiproku bejn il-Fornitur/Portatur/Klijent.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Kontinwazzjoni ta' Referenza tat-Tranżazzjoni (Kategorija 11) definit b'mod reċiproku bejn il-Fornitur/Portatur/Klijent.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Kontinwazzjoni ta' Kodiċi tal-Oġġett (Kategorija 16) Assenjat mill-Fornitur.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Karakteristika 1 (FUNC1). Jidher fl-ewwel pożizzjoni wara l-karattru tal-bidu tas-simbolu ta' Code 128, Code 49, jew Code 16K biex jindika simbolu kkontrollat minn GS1.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Format YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Format DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Format MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Format YDDD (Juljan).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Format YYDDD (Juljan).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>Format YYMMDD immedjatament segwit minn Numru tal-Element tad-Data 374 Qualifier ANSI X12.3 li jipprovdi kodiċi li jispeċifika t-tip ta' data (eż., data tat-tbaħħir, data tal-manifattura).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>Format YYYYMMDD immedjatament segwit minn Numru tal-Element tad-Data 374 Qualifier ANSI X12.3 li jipprovdi kodiċi li jispeċifika t-tip ta' data (eż., data tat-tbaħħir, data tal-manifattura).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Format MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Avveniment, Data, u Ħin.\nFormat YYYYMMDDHHMM (arloġġ ta' 24 siegħa - UTC) immedjatament segwit minn Qualifier tal-Kodiċi UN/EDIFACT 2005 li jipprovdi kodiċi li jispeċifika t-tip ta' data), eż.,\n11 [Data meta l-oġġetti huma mistennija li jiġu despjaċċjati/tbaħħru l-messaġġ huwa maħruġ.];\n17 [Data/stima tal-kunsinna meta l-oġġetti huma mistennija li jaslu destinazzjoni tagħhom];\n35 [Data li fiha l-oġġetti jaslu fid-destinazzjoni tagħhom.];\n118 [Konferma tal-Booking];\n129 [Data meta l-vapur/il-merkanzija telqet mill-aħħar port barrani fil-pajjiż li qed jesporta.];\n132 [Data/ħin meta l-portatur jistma li mezz ta' trasport għandu jasal fil-port tad-destinazzjoni jew post tad-destinazzjoni.];\n133 [Data/ħin meta l-portatur jistma li mezz ta' trasport għandu jitlaq mill-post tat-tluq];\n137 [Data/ħin meta l-fornitur jibgħat partijiet abbażi tar-rikjesta tal-klijent. (Data meta tkun maħruġa l-messaġġ DESADV. Ir-rakkomandazzjoni hija li l-DESADV tkun maħruġa fi żmien 30 minuta mill-merkanzija li tkun ġiet imqabbla mal-Parti Milli jitlaq];\n146 [Data Stmata tad-Dħul (Dwana) data li fiha tkun antiċipata d-data uffiċjali ta' Dħul tad-Dwana.];\n151 [Data tal-Importazzjoni (Wasal fil-port bl-intenzjoni li jinħatt];\n186 Tluq minn Faċilità ('Gate-out)];\n204 [Data li fiha d-Dwana tirrilaxxa l-merkanzija lill-portatur jew lill-importatur];\n253 [Tluq minn Port ('Tluq tal-Vapur')];\n252 [Wasla f'Port ('Wasla tal-Vapur')];\n283 [Wasla f'Faċilità ('Gate-in)];\n342 [Tagħbija ta' Mezz ta' Trasport];\n351 [Ispettor tal-Gate tat-Terminal];\n411 [Ordni ta' Stuffing];\n412 [Ordni ta' Stripping];\n420 [Ħatt ta' Mezz ta' Trasport];\n534 [Riparazzjoni];\n677 [Konferma ta' Stuffing];\n678 [Konferma ta' Stripping];\n696 [Data tal-Filing].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Data (struttura u sinifikat definiti b'mod reċiproku).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Format YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Format YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Format YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>L-Ewwel u l-Aktar Data Riċenti tal-Manifattura fil-format YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Data tal-Iskadenza (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Data tal-Iskadenza (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Data tal-Produzzjoni (YYYYMMDD) - Data tal-manifattura.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Data tal-Produzzjoni (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Ħin tal-Attivazzjoni tat-Tag.\nYYYYMMDDHHMM (arloġġ ta' 24 siegħa - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Ħin tad-Deattivazzjoni tat-Tag.\nYYYYMMDDHHMM (arloġġ ta' 24 siegħa - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Data tal-Ispezzjoni (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Data tal-Kunsinna Meħtieġa (DDD Julian) jew Kodiċi MILSTAMP tad-DOD.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Ħin tar-Rekord.\nYYYYMMDDHHMM (arloġġ ta' 24 siegħa - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Data, rappreżentata f'forma mmodifikata konformi ma' UTC:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] fejn parentesi kwadri jindikaw li huwa fakultattiv u yyyy hija s-sena, mmdd ix-xahar u l-jum, hhmmss il-ħin tal-ġurnata f'sigħat minuti u sekondi, fff il-frazzjonijiet ta' sekondi u poooo l-offset minn UTC espress f'sigħat u minuti, l-offset ikun pożittiv jekk p huwa punt (.), negattiv jekk p huwa sinjal ta' minus (-).\nEŻEMPJU:\n2005 - (UTC) is-sena tal-kalendarju 2005;\n200505 - (UTC) ix-xahar tal-kalendarju Mejju 2005;\n20050518 - (UTC) 18 ta' Mejju 2005;\n200505181247 - 12:47 UTC fis-18 ta' Mejju 2005;\n200505181247.0100 - 12:47 ħin lokali, li huwa 11:47 UTC, fis-18 ta' Mejju 2005;\n20050518124723099 - 99 millisekonda wara 12:47:23 UTC fis-18 ta' Mejju 2005.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Data Kwalifikata, li tikkonsisti f'konkatenazzjoni ta':\n- kodiċi tal-aġenzija li toħroġ skont ISO/IEC 15459;\n- kwalifikatur tad-data li jikkonforma mas-speċifikazzjonijiet ta' dik l-aġenzija;\n- data li l-format u l-interpretazzjoni tagħha jikkonformaw mas-speċifikazzjonijiet ta' dik l-aġenzija għal dak il-kwalifikatur tad-data.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Data tal-aħjar qabel: (YYYYMMDD).\nEżempju: 25D20170202 = 2 ta' Frar, 2017</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Data tal-ewwel iffriżar (YYYYMMDD).\nId-data tal-ewwel iffriżar hija definita bħala d-data li fih il-prodotti jiġu ffriżati direttament wara li jkunu maqtula, miġbura, maqbuda jew wara l-ipproċessar inizjali.\nEżempju: 26D20170721 = 21 ta' Lulju, 2017.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Data tal-ħsad (YYYYMMDD).\nId-data meta annimal kien maqtul jew maqbut, ħut ġie maqbud, jew għelejjel ġew miġbura.\nEżempju: 27D20170615 = 15 ta' Ġunju, 2017.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Firxa tad-dati tal-ħsad (YYYYMMDDYYYYMMDD).\nId-data tal-bidu u d-data tat-tmiem matul liema ħsad sar.\nPer eżempju; annimali kienu maqtula jew maqbuda, ħut ġie maqbud, jew għelejjel ġew miġbura.\nIl-fluss tad-data huwa definit bħala l-ewwel YYYYMMDD bħala d-data tal-bidu u l-aħħar YYYYMMDD bħala d-data tat-tmiem.\nEżempju:\n28D2017012320170214 = Bidu; 23 ta' Jannar, 2017. Tmiem; 14 ta' Frar, 2017.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>Karattri 'Left Square Bracket', 'Right Parenthesis', 'Greater Than Sign', 'Record Separator'. Struttura tad-data konformi ma' ISO/IEC 15434, Teknoloġija tal-Informazzjoni - Tekniki ta' Identifikazzjoni Awtomatika u Qbid tad-Data - Sintassi għal Media ADC ta' Kapaċità Għolja.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Klassifikazzjoni ta' Sustanzi Ristretti - 'Kodiċi tal-Klassifikazzjoni Ambjentali' inklużi kategoriji ta' finitura mingħajr Ċomb (Pb-Free) definiti f'JESD97 (IPC JEDEC J-STD-609), u kodiċijiet assenjati mill-industrija jew aġenziji governattivi fil-futur relatati mal-konformità regolatorja ambjentali u l-kontenut ta' materjal perikoluż.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Pressjoni tal-Arja - (altitudni) espressa f'Pascals bħala l-kejl internazzjonali standard.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Temperatura Massima Permessibbli. It-temperatura massima permessa; Grad Celsius, '-' (minus) enkodat, jekk meħtieġ.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Temperatura Minima Permessibbli.\nIt-temperatura minima permessa; Grad Celsius, '-' (minus) enkodat, jekk meħtieġ.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Umdità Relattiva Massima Permessibbli.\nL-umdità relattiva massima permessa, implikata bħala perċentwali.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Umdità Relattiva Minima Permessibbli.\nL-umdità relattiva minima permessa, espressa bħala perċentwali.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Temperatura tal-Kontenitur tar-Refrigeratur.\nGħal merkanzija kkontrollata mit-temperatura, mira speċifikata mill-shipper, Grad Celsius, '-' (minus) enkodat, jekk meħtieġ.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Indiċi Kumulattiv tat-Temperatura tal-Ħin - espress bħala l-għadd ta' kejl jew għaddijiet.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Indiċi tat-Temperatura tal-Ħin - L-Assemblea li Jmiss - espress bħala l-għadd ta' kejl jew għaddijiet.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Dikjarazzjoni tal-Kategorija tal-Materjal tal-Ippakkjar*, Kodiċi* u Piż għal materjal tal-ippakkjar speċifiku użat f'ippakkjar speċifiku skont id-direttiva tal-UE dwar l-ippakkjar u l-iskart tal-ippakkjar. (Kategorija tal-materjal u kodiċi definiti fl-Anness M).\n12ECCMMMMMMNNNNNUU fejn: - '12E' (an3) huwa l-Identifikatur tad-Data;\n - 'CC' (n2) huwa l-Kategorija tal-Materjal skont l-Anness M;\n - 'MMMMMM' (an1...6) huwa l-Kodiċi tal-Materjal skont l-Anness M;\n - 'NNNNN' (n5) Piż tal-Materjal, inkluża l-punt deċimali (eż., 12.12);\n - 'UU' (an2) huwa l-Unità tal-kejl għall-piż (eż., KG, GR, LB jew OZ skont ANSI X12.3 kif definit fl-Anness D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>Id-data li ssegwi DI 13E tkun waħda mill-indikaturi MSL (1, 2, 2a, 3, 4, 5, 5a, 6) kif murija fil-kolonna LEVEL fit-Tabella 5-1 tal-istandard JEDEC IPC/JEDEC J-STD-020E. It-Tabella hija murija hawn għal referenza biss; il-verżjoni attwalment rilaxxata tal-istandard imsemmi għandha tintuża biex tinkiseb l-MSL korretta għall-komponent attwali. Eżempju: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>Il-karattru 'HYPHEN' jew 'MINUS'. Numru Ċentrali Farmaċewtiku (PZN), ikkontrollat minn IFA-ABDATA, il-Ġermanja (Ir-reġistrazzjoni ta' dan l-identifikatur tas-sistema tiskadi fl-1 ta' Lulju, 2016). Sostitwit minn '9N'.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Intestatura tal-Loop.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Il-ġenitur tiegħi ______ huwa . . . Identifikatur uniku segwit minn Identifikatur tad-Data u data assoċjata (għall-użu ma' ippakkjar li jista' jerġa' jintuża). Dan l-Identifikatur tad-Data għandu jsegwi immedjatament il-qasam (magħmul minn Identifikatur tad-Data, data u separatur tal-grupp) li miegħu huwa assoċjat.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Għandi ______ tfal . . . (għall-użu ma' ippakkjar li jista' jerġa' jintuża, eż.; 3F10, għal għaxar tfal). Dan l-Identifikatur tad-Data għandu jsegwi immedjatament il-qasam (magħmul minn Identifikatur tad-Data, data u separatur tal-grupp) li miegħu huwa assoċjat.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Assenjazzjoni Loġika ta' Paġna ta' Informazzjoni fi grupp ta' paġni li huma mqassma fuq diversi mezzi ta' data, strutturat bħala sekwenza ta' sa tliet (3) elementi tad-data konkatenati, separati b'slash (/) :\n Numru tal-paġna (meħtieġ), segwit minn għadd tal-paġni (fakultattiv, meħtieġ għall-aħħar paġna), segwit minn ID tal-grupp alfanumeriku (fakultattiv; jekk jintuża allura meħtieġ għall-paġni kollha u strutturat skont ISO/IEC 15459-3 bħala sekwenza ta' 3 elementi tad-data: Kodiċi tal-Aġenzija li Toħroġ, segwit minn Numru ta' Identifikazzjoni tal-Kumpanija, segwit minn kodiċi uniku alfanumeriku fid-dominju tal-ħarreġ).\n Trailing slashes huma fakultattivi.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Għandi ______ tfal u huma . . . (għall-użu ma' ippakkjar li jista' jerġa' jintuża) Dan l-Identifikatur tad-Data għandu jsegwi immedjatament il-qasam (magħmul minn Identifikatur tad-Data, data u separatur tal-grupp) li miegħu huwa assoċjat.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>Il-'EXCLAMATION MARK'. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Isem tal-Parti.\nIsem ta' parti segwit minn karattru tal-plus (+) segwit minn wieħed jew aktar valuri ta' kodiċi mill-Lista tal-Kodiċijiet EDIFACT 3035 'Kwalifikatur tal-Parti', eż.;\nBY [Xerrej];\nCF [Operatur tal-Kontenitur];\nCN [Konsenjatarju];\nCS [Konsolidatur];\nDEI [Operatur tal-vapur/kaptan tal-vapur];\nFA [Kodiċi tal-persunal operattiv];\nIM [Importatur];\nMF [Manifattur];\nOS [Shipper];\nSE [Bejjiegħ];\nST [Ibgħat Lil];\nUC [Konsenjatarju finali].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Kodiċi ta' Identifikazzjoni tal-Impjegat assenjat mill-impjegatur.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>Numru tas-Sigurtà Soċjali tal-Istati Uniti.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Numru tal-ID għal Persuni li Mhumiex Impjegati (assenjat internament jew definit b'mod reċiproku) (eż., ħaddiema kuntrattwali, fornituri, persunal tas-servizz, u persunal tal-kunsinna).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Numru tas-Sigurtà Soċjali Nazzjonali.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Kunjom.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Isem tal-Parti (Linja 2).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Telefon tal-Kuntatt.\nKodiċi tal-Pajjiż, Kodiċi taż-Żona, Skambju, numru [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Email tal-Kuntatt.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Numru tal-Konsenjatarju.\nIn-numru identifikattiv uniku jista' jkun l-IRS, EIN, SSN, jew in-numru assenjat mill-CBP, kif meħtieġ fil-Filing tas-Sigurtà. Biss il-formati li ġejjin għandhom jintużaw: IRS EIN: NN-NNNNNNN;\nIRS EIN b'suffiss:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nNumru assenjat mill-CBP: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Kodiċi ta' Identifikazzjoni Personali (l-ewwel inizjali, l-aħħar inizjali, l-aħħar erbgħa tal-SSN).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Isem u Inizjali tan-Nofs.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Grad Militari (E1-E9, W1-W5, u O1-O10).\nAġġornament 2020: Il-format tal-metadata nbidel biex jaqbel mal-gradi tal-uffiċjali attwalment użati mill-militar: "an2+an3". L-informazzjoni spjegattiva nbidlet għal: "Grad Militari (E1-E9, W1-W5, u O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Numru ta' Identifikazzjoni Nazzjonali, Numru ta' Identità Nazzjonali, jew Numru ta' Assigurazzjoni Nazzjonali użat bħala mezz biex jidentifika individwi f'pajjiż għall-għanijiet tax-xogħol, it-taxxa, il-benefiċċji governattivi, il-kura tas-saħħa, u funzjonijiet oħra relatati mal-gvern.\nL-istruttura tal-identifikatur hija DI (15H) segwita mill-Kodiċi tal-Pajjiż ISO 3166-1 Alpha2 segwit mill-kodiċi ta' identifikazzjoni primarju assenjat mill-gvern għall-individwi.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>ID Personali Uniku Globali assenjat minn detentur ta' Kodiċi ta' Identifikazzjoni tal-Kumpanija (CIN) u inkluż il-Kodiċi tal-Aġenzija li Toħroġ (IAC) skont ISO/IEC 15459 u r-reġistru tiegħu, strutturat bħala sekwenza ta' 3 elementi tad-data konkatenati: IAC segwit minn CIN, segwit mill-ID uniku fid-dominju tas-sid.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>ID Personali Uniku Globali, b'"Kwalifikatur tal-Parti" valur ta' kodiċi minn Lista tal-Kodiċijiet EDIFACT 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Assenjazzjoni Esklussiva - Numru tal-Identifikazzjoni tal-Vettura (VIN) kif definit fl-Istati Uniti taħt it-49 CFR, Sezzjoni 565 u internazzjonalment minn ISO 3779. (Dawn huma strutturi tad-data kompletament kompatibbli).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Kodiċi VIN Abbrevjat.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Identifikatur uniku globali tal-vettura tat-trasport (eż., trakkijiet) li jikkonsisti fin-Numru tal-Identifikazzjoni tal-Vettura (VIN) kif definit fl-Istati Uniti taħt it-49 CFR Sezzjoni 565, u internazzjonalment minn ISO 3779, segwit mill-karattru '+', imbagħad segwit min-numru tar-Reġistrazzjoni tal-Vettura tal-Liċenzja maħruġa mill-gvern fil-forma ta' '4I' 'VIN' '+' 'numru tar-Reġistrazzjoni tal-Vettura tal-Liċenzja maħruġa mill-gvern' (il-kwotazzjonijiet u l-ispazji jidhru għall-ċarezza biss; mhumiex parti mid-data).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Identifikatur uniku tal-produzzjoni tal-vettura li se jintuża matul il-proċessi tal-produzzjoni tal-vettura, li jikkonsisti fin-Numru tat-Tagħmir tal-Karozza (BTN; jew kwalunkwe deskrizzjoni oħra użata biex tidentifika l-karozza mhux maħduma, jew mod ieħor, l-assemblaġġ tal-partijiet li jintużaw biex tibda l-produzzjoni tal-vettura), segwit mill-karattru '+', imbagħad segwit min-Numru tal-Ordni tal-Produzzjoni (PON), segwit mill-karattru '+', u mbagħad segwit min-Numru tas-Serje Assenjat mill-Manifattur (SN). NOTA - Il-komponent SN għandu jiġi sostitwit bil-VIN malajr kemm jista' jkun disponibbli fil-proċess tal-assemblaġġ.\nIl-kostruzzjoni tkun kif ġej;\n"5I" "BTN" "+" "PON" "+" "SN"\nbidla għal (meta jkun disponibbli l-VIN)\n"5I" "BTN" "+" "PON" "+" "VIN"\nNOTA - Il-kwotazzjonijiet u l-ispazji jintwerew għall-ċarezza biss; mhumiex parti mid-data.\nNOTA - Dan l-ID qatt m'għandu jiġi konkatenat ma' DIs oħra f'simbolu lineari jew f'mezzi oħra fejn il-karattru tal-konkatenazzjoni huwa karattru tal-plus (+).\nEżempji:\nVerżjoni SN: 5IABCD1234+CO1234+W0L201600500001\nVerżjoni VIN: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

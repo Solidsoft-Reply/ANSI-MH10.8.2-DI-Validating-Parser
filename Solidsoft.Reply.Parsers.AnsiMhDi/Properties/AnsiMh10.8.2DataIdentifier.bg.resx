@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>Знакът "ПЛЮС". Съвет за комуникации в здравеопазването и бизнеса (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Уникален номер на регистрационен табел.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Уникален номер на регистрационен табел, присвоен на транспортна единица, която е най-ниското ниво на опаковане, неделима единица.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Уникален номер на регистрационен табел, присвоен на транспортна единица, съдържаща множество пакети.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Уникален номер на регистрационен табел, присвоен на транспортна единица, която е най-ниското ниво на опаковане, неделима единица и която има асоциирани EDI данни с единицата.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Уникален номер на регистрационен табел, присвоен на транспортна единица, съдържаща множество пакети и която е асоциирана с EDI данни.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Уникален номер на регистрационен табел, присвоен на смесена транспортна единица, съдържаща несходни артикули в една клиентска транзакция и може или не може да има асоциирани EDI данни.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Уникален номер на регистрационен табел, присвоен на главна транспортна единица, съдържаща сходни артикули в една клиентска транзакция и може или не може да има асоциирани EDI данни.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Номер на регистрационен номер на моторно превозно средство (не е уникален без идентификация на държавата и издаващия правителствен регион/орган)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Морски идентификационен номер на мобилна услуга (MMSI).\nДеветцифрен номер, регулиран от Международния съюз по телекомуникациите за уникално идентифициране на кораб или брегова радиостанция. Пример: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Номер на поръчка, присвоен от клиента за идентифициране на покупателска транзакция (напр., номер на поръчка за покупка).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Номер на поръчка, присвоен от доставчика за идентифициране на покупателска транзакция.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Код за идентификация на товарителница/пътен лист/превозна документация, присвоен от доставчика/експедитора.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Код за идентификация на товарителница/пътен лист/превозна документация, присвоен от превозвача.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Номер на реда на поръчката, присвоен от клиента за идентифициране на покупателска транзакция.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Референтен номер, присвоен от клиента за идентифициране на разрешение за изпращане (освобождаване) на товара срещу установена поръчка за покупка.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>PRO# Присвоен от превозвача.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Режим на превозвач в свободен текстов формат, взаимно определен между клиента и доставчика (напр., Въздух, Камион, Лодка, Железопътен).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Номер на договор.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Общ код за референция на транзакция (вътрешно присвоен или взаимно определен).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Номер на фактура.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Номер на опаковъчен лист.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Стандартен алфа код на превозвача) (an4 - дефис '-' запълнен вляво) и превозвач присвоен PROгресивен номер.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Номер на товарителница / Номер на транспортна разписка SCAC + Номер на товарителница или пътен лист на контейнерния товар.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Комбиниран номер на поръчка и номер на ред във формат nn...nn+nn...n където символът плюс (+) се използва като разделител между номера на поръчката и номера на реда.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>Номер KANBAN.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>Номер DELINS: код, присвоен за идентифициране на документ, съдържащ информация за доставка.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Номер на чек.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Структурирана референция.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Номер на случай на продажби на чуждестранни военни.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Идентификатор на лиценз, представляващ уникален глобален идентификатор за лиценз или договор, под който артикулите са генерирани, подадени за обработка и/или платени, който се конструира чрез конкатениране на:\n - код на издаваща агенция по ISO/IEC 15459;\n - номер на лиценз или договор, който отговаря на спецификациите на съответната издаваща агенция;\n и който:\n - съдържа само главни букви от азбуката и/или цифри;\n - е уникален (тоест, се различава от всеки друг идентификатор, съответстващ на ISO/IEC 15459) в рамките на домейна на издаващата агенция;\n - не може да бъде произведен от друг идентификатор, съответстващ на ISO/IEC 15459, издаден под същата издаваща агенция, чрез просто добавяне на символи към неговия край или тяхното премахване.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Данни на клиента, представляващи данни, които:\n - от гледна точка на клиента, са свързани или асоциирани с артикул или транзакция, или с партида или свързани артикули или транзакции, и\n - съдържат до 35 печатаеми символа и/или интервали, освен плюс (+), извлечени от набора на символите, определен в ISO/IEC 646.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>Информация за автентикация на транзакция '22K', представляваща стойност, конструирана чрез конкатениране на:\n - код на издаваща агенция по ISO/IEC 15459;\n - стойност, която отговаря на спецификациите на съответната издаваща агенция,\n която позволява верификация на автентичността на съответната транзакция и, по-специално, че транзакцията е инициирана от страната, твърдяща в транзакцията, че е нейният инициатор, от:\n - получателя на транзакцията, и/или\n - една или повече от страните, участващи в нейното обработване или обработка, и/или\n - доверено трето лице.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Глобално уникално идентифициране на групиране на транспортни единици, присвоено от превозвача, дефинирано като:\nИдентификация на страна в транзакция, както е определено, присвоено от притежател на идентификационен номер на компанията (CIN) и включващо съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структуриран като поредица от 3 конкатенирани данни елементи: IAC, последвано от CIN, последвано от номер на товарителница или пътен лист или код за идентификация на пратката, който е уникален в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Глобално уникално идентифициране на групиране на транспортни единици, присвоено от изпращача, дефинирано като:\nИдентификация на страна в транзакция, присвоено от притежател на идентификационен номер на компанията (CIN) и включващо съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структуриран като поредица от 3 конкатенирани данни елементи: IAC, последвано от CIN, последвано от номер на товарителница или пътен лист или код за идентификация на пратката, който е уникален в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Номер на оферта, присвоен от доставчика - Номер, присвоен на оферта от доставчика в отговор на искане за оферта от клиента.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Местоположение за съхранение.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Местоположение.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>Код на местоположение 'Доставка до:', дефиниран по стандарт на индустрията или взаимно определен.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>Код на местоположение 'Изпращане от:', дефиниран по стандарт на индустрията или взаимно определен.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Държава на произход, двубуквен ISO 3166 код на държавата. Със съгласието на търговските партньори и когато държавата на произход е смесена, да се използва код на държава 'AA'.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>Код на местоположение 'Изпращане за:', дефиниран по стандарт на индустрията или взаимно определен.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Код на маршрут, присвоен от доставчика за обозначаване на конкретен транспортен път.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>6-цифрен код на Департамента за отбрана на САЩ (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Превозвачен порт - Взаимно определен.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Превозвачен порт - Взаимно определен.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Местоположение (ширина/дължина/височина) кодирано във формат xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>Местоположение за доставка (ширина/дължина/височина) кодирано във формат xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>Местоположение за изпращане (ширина/дължина/височина) кодирано във формат xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Местоположение за изпращане за: (ширина/дължина/височина) кодирано във формат xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Местоположение за активиране на етикет.\nИме на местоположение на английски (набор от символи: 0-9, A-Z &lt;Интервал&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Местоположение за деактивиране на етикет.\nИме на местоположение на английски (набор от символи: 0-9, A-Z &lt;Интервал&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>Код на риболовна зона на ФАО, дефиниран от Отдела за рибарство и аквакултури на ФАО (http://www.fao.org. Търсене за подсайт на Fishing Area Code).\nВсички символи от подмножеството на GS1 General Specification, дефинирано от ISO/IEC 646 са разрешени.\nПримери:\n18L37.1.3 Западно Средиземноморие, Сардиния;\n18L47.B.1 Атлантик, Югоизточен, SEAFO Division, Namibia EEZ;\n18L67 Тихия океан, Североизток.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Първо ниво (вътрешно присвоено).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Второ ниво (вътрешно присвоено).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Трето ниво (вътрешно присвоено).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Четвърто ниво (вътрешно присвоено).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Пето ниво (вътрешно присвоено).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Идентификация на страна в транзакция, напр., 25L IAC CIN LOC присвоено от притежател на идентификационен номер на компанията (CIN) и включващо съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структуриран като поредица от 3 конкатенирани данни елементи: IAC, последвано от CIN, последвано от физическото вътрешно местоположение (LOC), което е уникално в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Код на местоположение, представляващ код, идентифициращ местоположение или географска област, или свързана група от такива местоположения или области, които имат значение за свързана транзакция и които отговарят на една от структурите, дефинирани в (а) до (f) по-долу:\na) две главни букви, съответстващи на двубуквения ISO 3166-1 код на държавата, в която се намират, или се състои от местоположенията или областите;\nb) три главни букви, съответстващи на IATA кода на летището или града, в който, близо до който, или от който се състоят местоположенията или областите;\nc) четири или повече символа, като първите три съответстват на ISO 3166-1 код на държава, последван от дефис (-), останалата част е пощенски код в съответната държава;\nd) четири или повече символа, като първите три съответстват на ISO 3166-1 код на държава, последван от точка (.), останалата част е ISO 3166-2 код на подразделение на държавата в съответната държава;\ne) пет главни букви, съответстващи на UN/LOCODE на областта, в която, близо до която, или от която се състоят местоположенията или областите;\nf) конкатенация, с дължина не по-малко от седем и не повече от 35 символа, от:\n- код на издаваща агенция по ISO/IEC 15459;\n- код на местоположение, състоящ се от символи, извлечени от набора {A-Z; 0-9}, който отговаря на спецификациите на съответната издаваща агенция.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Местоположение на събитие UN/LOCODE.\nUN/LOCODE, последван от символ плюс (+), последван от един или повече кодове от списъка с кодове EDIFACT Code List 3227 'Location function code qualifier', напр.,\n7 Място на окончателна доставка;\n5 Порт на заминаване;\n9 Порт на натоварване;\n11 Порт на разтоварване;\n13 Място за претоварване;\n24 Порт на влизане;\n35 Държава на износ;\n88 Място за получаване от превозвача;\n125 Чуждестранен порт преди заминаване за САЩ;\n147 Място за съхранение/позиция;\n159 Място за доставка (до получателя);\n248 Място за натоварване\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Номер и улица на адреса.\nИзползва се в комбинация с H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Име на града.\nИзползва се в комбинация с H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Детайли за под-ентитет на държавата.\nИзползва се в комбинация с H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Пощенски код.\nИзползва се в комбинация с H, 6H, 28L, 29L, 30L, 31L, 32L (Ако се използва дефис '-', той трябва да бъде изрично кодиран).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Код на държавата.\nISO 3166-1 Alpha 2 Код\nИзползва се в комбинация с H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Единен ресурсен локатор (URL).\nВключва всички символи, формиращи URL, включително заглавни данни като напр., http://. Набор от символи, както е изброено в RFC 1738.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Указател към URL за процес (P2P URL) за иницииране на URL за пренасяне на всички други кодирани данни в AIDC медия според следното правило: Сканиране на кода и иницииране на URL, започващ с низа на P2P URL, пропускайки DI 34L и синтаксиса на обвивката ISO/IEC 15434 (префикс и постфикс) и добавяне на всички други данни елементи, които са били сканирани в същия ред, както са кодирани в медията, включително DIs и разделители на данни елементи. Конвертиране на специални символи в приложените данни във формат RFC 1738 (напр., Групов разделител 'GS' преведен в последователност RFC 1738 %1D). Обърнете внимание, че това не се отнася за самия P2P URL.\nПример: Кодирана данна низ (използвайки ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nрезултати в следния URL с предадените данни:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nЗабележка: данни от '05' форматната обвивка не бяха включени в URL, тъй като 34L беше кодиран в '06' форматната обвивка.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Одобрен номер на правителството на съд/аквакултурно място/ферма/процесор, започващ с двубуквен ISO 31661 алфа-2 код на държавата, последван от одобрения номер.\nВсички символи от подмножеството на GS1 General Specification, дефинирано от ISO/IEC 646 са разрешени.\nПример:\n35LIECK0107EC = Държава; Ирландия. Име на съда; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Одобрен номер на производител или ферма или първа зала за обезкостяване/нарязване, започващ с двубуквен ISO 3166-1 алфа-2 код на държавата, последван от одобрения номер.\nВсички символи от подмножеството на GS1 General Specification, дефинирано от ISO/IEC 646 са разрешени.\nПример:\n36LIECK0107EC = Държава; Ирландия. Име на съда; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>Код на местоположение 'Изпращане от:' - дефиниран от пощенска администрация (напр., 5-цифрени и 9-цифрени ZIP кодове, идентифициращи местоположения в САЩ или 6-цифрени пощенски кодове, идентифициращи канадски местоположения).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>Код на местоположение 'Доставка до:' - дефиниран от пощенска администрация (напр., 5-цифрени и 9-цифрени ZIP кодове, идентифициращи местоположения в САЩ или 6цифрени пощенски кодове, идентифициращи канадски местоположения).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>Код на местоположение 'Изпращане от:' - дефиниран от пощенска администрация във формат: пощенски кодове (напр., 5-цифрени ZIP кодове, идентифициращи местоположения в САЩ или 6- или 7-цифрени пощенски кодове, идентифициращи местоположения в Обединеното кралство) последвани от двубуквен ISO 3166 код на държавата (напр., US или GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>Код на местоположение 'Доставка до:' - дефиниран от пощенска администрация във формат: пощенски кодове (напр., 5-цифрени ZIP кодове, идентифициращи местоположения в САЩ или 6- или 7-цифрени пощенски кодове, идентифициращи местоположения в Обединеното кралство) последвани от двубуквен ISO 3166 код на държавата (напр., US или GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Данни от формуляра на армията 2410. Форматът е стойността на данните, предшествана от номера на блока на формуляра 2410. Дължините на полетата и приемливите символи могат да бъдат намерени на;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nАктуализация 2020: URL адресът е променен на:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Данни от формуляра на армията 2408. Форматът е стойността на данните, предшествана от номера на блока на формуляра 2408. Дължините на полетата и приемливите символи могат да бъдат намерени на;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nАктуализация 2020: URL адресът е променен на:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Данни от формуляра на армията 2407. Форматът е стойността на данните, предшествана от номера на блока на формуляра 2407. Дължините на полетата и приемливите символи могат да бъдат намерени на;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nАктуализация 2020: URL адресът е променен на:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Данни от формуляра на военновъздушните сили 95. Форматът е стойността на данните, предшествана от номера на блока на формуляра 95. Дължините на полетата и приемливите символи могат да бъдат намерени на;\nhttp://www.gsa.gov/portal/forms/download/116418.\nАктуализация 2020: Името на формуляра е "Формуляр за техническа поръчка на военновъздушните сили 95 (AFTO Form 95)." Детайлите за формуляра са източник във Военновъздушната техническа поръчка (TO) 00-20-1. URL адресът за тази TO е променен на:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Данни от формуляра на военноморските сили 4790. Форматът е стойността на данните, предшествана от номера на блока на формуляра 2410. Дължините на полетата и приемливите символи могат да бъдат намерени на;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%201 5.pdf.\nАктуализация 2020: URL адресът вече не е валиден.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Национален/НАТО складов номер (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Данни за характеристика на продукта, дефинирани от обмена на данни в химическата индустрия (CIDX).</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Структура на кодиране в съответствие с формата, дефиниран от Асоциацията на електронната индустрия на Япония (EIAJ).</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Структура на кодиране и формати в съответствие с GS1 идентификатори за приложения (AI плюс данни) (GS1).</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Структура на кодиране и формати в съответствие с препоръките на AIAG. Пълният идентификатор на данните е във формата 5Nxx, където 'xx' се намира в пълния списък с кодове, който може да бъде намерен на https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>Кодове за процедура за искане и издаване на САЩ DOD. Форматът е съответният MILSTRIP код, последван от стойността на данните, асоциирана с този код. (Пълният списък с кодове е наличен на;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\nАктуализация 2020: URL адресът е променен на:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>Кодове на регулация за транспорт на отбраната на САЩ. Форматът е кодът на DTR, последван от съответната стойност на данните, асоциирана с този код. (Пълният списък с кодове е наличен на;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\nАктуализация 2020: URL адресът е променен на:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Кодове за идентификация на производствени животни. Форматът е кодът на производствено животно, последван от съответната стойност на данните, асоциирана с този код. Техническият доклад и пълният списък с разширени данни елементи (кодове) се поддържат на;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Разширени данни елементи (Кодове).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Технически доклад.\nАктуализация 2020: URL адресите са променени на:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Номер на продукт в аптека, поддържан от IFA (www.ifaffm.de) със следните елементи; Идентификатор на данни (DI), двуцифрен код на агенция за регистрация на продукти (PRAC), референция на продукта (PR) и двата контролни цифри на PPN (CC), във формат DI PRAC PR CC.\nЗАБЕЛЕЖКА - интервалът се добавя като разделител за визуална яснота и не е част от данните.\nПримери:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Данни във формат и със семантика, дефинирани от притежателя на идентификационен номер на компанията (CIN), който е издаден от код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459, дефиниран като поредица от конкатенирани данни елементи: IAC, последвано от CIN, последвано от разделителен символ ':' (двоеточие), последвано от данните във формат и със семантика, както е дефинирано от притежателя на CIN.\nЗАБЕЛЕЖКА: Само правилата за синтаксис на данните (ако има такива) като се предоставят от декларирания IAC+CIN във всяка данна потока DI '10N' трябва да бъдат приложени към данните, следващи DI 10N+IAC+CIN.\nЗАБЕЛЕЖКА: Поради грешка в присвояването на DI '10N' (няма централен орган за дефиниране на данни нито за поддръжка), не трябва да се внедряват нови употреби на DI '10N'.\nФункцията на DI '10N' е установена в категория 18, РАЗНО с DI '5R'. Препоръчително е съществуващите приложения, които използват DI '10N', да мигрират към DI 5R'.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Конструкцията на данните е дефинирана и контролирана от RLA и се състои от 2 сегмента: кодът на идентификатора на полето, незабавно последван от данните, както са дефинирани за този елемент според речника на данните на RLA. Това е по същество каталог на полета със стандартизирано съдържание. Идентификаторите на полетата са публикувани на http://rla.org/11ncodes. Употребата и структурата на тези кодове са дефинирани на: http://rla.org/11nformat Допълнителни примери могат да бъдат намерени на този сайт също. DI '11N' никога не трябва да бъде кодиран в 2D или RFID таг заедно с други DI елементи.\nЗАБЕЛЕЖКА: Поради грешка в присвояването на DI '11N' (езикът, който гласи: 'DI '11N' никога не трябва да бъде кодиран в 2D или RFID таг заедно с други DI елементи.' не е валидно твърдение), не трябва да се внедряват нови употреби на DI '11N'. Функцията на DI '11N' е установена в DI '12N'. Препоръчително е съществуващите приложения, които използват DI '11N', да мигрират към DI '12N'.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Конструкцията на данните е дефинирана и контролирана от RLA, състояща се от 2 сегмента: кодът на идентификатора на полето (FI), незабавно последван от данните, както са дефинирани за този елемент според речника на данните на RLA. Това е по същество каталог на полета със стандартизирано съдържание. Идентификаторите на полетата са публикувани на http://rla.org/12ncodes Употребата и структурата на тези кодове са дефинирани на: http://rla.org/12nformat. Примери могат да бъдат намерени на този сайт.\nАктуализация 2020: URL адресът е променен на:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Представяне на индустриални идентификационни кодове, контролирани и поддържани от CAICT, използвани в системата за разрешаване на идентификатори на индустриалния интернет в Китай и конструирани като &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, във формата an3+a3+n3+n3+n8+an1...33, където an3 е Идентификатор на данни (DI), a3 е Код на издаваща агенция (IAC = "VAA"), n3 е Код на най-високо ниво (TTC), n3 е Код на вторично ниво (STC), n8 е Идентификационен номер на компанията (CIN) контролиран и присвоен от платформата на вторично ниво и an1...33 е Сериен номер (SN), който е контролиран и присвоен от притежателя на CIN и е уникален в рамките на домейна на притежателя на CIN, използвайки символите 0 до 9, главни и малки букви A до Z, * (звезда), + (плюс), - (дефис), . (точка или пълна спирка), / (наклонена черта), ( (лява скоба), ) (дясна скоба), ! (удивителен знак).\nПримери:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Код на артикул, присвоен от клиента.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Код на артикул, присвоен от доставчика.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Код, присвоен за специфициране на нивото на ревизия за артикул (напр., ниво на инженерна промяна, издание или ревизия).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Комбиниран код за идентификация на производител/код на артикул под форматите на GS1 с 12/13 цифри, плюс допълнителни кодове, ако има такива.\nАктуализация 2020: GS1 препоръчва този DI вече да не се използва и потребителите на този DI да мигрират към квалификатори на данни на GS1 (Идентификатори за приложения) според ISO/IEC 15418 и ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Част от кода на артикул от форматите на GS1.\nАктуализация 2020: GS1 препоръчва този DI вече да не се използва и потребителите на този DI да мигрират към квалификатори на данни на GS1 (Идентификатори за приложения) според ISO/IEC 15418 и ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Номер на артикул за класификация на товари, присвоен от превозвача за целите на оценка на опасни материали (напр., Класификация за моторен транспорт, Въздух, Лодка, Железопътен класификация).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Комбиниран идентификационен код на доставчика и код на артикула (вътрешно присвоен или взаимно определен).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Общ език за идентификация на оборудване (CLEI), присвоен от производителя на някои телекомуникационни оборудвания.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>14-цифрен формат на GS1 за структура на GTIN-14 кода.\nАктуализация 2020: GS1 препоръчва този DI вече да не се използва и потребителите на този DI да мигрират към квалификатори на данни на GS1 (Идентификатори за приложения) според ISO/IEC 15418 и ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Комбиниран код за идентификация на производител (9-цифрен номер на DUNS, присвоен от Dun &amp; Bradstreet) и кодът на артикул/номер на частта (присвоен от производителя).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Код на опасен материал, дефиниран от ANSI X12.3 във формат Елемент на данни 208 (1-цифрен код квалификатор) последван от Елемент на данни 209 (Код на опасен материал).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10-цифрен CLEI код за телекомуникационно оборудване.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Тип на документ (напр., Списък за избор, Проектна чертеж и др.) (вътрешно присвоен или взаимно определен).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>VMRS системен код.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>VMRS системен и събирателен код.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>VMRS системен, събирателен и частен код.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>VMRS системен, събирателен или частен код. (Модифициран от потребителя).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Комбиниран GS1 идентификационен код на доставчика и код на артикула, присвоен от доставчика.\nАктуализация 2020: GS1 препоръчва този DI вече да не се използва и потребителите на този DI да мигрират към квалификатори на данни на GS1 (Идентификатори за приложения) според ISO/IEC 15418 и ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Комбиниран VMRS идентификационен код на доставчика и номер на частта, присвоен от доставчика.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Компонент на артикул. (Един продукт, съдържащ се в множество опаковки).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Първо ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Второ ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Трето ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Четвърто ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Пето ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Идентификация на страна в транзакция, присвоена от притежател на идентификационен номер на компанията (CIN) и включваща съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структурирана като поредица от 3 конкатенирани данни елементи: IAC, последвано от CIN, последвано от номер на частта, присвоен от доставчика, който е уникален в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Номер на частта от следващото по-високо събиране.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Код на стоката HTS-6; Използва се форматът: 4012.11 или 4012.11.4000 (Десятъчната точка е изрично кодирана) Хармонизираната система (HS) Класификацията е 6-цифрен стандартизиран числов метод за класифициране на търгувани продукти. HS номерата се използват от митническите власти по света за идентифициране на продукти за прилагане на мита и данъци. Допълнителни цифри се добавят към HS номера от някои правителства за по-нататъшно разграничаване на продукти в определени категории. В Съединените щати, номерата, използвани за класификация на изнасяни продукти, се наричат 'Schedule B' номера. Бюрото за преброяване на населението на САЩ администрира системата Schedule B. Номерата на Schedule B, а не HS номерата, трябва да бъдат предоставени в Декларацията за износ на товарите (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nКодовете за внос се администрират от Комисията за международна търговия на САЩ (USITC). http://hts.usitc.gov/\nАктуализация 2020: връзката http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf вече не е активна. Консултирайте се с експедитора за формуляр SED.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Име на товара. Обикновено описание (на английски).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Код за класификация на продукта, дефиниран с GMDN (Глобална медицинска номенклатура за устройства - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Първо ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Второ ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Трето ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Четвърто ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Пето ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Код, присвоен от клиент на идентификационния номер на листа за безопасност на материала (MSDS) на производителя, описващ употребите, опасностите и химическия състав на опасен материал.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Елемент под контрол на износ. Подлежи на контрол на износа и/или ограничения, както е идентифицирано в Споразумението на Васенаар. DI последван от Алфа-2 ISO 3166 код на държавата на държавата, наложила ограничението, последван от код на Васенаар (http://www.wassenaar.org/controllists/index.html).\nАктуализация 2020: URL адресът е променен на https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Идентификатор на артикул, присвоен от производителя на артикула - състоящ се от номер на артикула, присвоен от производителя на артикула, последван от знак плюс (+), последван - ако е необходимо за уникално идентифициране на артикула в продуктовата гама на производителя - от версия на артикула, присвоена от производителя.\nПример 50PABC+6 би представлял номер на артикула ABC, версия на артикула 6\nЗАБЕЛЕЖКА - Номерът на артикула винаги трябва да бъде последван от знак плюс, дори ако няма присвоена версия на артикула. Това е необходимо за да се позволи недвусмислената конкатенация на идентификатора на артикула, присвоен от производителя, с друга конструкция на данни, използвайки знака за конкатенация плюс. Например, комбинацията на идентификатор на артикул, присвоен от производителя 50P без версия на артикула и сериен номер (Идентификатор на данни S) на ентитет може да бъде кодирана като 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Глобално уникален идентификатор на артикул, състоящ се от Идентификация на страна в транзакция, присвоена от притежател на идентификационен номер на компанията (CIN) и включваща съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, последван от знак плюс (+), последван от Идентификатор на артикула, присвоен от производителя, както е дефинирано с 50P\nПример: 51PJ4LBE0431863103+ABC+ би представлял артикула с номер на артикула ABC и без номер на версия, произведен от компанията с белгийски ДДС номер 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Код на цвят.\nЦвят на артикул/обект, идентифициран с код или термин, взаимно договорен между търговските партньори.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Идентификатор за конкретно морско оборудване, одобрено по Директива на Европейския съюз за морско оборудване (2014/90/EU) и Регламент за изпълнение (ЕС) 2018/608.\nФормат:\n• DI (an3);\n• Тип на модула (модулите) за оценка на съответствието, посочен в Приложение II към Директива 2014/90/EU, използван за оценка на съответствието (a1);\n• Идентификационен номер на уведомен орган, присвоен от Комисията в съответствие с точка 3.1 от Приложение IV към Директива 2014/90/EU (n4);\n• Сертификат (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Уникална идентификация на устройство - Идентификатор на устройство) за медицински устройства (MD) и Ин-витро диагностика (IvD) като уникален ключ към публични бази данни за UDI (GUDID, EUDAMED и др.), в съответствие с национални регулаторни изисквания, както е очертано от Международния форум на регулаторите на медицински устройства (IMDRF). Разрешени са всички печатаеми символи от набора на символи UTF-8.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>Референция за сертификация от DNV. Указва, че данните съдържат референция към сертификат за продукт/доклад за проверка/доклад, издаден от DNV. Идентификаторът на данните трябва да бъде последван от буквите "NV" и номер на сертификата. Когато номерът на сертификата има постфикс, той трябва да бъде включен в потока от данни, като се използва символът за разделител "-". Индикатори за ревизия не трябва да се предоставят.\nПримери:\n1. 55PNVXXXXXXX, където 55P е идентификаторът на данните, XXXXXXX е номерът на сертификата на DNV.\n2. 55PNVXXXXXXX-Y, където 55P е идентификаторът на данните, XXXXXXX-Y е номерът на сертификата на DNV с постфикс Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Количество, Брой парчета или Сума (само числова) (единица за измерване и значение, взаимно определени).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Теоретична дължина/тегло (само числова).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Действително тегло (само числова).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Единица за измерване, както е дефинирана от двубуквения ANSI X12.3 Дата Елемент Номер 355 Код на единица за измерване.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Брутна сума.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Нетна сума.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Когато няколко контейнера формират един продукт (съдържанието на всеки контейнер трябва да бъде комбинирано със съдържанието на другите контейнери, за да се образува един продукт), Идентификаторът на данните '6Q' трябва да се използва за свързване на различните контейнери. Форматът # от # ('това е n-тата част от x части за дефиниране на продукта') Представен във формат 'n/x', където '/' (наклонена черта) се използва като разделител между две стойности.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Количество, Сума или Брой парчета във формат: Количество, последвано от двубуквения ANSI X12.3 Дата Елемент Номер 355 Код на единица за измерване.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Оценено тегло на контейнера\nПроизводителски присвоена товароподемност на контейнера. Присвоена по време на производство. Единица за измерване е кг.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Тегло на парчето\nТегло на единичен артикул.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Тегло на тара: тегло на празен контейнер.\nТегло на тялото на контейнера.\nПроизводителски присвоено тегло на празния контейнер. Присвоено по време на производство. Единица за измерване е кг (Тегло на тара).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Монетарна стойност, установена от доставчика във формат: стойността, последвана от ISO 4217 данни елемент код за представяне на единица стойност на валути и фондове (напр., 12Q2.50USD) (2.50 Монетарна стойност в долари на САЩ) значение, взаимно определено.\nСтойност на влизане;\nСтойност, последвана от ISO 4217 данни елемент код за представяне на единица стойност на валути и фондове (напр., 12Q2.50USD) (2.50 Монетарна стойност в долари на САЩ)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># от # ('това е n-тата част от x части в тази пратка').\nПредставен във формат 'n/x', където '/' (наклонена черта) се използва като разделител между две стойности.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Начално вторично количество.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Крайно вторично количество.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Брой парчета във фургона.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Брой пратки във фургона.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Обем, изразен в кубични метри или кубични футове, последван от ANSI X12.3 данни елемент номер 355 код на единица за измерване (CR или CF). Без подразбираща се десятъчна точка.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Ширина, изразена в линейни метри или линейни футове, последвана от ANSI X12.3 данни елемент номер 355 код на единица за измерване (LC или LF). Без подразбираща се десятъчна точка.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Височина, изразена в линейни метри или линейни футове, последвана от ANSI X12.3 данни елемент номер 355 код на единица за измерване (LC или LF). Без подразбираща се десятъчна точка.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Дължина, изразена в линейни метри или линейни футове, последвана от ANSI X12.3 данни елемент номер 355 код на единица за измерване (LC или LF). Без подразбираща се десятъчна точка.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Нетно тегло на пратката, изразено в паунди или килограми (килограми), последвано от ANSI X12.3 данни елемент номер 355 единица за измерване (LB или KG). Без подразбираща се десятъчна точка.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Дължина на фургона, изразена в линейни метри или линейни футове, последвана от ANSI X12.3 данни елемент номер 355 единица за измерване (LC или LF). Без подразбираща се десятъчна точка.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Вътрешен обем на фургона, изразен в кубични метри или кубични футове, последван от ANSI X12.3 данни елемент номер 355 единица за измерване код (CR или CF). Без подразбираща се десятъчна точка.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Нето експлозивно тегло (изчислена стойност на еквивалент на експлозив, изразен в паунди TNT). Мярката за NEW се използва международно за изчисления на безопасностно разстояние при експлозии. Без подразбираща се десятъчна точка.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Ниво на опаковане, определящо йерархичното ниво на опаковане в съответствие със спецификациите на HIBC (Баркод на здравната индустрия).</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Единична цена на стойността на продукта, нетна, '.' (точка) се използва като десятъчна точка (напр. 27Q1000.5 за ценовата стойност от 1000.50).\nСтруктура: an3+an1...20\n &lt;DI&gt;&lt;ценова стойност&gt;.\nНабор от символи: 0 до 9, точка (ISO 646 ASCII стойност десетично 46, шестнадесетично 2E).\nПример за кодиране, използвайки нетна ценова стойност от 1000:\n27Q1000.\nПример за кодиране, използвайки нетна ценова стойност от 1000.50:\n27Q1000.5.\nЗАБЕЛЕЖКА - Ако се изисква валута, тя може да бъде взета от друг данни елемент, използван в същия код, напр. 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Единична стойност на такса за пощенски и опаковъчни услуги, '.' (точка) представлява позицията на запетая (напр. 30Q100.50 за стойността от 100,50).\nСтруктура: an3+an1...10\n &lt;DI&gt;&lt;ценова стойност&gt;.\nНабор от символи: 0 до 9, точка.\nПример за кодиране, използвайки стойност на пощенски и опаковъчни услуги от 100:\n30Q100.\nПример за кодиране, използвайки стойност на пощенски и опаковъчни услуги от 100,50:\n30Q100.50.\nЗАБЕЛЕЖКА - Ако се изисква валута, тя може да бъде взета от друг данни елемент, използван в същия код, напр. 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Процент отстъпка, '.' (точка) представлява позицията на запетая (напр. 31Q8.5 за стойност на отстъпка от 8,5%).\nСтруктура: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;процент отстъпка (%)&gt;.\nНабор от символи: 0 до 9, точка\nПример за кодиране, използвайки процент на отстъпка от 10%:\n31Q10.\nПример за кодиране, използвайки процент на отстъпка от 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>Процент ДДС, '.' (точка) представлява позицията на запетая (напр. 27Q8.5 за стойност на ДДС от 8.5%).\nСтруктура: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;Процент ДДС (%)&gt;.\nНабор от символи: 0 до 9, точка.\nПример за кодиране, използвайки процент на ДДС от 10%:\n27Q19.\nПример за кодиране, използвайки процент на ДДС от 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Валута, ISO 4217 код на валута.\nСтруктура: an3+an3\n &lt;DI&gt;&lt;Валута, напр. EUR&gt;.\nНабор от символи: A-Z, 0 до 9.\nПример за кодиране, използвайки ISO алфабетен код на щатски долар:\n31QUSD.\nПример за кодиране, използвайки ISO алфабетен код на ЕВРО:\n31QEUR.\nПример за кодиране, използвайки ISO числен код на ЕВРО:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Клиничен код, дефиниран с клиничната номенклатура: "Международният стандарт за идентифициране на здравни измервания, наблюдения и документи - LOINC" (https://loinc.org), в следната последователност: &lt;DI&gt;&lt;LOINC Code&gt;&lt;Plus Sign&gt;&lt;Value&gt;. Единицата и форматът на стойността се дефинират от LOINC кода.\nПример: 32Q28903-3+60 = LOINC код 28903-3: Ос на ляв контактен обектив (градуси); со стойност = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Код за разрешение за връщане (RMA), присвоен от доставчика</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Код за връщане, присвоен от клиента</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>Код за идентификация на Министерството на отбраната на САЩ (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Данни във формат и със семантика, дефинирани от притежателя на идентификационен номер на компанията (CIN), който е издаден от код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459, дефиниран като поредица от конкатенирани данни елементи: IAC, последвано от CIN, последвано от разделителен символ ':' (двоеточие), последвано от данните във формат и със семантика, както е дефинирано от притежателя на CIN.\nЗАБЕЛЕЖКА - Само правилата за синтаксис на данните (ако има такива) като се предоставят от декларирания IAC+CIN във всяка данна потока DI '5R' трябва да бъдат приложени към данните, следващи DI 5R+IAC+CIN.4.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 цифрова подписна данна конструкция. Ако основното кодиране на носителя на данни е 7 бита, тогава може да се използва само суровият формат на ISO/IEC 20248.\nПример с формат на URL:\n&lt;6R&gt;&lt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO&gt;\nПример със суров формат:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nСтруктура на данни ISO/IEC 20248 съдържа цифров подпис, който се използва за проверка на специфичните данни елементи на съобщението от данни елементи. Стойността на 6R, като първи параметър, и данните елементи, които трябва да бъдат верифицирани (премахнати от всички непечатаеми символи), като втори параметър, се предават на ISO/IEC 20248 DecoderVerifier - който ще върне резултата от верификацията: ПРИЕМАНЕ, ОТХВЪРЛЯНЕ или ГРЕШКА (код на грешка) и JSON обект на декодирани допълнителни полета на ISO/IEC 20248. Структурата на данни ISO/IEC 20248 може да съдържа допълнителни полета и инструкции за декодиране и верификация на едно или повече съобщения от данни елементи. Тези инструкции ще бъдат обработени от ISO/IEC 20248 DecoderVerifier.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Система за информация за водни науки и рибарство (ASFIS) 'Междуагентурен 3-буквен код на видове', поддържан от Организацията на ООН за храна и земеделие (www.fao.org, след това търсене на 'ASFIS').\nПримери;\n7RMUC = Кална шаран;\n7RPCD = Австралийски прясноводен херинг;\n7RWSH = Голяма бяла акула.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Международен стандартен код за класификация на риболовни снасти (ISSCFG), определен от ФАО (www.fao.org)\nВсички символи от подмножеството на GS1 General Specification, дефинирано от ISO/IEC 646 са разрешени.\nПримери:\n8R02.1.0 = Брегови мрежи;\n8R03.1.5 = Ракови теглилки;\n8R05.1.0 = Преносими мрежи за вдигане.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Метод на производство за риба и морски дарове, както е специфициран от Отдела за рибарство и аквакултури на Организацията на ООН за храна и земеделие (ФАО), съгласно Регламент 1379/2013 на ЕС. (www.fao.org).\nВсички символи от подмножеството на GS1 General Specification, дефинирано от ISO/IEC 646 са разрешени.\nПримери;\n9R01 = Уловена в морето;\n9R02 = Уловена в прясна вода;\n9R03 = Отгледана.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Сериен номер или код, присвоен от доставчика на ентитет за целия му живот, (напр., сериен номер на компютър, номер за проследяване, номер на договорен инструмент)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Допълнителен код, присвоен от доставчика на ентитет за целия му живот (напр., номер за проследяване, сериен номер на компютър)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Идентификационен номер на пратка (SID) за предварително известие за изпращане (ASN) съответства на ANSI ASC X12 данни елемент 396</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Уникален идентификатор на пакет, присвоен от доставчика (най-ниското ниво на опаковане, което има код на пакета; трябва да съдържа подобни артикули)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Идентификационен номер на пакет, присвоен от доставчика на главна опаковка, съдържаща подобни артикули на една поръчка на клиента</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Идентификационен номер на пакет, присвоен от доставчика на главна опаковка, съдържаща различни артикули на една поръчка на клиента</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Идентификационен номер на пакет, присвоен от доставчика на главна опаковка, съдържаща подобни артикули на няколко поръчки на клиенти</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Идентификационен номер на пакет, присвоен от доставчика на главна опаковка, съдържаща различни артикули на няколко поръчки на клиенти</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Идентификационен номер на доставчика/Уникален идентификационен номер на контейнера, представен в данни формат, специфициран от GS1 SSCC-18\nАктуализация 2020: Вижте GS1 General Specifications за най-новата версия на SSCC.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Идентификационен номер на пакет, Общ (взаимно определен)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Код на машина, клетка или инструмент</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Код на траен актив</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Номер на документ (вътрешно присвоен или взаимно определен)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Контейнерен сигурностен печат</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>Манифест за неподобни парцели от четвърти клас</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Сериен номер, присвоен от продавача на ентитета, който може да се използва само в комбинация с '13V'</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Номер на версия, напр., Версия на софтуера</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Комбиниран 6-цифрен GS1 идентификационен код на доставчика и уникален идентификационен номер на пакета, присвоен от доставчика\nАктуализация 2020: GS1 препоръчва този DI вече да не се използва и потребителите на този DI да мигрират към квалификатори на данни на GS1 (Идентификатори за приложения) според ISO/IEC 15418 и ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>Код CAGE &amp; Сериен номер уникален в рамките на CAGE</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Комбиниран идентификационен номер на компанията на Dun &amp; Bradstreet на доставчика, последван от уникален идентификационен номер на пакета, присвоен от доставчика, във формат nn...nn+nn...n където символът плюс (+) се използва като разделител между номера на DUNS и уникалния идентификационен номер на пакета</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Код за проследяване, присвоен от клиента на идентификационния номер на производителя</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Номер за идентификация на гума, дефиниран от Министерството на транспорта на САЩ (D.O.T) по Закона за транспорта 49 CFR 574.5.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Уникален индивидуален идентификатор за мобилни телефони</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Медиен достъпен контролен (MAC) адрес, съответстващ на IEEE 802.11</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Според ISO/IEC 15963 (стойността е конверсия на неговата битова стойност в 8-битови ASCII стойности). Този идентификатор на данни може да приеме всяка стойност ASCII-256. За етикети на товарни контейнери Регистрационният орган (RA) за производители е RA за ISO 14816. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Идентификация на страна в транзакция, присвоена от притежател на идентификационен номер на компанията (CIN) и включваща съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структурирана като поредица от 3 конкатенирани данни елементи: IAC, последвано от CIN, последвано от сериен номер на частта, присвоен от доставчика, който е уникален в рамките на домейна на притежателя на CIN (Вижте Приложение C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Идентификатор на оборудване, представляващ уникален глобален идентификатор за устройство, оборудване или инстанция на компютърно приложение, използвано в производството, транспорта, обработката или друго обслужване на артикули, който се конструира чрез конкатениране на:\n - код на издаваща агенция по ISO/IEC 15459;\n - номер на оборудването, който отговаря на спецификациите на съответната издаваща агенция; и който:\n - съдържа само главни букви от азбуката и/или цифри;\n - е уникален (тоест, се различава от всеки друг идентификатор, съответстващ на ISO/IEC 15459) в рамките на домейна на издаващата агенция;\n - не може да бъде от друг идентификатор, съответстващ на ISO/IEC 15459, издаден под същата издаваща агенция, чрез просто добавяне на символи към неговия край или техните премахване от него.\nИдентификатор на четец.\nИдентификатор на оборудване, представляващ уникален глобален идентификатор за устройство, оборудване или инстанция на компютърно приложение, използвано в производството, транспорта, обработката или друго обслужване на артикули.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Номер на артикул в партида, представляващ низ от цифрови цифри:\n - който уникално различава артикул, в идентифицируема партида свързани артикули, от всички други артикули в същата партида;\n - чиято дължина е еднаква за всички артикули в съответната партида.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Номер на партида-и-артикул, представляващ конкатенацията на идентификатор на данни 27T номер на партида и идентификатор на данни 27S номер на артикул на артикул, принадлежащ към съответната партида.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Допълнителен код за проследяване за ентитет, присвоен от доставчика допълнително или различно от кода(овете) за проследяване, предоставени от 'S' или '1S'</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Начален сериен номер за серийни номера в поредица</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Краен сериен номер за серийни номера в поредица</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Сериен номер на следващото по-високо събиране</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Сериен номер или номер на част на крайния артикул</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Номер на броня (Използва се при преместване на военна единица DOD)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Идентификатор на палета (Използва се за натоварени въздушни палети 463L)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Уникален идентификатор на артикула, състоящ се от последователност от 5 данни елемента: 'IAC', последвано от 'CIN', последвано от 'Номер на част (PN)', последвано от знака '+', последвано от серийния номер на частта (PSN), присвоен от доставчика, който е глобално уникален в рамките на домейна на притежателя на CIN; във формат IAC CIN PN + PSN (пространствата се предоставят за визуална яснота само; те не са част от данните). Вижте Приложение C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Уникален идентификатор на артикула (UII) във формат 25S, предшестван от числова стойност, показваща дължината на елемента сериен номер за използване от системи, които изискват компонента 'сериен номер' на конкатениран елемент Сериен номер (IAC+CIN+SN) Формат: DI+LI+IAC+CIN+SN (LI=дължина на SN)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Интегрален идентификационен номер на карта (ICCID) в съответствие с препоръката на ITU-T E.118 и препоръката на ETSI GSM 11.11; максимум 20 цифри, състоящи се от Идентификационен номер на издателя (IIN; максимум 7 цифри), Индивидуален идентификационен номер на сметка (променлив; дължината се определя от IIN, но е еднаква в рамките на отделните IIN), Контролна цифра (една цифра, изчислена с алгоритъма на Лун\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = идентификация на сметка, c = контролна цифра)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Първо ниво (Присвоено от доставчика)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Второ ниво (Присвоено от доставчика)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Трето ниво (Присвоено от доставчика)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Четвърто ниво (Присвоено от доставчика)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Пето ниво (Присвоено от доставчика)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC номер (Обикновено Сериализиран глобален идентификационен номер на търговска стока - SGTIN)\nАктуализация 2020: Терминът "EPC номер" вече не се използва от GS1. Вижте GS1 General Specifications и Tag Data Standard за актуална терминология</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Криптиран сериен номер, присвоен от доставчика на ентитет, който може да бъде удостоверен от независима доверена трета страна. Криптираният сериен номер не описва никакви параметри на ентитета без декриптиране от независима трета страна.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>Символът 'AMPERSAND'. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Тип на контейнера (вътрешно присвоен или взаимно определен).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Номер за проследяване, присвоен от клиента за идентифициране/проследяване на уникална група от ентитети (напр., партида, серия, печка).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Номер за проследяване, присвоен от доставчика за идентифициране/проследяване на уникална група от ентитети (напр., партида, серия, печка).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Ексклузивно присвояване (Идентификация на превозно средство на САЩ EPA за тестове на емисии).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Код на идентификационен номер на връщаем контейнер, присвоен от собственика на контейнера или съответната регулаторна агенция (напр., метална кофа, кош, макара, товарен блок (ULD), ремарке, резервоар или интермодален контейнер) (изключва газови бутилки Виж '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Код на идентификационен номер на газов контейнер, присвоен от производителя в съответствие със стандартите на Министерството на транспорта на САЩ (D.O.T.).</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Първо ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Второ ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Трето ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Четвърто ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Пето ниво (Присвоено от клиента).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Идентификация на страна в транзакция, присвоена от притежател на идентификационен номер на компанията (CIN) и включваща съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структурирана като поредица от 3 конкатенирани данни елементи: IAC, последвано от CIN, последвано от номер на частта за проследяване, присвоен от доставчика, който е уникален в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Идентификатор на партида, състоящ се от конкатенацията на или:\n - идентификатор на данни 26S идентификатор на пощенска обработваща машина, или\n - идентификатор на данни 20K идентификатор на лиценз, или\n - идентификатор на данни 18V идентификатор на страна, който:\n - се различава от всеки друг идентификатор, съответстващ на ISO/IEC 15459 в рамките на домейна на съответната издаваща агенция;\n - не може да бъде изведен от друг идентификатор на страна или който и да е друг идентификатор, съответстващ на ISO/IEC 15459, издаден под същата издаваща агенция, чрез просто добавяне на символи към неговия край или техните премахване от него;\n с идентификатор на данни 27T номер на партида, двата разделени със символ дефис (-).</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Номер на партида, издаден под контрола на идентифицирана страна или единица обработващо оборудване, или под разпорежданията на идентифициран лиценз, който:\n - уникално различава една партида свързани артикули от всички други партиди, на които е присвоен номер на партида от съответната страна или оборудване, или под лиценза;\n - се състои от низ с максимална дължина 10 символа, от които първият (цифров) символ показва броя на следващите символи, всеки от които е взет от набора .</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Идентификационен код на транспортно оборудване за моторен транспорт, присвоен от производителя в съответствие с международната организация за стандартизация (ISO) стандарти.</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Първо ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Второ ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Трето ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Четвърто ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Пето ниво (Присвоено от доставчика).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Стандартен код на превозвача Alpha (SCAC) (4 алфанумерични символа) и опционален номер на ремарке, присвоен от превозвача (от един до десет алфанумерични символа). Когато се използва, номерът на ремаркето, присвоен от превозвача, се разделя от SCAC с тире '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Номер на актив за контейнер - Състои се от две свързани части:\n- Идентификация на организация в съответствие с ISO/IEC 15459 и уникална идентификация на ентитета, присвоена в съответствие с правилата, установени от издаващата агенция.\n- Уникален сериен номер, присвоен от ентитета, завършващ с 3-символен код на типа контейнер, взет от списъка с кодове на EDIFACT 8053 или стандарта на UPU M82-3. (Ако кодът на типа контейнер, посочен в списъка, е с дължина по-малка от три символа, полето се запълва с тирета '-' отляво до дължина от три символа).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Сериен номер на контейнера.\nСпоред ISO 6346. OC EI CSN CD, където OC е трибуквеният код на собственика, присвоен в сътрудничество с BIC, EI е еднобуквеният идентификатор на категорията оборудване, CSN е 6-цифрен уникален идентификационен номер на контейнера, присвоен от собственика на оборудването, и CD е контролната цифра по модул 11, изчислена в съответствие с Приложение А, ISO 6346.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Идентификация на собственик на връщаем контейнер, присвоена в сътрудничество с BIC.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Код за размер/тип на контейнера.\nСпоред ISO 6346, Раздел 4.2.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Код за собственост на контейнера. Действително четирибуквено съкращение, маркирано на контейнера от собственика. За контейнери, собственост на DOD, вижте Регламента за отбранителен транспорт Приложение EE-6.\nАктуализация 2020: източник на данни е актуализиран до Регламента за отбранителен транспорт, Част II, Приложение TT, разположено на:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Номер на фургон (пълен номер без контролната цифра).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Контролна цифра на номера на фургона, идентифициран в 11B.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Код на номер на контейнер (последните 5 цифри на номера без броене на контролната цифра).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Статус на етикет.\nY=Разрешено / N=Неразрешено.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Клас на опасен товар.\nКлас IMDG във формат 'n.na', където n = числово, десятъчната точка изрично кодирана, и a = условен алфабетен квалификатор. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>Код на ООН за опасни стоки.\nЗа опасен товар, предоставен от изпращача в съответствие с кода на ООН.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\nАктуализация 2020: URL е променен на http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Име на обект на транспортиране.\nИме на кораб или код на превозно средство/номер на влаково пътуване на английски.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Регистрационен номер на кораб.\nТрите букви 'IMO', последвани от седемцифрения номер, присвоен на всички кораби от IHS Fairplay при построяването им. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Номер на пътуване/Пътуване.\nБуква и номер.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Държава на кораба.\nISO 3166-1 двубуквен код Alpha 2.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Резервирано за номера на електронни печати.\nСъстои се от ID на етикета 18185-1 - 32 бита и 16-битовия ID на производителя според ISO 14816 (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Номер/Тип на входа.\nСъстои се от трицифрения код на фирмата, последван от седемцифрения номер на входа и завършва с една контролна цифра. Кодът на фирмата представлява трибуквения алфанумеричен код, присвоен на фирмата или вносителя от CBP. Номерът на входа представлява седемцифрения номер, присвоен от фирмата. Номерът може да бъде присвоен по всякакъв удобен начин, при условие че същият номер не е присвоен на повече от една форма CBP 7501. Нулите отпред трябва да бъдат показани. Контролната цифра се изчислява на база предходните 10 символа. Формулата за изчисляване на контролната цифра може да бъде намерена в Приложение 1, инструкции CBP 7501.\nТипът на входа е двуцифрен код, съответстващ на Блок 2, инструкции CBP 7501.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Номер на гаранция.\nТрицифреният числов код, който идентифицира застрахователната компания във връзка с Митническата гаранция. Този код може да бъде намерен в блок 7 на формата CBP 301 или е достъпен чрез автоматизираната система на CBP за файлове ABI, чрез транзакцията за запитване за гаранция на вносителя. За внос на правителството на САЩ и типове входове, които не изискват гаранция, в този блок трябва да се появи код 999. Когато се използват пари в брой или държавни ценни книжа вместо гаранция, се използва код 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Чуждестранен пристанищен град на товарене.\n'Разписание K' (Класификация на чуждестранните пристанища по географска търговска област и страна) за чуждестранното пристанище, в което стоките всъщност са били натоварени на кораба, който е превел стоките до САЩ. http://www.navigationdatacenter.us/wcsc/scheduleK/schedulek.htm.\nАктуализация 2020: URL е променен на: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Идентификация на страна в транзакция, както е дефинирано в ISO 17364, присвоена от притежател на идентификационен номер на компанията (CIN) и включваща съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структурирана като поредица от 3 конкатенирани данни елементи: IAC, последвано от CIN, последвано от серийния номер на RTI, който е уникален в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Уникален идентификатор на връщаем транспортен артикул, състоящ се от поредица от 5 данни елемента: 'IAC', последван от 'CIN', последван от 'Номер на RTI' (RTIN), последван от знака '+', последван от серийния номер на RTI (RTISN), присвоен от доставчика или управляван от него, който е глобално уникален в рамките на домейна на притежателя на CIN; във формат IAC CIN RTIN + RTISN (пространствата са добавени за визуална яснота само; те не са част от данните). Вижте Приложение C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Глобално уникален идентификатор на актив на голям носител за връщаем транспорт (LLC) RTI със странична основа = 1000 мм, както е дефинирано в ISO 17365:2013, третична опаковка, слой 3, състоящ се от поредица от 5 данни елемента: 'IAC', последван от 'CIN', последван от типовия код на RTI 'RTITC', последван от знака '+', последван от серийния номер на RTI 'RTISN', присвоен от собственика или управляван от него, който е глобално уникален в рамките на домейна на притежателя на CIN във формат IAC CIN RTITC + RTISN (пространствата са добавени за визуална яснота само; те не са част от данните).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Глобално уникален идентификатор на актив на малък носител за връщаем транспорт (SLC) RTI със странична основа &lt; 1000 мм, както е дефинирано в ISO 17364:2013 (RTI), третична опаковка, слой 2, състоящ се от поредица от 5 данни елемента: 'IAC', последван от 'CIN', последван от типовия код на RTI 'RTITC', последван от знака '+', последван от серийния номер на RTI 'RTISN', присвоен от собственика или управляван от него, който е глобално уникален в рамките на домейна на притежателя на CIN във формат IAC CIN RTITC + RTISN (пространствата са добавени за визуална яснота само; те не са част от данните).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Глобално уникален идентификатор на връщаем артикул за опаковане (RPI), както е дефинирано в ISO 17364, присвоен от притежател на идентификационен номер на компанията (CIN) и включващ съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структуриран като поредица от 3 конкатенирани данни елемента: IAC, последван от CIN, последван от серийния номер на RPI, който е уникален в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Номер на артикул за опаковане.\nНомер за идентифициране на типа опаковъчен материал, използван при опаковането на продукти и пакети.\nНомерът ще позволи опаковъчният материал да бъде идентифициран и отделен от продуктите, пакетите, Върнателните транспортни артикули (RTIs) и Върнателните опаковъчни артикули (RPIs) по време на опаковането.\nНомерът е съставен от последователност от минимум 1 даннен елемент:\nНомер на опаковъчния материал, който е уникален в рамките на домейна на притежателя.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Глобално уникален номер на опаковъчен материал\nГлобален уникален номер за идентифициране на типа опаковъчен материал, използван при опаковането на продукти и пакети.\nГлобалният уникален номер ще позволи опаковъчните материали да бъдат идентифицирани и отделени от продуктите, пакетите, Върнателните транспортни артикули (RTIs) и Върнателните опаковъчни артикули (RPIs) по време на опаковането.\nНомерът е съставен от последователност от 3 конкатенирани данни елемента:\nIAC, последван от CIN, последван от номера на опаковъчния материал, който е уникален в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Глобално уникален върнателен опаковъчен артикул (RPI) както е дефиниран в ISO 17364, присвоен от притежател на Идентификационен номер на компания (CIN) и включващ съответния Код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структуриран като последователност от 3 конкатенирани данни елемента: IAC, последван от CIN, последван от сериен номер на RPI, който е уникален в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Спецификация на пощенска услуга и свързаните данни за процеса в съответствие със стандарта на UPU S25 данни конструкция 'Данни за услугата'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Лицензиране на пощенски данни, в съответствие със спецификацията в стандарта на UPU S25.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Спецификация на допълнителна пощенска услуга и свързаните данни за процеса в съответствие със стандарта на UPU S25 данни конструкция 'Данни за допълнителна услуга'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Идентификации на пощенски администрации, представляващи идентификацията, изразена в съответствие със спецификацията в стандарта на UPU S25, на една или повече пощенски администрации, участващи в обработката на пощенски артикул или партида.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>Код на UPU местоположение, представляващ код, идентифициращ местоположение или географска област, или свързана група от такива местоположения или области, които имат значение за свързана транзакция и които съответстват на една от структурите, дефинирани в а) до г) по-долу:\na) два главни алфабетни символа, съответстващи на двубуквения код на ISO 3166-1 на държавата, в която се намира или се състои от местоположението(ите) или област(ите);\nb) три главни алфабетни символа, съответстващи на кода на IATA на летището или града в, близо до или състоящ се от местоположението(ите) или област(ите);\nc) четири или повече символи, от които първите три съответстват на код на държава по ISO 3166-1, последвани от тире (-), с остатъка, бидейки пощенски код в съответната държава;\nd) четири или повече символи, от които първите три съответстват на код на държава по ISO 3166-1, последвани от точка (.), с остатъка, бидейки код на административно подразделение по ISO 3166-2 в съответната държава;\ne) пет главни алфабетни символа, съответстващи на кода на UN/LOCODE на областта в, близо до или състояща се от местоположението(ите) или област(ите);\nf) шест главни алфанумерични символа, съответстващи на кода на UPU IMPC, разпределен в съответствие със стандарта на UPU S34;\ng) конкатенация, бидейки не по-малко от седем и не повече от 25 символа на дължина, от:\n - код на издател, разпределен в съответствие със стандартите на UPU S31;\n - код на местоположение, състоящ се от символи, взети от набора {A-Z; 0-9}, който съответства на спецификациите на съответния издател.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Квалифициран код на UPU местоположение, конкатенация на:\n - категория на местоположение, взета от списъка с кодове на UPU 139;\n - идентификатор на данни 17U код на местоположение на UPU.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Регистрационен номер с данни за услугата и код на местоположение е сложна даннова конструкция, съответстваща на спецификацията в стандарта на UPU S25, която включва спецификация на:\n - идентификатор на артикул, съответстващ на ISO/IEC 15459;\n - идентификатор на данни 5U, съответстващ на спецификацията на услугата, която трябва да бъде предоставена във връзка с артикула;\n - идентификатор на данни 17U, съответстващ на код на местоположение на UPU или идентификатор на данни 18U, съответстващ на квалифициран код на местоположение на UPU.\n Забележка - За повече подробности, моля, вижте стандарта на UPU S25. Разликата между прост код на местоположение на UPU (DI 17U) и квалифициран код на местоположение на UPU (DI 18U) може да бъде определена от първия символ. Ако той е числов, прилага се 18U; ако е буквен, прилага се 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>Локатор на данни OCR.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Код на доставчика, присвоен от клиента.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Код на доставчика, присвоен от доставчика.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>Префикс на компанията U.P.C.\nАктуализация 2020: GS1 препоръчва този DI вече да не се използва и потребителите на този DI да мигрират към квалификатори на данни на GS1 (Идентификатори за приложения) според ISO/IEC 15418 и ISO/IEC 15459-3.\nСпоред GS1, терминът "U.P.C." вече не се използва и метаданните (an2+n8) вече не са коректни. GS1 препоръчва този DI да не се използва за бъдещи приложения.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>Префикс на компанията GS1.\nАктуализация 2020: GS1 препоръчва този DI вече да не се използва и потребителите на този DI да мигрират към квалификатори на данни на GS1 (Идентификатори за приложения) според ISO/IEC 15418 и ISO/IEC 15459-3.\nСпоред GS1, метаданните (an2+n9) вече не са коректни. GS1 препоръчва този DI да не се използва за бъдещи приложения.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Идентификационен код на превозвача, присвоен по взаимно определен стандарт в индустрията между доставчика, превозвача и клиента.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Идентификационен код на финансова институция (взаимно определен).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Идентификационен код на производителя (взаимно определен).</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Код, присвоен на страна, която има финансова отговорност за ентитет или група от ентитети (например, собственик на инвентар) (взаимно определен).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Код на клиента, присвоен от клиента.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Код на клиента, присвоен от доставчика.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Идентификационен номер на производителя\nЗабележка - Вижте Приложение 2, инструкции CBP 7501.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Организация с бюджетна отговорност за ентитет, процес или процедура (например, работилница, отдел, отделение) (вътрешно присвоено).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>Номер DUNS, идентифициращ производителя.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>Номер DUNS, идентифициращ доставчика.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>Номер DUNS, идентифициращ клиента.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Номер на изпращач, присвоен от превозвача.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>Идентификационен номер на доставчик VMRS.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>Код на CAGE на САЩ DoD.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Идентификация на страна в транзакция, при която форматът на данните се състои от два конкатенирани сегмента. Първият сегмент е Код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459, вторият сегмент е уникална идентификация на ентитета Идентификационен номер на компания (CIN), присвоен в съответствие с правилата, установени от издаващата агенция (вижте http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Спецификация на роля(и) на страна в транзакция, състояща се от един или повече кодови стойности от списъка с кодове на EDIFACT 3035 'Квалификатор на страна', разделени с плюс (+) символи (никога да не се конкатенира с други DI в линеен символ или други медии, където символът за конкатенация е плюс (+) символ).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Идентификация на страна в транзакция, присвоена от притежател на идентификационен номер на компания (CIN) и включваща съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структурирана като поредица от 3 конкатенирани данни елемента: IAC, последвано от CIN, последвано от плюс (+) символ, последван от една или повече кодови стойности от списъка с кодове на EDIFACT 3035 'Квалификатор на страна', разделени с плюс (+) символи (никога да не се конкатенира с други DI в линеен символ или други медии, където символът за конкатенация е плюс (+) символ).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Идентификация на страна в транзакция, например, 21V IAC CIN OSU, присвоена от притежател на идентификационен номер на компания (CIN) и включваща съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структурирана като поредица от 3 конкатенирани данни елемента: IAC, последвано от CIN, последвано от идентификационния номер на организационната под-единица, присвоен от CIN, който е уникален в рамките на домейна на притежателя на CIN.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>SCAC на превозвача.\nСтандартен код на превозвача Alpha - Националната асоциация за моторен товарен трафик, Inc., (NMFTA) присвоява SCAC за всички компании с изключение на тези кодове, използвани за идентификация на товарни контейнери, които не оперират изключително в Северна Америка, шасита и ремаркета за интермодален транспорт, вагони, собственост на не-железопътни компании, и железопътни компании. http://www.nmfta.org/Pages/welcome.aspx\nКомпаниите, търсещи идентификационни кодове за товарни контейнери, които не оперират в Северна Америка, трябва да се свържат с Международния бюро за контейнери, 38, rue des Blancs Manteaux, F75004 Париж, Франция, имейл: bic@bic-code.org, уеб www.biccode.org. Железопътните компании и собствениците на шасита за интермодален транспорт, ремаркета и вагони, собственост на не-железопътни компании, трябва да се свържат с обслужването на клиенти на Railinc, Отдел: Частни марки, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, имейл: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Правителствено присвоен идентификационен номер за добавена стойност, идентифициращ доставчика, започващ с двубуквения код на ISO 3166-1 alpha-2 на държавата (с изключение на Гърция, която използва двубуквения код на езика по ISO 639-1 EL), последван от правителствено присвоения номер за ДДС.\nПример:\n23VIE6388047V присвоен на Google Ireland.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Правителствено присвоен идентификационен номер за добавена стойност, идентифициращ клиента, започващ с двубуквения код на ISO 3166-1 alpha-2 на държавата (с изключение на Гърция, която използва двубуквения код на езика по ISO 639-1 EL), последван от правителствено присвоения номер за ДДС.\nПример:\n24VIE6388047V присвоен на Google Ireland.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Деклариране, че NCAGE/CAGE кодът, който следва DI 25V, е производител. Страна в транзакция, при която кодът на NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE), използван зад DI 25V, се декларира за производител на артикул(и), участващи в транзакцията. Данните, следващи DI 25V, ще се състоят от пет главни алфанумерични символа, без буквите "I" и "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Номер на работна поръчка (например, 'Производствен документ') (вътрешно присвоен).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Номер на операционна последователност. Номер, който дефинира реда на конкретна операция в поредица от операции, обикновено в процес на производство или сглобяване.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Операционен код/Работен код - типът работа, която трябва да бъде извършена (вътрешно присвоен или взаимно определен).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Комбиниран номер на работна поръчка и номер на операционна последователност във формат nn...n+nn...n където символът плюс (+) се използва като разделител между номера на работната поръчка и номера на операционната последователност.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Код на статус (вътрешно присвоен или взаимно определен).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Работен код на единица - идентифицира система, подсистема, сглобка, компонент и т.н., върху която се извършва поддръжка.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Номенклатура - (вътрешно присвоен или взаимно определен).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Номер на контролен формуляр - Предпечатан контролен номер на формуляри.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Инспектор по качеството - Фамилно име.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Телефонен номер на лицето/дейността, което попълва формуляра - изразено във формат (код на държава) код на град или район плюс локален номер, напр. (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Взаимно определено между клиент и доставчик</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Взаимно определено между превозвач и доставчик</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Взаимно определено между клиент и превозвач</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Свободен текст</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Взаимно определено между превозвач и търговски партньор</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за заглавие)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 1)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 2)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 3)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 4)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 5)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 6)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 7)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 8)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 9)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 10)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 11)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 12)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 13)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 14)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 15)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 16)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 17)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 18)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 19)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 20)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 21)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 22)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 23)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 24)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 25)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 26)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 27)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 28)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 29)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 30)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 31)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 32)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 33)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 34)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 35)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 36)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 37)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 38)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 39)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 40)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 41)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 42)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 43)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 44)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 45)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 46)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 47)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 48)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 49)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 50)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 51)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 52)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 53)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 54)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 55)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 56)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 57)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 58)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 59)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 60)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 61)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 62)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 63)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 64)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 65)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 66)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 67)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 68)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 69)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 70)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 71)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 72)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 73)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 74)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 75)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 76)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 77)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 78)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 79)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 80)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 81)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 82)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 83)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 84)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 85)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 86)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 87)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 88)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Структуриран свободен текст (Данни за ред 89)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>Символът 'РАВНО'. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Продължение на код на артикул (Категория 16), присвоен от клиента, който е твърде дълъг за зададения размер на полето.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Продължение на код за проследяване (Категория 20), присвоен от доставчика.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Продължение на сериен номер (Категория 19), присвоен от доставчика.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Продължение на свободен текст (Категория 26), взаимно определено между доставчика/превозвача/клиента.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Продължение на референция на транзакция (Категория 11), взаимно определено между доставчика/превозвача/клиента.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Продължение на код на артикул (Категория 16), присвоен от доставчика.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Функция 1 (FUNC1) символ. Появява се на първа позиция след символа за начало на симбологията на Code 128, Code 49 или Code 16K, за да означи символ, контролиран от GS1.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Формат YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Формат DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Формат MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Формат YDDD (Юлиански).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Формат YYDDD (Юлиански).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>Формат YYMMDD веднага последван от квалификатор на данни ANSI X12.3 номер 374, предоставящ код, определящ типа на датата (например, дата на изпращане, дата на производство).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>Формат YYYYMMDD веднага последван от квалификатор на данни ANSI X12.3 номер 374, предоставящ код, определящ типа на датата (например, дата на изпращане, дата на производство).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Формат MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Събитие, Дата и Час.\nФормат YYYYMMDDHHMM (24-часов часовник - UTC) веднага последван от квалификатор на код UN/EDIFACT 2005, предоставящ код, определящ типа на датата), например,\n11 [Дата, когато се очаква стоките да бъдат изпратени/изпратени съобщението е издадено.];\n17 [Предполагаема дата/час на доставка, когато се очаква стоките да бъдат доставени];\n35 [Дата, на която стоките са доставени на тяхната дестинация.];\n118 [Потвърдено резервиране];\n129 [Дата, когато съдът/стоките са заминали от последното чуждестранно пристанище в износителната държава.];\n132 [Дата/час, когато превозвачът оценява, че средството за транспорт трябва да пристигне в пристанището на разтоварване или мястото на дестинация.];\n133 [Дата/час, когато превозвачът оценява, че средството за транспорт трябва да тръгне от мястото на тръгване];\n137 [Дата/час, когато доставчикът изпраща части въз основа на искането на клиента. (Дата, когато се издава DESADV. Препоръката е DESADV да се издава в рамките на 30 минути след като стоките са взети от страната ShipFrom];\n146 [Предполагаема дата на влизане (Митница) дата, на която се очаква официалната дата на Митническо влизане.];\n151 [Дата на внос (Пр</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Дата (структура и значение взаимно определени).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Формат YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Формат YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Формат YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Най-стара и най-нова дата на производство във формат YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Срок на годност (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Срок на годност (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Дата на производство (YYYYMMDD) - Дата на производство.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Дата на производство (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Дата на активиране на етикета.\nYYYYMMDDHHMM (24-часов часовник - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Дата на деактивиране на етикета.\nYYYYMMDDHHMM (24-часов часовник - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Дата на инспекция (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Изисквана дата на доставка (DDD Юлиански) или код на DOD MILSTAMP.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Време на запис.\nYYYYMMDDHHMM (24-часов часовник - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Дата, представена в модифицирана форма, съвместима с UTC:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] където квадратните скоби показват опционалност и yyyy е годината, mmdd месецът и денят, hhmmss времето на деня в часове минути и секунди, fff дробите на секундите и poooo отместването от UTC, изразено в часове и минути, отместването е положително, ако p е точка (.), отрицателно, ако P е минус знак (-).\nПРИМЕР:\n2005 - (UTC) календарна година 2005;\n200505 - (UTC) календарен месец май 2005;\n20050518 - (UTC) 18 май 2005;\n200505181247 - 12:47 UTC на 18 май 2005;\n200505181247.0100 - 12:47 местно време, бидейки 11:47 UTC, на 18 май 2005;\n20050518124723099 - 99 милисекунди след 12:47:23 UTC на 18 май 2005.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Квалифицирана дата, състояща се от конкатенация на:\n- код на издаваща агенция ISO/IEC 15459;\n- квалификатор на дата, съответстващ на спецификациите на тази издаваща агенция;\n- дата, чийто формат и тълкуване съответстват на спецификациите на издаващата агенция за този квалификатор на дата.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Срок на годност: (YYYYMMDD).\nПример: 25D20170202 = 2 февруари 2017</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Дата на първо замразяване (YYYYMMDD).\nПървата дата на замразяване се дефинира като датата, на която продуктите се замразяват директно след клане, беритба, улов или след първоначална обработка.\nПример: 26D20170721 = 21 юли 2017.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Дата на беритба (YYYYMMDD).\nДатата, на която е клано животно или убит, риба е уловена, или култура е брана.\nПример: 27D20170615 = 15 юни 2017.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Диапазон на дати на беритба (YYYYMMDDYYYYMMDD).\nНачалната и крайната дата на периода, през който е извършено брането.\nНапример; животни са били клани или убити, риби са били уловени, или култура е брана.\nПотокът от данни се дефинира като първия YYYYMMDD като начална дата и последния YYYYMMDD като крайна дата.\nПример:\n28D2017012320170214 = Начало; 23 януари 2017. Край; 14 февруари 2017.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Лява квадратна скоба', 'Дясна скоба', 'Знак за по-голямо', 'Разделител на записи' символи. Структура, съвместима с ISO/IEC 15434, Информационни технологии - Техники за автоматично идентифициране и събиране на данни - Синтаксис за медии с висок капацитет на АИДК.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Класификация на ограничени вещества - 'Код на екологична класификация', включващ категории с оловно-свободно (Pb-Free) покритие, дефинирани в JESD97 (IPC JEDEC J-STD-609), и бъдещи кодове, присвоени от индустрията или правителствени агенции, свързани с екологично регулиране и съдържание на опасни материали.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Въздушно налягане - (надморска височина) изразено в паскали като стандартна международна мярка.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Максимално позволена температура. Максимално допустима температура; градуси Целзий, '-' (минус) кодиран, ако е необходимо.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Минимално позволена температура.\nМинимално допустима температура; градуси Целзий, '-' (минус) кодиран, ако е необходимо.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Максимално позволена относителна влажност.\nМаксимално допустима относителна влажност, подразбираща се като процент.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Минимално позволена относителна влажност.\nМаксимално допустима относителна влажност, изразена като процент.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Температура на хладилния контейнер.\nЗа температурно контролирани товари, целева спецификация, определена от изпращача, градуси Целзий, '-' (минус) кодиран, ако е необходимо.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Натрупано време Температурен индекс - изразен като брой измервания или броене.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Температурен индекс - Следващо по-високо събрание - изразен като брой измервания или броене.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Декларация за категория на опаковъчния материал*, Код* и Тегло за даден опаковъчен материал, използван в дадена опаковка в съответствие с директивата на ЕС за опаковките и отпадъците от опаковки. (Категория на материала и код, дефинирани в Приложение M).\n12ECCMMMMMMNNNNNUU където: - '12E' (an3) е Идентификатор на данни;\n - 'CC' (n2) е Категория на материала според Приложение M;\n - 'MMMMMM' (an1...6) е Код на материала според Приложение M;\n - 'NNNNN' (n5) Тегло на материала, включително десетичната точка (например, 12.12);\n - 'UU' (an2) е Мерна единица за тегло (например, KG, GR, LB или OZ според ANSI X12.3 както в Приложение D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>Данните, следващи DI 13E, ще бъдат един от индикаторите за MSL (1, 2, 2a, 3, 4, 5, 5a, 6), показани в колоната LEVEL в Таблица 5-1 от стандарта на JEDEC IPC/JEDEC J-STD-020E. Таблицата е показана по-долу само за справка; актуалната версия на съответния стандарт трябва да бъде използвана за получаване на правилния MSL за конкретния компонент. Пример: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>Символът 'ТИРЕ' или 'МИНУС'. Фармацевтичен централен номер (PZN), контролиран от IFA-ABDATA, Германия (Регистрацията на този системен идентификатор изтича на 2016-07-01). Заменен от '9N'.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Заглавие на цикъл.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Моят родител ______ е . . . Уникален идентификатор, последван от Идентификатор на данни и свързани данни (за употреба с връщаема опаковка). Този Идентификатор на данни трябва незабавно да следва полето (съставено от Идентификатор на данни, данни и разделител на групи) с което е асоцииран.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Имам ______ деца . . . (за употреба с връщаема опаковка, например; 3F10, за десет деца). Този Идентификатор на данни трябва незабавно да следва полето (съставено от Идентификатор на данни, данни и разделител на групи) с което е асоцииран.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Логическо присвояване на страница от информация в рамките на група от страници, разпространени между няколко носители на данни, структурирани като поредица от до три (3) конкатенирани данни елемента, разделени с наклонена черта (/):\n Номер на страница (задължително), последван от брой на страници (опционално, задължително за последната страница), последван от алфанумеричен идентификатор на група (опционално; ако се използва, тогава е задължително за всички страници и структурирано в съответствие с ISO/IEC 15459-3 като поредица от 3 данни елемента: Код на издаваща агенция, последван от Идентификационен номер на компания, последван от алфанумеричен код, уникален в рамките на домейна на издателя).\n Опционалните наклонени черти са опционални.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Имам ______ деца и те са . . . (за употреба с връщаема опаковка) Този Идентификатор на данни трябва незабавно да следва полето (съставено от Идентификатор на данни, данни и разделител на групи) с което е асоцииран.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>Символът 'УДИВИТЕЛЕН ЗНАК'. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Име на страна.\nИме на страна, последвано от плюс (+) символ, последвано от една или повече кодови стойности от списъка с кодове на EDIFACT 3035 'Квалификатор на страна', например;\nBY [Купувач];\nCF [Оператор на контейнер];\nCN [Получател];\nCS [Консолидатор];\nDEI [Оператор на кораб/капитан на кораб];\nFA [Код на оперативен персонал];\nIM [Вносител];\nMF [Производител];\nOS [Изпращач];\nSE [Продавач];\nST [Доставка до];\nUC [Краен получател].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Код за идентификация на служител, присвоен от работодател.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>Номер на социално осигуряване в САЩ.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Идентификационен номер за неслужител (вътрешно присвоен или взаимно определен) (например, договорни работници, доставчици, услуги и персонал за доставка).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Национален номер за социално осигуряване.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Фамилно име.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Име на страна (Ред 2).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Телефон за контакт.\nКод на държава, код на район, код на обмен, номер [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Имейл за контакт.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Номер на получателя.\nУникалният идентифициращ номер може да бъде IRS, EIN, SSN или номерът, присвоен от CBP, както е изисквано в Декларацията за сигурност. Само следните формати трябва да бъдат използвани: IRS EIN: NN-NNNNNNN;\nIRS EIN със суфикс:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP присвоен nbr: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Личен идентификационен код (първа буква от името, първа буква от фамилията, последните четири от SSN).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Първо име и средна инициал.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Военно звание (E1-E9, W1-W5, и O1-O10).\nАктуализация 2020: Форматът на метаданните е променен, за да съответства на действителните офицерски звания, използвани от военните: "an2+an3". Информацията за обяснение е променена на: "Военно звание (E1-E9, W1-W5, и O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Национален идентификационен номер, национален идентификационен номер или национален номер за социално осигуряване, използван като средство за идентифициране на индивиди в рамките на държава за целите на работа, данъци, правителствени облаги, здравеопазване и други свързани с правителството функции.\nСтруктурата на идентификатора е DI (15H), последван от двубуквения код на ISO 3166-1 Alpha2, последван от предимно правителствено присвоения идентификационен код за индивиди.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Глобално уникален личен ID, присвоен от притежател на идентификационен код на компания (CIN) и включващ съответния код на издаваща агенция (IAC) в съответствие с ISO/IEC 15459 и неговия регистър, структуриран като поредица от 3 конкатенирани данни елемента: IAC, последван от CIN, последван от ID, който е уникален в рамките на домейна на притежателя.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Глобално уникален личен ID, с "Квалификатор на страна" кодова стойност от списъка с кодове на EDIFACT 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Изключително присвояване - Идентификационен номер на превозно средство (VIN) както е дефинирано в САЩ под 49 CFR, Раздел Секция 565 и международно от ISO 3779. (Това са напълно съвместими структури на данни).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Съкратен код на VIN.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Глобално уникален идентификатор на транспортно превозно средство (например, камиони), състоящ се от Идентификационния номер на превозното средство (VIN) както е дефинирано в САЩ под 49 CFR Секция 565 и международно от ISO 3779, последван от символа '+', след това последван от номера на правителствения регистрационен номер на превозното средство във формата '4I' 'VIN' '+' 'правителствения регистрационен номер на превозното средство' (кавичките и пространствата са показани за яснота само; те не са част от данните).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Уникален идентификатор на производствено превозно средство, който ще бъде използван по време на производствените процеси на превозното средство, състоящ се от номера на тялото на превозното средство (BTN; или всеки друг описател, използван за идентифициране на суровото каросерия на автомобила, или с други думи, събирането на части, които се използват за стартиране на производствения процес на превозното средство), последван от символа '+', след това последван от номера на производствената поръчка (PON), последван от символа '+', и след това последван от серийния номер, присвоен от производителя (SN). ЗАБЕЛЕЖКА - Компонентът SN трябва да бъде заменен от VIN веднага щом VIN стане достъпен в процеса на сглобяване.\nКонструкцията ще бъде както следва;\n\5I" "BTN" "+" "PON" "+" "SN"\nпроменя се на (когато VIN е наличен)\n"5I" "BTN" "+" "PON" "+" "VIN"\nЗАБЕЛЕЖКА - Кавичките и пространствата са показани за яснота само; те не са част от данните.\nЗАБЕЛЕЖКА - Този DI никога да не се конкатенира с други DI в линеен символ или други медии, където символът за конкатенация е плюс (+) символ.\nПримери:\nВерсия SN: 5IABCD1234+CO1234+W0L201600500001\nВерсия VIN: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

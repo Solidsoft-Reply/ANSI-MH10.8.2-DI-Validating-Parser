@@ -59,6 +59,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Properties\AnsiMh10.8.2DataIdentifier.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -146,6 +151,88 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+	  <ItemGroup>
+    <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AnsiMh10.8.2DataIdentifier.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.de.resx">
+      <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.es.resx">
+      <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.fr.resx">
+      <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.it.resx">
+	  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	</EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.bg.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.cs.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.da.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.el.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.et.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.fi.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.ga.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.hr.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.hu.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.is.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.lt.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.lv.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.mt.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.nl.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.no.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.pl.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.pt.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.ro.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.sk.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.sl.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Properties\AnsiMh10.8.2DataIdentifier.sv.resx">
+		  <DependentUpon>AnsiMh10.8.2DataIdentifier.resx</DependentUpon>
+	  </EmbeddedResource>
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>An carachtar 'PLUS'. Comhairle Cumarsáide Gnó na Tionscail Sláinte (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Uimhir phláta ceadúnais uathúil.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Uimhir phláta ceadúnais uathúil a shanntar do aonad iompair atá ar an leibhéal is ísle pacáistithe, an t-aonad do-brisithe.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Uimhir phláta ceadúnais uathúil a shanntar do aonad iompair a bhfuil pacáistí iolracha ann.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Uimhir phláta ceadúnais uathúil a shanntar do aonad iompair atá ar an leibhéal is ísle pacáistithe, an t-aonad do-brisithe agus a bhfuil sonraí EDI nasctha leis an aonad.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Uimhir phláta ceadúnais uathúil a shanntar do aonad iompair a bhfuil pacáistí iolracha ann agus atá nasctha le sonraí EDI.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Uimhir phláta ceadúnais uathúil a shanntar do aonad iompair measctha ina bhfuil míreanna neamhchosúla ar idirbheart aonair custaiméara agus a d'fhéadfadh a bheith nasctha le sonraí EDI nó nach bhféadfadh.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Uimhir phláta ceadúnais uathúil a shanntar do phríomhaonad iompair ina bhfuil míreanna cosúla ar idirbheart aonair custaiméara agus a d'fhéadfadh a bheith nasctha le sonraí EDI nó nach bhféadfadh.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Uimhir Cheadúnais Clárúcháin Feithicle (níl sé uathúil gan aitheantas na tíre agus an réigiún/údarás rialtais eisitheach a shonrú)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Aitheantas Seirbhíse Mhuirí Soghluaiste (MMSI).\nUimhir naoi ndigit rialaithe ag an Aontas Idirnáisiúnta Telechumarsáide chun long nó stáisiún raidió cósta a aithint go huathúil. Sampla: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Uimhir Ordaithe a shannann an Custaiméir chun Idirbheart Ceannaigh a aithint (m.sh., uimhir ordaithe ceannaigh).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Uimhir Ordaithe a shannann an Soláthraí chun Idirbheart Ceannaigh a aithint.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Cód Aitheantais Billí Luchtaithe/Waybill/Loingsithe a shannann an Soláthraí/Loingseoir.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Cód Aitheantais Billí Luchtaithe/Waybill/Loingsithe a shannann an Iompróir.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Uimhir Líne an ordaithe a shannann an Custaiméir chun Idirbheart Ceannaigh a aithint.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Uimhir Thagartha a shannann an Custaiméir chun Údarú Loingsithe (Scaoileadh) a aithint in aghaidh Ordú Ceannaigh bunaithe.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>Uimhir PRO a shannann an Iompróir.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Modh Iompair i bhFormáid Téacs Saor a shainmhínítear go frithpháirteach idir Custaiméir agus Soláthraí (m.sh., Aer, Trucail, Bád, Iarnród).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Uimhir Chonartha.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Cód Tagartha Idirbheartaíochta Ginearálta (arna shannadh go hinmheánach nó a shainmhínítear go frithpháirteach).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Uimhir Shonraisc.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Uimhir Liosta Pacála.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Cód Alfa Caighdeánach Iompróra) (an4 - líonta ar chlé le '-') agus uimhir PRO a shannann an t-iompróir.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Uimhir Bhillí Luchtaithe /Uimhir Admhála Iompair SCAC + Uimhir B/L lastais choimeádáin nó uimhir waybill.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Uimhir Ordaithe agus Uimhir Líne sa fhormáid nn...nn+nn...n áit a n-úsáidtear siombail móide (+) mar scaradh idir Uimhir Ordaithe agus Uimhir Líne.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>Uimhir KANBAN.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>Uimhir DELINS: cód a shanntar chun cáipéis a aithint ina bhfuil eolas seachadta ann.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Uimhir Seice.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Tagairt Struchtúrtha.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Uimhir Cháis Díolacháin Míleata Eachtrach.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Aitheantas Ceadúnais, a bheith ina aitheantas uathúil domhanda le haghaidh ceadúnais nó conartha faoina ngintear míreanna, a chuirtear faoi phróiseáil agus/nó a íoctar as, a thógáil trí chur le chéile:\n - cód gníomhaireachta eisithe ISO/IEC 15459;\n - uimhir ceadúnais nó conartha a réitíonn le sonraíochtaí an ghníomhaireachta eisithe ábhartha;\n agus sin:\n - comhdhéanta de charachtair alfabhéiteacha uachtair agus/nó uimhriúla amháin;\n - uathúil (is é sin, tá sé difriúil ó aon aitheantas eile comhlíontach ISO/IEC 15459) laistigh de réimse an ghníomhaireachta eisithe;\n - nach féidir a dhíorthú ó aon aitheantas eile comhlíontach ISO/IEC 15459, eisithe faoin ghníomhaireacht chéanna eisithe, trí charachtair shimplí a chur leis, nó a bhaint dá dheireadh.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Sonraí Custaiméara, a bheith ina sonraí a:\n - ó pheirspictíocht an chustaiméara, a bhaineann le mír nó idirbheart, nó le baisc nó míreanna gaolmhara nó idirbhearta, agus\n - comhdhéanta de suas le 35 carachtar inphriontáilte agus/nó spásanna, seachas móide (+), tarraingthe ón tacar carachtar sainithe in ISO/IEC 646.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>Faisnéis Fíordheimhnithe Idirbheartaíochta '22K', a bheith ina luach, a thógáil trí chur le chéile:\n - cód gníomhaireachta eisithe ISO/IEC 15459;\n - luach a réitíonn le sonraíochtaí an ghníomhaireachta eisithe ábhartha,\n a ligeann fíordheimhniú ar fhírinne an idirbhirt ábhartha agus, go háirithe, gur thionscain an páirtí, a maíodh laistigh den idirbheart a bheith ina thionscnóir, trí:\n - glacadóir idirbhirt, agus/nó\n - páirtí nó páirtithe bainteach le láimhseáil nó próiseáil na hidirbhirt, agus/nó\n - tríú páirtí iontaofa.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Aitheantas Uathúil Domhanda de Ghrúpálacha Aonad Iompair a Shannann an Iompróir, sainmhínithe mar:\nAitheantas Páirtí chuig Idirbheart mar a shainmhínítear a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) gaolmhar de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin Uimhir Billí Luchtaithe nó Waybill nó Cód Aitheantais Loingsithe atá uathúil laistigh de réimse sealbhóir an CIN.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Aitheantas Uathúil Domhanda de Ghrúpálacha Aonad Iompair a Shannann an Loingseoir, sainmhínithe mar:\nAitheantas Páirtí chuig Idirbheart a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) gaolmhar de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin Uimhir Billí Luchtaithe nó Waybill nó Cód Aitheantais Loingsithe atá uathúil laistigh de réimse sealbhóir an CIN.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Uimhir Luachan a Shannann an Soláthraí - Uimhir a shanntar do luachan ag an soláthraí i bhfreagra ar iarratas ar luachan ón gcustaiméir.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Suíomh Stórála.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Suíomh.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>Cód Suímh 'Seol Chuig:' atá sainithe ag caighdeán tionscail nó a shainmhínítear go frithpháirteach.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>Cód Suímh 'Seol Ó:' atá sainithe ag caighdeán tionscail nó a shainmhínítear go frithpháirteach.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Tír Bhunaidh, cód dhá charachtar ISO 3166. Le comhaontú na gcomhpháirtithe trádála agus nuair atá an Tír Bhunaidh measctha, ba chóir Cód Tíre 'AA' a úsáid.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>Cód Suímh 'Seol Ar Aghaidh Do:' atá sainithe ag caighdeán tionscail nó a shainmhínítear go frithpháirteach.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Cód Bealaigh a shanntar ag an soláthraí chun cosán iompair sonrach a ainmniú.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>Cód Gníomhaíochta Roinn Cosanta na Stát Aontaithe 6 charachtar (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Port Imeachta - Sainmhínithe go Frithpháirteach.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Port Teachta - Sainmhínithe go Frithpháirteach.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Suíomh (Domhanleithead/Domhanfhad/Airde) códaithe sa fhormáid xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>Suíomh 'Seol Chuig:' (Domhanleithead/Domhanfhad/Airde) códaithe sa fhormáid xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>Suíomh 'Seol Ó:' (Domhanleithead/Domhanfhad/Airde) códaithe sa fhormáid xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Suíomh 'Seol Ar Aghaidh Do:' (Domhanleithead/Domhanfhad/Airde) códaithe sa fhormáid xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Suíomh Gníomhachtaithe Clib.\nAinm suímh i mBéarla (tacar carachtar: 0-9, A-Z &lt;Spás&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Suíomh Díghníomhachtaithe Clib.\nAinm suímh i mBéarla (tacar carachtar: 0-9, A-Z &lt;Spás&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>Cód ceantair iascaireachta FAO mar a shainmhínítear ag Roinn Iascaigh agus Uisceachais FAO (http://www.fao.org. Cuardaigh le haghaidh suíomh-fochéime Cód Ceantair Iascaireachta).\nGach carachtar den fho-chomhshraith GS1 Ginear lta a shainmhínítear de ISO/IEC 646 ceadaithe.\nSamplaí:\n18L37.1.3 Muir na Meánmhara Thiar, An tSairdín;\n18L47.B.1 An tAtlantach, Oirdheisceart, Rannán SEAFO, EEZ na Namaibe;\n18L67 An tAigéan Ciúin, Oirthuaisceart.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>An Chéad Leibhéal (arna shannadh go hinmheánach).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>An Dara Leibhéal (arna shannadh go hinmheánach).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>An Tríú Leibhéal (arna shannadh go hinmheánach).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>An Ceathrú Leibhéal (arna shannadh go hinmheánach).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>An Cúigiú Leibhéal (arna shannadh go hinmheánach).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Aitheantas Páirtí chuig Idirbheart, m.sh., 25L IAC CIN LOC a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) gaolmhar de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin an suíomh inmheánach fisiciúil (LOC) atá uathúil laistigh de réimse sealbhóir an CIN.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>Cód Suímh '26L', a bheith ina chód a aithníonn suíomh nó limistéar geografach, nó grúpa gaolmhar de shuímh nó limistéir, a bhfuil ábharthacht aige maidir le hidirbheart gaolmhar agus a chomhlíonann ceann de na struchtúir a shainmhínítear i (a) go (f) thíos:\na) dhá charachtar alfabhéiteach uachtair a fhreagraíonn do chód dhá alfa ISO 3166-1 den tír ina bhfuil, nó a bhfuil comhdhéanta di, na suíomh(anna) nó limistéar(anna);\nb) trí charachtar alfabhéiteach uachtair a fhreagraíonn do chód IATA an aerfoirt nó na cathrach in, gar do, nó a bhfuil comhdhéanta di, na suíomh(anna) nó limistéar(anna);\nc) ceithre charachtar nó níos mó a bhfuil an chéad trí cinn acu ag freagairt do chód tíre ISO 3166-1 ina dhiaidh sin lúibín (-), leis an iarmhéid a bheith ina chód poist sa tír ábhartha;\nd) ceithre charachtar nó níos mó a bhfuil an chéad trí cinn acu ag freagairt do chód tíre ISO 3166-1 ina dhiaidh sin ponc (.), leis an iarmhéid a bheith ina chód fo-roinne tíre ISO 3166-2 sa tír ábhartha;\ne) cúig charachtar alfabhéiteach uachtair a fhreagraíonn do chód UN/LOCODE an cheantair in, gar do, nó a bhfuil comhdhéanta di, na suíomh(anna) nó limistéar(anna);\nf) an comhcheangal, nach lú ná seacht nó níos mó ná 35 carachtar ar fhad, de:\n- cód gníomhaireachta eisithe ISO/IEC 15459;\n- cód suímh, atá comhdhéanta de charachtair a tharraingítear ón tacar {A-Z; 0-9} a réitíonn le sonraíochtaí an ghníomhaireachta eisithe ábhartha.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Suíomh Imeachta UN /LOCODE.\nUN/LOCODE in éineacht le carachtar móide (+) agus ceann nó níos mó de luachanna cód ó Liosta Cóid EDIFACT 3227 'Cáilíochtóir feidhme suímh', m.sh.,\n7 Áit an Seachadta Deiridh;\n5 Port Imeachta;\n9 Port Luchtaithe;\n11 Port Díluchtaithe;\n13 Áit idirthurais;\n24 Port Iontrála;\n35 Tír Easpórtála;\n88 Áit Glactha Lastais ag an Iompróir;\n125 Port Coigríche roimh an Imeacht go SAM;\n147 Cill/Stóras;\n159 Áit seachadta (chuig an seolaí);\n248 Suíomh Luchtaithe\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Uimhir agus Seoladh Sráide.\nÚsáidte i gcomhar le H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Ainm na Cathrach.\nÚsáidte i gcomhar le H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Sonraí Fochuideachta Tíre.\nÚsáidte i gcomhar le H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Cód Poist.\nÚsáidte i gcomhar le H, 6H, 28L, 29L, 30L, 31L, 32L (Má úsáidtear '-' lúibín, ba cheart é a chódú go sonrach).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Cód Tíre.\nCód Alfa 2 ISO 3166-1\nÚsáidte i gcomhar le H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Suíomh Acmhainní Aonfhoirmeacha (URL).\nÁirítear gach carachtar a dhéanann URL, lena n-áirítear sonraí ceanntásca mar e.g., http://. Tacar carachtar mar atá liostaithe in RFC 1738.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Pointeálaí go Próiseas URL (P2P URL) chun URL a thosú a iompraíonn gach eilimint sonraí eile códaithe i meán AIDC de réir an riail seo a leanas: Scan an cód agus tosú an URL ag tosú le sreang URL P2P, ag fágáil DI 34L agus sintéis seachtrach ISO/IEC 15434 (réamhrá agus iarscríbhinn) agus greamaigh gach eilimint sonraí eile a scanadh sa seicheamh céanna mar a códáladh sa mheán, lena n-áirítear DIs agus scaradh eilimintí sonraí. Tiontaigh carachtair speisialta sna sonraí greamaithe go formáid RFC 1738 (m.sh., Scaradh Grúpa 'GS' aistrithe go sraith RFC 1738 %1D). Tabhair faoi deara nach mbaineann sé seo le URL P2P féin.\nSampla: Sreang sonraí códaithe (ag baint úsáide as ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nmar thoradh air sin an URL seo a leanas leis na sonraí aistrithe:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nTabhair faoi deara: níor cuireadh sonraí ón '05' clúdach sonraí san áireamh sa URL toisc gur códáladh an 34L sa '06' clúdach sonraí.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Uimhir cheadúcháin rialtais de bhád / láithreán uisceolaíochta / feirm / próiseálaí, ag tosú le cód tíre ISO 31661 alfa-2, ina dhiaidh sin an uimhir cheadúcháin.\nGach carachtar den fho-chomhshraith GS1 Ginearálta a shainmhínítear de ISO/IEC 646 ceadaithe.\nSampla:\n35LIECK0107EC = Tír; Éire. Ainm an Bháid; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Uimhir cheadúcháin rialtais an táirgeoir nó na feirme nó an chéad halla díchnámhaithe / gearrtha, ag tosú le cód tíre ISO 3166-1 alfa-2, ina dhiaidh sin an uimhir cheadúcháin.\nGach carachtar den fho-chomhshraith GS1 Ginearálta a shainmhínítear de ISO/IEC 646 ceadaithe.\nSampla:\n36LIECK0107EC = Tír; Éire. Ainm an Bháid; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Cód Suímh 'Seol Ó:' - cód sainithe ag údarás poist (m.sh., códanna ZIP 5 dhigit agus 9 dhigit a aithníonn suíomhanna SAM nó códanna poist 6 charachtar a aithníonn suíomhanna Cheanada).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Cód Suímh 'Seol Chuig:' - cód sainithe ag údarás poist (m.sh., códanna ZIP 5 dhigit agus 9 dhigit a aithníonn suíomhanna SAM nó códanna poist 6charachtar a aithníonn suíomhanna Cheanada).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>'Cód Suímh 'Seol Ó:' - cód sainithe ag údarás poist sa fhormáid: códanna poist (m.sh., códanna ZIP 5 dhigit a aithníonn suíomhanna SAM nó códanna poist 6- nó 7-charachtar a aithníonn suíomhanna Ríocht Aontaithe) in éineacht le cód dhá charachtar ISO 3166 tíre (m.sh., US nó GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>'Cód Suímh 'Seol Chuig:' - cód sainithe ag údarás poist sa fhormáid: códanna poist (m.sh., códanna ZIP 5 dhigit a aithníonn suíomhanna SAM nó códanna poist 6- nó 7-charachtar a aithníonn suíomhanna Ríocht Aontaithe) in éineacht le cód dhá charachtar ISO 3166 tíre (m.sh., US nó GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Sonraí Fhoirm Arm 2410. Formáid is ea luach sonraí a leanann uimhir bloc an fhoirm 2410. Is féidir fad réimsí agus carachtair inghlactha a fháil ag;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nNuashonrú 2020: Athraíodh an URL go:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Sonraí Fhoirm Arm 2408. Formáid is ea luach sonraí a leanann uimhir bloc an fhoirm 2408. Is féidir fad réimsí agus carachtair inghlactha a fháil ag;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nNuashonrú 2020: Athraíodh an URL go:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Sonraí Fhoirm Arm 2407. Formáid is ea luach sonraí a leanann uimhir bloc an fhoirm 2407. Is féidir fad réimsí agus carachtair inghlactha a fháil ag;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nNuashonrú 2020: Athraíodh an URL go:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Sonraí Fhoirm Aerfhórsa 95. Formáid is ea luach sonraí a leanann uimhir bloc an fhoirm 95. Is féidir fad réimsí agus carachtair inghlactha a fháil ag;\nhttp://www.gsa.gov/portal/forms/download/116418.\nNuashonrú 2020: Athraíodh ainm an Fhoirm go "Air Force Technical Order Form 95 (AFTO Form 95)." Fuarthas sonraí faoin bhFoirm in Air Force Technical Order (TO) 00-20-1. Athraíodh an URL don TO seo go:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Sonraí Fhoirm Cabhlaigh 4790. Formáid is ea luach sonraí a leanann uimhir bloc an fhoirm 2410. Is féidir fad réimsí agus carachtair inghlactha a fháil ag;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%2015.pdf.\nNuashonrú 2020: Níl an URL bailí a thuilleadh.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Uimhir Stoc Náisiúnta/NATO (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Sonraí Saintréithe Táirge a shainmhínítear le Malartú Sonraí Tionscail Ceimiceacha (CIDX).</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Struchtúr Códaithe de réir Formáid a Shainmhínítear le Cumann Tionscail Leictreonaice na Seapáine (EIAJ).</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Struchtúr Códaithe agus Formáidí de réir Moltaí GS1 (AI móide sonraí) (GS1).</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Struchtúr Códaithe agus Formáidí de réir Moltaí AIAG. Tá an tAitheantas Sonraí iomlán sa fhormáid 5Nxx áit a bhfaightear an 'xx' sa liosta cód iomlán a fhéadfar a fháil ag https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>Cóid Nós Imeachta Requisition agus Eisiúna DOD na SA. Is é an formáid an cód MILSTRIP cuí in éineacht leis an luach sonraí a bhaineann leis an gcód sin. (Tá an liosta iomlán de chóid ar fáil ag;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\nNuashonrú 2020: Athraíodh an URL go:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/)</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>Cóid Rialachán Iompair Cosanta na SA. Is é an formáid an cód DTR in éineacht leis an luach sonraí cuí a bhaineann leis an gcód sin. (Tá an liosta iomlán de chóid ar fáil ag;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\nNuashonrú 2020: Athraíodh an URL go:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf)</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Cóid Aitheantais Ainmhithe Táirgthe. Is é an formáid an cód ainmhithe táirgthe in éineacht leis an luach sonraí cuí a bhaineann leis an gcód sin. Coimeádtar an Tuarascáil Theicniúil agus an liosta iomlán de Eilimintí Sonraí Sínte (cóid) ag;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Eilimintí Sonraí Sínte (Cóid).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Tuarascáil Theicniúil.\nNuashonrú 2020: Athraíodh na URLanna go:\https://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Uimhir Táirge Cógaisíochta a chothabháil ag IFA (www.ifaffm.de) leis na heilimintí seo a leanas; Aitheantas Sonraí (DI), cód dhá dhigit gníomhaireachta clárúcháin táirgí (PRAC), an tagairt táirge (PR), agus dhá dhigit seiceála PPN (CC), sa fhormáid DI PRAC PR CC.\nNÓTA - cuirtear spás leis mar scaradhóir le haghaidh soiléireachta amhairc agus ní cuid den sonra é.\nSamplaí:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Sonraí sa fhormáid agus ag baint úsáide as séimeantaic a shainmhínítear ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) a eisíodh ag Cód Gníomhaireachta Eisithe (IAC) de réir ISO/IEC 15459, sainmhínithe mar shraith d'eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin an carachtar scartha ':' (colún) ina dhiaidh sin na sonraí sa fhormáid agus ag baint úsáide as séimeantaic mar a shainmhínítear ag sealbhóir an CIN.\nNÓTA: Ní chuirfear ach rialacha sintéis sonraí (más ann dóibh) mar a sholáthraítear ag an IAC+CIN fógartha laistigh de gach sruth sonraí DI '10N' i bhfeidhm ar na sonraí ina dhiaidh DI 10N+IAC+CIN.\nNÓTA: Mar gheall ar earráid sa sannadh DI '10N' (níl aon údarás lárnach ann le haghaidh sainmhíniú sonraí ná cothabháil), níor chóir úsáidí nua de DI '10N' a chur i bhfeidhm.\nTá feidhm DI '10N' bunaithe i gCatagóir 18, ILGHNEACHAIS le DI '5R'. Molann sé go láidir go n-aistríonn iarratais atá ann cheana a úsáideann DI '10N' go DI 5R'.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Tá Struchtúr Sonraí sainithe agus rialaithe ag RLA, agus tá sé comhdhéanta de 2 shegment: cód aitheantóra réimse, díreach roimh na sonraí mar a shainmhínítear don eilimint sin de réir foclóir sonraí RLA. Is é bunúsach catalóg de réimsí le hábhar caighdeánaithe. Tá na hAitheantóirí Réimse foilsithe ag http://rla.org/11ncodes. Sainmhínítear úsáid agus struchtúr na gcód seo ag: http://rla.org/11nformat Is féidir samplaí breise a fháil ar an suíomh sin chomh maith. Níor chóir DI '11N' a chódú i dtag nó clib RFID le haon eilimintí DI eile.\nNÓTA: Mar gheall ar earráid sa sannadh DI '11N' (ní ráiteas bailí é an teanga a deir: 'níor chóir DI '11N' a chódú i dtag nó clib RFID le haon eilimintí DI eile.'), níor chóir úsáidí nua de DI '11N' a chur i bhfeidhm. Tá feidhm DI '11N' bunaithe i DI '12N'. Molann sé go láidir go n-aistríonn iarratais atá ann cheana a úsáideann DI '11N' goDI '12N'.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Tá Struchtúr Sonraí sainithe agus rialaithe ag RLA, comhdhéanta de 2 shegment: cód aitheantóra (FI) láithreach roimh na sonraí mar a shainmhínítear don eilimint sin de réir foclóir sonraí RLA. Is bunúsach é catalóg de réimsí le hábhar caighdeánaithe. Tá na hAitheantóirí Réimse foilsithe ag http://rla.org/12ncodes Sainmhínítear úsáid agus struchtúr na gcód seo ag: http://rla.org/12nformat. Is féidir samplaí a fháil ar an suíomh sin.\nNuashonrú 2020: D'athraigh an URL go:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Cóid Aitheantóirí Tionscail Idirlín atá rialaithe agus cothabháilte ag CAICT, úsáidte i gCóras Réitigh Aitheantóir Tionscail Idirlín na Síne agus atá tógtha mar &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, sa fhormáid an3+a3+n3+n3+n8+an1...33, áit a bhfuil an3 ina Aitheantas Sonraí (DI), a3 ina Cód Gníomhaireachta Eisithe (IAC = "VAA"), n3 ina Cód Barrchéime (TTC), n3 ina Cód Fochéime (STC), n8 ina Uimhir Aitheantais Cuideachta (CIN) atá rialaithe agus sannaithe ag ardán Fochéime, agus an1...33 ina Uimhir Sraitheach (SN) atá rialaithe agus sannaithe ag sealbhóir an CIN, agus atá uathúil laistigh de réimse sealbhóirí an CIN, ag baint úsáide as na carachtair 0 go 9, A trí Z uachtaracha agus íochtaracha, * (réalta), + (comhartha móide), - (lúibín), . (pointe nó stad iomlán), / (stráice chun tosaigh), ( (lúibín clé), ) (lúibín deas), ! (comhartha iontais).\nSamplaí:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Cód Mír a Shannann an Custaiméir.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Cód Mír a Shannann an Soláthraí.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Cód a Shanntar chun Leibhéal Athbhreithnithe Míre a Shonrú (m.sh., leibhéal athraithe innealtóireachta, eagrán, nó athbhreithniú).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Cód Measctha Aitheantais Monaróra/Cód Míre faoi Fhoirmáidí 12/13 dhigit GS1, móide códanna forlíontacha, más ann.\nNuashonrú 2020: Molann GS1 nach n-úsáidtear an DI seo a thuilleadh agus go n-aistríonn úsáideoirí an DI seo chuig cáilíochtóirí sonraí GS1 (Aitheantóirí Iarratais) de réir ISO/IEC 15418 agus ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Cód Míre Cuid de Fhoirmáidí GS1.\nNuashonrú 2020: Molann GS1 nach n-úsáidtear an DI seo a thuilleadh agus go n-aistríonn úsáideoirí an DI seo chuig cáilíochtóirí sonraí GS1 (Aitheantóirí Iarratais) de réir ISO/IEC 15418 agus ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Uimhir Míre Rangaithe Lastais a Shannann an tIompróir le haghaidh Críocha Rátála Ábhar Guaiseach (m.sh., Rangú Lastais Mótair, Aer, Bád, Iarnród).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Cód Comhcheangailte Aitheantais Soláthraí agus Cód Míre (arna shannadh go hinmheánach nó a shainmhínítear go frithpháirteach).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Aitheantas Trealaimh Teanga Choiteann (CLEI) a shannann an monaróir do roinnt trealamh teileachumarsáide.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>Formáid 14 dhigit GS1 le haghaidh struchtúr cód GTIN-14.\nNuashonrú 2020: Molann GS1 nach n-úsáidtear an DI seo a thuilleadh agus go n-aistríonn úsáideoirí an DI seo chuig cáilíochtóirí sonraí GS1 (Aitheantóirí Iarratais) de réir ISO/IEC 15418 agus ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Cód Comhcheangailte Aitheantais Monaróra (uimhir 9 dhigit DUNS a shannann Dun &amp; Bradstreet) agus an Cód Míre/Uimhir Cuid (a shannann an monaróir).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Cód Ábhar Guaiseach mar a shainmhínítear le ANSI X12.3 sa fhormáid Eilimint Sonraí 208 (cáilitheoir cód 1-charachtar) in éineacht le Eilimint Sonraí 209 (Cód Ábhar Guaiseach).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>Cód CLEI 10 gcarachtar do threalamh teileachumarsáide.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Cineál Doiciméid (m.sh., Liosta Piocála, Líníocht Dearaidh, srl.) (arna shannadh go hinmheánach nó a shainmhínítear go frithpháirteach).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>Cód Córais VMRS.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>Cód Córais agus Tionóil VMRS.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>Cód Córais, Tionóil, &amp; Páirte VMRS.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>Cód Córais, Tionóil, nó Páirte VMRS. (Modhnaithe ag an Úsáideoir).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Cód Comhcheangailte GS1 Aitheantais Soláthraí agus Cód Míre a Shanntar ag an Soláthraí.\nNuashonrú 2020: Molann GS1 nach n-úsáidtear an DI seo a thuilleadh agus go n-aistríonn úsáideoirí an DI seo chuig cáilíochtóirí sonraí GS1 (Aitheantóirí Iarratais) de réir ISO/IEC 15418 agus ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Cód Comhcheangailte VMRS aitheantas soláthraí agus Uimhir Cuid a Shanntar ag an Soláthraí.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Comhpháirt de Mhír. (Táirge amháin atá i bpacáistí iolracha).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>An Chéad Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>An Dara Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>An Tríú Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>An Ceathrú Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>An Cúigiú Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Aitheantas Páirtí chuig Idirbheart a Shanntar ag Sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) gaolmhar de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin uimhir pháirte a shanntar ag an soláthraí atá uathúil laistigh de réimse sealbhóir an CIN.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Uimhir Pháirte d’Ard-Thionól.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Cód Comhthiomsaithe HTS-6; Ag baint úsáide as an bhformáid: 4012.11 nó 4012.11.4000 (Tá an pointe deachúil go sonrach códaithe) Is modh uimhriúil caighdeánaithe 6 dhigit é Aicmiú Córas Comhchuibhithe (HS) chun táirgí trádála a rangú. Úsáidtear uimhreacha HS ag údaráis custaim ar fud an domhain chun táirgí a aithint le haghaidh cur i bhfeidhm dleachtanna agus cáin. Cuirtear digití breise le huimhir HS ag roinnt rialtas chun táirgí a idirdhealú tuilleadh i roinnt catagóirí. Sna Stáit Aontaithe, tugtar 'uimhreacha Scéidil B' ar na huimhreacha a úsáidtear chun táirgí onnmhairithe a rangú. Riarann Biúró Daonáirimh na SA an córas Scéidil B. Ní mór uimhreacha Scéidil B, seachas uimhreacha HS, a sholáthar ar an Dearbhú Easpórtála Lastais (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nRiarann Coimisiún Trádála Idirnáisiúnta na SA (USITC) na códanna allmhairithe. http://hts.usitc.gov/\nNuashonrú 2020: níl an nasc http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf gníomhach a thuilleadh. Déan comhairliúchán leis an seoltóir le haghaidh foirm SED.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Ainm Lastais. Cur síos i dteanga shimplí (Béarla).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Cód Aicmithe Táirge mar a shainmhínítear leis an GMDN (Ainmníocht Dhéimeagrafach Dhomhanda Gléasanna Leighis - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>An Chéad Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>An Dara Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>An Tríú Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>An Ceathrú Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>An Cúigiú Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Cód a shanntar ag custaiméir chun Uimhir Aitheantais Bileog Sonraí Sábháilteachta Ábhair (MSDS) an mhonaróra a aithint a chuireann síos ar úsáidí, guaiseacha, agus comhdhéanamh ceimiceach ábhar guaiseach.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Mír Rialaithe Easpórtála. Ábhar do rialú agus/nó srianta easpórtála mar a aithnítear i Socrú Wassenaar. DI in éineacht le Cód Alfa-2 ISO 3166 Tíre an tír a chuir an srian i bhfeidhm in éineacht le Cód Wassenaar (http://www.wassenaar.org/controllists/index.html).\nNuashonrú 2020: D'athraigh an URL go https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Aitheantas Míre a shanntar ag Monaróir - ag comhdhéanamh uimhir mhíre a shanntar ag monaróir an mhíre, in éineacht le comhartha móide (+), agus - más gá chun an mhír a aithint go huathúil laistigh de raon táirgí an mhonaróra - le leagan míre a shanntar ag an monaróir.\nSampla 50PABC+6 a léire odh uimhir míre ABC, leagan míre 6\nNÓTA - Ba chóir uimhir an mhíre a leanúint i gcónaí le comhartha móide, fiú mura bhfuil aon leagan míre ann. Tá sé seo riachtanach chun comhcheangal gan bhriseadh a cheadú idir aitheantas míre a shanntar ag monaróir le struchtúr sonraí eile ag baint úsáide as an carachtar comhcheangailte móide. Mar shampla, d'fhéadfaí comhcheangal aitheantas míre a shanntar ag monaróir gan aon leagan míre agus uimhir shraitheach (Aitheantas Sonraí S) ar eintiteas a chódú mar 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Aitheantas Míre Uathúil Domhanda ag comhdhéanamh Aitheantas Páirtí chuig Idirbheart a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) gaolmhar de réir ISO/IEC 15459 agus a chlárlann, in éineacht le comhartha móide (+), ina dhiaidh sin aitheantas míre a shanntar ag monaróir mar a shainmhínítear le 50P\nSampla: 51PJ4LBE0431863103+ABC+ a léireodh an mhír le huimhir mhíre ABC agus gan aon uimhir leagan déanta ag an gcuideachta le huimhir CBL na Beilge 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Cód Datha.\nDath míre/ruda a aithint le cód nó téarma a comhaontaíodh go frithpháirteach idir comhpháirtithe trádála.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Aitheantas do Threalamh Mara Sonrach faoi cheadú faoin Treoir Aontais Eorpaigh um Threalamh Mara (2014/90/AE) agus Rialachán Cur Chun Feidhme (AE) 2018/608.\nFormáid:\n• DI (an3);\n• Cineál modh(anna) measúnaithe comhréireachta atá leagtha amach in Iarscríbhinn II chuig Treoir 2014/90/AE a úsáidtear le haghaidh an mheasúnaithe comhréireachta (a1);\n• Uimhir aitheantais an chomhlachta fógartha a shannann an Coimisiún de réir pointe 3.1 d’Iarscríbhinn IV chuig Treoir 2014/90/AE (n4);\n• Teastas (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Aitheantas Uathúil Gléis - Aitheantas Gléis) do Ghléasanna Leighis (MD) agus In-vitro-Diagnostics (IvD) mar an eochair uathúil do bhunachair sonraí UDI poiblí (GUDID, EUDAMED, srl.), de réir riachtanais rialála náisiúnta, mar a leagtar amach ag Fóram Rialálaithe Gléasanna Leighis Idirnáisiúnta (IMDRF). Ceadaithe gach carachtar inphriontáilte den tacar carachtar UTF-8.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>Tagairt deimhnithe DNV. Léiríonn sé go bhfuil na sonraí ag tagairt do dheimhniú táirge/ráiteas fíoraithe/tuairisc, eisithe ag DNV. Ba chóir an t-aitheantas sonraí a leanúint le litreacha "NV" agus uimhir an teastais. Nuair a bhíonn postfhics don uimhir teastais, ba chóir é a áireamh sa sreabhadh sonraí ag baint úsáide as an gcarachtar scartha "-" . Níor chóir táscairí athbhreithnithe a sholáthar.\nSamplaí:\n1. 55PNVXXXXXXX, áit a bhfuil 55P ina aitheantas sonraí, agus XXXXXXX uimhir theastais DNV.\n2. 55PNVXXXXXXX-Y, áit a bhfuil 55P ina aitheantas sonraí, agus XXXXXXX-Y uimhir theastais DNV le postfhics Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Cainníocht, Líon Píosaí, nó Méid (uimhriúil amháin) (aonad tomhais agus tábhacht sainithe go frithpháirteach).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Fad/Fad Theoiriciúil (uimhriúil amháin).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Meáchan Fíor (uimhriúil amháin).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Aonad Tomhais, mar a shainmhínítear le cód dhá charachtar Eilimint Sonraí Uimh. 355 ANSI X12.3 Cód Aonad Tomhais.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Suim Iomlán.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Suim Glan.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Nuair a Chuimsíonn Coimeádáin Iolracha Táirge Aonair (ní mór ábhar gach coimeádán a chumasc le hábhar na gcoimeádán eile chun táirge aonair a dhéanamh) ba cheart an tAitheantas Sonraí '6Q' a úsáid chun na coimeádáin éagsúla a nascadh. An formáid # as # ('is é seo an píosa n-ú de phíosaí x chun an táirge a shainmhíniú') Curtha i láthair sa fhormáid 'n/x', áit a n-úsáidtear an '/' (stráice) mar scaradh idir dhá luach.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Cainníocht, Méid, nó Líon Píosaí sa fhormáid: Cainníocht in éineacht le cód dhá charachtar Eilimint Sonraí Uimh. 355 ANSI X12.3 Cód Aonad Tomhais.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Meáchan Rátáilte Coimeádáin\nMeáchan iompair cumais a shanntar don choimeádán ag am an déantúsaíochta. Aonad tomhais is ea kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Meáchan Píosa\nMeáchan míre aonair.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Meáchan Folamh: meáchan coimeádáin folamh.\nMeáchan corp an choimeádáin.\nMeáchan folamh a shanntar don choimeádán ag an monaróir ag am an déantúsaíochta. Aonad tomhais is ea kg (Meáchan Folamh).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Luach Airgeadaíochta a bhunú ag an Soláthraí sa fhormáid: an luach in éineacht le cód eilimint sonraí ISO 4217 le haghaidh léiriú aonad luacha airgeadraí agus cistí (m.sh., 12Q2.50USD) (2.50 Luach Airgeadaíochta i nDollair SAM) tábhacht sainithe go frithpháirteach.\nLuach Iontrála;\nLuach in éineacht le cód eilimint sonraí ISO 4217 le haghaidh léiriú aonad luacha airgeadraí agus cistí (m.sh., 12Q2.50USD) (2.50 Luach Airgeadaíochta i nDollair SAM)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># as # ('is é seo an píosa n-ú de phíosaí x sa loingsiú seo').\nCurtha i láthair sa fhormáid 'n/x', áit a n-úsáidtear an '/' (stráice) mar scaradh idir dhá luach.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Cainníocht Tosaigh Tánaisteach.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Cainníocht Deiridh Tánaisteach.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Líon Píosaí i Van.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Líon Loingsithe i Van.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Cúbachas léirithe i méadair chiúbacha nó i dtroigh chiúbacha in éineacht le cód Eilimint Sonraí Uimh. 355 ANSI X12.3 cód aonad tomhais (CR nó CF). Gan pointe deachúil le tuiscint.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Leithead léirithe i méadair líneacha nó i dtroigh líneacha in éineacht le cód Eilimint Sonraí Uimh. 355 ANSI X12.3 cód aonad tomhais (LC nó LF). Gan pointe deachúil le tuiscint.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Airde léirithe i méadair líneacha nó i dtroigh líneacha in éineacht le cód Eilimint Sonraí Uimh. 355 ANSI X12.3 cód aonad tomhais (LC nó LF). Gan pointe deachúil le tuiscint.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Fad léirithe i méadair líneacha nó i dtroigh líneacha in éineacht le cód Eilimint Sonraí Uimh. 355 ANSI X12.3 cód aonad tomhais (LC nó LF). Gan pointe deachúil le tuiscint.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Meáchan Glan Loingsithe léirithe i bpunt nó i gcileagraim (cileos) in éineacht le cód Eilimint Sonraí Uimh. 355 ANSI X12.3 aonad tomhais (LB nó KG). Gan pointe deachúil le tuiscint.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Fad an Vain léirithe i méadair líneacha nó i dtroigh líneacha in éineacht le cód Eilimint Sonraí Uimh. 355 ANSI X12.3 cód aonad tomhais (LC nó LF). Gan pointe deachúil le tuiscint.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Cúbachas Laistigh de Van léirithe i méadair chiúbacha nó i dtroigh chiúbacha in éineacht le cód Eilimint Sonraí Uimh. 355 ANSI X12.3 cód aonad tomhais (CR nó CF). Gan pointe deachúil le tuiscint.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Meáchan Pléascach Net (luach ríomhtha de choibhéis pléascach i bpunt TNT). Úsáidtear tomhas NEW go hidirnáisiúnta le haghaidh ríomhanna fad slándála cainníochta pléascach. Gan pointe deachúil le tuiscint.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Leibhéal Pacáistithe, ag sonrú an leibhéal hierarchach pacáistithe de réir sonraíochtaí HIBC (Cód Tionscail na Sláinte).</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Praghas Aonair Táirge, Glan, '.' (ponc) á úsáid mar phointe deachúil (m.sh. 27Q1000.5 le haghaidh luach praghas de 1000.50).\nStruchtúr: an3+an1...20\n &lt;DI&gt;&lt;luach praghas&gt;.\nTacar carachtar: 0 go 9, ponc (ISO 646 luach ASCII deachúil 46, luach heicsidheachúil 2E).\nSampla de chódú ag baint úsáide as luach praghas glan de 1000:\n27Q1000.\nSampla de chódú ag baint úsáide as luach praghas glan de 1000.50:\n27Q1000.5.\nNÓTA - Má tá airgeadra de dhíth is féidir é a ghlacadh ó eilimint sonraí eile a úsáidtear sa chód céanna, m.sh. 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Luach Muirir Aonair le haghaidh Postais agus Pacáistithe, '.' (ponc) ag léiriú suíomh camóige (m.sh. 30Q100.50 le haghaidh luach de 100,50).\nStruchtúr: an3+an1...10\n &lt;DI&gt;&lt;luach muirir&gt;.\nTacar carachtar: 0 go 9, ponc.\nSampla de chódú ag baint úsáide as luach postais &amp; pacáistithe de 100:\n30Q100.\nSampla de chódú ag baint úsáide as luach postais &amp; pacáistithe de 100,50:\n30Q100.50.\NÓTA - Má tá airgeadra de dhíth is féidir é a ghlacadh ó eilimint sonraí eile a úsáidtear sa chód céanna, m.sh. 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Lascaine Céatadáin, '.' (ponc) ag léiriú suíomh camóige (m.sh. 31Q8.5 le haghaidh luach lascaine de 8,5%).\nStruchtúr: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;lascaine céatadáin (%)&gt;.\nTacar carachtar: 0 go 9, ponc\nSampla de chódú ag baint úsáide as céatadán lascaine de 10%:\n31Q10.\nSampla de chódú ag baint úsáide as céatadán lascaine de 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>Céatadán CBL, '.' (ponc) ag léiriú suíomh camóige (m.sh. 27Q8.5 le haghaidh luach CBL de 8.5%).\nStruchtúr: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;CBL céatadáin (%)&gt;.\nTacar carachtar: 0 go 9, ponc.\nSampla de chódú ag baint úsáide as céatadán CBL de 10%:\n27Q19.\nSampla de chódú ag baint úsáide as céatadán CBL de 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Airgeadra, cód airgeadra ISO 4217.\nStruchtúr: an3+an3\n &lt;DI&gt;&lt;Airgeadra, m.sh. EUR&gt;.\nTacar carachtar: A-Z, 0 go 9.\nSampla de chódú ag baint úsáide as cód alfaibéiteach ISO de Dollar SAM:\n31QUSD.\nSampla de chódú ag baint úsáide as cód alfaibéiteach ISO de EURO:\n31QEUR.\nSampla de chódú ag baint úsáide as cód uimhriúil ISO de EURO:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Cód téarmaí cliniciúla mar a shainmhínítear leis an nomenclature cliniciúil idirnáisiúnta: "An caighdeán idirnáisiúnta le haghaidh aithint tomhais sláinte, breathnuithe, agus doiciméid - LOINC" (https://loinc.org), sa tsraith seo a leanas: &lt;DI&gt;&lt;Cód LOINC&gt;&lt;Comhartha Móide&gt;&lt;Luach&gt;. Tá aonad agus formáid an Luach sainithe ag Cód LOINC.\nSampla: 32Q28903-3+60 = Cód LOINC 28903-3: Ais clé lionsa teagmhála (céimeanna); le Luach = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Cód Údaraithe Tuairisceáin (RMA) a shanntar ag an Soláthraí</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Cód Tuairisceáin a Shanntar ag an gCustaiméir</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>Cód Aitheantais Roinn Cosanta SAM (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Sonraí sa fhormáid agus ag baint úsáide as séimeantaic a shainmhínítear ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) a eisíodh ag Cód Gníomhaireachta Eisithe (IAC) de réir ISO/IEC 15459, sainmhínithe mar shraith d'eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin an carachtar scartha ':' (colún) ina dhiaidh sin na sonraí sa fhormáid agus ag baint úsáide as séimeantaic mar a shainmhínítear ag sealbhóir an CIN.\nNÓTA - Ní chuirfear ach rialacha sintéis sonraí (más ann dóibh) mar a sholáthraítear ag an IAC+CIN fógartha laistigh de gach sruth sonraí DI '5R' i bhfeidhm ar na sonraí ina dhiaidh DI 5R+IAC+CIN.4.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>Struchtúr sonraí digiteacha ISO/IEC 20248. Má tá códú sonraí bunúsach 7 ngiotán, ansin ní féidir úsáid a bhaint ach as formáid amh ISO/IEC 20248.\nSampla le formáid URL:\n&lt;6R&gt;&lt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO&gt;\nSampla le formáid amh:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nTá struchtúr sonraí ISO/IEC 20248 ag áireamh síniú digiteach a úsáidtear chun na heilimintí sonraí sonraithe den teachtaireacht sonraí a fhíorú. Seoltar luach 6R, mar an chéad pharaiméadar, agus na heilimintí sonraí le fíorú (bainte de gach carachtar neamh-inphriontáilte), mar an dara paraiméadar, chuig an ISO/IEC 20248 DecoderVerifier - a thabharfaidh toradh an fhíoraithe: GLACADH, DIÚLTÚ nó EARRÁID(cód earráide), agus an réad JSON de réimsí breise ISO/IEC 20248 díchódaithe. D'fhéadfadh struchtúr sonraí ISO/IEC 20248 réimsí breise agus treoracha chun teachtaireacht amháin nó níos mó d'eilimintí sonraí a dhíchódú agus a fhíorú a áireamh. Próiseálfar na treoracha seo ag ISO/IEC 20248 DecoderVerifier.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Cód Speiceas Idirghníomhaireachta 3 alfa ASFIS, cothabháilte ag Eagraíocht Bia agus Talmhaíochta na Náisiún Aontaithe (www.fao.org, ansin cuardach le haghaidh 'ASFIS').\nSamplaí;\n7RMUC = Carp láibhe;\n7RPCD = Scadán úrscéalach Astrálach;\n7RWSH = Siorc mór bán.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Cód Caighdeánach Idirnáisiúnta Aicmithe Trealaimh Iascaigh FAO (ISSCFG). (www.fao.org)\nCeadaithe gach carachtar den fho-chomhshraith GS1 Ginearálta a shainmhínítear de ISO/IEC 646.\nSamplaí:\n8R02.1.0 = Seine trá;\n8R03.1.5 = Traeiní shrimp;\n8R05.1.0 = Líonta ardaithe iniompartha.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Modh táirgthe d'iasc agus bia mara mar a shonraítear ag Roinn Iascaigh agus Uisceachais Eagraíocht Bia agus Talmhaíochta (FAO) na Náisiún Aontaithe, de réir Rialachán 1379/2013 AE. (www.fao.org).\nCeadaithe gach carachtar den fho-chomhshraith GS1 Ginearálta a shainmhínítear de ISO/IEC 646.\nSamplaí;\n9R01 = Gabháil ar muir;\n9R02 = Gabháil in uisce úr;\n9R03 = Táirgthe.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Uimhir Sraitheach nó Cód a shanntar ag an Soláthraí do Eintiteas ar feadh a Shaoil, (m.sh., uimhir shraitheach ríomhaire, uimhir rianaithe, uimhir uirlis conartha).</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Cód Breise a shanntar ag an Soláthraí do Eintiteas ar feadh a Shaoil (m.sh., uimhir rianaithe, uimhir shraitheach ríom haire)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>ID Loingsithe Fógra Réamhshocraithe (ASN SID) a mheaitseálann le hEilimint Sonraí 396 ANSI ASC X12</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Aitheantas Pacáiste Uathúil a shanntar ag an Soláthraí (an leibhéal is ísle pacáistithe a bhfuil cód ID pacáiste air; ba cheart go mbeadh míreanna comhionanna ann)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Aitheantas Pacáiste a shanntar ag an Soláthraí do phacáistiú máistir ina bhfuil míreanna comhionanna ar ordú aonair custaiméara</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Aitheantas Pacáiste a shanntar ag an Soláthraí do phacáistiú máistir ina bhfuil míreanna neamhchosúla ar ordú aonair custaiméara</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Aitheantas Pacáiste a shanntar ag an Soláthraí do phacáistiú máistir ina bhfuil míreanna comhionanna thar orduithe custaiméirí iolracha</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Aitheantas Pacáiste a shanntar ag an Soláthraí do phacáistiú máistir ina bhfuil míreanna neamhchosúla thar orduithe custaiméirí iolracha</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Aitheantas Soláthraí/ID Coimeádán Uathúil curtha i láthair sa fhormáid sonraí a shonraítear ag GS1 SSCC-18\nNuashonrú 2020: Féach ar na Sonraíochtaí Ginearálta GS1 a bhaineann leis an leagan is déanaí de SSCC.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Aitheantas Pacáistiú, Ginearálta (sainmhínithe go frithpháirteach)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Cód Meaisín, Cill, nó Uirlis</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Cód Sócmhainní Seasta</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Uimhir Doiciméid (arna shannadh go hinmheánach nó a shainmhínítear go frithpháirteach)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Séal Slándála Coimeádáin</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>Manifest poist neamhionanna den 4ú rang</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Uimhir Sraitheach a shanntar ag an Soláthraí Eintiteas, a úsáidtear i gcomhar le '13V'</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Uimhir Leagan, m.sh., Leagan Bogearraí</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Cód Comhcheangailte 6 dhigit GS1 Aitheantais Soláthraí agus Aitheantas Pacáiste Uathúil a shanntar ag an Soláthraí\nNuashonrú 2020: Molann GS1 nach n-úsáidtear an DI seo a thuilleadh agus go n-aistríonn úsáideoirí an DI seo chuig cáilíochtóirí sonraí GS1 (Aitheantóirí Iarratais) de réir ISO/IEC 15418 agus ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>Cód CAGE &amp; Uimhir Sraitheach Uathúil Laistigh de CAGE</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Cód Comhcheangailte aitheantais cuideachta Dun &amp; Bradstreet an tsoláthraí in éineacht le haon aitheantas pacáiste uathúil a shanntar ag an soláthraí, sa fhormáid nn...nn+nn...n áit a n-úsáidtear siombail móide (+) mar scaradh idir Uimhir DUNS agus aitheantas pacáiste uathúil</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Cód Rianaithe do Eintiteas a Shanntar ag an gCustaiméir</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Uimhir Aitheantais Boinn mar a shainmhínítear ag Roinn Iompair na SA (D.O.T) faoi Chód SAM 49 CFR 574.5.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Aitheantas Indibhidiúil Uathúil le haghaidh Fóin Póca</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Seoladh Rialaithe Rochtana Meán (MAC) a mheaitseálann le IEEE 802.11</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>De réir ISO/IEC 15963 (is é an luach tiontú a luach bit go luach anna ASCII 8 ngiotán). D'fhéadfadh an tAitheantas Sonraí seo aon luach ASCII-256 a ghlacadh. Maidir le clibeanna coimeádán lastais, is é an tÚdarás Clárúcháin (RA) do mhonaróirí an RA do ISO 14816. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Aitheantas Páirtí chuig Idirbheart a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) gaolmhar de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin uimhir shraithe a shanntar ag an soláthraí atá uathúil laistigh de réimse sealbhóir an CIN (Féach Iarscríbhinn C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Aitheantas Trealaimh, a bheith ina aitheantas uathúil domhanda le haghaidh gléas, mír trealaimh nó instealladh de iarratas ríomhaireachta a úsáidtear sa táirgeadh, iompar, próiseáil nó láimhseáil eile míreanna, a thógáil trí chur le chéile:\n - cód gníomhaireachta eisithe ISO/IEC 15459;\n - uimhir trealaimh a réitíonn le sonraíochtaí an ghníomhaireachta eisithe ábhartha; agus sin:\n - comhdhéanta de charachtair alfabhéiteacha uachtair agus/nó uimhriúla amháin;\n - uathúil (is é sin, tá sé difriúil ó aon aitheantas eile comhlíontach ISO/IEC 15459) laistigh de réimse an ghníomhaireachta;\n - nach féidir a dhíorthú ó aon aitheantas eile comhlíontach ISO/IEC 15459, eisithe faoin ghníomhaireacht chéanna, trí charachtair shimplí a chur leis, nó a bhaint dá dheireadh.\nLéitheoir ID.\nAitheantas trealaimh, a bheith ina aitheantas uathúil domhanda le haghaidh gléas, mír trealaimh nó instealladh de iarratas ríomhaireachta.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Uimhir Míre Laistigh de Bhaisc, a bheith ina sraith d'uimhreacha digití:\n - a idirdhealaíonn go huathúil mír, laistigh de bhaisc inaitheanta de mhíreanna gaolmhara, ó gach mír eile sa bhaisc chéanna;\n - a bhfuil an fad céanna aige do gach mír laistigh den bhaisc ábhartha.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Uimhir Bhaisc-agus-Míre, a bheith ina chomhcheangal d'aitheantas sonraí 27T uimhir an bhaisc agus an t-aitheantas sonraí 27S uimhir na míre den mhír a bhaineann leis an mbaisc ábhartha.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Cód Breise um Rianú Eintiteas a shanntar ag an Soláthraí i dteannta leis an gcód/cóid rianaithe a sholáthraítear le 'S' nó '1S'</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Uimhir Shraitheach Tosaigh le haghaidh uimhreacha sraitheacha i sraith</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Uimhir Shraitheach Deiridh le haghaidh uimhreacha sraitheacha i sraith</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Uimhir Shraitheach Ard-Thionól Níos Airde</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Uimhir Shraitheach nó Uimhir Pháirte de Mhír Chríoch</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Uimhir Bhuim per (Úsáidte i nGluaiseacht Aonaid DOD)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Aitheantas Pailéid (Úsáidte le haghaidh pailéid aer 463L luchtaithe)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Aitheantas Míre Uathúil a chuimsíonn sraith de 5 eilimintí sonraí: 'IAC', ina dhiaidh sin 'CIN', ina dhiaidh sin 'Uimhir Pháirte (PN)', ina dhiaidh sin an carachtar '+' , ina dhiaidh sin 'Uimhir Shraitheach Páirte (PSN)' a shanntar ag an soláthraí (nó a bhainistítear) atá go domhanda uathúil laistigh de réimse sealbhóir an CIN; sa fhormáid IAC CIN PN + PSN (cuirtear spásanna ar fáil le haghaidh soiléireachta amhairc amháin; ní cuid den sonra iad). Féach Iarscríbhinn C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Aitheantas Míre Uathúil (UII) sa fhormáid 25S roimh ré le luach uimhriúil a léiríonn fad an eilimint shraitheach le húsáid ag córais a éilíonn an comhpháirt 'uimhir shraitheach' de eilimint shraitheach comhcheangailte (IAC+CIN+SN) Formáid: DI+LI+IAC+CIN+SN (LI=fad SN)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Aitheantas Cárta Cuairte Comhtháite (ICCID) de réir Moladh ITU-T E.118 agus Moladh ETSI GSM 11.11; uasmhéid de 20 digit a chuimsíonn Uimhir aitheantais eisitheora (IIN; uasmhéid de 7 digit), Aitheantas cuntais aonair (athraíonn fad de réir IIN, ach an fad céanna laistigh d'IIN ar leith), Digit seiceála (digit aonair a ríomhtar ag baint úsáide as algartam Luhn\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = aitheantas cuntais, c = digit seiceála)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>An Chéad Leibhéal (Arna Shannadh ag an Soláthraí)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>An Dara Leibhéal (Arna Shannadh ag an Soláthraí)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>An Tríú Leibhéal (Arna Shannadh ag an Soláthraí)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>An Ceathrú Leibhéal (Arna Shannadh ag an Soláthraí)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>An Cúigiú Leibhéal (Arna Shannadh ag an Soláthraí)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>Uimhir EPC (De ghnáth Uimhir Aitheantais Trádála Domhanda Searbhaithe - SGTIN)\nNuashonrú 2020: Ní úsáidtear an téarma "Uimhir EPC" a thuilleadh ag GS1. Féach ar na Sonraíochtaí Ginearálta GS1 agus an Caighdeán Sonraí Clibe le haghaidh téarmaíocht reatha</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Uimhir shraitheach criptithe a shanntar ag an Soláthraí do eintiteas, is féidir a fhíorú ag tríú páirtí iontaofa neamhspleách. Ní dhéanann an uimhir shraitheach criptithe cur síos ar aon pharaiméadair den eintiteas gan dhíchriptiú ag tríú páirtí neamhspleách.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>An carachtar 'AMPERSAND'. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Cineál Coimeádáin (arna shannadh go hinmheánach nó a shainmhínítear go frithpháirteach).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Uimhir Rianaithe a shanntar ag an gCustaiméir chun grúpa uathúil eintiteas a aithint/rianú (m.sh., cnap, baisc, teas).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Uimhir Rianaithe a shanntar ag an Soláthraí chun grúpa uathúil eintiteas a aithint/rianú (m.sh., cnap, baisc, teas).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Sannadh Eisiach (Aitheantas Feithicle de chuid EPA na SA le haghaidh tástála astaíochtaí).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Cód Aitheantais Coimeádán In-aisíoctha a shanntar ag úinéir an choimeádáin nó ag an ngníomhaireacht rialála cuí (e.g., tub miotail, ciseán, rothlach, aonad luchtaithe aonaid (ULD), leantóir, umar, nó coimeádán idirmhódúil) (ní chuimsítear sorcóirí gáis Féach '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Cód Coimeádáin Sorcóra Gáis a shanntar ag an monaróir de réir caighdeáin Roinn Iompair na SA (D.O.T.).</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>An Chéad Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>An Dara Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>An Tríú Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>An Ceathrú Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>An Cúigiú Leibhéal (Arna Shannadh ag an gCustaiméir).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Aitheantas Páirtí chuig Idirbheart a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) gaolmhar de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin uimhir rianaithe a shanntar ag an soláthraí atá uathúil laistigh de réimse sealbhóir an CIN.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Uimhir Bhaisc a chuimsíonn comhcheangal ceachtar:\n - aitheantas sonraí 26S aitheantas trealaimh próiseála poist, nó\n - aitheantas sonraí 20K aitheantas ceadúnais, nó\n - aitheantas sonraí 18V aitheantas páirtí a:\n - tá sé difriúil ó aon aitheantas eile comhlíontach ISO/IEC 15459 laistigh de réimse an ghníomhaireachta eisithe ábhartha;\n - nach féidir a dhíorthú ó aitheantas páirtí eile nó aon aitheantas eile comhlíontach ISO/IEC 15459, eisithe faoin ghníomhaireacht chéanna, trí charachtair shimplí a chur leis, nó a bhaint dá dheireadh;\n le aitheantas sonraí 27T uimhir an bhaisc, an dá cheann scartha ag carachtar lúibín (-).</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Uimhir an Bhaisc, eisithe faoi rialú páirtí aitheanta nó aonad trealaimh próiseála, nó faoi fhorálacha ceadúnas aitheanta, a:\n - idirdhealaíonn go huathúil baisc amháin de mhíreanna gaolmhara ó gach baisc eile a sannadh uimhir bhaisc ag an bpáirtí nó trealamh, nó faoin gceadúnas, ábhartha;\n - comhdhéanta de sraith uasta de 10 charachtar, dá bhfuil an chéad charachtar (uimhriúil) ag léiriú líon na gcarachtar ina dhiaidh, gach ceann acu tógtha ón tacar {A-Z; 0-9}.</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Cód Aitheantais Trealaimh Iompair Mótair a shanntar ag an monaróir de réir caighdeáin Eagraíocht Idirnáisiúnta um Chaighdeánú (ISO).</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>An Chéad Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>An Dara Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>An Tríú Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>An Ceathrú Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>An Cúigiú Leibhéal (Arna Shannadh ag an Soláthraí).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Cód Alfa Caighdeánach Iompróra (SCAC) (4 carachtair alfa-uimhriúla) agus uimhir leantóra roghnach a shanntar ag iompróir (idir aon go deich carachtar alfa-uimhriúla). Nuair a úsáidtear é, scarann an leantóir a shanntar ag iompróir ón SCAC le stráice '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Uimhir Sócmhainne Glacadóra - Ag comhdhéanamh dhá chuid nasctha:\n- Aitheantas eagraíochta de réir ISO/IEC 15459 agus aitheantas eintiteas uathúil a shanntar de réir rialacha a bhunaigh an gníomhaireacht eisithe.\n- Uimhir shraitheach uathúil a shanntar ag an eintiteas, ag críochnú le cód cineál coimeádáin 3 charachtar a thógáil ó Liosta Cód EDIFACT 8053 nó caighdeán UPU M82-3. (Má tá an cód cineál coimeádáin liostaithe níos lú ná trí charachtar ar fhad, líonfar an réimse le stráice '-' ar chlé go fad trí charachtar).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Uimhir Shraithuimhir Coimeádáin.\nDe réir ISO 6346. OC EI CSN CD, áit a bhfuil an OC mar an trí litir cód úinéara a shanntar i gcomhar le BIC, an EI mar an aon litir aitheantóir catagóire trealaimh, an CSN mar aitheantas coimeádáin uathúil 6 dhigit a shanntar ag úinéir an trealaimh, agus an CD mar dhigit seiceála modúl 11 a ríomhtar de réir Iarscríbhinn A, ISO 6346.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Aitheantas Úinéir Coimeádáin In-aisíoctha a shanntar i gcomhar le BIC.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Cód Méid/Cineál Coimeádáin.\nDe réir ISO 6346, Alt 4.2.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Cód Úinéireachta Coimeádáin. Giorrúchán ceithre charachtar iarbhír marcáilte ar an gcoimeádán ag an úinéir. Do choimeádáin le húinéireacht DOD féach Rialachán Iompair Cosanta App EE-6.\nNuashonrú 2020: tagairt foinse sonraí nuashonraithe go Rialachán Iompair Cosanta, Cuid II, App TT ag:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Uimhir Van (uimhir iomlán lúide an digit seiceála).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Digit seiceála d'Uimhir Van a aithnítear in 11B.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Cód Uimhir Coimeádáin (an 5 dhigit deireanach d'uimhir gan an digit seiceála a áireamh).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Stádas Clib.\nY=Ceadaithe / N=Neamhcheadaithe.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Aicme Lastais Contúirteach.\nAicme IMDG sa fhormáid 'n.na' áit a bhfuil n = uimhriúil, pointe deachúil go sonrach códaithe, agus a = cáilitheoir alfaibéiteach coinníollach. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>Cód NA le haghaidh Earraí Contúirteacha.\nLe haghaidh lastais contú irteach a sholáthraíonn an seoltóir de réir Cód NA.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\nNuashonrú 2020: Athraíodh an URL go http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Ainm an Ábhair Iompair.\nAinm an long nó cód feithicle/uimhir turais traenach i mBéarla.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Uimhir Chlárúcháin an tSoithigh.\nNa trí litir 'IMO' in éineacht leis an uimhir seacht ndigit a shanntar do gach long ag IHS Fairplay nuair a thógáiltear í. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Uimhir turais/Uimhir turais.\nLitir agus uimhir.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Tír an tSoithigh.\nCód Alfa 2 ISO 3166-1.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Cúlchiste le haghaidh Uimhreacha Séala Leictreonacha.\nComhdhéanta de ID clib séala 18185-1 - 32 giotán agus ID monaróirí ISO 14816 16-giotán (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Uimhir Iontrála/Cineál.\nComhdhéanta de chód trí dhigit an scagaire, ina dhiaidh sin an seacht ndigit uimhir iontrála, agus críochnaithe leis an digit seiceála aon dhigit. Léiríonn Cód Scagaire Iontrála an cód alfa-uimhriúil trí charachtar a shanntar don scagaire nó don allmhaireoir ag CBP. Léiríonn Uimhir Iontrála an seacht ndigit uimhir a shanntar ag an scagaire. Féadfar an uimhir a shannadh ar bhealach ar bith is áisiúil, ar choinníoll nach sannfar an uimhir chéanna do níos mó ná aon CBP Form 7501 amháin. Caithfear nialais tosaigh a thaispeáint. Ríomhtar an Digit Seiceála ar an 10 gcarachtar roimhe seo. Is féidir an fhoirmle chun an digit seiceála a ríomh a fháil in Iarscríbhinn 1, Treoracha CBP 7501.\nIs cód dhá dhigit é cineál iontrála atá comhlíontach le Bloc 2, Treoracha CBP 7501.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Uimhir Urrúis.\nAn cód uimhriúil trí dhigit a aithníonn an comhlacht urrúis ar an mBanna Custaim. Is féidir an cód seo a fháil i mbloc 7 den Fhoirm CBP 301, nó tá sé ar fáil trí chóras uathoibrithe CBP do chomhdaitheoirí ABI, trí idirbheart fiosrúcháin banna allmhaireora. Maidir le hallmhairí Rialtais na SA agus cineálacha iontrála nach n-éilíonn urrús, ba chóir cód 999 a chur sa bhloc seo. Nuair a úsáidtear airgead tirim nó urrúis Rialtais in ionad urrúis, bain úsáid as cód 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Calafort Coigríche Luchtaithe.\n'Schedule K' (Aicmiú Calafoirt Coigríche de réir Limistéar Trádála Geografach agus Tír) don chalafort coigríche ar luchtadh an t-earra go de facto ar an long a thug na hearraí chuig na SA. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\nNuashonrú 2020: Athraíodh an URL go: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Aitheantas Páirtí chuig Idirbheart mar a shainmhínítear in ISO 17364, a shanntar ag sealbhó ir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin uimhir shraithuimhir RTI atá uathúil laistigh de réimse sealbhóir an CIN.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Aitheantas Uathúil Iompair In-aisíoctha a chuimsíonn sraith de 5 eilimintí sonraí: 'IAC', ina dhiaidh sin 'CIN', ina dhiaidh sin 'Uimhir RTI' (RTIN), ina dhiaidh sin an carachtar '+', ina dhiaidh sin an uimhir shraithuimhir RTI a shanntar ag an soláthraí (nó a bhainistítear) atá go domhanda uathúil laistigh de réimse sealbhóir an CIN; sa fhormáid IAC CIN RTIN + RTISN (cuirtear spásanna le haghaidh soiléire amhairc; ní cuid den sonra iad). Féach Iarscríbhinn C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Aitheantas Sócmhainne Domhanda Uathúil d'Iompar Mór In-aisíoctha (LLC) RTI le bonn taobh = 1000 mm, mar a shainmhínítear in ISO 17365:2013, pacáistiú treasach, sraith 3 comhdhéanta de shraith de 5 eilimintí sonraí: 'IAC', ina dhiaidh sin 'CIN', ina dhiaidh sin Cód Cineál RTI 'RTITC', ina dhiaidh sin an carachtar '+', ina dhiaidh sin an uimhir shraithuimhir RTI a shanntar ag an úinéir (nó a bhainistítear) atá go domhanda uathúil laistigh de réimse sealbhóir an CIN sa fhormáid IAC CIN RTITC + RTISN (cuirtear spásanna le haghaidh soiléire amhairc; ní cuid den sonra iad).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Aitheantas Sócmhainne Domhanda Uathúil d'Iompar Beag In-aisíoctha (SLC) RTI le bonn taobh &lt; 1000 mm, mar a shainmhínítear in ISO 17364:2013 (RTI), pacáistiú treasach, sraith 2 comhdhéanta de shraith de 5 eilimintí sonraí: 'IAC', ina dhiaidh sin 'CIN', ina dhiaidh sin Cód Cineál RTI 'RTITC', ina dhiaidh sin an carachtar '+', ina dhiaidh sin an uimhir shraithuimhir RTI a shanntar ag an úinéir (nó a bhainistítear) atá go domhanda uathúil laistigh de réimse sealbhóir an CIN sa fhormáid IAC CIN RTITC + RTISN (cuirtear spásanna le haghaidh soiléire amhairc; ní cuid den sonra iad).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Aitheantas Domhanda Uathúil Pacáistiú In-aisíoctha (RPI) den chatagóir cúnamh pacáistithe (clúdach, blaincéad, inlay, ...) comhdhéanta de shraith de 5 eilimintí sonraí: 'IAC', ina dhiaidh sin 'CIN', ina dhiaidh sin 'Uimhir RPI' RPIN, ina dhiaidh sin an carachtar '+', ina dhiaidh sin an uimhir shraithuimhir RPI a shanntar ag an úinéir (nó a bhainistítear) atá go domhanda uathúil laistigh de réimse sealbhóir an CIN sa fhormáid IAC CIN RPIN + RPISN (cuirtear spásanna le haghaidh soiléire amhairc; ní cuid den sonra iad).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Uimhir Míre Pacáistithe.\nUimhir chun cineál míre pacáistithe (ábhar) a úsáidtear le linn táirgí agus pacáistí a phacáil a aithint.\nLigeann an uimhir do mhíre pacáistithe (ábhar) a aithint agus a dhealú ó tháirgí, pacáistí, Iompar In-aisíoctha (RTIs) agus Míreanna Pacáistithe In-aisíoctha (RPIs) le linn na pacála.\nTógáiltear an uimhir mar shraith d'eilimint sonraí íosta 1:\nUimhir míre (ábhar) pacáistithe atá uathúil laistigh de réimse sealbhóir an domhain.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Uimhir Pacáistithe Uathúil Domhanda\nUimhir uathúil domhanda chun cineál míre pacáistithe (ábhar) a úsáidtear le linn táirgí agus pacáistí a phacáil a aithint.\nLigeann an uimhir uathúil domhanda do mhíreanna pacáistithe (ábhair) a aithint agus a dhealú ó tháirgí, pacáistí, Iompar In-aisíoctha (RTIs) agus Míreanna Pacáistithe In-aisíoctha (RPIs) le linn na pacála.\nTógáiltear an uimhir mar shraith de 3 eilimintí sonraí comhcheangailte:\nAn IAC, ina dhiaidh sin an CIN, ina dhiaidh sin uimhir na míre (ábhar) pacáistithe atá uathúil laistigh de réimse sealbhóir an CIN.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Aitheantas Domhanda Uathúil Míre Pacáistithe In-aisíoctha (RPI) mar a shainmhínítear in ISO 17364, a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin uimhir shraithuimhir RPI atá uathúil laistigh de réimse sealbhóir an CIN.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Sonraíocht seirbhíse poist agus sonraí próisis gaolmhara de réir struchtúr sonraí caighdeánach UPU S25 'Sonraí Seirbhíse'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Sonraí Ceadúnais Poist, de réir an tsainmhínithe sa chaighdeán UPU S25.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Sonraíocht seirbhíse poist forlíontacha agus sonraí próisis gaolmhara de réir struchtúr sonraí caighdeánach UPU S25 'Sonraí Seirbhíse Forlíontacha'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Aitheantais Riaracháin Poist, bheith ina n-aitheantas, a chur in iúl de réir an tsainmhínithe sa chaighdeán UPU S25, d'aon nó níos mó riarachán poist atá bainteach le próiseáil míre poist nó baisce.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>Cód Suímh UPU, is cód é a aithníonn suíomh nó limistéar geografach, nó grúpa gaolmhar de leithéidí suíomhanna nó limistéir, a bhfuil ábharthacht aige le haghaidh idirbhirt ghaolmhaire agus a chomhlíonann ceann de na struchtúir a shainmhínítear i a) go g) thíos: \na) dhá charachtar alfaibéiteacha ceannlitreacha a fhreagraíonn do chód dhá alfa tíre ISO 3166-1 den tír ina bhfuil, nó as a dtagann, na suíomh(anna) nó limistéar/limistéir; \nb) trí charachtar alfaibéiteacha ceannlitreacha a fhreagraíonn do chód IATA an aerfoirt nó na cathrach atá, gar do, nó as a dtagann, na suíomh(anna) nó limistéar/limistéir; \nc) ceithre charachtar nó níos mó a bhfuil na chéad trí cinn acu ag freagairt do chód tíre ISO 3166-1 ina dhiaidh sin stríoc (-), agus an chuid eile ina chód poist sa tír ábhartha; \nd) ceithre charachtar nó níos mó a bhfuil na chéad trí cinn acu ag freagairt do chód tíre ISO 3166-1 ina dhiaidh sin ponc (.), agus an chuid eile ina chód fo-roinn tíre ISO 3166-2 sa tír ábhartha; \ne) cúig charachtar alfaibéiteacha ceannlitreacha a fhreagraíonn do UN/LOCODE na limistéire atá, gar do, nó as a dtagann, na suíomh(anna) nó limistéar/limistéir; \nf) sé charachtar alfa-uimhriúla ceannlitreacha a fhreagraíonn do chód IMPC UPU a leithroinntear de réir chaighdeán S34 UPU; \ng) an comhcheangal, nach lú ná seacht gcarachtar agus níos mó ná 25 carachtar ar fhad, de: \n - cód eisitheora a leithroinntear de réir chaighdeán S31 UPU; \n - cód suímh, atá comhdhéanta de charachtair a tharraingítear ón tacar {A-Z; 0-9} a fhreagraíonn do shonraíochtaí an eisitheora ábhartha.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Cód Suímh UPU Cáilithe, comhcheangal de:\n - catagóir suímh a tharraingítear ó liosta cód UPU 139;\n - aitheantóir sonraí 17U cód suímh UPU.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Clár Ceadúnais le Sonraí Seirbhíse agus Cód Suímh is struchtúr sonraí comhdhéanta é, ag cloí le sonrúchán i gcaighdeán S25 UPU, a chuimsíonn sonrúchán de:\n - aitheantóir míre atá comhlíontach le ISO/IEC 15459;\n - aitheantóir sonraí 5U atá comhlíontach le sonrúchán an tseirbhís a chuirfear ar fáil i leith na míre;\n - aitheantóir sonraí 17U atá comhlíontach le cód suímh UPU nó aitheantóir sonraí 18U atá comhlíontach le cód suímh UPU cáilithe.\n Nóta - Le haghaidh tuilleadh sonraí, féach le do thoil ar chaighdeán S25 UPU. Is féidir an difríocht idir cód suímh UPU simplí (DI 17U) agus cód suímh UPU cáilithe (DI 18U) a chinneadh ón gcéad charachtar. Má tá sé seo uimhriúil, baineann 18U leis; má tá sé alfaibéiteach, baineann 17U leis.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>Locator Sonraí OCR.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Cód Soláthraí a shanntar ag Custaiméir.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Cód Soláthraí a shanntar ag Soláthraí.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>Réamhrá U.P.C. Cuideachta.\nNuashonrú 2020: Molann GS1 nach n-úsáidtear an DI seo a thuilleadh agus go n-aistríonn úsáideoirí an DI seo chuig cáilíochtóirí sonraí GS1 (Aitheantóirí Iarratais) de réir ISO/IEC 15418 agus ISO/IEC 15459-3.\nDe réir GS1, ní úsáidtear an téarma "U.P.C." a thuilleadh agus tá an meiteashonraí (an2+n8) mícheart. Molann GS1 gan an DI seo a úsáid do chur i bhfeidhm sa todhchaí.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>Réamhrá Cuideachta GS1.\nNuashonrú 2020: Molann GS1 nach n-úsáidtear an DI seo a thuilleadh agus go n-aistríonn úsáideoirí an DI seo chuig cáilíochtóirí sonraí GS1 (Aitheantóirí Iarratais) de réir ISO/IEC 15418 agus ISO/IEC 15459-3.\nDe réir GS1, tá an meiteashonraí (an2+n9) mícheart. Molann GS1 gan an DI seo a úsáid do chur i bhfeidhm sa todhchaí.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Cód Aitheantais Iompróra a shanntar de réir caighdeán tionscail a sainmhínítear go frithpháirteach ag an Soláthraí, Iompróir, agus Custaiméir.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Cód Aitheantais Institiúid Airgeadais (sainmhínithe go frithpháirteach).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Cód Aitheantais Monaróra (sainmhínithe go frithpháirteach).</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Cód a shanntar do pháirtí atá freagrach as dliteanas airgeadais do eintiteas nó grúpa eintiteas (e.g., úinéir fardail) (sainmhínithe go frithpháirteach).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Cód Custaiméara a shanntar ag an gCustaiméir.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Cód Custaiméara a shanntar ag an Soláthraí.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Aitheantas Monaróra\nNÓTA - Féach Iarscríbhinn 2, Treoracha CBP 7501.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Eagraíocht a bhfuil freagracht bhuiséid aici do eintiteas, próiseas, nó nós imeachta (e.g., siopa, roinn, rannóg)(arna shannadh go hinmheánach).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>Uimhir DUNS a Aithníonn Monaróir.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>Uimhir DUNS a Aithníonn Soláthraí.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>Uimhir DUNS a Aithníonn Custaiméir.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Uimhir Seoltóra a shanntar ag Iompróir.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>Aitheantas Soláthraí VMRS.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>Cód CAGE U.S. DoD.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Aitheantas Páirtí chuig Idirbheart ina bhfuil an formáid sonraí comhdhéanta de dhá shraith nasctha. Is é an chéad sraith an Cód Gníomhaireachta Eisithe (IAC) de réir ISO/IEC 15459, an dara sraith is ea an aitheantas eintiteas uathúil Uimhir Aitheantais Cuideachta (CIN) a shanntar de réir rialacha a bhunaigh an gníomhaireacht eisithe (féach http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Sonraíocht de róil páirtí(í) i dtranascairt, comhdhéanta de cheann nó níos mó luachanna cód ó Liosta Cód EDIFACT 3035 'Cáilíochtóir Páirtí', scartha ag carachtair pluis (+) (Riamh le comhcheangal le DIs eile i siombail líneach nó meáin eile áit a bhfuil an carachtar comhcheangail ina charachtar pluis (+)).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Aitheantas Páirtí chuig Idirbheart a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin carachtar pluis (+) agus leanann ceann nó níos mó luachanna cód ó Liosta Cód EDIFACT 3035 'Cáilíochtóir Páirtí', scartha ag carachtair pluis (+) (Níor chóir iad a comhcheangal le DIs eile i siombail líneach nó i meáin eile áit a bhfuil an carachtar comhcheangail ina charachtar pluis (+)).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Aitheantas Páirtí chuig Idirbheart, m.sh., 21V IAC CIN OSU, a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC, ina dhiaidh sin CIN, ina dhiaidh sin aitheantas aonad fo-eagraíochtúil a shanntar ag an CIN atá uathúil laistigh de réimse sealbhóir an CIN.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>Cód SCAC Iompróra.\nCód Alfa Caighdeánach Iompróra - Sannann Cumann Náisiúnta Tráchta Lasta Mótair, Inc., (NMFTA) SCACanna do gach cuideachta seachas na códanna a úsáidtear le haghaidh aitheantas coimeádán lastais nach n-oibríonn go heisiach i Meiriceá Thuaidh, chassis idirmhódúil agus leantóirí, carranna iarnróid nach le húinéirí iarnróid iad, agus iarnróid. http://www.nmfta.org/Pages/welcome.aspx\nBa chóir do chuideachtaí a lorgaíonn códanna aitheantais do choimeádáin lastais nach n-oibríonn i Meiriceá Thuaidh teagmháil a dhéanamh le Bureau International des Containers, 38, rue des Blancs Manteaux, F75004 Paris, France, ríomhphost: bic@bic-code.org, gréasán www.biccode.org. Ba chóir do iarnróidí agus d'úinéirí chassis idirmhódúil, leantóirí agus carranna iarnróid nach le húinéirí iarnróid iad teagmháil a dhéanamh le Seirbhís do Chustaiméirí Railinc, Acht: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, ríomhphost: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Uimhir CBL a shanntar ag an Rialtas a aithníonn soláthraí, ag tosú le cód tíre alfa-2 ISO 3166-1 (seachas an Ghréig, a úsáideann an cód teanga ISO 639-1 EL), ina dhiaidh sin an uimhir CBL a shanntar ag an rialtas.\nSampla:\n23VIE6388047V a shanntar do Google Éireann.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Uimhir CBL a shanntar ag an Rialtas a aithníonn custaiméir, ag tosú le cód tíre alfa-2 ISO 3166-1 (seachas an Ghréig, a úsáideann an cód teanga ISO 639-1 EL), ina dhiaidh sin an uimhir CBL a shanntar ag an rialtas.\nSampla:\n24VIE6388047V a shanntar do Google Éireann.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Ag dearbhú go bhfuil an cód NCAGE/CAGE a leanann DI 25V mar an Monaróir. Páirtí chuig idirbheart ina ndeirtear go bhfuil an cód Eintiteas Tráchtála agus Rialtais NATO (NCAGE) / Cód Eintiteas Tráchtála agus Rialtais (CAGE) a úsáidtear taobh thiar de DI 25V fógartha mar an monaróir na míre(anna) atá i gceist sa trádáil. Beidh na sonraí a leanann DI 25V comhdhéanta de chúig charachtar alfa-uimhriúla uachtaracha, ag seachaint na litreacha "I" agus "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Uimhir Ordaithe Oibre (e.g., 'Páipéar Táirgthe') (arna shannadh go hinmheánach).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Uimhir Seicheamh Oibríochta. Uimhir a shainmhíníonn ord seicheamh oibríochta ar leith i sraith oibríochtaí, de ghnáth i bpróiseas déantúsaíochta nó tionóil.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Cód Oibríochta/Cód Oibre - cineál oibre le déanamh (arna shannadh go hinmheánach nó a sainmhínítear go frithpháirteach).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Comhcheangal de Uimhir Ordaithe Oibre agus Uimhir Seicheamh Oibríochta sa fhormáid nn...n+nn...n áit a n-úsáidtear siombail pluis (+) mar dheighilteoir idir Uimhir Ordaithe Oibre agus Uimhir Seicheamh Oibríochta.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Cód Stádais (arna shannadh go hinmheánach nó a sainmhínítear go frithpháirteach).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Cód Aonad Oibre - aithníonn córas, fo-chóras, tionól, comhpháirt srl. ar a ndéantar cothabháil.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Ainmniúchán - (arna shannadh go hinmheánach nó a sainmhínítear go frithpháirteach).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Uimhir Rialaithe Foirm - Uimhir rialaithe réamhphriontáilte ar fhoirmeacha.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Cigire Cáilíochta - Sloinne.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Uimhir Theileafóin an Duine/Gníomhaíochta a Chomhlánaíonn an Fhoirm - curtha in iúl sa fhormáid (cód tíre) cód cathrach nó ceantair móide uimhir áitiúil i.e. (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Sainmhínithe go Frithpháirteach idir Custaiméir agus Soláthraí</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Sainmhínithe go Frithpháirteach idir Iompróir agus Soláthraí</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Sainmhínithe go Frithpháirteach idir Custaiméir agus Iompróir</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Téacs Saor</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Sainmhínithe go Frithpháirteach idir Iompróir agus Comhpháirtí Trádála</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Ceanntásca)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 1)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 2)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 3)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 4)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 5)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 6)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 7)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 8)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 9)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 10)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 11)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 12)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 13)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 14)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 15)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 16)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 17)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 18)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 19)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 20)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 21)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 22)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 23)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 24)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 25)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 26)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 27)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 28)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 29)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 30)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 31)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 32)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 33)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 34)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 35)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 36)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 37)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 38)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 39)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 40)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 41)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 42)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 43)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 44)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 45)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 46)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 47)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 48)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 49)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 50)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 51)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 52)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 53)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 54)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 55)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 56)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 57)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 58)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 59)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 60)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 61)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 62)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 63)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 64)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 65)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 66)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 67)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 68)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 69)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 70)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 71)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 72)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 73)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 74)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 75)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 76)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 77)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 78)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 79)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 80)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 81)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 82)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 83)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 84)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 85)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 86)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 87)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 88)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Téacs Saor Struchtúrtha (Sonraí Líne 89)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>An carachtar 'EQUAL'. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Leanúint de Chód Míre (Catagóir 16) a shanntar ag Custaiméir atá ró-fhada don mhéid réimse riachtanach.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Leanúint de Chód Rianaithe (Catagóir 20) a shanntar ag Soláthraí.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Leanúint d'Uimhir Shraithuimhir (Catagóir 19) a shanntar ag Soláthraí.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Leanúint de Théacs Saor (Catagóir 26) a sainmhínítear go frithpháirteach idir Soláthraí/Iompróir/Custaiméir.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Leanúint de Thagairt Idirbhirt (Catagóir 11) a sainmhínítear go frithpháirteach idir Soláthraí/Iompróir/Custaiméir.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Leanúint de Chód Míre (Catagóir 16) a shanntar ag Soláthraí.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Carachtar FUNC1 (Feidhm 1). Tá sé le feiceáil sa chéad suíomh tar éis carachtar tosaigh siombalachta de Shíombail Code 128, Code 49, nó Code 16K chun siombail rialaithe ag GS1 a léiriú.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Formáid YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Formáid DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Formáid MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Formáid YDDD (Julian).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Formáid YYDDD (Julian).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>Formáid YYMMDD láithreach in éineacht le Uimhir Eilimint Sonraí ANSI X12.3 Uimhir 374 a sholáthraíonn cód a shonraíonn cineál dáta (e.g., dáta loingsithe, dáta déantúsaíochta).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>Formáid YYYYMMDD láithreach in éineacht le Uimhir Eilimint Sonraí ANSI X12.3 Uimhir 374 a sholáthraíonn cód a shonraíonn cineál dáta (e.g., dáta loingsithe, dáta déantúsaíochta).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Formáid MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Imeacht, Dáta, agus Am.\nFormáid YYYYMMDDHHMM (clog 24 uair an chloig - UTC) láithreach in éineacht le Cáilíochtóir Cód UN/EDIFACT 2005 a sholáthraíonn cód a shonraíonn cineál dáta), e.g.,\n11 [Dáta a bhfuiltear ag súil leis go seolfar/loingseofar earraí tar éis don teachtaireacht a bheith eisithe.];\n17 [Dáta/Am measta seachadta nuair a bhfuiltear ag súil go seachadfar na hearraí];\n35 [Dáta ar a seachadadh na hearraí chuig a gceann scríbe.];\n118 [Áirithint Deimhnithe];\n129 [Dáta nuair a d'imigh an long/earraí ón gcalafort deireanach eachtrach sa tír onnmhairithe.];\n132 [Dáta/Am nuair a mheastar go sroichfidh modh iompair an calafort díluchtaigh nó áit an cheann scríbe.];\n133 [Dáta/Am nuair a mheastar go bhfágfaidh modh iompair áit an imeachta];\n137 [Dáta/Am nuair a seolann an soláthraí codanna bunaithe ar iarratas an chustaiméara. (Dáta a eisítear DESADV. Moladh go n-eisítear an DESADV laistigh de 30 nóiméad ó earraí a bheith bailithe ag Páirtí Loingsithe];\n146 [Dáta Measta Iontrála (Custaim) dáta ar a bhfuil an dáta oifigiúil Iontrála Custaim measta.];\n151 [Dáta Iompórtála (Tagtha chuig calafort le hintinn díluchtaithe];\n186 Fágann Áis ('Geata-amach)];\n204 [Dáta ar a scaoileann Custaim earraí chuig an iompróir nó allmhaireoir];\n253 [Fágann ó Chalafort ('Fágáil an tSoithigh')];\n252 [Tagann chuig Calafort ('Teacht an tSoithigh')];\n283 [Tagann chuig Áis ('Geata-isteach)];\n342 [Lódáilte ar Iompar];\n351 [Iniúchadh Geata Teirminéil];\n411 [Ordaithe Líonta];\n412 [Ordaithe Stróicthe];\n420 [Díluchtaithe ó Iompar];\n534 [Deisithe];\n677 [Deimhnithe Líonta];\n678 [Deimhnithe Stróicthe];\n696 [Dáta Comhdaithe].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Dáta (struchtúr agus tábhacht sainmhínithe go frithpháirteach).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Formáid YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Formáid YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Formáid YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Dáta Déantúsaíochta is Sine agus is Nuaí sa fhormáid YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Dáta Éaga (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Dáta Éaga (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Dáta Táirgthe (YYYYMMDD) - Dáta déantúsaíochta.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Dáta Táirgthe (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Am Gníomhachtaithe an Chlib.\nYYYYMMDDHHMM (clog 24 uair an chloig - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Am Díghníomhachtaithe an Chlib.\nYYYYMMDDHHMM (clog 24 uair an chloig - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Dáta Iniúchta (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Dáta Seachadta Riachtanach (DDD Julian) nó Cód MILSTAMP DOD.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Am Taifeadta.\nYYYYMMDDHHMM (clog 24 uair an chloig - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Dáta, léirithe i bhfoirm UTC athraithe:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] áit a léiríonn cearnóga roghnachtacht agus tá yyyy mar an bhliain, mmdd mar an mhí agus an lá, hhmmss mar am an lae i n-uaireanta, nóiméid agus soicind, fff na codanna de shoicind agus poooo an difríocht ó UTC i n-uaireanta agus nóiméid, an difríocht a bheith dearfach má tá p mar phointe (.), diúltach má tá P mar chomhartha lúide (-).\nSAMPHAÍL:\n2005 - (UTC) bliain féilire 2005;\n200505 - (UTC) mí féilire Bealtaine 2005;\n20050518 - (UTC) 18 Bealtaine 2005;\n200505181247 - 12:47 UTC ar 18 Bealtaine 2005;\n200505181247.0100 - 12:47 am áitiúil, ag a bheith 11:47 UTC, ar 18 Bealtaine 2005;\n20050518124723099 - 99 millisoicind tar éis 12:47:23 UTC ar 18 Bealtaine 2005.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Dáta Cáilithe, ag comhdhéanamh de:\n- cód eisitheora ISO/IEC 15459;\n- cáilíochtóir dáta de réir shonraíochtaí an eisitheora sin;\n- dáta a bhfuil a fhormáid agus a léirmhíniú ag cloí le sonraíochtaí an eisitheora sin don cháilíochtóir dáta sin.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Dáta is Fearr Roimh: (YYYYMMDD).\nSampla: 25D20170202 = 2 Feabhra, 2017</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Dáta Reoite is Tosaigh (YYYYMMDD).\nSainmhínítear an chéad dáta reo mar an dáta ar reoitear táirgí díreach tar éis dúnmharú, fómhar, gabháil nó tar éis próiseála tosaigh.\nSampla: 26D20170721 = 21 Iúil, 2017.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Dáta an Fhómhair (YYYYMMDD).\nAn dáta ar maraíodh ainmhí nó ar gabhadh iasc, nó ar fómharadh barra.\nSampla: 27D20170615 = 15 Meitheamh, 2017.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Raon Dáta an Fhómhair (YYYYMMDDYYYYMMDD).\nAn dáta tosaigh agus an dáta deiridh thar a bhfómharadh.\nMar shampla; maraíodh ainmhithe nó gabhadh iasc, nó fómharadh barra.\nSainmhínítear an sreabhadh sonraí mar an chéad YYYYMMDD mar an dáta tosaigh agus an YYYYMMDD deireanach mar an dáta deiridh.\nSampla:\n28D2017012320170214 = Tosaigh; 23 Eanáir, 2017. Deireadh; 14 Feabhra, 2017.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Clé Cearnógach', 'Deas Lúibín', 'Comhartha Níos Mó Ná', 'Scarthaí Taifead' carachtair. Struchtúr sonraí comhlíontach le ISO/IEC 15434, Teicneolaíocht faisnéise - Teicnící Aitheantais Uathoibríoch agus Bailiú Sonraí - Sintéis le haghaidh Meáin ADC Ard-Acmhainne.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Aicmiú Substaintí Srianaithe - 'Cód Aicmithe Comhshaoil' lena n-áirítear catagóirí críche Luaidhe-Saor (Pb-Saor) a shainmhínítear in JESD97 (IPC JEDEC J-STD-609), agus códanna a shanntar ag tionscail nó ag gníomhaireachtaí rialtais sa todhchaí a bhaineann le comhlíontacht rialála comhshaoil agus ábhar ábhartha guaiseach.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Brú Aeir - (airde) léirithe i bPascal mar an t-aonad idirnáisiúnta caighdeánach.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Teocht Uasta Cheadaithe. Teocht uasta cheadaithe; Céimeanna Celsius, '-' (lúide) códaithe, más gá.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Teocht Íosta Cheadaithe.\nTeocht íosta cheadaithe; Céimeanna Celsius, '-' (lúide) códaithe, más gá.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Taise Choibhneasta Uasta Cheadaithe.\nTaise choibhneasta uasta cheadaithe, tuigthe mar chéatadán.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Taise Choibhneasta Íosta Cheadaithe.\nTaise choibhneasta íosta cheadaithe, léirithe mar chéatadán.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Teocht Coimeádáin Cuisneora.\nDo lastas atá faoi rialú teochta, an sprioc sonraithe ag an seoltóir, Céimeanna Celsius, '-' (lúide) códaithe, más gá.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Innéacs Teochta Amlíne iomlánaithe - léirithe mar líon na dtomhas nó na gcomhaireamh.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Innéacs Teochta Amlíne - Aonad Níos Airde - léirithe mar líon na dtomhas nó na gcomhaireamh.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Dearbhú de Chatagóir Ábhair Pacáistithe*, Cód* agus Meáchan le haghaidh ábhar pacáistithe ar leith a úsáidtear i bpacáistiú ar leith de réir threoir AE maidir le pacáistiú agus dramhaíl phacáistithe. (Catagóir ábhair agus cód sainmhínithe in Iarscríbhinn M).\n12ECCMMMMMMNNNNNUU áit: - '12E' (an3) is é an Aitheantóir Sonraí;\n - 'CC' (n2) is é Catagóir an Ábhair de réir Iarscríbhinn M;\n - 'MMMMMM' (an1...6) is é Cód an Ábhair de réir Iarscríbhinn M;\n - 'NNNNN' (n5) Meáchan an Ábhair, lena n-áirítear pointe deachúil (e.g., 12.12);\n - 'UU' (an2) is é Aonad tomhais don mheáchan (e.g., KG, GR, LB nó OZ de réir ANSI X12.3 mar atá in Iarscríbhinn D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>An leanas tar éis DI 13E beidh ceann de na táscairí MSL (1, 2, 2a, 3, 4, 5, 5a, 6) mar a thaispeántar sa cholún LEVEL i dTábla 5-1 de chaighdeán JEDEC IPC/JEDEC J-STD-020E. Taispeántar an Tábla thíos mar thagartha amháin; ba chóir an leagan is déanaí den chaighdeán tagartha a úsáid chun an MSL ceart don chomhpháirt shonrach a fháil. Sampla: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>An carachtar 'HYPHEN' nó 'MINUS'. Uimhir Lárnach Cógaisíochta (PZN), rialaithe ag IFA-ABDATA, An Ghearmáin (Clárú an t-aitheantóir córais seo éagtha ar 2016-07-01). Athsholáthar ag '9N'.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Ceannlíne Lúbtha.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Mo thuismitheoir ______ is ea . . . Aitheantas uathúil in éineacht le hAitheantóir Sonraí agus sonraí gaolmhara (le húsáid le pacáistiú in-aisíoctha). Ní mór an tAitheantóir Sonraí seo a leanúint díreach tar éis an réimse (atá déanta as Aitheantóir Sonraí, sonraí agus scaradh grúpa) lena mbaineann sé.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Tá ______ leanaí agam . . . (le húsáid le pacáistiú in-aisíoctha, m.sh.; 3F10, do dheich leanaí). Ní mór an tAitheantóir Sonraí seo a leanúint díreach tar éis an réimse (atá déanta as Aitheantóir Sonraí, sonraí agus scaradh grúpa) lena mbaineann sé.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Sannadh Lógach le Leathanach Faisnéise i ngrúpa leathanach a scaiptear thar iliomad iompróirí sonraí, struchtúrtha mar shraith de suas le trí (3) eilimintí sonraí comhcheangailte, scartha le slais ( / ) :\n Uimhir leathanaigh (riachtanach), ina dhiaidh sin líon na leathanach (roghnach, riachtanach don leathanach deireanach), ina dhiaidh sin aitheantas grúpa alfa-uimhriúil (roghnach; má úsáidtear é ansin riachtanach do gach leathanach agus struchtúrtha de réir ISO/IEC 15459-3 mar shraith de 3 eilimintí sonraí: Cód Eisitheora, ina dhiaidh sin an Uimhir Aitheantais Cuideachta, ina dhiaidh sin cód uathúil alfa-uimhriúil laistigh de réimse an eisitheora). Slaiseanna deiridh roghnach.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Tá ______ leanaí agam agus iad . . . (le húsáid le pacáistiú in-aisíoctha) Ní mór an tAitheantóir Sonraí seo a leanúint díreach tar éis an réimse (atá déanta as Aitheantóir Sonraí, sonraí agus scaradh grúpa) lena mbaineann sé.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>An carachtar 'EXCLAMATION MARK'. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Ainm an Pháirtí.\nAinm páirtí in éineacht le carachtar pluis (+) ina dhiaidh sin agus ceann nó níos mó luachanna cód ó Liosta Cód EDIFACT 3035 'Cáilíochtóir Páirtí', e.g.;\nBY [Ceannaitheoir];\nCF [Oibreoir coimeádáin];\nCN [Consignee];\nCS [Consaladóir];\nDEI [Oibreoir long/captaen na long];\nFA [Cód foirne oibríochtúla];\nIM [Allmhaireoir];\nMF [Monaróir];\nOS [Seoltóir];\nSE [Díoltóir];\nST [Seol Chuig];\nUC [Consignee deiridh].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Cód Aitheantais Fostaí a shanntar ag fostóir.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>Uimhir Árachais Shóisialta na SA.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Uimhir Aitheantais do Neamhfhostaí (arna shannadh go hinmheánach nó a sainmhínítear go frithpháirteach) (e.g., oibrithe conartha, soláthraithe, seirbhís, agus foireann seachadta).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Uimhir Árachais Shóisialta Náisiúnta.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Sloinne.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Ainm an Pháirtí (Líne 2).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Teileafón Teagmhála.\nCód Tíre, Cód Ceantair, Malartú, uimhir [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Ríomhphost Teagmhála.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Uimhir an Chonsainí.\nIs féidir leis an uimhir aitheantais uathúil a bheith ina hUimhir CBL IRS, EIN, SSN, nó an uimhir a shanntar ag CBP, mar is gá don Chomhad Slándála. Ní mór na formáidí seo a leanas a úsáid amháin: IRS EIN: NN-NNNNNNN;\nIRS EIN le síneadh:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nUimhir a shanntar ag CBP: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Cód Aitheantais Pearsanta (an chéad tús litir, an dara tús litir, ceithre dheireadh na SSN).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Ainm Tosaigh agus Tosaigh Mheánach.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Grád Míleata (E1-E9, W1-W5, agus O1-O10).\nNuashonrú 2020: Athraíodh an formáid meiteashonraí chun aontú leis na gráid oifigeach atá á n-úsáid ag an míleata: "an2+an3". Athraíodh an fhaisnéis Míniúcháin chun: "Grád Míleata (E1-E9, W1-W5, agus O1-O11) a léiriú.</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Uimhir Aitheantais Náisiúnta, Uimhir Aitheantais Náisiúnta, nó Uimhir Árachais Náisiúnta a úsáidtear mar bhealach chun daoine a aithint laistigh de thír maidir le hobair, cánachas, sochair rialtais, cúram sláinte, agus feidhmeanna rialtais eile.\nStruchtúr an aitheantóra seo ná DI (15H) in éineacht le Cód Tíre Alfa2 ISO 3166-1 ina dhiaidh sin an cód aitheantais rialtais a shanntar don duine.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Aitheantas Pearsanta Domhanda Uathúil. a shanntar ag sealbhóir Uimhir Aitheantais Cuideachta (CIN) agus lena n-áirítear an Cód Gníomhaireachta Eisithe (IAC) de réir ISO/IEC 15459 agus a chlárlann, struchtúrtha mar shraith de 3 eilimintí sonraí comhcheangailte: IAC ina dhiaidh sin CIN, ina dhiaidh sin an ID uathúil laistigh de réimse sealbhóir an domhain.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Aitheantas Pearsanta Domhanda Uathúil, le "Cáilíochtóir Páirtí" luach cód ó Liosta Cód EDIFACT 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Aitheantas Feithicle Uathúil - Uimhir Aitheantais Feithicle (VIN) mar a shainmhínítear sna Stáit Aontaithe faoi 49 CFR, Alt 565 agus go hidirnáisiúnta ag ISO 3779. (Is struchtúir sonraí go hiomlán comhoiriúnacha iad seo).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Cód VIN Giorraithe.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Aitheantas uathúil iompair feithicle (e.g., Trucailí) ag comhdhéanamh d'Uimhir Aitheantais Feithicle (VIN) mar a shainmhínítear sna Stáit Aontaithe faoi 49 CFR Alt 565, agus go hidirnáisiúnta ag ISO 3779, in éineacht leis an carachtar '+', ansin in éineacht le hUimhir Cheadúnais Cláraithe Feithicle rialtais sa bhfoirm '4I' 'VIN' '+' 'uimhir cheadúnais cláraithe feithicle rialtais' (tá luachana agus spásanna le haghaidh soiléire amháin; ní cuid den sonra iad).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Aitheantas táirgeachta uathúil feithicle a úsáidfear le linn phróisis táirgthe an fheithicle, comhdhéanta d'Uimhir Chlib an Choirp (BTN; nó aon sainmhíniú eile a úsáidtear chun corp an chairr amh, nó ar bhealach eile, an t-asarlaíocht páirteanna atá in úsáid chun táirgeadh feithicle a thosú), ina dhiaidh sin an carachtar '+', ansin ina dhiaidh sin Uimhir Ordú Táirgthe (PON), ina dhiaidh sin an carachtar '+', agus ansin ina dhiaidh sin Uimhir Shraithuimhir a shanntar ag an Monaróir (SN). NÓTA - Ba chóir an chomhpháirt SN a athsholáthar leis an VIN chomh luath agus atá an VIN ar fáil sa phróiseas tionóil.\nTógáil mar seo a leanas;\n"5I" "BTN" "+" "PON" "+" "SN"\nag athrú go (nuair atá VIN ar fáil)\n"5I" "BTN" "+" "PON" "+" "VIN"\nNÓTA - Léirítear luachana agus spásanna le haghaidh soiléire amháin; ní cuid den sonra iad.\nNÓTA - Níor chóir an DI seo a chomhcheangal le DIs eile i siombail líneach nó i meáin eile áit a bhfuil an carachtar comhcheangail ina charachtar pluis (+).\nSamplaí:\nLeagan SN: 5IABCD1234+CO1234+W0L201600500001\nLeagan VIN: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

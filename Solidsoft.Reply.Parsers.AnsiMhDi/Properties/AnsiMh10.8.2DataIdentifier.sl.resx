@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>Znak '+'. Svetovni svet za poslovno komunikacijo v zdravstvu (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Unikatna registrska tablica.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Unikatna registrska tablica, dodeljena transportni enoti, ki je najnižja raven pakiranja, nedeljiva enota.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Unikatna registrska tablica, dodeljena transportni enoti, ki vsebuje več paketov.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Unikatna registrska tablica, dodeljena transportni enoti, ki je najnižja raven pakiranja, nedeljiva enota in ima povezane podatke EDI z enoto.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Unikatna registrska tablica, dodeljena transportni enoti, ki vsebuje več paketov in je povezana s podatki EDI.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Unikatna registrska tablica, dodeljena mešani transportni enoti, ki vsebuje različne predmete v eni transakciji kupca in ima lahko povezane podatke EDI ali pa ne.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Unikatna registrska tablica, dodeljena glavni transportni enoti, ki vsebuje podobne predmete v eni transakciji kupca in ima lahko povezane podatke EDI ali pa ne.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Registrska številka vozila (ni unikatna brez identifikacije države in izdajateljskega vladnega območja/avtoritete)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Pomorska mobilna identifikacijska številka (MMSI).\nDevetmestna številka, urejena s strani Mednarodne telekomunikacijske zveze za unikatno identifikacijo ladje ali obalne radijske postaje. Primer: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Številka naročila, dodeljena s strani kupca za identifikacijo nakupne transakcije (npr. številka naročilnice).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Številka naročila, dodeljena s strani dobavitelja za identifikacijo nakupne transakcije.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Koda identifikacije pošiljke/tovornega lista, dodeljena s strani dobavitelja/prevoznika.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Koda identifikacije pošiljke/tovornega lista, dodeljena s strani prevoznika.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Številka vrstice naročila, dodeljena s strani kupca za identifikacijo nakupne transakcije.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Referenčna številka, dodeljena s strani kupca za identifikacijo odobritve pošiljke (izdaje) proti vzpostavljenemu naročilu za nakup.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>PRO# Dodeljeno s strani prevoznika.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Način prevoza v prostem besedilu, medsebojno definiran med kupcem in dobaviteljem (npr., Zrak, Tovornjak, Čoln, Vlak).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Številka pogodbe.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Generična referenčna koda transakcije (notranje dodeljena ali medsebojno definirana).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Številka računa.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Številka pakirnega seznama.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Standardna alfa koda prevoznika) (an4 - levo zapolnjeno z vezajem '-') in prevoznikova dodeljena PROgresivna številka.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Številka tovornega lista /Številka prevoznega potrdila SCAC + B/L številka kontejnerskega tovora ali številka tovornega lista.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Kombinirana številka naročila in številka vrstice v formatu nn...nn+nn...n, kjer se simbol plus (+) uporablja kot ločilnik med številko naročila in številko vrstice.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>Številka KANBAN.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>Številka DELINS: koda, dodeljena za identifikacijo dokumenta, ki vsebuje informacije o dostavi.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Številka čeka.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Strukturirana referenenca.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Številka primera tujih vojaških prodaj.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Identifikator licence, ki je globalno unikaten identifikator za licenco ali pogodbo, pod katero so predmeti generirani, predloženi za obdelavo in/ali plačani, ki je sestavljen z združevanjem:\n - kode izdajateljske agencije ISO/IEC 15459;\n - številke licence ali pogodbe, ki je v skladu s specifikacijami zadevne izdajateljske agencije;\n in da:\n - vsebuje samo velike črke abecede in/ali številčne znake;\n - je unikaten (to je, različen od katerega koli drugega identifikatorja, skladnega z ISO/IEC 15459) znotraj domene izdajateljske agencije;\n - ni mogoče izpeljati iz katerega koli drugega identifikatorja, skladnega z ISO/IEC 15459, izdanega pod isto izdajateljsko agencijo, z enostavnim dodajanjem znakov na konec ali njihovim odstranjevanjem.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Podatki kupca, ki:\n - iz perspektive kupca, so povezani z artiklom ali transakcijo, ali z serijo ali sorodnimi artikli ali transakcijami, in\n - vsebuje do 35 tiskljivih znakov in/ali presledkov, razen plus (+), izvlečenih iz nabora znakov, definiranih v ISO/IEC 646.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>'22K' Informacije o avtentikaciji transakcije, ki so vrednost, sestavljeno z združevanjem:\n - kode izdajateljske agencije ISO/IEC 15459;\n - vrednosti, ki je v skladu s specifikacijami zadevne izdajateljske agencije,\n ki omogoča preverjanje avtentičnosti zadevne transakcije in zlasti, da je bila transakcija začeta s strani stranke, navedene v transakciji kot njen iniciator, s strani:\n - prejemnika transakcije, in/ali\n - ene ali več strank, vključenih v njeno obravnavo ali obdelavo, in/ali\n - zaupanja vredne tretje stranke.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Globalno unikatna identifikacija skupin transportnih enot, dodeljena s strani prevoznika, definirana kot:\nIdentifikacija stranke v transakciji, kot je dodeljeno s strani imetnika identifikacijske številke podjetja (CIN) in vključno z zadevno kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 združenih podatkovnih elementov: IAC, sledi CIN, sledi številka tovornega lista ali tovornega lista ali koda identifikacije pošiljke, ki je unikatna znotraj domene imetnika CIN.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Globalno unikatna identifikacija skupin transportnih enot, dodeljena s strani pošiljatelja, definirana kot:\nIdentifikacija stranke v transakciji, dodeljena s strani imetnika identifikacijske številke podjetja (CIN) in vključno z zadevno kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 združenih podatkovnih elementov: IAC, sledi CIN, sledi številka tovornega lista ali tovornega lista ali koda identifikacije pošiljke, ki je unikatna znotraj domene imetnika CIN.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Številka ponudbe, dodeljena ponudbi s strani dobavitelja kot odgovor na zahtevo kupca za ponudbo.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Lokacija skladiščenja.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Lokacija.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>Koda lokacije 'Pošlji na:', določena po industrijskem standardu ali medsebojno definirana.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>Koda lokacije 'Pošlji iz:', določena po industrijskem standardu ali medsebojno definirana.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Država izvora, dvomestna koda države ISO 3166. Ob dogovoru trgovinskih partnerjev in ko je država izvora mešana, se uporabi koda države 'AA'.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>Koda lokacije 'Pošlji za:', določena po industrijskem standardu ali medsebojno definirana.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Koda poti, dodeljena s strani dobavitelja za določitev specifične transportne poti.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>6-mestna koda oddelka obrambe ZDA (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Pristanišče vkrcanja - Medsebojno definirano.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Pristanišče izkrcanja - Medsebojno definirano.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Lokacija (geografska širina/dolžina/višina) kodirana v formatu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>Lokacija 'Pošlji na:' (geografska širina/dolžina/višina) kodirana v formatu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>Lokacija 'Pošlji iz:' (geografska širina/dolžina/višina) kodirana v formatu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Lokacija 'Pošlji za:' (geografska širina/dolžina/višina) kodirana v formatu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Lokacija aktivacije oznake.\nIme lokacije v angleščini (nabor znakov: 0-9, A-Z &lt;Presledek&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Lokacija deaktivacije oznake.\nIme lokacije v angleščini (nabor znakov: 0-9, A-Z &lt;Presledek&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>Koda ribolovnega območja FAO, kot je določeno z oddelkom za ribištvo in akvakulturo FAO (http://www.fao.org. Iskanje pod-strani kode ribolovnega območja).\nDovoljeni so vsi znaki podmnožice GS1 General Specification, definirane z ISO/IEC 646.\nPrimeri:\n18L37.1.3 Zahodno Sredozemsko morje, Sardinija;\n18L47.B.1 Atlantik, jugovzhod, delitev SEAFO, namibijska izključna ekonomska cona;\n18L67 Pacifik, severovzhod.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Prva stopnja (notranje dodeljena).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Druga stopnja (notranje dodeljena).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Tretja stopnja (notranje dodeljena).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Četrta stopnja (notranje dodeljena).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Peta stopnja (notranje dodeljena).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Identifikacija stranke v transakciji, npr. 25L IAC CIN LOC, dodeljena s strani imetnika identifikacijske številke podjetja (CIN) in vključno z zadevno kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 združenih podatkovnih elementov: IAC, sledi CIN, sledi fizična notranja lokacija (LOC), ki je unikatna znotraj domene imetnika CIN.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Koda lokacije, ki predstavlja kodo, ki identificira lokacijo ali geografsko območje ali povezano skupino takih lokacij ali območij, ki ima pomen za sorodno transakcijo in ki ustreza eni od struktur, definiranih v (a) do (f) spodaj:\na) dva velika črkovna znaka, ki ustrezata dvomestni alfa kodi države ISO 3166-1 države, v kateri se nahajajo ali sestavljajo lokacije ali območja;\nb) tri velike črkovne znake, ki ustrezajo kodi IATA letališča ali mesta, v, blizu ali sestavljajočem lokacije ali območja;\nc) štirje ali več znakov, od katerih prvi trije ustrezajo dvomestni kodi države ISO 3166-1, sledi vezaj (-), z ostalimi, ki predstavljajo poštno številko v dotični državi;\nd) štirje ali več znakov, od katerih prvi trije ustrezajo dvomestni kodi države ISO 3166-1, sledi pika (.), z ostalimi, ki predstavljajo kodo podrazdelitve države ISO 3166-2 v dotični državi;\ne) pet velikih črkovnih znakov, ki ustrezajo kodi UN/LOCODE območja, v, blizu ali sestavljajočem lokacije ali območja;\nf) združevanje, dolžine ne manj kot sedem in ne več kot 35 znakov, sestavljenih iz:\n- kode izdajateljske agencije ISO/IEC 15459;\n- kode lokacije, sestavljene iz znakov, izbranih iz nabora {A-Z; 0-9}, ki ustrezajo specifikacijam zadevne izdajateljske agencije.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Lokacija dogodka UN/LOCODE.\nUN/LOCODE, sledi plus (+) znak, sledi ena ali več kodnih vrednosti iz seznama kod EDIFACT 3227 'Kvalifikator funkcije lokacije', npr.,\n7 Mesto končne dostave;\n5 Pristanišče odhoda;\n9 Pristanišče natovarjanja;\n11 Pristanišče raztovarjanja;\n13 Mesto pretovarjanja;\n24 Pristanišče vstopa;\n35 Država izvoza;\n88 Mesto prevzema prevoznika;\n125 Tuje pristanišče pred odhodom v ZDA;\n147 Prostor za shranjevanje/lokacija;\n159 Mesto dostave (prejemniku);\n248 Lokacija nalaganja\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Številka in ulični naslov.\nUporablja se v povezavi z H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Ime mesta.\nUporablja se v povezavi z H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Podrobnosti podenote države.\nUporablja se v povezavi z H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Poštna številka.\nUporablja se v povezavi z H, 6H, 28L, 29L, 30L, 31L, 32L (Če se uporablja vezaj '-', mora biti izrecno kodiran).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Koda države.\nISO 3166-1 alfa 2 koda\nUporablja se v povezavi z H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Enotni vir lokatorja (URL).\nVključuje vse znake, ki sestavljajo URL, vključno s podatki glave, kot so npr. http://. Nabor znakov, kot je naveden v RFC 1738.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Kazalec na URL procesa (P2P URL) za začetek URL, ki nosi vse druge kodirane podatke v mediju AIDC po naslednjem pravilu: Skenirajte kodo in začnite URL z nizom P2P URL, izpustite DI 34L in sintakso ovojnice ISO/IEC 15434 (predpono in pripono) ter dodajte vse druge podatkovne elemente, ki so bili skenirani v istem zaporedju, kot so bili kodirani v mediju, vključno z DI in ločilniki podatkovnih elementov. Pretvorite posebne znake v priloženih podatkih v format RFC 1738 (npr. Group Separator 'GS' preveden v zaporedje RFC 1738 %1D). Upoštevajte, da to ne velja za sam P2P URL.\nPrimer: Kodirani podatkovni niz (uporaba ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nrezultira v naslednjem URL z prenesenimi podatki:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nOpomba: podatki iz ovojnice '05' niso bili vključeni v URL, ker je bil 34L kodiran v ovojnici '06'.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Vladna dodeljena številka odobritve za plovilo / akvakulturno lokacijo / kmetijo / predelovalca, ki se začne z alfa-2 kodo države ISO 31661, sledi številka odobritve.\nDovoljeni so vsi znaki podmnožice GS1 General Specification, definirani z ISO/IEC 646.\nPrimer:\n35LIECK0107EC = Država; Irska. Ime plovila; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Vladna dodeljena številka odobritve proizvajalca ali kmetije ali prve dvorane za razkosavanje, ki se začne z alfa-2 kodo države ISO 3166-1, sledi številka odobritve.\nDovoljeni so vsi znaki podmnožice GS1 General Specification, definirani z ISO/IEC 646.\nPrimer:\n36LIECK0107EC = Država; Irska. Ime plovila; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Lokacija pošiljanja iz:' - Koda lokacije, določena s strani poštne uprave (npr., 5-mestne in 9-mestne ZIP kode, ki identificirajo lokacije v ZDA ali 6-mestne poštne kode, ki identificirajo kanadske lokacije).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Lokacija pošiljanja na:' - Koda lokacije, določena s strani poštne uprave (npr., 5-mestne in 9-mestne ZIP kode, ki identificirajo lokacije v ZDA ali 6-mestne poštne kode, ki identificirajo kanadske lokacije).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>'Lokacija pošiljanja iz:' - Koda lokacije, določena s strani poštne uprave v formatu: poštne kode (npr., 5-mestne ZIP kode, ki identificirajo lokacije v ZDA ali 6- ali 7-mestne poštne kode, ki identificirajo lokacije v Združenem kraljestvu) sledi dvomestna koda države ISO 3166 (npr., US ali GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>'Lokacija pošiljanja na:' - Koda lokacije, določena s strani poštne uprave v formatu: poštne kode (npr., 5-mestne ZIP kode, ki identificirajo lokacije v ZDA ali 6- ali 7-mestne poštne kode, ki identificirajo lokacije v Združenem kraljestvu) sledi dvomestna koda države ISO 3166 (npr., US ali GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Obrazec vojske ZDA 2410. Format je vrednost podatka, predhodno označena z blokom številke obrazca 2410. Dolžine polj in sprejemljivi znaki so na voljo na;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nPosodobitev 2020: URL je bil spremenjen v:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Obrazec vojske ZDA 2408. Format je vrednost podatka, predhodno označena z blokom številke obrazca 2408. Dolžine polj in sprejemljivi znaki so na voljo na;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nPosodobitev 2020: URL je bil spremenjen v:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Obrazec vojske ZDA 2407. Format je vrednost podatka, predhodno označena z blokom številke obrazca 2407. Dolžine polj in sprejemljivi znaki so na voljo na;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nPosodobitev 2020: URL je bil spremenjen v:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Obrazec letalske sile ZDA 95. Format je vrednost podatka, predhodno označena z blokom številke obrazca 95. Dolžine polj in sprejemljivi znaki so na voljo na;\nhttp://www.gsa.gov/portal/forms/download/116418.\nPosodobitev 2020: Ime obrazca je "Obrazec letalske sile za tehnični nalog 95 (AFTO Form 95)." Podrobnosti o obrazcu so pridobljene iz tehničnega naloga letalske sile (TO) 00-20-1. URL za ta TO je bil spremenjen v:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Obrazec mornarice ZDA 4790. Format je vrednost podatka, predhodno označena z blokom številke obrazca 2410. Dolžine polj in sprejemljivi znaki so na voljo na;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%2015.pdf.\nPosodobitev 2020: URL ni več veljaven.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Nacionalna/mednarodna zaloga številk (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Podatki o značilnostih izdelka, določeni s strani izmenjave podatkov v kemični industriji (CIDX).</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Kodna struktura v skladu z formatom, določenim s strani Elektronskega združenja industrije Japonske (EIAJ).</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Kodna struktura in formati v skladu z identifikatorji aplikacij GS1 (AI plus podatki) (GS1).</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Kodna struktura in formati v skladu s priporočili AIAG. Celoten identifikator podatkov je v obliki 5Nxx, kjer 'xx' najdemo na celotnem seznamu kod, ki je na voljo na https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>Kode postopkov zahtev in izdaje ZDA DOD. Format je ustrezna koda MILSTRIP, sledi vrednost podatka, povezana s to kodo. (Celoten seznam kod je na voljo na;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\nPosodobitev 2020: URL je bil spremenjen v:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>Kode uredbe o obrambnem prevozu ZDA. Format je koda DTR, sledi ustrezna vrednost podatka, povezana s to kodo. (Celoten seznam kod je na voljo na;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\nPosodobitev 2020: URL je bil spremenjen v:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Kode za identifikacijo proizvodnih živali. Format je koda proizvodne živali, sledi ustrezna vrednost podatka, povezana s to kodo. Tehnično poročilo in celoten seznam razširjenih podatkovnih elementov (kode) se vzdržuje na;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Razširjeni podatkovni elementi (kode).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Tehnično poročilo.\nPosodobitev 2020: URL-ji so bili spremenjeni v:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Številka farmacevtskega izdelka, vzdrževana s strani IFA (www.ifaffm.de) z naslednjimi elementi; Identifikator podatkov (DI), dvomestna koda agencije za registracijo izdelkov (PRAC), referenca izdelka (PR) in dve preverjalni številki PPN (CC), v obliki DI PRAC PR CC.\nOPOMBA - presledek je dodan kot ločilnik za vizualno jasnost in ni del podatkov.\nPrimeri:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Podatki v formatu in z uporabo semantike, ki jo določi imetnik identifikacijske številke podjetja (CIN), ki je bila izdana s strani kode izdajateljske agencije (IAC) v skladu z ISO/IEC 15459, opredeljeni kot zaporedje konkateniranih podatkovnih elementov: IAC, sledi CIN, sledi ločilni znak ':' (dve točki) sledijo podatki v formatu in z uporabo semantike, kot jih določi imetnik CIN.\nOPOMBA: Samo pravila sintakse podatkov (če sploh obstajajo), kot jih zagotavlja razglašeni IAC+CIN znotraj vsakega podatkovnega toka DI '10N', se uporabljajo za podatke, ki sledijo DI 10N+IAC+CIN.\nOPOMBA: Zaradi napake pri dodeljevanju DI '10N' (ni centralne avtoritete za definicijo podatkov niti za vzdrževanje), novih uporab DI '10N' ne bi smeli implementirati.\nFunkcija DI '10N' je vzpostavljena v kategoriji 18, RAZNO s DI '5R'. Močno priporočamo, da obstoječe aplikacije, ki uporabljajo DI '10N', preidejo na DI 5R'.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Podatkovna konstrukcija je opredeljena in nadzorovana s strani RLA in sestoji iz 2 segmentov: koda identifikatorja polja, takoj sledi podatki, kot so opredeljeni za ta element po podatkovnem slovarju RLA. To je v bistvu katalog polj s standardizirano vsebino. Identifikatorji polj so objavljeni na http://rla.org/11ncodes. Uporaba in struktura teh kod je opredeljena na: http://rla.org/11nformat Dodatni primeri so na voljo na tej spletni strani. DI '11N' nikoli ne sme biti kodiran v 2D ali RFID oznaki skupaj z drugimi DI elementi.\nOPOMBA: Zaradi napake pri dodeljevanju DI '11N' (izjava, ki pravi: 'DI '11N' nikoli ne sme biti kodiran v 2D ali RFID oznaki skupaj z drugimi DI elementi.' ni veljavna izjava), novih uporab DI '11N' ne bi smeli implementirati. Funkcija DI '11N' je vzpostavljena v DI '12N'. Močno priporočamo, da obstoječe aplikacije, ki uporabljajo DI '11N', preidejo na DI '12N'.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Podatkovna konstrukcija je opredeljena in nadzorovana s strani RLA, sestavljena iz 2 segmentov: koda identifikatorja polja (FI), takoj sledijo podatki, kot so opredeljeni za ta element po podatkovnem slovarju RLA. To je v bistvu katalog polj s standardizirano vsebino. Identifikatorji polj so objavljeni na http://rla.org/12ncodes Uporaba in struktura teh kod je opredeljena na: http://rla.org/12nformat. Primeri so na voljo na tej spletni strani.\nPosodobitev 2020: URL se je spremenil v:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Kode, ki predstavljajo industrijske internetne identifikatorje, nadzorovane in vzdrževane s strani CAICT, uporabljene v sistemu za resolucijo identifikatorjev industrijskega interneta Kitajske, sestavljene kot &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, v obliki an3+a3+n3+n3+n8+an1...33, kjer an3 je identifikator podatkov (DI), a3 je koda izdajateljske agencije (IAC = "VAA"), n3 je koda zgornje ravni (TTC), n3 je koda sekundarne ravni (STC), n8 je identifikacijska številka podjetja (CIN), nadzorovana in dodeljena s strani platforme sekundarne ravni, in an1...33 je serijska številka (SN), ki jo nadzoruje in dodeljuje imetnik CIN, ter je unikatna znotraj domene imetnika CIN, z uporabo znakov 0 do 9, velikih in malih črk A do Z, * (zvezdica), + (plus), - (vezaj), . (pika ali končna točka), / (poševnica), ( (levi oklepaj), ) (desni oklepaj), ! (klicaj).\nPrimeri:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Identifikacijska koda izdelka, dodeljena s strani kupca.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Identifikacijska koda izdelka, dodeljena s strani dobavitelja.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Koda, dodeljena za določitev stopnje revizije izdelka (npr., stopnja spremembe inženiringa, izdaja ali revizija).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Kombinirana koda identifikacije proizvajalca/izdelka pod formati GS1 z 12/13-mestnimi številkami, plus dopolnilne kode, če obstajajo.\nPosodobitev 2020: GS1 priporoča, da se ta DI več ne uporablja in da uporabniki tega DI preidejo na kvalifikatorje podatkov GS1 (identifikatorje aplikacij) po ISO/IEC 15418 in ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Koda izdelka del GS1 formatov.\nPosodobitev 2020: GS1 priporoča, da se ta DI več ne uporablja in da uporabniki tega DI preidejo na kvalifikatorje podatkov GS1 (identifikatorje aplikacij) po ISO/IEC 15418 in ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Številka za razvrstitev tovora, dodeljena s strani prevoznika za namene ocenjevanja nevarnih materialov (npr., razvrstitev za cestni prevoz, zrak, čoln, železnica).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Kombinirana identifikacijska številka dobavitelja in koda izdelka (notranje dodeljena ali medsebojno definirana).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Skupni jezik za identifikacijo opreme (CLEI) dodeljen nekateri telekomunikacijski opremi s strani proizvajalca.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>14-mestni format GS1 za strukturo kode GTIN-14.\nPosodobitev 2020: GS1 priporoča, da se ta DI več ne uporablja in da uporabniki tega DI preidejo na kvalifikatorje podatkov GS1 (identifikatorje aplikacij) po ISO/IEC 15418 in ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Kombinirana koda identifikacije proizvajalca (9-mestna številka DUNS, dodeljena s strani Dun &amp; Bradstreet) in koda izdelka/del številke (dodeljena s strani proizvajalca).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Koda nevarnega materiala, kot je opredeljeno s strani ANSI X12.3 v formatu Podatkovni element 208 (1-znakovni kvalifikator kode) sledi Podatkovni element 209 (Koda nevarnega materiala).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10-znakovna koda CLEI za telekomunikacijsko opremo.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Vrsta dokumenta (npr., seznam za prevzem, načrtna risba itd.) (notranje dodeljeno ali medsebojno definirano).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>VMRS sistemski kod.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>VMRS sistemski in sklopni kod.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>VMRS sistemski, sklopni in delovni kod.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>VMRS sistemski, sklopni ali delovni kod. (Uporabnik spremenjeno).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Kombinirana identifikacijska številka dobavitelja GS1 in koda izdelka, dodeljena s strani dobavitelja.\nPosodobitev 2020: GS1 priporoča, da se ta DI več ne uporablja in da uporabniki tega DI preidejo na kvalifikatorje podatkov GS1 (identifikatorje aplikacij) po ISO/IEC 15418 in ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Kombinirana identifikacijska številka dobavitelja VMRS in dobaviteljeva dodeljena številka dela.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Komponenta izdelka. (En izdelek, vsebovan v več paketih).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Prva stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Druga stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Tretja stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Četrta stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Peta stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Identifikacija stranke v transakciji, dodeljena s strani imetnika identifikacijske številke podjetja (CIN) in vključno z zadevno kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 konkateniranih podatkovnih elementov: IAC, sledi CIN, sledi dobaviteljeva dodeljena številka dela, ki je unikatna znotraj domene imetnika CIN.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Številka dela naslednje višje sestave.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Tarifna številka HTS-6; Uporaba formata: 4012.11 ali 4012.11.4000 (Decimalna točka je izrecno kodirana) Klasifikacija po usklajenem sistemu (HS) je 6-mestna standardizirana numerična metoda za klasifikacijo trgovanih izdelkov. Številke HS uporabljajo carinske oblasti po svetu za identifikacijo izdelkov za uporabo dajatev in davkov. Dodatne številke dodajo nekatere vlade k številki HS, da še bolj razlikujejo izdelke v določenih kategorijah. V Združenih državah Amerike se številke, uporabljene za klasifikacijo izvoženih izdelkov, imenujejo 'številke razporeda B'. Sistem razporeda B upravlja Urad za popis ZDA. Številke razporeda B, ne številke HS, morajo biti navedene na izvozni deklaraciji (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nUvozne kode upravlja Komisija ZDA za mednarodno trgovino (USITC). http://hts.usitc.gov/\nPosodobitev 2020: povezava http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf ni več aktivna. Za obrazec SED se posvetujte s pošiljateljem.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Ime tovora. Navadni jezikovni opis (v angleščini).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Koda klasifikacije izdelka, določena z GMDN (Globalna nomenklatura medicinskih pripomočkov - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Prva stopnja (Dodeljeno s strani dobavitelja).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Druga stopnja (Dodeljeno s strani dobavitelja).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Tretja stopnja (Dodeljeno s strani dobavitelja).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Četrta stopnja (Dodeljeno s strani dobavitelja).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Peta stopnja (Dodeljeno s strani dobavitelja).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Koda, dodeljena s strani kupca identifikacijski številki varnostnega lista proizvajalca (MSDS) za dokument, ki opisuje uporabo, nevarnosti in kemično sestavo nevarnega materiala.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Izvozno nadzorovan izdelek. Predmet izvoznega nadzora in/ali omejitev, kot je določeno v Wassenaarskem aranžmaju. DI sledi alfa-2 koda ISO 3166 države, ki je uvedla omejitev, sledi koda Wassenaar (http://www.wassenaar.org/controllists/index.html).\nPosodobitev 2020: URL se je spremenil v https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Identifikator izdelka, dodeljen s strani proizvajalca - sestavljen iz številke izdelka, dodeljene s strani proizvajalca, sledi plus (+) znak, sledi - če je potrebno za unikatno identifikacijo izdelka znotraj proizvodne linije proizvajalca - dodeljena verzija izdelka s strani proizvajalca.\nPrimer 50PABC+6 bi predstavljal številko izdelka ABC, verzija izdelka 6\nOPOMBA - Številki izdelka mora vedno slediti plus znak, tudi če verzija izdelka ni prisotna. To je potrebno za omogočanje nedvoumnega združevanja identifikatorja izdelka, dodeljenega s strani proizvajalca, z drugo podatkovno konstrukcijo z uporabo znaka za združevanje plus. Na primer, kombinacija 50P identifikatorja izdelka, dodeljenega s strani proizvajalca brez verzije izdelka, in serijske številke (Identifikator podatkov S) na entiteti bi bila kodirana kot 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Globalno unikaten identifikator izdelka, ki vključuje identifikacijo stranke v transakciji, dodeljeno s strani imetnika identifikacijske številke podjetja (CIN) in vključno z zadevno kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, sledi plus (+) znak, sledi identifikator izdelka, dodeljen s strani proizvajalca, kot je opredeljeno z 50P\nPrimer: 51PJ4LBE0431863103+ABC+ bi predstavljal izdelek z številko izdelka ABC in brez verzije, proizveden s strani podjetja z belgijsko davčno številko 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Barvna koda.\nBarva izdelka/objekta, identificirana s kodo ali izrazom, medsebojno dogovorjeno med trgovinskimi partnerji.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Identifikator za specifično pomorsko opremo, odobreno po direktivi Evropske unije o pomorski opremi (2014/90/EU) in izvedbeni uredbi (EU) 2018/608.\nFormat:\n• DI (an3);\n• Vrsta modula(-ov) ocenjevanja skladnosti, določenih v Prilogi II k Direktivi 2014/90/EU, uporabljenih za ocenjevanje skladnosti (a1);\n• Identifikacijska številka priglašenega organa, dodeljena s strani Komisije v skladu s točko 3.1 Priloge IV k Direktivi 2014/90/EU (n4);\n• Potrdilo (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Edinstvena identifikacija naprave - Identifikator naprave) za medicinske naprave (MD) in in-vitro diagnostiko (IvD) kot edinstven ključ do javnih podatkovnih baz UDI (GUDID, EUDAMED itd.), v skladu z nacionalnimi regulativnimi zahtevami, kot jih opredeljuje Mednarodni forum regulatorjev medicinskih pripomočkov (IMDRF). Dovoljeni so vsi tiskljivi znaki nabora znakov UTF-8.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>Referenca certifikacije DNV. Označuje, da podatki vsebujejo referenco na potrdilo o izdelku/izjavo o preverjanju/poročilo, izdano s strani DNV. Identifikatorju podatkov mora slediti črke "NV" in številka certifikata. Ko ima številka certifikata pripono, se mora vključiti v podatkovni tok z uporabo znaka ločila "-" . Indikatorji revizije ne smejo biti zagotovljeni.\nPrimeri:\n1. 55PNVXXXXXXX, kjer je 55P identifikator podatkov, XXXXXXX je številka certifikata DNV.\n2. 55PNVXXXXXXX-Y, kjer je 55P identifikator podatkov, XXXXXXX-Y je številka certifikata DNV s pripono Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Količina, število kosov ali znesek (samo numerično) (enota mere in pomen medsebojno definirana).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Teoretična dolžina/teža (samo numerično).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Dejanska teža (samo numerično).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Enota mere, kot je opredeljena z dvomestno kodo ANSI X12.3 podatkovnega elementa številka 355 Koda enote mere.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Bruto znesek.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Neto znesek.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Kadar več zabojnikov sestavlja en sam izdelek (vsebina vsakega zabojnika se mora združiti z vsebino drugih zabojnikov, da se ustvari en sam izdelek), se mora uporabiti identifikator podatkov '6Q', da se povežejo različni zabojniki. Format # od # ('to je nth kos od x kosov za določitev izdelka') Predstavljeno v formatu 'n/x', kjer se '/' (poševnica) uporablja kot ločilnik med dvema vrednostma.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Količina, znesek ali število kosov v formatu: Količina sledi dvomestna koda ANSI X12.3 podatkovnega elementa številka 355 Koda enote mere.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Ocena teže zabojnika\nProizvajalec dodeljena nosilnost zabojnika. Dodeljeno ob času proizvodnje. Enota mere je kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Teža kosa\nTeža posameznega predmeta.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Tara: teža praznega zabojnika.\nTeža telesa zabojnika.\nProizvajalec dodeljena teža praznega zabojnika. Dodeljeno ob času proizvodnje. Enota mere je kg (Tara).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Denarna vrednost, določena s strani dobavitelja v formatu: vrednost sledi koda podatkovnega elementa ISO 4217 za predstavitev enote vrednosti valut in skladov (npr., 12Q2.50USD) (2.50 Denarna vrednost v ameriških dolarjih) pomen medsebojno definiran.\nVrednost vnosa;\nVrednost sledi koda podatkovnega elementa ISO 4217 za predstavitev enote vrednosti valut in skladov (npr., 12Q2.50USD) (2.50 Denarna vrednost v ameriških dolarjih)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># od # ('to je nth kos od x kosov v tej pošiljki').\nPredstavljeno v formatu 'n/x', kjer se '/' (poševnica) uporablja kot ločilnik med dvema vrednostma.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Začetna sekundarna količina.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Končna sekundarna količina.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Število kosov v kombiju.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Število pošiljk v kombiju.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Kubični meter ali kubične noge, izraženo v kubičnih metrih ali kubičnih nogah, sledi koda enote mere ANSI X12.3 podatkovnega elementa številka 355 (CR ali CF). Brez domnevne decimalne točke.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Širina, izražena v linearnih metrih ali linearnih nogah, sledi koda enote mere ANSI X12.3 podatkovnega elementa številka 355 (LC ali LF). Brez domnevne decimalne točke.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Višina, izražena v linearnih metrih ali linearnih nogah, sledi koda enote mere ANSI X12.3 podatkovnega elementa številka 355 (LC ali LF). Brez domnevne decimalne točke.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Dolžina, izražena v linearnih metrih ali linearnih nogah, sledi koda enote mere ANSI X12.3 podatkovnega elementa številka 355 (LC ali LF). Brez domnevne decimalne točke.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Neto teža pošiljke, izražena v funtih ali kilogramih (kilah), sledi koda enote mere ANSI X12.3 podatkovnega elementa številka 355 (LB ali KG). Brez domnevne decimalne točke.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Dolžina kombija, izražena v linearnih metrih ali linearnih nogah, sledi koda enote mere ANSI X12.3 podatkovnega elementa številka 355 (LC ali LF). Brez domnevne decimalne točke.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Notranji kubični meter kombija, izražen v kubičnih metrih ali kubičnih nogah, sledi koda enote mere ANSI X12.3 podatkovnega elementa številka 355 (CR ali CF). Brez domnevne decimalne točke.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Neto eksplozivna teža (izračunana vrednost ekvivalenta eksploziva, izražena v funtih TNT). Merilo NEW se mednarodno uporablja za izračune varnostne razdalje glede na količino eksploziva. Brez domnevne decimalne točke.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Raven pakiranja, ki določa hierarhično raven pakiranja v skladu s specifikacijami HIBC (Health Industry Bar Code).</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Cena posameznega izdelka, neto, '.' (pika) uporabljena kot decimalna točka (npr. 27Q1000.5 za ceno vrednosti 1000,50).\nStruktura: an3+an1...20\n &lt;DI&gt;&lt;cena vrednosti&gt;.\nNabor znakov: 0 do 9, pika (ISO 646 ASCII vrednost decimalno 46, heksadecimalno 2E).\nPrimer kodiranja z neto ceno vrednosti 1000:\n27Q1000.\nPrimer kodiranja z neto ceno vrednosti 1000,50:\n27Q1000.5.\nOPOMBA - Če je potrebna valuta, se lahko vzame iz drugega podatkovnega elementa, uporabljenega v isti kodi, npr. 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Enotna cena vrednosti za poštnino in pakiranje, '.' (pika) predstavlja položaj vejice (npr. 30Q100.50 za vrednost 100,50).\nStruktura: an3+an1...10\n &lt;DI&gt;&lt;cena vrednosti&gt;.\nNabor znakov: 0 do 9, pika.\nPrimer kodiranja z vrednostjo poštnine in pakiranja 100:\n30Q100.\nPrimer kodiranja z vrednostjo poštnine in pakiranja 100,50:\n30Q100.50.\nOPOMBA - Če je potrebna valuta, se lahko vzame iz drugega podatkovnega elementa, uporabljenega v isti kodi, npr. 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Odstotek popusta, '.' (pika) predstavlja položaj vejice (npr. 31Q8.5 za vrednost popusta 8,5%).\nStruktura: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;odstotek popusta (%)&gt;.\nNabor znakov: 0 do 9, pika\nPrimer kodiranja z odstotkom popusta 10%:\n31Q10.\nPrimer kodiranja z odstotkom popusta 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>Odstotek DDV, '.' (pika) predstavlja položaj vejice (npr. 27Q8.5 za vrednost DDV 8,5%).\nStruktura: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;odstotek DDV (%)&gt;.\nNabor znakov: 0 do 9, pika.\nPrimer kodiranja z odstotkom DDV 10%:\n27Q19.\nPrimer kodiranja z odstotkom DDV 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Valuta, koda valute ISO 4217.\nStruktura: an3+an3\n &lt;DI&gt;&lt;Valuta, npr. EUR&gt;.\nNabor znakov: A-Z, 0 do 9.\nPrimer kodiranja z uporabo ISO alfabetske kode ameriškega dolarja:\n31QUSD.\nPrimer kodiranja z uporabo ISO alfabetske kode evra:\n31QEUR.\nPrimer kodiranja z uporabo ISO številske kode evra:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Klinična koda termina, kot je opredeljena s klinično nomenklaturo: "Mednarodni standard za identifikacijo zdravstvenih meritev, opazovanj in dokumentov - LOINC" (https://loinc.org), v naslednjem zaporedju: &lt;DI&gt;&lt;Koda LOINC&gt;&lt;Plus znak&gt;&lt;Vrednost&gt;. Enota in format vrednosti je opredeljen s kodo LOINC.\nPrimer: 32Q28903-3+60 = Koda LOINC 28903-3: Os leve kontaktne leče (stopinje); z vrednostjo = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Koda za avtorizacijo vračila (RMA), dodeljena s strani dobavitelja</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Koda vračila, dodeljena s strani kupca</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>Identifikacijska koda ZDA Ministrstva za obrambo (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Podatki v formatu in z uporabo semantike, ki jo določi imetnik identifikacijske številke podjetja (CIN), ki je bila izdana s strani kode izdajateljske agencije (IAC) v skladu z ISO/IEC 15459, opredeljeni kot zaporedje konkateniranih podatkovnih elementov: IAC, sledi CIN, sledi ločilni znak ':' (dve točki) sledijo podatki v formatu in z uporabo semantike, kot jih določi imetnik CIN.\nOPOMBA - Samo pravila sintakse podatkov (če sploh obstajajo), kot jih zagotavlja razglašeni IAC+CIN znotraj vsakega podatkovnega toka DI '5R', se uporabljajo za podatke, ki sledijo DI 5R+IAC+CIN.4.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>Digitalni podpis ISO/IEC 20248. Če je kodiranje osnovnega nosilca podatkov 7-bitno, se lahko uporabi samo surovi format ISO/IEC 20248.\nPrimer z URL formatom:\n&lt;6R&gt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO\nPrimer s surovim formatom:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nStruktura podatkov ISO/IEC 20248 vsebuje digitalni podpis, ki se uporablja za preverjanje določenih podatkovnih elementov sporočila. Vrednost 6R, kot prvi parameter, in podatkovni elementi, ki jih je treba preveriti (odstranjeni vsi nepotiskljivi znaki), kot drugi parameter, se pošljejo dekoderju/verifikatorju ISO/IEC 20248 - ki bo vrnil rezultat preverjanja: SPREJETO, ZAVRNJENO ali NAPAKA(koda napake), ter JSON objekt dekodiranih dodatnih polj ISO/IEC 20248. Struktura podatkov ISO/IEC 20248 lahko vsebuje dodatna polja in navodila za dekodiranje in preverjanje enega ali več sporočil podatkovnih elementov. Ta navodila bodo obdelana s strani dekoderja/verifikatorja ISO/IEC 20248.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Sistem informacij o vodnih znanostih in ribištvu (ASFIS) 'Medagencijska 3-črkovna koda vrste', vzdrževana s strani Organizacije za prehrano in kmetijstvo Združenih narodov (www.fao.org, nato iščite 'ASFIS').\nPrimeri;\n7RMUC = Blatni krap;\n7RPCD = Avstralski sladkovodni sled;\n7RWSH = Veliki beli morski pes.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Mednarodni standardni sistem klasifikacije ribiških orodij FAO (ISSCFG) koda. (www.fao.org)\nDovoljeni so vsi znaki podmnožice GS1 General Specification, definirani z ISO/IEC 646.\nPrimeri:\n8R02.1.0 = Obrežne mreže;\n8R03.1.5 = Kozice trawls;\n8R05.1.0 = Prenosne dvigalne mreže.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Metoda proizvodnje rib in morskih sadežev, kot je določeno z oddelkom za ribištvo in akvakulturo Organizacije za prehrano in kmetijstvo (FAO) Združenih narodov, v skladu z Uredbo EU 1379/2013. (www.fao.org).\nDovoljeni so vsi znaki podmnožice GS1 General Specification, definirani z ISO/IEC 646.\nPrimeri;\n9R01 = Ulov na morju;\n9R02 = Ulov v sladki vodi;\n9R03 = Gojeno.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Serijska številka ali koda, dodeljena s strani dobavitelja entiteti za njeno življenjsko dobo, (npr., serijska številka računalnika, številka sledljivosti, identifikacijska številka pogodbenega orodja).</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Dodatna koda, dodeljena s strani dobavitelja entiteti za njeno življenjsko dobo (npr., številka sledljivosti, serijska številka računalnika).</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Identifikacija pošiljke (SID) napovedi pošiljke (ASN) ustreza podatkovnemu elementu ANSI ASC X12 396.</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Edinstvena identifikacija pakiranja, dodeljena s strani dobavitelja (najnižja raven pakiranja, ki ima kodo pakiranja; mora vsebovati podobne predmete).</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Identifikacija pakiranja, dodeljena s strani dobavitelja glavnemu pakiranju, ki vsebuje podobne predmete na enem naročilu kupca.</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Identifikacija pakiranja, dodeljena s strani dobavitelja glavnemu pakiranju, ki vsebuje različne predmete na enem naročilu kupca.</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Identifikacija pakiranja, dodeljena s strani dobavitelja glavnemu pakiranju, ki vsebuje podobne predmete preko več naročil kupcev.</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Identifikacija pakiranja, dodeljena s strani dobavitelja glavnemu pakiranju, ki vsebuje različne predmete preko več naročil kupcev.</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Identifikacija dobavitelja/Unikatna identifikacija zabojnika, predstavljena v formatu, ki ga določa GS1 SSCC-18.\nPosodobitev 2020: Glejte GS1 Generalne specifikacije za najnovejšo različico SSCC.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Splošna identifikacija pakiranja (medsebojno definirano).</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Koda stroja, celice ali orodja.</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Koda stalnega sredstva.</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Številka dokumenta (notranje dodeljeno ali medsebojno definirano).</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Varnostna pečatna številka zabojnika.</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>Manifestiranje pošiljk neidentičnega četrtega razreda.</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Serijska številka, dodeljena z entiteto dobavitelja, ki se lahko uporablja le v povezavi z '13V'.</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Številka različice, npr., različica programske opreme.</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Kombinirana 6-mestna identifikacijska številka dobavitelja GS1 in edinstvena identifikacija pakiranja, dodeljena s strani dobavitelja.\nPosodobitev 2020: GS1 priporoča, da se ta DI več ne uporablja in da uporabniki tega DI preidejo na kvalifikatorje podatkov GS1 (identifikatorje aplikacij) po ISO/IEC 15418 in ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>Koda CAGE in serijska številka unikatna znotraj CAGE.</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Kombinirana identifikacijska številka podjetja Dun &amp; Bradstreet dobavitelja, sledi edinstvena identifikacija pakiranja, dodeljena s strani dobavitelja, v formatu nn...nn+nn...n, kjer se simbol plus (+) uporablja kot ločilnik med številko DUNS in edinstveno identifikacijo pakiranja.</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Koda sledljivosti za entiteto, dodeljena s strani kupca.</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Identifikacijska številka pnevmatike, kot jo določa Ministrstvo za promet ZDA (D.O.T) po kodeksu ZDA 49 CFR 574.5.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Unikatna individualna identiteta za mobilne telefone.</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Media Access Control (MAC) naslov, skladen z IEEE 802.11.</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Po standardu ISO/IEC 15963 (vrednost je pretvorba njegove bitne vrednosti v 8-bitne ASCII vrednosti). Ta identifikator podatkov bi lahko domneval katero koli vrednost ASCII-256. Za oznake na kontejnerjih tovora je registracijska agencija (RA) za proizvajalce RA za ISO 14816. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Identifikacija stranke v transakciji, dodeljena s strani imetnika identifikacijske številke podjetja (CIN) in vključno z zadevno kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 konkateniranih podatkovnih elementov: IAC, sledi CIN, sledi serijska številka dobavitelja, ki je unikatna znotraj domene imetnika CIN (Glej Prilogo C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Identifikator opreme, ki je globalno unikaten identifikator za napravo, element opreme ali instanco računalniške aplikacije, uporabljene v proizvodnji, prevozu, obdelavi ali drugem ravnanju s predmeti, ki je sestavljen z združevanjem:\n - kode izdajateljske agencije ISO/IEC 15459;\n - številke opreme, ki je v skladu s specifikacijami zadevne izdajateljske agencije; in da:\n - vsebuje samo velike črke abecede in/ali številčne znake;\n - je unikaten (to je, različen od katerega koli drugega identifikatorja, skladnega z ISO/IEC 15459) znotraj domene izdajateljske agencije;\n - ni mogoče izpeljati iz katerega koli drugega identifikatorja, skladnega z ISO/IEC 15459, izdanega pod isto izdajateljsko agencijo, z enostavnim dodajanjem znakov na konec ali njihovim odstranjevanjem.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Identifikacijska številka znotraj serije, ki je niz številčnih znakov:\n - ki enolično loči predmet, znotraj identificirane serije sorodnih predmetov, od vseh drugih predmetov v isti seriji;\n - katere dolžina je enaka za vse predmete znotraj zadevne serije.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Serija in identifikacijska številka znotraj serije, ki je združevanje identifikatorja podatkov 27T številka serije in identifikatorja podatkov 27S identifikacijska številka predmeta, ki pripada zadevni seriji.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Dodatna koda sledljivosti za entiteto, dodeljena s strani dobavitelja poleg ali namesto kode(-e) sledljivosti, zagotovljene z 'S' ali '1S'.</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Začetna serijska številka za serijske številke v zaporedju.</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Končna serijska številka za serijske številke v zaporedju.</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Serijska številka naslednje višje sestave.</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Serijska številka ali številka dela končnega izdelka.</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Oznaka odbijača (Uporablja se pri premiku enote DOD).</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Identifikator palete (Uporablja se za naložene letalske palete 463L).</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Unikatna identifikacijska številka predmeta, sestavljena iz zaporedja 5 podatkovnih elementov: 'IAC', sledi 'CIN', sledi 'Številka dela (PN)', sledi znak '+' , sledi dobaviteljeva dodeljena (ali upravljana) 'Serijska številka dela (PSN)', ki je globalno unikatna znotraj domene imetnika CIN; v formatu IAC CIN PN + PSN (presledki zagotovljeni samo za vizualno jasnost; niso del podatkov). Glej Prilogo C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Unikatna identifikacijska številka predmeta (UII) v formatu 25S, ki ji predhodi numerična vrednost, ki označuje dolžino elementa serijske številke za uporabo v sistemih, ki zahtevajo komponento 'serijske številke' konkateniranega elementa serijske številke (IAC+CIN+SN). Format: DI+LI+IAC+CIN+SN (LI=dolžina SN).</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Integrirana identifikacijska kartica vezja (ICCID) v skladu s priporočilom ITU-T E.118 in priporočilom ETSI GSM 11.11; največ 20 številk, ki sestojijo iz številke izdajatelja identifikacijske številke (IIN; največ 7 številk), posamezne številke računa (spremenljivo; dolžina določena z IIN, vendar enake dolžine znotraj posameznih IIN), preverjalne številke (enomestna številka, izračunana z uporabo Luhnov algoritma\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = identifikacija računa, c = preverjalna številka)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Prva stopnja (Dodeljeno s strani dobavitelja)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Druga stopnja (Dodeljeno s strani dobavitelja)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Tretja stopnja (Dodeljeno s strani dobavitelja)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Četrta stopnja (Dodeljeno s strani dobavitelja)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Peta stopnja (Dodeljeno s strani dobavitelja)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC številka (Tipično globalna trgovinska identifikacijska številka - SGTIN)\nPosodobitev 2020: Izraz "EPC številka" GS1 več ne uporablja. Glejte GS1 Generalne specifikacije in Standard podatkov o oznaki za trenutno terminologijo.</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Šifrirana serijska številka, dodeljena entiteti s strani dobavitelja, ki jo je mogoče overiti s strani neodvisne zaupanja vredne tretje osebe. Šifrirana serijska številka ne opisuje nobenih parametrov entitete brez dešifriranja s strani neodvisne tretje osebe.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>Znak 'AMPERSAND'. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Tip zabojnika (notranje dodeljeno ali medsebojno definirano).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Številka sledljivosti, dodeljena s strani kupca za identifikacijo/sledenje edinstveni skupini entitet (npr., serija, šarža, talilna serija).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Številka sledljivosti, dodeljena s strani dobavitelja za identifikacijo/sledenje edinstveni skupini entitet (npr., serija, šarža, talilna serija).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Ekskluzivna dodelitev (identifikacija vozila ZDA EPA za testiranje emisij).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Koda za vračljivi zabojnik, dodeljena s strani lastnika zabojnika ali ustreznega regulativnega organa (npr., kovinska kad, košara, kolut, enota za nalaganje (ULD), prikolica, rezervoar ali medmodalni zabojnik) (izključuje plinske jeklenke Glej '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Koda za jeklenko plina, dodeljena s strani proizvajalca v skladu s standardi Ministrstva za promet ZDA (D.O.T.).</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Prva stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Druga stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Tretja stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Četrta stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Peta stopnja (Dodeljeno s strani kupca).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Identifikacija stranke v transakciji, dodeljena s strani imetnika identifikacijske številke podjetja (CIN) in vključno z zadevno kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 konkateniranih podatkovnih elementov: IAC, sledi CIN, sledi dobaviteljeva dodeljena številka sledljivosti, ki je unikatna znotraj domene imetnika CIN.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Identifikator serije, ki vključuje združevanje bodisi:\n - identifikatorja podatkov 26S identifikatorja opreme za obdelavo pošte, ali\n - identifikatorja podatkov 20K identifikatorja licence, ali\n - identifikatorja podatkov 18V identifikatorja stranke, ki:\n - je različen od katerega koli drugega identifikatorja, skladnega z ISO/IEC 15459, znotraj domene izdajateljske agencije;\n - ni mogoče izpeljati iz drugega identifikatorja stranke ali katerega koli drugega identifikatorja, skladnega z ISO/IEC 15459, izdanega pod isto izdajateljsko agencijo, z enostavnim dodajanjem znakov na konec ali njihovim odstranjevanjem;\n z identifikatorjem podatkov 27T številko serije, pri čemer sta dva ločena z znakom minus (-).</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Številka serije, izdana pod nadzorom identificirane stranke ali enote opreme za obdelavo ali pod pogoji identificirane licence, ki:\n - enolično loči eno serijo sorodnih predmetov od vseh drugih serij, katerim je stranka ali oprema ali licenca dodelila številko serije;\n - sestoji iz niza največ 10 znakov, od katerih prvi (številčni) znak označuje število naslednjih znakov, vsak izmed njih pa je izbran iz nabora {A-Z; 0-9}.</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Identifikacijska koda opreme za prevoz tovora, dodeljena s strani proizvajalca v skladu z mednarodnimi standardi Organizacije za standardizacijo (ISO).</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Prva stopnja (dodeljena s strani dobavitelja).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Druga stopnja (dodeljena s strani dobavitelja).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Tretja stopnja (dodeljena s strani dobavitelja).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Četrta stopnja (dodeljena s strani dobavitelja).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Peta stopnja (dodeljena s strani dobavitelja).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Standardna alfanumerična koda prevoznika (SCAC) (4 alfanumerični znaki) in neobvezna številka prikolice, dodeljena s strani prevoznika (od enega do desetih alfanumeričnih znakov). Ko se uporablja, je številka prikolice, dodeljena s strani prevoznika, ločena od SCAC z vezajem '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Številka sredstva za prejem - Sestavljena iz dveh povezanih delov:\n- Identifikacija organizacije v skladu z ISO/IEC 15459 in edinstvena identifikacija entitete, dodeljena v skladu s pravili, ki jih je določila izdajateljska agencija.\n- Edinstvena serijska številka, ki jo dodeli entiteta, konča s 3-znakovno kodo vrste kontejnerja, vzeto iz seznama kod EDIFACT 8053 ali standarda UPU M82-3. (Če je koda vrste kontejnerja, navedena na seznamu, krajša od treh znakov, se polje zapolni z vezaji '-' do dolžine treh znakov).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Serijska številka kontejnerja.\nV skladu z ISO 6346. OC EI CSN CD, kjer je OC triznakovna koda lastnika, dodeljena v sodelovanju z BIC, EI je enoznakovni identifikator kategorije opreme, CSN je 6-mestna edinstvena identifikacija kontejnerja, ki jo dodeli lastnik opreme, in CD je kontrolna številka modulo 11, izračunana v skladu z Dodatkom A, ISO 6346.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Identifikacija lastnika vračljivega kontejnerja, dodeljena v sodelovanju z BIC.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Koda velikosti/vrste kontejnerja.\nV skladu z ISO 6346, oddelek 4.2.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Koda lastništva kontejnerja. Dejanska štiriznakovna okrajšava, označena na kontejnerju s strani lastnika. Za kontejnerje v lasti DOD glejte Defense Transportation Regulation App EE-6.\nPosodobitev 2020: referenca vira podatkov je posodobljena na Defense Transportation Regulation, del II, App TT, ki se nahaja na:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Številka tovornjaka (celotna številka brez kontrolne številke).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Kontrolna številka številke tovornjaka, identificirana v 11B.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Koda številke kontejnerja (zadnjih 5 številk številke brez kontrolne številke).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Status oznake.\nY=Avtorizirano / N=Neavtorizirano.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Razred nevarnega tovora.\nRazred IMDG v formatu 'n.na', kjer je n = numerično, decimalna točka izrecno kodirana, in a = pogojni abecedni kvalifikator. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>UN koda za nevarno blago.\nZa nevarni tovor, ki ga zagotovi pošiljatelj v skladu z UN kodo.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\nPosodobitev 2020: URL spremenjen v http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Ime prevoznega subjekta.\nIme ladje ali koda vozila/številka vlaka v angleščini.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Registrska številka plovila.\nTri črke 'IMO' sledi sedemmestna številka, dodeljena vsem ladjam s strani IHS Fairplay ob gradnji. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Številka plovbe/številka poti.\nČrka in številka.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Država plovila.\nISO 3166-1 alfa 2 koda.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Rezervirano za številke elektronskih pečatov.\nSestavlja 18185-1 oznaka pečata - 32 bitov in 16-bitna identifikacijska številka proizvajalca ISO 14816 (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Številka vnosa/vrsta vnosa.\nSestavlja trimestna koda polnilca, sledi sedemmestna številka vnosa in zaključi z enomestno kontrolno številko. Koda polnilca predstavlja triznakovno alfanumerično kodo, dodeljeno polnilcu ali uvozniku s strani CBP. Številka vnosa predstavlja sedemmestno številko, dodeljeno s strani polnilca. Številka se lahko dodeli na kakršen koli primeren način, pod pogojem, da ista številka ni dodeljena več kot enemu obrazcu CBP 7501. Prikaži morajo biti vodilne ničle. Kontrolna številka se izračuna na prejšnjih 10 znakih. Formula za izračun kontrolne številke se nahaja v Dodatku 1, navodilih CBP 7501.\nVrsta vnosa je dvomestna koda, skladna z Blokom 2, navodili CBP 7501.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Številka zavarovalnice.\nTrimestna numerična koda, ki identificira zavarovalnico na Carinskem zavarovanju. Ta koda se lahko najde v bloku 7 obrazca CBP Form 301 ali je na voljo preko avtomatiziranega sistema CBP ABI polnilcem, preko transakcije poizvedbe o uvoznikovem zavarovanju. Za uvoz ZDA in vrste vnosa, ki ne zahtevajo zavarovanja, naj se v tem bloku pojavi koda 999. Ko se namesto zavarovanja uporabljajo gotovina ali vrednostni papirji vlade, uporabite kodo 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Tuji pristanišče naklada.\n'Schedule K' (Klasifikacija tujih pristanišč po geografskem trgovskem območju in državi) za tuje pristanišče, v katerem je bilo blago dejansko naloženo na ladjo, ki je blago prevažala v ZDA. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\nPosodobitev 2020: URL spremenjen v: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Identifikacija stranke transakcije, kot je opredeljeno v ISO 17364, dodeljena s strani imetnika številke identifikacije podjetja (CIN) in vključno z z njim povezano kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 zaporednih podatkovnih elementov: IAC, sledi CIN, sledi serijska številka RTI, ki je edinstvena v domeni imetnika CIN.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Edinstvena identifikacijska številka vračljivega transportnega sredstva, sestavljena iz zaporedja 5 podatkovnih elementov: 'IAC', sledi 'CIN', sledi 'Številka RTI' (RTIN), sledi znak '+', sledi dobaviteljeva dodeljena (ali upravljana) 'Serijska številka RTI' (RTISN), ki je globalno edinstvena v domeni imetnika CIN; v formatu IAC CIN RTIN + RTISN (prostori dodani samo za vizualno jasnost; niso del podatkov). Glej Dodatek C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Globalno edinstvena identifikacijska številka sredstva za velike nosilce tovora (LLC) vračljivega transportnega sredstva (RTI) s stransko osnovo = 1000 mm, kot je določeno v ISO 17365:2013, terciarno embalažo, plast 3, sestavljeno iz zaporedja 5 podatkovnih elementov: 'IAC', sledi 'CIN', sledi koda vrste RTI 'RTITC', sledi znak '+', sledi lastniško dodeljena (ali upravljana) serijska številka RTI 'RTISN', ki je globalno edinstvena v domeni imetnika CIN v formatu IAC CIN RTITC + RTISN (prostori dodani samo za vizualno jasnost; niso del podatkov).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Globalno edinstvena identifikacijska številka sredstva za male nosilce tovora (SLC) vračljivega transportnega sredstva z osnovno stranjo &lt; 1000 mm, kot je določeno v ISO 17364:2013 (RTI), terciarna embalaža, plast 2, sestavljena iz zaporedja 5 podatkovnih elementov: 'IAC', sledi 'CIN', sledi koda vrste RTI 'RTITC', sledi znak '+', sledi lastniško dodeljena (ali upravljana) serijska številka RTI 'RTISN', ki je globalno edinstvena v domeni imetnika CIN v formatu IAC CIN RTITC + RTISN (prostori dodani samo za vizualno jasnost; niso del podatkov).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Globalno edinstvena identifikacijska številka vračljivega embalažnega predmeta (RPI) kategorije embalažni pripomoček (pokrov, mehurček, vložek, ...) sestavljena iz zaporedja 5 podatkovnih elementov: 'IAC', sledi 'CIN', sledi 'Številka RPI' RPIN, sledi znak '+', sledi lastniško dodeljena (ali upravljana) 'Serijska številka RPI' RPISN, ki je globalno edinstvena v domeni imetnika CIN v formatu IAC CIN RPIN + RPISN (prostori dodani samo za vizualno jasnost; niso del podatkov).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Številka embalažnega predmeta.\nŠtevilka za identifikacijo vrste embalažnega predmeta (materiala), uporabljenega pri pakiranju izdelkov in paketov.\nŠtevilka bo omogočila identifikacijo embalažnega predmeta (materiala) in njegovo ločevanje od izdelkov, paketov, vračljivih transportnih sredstev (RTI) in vračljivih embalažnih predmetov (RPI) med pakiranjem.\nŠtevilka je sestavljena kot zaporedje najmanj 1 podatkovnega elementa:\nŠtevilka embalažnega predmeta (materiala), ki je edinstvena v domeni imetnika.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Globalno edinstvena številka embalažnega predmeta\nGlobalno edinstvena številka za identifikacijo vrste embalažnega predmeta (materiala), uporabljenega pri pakiranju izdelkov in paketov.\nGlobalno edinstvena številka bo omogočila identifikacijo embalažnih predmetov (materialov) in njihovo ločevanje od izdelkov, paketov, vračljivih transportnih sredstev (RTI) in vračljivih embalažnih predmetov (RPI) med pakiranjem.\nŠtevilka je sestavljena kot zaporedje 3 zaporednih podatkovnih elementov:\nIAC, sledi CIN, sledi številka embalažnega predmeta (materiala), ki je edinstvena v domeni imetnika CIN.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Globalno edinstvena identifikacijska številka vračljivega embalažnega predmeta (RPI) kot je opredeljeno v ISO 17364, dodeljena s strani imetnika številke identifikacije podjetja (CIN) in vključno z z njim povezano kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 zaporednih podatkovnih elementov: IAC, sledi CIN, sledi serijska številka RPI, ki je edinstvena v domeni imetnika CIN.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Specifikacija poštne storitve in povezanih procesnih podatkov v skladu s standardom UPU S25 'Podatkovna struktura storitve'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Podatki o licenciranju pošte, v skladu s specifikacijo v standardu UPU S25.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Specifikacija dopolnilne poštne storitve in povezanih procesnih podatkov v skladu s standardom UPU S25 'Podatkovna struktura dopolnilne storitve'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Identifikacije poštne uprave, ki predstavlja identifikacijo, izraženo v skladu s specifikacijo v standardu UPU S25, ene ali več poštnih uprav, vključenih v obdelavo poštne pošiljke ali serije.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>Koda lokacije UPU, ki predstavlja kodo za identifikacijo lokacije ali geografskega območja ali povezane skupine takih lokacij ali območij, ki so pomembna za povezano transakcijo in ki je skladna z eno od struktur, opredeljenih v točkah a) do g) spodaj:\na) dva velika tiskana abecedna znaka, ki ustrezata ISO 3166-1 dvema abecednima koda države, v kateri se nahaja ali ki jo sestavljajo lokacija(e) ali območje(a);\nb) trije veliki tiskani abecedni znaki, ki ustrezajo kodi IATA letališča ali mesta, v katerem se nahaja, blizu katerega se nahaja ali ki ga sestavljajo lokacija(e) ali območje(a);\nc) štirje ali več znakov, od katerih prvi trije ustrezajo kodi države ISO 3166-1, sledi vezaj (-), z ostankom, ki predstavlja poštno številko v dotični državi;\nd) štirje ali več znakov, od katerih prvi trije ustrezajo kodi države ISO 3166-1, sledi pika (.), z ostankom, ki predstavlja kodo področja države ISO 3166-2 v dotični državi;\ne) pet velikih tiskanih abecednih znakov, ki ustrezajo UN/LOCODE območja, v katerem se nahaja, blizu katerega se nahaja ali ki ga sestavljajo lokacija(e) ali območje(a);\nf) šest velikih tiskanih alfanumeričnih znakov, ki ustrezajo kodi IMPC UPU, dodeljeni v skladu s standardom UPU S34;\ng) združitev, ki ni krajša od sedmih in ne daljša od 25 znakov, ki obsega:\n - kodo izdajatelja, dodeljeno v skladu s standardi UPU S31;\n - kodo lokacije, ki obsega znake iz nabora {A-Z; 0-9}, ki so skladni s specifikacijami izdajatelja.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Kvalificirana koda lokacije UPU, združitev:\n - kategorija lokacije, izbrana iz seznama kod UPU 139;\n - identifikator podatkov 17U koda lokacije UPU.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Registrska tablica s podatki o storitvi in kodo lokacije je sestavljena podatkovna struktura, skladna s specifikacijo v standardu UPU S25, ki vključuje specifikacijo:\n - identifikatorja predmeta, skladnega z ISO/IEC 15459;\n - identifikatorja podatkov 5U skladno s specifikacijo storitve, ki se zagotovi v zvezi s predmetom;\n - identifikatorja podatkov 17U skladno s kodo lokacije UPU ali identifikatorja podatkov 18U skladno s kvalificirano kodo lokacije UPU.\n Opomba - Za več podrobnosti glejte standard UPU S25. Razlika med preprosto kodo lokacije UPU (DI 17U) in kvalificirano kodo lokacije UPU (DI 18U) je razvidna iz prvega znaka. Če je ta numeričen, se uporabi 18U; če je abecedni, se uporabi 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>Lokator podatkov OCR.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Koda dobavitelja, dodeljena s strani kupca.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Koda dobavitelja, dodeljena s strani dobavitelja.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>Predpona podjetja U.P.C.\nPosodobitev 2020: GS1 priporoča, da se ta DI ne uporablja več in da uporabniki tega DI preidejo na kvalifikatorje podatkov GS1 (identifikatorje aplikacij) po ISO/IEC 15418 in ISO/IEC 15459-3.\nPo GS1 izraz "U.P.C." ni več v uporabi in metapodatki (an2+n8) niso več pravilni. GS1 priporoča, da se ta DI ne uporablja za prihodnje aplikacije.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>Predpona podjetja GS1.\nPosodobitev 2020: GS1 priporoča, da se ta DI ne uporablja več in da uporabniki tega DI preidejo na kvalifikatorje podatkov GS1 (identifikatorje aplikacij) po ISO/IEC 15418 in ISO/IEC 15459-3.\nPo GS1 metapodatki (an2+n9) niso več pravilni. GS1 priporoča, da se ta DI ne uporablja za prihodnje aplikacije.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Identifikacijska koda prevoznika, dodeljena po industrijskem standardu, medsebojno določena s strani dobavitelja, prevoznika in kupca.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Identifikacijska koda finančne institucije (medsebojno določena).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Identifikacijska koda proizvajalca (medsebojno določena).</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Koda, dodeljena stranki, ki ima finančno odgovornost za entiteto ali skupino entitet (npr. lastnik zaloge) (medsebojno določena).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Koda kupca, dodeljena s strani kupca.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Koda kupca, dodeljena s strani dobavitelja.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Identifikacijska številka proizvajalca\nOPOMBA - Glej Dodatek 2, navodila CBP 7501.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Organizacija z odgovornostjo za proračun entitete, procesa ali postopka (npr. delavnica, divizija, oddelek)(interno dodeljeno).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>Številka DUNS, ki identificira proizvajalca.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>Številka DUNS, ki identificira dobavitelja.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>Številka DUNS, ki identificira kupca.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Številka pošiljatelja, dodeljena s strani prevoznika.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>Identifikacijska številka dobavitelja VMRS.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>Koda CAGE ameriškega obrambnega ministrstva (DoD).</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Identifikacija stranke v transakciji, v kateri je format podatkov sestavljen iz dveh zaporednih segmentov. Prvi segment je koda izdajateljske agencije (IAC) v skladu z ISO/IEC 15459, drugi segment pa je edinstvena identifikacijska številka podjetja (CIN), dodeljena v skladu s pravili, ki jih je vzpostavila izdajateljska agencija (glej http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Specifikacija vloge(-g) stranke v transakciji, ki obsega eno ali več kodnih vrednosti iz seznama kod EDIFACT 3035 'Kvalifikator stranke', ločenih z znaki plus (+) (Nikoli ne združujte z drugimi DI v linearnem simbolu ali drugih medijih, kjer je znak za združevanje plus (+)).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Identifikacija stranke v transakciji, dodeljena s strani imetnika številke identifikacije podjetja (CIN) in vključno z z njim povezano kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 zaporednih podatkovnih elementov: IAC, sledi CIN, sledi znak plus (+) sledi ena ali več kodnih vrednosti iz seznama kod EDIFACT 3035 'Kvalifikator stranke', ločenih z znaki plus (+) (Nikoli ne združujte z drugimi DI v linearnem simbolu ali drugih medijih, kjer je znak za združevanje plus (+)).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Identifikacija stranke v transakciji, npr. 21V IAC CIN OSU, dodeljena s strani imetnika številke identifikacije podjetja (CIN) in vključno z z njim povezano kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 zaporednih podatkovnih elementov: IAC, sledi CIN, sledi identifikacija podenote organizacije, dodeljena s strani CIN, ki je edinstvena v domeni imetnika CIN.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>SCAC prevoznika.\nStandardna alfanumerična koda prevoznika - Nacionalno združenje za promet motornih vozil (NMFTA) dodeli SCAC za vsa podjetja razen tistih kod, ki se uporabljajo za identifikacijo tovornih kontejnerjev, ki ne delujejo izključno v Severni Ameriki, intermodalnih podvozij in prikolic, neželezniških lastnih železniških vagonov in železnic. http://www.nmfta.org/Pages/welcome.aspx\nPodjetja, ki iščejo identifikacijske kode za tovorne kontejnerje, ki ne delujejo v Severni Ameriki, naj kontaktirajo Mednarodni urad za kontejnerje, 38, rue des Blancs Manteaux, F75004 Pariz, Francija, e-pošta: bic@bic-code.org, spletna stran www.biccode.org. Železnice in lastniki intermodalnih podvozij, prikolic in neželezniških lastnih železniških vagonov naj kontaktirajo Railinc Customer Service, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, e-pošta: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Vladno dodeljena identifikacijska številka za dodano vrednost, ki identificira dobavitelja, začenši z ISO 3166-1 alfa-2 državno kodo (razen za Grčijo, ki uporablja jezikovno kodo ISO 639-1 EL), sledi vladno dodeljena številka za DDV.\nPrimer:\n23VIE6388047V dodeljeno podjetju Google Ireland.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Vladno dodeljena identifikacijska številka za dodano vrednost, ki identificira kupca, začenši z ISO 3166-1 alfa-2 državno kodo (razen za Grčijo, ki uporablja jezikovno kodo ISO 639-1 EL), sledi vladno dodeljena številka za DDV.\nPrimer:\n24VIE6388047V dodeljeno podjetju Google Ireland.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Izjava, da je koda NCAGE/CAGE, ki sledi DI 25V, proizvajalec. Stranka v transakciji, v kateri se koda NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE) uporablja za DI 25V, je razglašena za proizvajalca predmetov, vključenih v transakcijo. Podatki, ki sledijo DI 25V, bodo sestavljeni iz petih velikih tiskanih alfanumeričnih znakov, brez črk "I" in "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Številka delovnega naloga (npr. 'Proizvodni papir') (interno dodeljeno).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Številka zaporedja operacije. Številka, ki določa vrstni red določene operacije v seriji operacij, običajno v proizvodnem ali montažnem procesu.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Koda operacije/dela - vrsta dela, ki se bo izvajalo (interno dodeljeno ali medsebojno določeno).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Kombinirana številka delovnega naloga in številka zaporedja operacije v formatu nn...n+nn...n, kjer se kot ločilnik uporablja simbol plus (+).</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Koda stanja (interno dodeljeno ali medsebojno določeno).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Koda delovne enote - identificira sistem, podsistem, sestav, komponento itd., na katerem se izvaja vzdrževanje.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Nomenklatura - (interno dodeljeno ali medsebojno določeno).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Številka obrazca za nadzor - Prednatisnjena kontrolna številka na obrazcih.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Inšpektor za zagotavljanje kakovosti - Priimek.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Telefonska številka osebe/aktivnosti, ki izpolnjuje obrazec - izraženo v formatu (koda države) koda mesta ali območja plus lokalna številka npr. (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Medsebojno določeno med kupcem in dobaviteljem</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Medsebojno določeno med prevoznikom in dobaviteljem</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Medsebojno določeno med kupcem in prevoznikom</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Prosto besedilo</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Medsebojno določeno med prevoznikom in trgovinskim partnerjem</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki glave)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 1)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 2)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 3)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 4)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 5)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 6)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 7)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 8)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 9)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 10)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 11)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 12)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 13)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 14)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 15)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 16)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 17)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 18)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 19)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 20)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 21)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 22)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 23)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 24)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 25)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 26)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 27)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 28)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 29)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 30)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 31)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 32)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 33)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 34)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 35)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 36)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 37)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 38)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 39)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 40)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 41)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 42)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 43)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 44)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 45)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 46)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 47)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 48)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 49)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 50)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 51)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 52)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 53)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 54)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 55)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 56)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 57)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 58)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 59)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 60)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 61)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 62)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 63)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 64)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 65)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 66)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 67)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 68)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 69)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 70)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 71)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 72)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 73)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 74)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 75)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 76)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 77)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 78)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 79)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 80)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 81)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 82)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 83)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 84)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 85)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 86)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 87)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 88)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Strukturirano prosto besedilo (Podatki vrstice 89)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>Znak 'EQUAL'. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Nadaljevanje kode artikla (Kategorija 16), dodeljene s strani kupca, ki je predolga za zahtevano velikost polja.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Nadaljevanje sledilne kode (Kategorija 20), dodeljene s strani dobavitelja.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Nadaljevanje serijske številke (Kategorija 19), dodeljene s strani dobavitelja.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Nadaljevanje prostega besedila (Kategorija 26), medsebojno določeno med dobaviteljem/prevoznikom/kupcem.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Nadaljevanje referenčne številke transakcije (Kategorija 11), medsebojno določeno med dobaviteljem/prevoznikom/kupcem.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Nadaljevanje kode artikla (Kategorija 16), dodeljene s strani dobavitelja.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Znak funkcije 1 (FUNC1). Pojavlja se na prvem mestu za začetnim znakom simbologije v simbolih Code 128, Code 49 ali Code 16K, da označi simbol, ki ga nadzira GS1.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Format YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Format DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Format MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Format YDDD (Julijansko).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Format YYDDD (Julijansko).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>ISO format YYMMDD takoj sledi kvalifikator številke podatkovnega elementa ANSI X12.3 374, ki zagotavlja kodo, ki določa vrsto datuma (npr., datum odpreme, datum izdelave).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>ISO format YYYYMMDD takoj sledi kvalifikator številke podatkovnega elementa ANSI X12.3 374, ki zagotavlja kodo, ki določa vrsto datuma (npr., datum odpreme, datum izdelave).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Format MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Dogodek, datum in čas.\nISO format YYYYMMDDHHMM (24-urna ura - UTC) takoj sledi kvalifikator kode UN/EDIFACT 2005, ki zagotavlja kodo, ki določa vrsto datuma), npr.,\n11 [Datum, ko se pričakuje, da bo blago odposlano/poslano sporočilo je izdano.];\n17 [Predvideni datum dostave/čas, ko se pričakuje, da bo blago dostavljeno];\n35 [Datum, ko je blago dostavljeno na cilj.];\n118 [Potrditev rezervacije];\n129 [Datum, ko je plovilo/blago zapustilo zadnje tuje pristanišče v izvozni državi.];\n132 [Datum/čas, ko prevoznik ocenjuje, da bo prevozno sredstvo prispelo v pristanišče razkladanja ali kraj namembnosti.];\n133 [Datum/čas, ko prevoznik ocenjuje, da bo prevozno sredstvo odšlo z mesta odhoda];\n137 [Datum/čas, ko dobavitelj pošilja dele na zahtevo kupca. (Datum izdaje sporočila DESADV. Priporočilo je, da se DESADV izda v 30 minutah po prevzemu blaga pri stranki odpreme)];\n146 [Predvideni datum vnosa (Carina) datum, na katerem je uradni datum carinskega vnosa pričakovan.];\n151 [Datum uvoza (prispelo v pristanišče z namenom razkladanja];\n186 Odhod iz objekta ('Izstopna vrata)];\n204 [Datum, ko carina sprosti blago prevozniku ali uvozniku];\n253 [Odhod iz pristanišča ('Odhod ladje')];\n252 [Prihod v pristanišče ('Prihod ladje')];\n283 [Prihod v objekt ('Vhodna vrata)];\n342 [Nalaganje prevoza];\n351 [Pregled vhodnih vrat terminala];\n411 [Naročeno polnjenje];\n412 [Naročeno praznjenje];\n420 [Praznjenje prevoza];\n534 [Popravljeno];\n677 [Potrjeno polnjenje];\n678 [Potrjeno praznjenje];\n696 [Datum vložitve].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Datum (struktura in pomen medsebojno določena).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Format YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Format YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Format YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Najstarejši in najnovejši datum izdelave v formatu YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Datum poteka (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Datum poteka (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Datum proizvodnje (YYYYMMDD) - Datum izdelave.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Datum proizvodnje (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Čas aktivacije oznake.\nYYYYMMDDHHMM (24-urna ura - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Čas deaktivacije oznake.\nYYYYMMDDHHMM (24-urna ura - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Datum pregleda (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Zahtevani datum dostave (DDD Julijansko) ali koda DOD MILSTAMP.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Čas zapisa.\nYYYYMMDDHHMM (24-urna ura - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Datum, predstavljen v modificirani obliki skladni z UTC:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] kjer oglati oklepaji označujejo izbirnost in yyyy je leto, mmdd mesec in dan, hhmmss čas dneva v urah minutah in sekundah, fff deleži sekund in poooo odmik od UTC, izražen v urah in minutah, odmik je pozitiven, če je p pika (.), negativen, če je P minus (-).\nPRIMER:\n2005 - (UTC) koledarsko leto 2005;\n200505 - (UTC) koledarski mesec maj 2005;\n20050518 - (UTC) 18. maj 2005;\n200505181247 - 12:47 UTC na 18. maj 2005;\n200505181247.0100 - 12:47 lokalni čas, ki je 11:47 UTC, na 18. maj 2005;\n20050518124723099 - 99 milisekund po 12:47:23 UTC na 18. maj 2005.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Kvalificiran datum, ki obsega združitev:\n- kode izdajateljske agencije ISO/IEC 15459;\n- kvalifikatorja datuma, ki je skladen s specifikacijami te izdajateljske agencije;\n- datuma, katerega format in interpretacija sta skladna s specifikacijami te izdajateljske agencije za ta kvalifikator datuma.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Najbolje uporabiti do datuma: (YYYYMMDD).\nPrimer: 25D20170202 = 2. februar 2017</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Datum prvega zamrzovanja (YYYYMMDD).\nDatum prvega zamrzovanja je opredeljen kot datum, ko so izdelki takoj po zakolu, žetvi, ulovu ali po začetni obdelavi zamrznjeni.\nPrimer: 26D20170721 = 21. julij 2017.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Datum žetve (YYYYMMDD).\nDatum, ko je bila žival zaklana ali ubita, riba ulovljena, ali ko je bila pridelana zelenjava.\nPrimer: 27D20170615 = 15. junij 2017.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Razpon datumov žetve (YYYYMMDDYYYYMMDD).\nZačetni in končni datum obdobja, v katerem je potekala žetva.\nNa primer; živali so bile zaklane ali ubite, ribe so bile ulovljene, ali zelenjava je bila pridelana.\nPodatkovni tok je opredeljen kot prvi YYYYMMDD kot začetni datum in zadnji YYYYMMDD kot končni datum.\nPrimer:\n28D2017012320170214 = Začetek; 23. januar 2017. Konec; 14. februar 2017.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Levi oglati oklepaj', 'Desna oklepaj', 'Večji kot znak', 'Znak za ločevanje zapisov'. Podatkovna struktura skladna z ISO/IEC 15434, Informacijska tehnologija - Tehnike samodejnega prepoznavanja in zajemanja podatkov - Sintaksa za medije z visoko zmogljivostjo ADC.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Klasifikacija omejenih snovi - 'Okoljevarstvena klasifikacijska koda' vključno s kategorijami s končno obdelavo brez svinca, definiranimi v JESD97 (IPC JEDEC J-STD-609), in prihodnjimi kodami, dodeljenimi s strani industrije ali vladnih agencij, povezanih z okoljsko regulativno skladnostjo in vsebnostjo nevarnih materialov.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Zračni tlak - (nadmorska višina) izražen v Pascalih kot standardna mednarodna mera.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Najvišja dovoljena temperatura. Najvišja dovoljena temperatura; stopinje Celzija, '-' (minus) kodirano, če je potrebno.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Najnižja dovoljena temperatura.\nNajnižja dovoljena temperatura; stopinje Celzija, '-' (minus) kodirano, če je potrebno.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Najvišja dovoljena relativna vlažnost.\nNajvišja dovoljena relativna vlažnost, implicitno izražena kot odstotek.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Najnižja dovoljena relativna vlažnost.\nNajvišja dovoljena relativna vlažnost, izražena kot odstotek.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Temperatura hladilnega kontejnerja.\nZa temperaturno nadzorovano tovor, cilj, določen s strani pošiljatelja, stopinje Celzija, '-' (minus) kodirano, če je potrebno.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Kumulativni indeks časovno-temperaturnega indeksa - izražen kot število meritev ali štetij.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Časovno-temperaturni indeks - Naslednja višja sestava - izražen kot število meritev ali štetij.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Deklaracija o kategoriji embalažnega materiala*, kodi* in teži za določen embalažni material, uporabljen v določeni embalaži v skladu z direktivo EU o embalaži in odpadki embalaže. (Kategorija materiala in koda opredeljena v Prilogi M).\n12ECCMMMMMMNNNNNUU kjer: - '12E' (an3) je identifikator podatkov;\n - 'CC' (n2) je kategorija materiala po Prilogi M;\n - 'MMMMMM' (an1...6) je koda materiala po Prilogi M;\n - 'NNNNN' (n5) teža materiala, vključno z decimalno točko (npr., 12.12);\n - 'UU' (an2) je enota mere za težo (npr., KG, GR, LB ali OZ po ANSI X12.3 kot v Prilogi D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>Podatki, ki sledijo DI 13E, bodo eden od indikatorjev MSL (1, 2, 2a, 3, 4, 5, 5a, 6), kot je prikazano v stolpcu LEVEL v Tabeli 5-1 standarda JEDEC IPC/JEDEC J-STD-020E. Tabela je prikazana spodaj samo za referenco; trenutno izdano različico navedenega standarda je treba uporabiti za pridobitev pravilnega MSL za dejansko komponento. Primer: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>Znak 'HYPHEN' ali 'MINUS'. Farmacevtska osrednja številka (PZN), nadzorovana z IFA-ABDATA, Nemčija (Registracija tega sistema identifikatorjev poteče 1. julija 2016). Nadomeščeno z '9N'.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Glava zanke.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Moj starš ______ je . . . Edinstveni identifikator, sledi identifikator podatkov in povezani podatki (za uporabo z vračljivo embalažo). Ta identifikator podatkov mora takoj slediti polju (sestavljenem iz identifikatorja podatkov, podatkov in ločilnika skupine), s katerim je povezan.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Imam ______ otrok . . . (za uporabo z vračljivo embalažo, npr.; 3F10, za deset otrok). Ta identifikator podatkov mora takoj slediti polju (sestavljenem iz identifikatorja podatkov, podatkov in ločilnika skupine), s katerim je povezan.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Logična dodelitev strani informacij v skupini strani, ki so razporejene po več nosilcih podatkov, strukturirano kot zaporedje do treh (3) zaporednih podatkovnih elementov, ločenih z znakom za delitev ( / ) :\n Številka strani (obvezno), sledi število strani (neobvezno, obvezno za zadnjo stran), sledi alfanumerična ID skupine (neobvezno; če se uporablja, potem obvezno za vse strani in strukturirano v skladu z ISO/IEC 15459-3 kot zaporedje 3 podatkovnih elementov: Koda izdajateljske agencije, sledi številka identifikacije podjetja, sledi alfanumerična koda, ki je edinstvena v domeni izdajatelja).\n Neobvezni končni znaki za delitev.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Imam ______ otrok in so . . . (za uporabo z vračljivo embalažo) Ta identifikator podatkov mora takoj slediti polju (sestavljenem iz identifikatorja podatkov, podatkov in ločilnika skupine), s katerim je povezan.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>Znak 'Klicaj'. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Ime stranke.\nIme stranke, sledi znak plus (+) sledi ena ali več kodnih vrednosti iz seznama kod EDIFACT 3035 'Kvalifikator stranke', npr.;\nBY [Kupec];\nCF [Operater kontejnerja];\nCN [Prejemnik];\nCS [Konsolidator];\nDEI [Operater ladje/kapitan ladje];\nFA [Operativni osebni kodi];\nIM [Uvoznik];\nMF [Proizvajalec];\nOS [Pošiljatelj];\nSE [Prodajalec];\nST [Pošiljka na];\nUC [Končni prejemnik].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Identifikacijska koda zaposlenca, dodeljena s strani delodajalca.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>Številka socialnega zavarovanja v ZDA.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Identifikacijska številka za nezaposlene (interno dodeljeno ali medsebojno določeno) (npr., pogodbeni delavci, dobavitelji, servisno in dostavno osebje).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Nacionalna številka socialnega zavarovanja.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Priimek.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Ime stranke (Vrstica 2).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Kontaktni telefon.\nDržavna koda, območna koda, centrala, številka [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Kontaktni e-poštni naslov.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Številka prejemnika.\nEdinstvena identifikacijska številka je lahko IRS, EIN, SSN ali številka, dodeljena s strani CBP, kot je zahtevano na Varnostnem vložku. Uporabiti je treba samo naslednje formate: IRS EIN: NN-NNNNNNN;\nIRS EIN z oznako:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nŠtevilka, dodeljena s strani CBP: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Osebna identifikacijska koda (prva začetnica, zadnja začetnica, zadnje štiri številke SSN).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Ime in srednji začetnici.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Vojaški čin (E1-E9, W1-W5 in O1-O10).\nPosodobitev 2020: Format metapodatkov je bil spremenjen, da se ujema z dejanskimi vojaškimi čini, ki se uporabljajo v vojski: "an2+an3". Informacije o razlagi so bile spremenjene v: "Vojaški čin (E1-E9, W1-W5 in O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Nacionalna identifikacijska številka, nacionalna številka osebne identitete ali nacionalna številka zdravstvenega zavarovanja, ki se uporablja kot sredstvo za identifikacijo posameznikov znotraj države za namene dela, obdavčenja, vladnih ugodnosti, zdravstvene oskrbe in drugih vladnih funkcij.\nStruktura identifikatorja je DI (15H) sledi ISO 3166-1 Alpha2 državna koda sledi prevladujoča vladno dodeljena identifikacijska številka za posameznike.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Globalno edinstvena osebna ID. dodeljena s strani imetnika številke identifikacije podjetja (CIN) in vključno z z njim povezano kodo izdajateljske agencije (IAC) v skladu z ISO/IEC 15459 in njenim registrom, strukturirano kot zaporedje 3 zaporednih podatkovnih elementov: IAC sledi CIN, sledi ID edinstven v domeni imetnika.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Globalno edinstvena osebna ID, z "Kvalifikatorjem stranke" kodno vrednostjo iz seznama kod EDIFACT 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Ekskluzivna dodelitev - Identifikacijska številka vozila (VIN) kot je opredeljeno v ZDA pod 49 CFR, oddelek 565 in mednarodno s strani ISO 3779. (To so popolnoma združljive podatkovne strukture).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Okrajšana koda VIN.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Globalno edinstvena identifikacijska številka transportnega vozila (npr. tovornjaki), ki obsega Identifikacijsko številko vozila (VIN), kot je opredeljeno v ZDA pod 49 CFR, oddelek 565, in mednarodno s strani ISO 3779, sledi znak '+', nato pa sledi registrska številka vozila, ki jo je izdala vlada, v obliki '4I' 'VIN' '+' 'registrska številka vozila, ki jo je izdala vlada' (narekovaji in presledki so prikazani za jasnost; niso del podatkov).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Unikatna identifikacijska številka proizvodnega vozila, ki se bo uporabljala med proizvodnimi procesi vozil, sestavljena iz številke oznake karoserije (BTN; ali katerega koli drugega opisa, uporabljenega za identifikacijo surovega avtomobilskega telesa, ali drugače povedano, sklopa delov, ki se uporabljajo za začetek proizvodnje vozila), sledi znak '+', nato sledi številka proizvodnega naročila (PON), sledi znak '+', in nato sledi serijska številka, dodeljena s strani proizvajalca (SN). OPOMBA - Komponenta SN se nadomesti z VIN, takoj ko je VIN na voljo v montažnem procesu.\nGradnja bo potekala tako;\n\5I" "BTN" "+" "PON" "+" "SN"\nspremeni v (ko je VIN na voljo)\n"5I" "BTN" "+" "PON" "+" "VIN"\nOPOMBA - Narekovaji in presledki so prikazani za jasnost; niso del podatkov.\nOPOMBA - Ta DI nikoli ni za združevanje z drugimi DI v linearnem simbolu ali drugih medijih, kjer je znak za združevanje plus (+).\nPrimeri:\nRazličica SN: 5IABCD1234+CO1234+W0L201600500001\nRazličica VIN: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>'PLUS' -merkki. Health Industry Business Communications Council (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Uniikki rekisterikilven numero.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Uniikki rekisterikilven numero, joka on määrätty kuljetusyksikölle, joka on pakkaustason alin taso, rikkomaton yksikkö.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Uniikki rekisterikilven numero, joka on määrätty kuljetusyksikölle, joka sisältää useita paketteja.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Uniikki rekisterikilven numero, joka on määrätty kuljetusyksikölle, joka on pakkaustason alin taso, rikkomaton yksikkö ja jolla on EDI-tiedot yksikön kanssa.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Uniikki rekisterikilven numero, joka on määrätty kuljetusyksikölle, joka sisältää useita paketteja ja joka on yhdistetty EDI-tietoihin.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Uniikki rekisterikilven numero, joka on määrätty sekakuljetusyksikölle, joka sisältää erilaisia kohteita yhdellä asiakkaan transaktiolla ja jolla voi olla tai ei olla EDI-tietoja liitettynä.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Uniikki rekisterikilven numero, joka on määrätty pääkuljetusyksikölle, joka sisältää samanlaisia kohteita yhdellä asiakkaan transaktiolla ja jolla voi olla tai ei olla EDI-tietoja liitettynä.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Ajoneuvon rekisteröintikilven numero (ei uniikki ilman maan ja antavan hallinnollisen alueen/viranomaisen tunnistamista)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Merellinen Mobiili Palvelu Identiteetti (MMSI).\nYhdeksännumeroiset luvut, jotka on säädelty Kansainvälisen televiestintäliiton toimesta identifioimaan yksilöllisesti laivan tai rannikkoradioaseman. Esimerkki: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Asiakkaan määrittämä tilausnumero ostotapahtuman tunnistamiseen (esim., tilausnumeron).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Toimittajan määrittämä tilausnumero ostotapahtuman tunnistamiseen.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Rahtikirjan/Waybillin/Lähetystunnuksen koodi, jonka toimittaja/rahtiliikenne on määrittänyt.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Rahtikirjan/Waybillin/Lähetystunnuksen koodi, jonka kuljetusliike on määrittänyt.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Tilausnumeron rivinumero, jonka asiakas on määrittänyt ostotapahtuman tunnistamiseen.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Asiakkaan määrittämä viitenumero lähetysvaltuutuksen (Release) tunnistamiseen vakiintunutta tilausta vastaan.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>PRO# Kuljetusliikkeen määrittämä.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Kuljetusmuoto vapaamuotoisena tekstinä, jonka asiakas ja toimittaja ovat määrittäneet keskenään (esim., Ilma, Rekka, Vene, Rautatie).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Sopimusnumero.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Yleinen Transaktioviitekoodi (sisäisesti määritetty tai keskinäisesti määritelty).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Laskun numero.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Pakkauslistan numero.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Standard Carrier Alpha Code) (an4 - viiva '-' täytetty vasemmalta) ja kuljetusliikkeen määrittämä PROgressiivinen numero.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Rahtikirjan numero /Kuljetuskuittinumero SCAC + Konttirahtin rahtikirjan numero tai waybill-numero.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Yhdistetty tilausnumero ja rivinumero muodossa nn...nn+nn...n missä plus (+) symbolia käytetään erotinmerkkinä tilausnumeron ja rivinumeron välillä.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>KANBAN Numero.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>DELINS Numero: koodi, joka on määritetty tunnistamaan asiakirja, joka sisältää toimitustietoja.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Shekkinumero.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Rakenteellinen Viite.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Ulkomaisten Sotilasmyyntien Tapausnumero.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Lisenssin tunnistaja, ollen maailmanlaajuisesti uniikki tunniste lisenssille tai sopimukselle, jonka alaisuudessa kohteet tuotetaan, jätetään käsittelyyn ja/tai maksetaan, ja joka on rakennettu yhdistämällä:\n - ISO/IEC 15459 myöntämisviraston koodi;\n - lisenssi- tai sopimusnumero, joka vastaa kyseisen myöntämisviraston määrityksiä;\n ja joka:\n - koostuu vain isoista kirjaimista ja/tai numeromerkeistä;\n - on uniikki (eli eroaa kaikista muista ISO/IEC 15459:n mukaisista tunnisteista) myöntämisviraston alueella;\n - ei voida johtaa mistään muusta ISO/IEC 15459:n mukaisesta tunnisteesta, joka on myönnetty saman myöntämisviraston toimesta, yksinkertaisesti lisäämällä merkkejä sen päähän tai poistamalla niitä siitä.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Asiakastiedot, ollen tietoja, jotka:\n - asiakkaan näkökulmasta, liittyvät tai ovat yhteydessä kohteeseen tai transaktioon, tai erään tai useampaan kohteeseen tai transaktioihin, ja\n - koostuvat enintään 35 tulostettavasta merkistä ja/tai välilyönneistä, lukuun ottamatta plus (+), jotka on otettu merkistöstä, joka on määritelty ISO/IEC 646:ssa.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>'22K' Transaktion Todennustiedot, ollen arvo, joka on rakennettu yhdistämällä:\n - ISO/IEC 15459 myöntämisviraston koodi;\n - arvo, joka vastaa kyseisen myöntämisviraston määrityksiä,\n jonka avulla voidaan vahvistaa transaktion aitoutta ja erityisesti sitä, että transaktion aloitti se osapuoli, jonka transaktiossa väitetään olleen sen aloittaja,:\n - transaktion vastaanottajan toimesta, ja/tai\n - yhden tai useamman osapuolen, jotka ovat mukana sen käsittelyssä tai käsittelyssä, ja/tai\n - luotettavan kolmannen osapuolen toimesta.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Kuljetusyksiköiden ryhmien Maailmanlaajuinen Uniikki Tunnistus Kuljetusliikkeen Määrittämänä, määriteltynä seuraavasti:\nTransaktion Osapuolen Tunnistus määriteltynä Yritystunnusnumeron (CIN) haltijan toimesta ja sisältäen liittyvän Myöntämisviraston Koodin (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, rakennettuna 3 yhdistetyn datan elementin järjestyksessä: IAC, jonka jälkeen CIN, jonka jälkeen Rahtikirjan tai Waybillin tai Lähetystunnuksen Koodi, joka on uniikki CIN:n haltijan alueella.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Kuljetusyksiköiden ryhmien Maailmanlaajuinen Uniikki Tunnistus Lähettäjän Määrittämänä, määriteltynä seuraavasti:\nTransaktion Osapuolen Tunnistus määriteltynä Yritystunnusnumeron (CIN) haltijan toimesta ja sisältäen liittyvän Myöntämisviraston Koodin (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, rakennettuna 3 yhdistetyn datan elementin järjestyksessä: IAC, jonka jälkeen CIN, jonka jälkeen Rahtikirjan tai Waybillin tai Lähetystunnuksen Koodi, joka on uniikki CIN:n haltijan alueella.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Toimittajan Määrittämä Tarjousnumero - Numero, joka on määritetty tarjoukselle toimittajan toimesta vastauksena tarjouspyyntöön asiakkaalta.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Varastointipaikka.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Sijainti.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>'Toimita:' -Sijaintikoodi, joka on määritelty toimialastandardin tai keskinäisesti määritellyn mukaisesti.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>'Lähetä:' -Sijaintikoodi, joka on määritelty toimialastandardin tai keskinäisesti määritellyn mukaisesti.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Alkuperämaa, kaksikirjaiminen ISO 3166 maakoodi. Kaupankäyntikumppaneiden sopimuksella ja kun Alkuperämaa on sekoitettu, Maakoodi 'AA' tulee käyttää.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>'Toimita varten:' -Sijaintikoodi, joka on määritelty toimialastandardin tai keskinäisesti määritellyn mukaisesti.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Reittikoodi, jonka toimittaja on määrittänyt tietyn kuljetusreitin osoittamiseksi.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>6-merkkinen Puolustusministeriön Toimintakoodi (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Lähtösatama - Keskinäisesti Määritelty.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Päämääräsatama - Keskinäisesti Määritelty.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Sijainti (Leveysaste/Pituusaste/Korkeus) koodattuna muodossa xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>'Toimita:' -Sijainti (Leveysaste/Pituusaste/Korkeus) koodattuna muodossa xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>'Lähetä:' -Sijainti (Leveysaste/Pituusaste/Korkeus) koodattuna muodossa xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Toimita varten: Sijainti (Leveysaste/Pituusaste/Korkeus) koodattuna muodossa xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Tunnisteen Aktivointisijainti.\nEnglanninkielinen sijainnin nimi (merkistö: 0-9, A-Z &lt;Välilyönti&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Tunnisteen Deaktivointisijainti.\nEnglanninkielinen sijainnin nimi (merkistö: 0-9, A-Z &lt;Välilyönti&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>FAO:n määrittelemä kalastusaluekoodi Kalastuksen ja Vesiviljelyn Osaston toimesta (http://www.fao.org. Etsi Kalastusaluekoodi alisivusto).\nKaikki GS1 Yleisspesifikaation määrittelemän ISO/IEC 646:n osajoukon merkit sallittu.\nEsimerkit:\n18L37.1.3 Länsi-Välimeri, Sardinia;\n18L47.B.1 Atlantti, Kaakkois, SEAFO Jaosto, Namibian EEZ;\n18L67 Tyynimeri, Koillinen.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Ensimmäinen Taso (sisäisesti määritetty).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Toinen Taso (sisäisesti määritetty).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Kolmas Taso (sisäisesti määritetty.</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Neljäs Taso (sisäisesti määritetty).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Viides Taso (sisäisesti määritetty).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Transaktion Osapuolen Tunnistus, esim., 25L IAC CIN LOC määritetty Yritystunnusnumeron (CIN) haltijan toimesta ja sisältäen liittyvän Myöntämisviraston Koodin (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, rakennettuna 3 yhdistetyn datan elementin järjestyksessä: IAC, jonka jälkeen CIN, jonka jälkeen fyysinen sisäinen sijainti (LOC), joka on uniikki CIN:n haltijan alueella.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Sijaintikoodi, ollen koodi, joka tunnistaa sijainnin tai maantieteellisen alueen, tai niihin liittyvän ryhmän sijainteja tai alueita, jolla on merkitystä liittyvään transaktioon ja joka noudattaa alla määriteltyjä yhtä (a) kohti (f) rakenteita:\na) kaksi isoilla kirjaimilla kirjoitettua aakkosmerkkiä vastaten ISO 3166-1 kahden aakkoskoodin maakoodia maassa, jossa tai josta koostuen, sijainnit tai alueet sijaitsevat;\nb) kolme isoilla kirjaimilla kirjoitettua aakkosmerkkiä vastaten IATA:n lentokentän tai kaupungin koodia, jossa, lähellä tai josta koostuen, sijainnit tai alueet sijaitsevat;\nc) neljä tai useampia merkkejä, joista ensimmäiset kolme vastaavat ISO 3166-1 maakoodia, jonka jälkeen viiva (-), jäljellä olevan osan ollessa postinumero kyseisessä maassa;\nd) neljä tai useampia merkkejä, joista ensimmäiset kolme vastaavat ISO 3166-1 maakoodia, jonka jälkeen piste (.), jäljellä olevan osan ollessa ISO 3166-2 maan alajaon koodi kyseisessä maassa;\ne) viisi isoilla kirjaimilla kirjoitettua aakkosmerkkiä vastaten YK:n/LOCODEN aluekoodia alueella, jossa, lähellä tai josta koostuen, sijainnit tai alueet sijaitsevat;\nf) yhdistelmä, joka on vähintään seitsemän tai enintään 35 merkkiä pitkä, koostuen:\n- ISO/IEC 15459 myöntämisviraston koodista;\n- sijaintikoodista, joka koostuu merkeistä {A-Z; 0-9} ja joka vastaa myöntämisviraston määrityksiä.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Tapahtuman Sijainti UN/LOCODE.\nUN/LOCODE, jonka perään plus (+) merkki, jonka perään yksi tai useampi koodiarvo EDIFACT Koodilistasta 3227 'Sijainnin toiminnon koodin määrittelijä', esim.,\n7 Toimituspaikka;\n5 Lähtösatama;\n9 Lastaussatama;\n11 Purkaussatama;\n13 Välisatama;\n24 Sisääntulopaikka;\n35 Vientimaa;\n88 Kuljetusliikkeen vastaanottopaikka;\n125 Ulkomainen satama ennen lähtöä Yhdysvaltoihin;\n147 Lastauskenno/-asento;\n159 Toimituspaikka (vastaanottajalle);\n248 Lastauspaikka\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Katuosoite ja Numerot.\nKäytetään yhdessä H, 6H, 28L, 29L, 30L, 31L, 32L kanssa.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Kaupungin Nimi.\nKäytetään yhdessä H, 6H, 28L, 29L, 30L, 31L, 32L kanssa.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Maakunnan Yksityiskohdat.\nKäytetään yhdessä H, 6H, 28L, 29L, 30L, 31L, 32L kanssa.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Postinumero.\nKäytetään yhdessä H, 6H, 28L, 29L, 30L, 31L, 32L kanssa (Jos '-' viivaa käytetään, se tulee nimenomaisesti koodata).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Maakoodi.\nISO 3166-1 Alpha 2 Koodi\nKäytetään yhdessä H, 6H, 28L, 29L, 30L, 31L, 32L kanssa.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Yhtenäinen Resurssien Sijainti (URL).\nSisältää kaikki merkit, jotka muodostavat URL:n, mukaan lukien otsikkotiedot, kuten esim., http://. Merkistö kuten RFC 1738:ssa listattu.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Osoita Prosessi URL:iin (P2P URL) aloittamaan URL, joka kantaa kaikki muut datan elementit, jotka on koodattu AIDC mediassa seuraavan säännön mukaisesti: Skannaa koodi ja aloita URL alkaen P2P URL merkkijonosta, jättäen pois DI 34L ja ISO/IEC 15434 kuoren syntaksin (etuliite ja jälkiliite) ja lisää kaikki muut datan elementit, jotka on skannattu samassa järjestyksessä kuin mediassa koodattu, mukaan lukien DIt ja datan elementtien erotinmerkit. Muunna erikoismerkit lisätyssä datassa RFC 1738 muotoon (esim., Ryhmäerotin 'GS' käännetään RFC 1738 sekvenssiksi %1D). Huomaa, että tämä ei koske itse P2P URL:ää.\nEsimerkki: Koodattu datamerkkijono (käyttäen ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\njohtaa seuraavaan URL:ään lähetetyllä datalla:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nHuom: data '05' muotoisesta kuoresta ei sisällytetty URL:ään, koska 34L oli koodattu '06' muotoisessa kuoressa.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Hallituksen myöntämä hyväksyntänumero alukselle / vesiviljelypaikalle / tilalle / prosessorille, alkaen ISO 31661 alpha-2 maakoodilla, seurattuna hyväksyntänumerolla.\nKaikki GS1 Yleisspesifikaation määrittelemän ISO/IEC 646:n osajoukon merkit sallittu.\nEsimerkki:\n35LIECK0107EC = Maa; Irlanti. Aluksen Nimi; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Hallituksen myöntämä hyväksyntänumero tuottajalle tai tilalle tai ensimmäiselle luuttomalle / leikkaussalille, alkaen ISO 3166-1 alpha-2 maakoodilla, seurattuna hyväksyntänumerolla.\nKaikki GS1 Yleisspesifikaation määrittelemän ISO/IEC 646:n osajoukon merkit sallittu.\nEsimerkki:\n36LIECK0107EC = Maa; Irlanti. Aluksen Nimi; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Lähetä:' - Sijaintikoodi, jonka postiviranomainen on määrittänyt (esim., 5-numeroiset ja 9-numeroiset ZIP-koodit, jotka tunnistavat Yhdysvaltain sijainnit tai 6-merkkiset postikoodit, jotka tunnistavat Kanadan sijainnit).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Toimita:' - Sijaintikoodi, jonka postiviranomainen on määrittänyt (esim., 5-numeroiset ja 9-numeroiset ZIP-koodit, jotka tunnistavat Yhdysvaltain sijainnit tai 6-merkkiset postikoodit, jotka tunnistavat Kanadan sijainnit).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>'Lähetä:' - Sijaintikoodi, jonka postiviranomainen on määrittänyt muodossa: postikoodit (esim., 5-numeroiset ZIP-koodit, jotka tunnistavat Yhdysvaltain sijainnit tai 6- tai 7-merkkiset postikoodit, jotka tunnistavat Yhdistyneen kuningaskunnan sijainnit) seurattuna kahdella merkillä ISO 3166 maakoodista (esim., US tai GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>'Toimita:' - Sijaintikoodi, jonka postiviranomainen on määrittänyt muodossa: postikoodit (esim., 5-numeroiset ZIP-koodit, jotka tunnistavat Yhdysvaltain sijainnit tai 6- tai 7-merkkiset postikoodit, jotka tunnistavat Yhdistyneen kuningaskunnan sijainnit) seurattuna kahdella merkillä ISO 3166 maakoodista (esim., US tai GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Armeijan Lomake 2410 data. Muoto on datan arvo, jota edeltää lomakkeen 2410 lohkonumero. Kenttien pituudet ja hyväksyttävät merkit löytyvät osoitteesta;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Päivitys: URL on muutettu osoitteeseen:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Armeijan Lomake 2408 data. Muoto on datan arvo, jota edeltää lomakkeen 2408 lohkonumero. Kenttien pituudet ja hyväksyttävät merkit löytyvät osoitteesta;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Päivitys: URL on muutettu osoitteeseen:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Armeijan Lomake 2407 data. Muoto on datan arvo, jota edeltää lomakkeen 2407 lohkonumero. Kenttien pituudet ja hyväksyttävät merkit löytyvät osoitteesta;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Päivitys: URL on muutettu osoitteeseen:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Ilmavoimien Lomake 95 data. Muoto on datan arvo, jota edeltää lomakkeen 95 lohkonumero. Kenttien pituudet ja hyväksyttävät merkit löytyvät osoitteesta;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 Päivitys: Lomakkeen Nimi on "Ilmavoimien Tekninen Tilauslomake 95 (AFTO Lomake 95)." Tiedot lomakkeesta ovat peräisin Ilmavoimien Teknisestä Tilauskirjasta (TO) 00-20-1. URL tähän TO:oon on muutettu osoitteeseen:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Laivaston Lomake 4790 data. Muoto on datan arvo, jota edeltää lomakkeen 2410 lohkonumero. Kenttien pituudet ja hyväksyttävät merkit löytyvät osoitteesta;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%201 5.pdf.\n2020 Päivitys: URL ei ole enää voimassa.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Kansallinen/NATO Varastonumero (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Tuotteen Ominaisuustiedot, jotka Kemian Teollisuuden Datanvaihto (CIDX) on määritellyt.</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Koodausrakenne Muodossa, Joka on Määritelty Elektroniikkateollisuuden Yhdistys Japanin (EIAJ) Toimesta.</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Koodausrakenne ja Formaatit GS1 Sovellustunnisteiden (AI plus data) (GS1) Mukaisesti.</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Koodausrakenne ja Formaatit AIAG Suositusten Mukaisesti. Täydellinen Tietotunniste on muodossa 5Nxx, missä 'xx' löytyy täydellisestä koodilistasta, joka löytyy osoitteesta https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>Yhdysvaltain Puolustusministeriön Hankinta- ja Toimitusmenettelyn Koodit. Formaatti on asianmukainen MILSTRIP-koodi, jota seuraa datan arvo, joka liittyy kyseiseen koodiin. (Koodien täydellinen lista on saatavilla osoitteesta;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\n2020 Päivitys: URL on muutettu osoitteeseen:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/)</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>Yhdysvaltain Puolustusliikenteen Säännöstön Koodit. Formaatti on DTR-koodi, jota seuraa asianmukainen datan arvo, joka liittyy kyseiseen koodiin. (Koodien täydellinen lista on saatavilla osoitteesta;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\n2020 Päivitys: URL on muutettu osoitteeseen:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Tuotantoeläinten Tunnistuskoodit. Formaatti on tuotantoeläinkoodi, jota seuraa asianmukainen datan arvo, joka liittyy kyseiseen koodiin. Tekninen Raportti ja koodien täydellinen lista (koodit) ylläpidetään osoitteessa;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Laajennetut Dataelementit (Koodit).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Tekninen Raportti.\n2020 Päivitys: URL:t on muutettu osoitteeseen:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Apteekkituotenumero, jota IFA (www.ifaffm.de) ylläpitää seuraavilla elementeillä; Data-identifikaattori (DI), kaksinumeroinen tuoterekisteröintiviraston koodi (PRAC), tuoteviite (PR) ja kaksi PPN-tarkistusnumeroa (CC), muodossa DI PRAC PR CC.\nHUOMAUTUS - väli lisätään visuaalisen selkeyden vuoksi eikä se ole osa dataa.\nEsimerkit:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Datan muoto ja semantiikka, jotka on määritelty Yritystunnusnumeron (CIN) haltijan toimesta, jolle Myöntämisviraston Koodi (IAC) on myönnetty ISO/IEC 15459:n mukaisesti, määriteltyä 3 yhdistetyn datan elementin järjestyksessä: IAC, jonka jälkeen CIN, jonka jälkeen erotinmerkki ':' (kaksoispiste) seurattuna datalla muodossa ja semantiikassa, kuten CIN:n haltija on määritellyt.\nHUOMAUTUS: Vain ilmoitetun IAC+CIN sisällä kunkin DI '10N' datavirran soveltuvat datasyntaksisäännöt (jos sellaisia on) sovelletaan datalle, joka seuraa DI 10N+IAC+CIN.\nHUOMAUTUS: DI '10N' määrityksen virheen vuoksi (keskusviranomaisen puuttuminen datan määrittelyssä eikä ylläpidossa), uusia DI '10N' käyttöjä ei tulisi toteuttaa.\nDI '10N':n toiminto on vahvistettu Luokassa 18, SEKALAISET, DI '5R':llä. On suositeltavaa, että olemassa olevat sovellukset, jotka käyttävät DI '10N':ää, siirtyvät käyttämään DI 5R:ää.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Datan rakenne on määritelty ja hallinnoitu RLA:n toimesta, ja se koostuu 2 segmentistä: kenttätunnistekoodi, jota välittömästi seuraa data, kuten elementille määritelty datasanakirjassa RLA:n mukaisesti. Se on olennaisesti kenttien luettelo, jossa on standardoitu sisältö. Kenttätunnisteet on julkaistu osoitteessa http://rla.org/11ncodes. Näiden koodien käyttö ja rakenne on määritelty osoitteessa: http://rla.org/11nformat Lisäesimerkkejä löytyy kyseiseltä sivustolta. DI '11N':ää ei koskaan saa koodata 2D- tai RFID-tunnisteeseen muiden DI-elementtien kanssa yhdessä.\nHUOMAUTUS: DI '11N':n määrityksen virheen vuoksi (kielto, joka sanoo: 'DI '11N':ää ei koskaan saa koodata 2D- tai RFID-tunnisteeseen muiden DI-elementtien kanssa yhdessä.' ei ole pätevä lausunto), uusia DI '11N' käyttöjä ei tulisi toteuttaa. DI '11N':n toiminto on vahvistettu DI '12N':ssä. On suositeltavaa, että olemassa olevat sovellukset, jotka käyttävät DI '11N':ää, siirtyvät käyttämään DI '12N':ää.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Datan rakenne on määritelty ja hallinnoitu RLA:n toimesta, koostuen 2 segmentistä: kenttätunniste (FI) koodi, jota välittömästi seuraa data, kuten elementille määritelty datasanakirjassa RLA:n mukaisesti. Se on olennaisesti kenttien luettelo, jossa on standardoitu sisältö. Kenttätunnisteet on julkaistu osoitteessa http://rla.org/12ncodes Näiden koodien käyttö ja rakenne on määritelty osoitteessa: http://rla.org/12nformat. Esimerkkejä löytyy kyseiseltä sivustolta.\n2020 Päivitys: URL on muuttunut osoitteeseen:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Teollisen Internetin Tunnistekoodit, jotka CAICT hallinnoi ja ylläpitää, käytössä Kiinan Teollisen Internetin Tunnisteen Ratkaisujärjestelmässä ja rakennettuna &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, muodossa an3+a3+n3+n3+n8+an1...33, missä an3 on Datan Tunnistekoodi (DI), a3 on Myöntämisviraston Koodi (IAC = "VAA"), n3 on Ylätason Koodi (TTC), n3 on Toissijainen Koodi (STC), n8 on Yritystunnusnumero (CIN) toissijaisen tason alustan hallinnoima ja määrittämä ja an1...33 on Sarjanumero (SN), joka on CIN:n haltijan hallinnoima ja määrittämä, ja joka on uniikki kyseisen CIN:n haltijan alueella, käyttäen merkkejä 0–9, isoja ja pieniä kirjaimia A–Z, * (tähti), + (plusmerkki), - (viiva), . (piste tai pistemerkki), / (kenoviiva), ( (vasen sulku), ) (oikea sulku), ! (huutomerkki).\nEsimerkit:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Asiakkaan Määrittämä Tuotteen Tunnistekoodi.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Toimittajan Määrittämä Tuotteen Tunnistekoodi.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Koodi, Joka on Määritetty Määrittelemään Tuotteen Versiotason (esim., insinöörin muutosaste, painos tai revisio).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Yhdistetty Valmistajan Tunnistekoodi/Tuotekoodi 12/13-numeroisissa GS1 Formaateissa, plus mahdolliset lisäkoodit, jos niitä on.\n2020 Päivitys: GS1 suosittelee, että tätä DI:tä ei enää käytetä ja että tämän DI:n käyttäjät siirtyvät käyttämään GS1 datan tunnistekoodit (Sovellustunnisteet) ISO/IEC 15418 ja ISO/IEC 15459-3 mukaisesti.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Tuotekoodin Osa GS1 Formaateissa.\n2020 Päivitys: GS1 suosittelee, että tätä DI:tä ei enää käytetä ja että tämän DI:n käyttäjät siirtyvät käyttämään GS1 datan tunnistekoodit (Sovellustunnisteet) ISO/IEC 15418 ja ISO/IEC 15459-3 mukaisesti.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Kuljetusluokituksen Tuotenumero, Joka on Määritetty Kuljetusliikkeen Toimesta Vaarallisten Aineiden Luokitusta Varten (esim., Maantiekuljetus, Ilma, Vene, Rautatie Luokitus).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Yhdistetty Toimittajan Tunnistus ja Tuotekoodi (sisäisesti määritetty tai keskinäisesti määritelty).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Yleinen Kielen Laitteiston Tunnistus (CLEI), joka on valmistajan määrittämä joillekin telekommunikaatiolaitteille.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>14-numeroinen GS1 formaatti GTIN-14 koodirakenteelle.\n2020 Päivitys: GS1 suosittelee, että tätä DI:tä ei enää käytetä ja että tämän DI:n käyttäjät siirtyvät käyttämään GS1 datan tunnistekoodit (Sovellustunnisteet) ISO/IEC 15418 ja ISO/IEC 15459-3 mukaisesti.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Yhdistetty Valmistajan Tunnistekoodi (9-numeroinen DUNS-numero, jonka Dun &amp; Bradstreet on määrittänyt) ja Tuotekoodi/Osanumero (valmistajan määrittämä).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Vaarallisen Aineen Koodi, kuten ANSI X12.3 määrittelee, muodossa Dataelementti 208 (1-merkkinen koodin kvalifioija) seurattuna Dataelementillä 209 (Vaarallisen Aineen Koodi).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10-merkkinen CLEI Koodi telekommunikaatiolaitteille.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Asiakirjatyyppi (esim., Noutolista, Suunnittelupiirustus jne.) (sisäisesti määritetty tai keskinäisesti määritelty).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>VMRS Järjestelmäkoodi.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>VMRS Järjestelmä ja Kokoonpanokoodi.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>VMRS Järjestelmä, Kokoonpano, &amp; Osakoodi.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>VMRS Järjestelmä, Kokoonpano tai Osakoodi. (Käyttäjän Muokkaama).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Yhdistetty GS1 Toimittajan Tunnistus ja Tuotekoodi, Joka on Toimittajan Määrittämä.\n2020 Päivitys: GS1 suosittelee, että tätä DI:tä ei enää käytetä ja että tämän DI:n käyttäjät siirtyvät käyttämään GS1 datan tunnistekoodit (Sovellustunnisteet) ISO/IEC 15418 ja ISO/IEC 15459-3 mukaisesti.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Yhdistetty VMRS toimittajan ID ja Toimittajan Määrittämä Osanumero.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Tuotteen Osa. (Yksi tuote sisältää useita pakkauksia).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Ensimmäinen Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Toinen Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Kolmas Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Neljäs Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Viides Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Transaktion Osapuolen Tunnistus, Joka on Määritetty Yritystunnusnumeron (CIN) Haltijan Toimesta ja Sisältää Liittyvän Myöntämisviraston Koodin (IAC) ISO/IEC 15459:n ja Sen Rekisterin Mukaisesti, Rakennettuna 3 Yhdistetyn Datan Elementin Järjestyksessä: IAC, Jonka Jälkeen CIN, Jonka Jälkeen Toimittajan Määrittämä Osanumero, Joka on Uniikki CIN:n Haltijan Alueella.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Seuraavan Korkeamman Kokoonpanon Osanumero.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Tavaran HTS-6 Koodi; Käyttäen Muotoa: 4012.11 tai 4012.11.4000 (Desimaalipiste on Nimenomaisesti Koodattu) Harmonisoitu Järjestelmä (HS) on 6-numeroinen standardoitu numeerinen menetelmä kaupattujen tuotteiden luokittelemiseksi. HS-numeroita käytetään tulliviranomaisten toimesta ympäri maailman tuotteiden tunnistamiseen tullien ja verojen soveltamiseksi. Jotkut hallitukset lisäävät HS-numeroon lisänumeroita tietyissä luokissa tuotteiden tarkemman erottelun mahdollistamiseksi. Yhdysvalloissa viennissä käytettäviä numeroita kutsutaan 'Schedule B' -numeroiksi. Yhdysvaltain väestönlaskentatoimisto hallinnoi Schedule B -järjestelmää. Schedule B -numerot, ei HS-numerot, on annettava Viennin Ilmoituslomakkeessa (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nTuontikoodeja hallinnoi Yhdysvaltain Kansainvälisen Kaupan Komissio (USITC). http://hts.usitc.gov/\n2020 Päivitys: linkki http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf ei ole enää aktiivinen. Konsultoi lähettäjää SED-lomakkeen osalta.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Rahtinimi. Yksinkertainen kielenkuvaus (englanniksi).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Tuotteen Luokittelukoodi, kuten GMDN (Global Medical Device Nomenclature - http://www.gmdnagency.org) määrittelee.</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Ensimmäinen Taso (Toimittajan Määrittämä).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Toinen Taso (Toimittajan Määrittämä).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Kolmas Taso (Toimittajan Määrittämä).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Neljäs Taso (Toimittajan Määrittämä).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Viides Taso (Toimittajan Määrittämä).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Asiakkaan Määrittämä Koodi Valmistajan Materiaaliturvallisuustiedotteen (MSDS) Tunnistusnumeron Kuvailevaan Asiakirjaan, Joka Kuvaa Vaarallisen Aineen Käyttötarkoitukset, Vaarat ja Kemiallisen Koostumuksen.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Vientivalvottu Tuote. Altis vientivalvonnalle ja/tai rajoituksille, kuten Wassenaar-järjestelyssä määritelty. DI seuraa Alfa-2 ISO 3166 Maakoodia maasta, joka on asettanut rajoituksen, seurattuna Wassenaar-koodilla (http://www.wassenaar.org/controllists/index.html).\n2020 Päivitys: URL on muuttunut osoitteeseen https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Valmistajan Määrittämä Tuotetunniste - sisältää valmistajan määrittämän tuotenumeron, jonka perässä plus (+) merkki, seurattuna - jos tarvitaan tuotteen yksilölliseen tunnistamiseen valmistajan tuotevalikoimassa - valmistajan määrittämällä tuoteversion.\nEsimerkki 50PABC+6 edustaisi tuotenumeroa ABC, tuoteversio 6\nHUOM - Tuotenumeroa seuraa aina plus merkki, vaikka tuoteversiota ei olisikaan. Tämä on tarpeen valmistajan määrittämän tuotetunnisteen epäselvyydettömän yhdistämisen mahdollistamiseksi toisen datarakenteen kanssa käyttäen yhdistämismerkkinä plussaa (+). Esimerkiksi yhdistelmä 50P valmistajan määrittämä tuotetunniste ilman tuoteversiota ja sarjanumero (Datan tunnistekoodi S) entiteetissä voitaisiin koodata 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Maailmanlaajuisesti Uniikki Tuotetunniste, joka sisältää Transaktion Osapuolen Tunnistuksen, jonka Yritystunnusnumeron (CIN) Haltija on Määrittänyt ja Sisältää Liittyvän Myöntämisviraston Koodin (IAC) ISO/IEC 15459:n ja Sen Rekisterin Mukaisesti, seurattuna plus (+) merkillä, seurattuna Valmistajan Määrittämällä Tuotetunnisteella, kuten määritelty 50P:ssä\nEsimerkki: 51PJ4LBE0431863103+ABC+ edustaisi tuotetta, jonka tuotenumero on ABC ja versiota ei ole, valmistettu yhtiöllä, jonka Belgian ALV-numero on 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Värikoodi.\nTuotteen/esineen väri, joka on määritelty koodilla tai termillä, josta kaupankäyntikumppanit ovat keskinäisesti sopineet.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Tunniste Tiettyä Merenkulun Laitteistoa Varten, joka on Hyväksytty Euroopan Unionin Merenkulkulaitteistoa Koskevan Direktiivin (2014/90/EU) ja Toteuttamisasetuksen (EU) 2018/608 Alla.\nMuoto:\n• DI (an3);\n• Direktiivin 2014/90/EU Liitteessä II määritelty(ä) yhdenmukaisuuden arviointimenetelmä(ät) (CA) (a1);\n• Komission Määrittämä Ilmoitettu Elintunnistenumero Direktiivin 2014/90/EU Liitteen IV kohdan 3.1 mukaisesti (n4);\n• Todistus (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Uniikki Laitetunnistus - Laitetunniste) Lääkinnällisille Laitteille (MD) ja In vitro -Diagnostiikalle (IvD) julkisten UDI-tietokantojen (GUDID, EUDAMED jne.) uniikkina avaimena, kansallisten sääntelyvaatimusten mukaisesti, kuten Kansainvälinen Lääkinnällisten Laitteiden Sääntelyfoorumi (IMDRF) on hahmotellut. Kaikki UTF-8 merkistön tulostettavat merkit ovat sallittuja.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>DNV-sertifiointiviite. Osoittaa, että data sisältää viitteen tuotetodistukseen/tarkastuslausuntoon/raporttiin, jonka DNV on myöntänyt. Datatunnisteen perässä tulee olla kirjaimet "NV" ja sertifikaatin numero. Kun sertifikaatin numerossa on jälkiliite, se tulee sisällyttää datavirtaan käyttäen "-"-erotinmerkkiä. Revisioindikaattoreita ei anneta.\nEsimerkit:\n1. 55PNVXXXXXXX, missä 55P on datatunniste, XXXXXXX on DNV:n sertifikaatin numero.\n2. 55PNVXXXXXXX-Y, missä 55P on datatunniste, XXXXXXX-Y on DNV:n sertifikaatin numero jälkiliitteellä Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Määrä, Kappalemäärä tai Summa (vain numeerinen) (mittayksikkö ja merkitys yhteisesti määritelty).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Teoreettinen Pituus/Paino (vain numeerinen).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Todellinen Paino (vain numeerinen).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Mittayksikkö, kuten määritelty kahden merkin ANSI X12.3 Dataelementtinumerolla 355 Mittayksikkökoodi.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Bruttosumma.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Nettosumma.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Kun Useat Säiliöt Muodostavat Yhden Tuotteen (jokaisen säiliön sisältö on yhdistettävä muiden säiliöiden sisältöön muodostaakseen yhden tuotteen), Datatunnistetta '6Q' tulee käyttää eri säiliöiden linkittämiseen. Formaatti # / # ('tämä on x kappaleen n:s kappale tuotetta') Esitetään muodossa 'n/x', missä '/' (kauttaviiva) toimii erottimena kahden arvon välillä.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Määrä, Summa tai Kappalemäärä muodossa: Määrä seurattuna kahden merkin ANSI X12.3 Dataelementtinumerolla 355 Mittayksikkökoodi.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Säiliön Nimeämispaino\nValmistajan määrittämä säiliön kantokyvyn paino. Määritetty valmistushetkellä. Mittayksikkö on kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Yksittäisen Tuotteen Paino\nYhden tuotteen paino.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Tare Paino: tyhjän säiliön paino.\nSäiliön rungon paino.\nValmistajan määrittämä tyhjän säiliön paino. Määritetty valmistushetkellä. Mittayksikkö on kg (Tare paino).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Toimittajan Määrittämä Rahallinen Arvo muodossa: arvo seurattuna ISO 4217 dataelementtikoodilla valuuttojen ja varojen arvon yksikköjen esittämiseksi (esim., 12Q2.50USD) (2,50 Rahallinen Arvo Yhdysvaltain Dollareissa) merkitys yhteisesti määritelty.\nSisääntulon Arvo;\nArvo seurattuna ISO 4217 dataelementtikoodilla valuuttojen ja varojen arvon yksikköjen esittämiseksi (esim., 12Q2.50USD) (2,50 Rahallinen Arvo Yhdysvaltain Dollareissa)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># / # ('tämä on x kappaleen n:s kappale tässä lähetyksessä').\nEsitetään muodossa 'n/x', missä '/' (kauttaviiva) toimii erottimena kahden arvon välillä.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Alkuperäinen Toissijainen Määrä.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Päättyvä Toissijainen Määrä.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Kappalemäärä Pakettiautossa.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Lähetysten Määrä Pakettiautossa.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Kuutio ilmaistuna kuutiometreinä tai kuutiojalkoina seurattuna ANSI X12.3 dataelementtinumerolla 355 mittayksikkökoodilla (CR tai CF). Ei oletettua desimaalipistettä.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Leveys ilmaistuna lineaarisina metreinä tai lineaarisina jalkoina seurattuna ANSI X12.3 dataelementtinumerolla 355 mittayksikkökoodilla (LC tai LF). Ei oletettua desimaalipistettä.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Korkeus ilmaistuna lineaarisina metreinä tai lineaarisina jalkoina seurattuna ANSI X12.3 dataelementtinumerolla 355 mittayksikkökoodilla (LC tai LF). Ei oletettua desimaalipistettä.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Pituus ilmaistuna lineaarisina metreinä tai lineaarisina jalkoina seurattuna ANSI X12.3 dataelementtinumerolla 355 mittayksikkökoodilla (LC tai LF). Ei oletettua desimaalipistettä.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Lähetyksen NettPaino ilmaistuna punnissa tai kilogrammeina (kiloissa) seurattuna ANSI X12.3 dataelementtinumerolla 355 mittayksikkökoodilla (LB tai KG). Ei oletettua desimaalipistettä.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Pakettiauton Pituus ilmaistuna lineaarisina metreinä tai lineaarisina jalkoina seurattuna ANSI X12.3 dataelementtinumerolla 355 mittayksikkökoodilla (LC tai LF). Ei oletettua desimaalipistettä.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Pakettiauton Sisäkuutio ilmaistuna kuutiometreinä tai kuutiojalkoina seurattuna ANSI X12.3 dataelementtinumerolla 355 mittayksikkökoodilla (CR tai CF). Ei oletettua desimaalipistettä.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Netto Räjähdyspaino (laskennallinen arvo räjähde-ekvivalenttina ilmaistuna TNT:n punnissa). NEW:n mittaa käytetään kansainvälisesti räjähdeturvallisuuden etäisyyskaarien laskennassa. Ei oletettua desimaalipistettä.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Pakkaustaso, joka määrittelee pakkausten hierarkisen tason HIBC (Health Industry Bar Code) -määritysten mukaisesti.</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Yksittäisen Tuotteen Hinta-Arvo, Netto, '.' (piste) käytetty desimaalipisteenä (esim. 27Q1000.5 hinnan arvosta 1000,50).\nRakenne: an3+an1...20\n &lt;DI&gt;&lt;hinta-arvo&gt;.\nMerkistö: 0 - 9, piste (ISO 646 ASCII arvo desimaali 46, heksadesimaali 2E).\nEsimerkki käytettäessä nettohinta-arvoa 1000:\n27Q1000.\nEsimerkki käytettäessä nettohinta-arvoa 1000,50:\n27Q1000.5.\nHUOM - Jos valuuttaa vaaditaan, se voidaan ottaa toisesta samassa koodissa käytetystä dataelementistä, esim. 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Posti- ja Pakkausmaksun Yksittäinen Velotusarvo, '.' (piste) edustaa pilkkua (esim. 30Q100.50 arvosta 100,50).\nRakenne: an3+an1...10\n &lt;DI&gt;&lt;hinta-arvo&gt;.\nMerkistö: 0 - 9, piste.\nEsimerkki käytettäessä posti- ja pakkausmaksun arvoa 100:\n30Q100.\nEsimerkki käytettäessä posti- ja pakkausmaksun arvoa 100,50:\n30Q100.50.\nHUOM - Jos valuuttaa vaaditaan, se voidaan ottaa toisesta samassa koodissa käytetystä dataelementistä, esim. 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Alennusprosentti, '.' (piste) edustaa pilkkua (esim. 31Q8.5 alennusarvosta 8,5%).\nRakenne: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;alennusprosentti (%)&gt;.\nMerkistö: 0 - 9, piste\nEsimerkki käytettäessä alennusprosenttia 10%:\n31Q10.\nEsimerkki käytettäessä alennusprosenttia 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>ALV-prosentti, '.' (piste) edustaa pilkkua (esim. 27Q8.5 ALV-arvosta 8,5%).\nRakenne: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;ALV-prosentti (%)&gt;.\nMerkistö: 0 - 9, piste.\nEsimerkki käytettäessä ALV-prosenttia 10%:\n27Q19.\nEsimerkki käytettäessä ALV-prosenttia 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Valuutta, ISO 4217 valuuttakoodi.\nRakenne: an3+an3\n &lt;DI&gt;&lt;Valuutta, esim. EUR&gt;.\nMerkistö: A-Z, 0 - 9.\nEsimerkki käytettäessä Yhdysvaltain Dollarin ISO aakkoskoodia:\n31QUSD.\nEsimerkki käytettäessä EURON ISO aakkoskoodia:\n31QEUR.\nEsimerkki käytettäessä EURON ISO numeerista koodia:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Kliininen termikoodi, joka on määritelty kliinisessä nomenklatuurissa: "Kansainvälinen standardi terveysmittausten, havaintojen ja asiakirjojen tunnistamiseen - LOINC" (https://loinc.org), seuraavassa järjestyksessä: &lt;DI&gt;&lt;LOINC Koodi&gt;&lt;Plus Merkki&gt;&lt;Arvo&gt;. Arvon yksikkö ja muoto on määritelty LOINC Koodin mukaan.\nEsimerkki: 32Q28903-3+60 = LOINC Koodi 28903-3: </value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Palautuslupa (RMA) myönnetty toimittajan toimesta</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Asiakkaan määrittämä palautuskoodi</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>Yhdysvaltain puolustusministeriön tunnistekoodi (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Data muodossa ja semantiikassa, jotka on määritelty Yritystunnusnumeron (CIN) haltijan toimesta, jonka Myöntämisvirastokoodi (IAC) on myöntänyt ISO/IEC 15459:n mukaisesti, koostuen peräkkäisistä yhdistetyistä dataelementeistä: IAC, jonka jälkeen CIN, jonka jälkeen erottimerkki ':' (kaksoispiste) seurattuna datalla muodossa ja semantiikassa, jotka CIN:n haltija on määritellyt.\nHUOM - Vain ilmoitetun IAC+CIN sisältämät mahdolliset datasäännöt tulee soveltaa dataan DI 5R+IAC+CIN jälkeen.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 digitaalisen allekirjoituksen datakokoonpano. Jos taustalla olevan datan koodaus on 7 bittiä, vain ISO/IEC 20248 raakamuotoa voidaan käyttää.\nEsimerkki URL-muodossa:\n&lt;6R&gt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO\nEsimerkki raakamuodossa:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nISO/IEC 20248 datarakenteessa on digitaalinen allekirjoitus, jota käytetään tiettyjen dataelementtien viestin todentamiseen. 6R:n arvo ensimmäisenä parametrina ja todennettavat dataelementit (kaikki ei-tulostettavat merkit poistettu) toisena parametrina toimitetaan ISO/IEC 20248 DecoderVerifierille - joka palauttaa todennustuloksen: HYVÄKSY, HYLKÄÄ tai VIRHE(virhekoodi), ja dekoodatun ISO/IEC 20248 lisäkenttien JSON-objektin. ISO/IEC 20248 datarakenteessa voi olla lisäkenttiä ja ohjeita yhden tai useamman dataelementin viestin dekoodaamiseksi ja todentamiseksi. Nämä ohjeet käsitellään ISO/IEC 20248 DecoderVerifierilla.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Vesistötieteiden ja kalastuksen tietojärjestelmä (ASFIS) 'Virastojen välinen 3-alfakirjain lajikoodi', ylläpitäjänä Maailman elintarvikejärjestö (FAO) (www.fao.org, etsi 'ASFIS').\nEsimerkit;\n7RMUC = Mudakarppi;\n7RPCD = Australian makeanveden silli;\n7RWSH = Valkohai.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Maailman elintarvikejärjestön (FAO) kansainvälinen kalastusvälineiden standardiluokitus (ISSCFG) (www.fao.org)\nKaikki GS1 Yleisen Määrittelyn määrittelemän ISO/IEC 646 -merkistön merkit sallittu.\nEsimerkit:\n8R02.1.0 = Rantatroolit;\n8R03.1.5 = Katkaraputroolit;\n8R05.1.0 = Siirrettävät nostoverkot.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Kalan ja merenelävien tuotantomenetelmä, kuten Maailman elintarvikejärjestön (FAO) kalastus- ja vesiviljelyosasto on määritellyt, EU:n asetuksen 1379/2013 mukaisesti. (www.fao.org).\nKaikki GS1 Yleisen Määrittelyn määrittelemän ISO/IEC 646 -merkistön merkit sallittu.\nEsimerkit;\n9R01 = Merestä pyydetty;\n9R02 = Makeasta vedestä pyydetty;\n9R03 = Kasvatettu.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Toimittajan elinkaaren ajaksi määrittämä sarjanumero tai koodi entiteetille (esim., tietokoneen sarjanumero, jäljitettävyysnumero, sopimustyökalun tunnistus)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Toimittajan elinkaaren ajaksi määrittämä lisäkoodi entiteetille (esim., jäljitettävyysnumero, tietokoneen sarjanumero)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Ennakkoilmoituslähetys (ASN) Lähetyksen ID (SID) vastaa ANSI ASC X12 Dataelementtiä 396</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Toimittajan määrittämä uniikki pakkaustunnus (pakkaustason alin, jolla on pakkaus-ID koodi; sisältää samanlaisia tuotteita)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Toimittajan määrittämä pakkaustunnus pääpakkausmuodolle, joka sisältää samanlaisia tuotteita yhdessä asiakastilauksessa</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Toimittajan määrittämä pakkaustunnus pääpakkausmuodolle, joka sisältää erilaisia tuotteita yhdessä asiakastilauksessa</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Toimittajan määrittämä pakkaustunnus pääpakkausmuodolle, joka sisältää samanlaisia tuotteita useissa asiakastilauksissa</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Toimittajan määrittämä pakkaustunnus pääpakkausmuodolle, joka sisältää erilaisia tuotteita useissa asiakastilauksissa</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Toimittajan GS1 SSCC-18 mukaisesti esittämä toimittajan ID/Uniikki säiliötunnus\n2020 Päivitys: Viittaa GS1 Yleisiin Määrityksiin viimeisimmän version SSCC osalta.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Yleinen pakkaustunnus (keskinäisesti määritelty)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Koneen, solun tai työkalun ID-koodi</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Kiinteän omaisuuden ID-koodi</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Asiakirjanumero (sisäisesti määritelty tai keskinäisesti sovittu)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Kontin turvallisuussinetin tunnus</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>4. luokan epäidenttiset postipakettien manifestoinnit</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Toimittajan määrittämä sarjanumero, jota voidaan käyttää vain yhdessä '13V':n kanssa</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Versio numero, esim., Ohjelmiston versio</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Yhdistetty 6-numeroinen GS1 Toimittajan Tunnistus ja Toimittajan Määrittämä Uniikki Pakkaustunnus\n2020 Päivitys: GS1 suosittelee, että tätä DI:tä ei enää käytetä ja että tämän DI:n käyttäjät siirtyvät GS1 datan tunnisteisiin (Sovellustunnisteet) ISO/IEC 15418:n ja ISO/IEC 15459-3:n mukaisesti.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>CAGE-koodi &amp; Sarjanumero, joka on uniikki CAGE:n sisällä</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Yhdistetty Dun &amp; Bradstreetin toimittajan tunnistus ja toimittajan määrittämä uniikki pakkaustunnus, muodossa nn...nn+nn...n missä plus-symboli (+) toimii erotinmerkkinä DUNS-numeron ja uniikin pakkaustunnuksen välillä</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Asiakkaan määrittämä jäljitettävyyskoodi entiteetille</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Yhdysvaltain liikenneministeriön (D.O.T) määrittelemä rengastunnistenumero Yhdysvaltain lainsäädännön 49 CFR 574.5 mukaisesti.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Solukkotelefonien uniikki yksilöllinen tunniste</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Media Access Control (MAC) -osoite, joka on IEEE 802.11 -standardin mukainen</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>ISO/IEC 15963:n mukainen (arvo on bit-arvon muunnos 8-bittisiksi ASCII-arvoiksi). Tämä datatunniste voi mahdollisesti olettaa minkä tahansa ASCII-256 arvon. Rahtikonttien tunnisteiden rekisterinpitäjä (RA) valmistajille on ISO 14816:n RA. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Transaktion osapuolen tunnistus, jonka Yritystunnusnumeron (CIN) haltija on määrittänyt ja joka sisältää liittyvän Myöntämisvirastokoodin (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, koostuen kolmesta peräkkäisestä yhdistetystä dataelementistä: IAC, jonka jälkeen CIN, jonka jälkeen toimittajan määrittämä sarjanumero, joka on uniikki CIN:n haltijan alueella (Katso Liite C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Laitetunniste, joka on maailmanlaajuisesti uniikki tunniste laitteelle, laitteistolle tai tietokoneohjelman instanssille, jota käytetään tuotteiden tuotannossa, kuljetuksessa, käsittelyssä tai muussa käsittelyssä, joka koostuu yhdistämällä:\n - ISO/IEC 15459:n myöntämisvirastokoodi;\n - laitenumero, joka vastaa kyseisen myöntämisviraston määritelmiä; ja joka:\n - koostuu vain isoista kirjaimista ja/tai numeerisista merkeistä;\n - on uniikki (eli eroaa kaikista muista ISO/IEC 15459:n mukaisista tunnisteista) myöntämisviraston alueella;\n - ei voi olla johdettu mistään muusta ISO/IEC 15459:n mukaisesta tunnisteesta, joka on myönnetty saman myöntämisviraston toimesta, yksinkertaisesti lisäämällä merkkejä sen loppuun tai poistamalla niitä siitä.\nLukijan ID.\nLaitetunniste, joka on maailmanlaajuisesti uniikki tunniste laitteelle, laitteistolle tai tietokoneohjelman instanssille, jota käytetään tuotteiden tuotannossa, kuljetuksessa, käsittelyssä tai muussa käsittelyssä.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Erän sisällä olevan tuotteen numero, joka on numeeristen merkkien jono:\n - joka yksilöllisesti erottaa tuotteen, tunnistettavissa olevan erän sisällä olevista tuotteista, kaikista muista saman erän tuotteista;\n - jonka pituus on sama kaikille erän tuotteille.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Erä- ja tuotenumero, joka on datatunnisteen 27T eränumeron ja kyseiseen erään kuuluvan tuotteen datatunnisteen 27S tuotenumeron yhdistelmä.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Lisäjäljitettävyyskoodi entiteetille, jonka toimittaja on määrittänyt lisäksi tai eri tavalla kuin 'S' tai '1S' tarjoamat jäljitettävyyskoodit</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Sarjanumeroiden sekvenssin aloitusnumero</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Sarjanumeroiden sekvenssin päättymisnumero</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Seuraavan korkeamman kokoonpanon sarjanumero</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Loppuasennuksen sarjanumero tai osanumero</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Puskurin numero (Käytetään Yksikön DOD Liikkeessä)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Lavatunniste (Käytetään lastatuille 463L ilmalavoille)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Uniikki Tuote-identifioija, joka koostuu viidestä dataelementistä: 'IAC', jonka jälkeen 'CIN', jonka jälkeen 'Osanumero (PN)', jonka jälkeen '+' merkki, jonka jälkeen toimittajan määrittämä (tai hallinnoima) 'Osan Sarjanumero (PSN)', joka on maailmanlaajuisesti uniikki CIN:n haltijan alueella; muodossa IAC CIN PN + PSN (välit on annettu visuaalisen selkeyden vuoksi, ne eivät ole osa dataa). Katso Liite C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Uniikki Tuote-identifioija (UII) 25S-muodossa, jota edeltää numeerinen arvo, joka osoittaa sarjanumeron elementin pituuden järjestelmissä, jotka vaativat 'sarjanumeron' komponenttia yhdistetyssä Sarjanumeron elementissä (IAC+CIN+SN) Muoto: DI+LI+IAC+CIN+SN (LI=pituus SN)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Integroitu Piirikortin Tunniste (ICCID) ITU-T Suosituksen E.118 ja ETSI Suosituksen GSM 11.11 mukaisesti; enintään 20 merkkiä, joka koostuu Myöntäjän tunnusnumerosta (IIN; enintään 7 merkkiä), Yksilöllisestä tilin tunnisteesta (muuttuva; pituus määritetään IIN:n perusteella, mutta sama pituus yksittäisissä IIN:ssä), Tarkistusnumerosta (yksi merkki, laskettu Luhn-algoritmin avulla\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = tilin tunniste, c = tarkistusnumero)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Ensimmäinen Taso (Toimittajan Määrittämä)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Toinen Taso (Toimittajan Määrittämä)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Kolmas Taso (Toimittajan Määrittämä)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Neljäs Taso (Toimittajan Määrittämä)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Viides Taso (Toimittajan Määrittämä)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC-numero (Tyypillisesti Sarjallistettu Globaali Kauppatunnistenumero - SGTIN)\n2020 Päivitys: Termiä "EPC-numero" ei enää käytetä GS1:ssä. Viittaa GS1 Yleisiin Määrityksiin ja Tag Data Standardiin nykyisen terminologian osalta</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Toimittajan määrittämä salattu sarjanumero entiteetille, joka voidaan todentaa itsenäisen luotettavan kolmannen osapuolen toimesta. Salattu sarjanumero ei kuvaile mitään entiteetin parametreja ilman itsenäisen kolmannen osapuolen suorittamaa salauksen purkua.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>'ET-MERKKI' merkki. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Säiliötyyppi (sisäisesti määritelty tai keskinäisesti sovittu).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Asiakkaan määrittämä jäljitettävyysnumero, jolla tunnistetaan/seurataan ainutlaatuista entiteettien ryhmää (esim., erä, sarja, kuumennuserä).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Toimittajan määrittämä jäljitettävyysnumero, jolla tunnistetaan/seurataan ainutlaatuista entiteettien ryhmää (esim., erä, sarja, kuumennuserä).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Yksinoikeudellinen Määritys (Yhdysvaltain EPA:n ajoneuvotunnistus päästötestaukseen).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Palautettavan Säiliön Tunnistekoodi, jonka säiliön omistaja tai asianmukainen sääntelyviranomainen on määrittänyt (esim., metallikori, kori, kelat, yksikkökuormauslaite (ULD), perävaunu, säiliö tai konttikuljetuslaite) (ei sisällä kaasupulloja Katso '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Kaasupullon Säiliötunnistekoodi, jonka valmistaja on määrittänyt Yhdysvaltain liikenneministeriön (D.O.T.) standardien mukaisesti.</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Ensimmäinen Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Toinen Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Kolmas Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Neljäs Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Viides Taso (Asiakkaan Määrittämä).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Transaktion osapuolen tunnistus, jonka Yritystunnusnumeron (CIN) haltija on määrittänyt ja joka sisältää liittyvän Myöntämisvirastokoodin (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, koostuen kolmesta peräkkäisestä yhdistetystä dataelementistä: IAC, jonka jälkeen CIN, jonka jälkeen toimittajan määrittämä jäljitettävyysnumero, joka on uniikki CIN:n haltijan alueella.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Erätunniste, joka koostuu joko:\n - datatunnisteesta 26S postinkäsittelylaitteen tunnistimesta, tai\n - datatunnisteesta 20K lisenssitunnisteesta, tai\n - datatunnisteesta 18V osapuolentunnisteesta, joka:\n - eroaa kaikista muista ISO/IEC 15459:n mukaisista tunnisteista myöntämisviraston alueella;\n - ei voida johtaa toisesta osapuolentunnisteesta tai mistään muusta ISO/IEC 15459:n mukaisesta tunnisteesta, joka on myönnetty saman myöntämisviraston toimesta, yksinkertaisesti lisäämällä merkkejä sen loppuun tai poistamalla niitä siitä;\n yhdistettynä datatunnisteeseen 27T eränumeroon, kaksi erotettuna toisistaan viiva (-) merkillä.</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Eränumero, joka on myönnetty tunnistetun osapuolen tai käsittelyyksikön hallinnan alaisena, tai tunnistetun lisenssin ehtojen mukaisesti, joka:\n - yksilöllisesti erottaa yhden erän liittyvistä kohteista kaikista muista eristä, joihin eränumero on osapuolen, laitteen tai lisenssin toimesta määritetty;\n - koostuu enintään 10 merkin jonoista, joista ensimmäinen (numeerinen) merkki osoittaa seuraavien merkkien määrän, joista jokainen on otettu joukosta .</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Kuorma-autoliikenteen Kuljetusvälineiden Tunnistekoodi, jonka valmistaja on määrittänyt Kansainvälisen Standardointijärjestön (ISO) standardien mukaisesti.</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Ensimmäinen taso (toimittajan määrittämä).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Toinen taso (toimittajan määrittämä).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Kolmas taso (toimittajan määrittämä).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Neljäs taso (toimittajan määrittämä).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Viides taso (toimittajan määrittämä).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Standard Carrier Alpha Code (SCAC) (4 alfanumeerista merkkiä) ja valinnainen kuljetusliikkeen määrittämä perävaunun numero (yksi kymmeneen alfanumeerista merkkiä). Käytettäessä, kuljetusliikkeen määrittämä perävaunun numero erotetaan SCAC:stä viivalla '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Astian omaisuusnumero - Koostuu kahdesta yhdistetystä osasta:\n- Organisaation tunnistaminen ISO/IEC 15459:n mukaisesti ja ainutlaatuisen entiteetin tunniste sääntöjen mukaisesti, jotka on määrittänyt myöntävä viranomainen.\n- Entiteetin määrittämä yksilöllinen sarjanumero, joka päättyy 3-merkkiseen astiatyypin koodiin, joka on otettu EDIFACT-koodilistasta 8053 tai UPU-standardista M82-3. (Jos astiatyypin koodi on alle kolme merkkiä pitkä, kenttä täytetään viivalla '-' kolmeen merkkiin asti).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Astian sarjanumero.\nISO 6346:n mukaisesti. OC EI CSN CD, missä OC on kolmekirjaiminen omistajakoodi, jonka BIC on määrittänyt yhteistyössä, EI on yhden kirjaimen laiteluokkatunniste, CSN on laitteen omistajan määrittämä 6-numeroinen yksilöllinen astian tunniste, ja CD on modulus 11 -tarkistusnumero, joka on laskettu ISO 6346:n liitteen A mukaisesti.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Palautettavan astian omistajan tunnistaminen, jonka BIC on määrittänyt yhteistyössä.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Astian koko/tyyppikoodi.\nISO 6346:n, osio 4.2 mukaisesti.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Astian omistuskoodi. Todellinen nelimerkkinen lyhenne, jonka omistaja on merkinnyt astiaan. DOD:n omistamille astioille katso Puolustuksen kuljetusmääräysten liite EE-6.\n2020 Päivitys: tietolähde viittaus päivitetty Puolustuksen kuljetusmääräyksiin, Osa II, Liite TT sijaitsee osoitteessa:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Vaununumero (täydellinen numero ilman tarkistusnumeroa).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Vaununumeron tarkistusnumero, joka on tunnistettu 11B:ssä.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Astianumerokoodi (viimeiset 5 numeroa lukuun ottamatta tarkistusnumeroa).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Tunnisteen tila.\nY=Valtuutettu / N=Valtuuttamaton.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Vaarallisen lastin luokka.\nIMDG-luokka muodossa 'n.na', missä n = numeerinen, desimaalipiste nimenomaisesti koodattu, ja a = ehdollinen alfabeettinen kvalifioija. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>YK-koodi vaarallisille aineille.\nVaarallisen lastin toimittajan määrittämä YK-koodin mukaisesti.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\n2020 Päivitys: URL muutettu osoitteeseen http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Kuljetuskohteen nimi.\nAluksen nimi tai ajoneuvokoodi/junamatkan numero englanniksi.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Aluksen rekisterinumero.\nKolme kirjainta 'IMO' seurattuna seitsemällä numerolla, jotka IHS Fairplay on määrittänyt kaikille aluksille rakentamisen yhteydessä. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Matkan numero/Reissun numero.\nKirjain ja numero.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Aluksen maa.\nISO 3166-1 Alpha 2 -koodi.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Varattu elektronisille sinetinumeroille.\nKoostuu 18185-1 sinettitagin ID:stä - 32 bittiä ja ISO 14816:n 16-bittisestä valmistajan ID:stä (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Tulonumero/-tyyppi.\nKoostuu kolminumeroisesta täyttäjäkoodista, seurattuna seitsemännellä numeroisesta tulonumerosta ja päättynyt yhden numeron tarkistusnumeroon. Tulo Täyttäjäkoodi edustaa kolmimerkkistä alfanumeerista täyttäjäkoodia, jonka CBP on määrittänyt täyttäjälle tai tuojalle. Tulonumero edustaa täyttäjän määrittämää seitsemän numeroa. Numero voidaan määrittää millä tahansa kätevällä tavalla, kunhan samaa numeroa ei määritetä useammalle kuin yhdelle CBP-lomakkeelle 7501. Nollat on näytettävä. Tarkistusnumero lasketaan edellisistä 10 merkistä. Kaavan tarkistusnumeron laskemiseksi löytyy Liitteestä 1, CBP 7501 -ohjeet.\nTulotyyppi on kaksinumeroinen koodi, joka on yhteensopiva lohkon 2 kanssa, CBP 7501 -ohjeet.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Vakuusnumero.\nKolminumeroinen numeerinen koodi, joka tunnistaa vakuutusyhtiön Tullisidonnaisuudessa. Tämä koodi löytyy lohkosta 7 CBP-lomakkeesta 301, tai on saatavilla CBP:n automatisoidun järjestelmän kautta ABI-tiedostonlähetysten kautta, tuojan sidonnaisuuskyselyn kautta. Yhdysvaltain hallituksen tuonnille ja sellaisille tulotyypeille, jotka eivät vaadi vakuutusta, koodissa 999 pitäisi näkyä tässä lohkossa. Kun käteistä tai hallituksen arvopapereita käytetään vakuutuksen sijaan, käytä koodia 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Ulkomaan lastauspaikka.\n'Aikataulu K' (Ulkomaisten satamien luokittelu maantieteellisen kauppa-alueen ja maan mukaan) ulkomaiselle satamalle, jossa tavara todellisuudessa lastattiin alukseen, joka kuljetti tavaran Yhdysvaltoihin. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\n2020 Päivitys: URL muutettu: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Transaktion osapuolen tunnistaminen ISO 17364:n mukaisesti, jonka yritystunnusnumeron (CIN) haltija on määrittänyt ja joka sisältää liittyvän Myöntävän Viranomaisen Koodin (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, rakenteena kolmen yhdistetyn datan elementin sarja: IAC, seurattuna CIN:llä, seurattuna RTI-sarjanumerolla, joka on yksilöllinen CIN:n haltijan alueella.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Yksilöllinen palautettava kuljetusvälineen tunniste, joka koostuu viiden datan elementin sarjasta: 'IAC', seurattuna 'CIN':llä, seurattuna 'RTI-numerolla' (RTIN), seurattuna '+' merkillä, seurattuna toimittajan määrittämällä (tai hallinnoimalla) 'RTI-sarjanumerolla' (RTISN), joka on globaalisti yksilöllinen CIN:n haltijan alueella; muodossa IAC CIN RTIN + RTISN (välilyönnit lisätty visuaalisen selkeyden vuoksi; ne eivät ole osa dataa). Katso Liite C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Globaalisti yksilöllinen suuren kuormankantajan (LLC) palautettavan kuljetusvälineen (RTI) omaisuuden tunniste, jonka sivupohja on = 1000 mm, kuten ISO 17365:2013 määrittelee, kolmannen kerroksen pakkaus, joka koostuu viiden datan elementin sarjasta: 'IAC', seurattuna 'CIN':llä, seurattuna RTI-tyyppikoodilla 'RTITC', seurattuna '+' merkillä, seurattuna omistajan määrittämällä (tai hallinnoimalla) RTI-sarjanumerolla 'RTISN', joka on globaalisti yksilöllinen CIN:n haltijan alueella muodossa IAC CIN RTITC + RTISN (välilyönnit lisätty visuaalisen selkeyden vuoksi; ne eivät ole osa dataa).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Globaalisti yksilöllinen pienkuormankantajan (SLC) palautettavan kuljetusvälineen tunniste, jonka sivupohja on &lt; 1000 mm, kuten ISO 17364:2013 määrittelee (RTI), toisen kerroksen pakkaus, joka koostuu viiden datan elementin sarjasta: 'IAC', seurattuna 'CIN':llä, seurattuna RTI-tyyppikoodilla 'RTITC', seurattuna '+' merkillä, seurattuna omistajan määrittämällä (tai hallinnoimalla) RTI-sarjanumerolla 'RTISN', joka on globaalisti yksilöllinen CIN:n haltijan alueella muodossa IAC CIN RTITC + RTISN (välilyönnit lisätty visuaalisen selkeyden vuoksi; ne eivät ole osa dataa).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Globaalisti yksilöllinen palautettava pakkausvälineen (RPI) tunniste kategorian pakkausapuvälineelle (kansi, kupu, sisäosa, ...) koostuu viiden datan elementin sarjasta: 'IAC', seurattuna 'CIN':llä, seurattuna 'RPI-numerolla' RPIN, seurattuna '+' merkillä, seurattuna omistajan määrittämällä (tai hallinnoimalla) 'RPI-sarjanumerolla' RPISN, joka on globaalisti yksilöllinen CIN:n haltijan alueella muodossa IAC CIN RPIN + RPISN (välilyönnit lisätty visuaalisen selkeyden vuoksi; ne eivät ole osa dataa).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Pakkausvälineen numero.\nNumero, joka tunnistaa pakkausvälineen (materiaalin) tyypin, jota käytetään tuotteiden ja pakkausten pakkaamiseen.\nNumero mahdollistaa pakkausvälineen (materiaalin) tunnistamisen ja erottamisen tuotteista, pakkauksista, Palautettavista Kuljetusvälineistä (RTI) ja Palautettavista Pakkausvälineistä (RPI) pakkaamisen aikana.\nNumero muodostuu vähintään yhdestä dataelementistä:\nPakkausvälineen (materiaalin) numero, joka on yksilöllinen haltijan alueella.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Globaalisti yksilöllinen pakkausnumeron\nGlobaalisti yksilöllinen numero, joka tunnistaa pakkausvälineen (materiaalin) tyypin, jota käytetään tuotteiden ja pakkausten pakkaamiseen.\nGlobaalisti yksilöllinen numero mahdollistaa pakkausvälineiden (materiaalien) tunnistamisen ja erottamisen tuotteista, pakkauksista, Palautettavista Kuljetusvälineistä (RTI) ja Palautettavista Pakkausvälineistä (RPI) pakkaamisen aikana.\nNumero muodostuu kolmen yhdistetyn dataelementin sarjasta:\nIAC, seurattuna CIN:llä, seurattuna pakkausvälineen (materiaalin) numerolla, joka on yksilöllinen CIN:n haltijan alueella.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Globaalisti yksilöllinen Palautettava Pakkausväline (RPI) ISO 17364:n mukaisesti, jonka Yritystunnusnumeron (CIN) haltija on määrittänyt ja joka sisältää liittyvän Myöntävän Viranomaisen Koodin (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, rakenteena kolmen yhdistetyn datan elementin sarja: IAC, seurattuna CIN:llä, seurattuna RPI-sarjanumerolla, joka on yksilöllinen CIN:n haltijan alueella.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Postipalvelun ja siihen liittyvän prosessidatan määrittely UPU-standardin S25 datarakenteen 'Palveludata' mukaisesti</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Lisensointi Postidata, UPU-standardin S25 mukaisen eritelmän mukaisesti.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Lisäpostipalvelun ja siihen liittyvän prosessidatan määrittely UPU-standardin S25 datarakenteen 'Lisäpalveludata' mukaisesti.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Postihallintojen tunnistukset, jotka ilmaisevat yhden tai useamman postihallinnon, jotka ovat mukana postilähetyksen tai -erän käsittelyssä, ilmaistuna UPU-standardin S25 mukaisen eritelmän mukaisesti.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>UPU Sijaintikoodi, joka on koodi, joka tunnistaa sijainnin tai maantieteellisen alueen, tai siihen liittyvän ryhmän tällaisia sijainteja tai alueita, joilla on merkitystä liittyvään transaktioon ja joka noudattaa yhtä alla olevista rakenteista a) - g):\na) kaksi isoa kirjainta vastaavat ISO 3166-1 kahden kirjaimen maakoodia maasta, jossa tai josta koostuu sijainti tai alueet;\nb) kolme isoa kirjainta vastaavat IATA-koodia lentokentästä tai kaupungista, jossa, lähellä tai josta koostuu sijainti tai alueet;\nc) neljä tai useampi merkki, joiden ensimmäiset kolme vastaavat ISO 3166-1 maakoodia, seurattuna viivalla (-), jäljellä oleva osa on postinumero kyseisessä maassa;\nd) neljä tai useampi merkki, joiden ensimmäiset kolme vastaavat ISO 3166-1 maakoodia, seurattuna pisteellä (.), jäljellä oleva osa on ISO 3166-2 maan alajaon koodi kyseisessä maassa;\ne) viisi isoa kirjainta vastaavat YK:n paikkakoodia alueesta, jossa, lähellä tai josta koostuu sijainti tai alueet;\nf) kuusi isoa alfanumeerista merkkiä vastaavat UPU:n IMPC-koodia, joka on määritetty UPU-standardin S34 mukaisesti;\ng) yhdistelmä, joka on vähintään seitsemän, mutta enintään 25 merkkiä pitkä, koostuen:\n - myöntäjäkoodista, joka on määritetty UPU-standardien S31 mukaisesti;\n - sijaintikoodista, joka koostuu joukosta {A-Z; 0-9} ja noudattaa myöntäjän eritelmiä.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Pätevä UPU Sijaintikoodi, yhdistelmä:\n - sijaintiluokka UPU-koodilistasta 139;\n - data-identifioija 17U UPU sijaintikoodi.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Rekisterikilpi Palveludatan ja Sijaintikoodin kanssa on yhdistetty datarakenne, joka on yhteensopiva UPU-standardin S25 eritelmän kanssa, joka sisältää määrityksen:\n - ISO/IEC 15459:n mukainen esinetunniste;\n - data-identifioija 5U:n mukainen määritys palvelusta, joka on tarjottava esineelle;\n - data-identifioija 17U:n mukainen UPU sijaintikoodi tai data-identifioija 18U:n mukainen pätevä UPU sijaintikoodi.\n Huomautus - Lisätietoja varten, katso UPU-standardi S25. Ero yksinkertaisen UPU sijaintikoodin (DI 17U) ja pätevän UPU sijaintikoodin (DI 18U) välillä voidaan määrittää ensimmäisen merkin perusteella. Jos tämä on numeerinen, sovelletaan 18U; jos se on alfabeettinen, sovelletaan 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>OCR Datan Sijainti.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Asiakkaan määrittämä toimittajakoodi.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Toimittajan määrittämä toimittajakoodi.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>U.P.C. Yrityksen etuliite.\n2020 Päivitys: GS1 suosittelee, että tätä DI:tä ei enää käytetä ja että tämän DI:n käyttäjät siirtyvät GS1 datan pätevöijiin (Sovellustunnisteet) ISO/IEC 15418:n ja ISO/IEC 15459-3:n mukaisesti.\nGS1:n mukaan termiä "U.P.C." ei enää käytetä ja metadata (an2+n8) ei ole enää oikein. GS1 suosittelee, että tätä DI:tä ei käytetä tulevissa sovelluksissa.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>GS1 Yrityksen etuliite.\n2020 Päivitys: GS1 suosittelee, että tätä DI:tä ei enää käytetä ja että tämän DI:n käyttäjät siirtyvät GS1 datan pätevöijiin (Sovellustunnisteet) ISO/IEC 15418:n ja ISO/IEC 15459-3:n mukaisesti.\nGS1:n mukaan metadata (an2+n9) ei ole enää oikein. GS1 suosittelee, että tätä DI:tä ei käytetä tulevissa sovelluksissa.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Kuljetusliikkeen määrittämä Kuljetusliikkeen Tunnistekoodi, jonka alan standardi on määritellyt yhteisesti Toimittajan, Kuljetusliikkeen ja Asiakkaan kesken.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Rahoituslaitoksen tunnistekoodi (yhteisesti määritelty).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Valmistajan tunnistekoodi (yhteisesti määritelty).</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Osapuolen koodi, jolla on taloudellinen vastuu entiteetistä tai entiteettiryhmästä (esim. varaston omistaja) (yhteisesti määritelty).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Asiakkaan Asiakkaalle määrittämä koodi.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Toimittajan Toimittajalle määrittämä koodi.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Valmistaja ID\nHUOMAUTUS - Katso Liite 2, CBP 7501 Ohjeet.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Organisaatio, jolla on budjettivastuu entiteetistä, prosessista tai menettelystä (esim. kauppa, osasto, osasto)(sisäisesti määritelty).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>DUNS-numero, joka tunnistaa valmistajan.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>DUNS-numero, joka tunnistaa toimittajan.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>DUNS-numero, joka tunnistaa asiakkaan.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Kuljetusliikkeen määrittämä lähettäjänumero.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>VMRS Toimittajan tunniste.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>Yhdysvaltain puolustusministeriön CAGE-koodi.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Transaktion osapuolen tunnistaminen, jossa datan muoto koostuu kahdesta yhdistetystä segmentistä. Ensimmäinen segmentti on Myöntävän Viranomaisen Koodi (IAC) ISO/IEC 15459:n mukaisesti, toinen segmentti on ainutlaatuinen entiteetin tunnistus Yritystunnusnumero (CIN), joka on määritetty myöntävän viranomaisen sääntöjen mukaisesti (katso http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Transaktion osapuolen rooli(en) määritys, joka koostuu yhdestä tai useammasta koodiarvosta EDIFACT-koodilistasta 3035 'Osapuolen Kvalifioija', erotettuna plus (+) merkeillä (Ei koskaan yhdistettävä muiden DI:iden kanssa lineaarisessa symbolissa tai muussa mediassa, jossa yhdistämisen merkki on plus (+) merkki).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Transaktion osapuolen tunnistaminen, jonka Yritystunnusnumeron (CIN) haltija on määrittänyt ja joka sisältää liittyvän Myöntävän Viranomaisen Koodin (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, rakenteena kolmen yhdistetyn datan elementin sarja: IAC, seurattuna CIN:llä, seurattuna plus (+) merkillä seurattuna yhdestä tai useammasta koodiarvosta EDIFACT-koodilistasta 3035 'Osapuolen Kvalifioija', erotettuna plus (+) merkeillä (Ei koskaan yhdistettävä muiden DI:iden kanssa lineaarisessa symbolissa tai muussa mediassa, jossa yhdistämisen merkki on plus (+) merkki).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Transaktion osapuolen tunnistaminen, esim., 21V IAC CIN OSU, jonka Yritystunnusnumeron (CIN) haltija on määrittänyt ja joka sisältää liittyvän Myöntävän Viranomaisen Koodin (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, rakenteena kolmen yhdistetyn datan elementin sarja: IAC, seurattuna CIN:llä, seurattuna CIN:n määrittämällä organisaation alayksikön tunnisteella, joka on yksilöllinen CIN:n haltijan alueella.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>Kuljetusliikkeen SCAC.\nStandard Carrier Alpha Code - The National Motor Freight Traffic Association, Inc., (NMFTA) määrittää SCAC:t kaikille yrityksille paitsi niille koodeille, joita käytetään rahtikonttien tunnistamiseen, jotka eivät toimi yksinomaan Pohjois-Amerikassa, väliastian alustoissa ja perävaunuissa, rautateiden omistamattomissa rautatievaunuissa ja rautateillä. http://www.nmfta.org/Pages/welcome.aspx\nYritykset, jotka etsivät tunnistuskoodeja rahtikonteille, jotka eivät toimi Pohjois-Amerikassa, tulisi ottaa yhteyttä Bureau International des Containersiin, 38, rue des Blancs Manteaux, F75004 Pariisi, Ranska, sähköposti: bic@bic-code.org, web www.biccode.org. Rautatiet ja väliastian alustojen, perävaunujen ja rautateiden omistamattomien rautatievaunujen omistajien tulee ottaa yhteyttä Railincin asiakaspalveluun, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, sähköposti: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Hallituksen määrittämä arvonlisäveron tunnistenumero, joka tunnistaa toimittajan, alkaen ISO 3166-1 alpha-2 maakoodista (paitsi Kreikka, joka käyttää ISO 639-1 ki</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Hallituksen määrittämä arvonlisäveron tunnistenumero, joka tunnistaa asiakkaan, alkaen ISO 3166-1 alpha-2 maakoodista (paitsi Kreikka, joka käyttää ISO 639-1 ki</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Ilmoittaa, että NCAGE/CAGE-koodi, joka seuraa DI 25V:tä, on Valmistaja. Transaktion osapuoli, jossa NATO:n kaupallinen ja hallituksen yksikkö (NCAGE) / Kaupallinen ja hallituksen yksikkö (CAGE) -koodi, jota käytetään DI 25V:n takana, ilmoitetaan olevan transaktiossa mukana olevan kohteen valmistaja. Data, joka seuraa DI 25V:tä, koostuu viidestä isosta alfanumeerisesta merkistä, lukuun ottamatta kirjaimia "I" ja "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Työkäskynumero (esim., 'Tuotantopaperi') (sisäisesti määritelty).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Toimintosekvenssinumero. Numero, joka määrittää tietyn toiminnon järjestyksen toimintojen sarjassa, yleensä valmistus- tai kokoonpanoprosessissa.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Toimintokoodi/Työkoodi - suoritettavan työn tyyppi (sisäisesti määritelty tai yhteisesti määritelty).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Yhdistetty työkäskynumero ja toimintosekvenssinumero muodossa nn...n+nn...n, missä plus-merkki (+) käytetään erotinmerkkinä Työkäskynumeron ja Toimintosekvenssinumeron välillä.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Tilakoodi (sisäisesti määritelty tai yhteisesti määritelty).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Työyksikkökoodi - tunnistaa järjestelmän, alajärjestelmän, kokoonpanon, komponentin jne., jossa huoltoa suoritetaan.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Nimikkeistö - (sisäisesti määritelty tai yhteisesti määritelty).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Lomakkeen hallintanumero - Esipainetun hallintanumeron lomakkeissa.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Laadunvarmistusinsinööri - Sukunimi.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Yhteyshenkilön/Toiminnan puhelinnumero - muodossa (maakoodi) kaupungin tai aluekoodi plus paikallinen numero esim. (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Yhteisesti määritelty asiakkaan ja toimittajan välillä</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Yhteisesti määritelty kuljetusliikkeen ja toimittajan välillä</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Yhteisesti määritelty asiakkaan ja kuljetusliikkeen välillä</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Vapaa teksti</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Yhteisesti määritelty kuljetusliikkeen ja kaupankäyntikumppanin välillä</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Otsikkotiedot)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 1 Tiedot)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 2 Tiedot)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 3 Tiedot)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 4 Tiedot)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 5 Tiedot)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 6 Tiedot)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 7 Tiedot)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 8 Tiedot)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 9 Tiedot)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 10 Tiedot)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 11 Tiedot)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 12 Tiedot)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 13 Tiedot)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 14 Tiedot)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 15 Tiedot)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 16 Tiedot)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 17 Tiedot)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 18 Tiedot)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 19 Tiedot)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 20 Tiedot)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 21 Tiedot)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 22 Tiedot)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 23 Tiedot)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 24 Tiedot)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 25 Tiedot)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 26 Tiedot)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 27 Tiedot)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 28 Tiedot)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 29 Tiedot)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 30 Tiedot)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 31 Tiedot)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 32 Tiedot)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 33 Tiedot)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 34 Tiedot)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 35 Tiedot)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 36 Tiedot)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 37 Tiedot)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 38 Tiedot)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 39 Tiedot)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 40 Tiedot)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 41 Tiedot)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 42 Tiedot)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 43 Tiedot)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 44 Tiedot)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 45 Tiedot)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 46 Tiedot)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 47 Tiedot)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 48 Tiedot)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 49 Tiedot)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 50 Tiedot)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 51 Tiedot)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 52 Tiedot)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 53 Tiedot)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 54 Tiedot)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 55 Tiedot)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 56 Tiedot)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 57 Tiedot)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 58 Tiedot)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 59 Tiedot)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 60 Tiedot)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 61 Tiedot)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 62 Tiedot)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 63 Tiedot)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 64 Tiedot)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 65 Tiedot)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 66 Tiedot)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 67 Tiedot)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 68 Tiedot)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 69 Tiedot)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 70 Tiedot)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 71 Tiedot)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 72 Tiedot)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 73 Tiedot)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 74 Tiedot)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 75 Tiedot)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 76 Tiedot)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 77 Tiedot)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 78 Tiedot)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 79 Tiedot)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 80 Tiedot)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 81 Tiedot)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 82 Tiedot)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 83 Tiedot)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 84 Tiedot)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 85 Tiedot)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 86 Tiedot)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 87 Tiedot)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 88 Tiedot)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Rakenteellinen vapaa teksti (Rivi 89 Tiedot)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>'YHTÄ SUURI' -merkki. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Asiakkaan määrittelemän liian pitkälle kohteen koodille (luokka 16) jatko.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Toimittajan määrittelemän jäljitettävyyskoodin (luokka 20) jatko.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Toimittajan määrittelemän sarjanumeron (luokka 19) jatko.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Vapaan tekstin (luokka 26) jatko, jonka toimittaja/kuljettaja/asiakas ovat yhdessä määritelleet.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Tapahtumaviitteen (luokka 11) jatko, jonka toimittaja/kuljettaja/asiakas ovat yhdessä määritelleet.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Kohteen koodin (luokka 16) jatko, jonka toimittaja on määritellyt.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Funktio 1 (FUNC1) -merkki. Ilmestyy ensimmäisessä sijainnissa symbologian aloitusmerkin jälkeen Code 128, Code 49 tai Code 16K -symbolissa merkitsemään GS1-hallinnoidun symbolin.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Muoto YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Muoto DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Muoto MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Muoto YDDD (julialainen).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Muoto YYDDD (julialainen).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>ISO-muoto YYMMDD, jota seuraa välittömästi ANSI X12.3 -tietoelementin numero 374 -määritelmä, joka antaa koodin määrittelemään päivämäärän tyypin (esim., lähetyspäivä, valmistuspäivä).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>ISO-muoto YYYYMMDD, jota seuraa välittömästi ANSI X12.3 -tietoelementin numero 374 -määritelmä, joka antaa koodin määrittelemään päivämäärän tyypin (esim., lähetyspäivä, valmistuspäivä).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Muoto MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Tapahtuma, päivämäärä ja aika.\nISO-muoto YYYYMMDDHHMM (24 tunnin kello - UTC) välittömästi seurattuna UN/EDIFACT-koodin määritelmällä 2005, joka antaa koodin määrittelemään päivämäärän tyypin), esim.,\n11 [Päivämäärä, jolloin odotetaan tavaroiden lähetettävän/lähtevän viestin julkaisuhetkellä.];\n17 [Arvioitu toimituspäivä/-aika, jolloin tavaroiden odotetaan saapuvan];\n35 [Päivämäärä, jolloin tavarat toimitetaan määränpäähänsä.];\n118 [Varaus vahvistettu];\n129 [Päivämäärä, jolloin alus/tavara lähti viimeisestä ulkomaisesta satamasta viejämaassa.];\n132 [Päivämäärä/aika, jolloin kuljetusvälineen arvioidaan saapuvan purkamissatamaan tai määränpäähän.];\n133 [Päivämäärä/aika, jolloin kuljetusvälineen arvioidaan lähtevän lähtöpaikasta];\n137 [Päivämäärä/aika, jolloin toimittaja lähettää osat asiakkaan pyynnöstä. (Päivämäärä, jolloin DESADV-viesti julkaistaan. Suositus on, että DESADV julkaistaan 30 minuutin kuluessa tavaroiden noutamisesta ShipFrom-osapuolelta];\n146 [Arvioitu saapumispäivä (Tulli), päivämäärä, jolloin virallisen tulli-ilmoituksen päivämäärää odotetaan.];\n151 [Tuontipäivämäärä (Saapunut satamaan purkamistarkoituksessa];\n186 Lähtee laitoksesta ('Portti ulos)];\n204 [Päivämäärä, jolloin Tulli vapauttaa tavarat kuljettajalle tai tuojalle];\n253 [Lähtee satamasta ('Laivan lähtö')];\n252 [Saapuu satamaan ('Laivan saapuminen')];\n283 [Saapuu laitokseen ('Portti sisään)];\n342 [Kuljetusväline lastattu];\n351 [Sataman porttitarkastus];\n411 [Tilattu täytettäväksi];\n412 [Tilattu tyhjennettäväksi];\n420 [Kuljetusväline purettu];\n534 [Korjattu];\n677 [Vahvistettu täytetty];\n678 [Vahvistettu tyhjennetty];\n696 [Täyttöpäivämäärä].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Päivämäärä (rakenne ja merkitys yhteisesti määritelty).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Muoto YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Muoto YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Muoto YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Vanhin ja uusin valmistuspäivämäärä muodossa YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Viimeinen käyttöpäivä (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Viimeinen käyttöpäivä (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Valmistuspäivämäärä (YYYYMMDD) - Valmistuspäivä.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Valmistuspäivämäärä (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Tunnisteen aktivointiaika.\nYYYYMMDDHHMM (24 tunnin kello - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Tunnisteen deaktivointiaika.\nYYYYMMDDHHMM (24 tunnin kello - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Tarkastuspäivämäärä (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Toimituspäivämäärä vaaditaan (DDD julialainen) tai DOD MILSTAMP-koodi.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Tallennusaika.\nYYYYMMDDHHMM (24 tunnin kello - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Päivämäärä, esitetty muokatussa UTC-yhteensopivassa muodossa:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo], missä hakasulkeet osoittavat valinnaisuutta ja yyyy on vuosi, mmdd kuukausi ja päivä, hhmmss kellonaika tunneissa, minuuteissa ja sekunneissa, fff sekuntien murto-osat ja poooo UTC:stä poikkeama tunteina ja minuutteina, poikkeama on positiivinen, jos p on piste (.), negatiivinen, jos P on miinusmerkki (-).\nESIMERKKI:\n2005 - (UTC) kalenterivuosi 2005;\n200505 - (UTC) kalenterikuukausi toukokuu 2005;\n20050518 - (UTC) 18. toukokuuta 2005;\n200505181247 - 12:47 UTC 18. toukokuuta 2005;\n200505181247.0100 - 12:47 paikallisaika, eli 11:47 UTC, 18. toukokuuta 2005;\n20050518124723099 - 99 millisekuntia UTC 12:47:23 jälkeen 18. toukokuuta 200.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Pätevä päivämäärä, joka koostuu:\n- ISO/IEC 15459 myöntävän viraston koodista;\n- päivämäärän määritelmästä, joka noudattaa kyseisen viraston määrityksiä;\n- päivämäärästä, jonka muoto ja tulkinta noudattavat viraston määrityksiä kyseiselle päivämäärän määritelmälle.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Parasta ennen päivämäärä: (YYYYMMDD).\nEsimerkki: 25D20170202 = 2. helmikuuta 2017</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Ensimmäisen pakastuspäivämäärä (YYYYMMDD).\nEnsimmäinen pakastuspäivämäärä määritellään päivämääräksi, jolloin tuotteet pakastetaan suoraan teurastuksen, sadonkorjuun, pyynnin tai alkukäsittelyn jälkeen.\nEsimerkki: 26D20170721 = 21. heinäkuuta 2017.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Sadonkorjuupäivämäärä (YYYYMMDD).\nPäivämäärä, jolloin eläin teurastettiin tai tapettiin, kala saatiin pyydykseen tai kasvisato korjattiin.\nEsimerkki: 27D20170615 = 15. kesäkuuta 2017.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Sadonkorjuupäivämääräväli (YYYYMMDDYYYYMMDD).\nAloituspäivämäärä ja lopetuspäivämäärä, joiden aikana sadonkorjuu tapahtui.\nEsimerkiksi; eläimet teurastettiin tai tapettiin, kalat saatiin pyydykseen, tai kasvisato korjattiin.\nTietovirta määritellään ensimmäisen YYYYMMDD:n aloituspäivämääräksi ja viimeisen YYYYMMDD:n lopetuspäivämääräksi.\nEsimerkki:\n28D2017012320170214 = Alku; 23. tammikuuta 2017. Loppu; 14. helmikuuta 2017.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Vasen hakasulje', 'Oikea sulku', 'Suurempi kuin -merkki', 'Tietue-erotin' -merkit. Tietorakenne ISO/IEC 15434:n, Tietotekniikka - Automaattinen tunnistus ja tietojenkeruu - Korkeakapasiteettisen ADC median syntaksi, mukainen.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Rajoitetut aineet -luokitus - 'Ympäristöluokittelukoodi', mukaan lukien lyijyttömät (Pb-vapaat) pinnat, jotka on määritelty JESD97:ssä (IPC JEDEC J-STD-609), ja tulevaisuuden teollisuuden tai hallituksen viranomaisten määrittelemät koodit, jotka liittyvät ympäristönsuojelun sääntelyyn ja vaarallisten aineiden sisältöön.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Ilmanpaine - (korkeus) ilmaistuna Pascalina kansainvälisenä standardimittana.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Sallittu enimmäislämpötila. Sallittu enimmäislämpötila; Celsius-asteina, '-' (miinus) koodattu tarvittaessa.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Sallittu alin lämpötila.\nSallittu alin lämpötila; Celsius-asteina, '-' (miinus) koodattu tarvittaessa.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Sallittu suhteellisen kosteuden enimmäisarvo.\nSallittu suhteellisen kosteuden enimmäisarvo, ilmaistuna prosentteina.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Sallittu suhteellisen kosteuden alin arvo.\nSallittu suhteellisen kosteuden enimmäisarvo, ilmaistuna prosentteina.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Jääkaappikontin lämpötila.\nLämpötilasäädellylle rahtikuljetukselle lähetystä varten määritelty kohde, Celsius-asteina, '-' (miinus) koodattu tarvittaessa.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Kumulatiivinen aika-lämpötilaindeksi - ilmaistuna mittauksien tai laskentojen määränä.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Aika-lämpötilaindeksi - Seuraava korkeampi kokoonpano - ilmaistuna mittauksien tai laskentojen määränä.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Pakkausmateriaalin luokituksen*, koodin* ja painon ilmoitus tietylle pakkausmateriaalille, jota käytetään tietyssä pakkauksessa EU:n pakkaus- ja pakkausjätedirektiivin mukaisesti. (Materiaaliluokka ja -koodi määritelty liitteessä M).\n12ECCMMMMMMNNNNNUU, missä: - '12E' (an3) on Tietotunniste;\n - 'CC' (n2) on Materiaaliluokka liitteen M mukaan;\n - 'MMMMMM' (an1...6) on Materiaalikoodi liitteen M mukaan;\n - 'NNNNN' (n5) Materiaalin paino, desimaalipiste mukaan lukien (esim., 12.12);\n - 'UU' (an2) on painon mittayksikkö (esim., KG, GR, LB tai OZ ANSI X12.3:n mukaan liitteessä D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>DI 13E:tä seuraavat tiedot ovat yksi MSL-indikaattoreista (1, 2, 2a, 3, 4, 5, 5a, 6), kuten on esitetty taulukon 5-1 TASO-sarakkeessa JEDEC-standaardissa IPC/JEDEC J-STD-020E. Taulukko on esitetty vain viitteenä; viitattuun standardiin viimeksi julkaistua versiota tulee käyttää oikean MSL:n saamiseksi kyseiselle komponentille. Esimerkki: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>'VIIVA' tai 'MIINUS' -merkki. Lääketieteellinen keskusnumero (PZN), jonka IFA-ABDATA, Saksa, hallinnoi (Tämän järjestelmän tunnisteen rekisteröinti päättyy 2016-07-01). Korvattu '9N':llä.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Silmukkaotsikko.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Minun vanhempani ______ on . . . Yksilöllinen tunniste, jota seuraa Tietotunniste ja siihen liittyvät tiedot (käytettäväksi palautettavassa pakkauksessa). Tämän Tietotunnisteen on välittömästi seurattava kenttää (joka koostuu Tietotunnisteesta, tiedoista ja ryhmän erottimesta), johon se liittyy.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Minulla on ______ lasta . . . (käytettäväksi palautettavassa pakkauksessa, esim.; 3F10, kymmenelle lapselle). Tämän Tietotunnisteen on välittömästi seurattava kenttää (joka koostuu Tietotunnisteesta, tiedoista ja ryhmän erottimesta), johon se liittyy.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Looginen sivun määrittely tietojen joukossa, jotka on jaettu useille tietokantajille, rakennettu enintään kolmen (3) peräkkäisen tietoelementin sekvenssiksi, erotettu vinoviivalla ( / ) :\n Sivunumero (vaadittu), seurattuna sivumäärällä (valinnainen, vaadittu viimeisellä sivulla), seurattuna alfanumeerisella ryhmä-ID:llä (valinnainen; jos käytössä, vaaditaan kaikilla sivuilla ja rakennettu ISO/IEC 15459-3:n mukaisesti 3 tietoelementin sekvenssiksi: Myöntävän viraston koodi, seurattuna Yrityksen tunnistusnumeronumerolla, seurattuna myöntäjän alueella yksilöllisellä alfanumeerisella koodilla).\n Jälkimmäiset vinoviivat ovat valinnaisia.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Minulla on ______ lasta ja he ovat . . . (käytettäväksi palautettavassa pakkauksessa) Tämän Tietotunnisteen on välittömästi seurattava kenttää (joka koostuu Tietotunnisteesta, tiedoista ja ryhmän erottimesta), johon se liittyy.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>'HUUTO' merkki. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Osapuolen nimi.\nOsapuolen nimi seurattuna plus (+) merkillä seurattuna yhdestä tai useammasta koodiarvosta EDIFACT-koodilistasta 3035 'Osapuolen Kvalifioija', esim.;\nBY [Ostaja];\nCF [Kontin operaattori];\nCN [Vastaanottaja];\nCS [Konsolidoija];\nDEI [Aluksen operaattori/kapteeni];\nFA [Toimintahenkilöstön koodi];\nIM [Tuonti];\nMF [Valmistaja];\nOS [Lähettäjä];\nSE [Myyjä];\nST [Toimitettava];\nUC [Lopullinen vastaanottaja].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Työntekijän tunnistekoodi, jonka työnantaja on määrittänyt.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>Yhdysvaltain sosiaaliturvatunnus.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Ei-työntekijän tunnusnumero (sisäisesti määritelty tai yhteisesti määritelty) (esim., sopimustyöntekijät, toimittajat, palvelu- ja toimitushenkilöstö).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Kansallinen sosiaaliturvatunnus.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Sukunimi.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Osapuolen Nimi (Rivi 2).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Yhteyshenkilön puhelin.\nMaakoodi, Aluekoodi, Vaihde, numero [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Yhteystietod sähköposti.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Vastaanottajan Numero.\nYksilöllinen tunnistenumero voi olla IRS, EIN, SSN tai CBP:n määrittämä numero, kuten Turvallisuusilmoituksessa vaaditaan. Vain seuraavia muotoja tulee käyttää: IRS EIN: NN-NNNNNNN;\nIRS EIN suffiksilla:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP:n määrittämä nro: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Henkilökohtainen tunnistekoodi (ensimmäinen etukirjain, viimeinen etukirjain, SSN:n viimeiset neljä).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Etunimi ja toinen alkukirjain.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Sotilasarvo (E1-E9, W1-W5 ja O1-O10).\n2020 Päivitys: Metadataformaatti on muutettu vastaamaan käytössä olevia todellisia upseeriarvoja: "an2+an3". Selitystiedot on muutettu: "Sotilasarvo (E1-E9, W1-W5 ja O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Kansallinen tunnistenumero, kansallinen henkilötunnus tai kansallinen vakuutusnumero, jota käytetään yksilöiden tunnistamiseen maassa työn, verotuksen, hallituksen tukien, terveydenhuollon ja muiden hallituksen liittyvien toimintojen osalta.\nTunnisteen rakenne on DI (15H), jota seuraa ISO 3166-1 Alpha2-maakoodi, seurattuna hallituksen pääasiallisesti määrittelemällä yksilöiden tunnistekoodilla.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Globaalisti ainutlaatuinen henkilökohtainen tunniste, jonka Yritystunnuskoodin (CIN) haltija on myöntänyt ja johon sisältyy liittyvä Myöntävän viraston koodi (IAC) ISO/IEC 15459:n ja sen rekisterin mukaisesti, rakennettu 3 peräkkäisen tietoelementin sekvenssiksi: IAC, seurattuna CIN:llä, seurattuna haltijan alueella yksilöllisellä tunnisteella.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Globaalisti ainutlaatuinen henkilökohtainen tunniste, jossa on "Osapuolen kvalifioija" -koodiarvo EDIFACT-koodilistasta 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Yksinoikeudella myönnetty - Ajoneuvon tunnistenumero (VIN), määritelty Yhdysvalloissa 49 CFR:n osassa Osio 565 ja kansainvälisesti ISO 3779:n mukaan. (Nämä ovat täysin yhteensopivia tietorakenteita).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Lyhennetty VIN-koodi.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Globaalisti ainutlaatuinen kuljetusajoneuvon tunniste (esim., kuorma-autot), joka koostuu Ajoneuvon tunnistenumerosta (VIN), määritelty Yhdysvalloissa 49 CFR:n osassa Osio 565, ja kansainvälisesti ISO 3779:n mukaan, seurattuna '+' -merkillä, sitten seurattuna hallituksen myöntämällä Ajoneuvon rekisteröintikilven numerolla muodossa '4I' 'VIN' '+' 'hallituksen myöntämä Ajoneuvon rekisteröintikilven numero' (lainausmerkit ja välilyönnit esitetty selkeyden vuoksi vain; ne eivät ole osa tietoa).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Ainutlaatuinen tuotantoajoneuvon tunniste, jota käytetään ajoneuvon tuotantoprosessien aikana, koostuen Rungon Tunnusnumerosta (BTN; tai muusta kuvaajasta, jota käytetään raaka-auton rungon tai toisin sanoen osien kokoonpanon tunnistamiseen, jotka käytetään ajoneuvon tuotannon aloittamiseen), seurattuna '+' -merkillä, sitten seurattuna Tuotantojärjestysnumerolla (PON), seurattuna '+' -merkillä, ja sitten seurattuna Valmistajan määrittelemällä Sarjanumerolla (SN). HUOM - SN-komponentti korvataan VIN:llä heti, kun VIN on saatavilla kokoonpanoprosessissa.\nRakennus on seuraava;\n\5I" "BTN" "+" "PON" "+" "SN"\nmuuttuen (kun VIN saatavilla)\n"5I" "BTN" "+" "PON" "+" "VIN"\nHUOM - Lainausmerkit ja välilyönnit esitetty selkeyden vuoksi vain; ne eivät ole osa tietoa.\nHUOM - Tätä DI:tä ei koskaan yhdistetä muiden DI:iden kanssa lineaarisessa symbolissa tai muussa mediassa, jossa yhdistämismerkki on plus (+) -merkki.\nEsimerkit:\nSN-versio: 5IABCD1234+CO1234+W0L201600500001\nVIN-versio: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>'PLUS' märk. Tervishoiutööstuse Ärisuhtluse Nõukogu (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Unikaalne numbrimärk.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Transpordiühikule, mis on madalaima taseme pakend, murdumatu üksus, määratud unikaalne numbrimärk.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Mitmeid pakendeid sisaldavale transpordiühikule määratud unikaalne numbrimärk.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Madalaima taseme pakendile, murdumatu ühikule, millele on seostatud EDI andmed, määratud unikaalne numbrimärk.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Mitmeid pakendeid sisaldavale ja EDI andmetega seostatud transpordiühikule määratud unikaalne numbrimärk.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Segatranspordiühikule, mis sisaldab erinevaid esemeid ühel klienditehingul ja võib olla seotud EDI andmetega või mitte, määratud unikaalne numbrimärk.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Peatranspordiühikule, mis sisaldab sarnaseid esemeid ühel klienditehingul ja võib olla seotud EDI andmetega või mitte, määratud unikaalne numbrimärk.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Sõiduki registreerimise numbrimärk (pole unikaalne ilma riigi ja väljaandva valitsusasutuse/piirkonna tuvastamiseta)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Meremobiilteenuse Identiteet (MMSI).\nÜheksakohaline number, mille reguleerib Rahvusvaheline Telekommunikatsiooni Liit, et üheselt identifitseerida laeva või rannikuraadiojaama. Näide: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Kliendi poolt ostutehingu tuvastamiseks määratud tellimusnumber (nt ostutellimuse number).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Tarnija poolt ostutehingu tuvastamiseks määratud tellimusnumber.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Veoselehe/Saadetise Tunnuskood, mille on määranud tarnija/vedaja.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Veoselehe/Saadetise Tunnuskood, mille on määranud vedaja.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Tellimuse reanumber, mille on kliendi poolt ostutehingu tuvastamiseks määratud.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Viitenumber, mille on kliendi poolt saadetise loa (väljastamise) tuvastamiseks määratud.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>Vedaja poolt määratud PRO#.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Vedaja režiim vabas tekstivormingus, mis on kliendi ja tarnija vahel vastastikku määratletud (nt Õhk, Veok, Laev, Rong).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Lepingu number.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Üldine Tehingureferentsi Kood (sisemiselt määratud või vastastikku määratletud).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Arve number.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Pakkelehe number.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Standard Carrier Alpha Code) (an4 - kriipsuga '-' täidetud vasakult) ja vedaja poolt määratud PROgressiivne number.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Veoselehe Number /Transpordi Kviitungi Number SCAC + Konteineri kauba B/L number või veoselehe number.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Tellimusnumbri ja reanumbri kombinatsioon formaadis nn...nn+nn...n, kus pluss (+) sümbolit kasutatakse eraldajana tellimusnumbri ja reanumbri vahel.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>KANBAN Number.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>DELINS Number: kood, mis on määratud dokumendi tuvastamiseks, mis sisaldab tarneinformatsiooni.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Tšeki number.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Struktureeritud Viide.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Välisriikide Sõjaväemüügi Juhtumi Number.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Litsentsi Identifikaator, olles ülemaailmselt unikaalne identifikaator litsentsile või lepingule, mille alusel esemeid genereeritakse, esitatakse töötlemiseks ja/või makstakse, mis on koostatud konkateerides:\n - ISO/IEC 15459 väljaandva asutuse koodi;\n - litsentsi või lepingu numbri, mis vastab väljaandva asutuse nõuetele;\n ja mis:\n - koosneb ainult suurtähtedest ja/või numbritest;\n - on unikaalne (st erineb kõigist teistest ISO/IEC 15459 nõuetele vastavatest identifikaatoritest) väljaandva asutuse domeenis;\n - ei saa tuletada ühestki teisest ISO/IEC 15459 nõuetele vastavast identifikaatorist, mis on väljastatud sama väljaandva asutuse poolt, lihtsalt lisades tähemärke selle lõppu või eemaldades neid selle lõpust.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Kliendi Andmed, olles andmed, mis:\n - kliendi perspektiivist on seotud esemega või tehinguga, või partii või seotud esemete või tehingutega, ja\n - koosneb kuni 35 prinditavast tähemärgist ja/või tühikutest, välja arvatud pluss (+), mis on tõmmatud ISO/IEC 646 tähemärkide komplektist.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>'22K' Tehingu Autentimise Informatsioon, olles väärtus, mis on konstrueeritud konkateerides:\n - ISO/IEC 15459 väljaandva asutuse koodi;\n - väärtuse, mis vastab väljaandva asutuse nõuetele,\n mis võimaldab kontrollida tehingu autentsust ja eriti seda, et tehingu algatas osapool, kellel tehingus väidetakse olevat algataja, järgmistel pooltel:\n - tehingu saaja ja/või\n - üks või mitu tehingu käsitlemise või töötlemisega seotud osapoolt ja/või\n - usaldusväärne kolmas osapool.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Ülemaailmselt Unikaalne Transpordiühikute Gruppide Identifitseerimine Vedaja Poolt Määratud, määratletud kui:\nTehingu Osapoole Identifitseerimine ettevõtte Identifitseerimisnumbri (CIN) omaniku poolt määratud ja hõlmab seotud Väljaandva Asutuse Koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registrile, struktureeritud kui 3 järjestikku konkateeritud andmeelementi: IAC, järgneb CIN, järgneb veoselehe või veokirja või saadetise tuvastuskood, mis on unikaalne CIN omaniku domeenis.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Ülemaailmselt Unikaalne Transpordiühikute Gruppide Identifitseerimine Saatja Poolt Määratud, määratletud kui:\nTehingu Osapoole Identifitseerimine ettevõtte Identifitseerimisnumbri (CIN) omaniku poolt määratud ja hõlmab seotud Väljaandva Asutuse Koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registrile, struktureeritud kui 3 järjestikku konkateeritud andmeelementi: IAC, järgneb CIN, järgneb veoselehe või veokirja või saadetise tuvastuskood, mis on unikaalne CIN omaniku domeenis.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Tarnijale Määratud Hinnapakkumise Number - Kliendi hinnapäringule vastusena tarnija poolt hinnapakkumisele määratud number.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Hoiustamiskoht.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Asukoht.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>'Tarnitakse:' Asukohakood, mille on määratlenud tööstusstandard või vastastikku määratletud.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>'Saada Alates:' Asukohakood, mille on määratlenud tööstusstandard või vastastikku määratletud.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Päritoluriik, kahe tähemärgiga ISO 3166 riigikood. Kaubanduspartnerite kokkuleppel ja kui Päritoluriik on segatud, tuleb kasutada Riigikoodi 'AA'.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>'Tarnitakse Eest:' Asukohakood, mille on määratlenud tööstusstandard või vastastikku määratletud.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Tarnija poolt määratud marsruudi kood, mis tähistab kindlat transporditeed.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>Kaitseministeeriumi Tegevuskood (DoDAAC) 6 tähemärki.</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Pealemineku Sadam - Vastastikku Määratletud.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Mahamineku Sadam - Vastastikku Määratletud.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Asukoht (Laius/Pikkus/Kõrgus) kodeeritud formaadis xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>'Tarnitakse:' Asukoht (Laius/Pikkus/Kõrgus) kodeeritud formaadis xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>'Saada Alates:' Asukoht (Laius/Pikkus/Kõrgus) kodeeritud formaadis xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Saada Eest: Asukoht (Laius/Pikkus/Kõrgus) kodeeritud formaadis xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Sildi Aktiveerimise Asukoht.\nInglise asukohanimi (tähemärkide komplekt: 0-9, A-Z &lt;Tühik&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Sildi Deaktiveerimise Asukoht.\nInglise asukohanimi (tähemärkide komplekt: 0-9, A-Z &lt;Tühik&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>FAO kalapüügipiirkonna kood, nagu on määratlenud FAO Kalanduse ja Vesiviljeluse Osakond (http://www.fao.org. Otsige Kalapüügipiirkonna Kood alamsaiti).\nKõik GS1 Üldspetsifikatsiooni määratletud ISO/IEC 646 tähemärkide komplekti lubatud tähemärgid.\nNäited:\n18L37.1.3 Lääne-Vahemeri, Sardiinia;\n18L47.B.1 Atlandi ookean, Kaguosa, SEAFO Jaotis, Namiibia EEZ;\n18L67 Vaikne ookean, Kirdeosa.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Esimene Tase (sisemiselt määratud).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Teine Tase (sisemiselt määratud).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Kolmas Tase (sisemiselt määratud).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Neljas Tase (sisemiselt määratud).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Viies Tase (sisemiselt määratud).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Tehingu Osapoole Identifitseerimine, nt 25L IAC CIN LOC, mille on määranud ettevõtte Identifitseerimisnumbri (CIN) omanik ja mis hõlmab seotud Väljaandva Asutuse Koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registrile, struktureeritud kui 3 järjestikku konkateeritud andmeelementi: IAC, järgneb CIN, järgneb füüsiline sisemine asukoht (LOC), mis on unikaalne CIN omaniku domeenis.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Asukohakood, olles kood, mis identifitseerib asukoha või geograafilise piirkonna, või seotud asukohate või piirkondade rühma, mis on oluline seotud tehinguga ja mis vastab ühele allpool määratletud struktuurile:\na) kaks suurtähte vastavalt ISO 3166-1 kahele tähtkoodile riigist, kus asuvad või mille koosnevad asukohad või alad;\nb) kolm suurtähte vastavalt IATA lennujaama või linna koodile, kus asuvad, on lähedal või millest koosnevad asukohad või alad;\nc) neli või rohkem tähemärki, millest esimesed kolm vastavad ISO 3166-1 riigikoodile, millele järgneb kriips (-), ülejäänud osa on postikood riigis;\nd) neli või rohkem tähemärki, millest esimesed kolm vastavad ISO 3166-1 riigikoodile, millele järgneb punkt (.), ülejäänud osa on ISO 3166-2 riigi alajaotuse kood riigis;\ne) viis suurtähte vastavalt ÜRO/LOCODE alale, kus asuvad, on lähedal või millest koosnevad asukohad või alad;\nf) konkatenatsioon, olles vähemalt seitse või rohkem kui 35 tähemärki pikk, mis koosneb:\n- ISO/IEC 15459 väljaandva asutuse koodist;\n- asukohakoodist, mis koosneb tähemärkidest {A-Z; 0-9}, mis vastab väljaandva asutuse nõuetele.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Sündmuse Asukoht UN/LOCODE.\nUN/LOCODE, millele järgneb plussmärk (+), millele järgnevad üks või mitu koodiväärtust EDIFACT Koodide Nimekirjast 3227 'Asukoha funktsiooni koodi kvalifikaator', nt,\n7 Lõppsihtkoht;\n5 Väljumissadam;\n9 Laadimissadam;\n11 Mahalaadimissadam;\n13 Ümberlaadimiskoht;\n24 Sissesõidusadam;\n35 Ekspordiriik;\n88 Vedaja Vastuvõtukoht;\n125 Välisriigi sadam enne väljumist USA-sse;\n147 Lastiruumi/positsioon;\n159 Kohaletoimetamiskoht (saajale);\n248 Laadimiskoht\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Aadress ja Tänavanimi.\nKasutatakse koos H, 6H, 28L, 29L, 30L, 31L, 32L-ga.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Linna Nimi.\nKasutatakse koos H, 6H, 28L, 29L, 30L, 31L, 32L-ga.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Riigi Alajaotuse Üksikasjad.\nKasutatakse koos H, 6H, 28L, 29L, 30L, 31L, 32L-ga.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Postiindeks.\nKasutatakse koos H, 6H, 28L, 29L, 30L, 31L, 32L-ga (Kui kasutatakse kriipsu '-', tuleb see väljendada selgelt).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Riigikood.\nISO 3166-1 Alpha 2 Kood\nKasutatakse koos H, 6H, 28L, 29L, 30L, 31L, 32L-ga.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Ühtne Ressursside Asukoha Näitaja (URL).\nSisaldab kõiki URL-i moodustavaid tähemärke, kaasa arvatud päiseandmed nagu nt http://. Tähemärkide komplekt nagu on loetletud RFC 1738-s.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Protsessi URL-i Osuti (P2P URL) URL-i käivitamiseks, et kanda kõik muud andmeelemendid, mis on kodeeritud AIDC meediumis vastavalt järgmisele reeglile: Skaneeri kood ja alusta URL-i P2P URL-i stringiga, jättes välja DI 34L ja ISO/IEC 15434 ümbriku süntaksi (eessõna ja järelsõna) ning lisa kõik muud andmeelemendid, mis on skaneeritud samas järjekorras nagu need on kodeeritud meediumis, kaasa arvatud DId ja andmeelementide eraldajad. Eri tähemärkide puhul teisenda need RFC 1738 vormingusse (nt Rühma Eraldaja 'GS' tõlgitakse RFC 1738 jadasse %1D). Pane tähele, et see ei kehti P2P URL-i enda kohta.\nNäide: Kodeeritud andmerida (kasutades ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nresulteerib järgmises URL-is edastatud andmetega:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nMärkus: andmed '05' formaadi ümbrikust ei olnud URL-is kaasatud, kuna 34L oli kodeeritud '06' formaadi ümbrikus.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Valitsuse poolt määratud heakskiidunumber laevale / vesiviljeluspaigale / farmile / töötlejale, alustades ISO 31661 alfa-2 riigikoodiga, millele järgneb heakskiidunumber.\nKõik GS1 Üldspetsifikatsiooni määratletud ISO/IEC 646 tähemärkide komplekti lubatud tähemärgid.\nNäide:\n35LIECK0107EC = Riik; Iirimaa. Laeva Nimi; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Valitsuse poolt määratud tootja või farmi või esimese kondistamise / lõikamise saali heakskiidunumber, alustades ISO 3166-1 alfa-2 riigikoodiga, millele järgneb heakskiidunumber.\nKõik GS1 Üldspetsifikatsiooni määratletud ISO/IEC 646 tähemärkide komplekti lubatud tähemärgid.\nNäide:\n36LIECK0107EC = Riik; Iirimaa. Laeva Nimi; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Saada Alates:' - Postiasutuse poolt määratletud asukohakood (nt USA asukohti identifitseerivad 5-kohalised ja 9-kohalised ZIP-koodid või Kanada asukohti identifitseerivad 6-tähemärgilised postikoodid).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Saada:' - Postiasutuse poolt määratletud asukohakood (nt USA asukohti identifitseerivad 5-kohalised ja 9-kohalised ZIP-koodid või Kanada asukohti identifitseerivad 6-tähemärgilised postikoodid).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>'Saada Alates:' - Postiasutuse poolt formaadis määratletud asukohakood: postikoodid (nt USA asukohti identifitseerivad 5-kohalised ZIP-koodid või Ühendkuningriigi asukohti identifitseerivad 6- või 7-tähemärgilised postikoodid), millele järgneb kahekohaline ISO 3166 riigikood (nt US või GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>'Saada:' - Postiasutuse poolt formaadis määratletud asukohakood: postikoodid (nt USA asukohti identifitseerivad 5-kohalised ZIP-koodid või Ühendkuningriigi asukohti identifitseerivad 6- või 7-tähemärgilised postikoodid), millele järgneb kahekohaline ISO 3166 riigikood (nt US või GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>USA Armee Vorm 2410 andmed. Formaat on andmeväärtus, millele eelneb vormi 2410 ploki number. Väljade pikkused ja vastuvõetavad tähemärgid leiate aadressilt;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Uuendus: URL on muudetud:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>USA Armee Vorm 2408 andmed. Formaat on andmeväärtus, millele eelneb vormi 2408 ploki number. Väljade pikkused ja vastuvõetavad tähemärgid leiate aadressilt;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Uuendus: URL on muudetud:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>USA Armee Vorm 2407 andmed. Formaat on andmeväärtus, millele eelneb vormi 2407 ploki number. Väljade pikkused ja vastuvõetavad tähemärgid leiate aadressilt;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Uuendus: URL on muudetud:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>USA Õhujõudude Vorm 95 andmed. Formaat on andmeväärtus, millele eelneb vormi 95 ploki number. Väljade pikkused ja vastuvõetavad tähemärgid leiate aadressilt;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 Uuendus: Vormi nimi on "Õhujõudude Tehnilise Tellimuse Vorm 95 (AFTO Vorm 95)." Vormi üksikasjad pärinevad Õhujõudude Tehnilisest Tellimusest (TO) 00-20-1. Selle TO URL on muudetud:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>USA Mereväe Vorm 4790 andmed. Formaat on andmeväärtus, millele eelneb vormi 2410 ploki number. Väljade pikkused ja vastuvõetavad tähemärgid leiate aadressilt;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%2015.pdf.\n2020 Uuendus: URL ei ole enam kehtiv.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Rahvusvaheline/NATO Varunumber (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Keemiatööstuse Andmevahetuse (CIDX) määratletud Tooteomaduste Andmed.</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Elektroonikatööstuse Assotsiatsiooni Jaapani (EIAJ) määratletud Kodeerimisstruktuur.</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>GS1 Rakendusidentifikaatoritega (AI pluss andmed) (GS1) vastavuses olev Kodeerimisstruktuur ja Formaadid.</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>AIAG Soovitustega vastavuses olev Kodeerimisstruktuur ja Formaadid. Täielik Andmeidentifikaator on kujul 5Nxx, kus 'xx' leitakse täielikust koodide nimekirjast, mida hoitakse aadressil https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>USA Kaitseministeeriumi Taotlemis- ja Väljastusprotseduuri Koodid. Formaat on vastava MILSTRIP koodi järel andmeväärtus, mis on seotud selle koodiga. (Kõigi koodide täielik nimekiri on saadaval aadressil;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\n2020 Uuendus: URL on muudetud:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>USA Kaitse Transpordi Määruste Koodid. Formaat on DTR koodi järgnev vastav andmeväärtus. (Kõigi koodide täielik nimekiri on saadaval aadressil;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\n2020 Uuendus: URL on muudetud:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Tootmisloomade Identifitseerimiskoodid. Formaat on tootmislooma koodi järgnev vastav andmeväärtus. Tehniline aruanne ja täielik nimekiri Laiendatud Andmeelementidest (koodid) hoitakse aadressil;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Laiendatud Andmeelemendid (Koodid).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Tehniline Aruanne.\n2020 Uuendus: URLid on muudetud:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Apteegi Toote Number, mida hoitakse IFA-s (www.ifaffm.de) järgmiste elementidega; Andmeidentifikaator (DI), kahekohaline toote registreerimisagentuuri kood (PRAC), toote viide (PR) ja kaks PPN kontrollnumbrit (CC), vormis DI PRAC PR CC.\nMÄRKUS - visuaalse selguse huvides lisatakse tühik eraldajana, kuid see ei kuulu andmete hulka.\nNäited:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Andmed vormingus ja semantikas, mida määratleb ettevõtte Identifitseerimisnumbri (CIN) omanik, mille on välja andnud Väljaandva Asutuse Kood (IAC) vastavalt ISO/IEC 15459-le, määratletud kui konkateeritud andmeelementide jada: IAC, järgneb CIN, järgneb eraldaja märk ':' (koolon) järgneb andmed vormingus ja semantikas, nagu on määratlenud CIN omanik.\nMÄRKUS: Rakendatavad on ainult andmesüntaksi reeglid (kui neid on), nagu on esitatud iga DI '10N' andmevoos deklareeritud IAC+CIN poolt. \nMÄRKUS: DI '10N' määramisel tehtud vea tõttu (puudub keskne autoriteet andmete määratlusele ega hooldusele) ei tohiks DI '10N' uusi kasutusalasid rakendada.\nDI '10N' funktsioon on kehtestatud Kategoorias 18, MITMESUGUSTES DI '5R' kaudu. On tungivalt soovitatud, et olemasolevad rakendused, mis kasutavad DI '10N', migreeruksid DI 5R peale.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Andmekonstruktsioon on määratletud ja kontrollitud RLA poolt, ja see koosneb kahest segmendist: välja identifikaatori kood, millele järgneb selle elemendi jaoks määratletud andmed vastavalt RLA andmesõnastikule. See on sisuliselt väljade kataloog standardiseeritud sisuga. Välja Identifikaatorid on postitatud aadressil http://rla.org/11ncodes. Nende koodide kasutamist ja struktuuri määratletakse aadressil: http://rla.org/11nformat. Täiendavaid näiteid võib leida sellelt saidilt. DI '11N' ei tohi kunagi kodeerida 2D või RFID sildile koos ükskõik milliste teiste DI elementidega.\nMÄRKUS: DI '11N' määramisel tehtud vea tõttu (väide, et 'DI '11N' ei tohi kunagi kodeerida 2D või RFID sildile koos ükskõik milliste teiste DI elementidega.' ei ole kehtiv väide), ei tohiks DI '11N' uusi kasutusalasid rakendada. DI '11N' funktsioon on kehtestatud DI '12N' kaudu. On tungivalt soovitatud, et olemasolevad rakendused, mis kasutavad DI '11N', migreeruksid DI '12N' peale.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Andmekonstruktsioon on määratletud ja kontrollitud RLA poolt, koosnedes kahest segmendist: välja identifikaator (FI) kood, millele järgneb selle elemendi jaoks määratletud andmed vastavalt RLA andmesõnastikule. See on sisuliselt väljade kataloog standardiseeritud sisuga. Välja Identifikaatorid on postitatud aadressil http://rla.org/12ncodes. Nende koodide kasutamist ja struktuuri määratletakse aadressil: http://rla.org/12nformat. Näiteid võib leida sellelt saidilt.\n2020 Uuendus: URL on muutunud:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Esindades Tööstusliku Interneti Identifikaatori Koode, mida haldab ja hooldab CAICT, kasutusel Hiina Tööstusliku Interneti Identifikaatori Resolutsiooni Süsteemis ning konstrueeritud kujul &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, formaadis an3+a3+n3+n3+n8+an1...33, kus an3 on Andme Identifikaator (DI), a3 on Väljaandva Asutuse Kood (IAC = "VAA"), n3 on Ülemise Astme Kood (TTC), n3 on Teise Astme Kood (STC), n8 on Ettevõtte Identifitseerimisnumber (CIN), mida kontrollib ja määrab Teise Astme platvorm ja an1...33 on Seerianumber (SN), mida kontrollib ja määrab CIN omanik ning on unikaalne selle CIN omaniku domeenis, kasutades tähemärke 0 kuni 9, suur- ja väiketähed A kuni Z, * (tärn), + (plussmärk), - (kriips), . (punkt või täpp), / (kaldkriips), ( (vasakpoolne sulg), ) (parempoolne sulg), ! (hüüumärk).\nNäited:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Kliendi poolt määratud Eseme Identifitseerimiskood.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Tarnija poolt määratud Eseme Identifitseerimiskood.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Kood, mis on määratud Eseme Revisjoni Taseme Täpsustamiseks (nt insenerimuudatuste tase, väljaanne või revisjon).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Kombineeritud Tootja Identifitseerimiskood/Eseme Kood 12/13-kohaliste GS1 formaatide all, pluss vajadusel lisakoodid.\n2020 Uuendus: GS1 soovitab seda DI-d enam mitte kasutada ja soovitab selle DI kasutajatel üle minna GS1 andmekvalifikaatoritele (Rakendusidentifikaatorid) vastavalt ISO/IEC 15418 ja ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Eseme Koodi Osa GS1 Formaatides.\n2020 Uuendus: GS1 soovitab seda DI-d enam mitte kasutada ja soovitab selle DI kasutajatel üle minna GS1 andmekvalifikaatoritele (Rakendusidentifikaatorid) vastavalt ISO/IEC 15418 ja ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Ohtlike Materjalide jaoks Vedaja poolt Määratud Veoklassifikatsiooni Eseme Number (nt Mootorsõiduk, Lennuk, Laev, Rongi Klassifikatsioon).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Kombineeritud Tarnija Identifitseerimine ja Eseme Kood (sisemiselt määratud või vastastikku määratletud).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Ühise Keelenimetusega Telekommunikatsiooniseadme Identifitseerimine (CLEI), mille on määranud tootja mõnele telekommunikatsiooniseadmele.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>14-kohaline GS1 formaat GTIN-14 koodistruktuuri jaoks.\n2020 Uuendus: GS1 soovitab seda DI-d enam mitte kasutada ja soovitab selle DI kasutajatel üle minna GS1 andmekvalifikaatoritele (Rakendusidentifikaatorid) vastavalt ISO/IEC 15418 ja ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Kombineeritud Tootja Identifitseerimiskood (9-kohaline DUNS number, mille on määranud Dun &amp; Bradstreet) ja Eseme Kood/Osanumber (tootja poolt määratud).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Ohtlike Materjalide Kood, nagu on määratletud ANSI X12.3-s formaadis Andmeelement 208 (1-tähemärgiline koodikvalifikaator) järgneb Andmeelement 209 (Ohtliku Materjali Kood).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10-tähemärgiline CLEI Kood telekommunikatsiooniseadmetele.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Dokumendi Tüüp (nt Korjetellimus, Projekteerimisjoonis jne) (sisemiselt määratud või vastastikku määratletud).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>VMRS Süsteemi Kood.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>VMRS Süsteemi ja Kooste Kood.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>VMRS Süsteemi, Kooste ja Osa Kood.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>VMRS Süsteemi, Kooste või Osa Kood. (Kasutaja Muudetud).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Kombineeritud GS1 Tarnija Identifitseerimine ja Tarnija poolt Määratud Eseme Kood.\n2020 Uuendus: GS1 soovitab seda DI-d enam mitte kasutada ja soovitab selle DI kasutajatel üle minna GS1 andmekvalifikaatoritele (Rakendusidentifikaatorid) vastavalt ISO/IEC 15418 ja ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Kombineeritud VMRS tarnija ID ja Tarnija Määratud Osa Number.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Üksiktoode. (Üks toode, mis on pakendatud mitmesse pakendisse).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Esimene Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Teine Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Kolmas Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Neljas Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Viies Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Tehingu Osapoole Identifitseerimine, mille on määratud Ettevõtte Identifitseerimisnumbri (CIN) omanik ja mis sisaldab seotud Väljaandva Asutuse Koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registrile, struktureeritud kui 3 järjestikku konkateeritud andmeelementi: IAC, järgneb CIN, järgneb tarnija määratud osa number, mis on unikaalne CIN omaniku domeenis.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Järgmise Kõrgema Kooste Osa Number.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Kaupade HTS-6 Kood; Kasutades formaati: 4012.11 või 4012.11.4000 (Koma on selgelt kodeeritud) Harmoneeritud Süsteemi (HS) klassifikatsioon on 6-kohaline standardiseeritud numbriline meetod kaubeldavate toodete klassifitseerimiseks. HS numbreid kasutavad tolliasutused üle maailma toodetele tollimaksude ja maksude rakendamiseks. Mõned valitsused lisavad HS numbritele täiendavaid numbreid teatud kategooriate toodete täiendavaks eristamiseks. Ameerika Ühendriikides nimetatakse eksporttoodete klassifitseerimiseks kasutatavaid numbreid 'Schedule B' numbriteks. Schedule B numbreid administreerib USA Rahvaloenduse Büroo. Schedule B numbrid, mitte HS numbrid, tuleb esitada Saatja Ekspordideklaratsioonil (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nImpordikoode administreerib USA Rahvusvaheline Kaubanduskomisjon (USITC). http://hts.usitc.gov/\n2020 Uuendus: link http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf ei ole enam aktiivne. Konsulteerige saatjaga SED vormi saamiseks.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Kauba Nimetus. Lihtkeelne kirjeldus (inglise keeles).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Toote Klassifikatsiooni Kood, nagu on määratletud GMDN-ga (Globaalne Meditsiiniseadmete Nomenklatuur - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Esimene Tase (Tarnija Määratud).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Teine Tase (Tarnija Määratud).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Kolmas Tase (Tarnija Määratud).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Neljas Tase (Tarnija Määratud).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Viies Tase (Tarnija Määratud).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Kood, mille on kliendi poolt määratud tootja Materjali Ohutusandmelehe (MSDS) identifitseerimisnumbri dokumenti, mis kirjeldab ohtliku materjali kasutust, ohte ja keemilist koostist.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Ekspordikontrolli all olev ese. Allub ekspordikontrollile ja/või piirangutele, nagu on kindlaks määratud Wassenaari Kokkuleppes. DI järgneb Alfa-2 ISO 3166 Riigikood riigile, mis kehtestas piirangu, järgneb Wassenaari Kood (http://www.wassenaar.org/controllists/index.html).\n2020 Uuendus: URL on muudetud https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Tootja poolt määratud Eseme Identifikaator - koosneb eseme numbrist, mille on määranud eseme tootja, millele järgneb plussmärk (+), järgneb - kui on vajalik eseme unikaalseks identifitseerimiseks tootja tootevalikus - tootja poolt määratud eseme versioon.\nNäide 50PABC+6 tähistab eseme numbrit ABC, eseme versiooni 6\nMÄRKUS - Eseme numbrile peab alati järgnema plussmärk, isegi kui eseme versiooni ei ole. See on vajalik, et võimaldada tootja poolt määratud eseme identifikaatori ühemõttelist liitmist teise andmekonstruktsiooniga, kasutades liitmiseks plussmärki. Näiteks, kui 50P tootja poolt määratud eseme identifikaator ilma eseme versioonita ja seerianumber (Andmeidentifikaator S) on kodeeritud üksusele, võiks see olla kodeeritud kui 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Ülemaailmselt Unikaalne Eseme Identifikaator, mis koosneb Tehingu Osapoole Identifitseerimisest, mille on määranud Ettevõtte Identifitseerimisnumbri (CIN) omanik ja mis sisaldab seotud Väljaandva Asutuse Koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registrile, millele järgneb plussmärk (+), millele järgneb Tootja poolt määratud eseme identifikaator, nagu on määratletud 50P-ga\nNäide: 51PJ4LBE0431863103+ABC+ tähistab eseme numbrit ABC ilma versiooninumbriga, mille on tootnud ettevõte Belgia käibemaksunumbriga 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Värvikood.\nEseme/objekti värvi identifitseerimine koodi või terminiga, mis on kaubanduspartnerite vahel vastastikku kokku lepitud.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Spetsiifilise merevarustuse identifikaator, mis on heaks kiidetud Euroopa Liidu Mereseadmete Direktiivi (2014/90/EU) ja Rakendusmääruse (EL) 2018/608 alusel.\nFormaat:\n• DI (an3);\n• Vastavushindamise (CA) mooduli(de) tüüp, mis on sätestatud direktiivi 2014/90/EU lisas II vastavushindamiseks (a1);\n• Teatavaks tehtud asutuse (NB) identifitseerimisnumber, mille on määranud komisjon vastavalt direktiivi 2014/90/EU lisa IV punktile 3.1 (n4);\n• Sertifikaat (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Unikaalne Seadme Identifitseerimine - Seadme Identifikaator) Meditsiiniseadmetele (MD) ja In vitro Diagnostikaseadmetele (IvD) kui unikaalne võti avalikesse UDI andmebaasidesse (GUDID, EUDAMED jne), vastavalt rahvuslikele regulatiivsetele nõuetele, nagu on kirjeldatud Rahvusvahelises Meditsiiniseadmete Regulaatorite Foorumis (IMDRF). Lubatud on kõik UTF-8 tähemärkide komplekti prinditavad tähemärgid.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>DNV sertifikaadi viide. Näitab, et andmed sisaldavad viidet toote sertifikaadile/kinnituse avaldusele/aruannele, mille on väljastanud DNV. Andmeidentifikaatorit peab järgima tähed "NV" ja sertifikaadi number. Kui sertifikaadi numbril on järelliide, tuleb see andmevoos sisestada, kasutades "-" eraldajatähemärki. Revisiooni näitajaid ei tohi esitada.\nNäited:\n1. 55PNVXXXXXXX, kus 55P on andmeidentifikaator, XXXXXXX on DNV sertifikaadi number.\n2. 55PNVXXXXXXX-Y, kus 55P on andmeidentifikaator, XXXXXXX-Y on DNV sertifikaadi number järelliidetega Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Kogus, Tükkide Arv või Kogus (ainult numbriline) (ühiku mõõt ja tähendus vastastikku määratletud).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Teoreetiline Pikkus/Kaal (ainult numbriline).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Tegelik Kaal (ainult numbriline).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Mõõtühik, nagu on määratletud ANSI X12.3 Andmeelemendi Number 355 Mõõtühiku Koodi kahe tähemärgiga.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Bruto Summa.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Neto Summa.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Kui Mitu Konteinerit Moodustavad Ühe Toodangu (iga konteineri sisu tuleb ühendada teiste konteinerite sisuga, et moodustada üks toode), siis tuleb kasutada Andmeidentifikaatorit '6Q', et siduda erinevad konteinerid. Formaat # # ('see on x tüki n. osa tootest') Esitatud formaadis 'n/x', kus '/' (kaldkriips) on kasutatud kahe väärtuse eraldajana.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Kogus, Kogus või Tükkide Arv formaadis: Kogus järgneb ANSI X12.3 Andmeelemendi Number 355 Mõõtühiku Koodi kahe tähemärgiga.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Konteineri Hinnatud Kaal\nKonteineri tootja poolt määratud kaalu kandmise võime. Määratud tootmise ajal. Mõõtühik on kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Üksiku Eseme Kaal\nÜhe eseme kaal.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Tühja Konteineri Kaal: konteineri kere kaal.\nTühja konteineri tootja poolt määratud kaal. Määratud tootmise ajal. Mõõtühik on kg (Tara kaal).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Rahaline Väärtus, mille on määranud Tarnija formaadis: väärtus järgneb ISO 4217 andmeelemendi koodile, mis esindab vääringute ja fondide väärtuse ühikut (nt 12Q2.50USD) (2.50 Rahaline Väärtus USA Dollarites) tähendus vastastikku määratletud.\nSisenemise Väärtus;\nVäärtus järgneb ISO 4217 andmeelemendi koodile, mis esindab vääringute ja fondide väärtuse ühikut (nt 12Q2.50USD) (2.50 Rahaline Väärtus USA Dollarites)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># # ('see on x tükkide n. osa selles saadetises').\nEsitatud formaadis 'n/x', kus '/' (kaldkriips) on kasutatud kahe väärtuse eraldajana.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Algne Teisene Kogus.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Lõplik Teisene Kogus.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Tükkide Arv Kaubikus.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Saatmiste Arv Kaubikus.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Kuup maht väljendatuna kuupmeetrites või kuupjalgades järgneb ANSI X12.3 andmeelemendi number 355 ühikukood (CR või CF). Ei ole eeldatavat kümnendkohta.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Laius väljendatuna lineaarmeetrites või lineaarjalgades järgneb ANSI X12.3 andmeelemendi number 355 ühikukood (LC või LF). Ei ole eeldatavat kümnendkohta.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Kõrgus väljendatuna lineaarmeetrites või lineaarjalgades järgneb ANSI X12.3 andmeelemendi number 355 ühikukood (LC või LF). Ei ole eeldatavat kümnendkohta.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Pikkus väljendatuna lineaarmeetrites või lineaarjalgades järgneb ANSI X12.3 andmeelemendi number 355 ühikukood (LC või LF). Ei ole eeldatavat kümnendkohta.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Saatmise Netokaal väljendatuna naeltes või kilogrammides (kilodes) järgneb ANSI X12.3 andmeelemendi number 355 ühikukood (LB või KG). Ei ole eeldatavat kümnendkohta.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Kaubiku Pikkus väljendatuna lineaarmeetrites või lineaarjalgades järgneb ANSI X12.3 andmeelemendi number 355 ühikukood (LC või LF). Ei ole eeldatavat kümnendkohta.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Kaubiku Sisemine Kuupmaht väljendatuna kuupmeetrites või kuupjalgades järgneb ANSI X12.3 andmeelemendi number 355 ühikukood (CR või CF). Ei ole eeldatavat kümnendkohta.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Neto Lõhkeaine Kaal (arvutatud väärtus lõhkeaine ekvivalendina väljendatuna naeltes TNT-st). NEW mõõdet kasutatakse rahvusvaheliselt lõhkeainete ohutu koguse kauguse arvutustes. Ei ole eeldatavat kümnendkohta.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Pakendamise Tase, mis täpsustab pakendamise hierarhilist taset vastavalt HIBC (Health Industry Bar Code) spetsifikatsioonidele.</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Üksiku Toote Hinna Väärtus, Neto, '.' (punkt) kasutatud koma asendajana (nt 27Q1000.5 hinnaväärtuse jaoks 1000.50).\nStruktuur: an3+an1...20\n &lt;DI&gt;&lt;hinna väärtus&gt;.\nTähemärkide komplekt: 0 kuni 9, punkt (ISO 646 ASCII väärtus kümnendarv 46, heksadesimaal 2E).\nNäide kodeerimisest, kasutades neto hinnaväärtust 1000:\n27Q1000.\nNäide kodeerimisest, kasutades neto hinnaväärtust 1000.50:\n27Q1000.5.\nMÄRKUS - Kui on vajalik valuuta, võib selle võtta teisest sama koodi kasutatavast andmeelemendist, nt 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Posti- ja Pakendikulu Üksiku Hinna Väärtus, '.' (punkt) tähistab komakoha asukohta (nt 30Q100.50 väärtuse jaoks 100,50).\nStruktuur: an3+an1...10\n &lt;DI&gt;&lt;hinna väärtus&gt;.\nTähemärkide komplekt: 0 kuni 9, punkt.\nNäide kodeerimisest, kasutades posti- ja pakendikulu väärtust 100:\n30Q100.\nNäide kodeerimisest, kasutades posti- ja pakendikulu väärtust 100,50:\n30Q100.50.\nMÄRKUS - Kui on vajalik valuuta, võib selle võtta teisest sama koodi kasutatavast andmeelemendist, nt 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Allahindluse Protsent, '.' (punkt) tähistab komakoha asukohta (nt 31Q8.5 allahindluse väärtuse jaoks 8,5%).\nStruktuur: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;allahindluse protsent (%)&gt;.\nTähemärkide komplekt: 0 kuni 9, punkt\nNäide kodeerimisest, kasutades allahindlusprotsenti 10%:\n31Q10.\nNäide kodeerimisest, kasutades allahindlusprotsenti 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>Käibemaksu Protsent, '.' (punkt) tähistab komakoha asukohta (nt 27Q8.5 käibemaksu väärtuse jaoks 8.5%).\nStruktuur: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;Käibemaksu protsent (%)&gt;.\nTähemärkide komplekt: 0 kuni 9, punkt.\nNäide kodeerimisest, kasutades käibemaksu protsenti 10%:\n27Q19.\nNäide kodeerimisest, kasutades käibemaksu protsenti 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Valuuta, ISO 4217 valuutakood.\nStruktuur: an3+an3\n &lt;DI&gt;&lt;Valuuta, nt EUR&gt;.\nTähemärkide komplekt: A-Z, 0 kuni 9.\nNäide kodeerimisest, kasutades USA dollari ISO tähestikulist koodi:\n31QUSD.\nNäide kodeerimisest, kasutades EURO ISO tähestikulist koodi:\n31QEUR.\nNäide kodeerimisest, kasutades EURO ISO numbrilist koodi:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Kliinilise terminoloogia kood, nagu on määratletud kliinilises nomenklatuuris: "Rahvusvaheline standard tervisemõõtmiste, vaatluste ja dokumentide tuvastamiseks - LOINC" (https://loinc.org), järgmises järjestuses: &lt;DI&gt;&lt;LOINC Kood&gt;&lt;Plussmärk&gt;&lt;Väärtus&gt;. Väärtuse ühik ja formaat on määratletud LOINC Koodi poolt.\nNäide: 32Q28903-3+60 = LOINC Kood 28903-3: Vasaku kontaktläätsede telg (kraadides); Väärtus = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Tagastusloa Kood (RMA), mille on määranud Tarnija.</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Kliendi poolt määratud Tagastuskood.</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>USA Kaitseministeeriumi Identifitseerimiskood (DoDIC).</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Andmed vormingus ja semantikas, mida määratleb Ettevõtte Identifitseerimisnumbri (CIN) omanik, mille on välja andnud Väljaandva Asutuse Kood (IAC) vastavalt ISO/IEC 15459-le, määratletud kui konkateeritud andmeelementide jada: IAC, järgneb CIN, järgneb eraldajamärk ':' (koolon) järgneb andmed vormingus ja semantikas, nagu on määratlenud CIN omanik.\nMÄRKUS - Rakendatavad on ainult andmesüntaksi reeglid (kui neid on), nagu on esitatud iga DI '5R' andmevoos deklareeritud IAC+CIN poolt.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 digitaalallkirja andmekonstruktsioon. Kui aluseks olev andmekandja kodeering on 7 bitti, siis võib kasutada ainult ISO/IEC 20248 toorformaati.\nNäide URL formaadis:\n&lt;6R&gt;&lt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO&gt;\nNäide toorformaadis:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nISO/IEC 20248 andmestruktuur sisaldab digitaalallkirja, mida kasutatakse sõnumi kindlate andmeelementide kinnitamiseks. 6R väärtusena esimese parameetrina ja kinnitatavate andmeelementide (kõigist mitteprinditavatest tähemärkidest eemaldatud) teisena, edastatakse ISO/IEC 20248 Dekodeerija/Verifierile, mis tagastab kinnitamise tulemuse: AKTSEPTEERITUD, LÜKATUD TAGASI või VIGA (veakood), ja dekodeeritud ISO/IEC 20248 lisaväljade JSON objekti. ISO/IEC 20248 andmestruktuur võib sisaldada lisavälju ja juhiseid ühe või mitme andmeelemendi sõnumi dekodeerimiseks ja kinnitamiseks. Neid juiseid töödeldakse ISO/IEC 20248 Dekodeerija/Verifieri poolt.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Veeteede Teaduste ja Kalavarude Informatsioonisüsteemi (ASFIS) 'Rahvusvaheliste asutuste 3-täheline liigikood', mida haldab Toidu- ja Põllumajandusorganisatsioon (www.fao.org, seejärel otsige 'ASFIS').\nNäited;\n7RMUC = Mudakarp;\n7RPCD = Austraalia magevee heeringas;\n7RWSH = Suur valge hai.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Toidu- ja Põllumajandusorganisatsiooni (FAO) Rahvusvahelise Kalapüügivahendite Standardklassifikatsiooni (ISSCFG) kood. (www.fao.org)\nKõik GS1 Üldspetsifikatsiooni määratletud ISO/IEC 646 tähemärkide komplekti lubatud tähemärgid.\nNäited:\n8R02.1.0 = Randmõrrad;\n8R03.1.5 = Krevetitrawlid;\n8R05.1.0 = Kaasaskantavad tõstevõrgud.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Kala ja mereandide tootmismeetod, nagu on määratlenud Toidu- ja Põllumajandusorganisatsiooni (FAO) Kalanduse ja Vesiviljeluse Osakond, vastavalt ELi määrusele 1379/2013. (www.fao.org).\nKõik GS1 Üldspetsifikatsiooni määratletud ISO/IEC 646 tähemärkide komplekti lubatud tähemärgid.\nNäited;\n9R01 = Merel püütud;\n9R02 = Magevees püütud;\n9R03 = Farmis kasvatatud.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Tarnija poolt Üksusele Määratud Seerianumber või Kood selle Eluea jooksul, (nt arvuti seerianumber, jälgitavusnumber, lepingu tööriista identifitseerimine)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Tarnija poolt Üksusele Määratud Täiendav Kood selle Eluea jooksul (nt jälgitavusnumber, arvuti seerianumber)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Ettemakstud Saadetise Teatise (ASN) Saadetise ID (SID) vastab ANSI ASC X12 Andmeelemendi 396-le</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Tarnija poolt määratud Unikaalne Pakendi Identifitseerimine (madalaim pakenditase, millel on pakendi ID-kood; peab sisaldama sarnaseid esemeid)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Tarnija poolt määratud Meisterpakendi Identifitseerimine, mis sisaldab sarnaseid esemeid ühel klienditellimusel</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Tarnija poolt määratud Meisterpakendi Identifitseerimine, mis sisaldab erinevaid esemeid ühel klienditellimusel</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Tarnija poolt määratud Meisterpakendi Identifitseerimine, mis sisaldab sarnaseid esemeid mitmel klienditellimusel</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Tarnija poolt määratud Meisterpakendi Identifitseerimine, mis sisaldab erinevaid esemeid mitmel klienditellimusel</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Tarnija ID/Unikaalne Konteineri ID, esitatud GS1 SSCC-18 määratletud andmevormingus\n2020 Uuendus: Viidake GS1 Üldspetsifikatsioonidele viimase versiooni osas SSCC kohta.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Pakendi Identifitseerimine, Üldine (vastastikku määratletud)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Masina, Rakise või Tööriista ID Kood</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Püsivara ID Kood</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Dokumendi Number (sisemiselt määratud või vastastikku määratletud)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Konteineri Turvapitsat</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>Neljanda klassi mitteidentsete pakipostide manifestimine.</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Tarnija poolt Määratud Seerianumber, mida saab kasutada ainult koos '13V'-ga</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Versiooni Number, nt Tarkvaraversioon</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Kombineeritud 6-kohaline GS1 Tarnija Identifitseerimine ja Tarnija poolt Määratud Unikaalne Pakendi Identifitseerimine\n2020 Uuendus: GS1 soovitab seda DI-d enam mitte kasutada ja soovitab selle DI kasutajatel üle minna GS1 andmekvalifikaatoritele (Rakendusidentifikaatorid) vastavalt ISO/IEC 15418 ja ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>CAGE Kood &amp; Seerianumber, mis on Unikaalne CAGE piires</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Kombineeritud Dun &amp; Bradstreet'i ettevõtte identifitseerimine tarnijale järgneb unikaalse pakendi identifitseerimine, mida tarnija määrab, formaadis nn...nn+nn...n, kus pluss-sümbol (+) on kasutatud eraldajana DUNS Numbrist ja unikaalsest pakendi identifitseerimisest</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Kliendi poolt Määratud Jälgitavuskood Üksusele, mille on määranud Klient</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>USA Transpordiministeeriumi (D.O.T) määratletud Rehvi Identifitseerimisnumber</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Unikaalne Isiklik Identiteet Mobiiltelefonidele</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Meedia Juurdepääsu Kontrolli (MAC) Aadress, mis vastab IEEE 802.11 standardile</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Vastavalt ISO/IEC 15963-le (väärtus on teisendatud selle bitiväärtusest 8-bitisteks ASCII väärtusteks). Selle Andmeidentifikaatori võib eeldada olevat ükskõik milline ASCII-256 väärtus. Kaubakonteinerite märkide jaoks on Tootjate Registreerimise Asutus (RA) ISO 14816 RA. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Tehingu Osapoole Identifitseerimine, mille on määranud Ettevõtte Identifitseerimisnumbri (CIN) omanik ja mis sisaldab seotud Väljaandva Asutuse Koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registrile, struktureeritud kui 3 järjestikku konkateeritud andmeelementi: IAC, järgneb CIN, järgneb tarnija määratud seerianumber, mis on unikaalne CIN omaniku domeenis (Vaata Lisa C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Seadme Identifikaator, olles ülemaailmselt unikaalne identifikaator seadmele, seadme üksusele või arvutirakenduse instantsile, mida kasutatakse toodete tootmisel, transpordil, töötlemisel või muul käitlemisel, mis on koostatud konkateerides:\n - ISO/IEC 15459 väljaandva asutuse koodi;\n - seadme numbri, mis vastab väljaandva asutuse nõuetele; ja mis:\n - koosneb ainult suurtähtedest ja/või numbritest;\n - on unikaalne (st erineb kõigist teistest ISO/IEC 15459 nõuetele vastavatest identifikaatoritest) väljaandva asutuse domeenis;\n - ei saa tuletada ühestki teisest ISO/IEC 15459 nõuetele vastavast identifikaatorist, mis on väljastatud sama väljaandva asutuse poolt, lihtsalt lisades tähemärke selle lõppu või eemaldades neid selle lõpust.\nLugeja ID.\nSeadme identifikaator, olles ülemaailmselt unikaalne identifikaator seadmele, seadme üksusele või arvutirakenduse instantsile.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Partii Sees Olev Eseme Number, olles numbriline jada:\n - mis eristab unikaalselt üht eset teistest samas partiis olevatest esemetest;\n - mille pikkus on sama kõigi sama partii esemete jaoks.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Partii- ja Eseme Number, olles 27T partii numbri ja 27S eseme numbri konkatenatsioon, mis kuulub vastavasse partiisse.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Täiendav Jälgitavuskood Üksusele, mille on määratud Tarnija lisaks või erinevalt jälgitavuskood(id)est, mida pakub 'S' või '1S'</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Järjestikuste Seerianumbrite Algusnumber</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Järjestikuste Seerianumbrite Lõppnumber</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Järgmise Kõrgema Kooste Seerianumber</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Lõpp-toote Seerianumber või Osanumber</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Põrkeraua Number (Kasutatakse Üksuse DOD Liikumisel)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Aluse Identifikaator (Kasutatakse laaditud 463L õhualustel)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Unikaalne Üksuse Identifikaator, mis koosneb 5 andmeelemendi jadast: 'IAC', järgneb 'CIN', järgneb 'Osanumber (PN)', järgneb '+' märk, järgneb tarnija määratud 'Osanumbri Seerianumber (PSN)', mis on ülemaailmselt unikaalne CIN omaniku domeenis; formaadis IAC CIN PN + PSN (tühikud on antud visuaalse selguse huvides; need ei kuulu andmetesse). Vaata Lisa C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Unikaalne Üksuse Identifikaator (UII) 25S formaadis, millele eelneb numbriline väärtus, mis näitab seerianumbri elemendi pikkust süsteemidele, mis nõuavad 'seerianumbri' komponenti konkateeritud Seerianumbri elemendist (IAC+CIN+SN) Formaat: DI+LI+IAC+CIN+SN (LI=SN pikkus)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Integreeritud Kiibikaardi Identifikaator (ICCID) vastavalt ITU-T Soovitusele E.118 ja ETSI Soovitusele GSM 11.11; maksimaalselt 20 numbrit, mis koosneb Väljaandja identifitseerimisnumbrist (IIN; maksimaalselt 7 numbrit), Individuaalsest konto identifitseerimisest (muutuv; pikkus määratletud IIN poolt, kuid sama pikkus individuaalsete IINide puhul), Kontrollnumbrist (üksik number, mis on arvutatud Luhni algoritmi abil\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = konto identifitseerimine, c = kontrollnumber)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Esimene Tase (Tarnija Määratud)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Teine Tase (Tarnija Määratud)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Kolmas Tase (Tarnija Määratud)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Neljas Tase (Tarnija Määratud)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Viies Tase (Tarnija Määratud)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC number (Tavaliselt Serialiseeritud Globaalne Kaubandusidentifitseerimisnumber - SGTIN)\n2020 Uuendus: GS1 ei kasuta enam terminit "EPC number". Viidake GS1 Üldspetsifikatsioonidele ja Sildiandmete Standardile praeguse terminoloogia jaoks.</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Krüpteeritud seerianumber, mille on üksusele määranud Tarnija, mida saab autentida sõltumatu usaldusväärse kolmanda osapoole poolt. Krüpteeritud seerianumber ei kirjelda üksuse parameetreid ilma sõltumatu kolmanda osapoole poolt dekrüpteerimata.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>'AMPERSAND' tähemärk. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Konteineri Tüüp (sisemiselt määratud või vastastikku määratletud).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Jälgitavusnumber, mille on määranud Klient unikaalse esemegrupi (nt partii, laar, sulatus) tuvastamiseks/jälgimiseks.</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Jälgitavusnumber, mille on määranud Tarnija unikaalse esemegrupi (nt partii, laar, sulatus) tuvastamiseks/jälgimiseks.</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Eksklusiivne Määramine (USA EPA sõidukite identifitseerimine heitgaaside testimiseks).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Tagastatava Konteineri Identifitseerimiskood, mille on määranud konteineri omanik või vastav reguleeriv asutus (nt metallist vann, korv, pool, ühikkoormusseade (ULD), haagis, paak või intermodaalne konteiner) (välistab gaasiballoonid Vaata '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Gaasiballoonide Konteineri Identifitseerimiskood, mille on määranud tootja vastavalt USA Transpordiministeeriumi (D.O.T.) standarditele.</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Esimene Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Teine Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Kolmas Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Neljas Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Viies Tase (Kliendi Määratud).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Tehingu Osapoole Identifitseerimine, mille on määranud Ettevõtte Identifitseerimisnumbri (CIN) omanik ja mis sisaldab seotud Väljaandva Asutuse Koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registrile, struktureeritud kui 3 järjestikku konkateeritud andmeelementi: IAC, järgneb CIN, järgneb tarnija määratud jälgitavusnumber, mis on unikaalne CIN omaniku domeenis.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Partii Identifikaator, koosnedes kas:\n - andmeidentifikaatorist 26S postitöötlusseadme identifikaatorist, või\n - andmeidentifikaatorist 20K litsentsi identifikaatorist, või\n - andmeidentifikaatorist 18V osapoole identifikaatorist, mis:\n - erineb kõigist teistest ISO/IEC 15459 nõuetele vastavatest identifikaatoritest väljaandva asutuse domeenis;\n - mida ei saa tuletada teisest osapoole identifikaatorist või mistahes muust ISO/IEC 15459 nõuetele vastavast identifikaatorist, mis on väljastatud sama väljaandva asutuse poolt, lihtsalt lisades tähemärke selle lõppu või eemaldades neid selle lõpust, koos andmeidentifikaatoriga 27T partii numbriga, mida eraldab kriips (-) tähemärk.</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Partii Number, mis on väljastatud identifitseeritud osapoole või töötlusseadme kontrolli all või kindlaksmääratud litsentsi alusel, mis:\n - üheselt eristab üht partiid seotud esemetest kõigist teistest partiinumbrit omavatest partiidest, mida osapool või seade või litsentsi alusel määrab;\n - koosneb maksimaalselt 10 tähemärgi pikkusest stringist, millest esimene (numbriline) tähemärk näitab järgnevate tähemärkide arvu, igaüks neist on valitud komplektist.</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Mootorsõiduki Veosevarustuse Identifitseerimiskood, mille on määranud tootja vastavalt Rahvusvahelisele Standardiorganisatsioonile (ISO) kehtestatud standarditele.</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Esimene tase (tarnija määratud).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Teine tase (tarnija määratud).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Kolmas tase (tarnija määratud).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Neljas tase (tarnija määratud).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Viies tase (tarnija määratud).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Standard Carrier Alpha Code (SCAC) (4 tähtnumbrilist tähemärki) ja valikuline vedaja määratud haagise number (ühest kümneni tähtnumbrilist tähemärki). Kasutamisel eraldatakse vedaja määratud haagise number SCAC-st kriipsuga '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Anumavara number - Koosneb kahest ühendatud osast:\n- Organisatsiooni identifitseerimine vastavalt ISO/IEC 15459-le ja unikaalse üksuse identifitseerimine vastavalt väljaandva asutuse poolt kehtestatud reeglitele.\n- Üksuse poolt määratud unikaalne järjekorranumber, lõppeb 3-tähelise konteineri tüübi koodiga, mis on võetud EDIFACT Code List 8053-st või UPU standardist M82-3. (Kui konteineri tüübi kood on vähem kui kolm tähemärki pikk, täidetakse väli kriipsuga '-' kolme tähemärgi pikkuseni).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Konteineri seerianumber.\nVastavalt ISO 6346-le. OC EI CSN CD, kus OC on kolme tähega omaniku kood, mille määrab koostöös BIC-iga, EI on ühe tähega seadme kategooria identifikaator, CSN on 6-numbriline unikaalne konteineri identifitseerimine, mille on määranud seadme omanik, ja CD on mooduli 11 kontrollnumber, mis on arvutatud vastavalt Lisa A-le, ISO 6346.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Tagastatava konteineri omaniku identifitseerimine, määratud koostöös BIC-iga.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Konteineri suurus/tüübi kood.\nVastavalt ISO 6346, jaotis 4.2.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Konteineri omandiõiguse kood. Tegelik nelja-tähemärgiline lühend, mille on konteinerile märkinud omanik. DOD-i omanduses olevate konteinerite jaoks vaata Defense Transportation Regulation App EE-6.\n2020 uuendus: andmeallika viide uuendatud kaitse transpordiregulatsiooniks, osa II, rakendus TT asub aadressil:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Vaguni number (täielik number ilma kontrollnumbrita).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Vaguni numbri kontrollnumber, määratud 11B-s.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Konteineri numbri kood (viimased 5 numbrit, kontrollnumbrit arvestamata).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Sildi staatus.\nY=Lubatud / N=Keelatud.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Ohtliku veose klass.\nIMDG klass formaadis 'n.na', kus n = numbriline, koma on selgelt kodeeritud, ja a = tingimuslik tähestikuline kvalifikaator. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>ÜRO kood ohtlikele kaupadele.\nOhtliku kauba puhul, mille on esitanud saatja vastavalt ÜRO koodile.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\n2020 uuendus: URL muudetud aadressiks http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Transpordiobjekti nimi.\nLaeva nimi või sõiduki kood/rongireisi number inglise keeles.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Laeva registreerimisnumber.\nKolm tähte 'IMO', millele järgneb seitse numbrit, mis on määratud kõigile laevadele IHS Fairplay poolt ehitamisel. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Reisi number/Trip number.\nTäht ja number.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Laeva riik.\nISO 3166-1 Alpha 2 kood.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Elektrooniliste pitserite numbrite jaoks reserveeritud.\nKoosneb 18185-1 pitseri sildi ID-st - 32 bitti ja ISO 14816 16-bitistest tootjate ID-st (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Sissekande number/tüüp.\nKoosneb kolmekohalisest esitaja koodist, millele järgneb seitsmekohaline sissekande number ja lõpeb ühekohalise kontrollnumbriga. Sissekande esitaja kood esindab kolmetähelist tähtnumbrilist koodi, mis on määratud esitajale või importijale CBP poolt. Sissekande number esindab esitaja poolt määratud seitsmekohalist numbrit. Number võib olla määratud mis tahes mugaval viisil, tingimusel, et sama numbrit ei määrata rohkem kui ühele CBP vormile 7501. Nullid peavad olema näidatud. Kontrollnumbrit arvutatakse eelneva 10 tähemärgi põhjal. Kontrollnumbri arvutamise valem leidub Lisa 1-s, CBP 7501 juhised.\nSissekande tüüp on kahekohaline kood, mis on kooskõlas Bloki 2-ga, CBP 7501 juhised.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Tagatise number.\nKolmekohaline numbriline kood, mis identifitseerib tollikautsjoni andva kindlustusseltsi. Seda koodi saab leida CBP vormi 301 blokist 7 või see on kättesaadav läbi CBP automaatse süsteemi ABI esitajatele, importija kautsjoni päringutehingu kaudu. USA valitsuse importimise ja sissekande tüüpide puhul, mis ei nõua tagatist, tuleks selles blokis näidata koodi 999. Kui sularaha või valitsuse väärtpabereid kasutatakse tagatise asemel, kasutage koodi 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Välisladustamiskoht.\n'Schedule K' (Välismaiste sadamate klassifikatsioon geograafilise kaubanduspiirkonna ja riigi järgi) välisladustamiskoha jaoks, kus kaup tegelikult laaditi laevale, mis vedas kauba USA-sse. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\n2020 uuendus: URL muudetud: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Tehingu osapoole identifitseerimine, nagu on määratletud ISO 17364-s, mille on määranud ettevõtte identifitseerimisnumbri (CIN) omanik ja mis sisaldab seotud väljaandva asutuse koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registri struktuur, mis koosneb 3 järjestikusest andmeelemendist: IAC, millele järgneb CIN, millele järgneb RTI seerianumber, mis on unikaalne CIN omaniku domeenis.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Unikaalne tagastatava transpordiüksuse identifikaator, mis koosneb 5 andmeelemendi jadast: 'IAC', millele järgneb 'CIN', millele järgneb 'RTI number' (RTIN), millele järgneb '+' märk, millele järgneb tarnija määratud (või haldatud) 'RTI seerianumber' (RTISN), mis on ülemaailmselt unikaalne CIN omaniku domeenis formaadis IAC CIN RTIN + RTISN (ruumid lisatud ainult visuaalse selguse huvides; need ei kuulu andmete hulka). Vaata Lisa C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Suure koormuskandjaga (LLC) tagastatava transpordiüksuse (RTI) ülemaailmselt unikaalne varade identifikaator, mille külgbaas on = 1000 mm, nagu on määratletud ISO 17365:2013, kolmanda taseme pakend, koosneb 5 andmeelemendi jadast: 'IAC', millele järgneb 'CIN', millele järgneb RTI tüübi kood 'RTITC', millele järgneb '+' märk, millele järgneb omaniku määratud (või haldatud) RTI seerianumber 'RTISN', mis on ülemaailmselt unikaalne CIN omaniku domeenis formaadis IAC CIN RTITC + RTISN (ruumid lisatud ainult visuaalse selguse huvides; need ei kuulu andmete hulka).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Väikese koormuskandjaga (SLC) tagastatava transpordiüksuse (RTI) ülemaailmselt unikaalne varade identifikaator, mille külgbaas on &lt; 1000 mm, nagu on määratletud ISO 17364:2013 (RTI), kolmanda taseme pakend, koosneb 5 andmeelemendi jadast: 'IAC', millele järgneb 'CIN', millele järgneb RTI tüübi kood 'RTITC', millele järgneb '+' märk, millele järgneb omaniku määratud (või haldatud) RTI seerianumber 'RTISN', mis on ülemaailmselt unikaalne CIN omaniku domeenis formaadis IAC CIN RTITC + RTISN (ruumid lisatud ainult visuaalse selguse huvides; need ei kuulu andmete hulka).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Tagastatava pakendamisüksuse (RPI) kategooria ülemaailmselt unikaalne identifikaator (näiteks kaas, vill, sisestus, ...), koosneb 5 andmeelemendi jadast: 'IAC', millele järgneb 'CIN', millele järgneb 'RPI number' RPIN, millele järgneb '+' märk, millele järgneb omaniku määratud (või haldatud) 'RPI seerianumber' RPISN, mis on ülemaailmselt unikaalne CIN omaniku domeenis formaadis IAC CIN RPIN + RPISN (ruumid lisatud ainult visuaalse selguse huvides; need ei kuulu andmete hulka).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Pakendamisüksuse number.\nNumber, mis identifitseerib pakendamisüksuse (materjali) tüüpi, mida kasutatakse toodete ja pakendite pakendamisel.\nNumber võimaldab pakendamisüksuse (materjali) tuvastada ja eraldada toodetest, pakenditest, tagastatavatest transpordiüksustest (RTI) ja tagastatavatest pakendamisüksustest (RPI) pakendamise ajal.\nNumber on koostatud vähemalt 1 andmeelemendist:\nPakendamisüksuse (materjali) number, mis on unikaalne hoidja domeenis.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Globaalselt unikaalne pakendamisnumber\nGlobaalselt unikaalne number pakendamisüksuse (materjali) tüübi tuvastamiseks, mida kasutatakse toodete ja pakendite pakendamisel.\nGlobaalselt unikaalne number võimaldab pakendamisüksusi (materjale) tuvastada ja eraldada toodetest, pakenditest, tagastatavatest transpordiüksustest (RTI) ja tagastatavatest pakendamisüksustest (RPI) pakendamise ajal.\nNumber on koostatud 3 järjestikuse andmeelemendi jadast:\nIAC, millele järgneb CIN, millele järgneb pakendamisüksuse (materjali) number, mis on unikaalne CIN omaniku domeenis.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>ISO 17364 järgi määratletud tagastatava pakendamisüksuse (RPI) globaalselt unikaalne identifikaator, mille on määranud ettevõtte identifitseerimisnumbri (CIN) omanik ja mis sisaldab seotud väljaandva asutuse koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registri, koosneb 3 järjestikusest andmeelemendist: IAC, millele järgneb CIN, millele järgneb RPI seerianumber, mis on unikaalne CIN omaniku domeenis.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Postiteenuse ja sellega seotud protsessiandmete spetsifikatsioon vastavalt UPU standardi S25 andmekonstruktsioonile 'Teenuse andmed'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Litsentsi postiandmed, vastavalt spetsifikatsioonile UPU standardis S25.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Täiendava postiteenuse ja sellega seotud protsessiandmete spetsifikatsioon vastavalt UPU standardi S25 andmekonstruktsioonile 'Täiendavate teenuste andmed'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Postiadministratsiooni identifitseerimised, olles ühe või mitme postiadministratsiooni, mis on seotud postiüksuse või partii töötlemisega, identifitseerimine, väljendatuna vastavalt spetsifikatsioonile UPU standardis S25.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>UPU asukohakood, olles kood, mis identifitseerib asukoha või geograafilise piirkonna või seotud rühma selliseid asukohti või piirkondi, mis on olulised seotud tehingu jaoks ja mis vastab ühele allpool määratletud struktuuridest:\na) kaks suurtähte, mis vastavad ISO 3166-1 kahele tähele riigikoodile, kus asukoht(ad) või piirkond(ad) asuvad;\nb) kolm suurtähte, mis vastavad IATA koodile lennujaama või linna kohta, kus asukoht(ad) või piirkond(ad) asuvad;\nc) neli või enam tähemärki, millest esimesed kolm vastavad ISO 3166-1 riigikoodile, millele järgneb kriips (-), ülejäänud osa on postikood riigis;\nd) neli või enam tähemärki, millest esimesed kolm vastavad ISO 3166-1 riigikoodile, millele järgneb punkt (.), ülejäänud osa on ISO 3166-2 riigi alajaotuse kood riigis;\ne) viis suurtähte, mis vastavad UN/LOCODE-le piirkonnas, kus asukoht(ad) või piirkond(ad) asuvad;\nf) kuus suurtähte või numbrit, mis vastavad UPU IMPC koodile, mis on määratud vastavalt UPU standardile S34;\ng) ühendus, mis on vähemalt seitse, kuid mitte rohkem kui 25 tähemärki pikk, koosneb:\n - väljaandva asutuse koodist vastavalt UPU standarditele S31;\n - asukohakoodist, mis koosneb tähemärkidest {A-Z; 0-9}, mis vastab väljaandja spetsifikatsioonidele.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Kvalifitseeritud UPU asukohakood, ühendus:\n - asukoha kategooriast, võetud UPU koodiloendist 139;\n - andmeidentifikaatorist 17U UPU asukohakood.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Numbrimärk koos teenuseandmete ja asukohakoodiga on ühendatud andmekonstruktsioon, mis vastab UPU standardi S25 spetsifikatsioonile, mis sisaldab:\n - ISO/IEC 15459-le vastavat üksuse identifikaatorit;\n - andmeidentifikaatorit 5U, mis vastab spetsifikatsioonile teenuse kohta, mis on ette nähtud esemele;\n - andmeidentifikaatorit 17U vastav UPU asukohakood või andmeidentifikaatorit 18U vastav kvalifitseeritud UPU asukohakood.\n Märkus - Täiendavate üksikasjade saamiseks vaadake UPU standardit S25. Lihtsa UPU asukohakoodi (DI 17U) ja kvalifitseeritud UPU asukohakoodi (DI 18U) vahelist erinevust saab määrata esimese tähemärgi alusel. Kui see on numbriline, kehtib 18U; kui see on tähestikuline, kehtib 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>OCR-andmelokaator.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Kliendi poolt tarnijale määratud tarnijakood.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Tarnijale määratud tarnijakood.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>U.P.C. ettevõtte eesliide.\n2020 uuendus: GS1 soovitab seda DI-d enam mitte kasutada ja et selle DI kasutajad migreeriksid GS1 andmekvalifikaatoritele (Rakendusidentifikaatorid) vastavalt ISO/IEC 15418 ja ISO/IEC 15459-3.\nGS1 kohaselt terminit "U.P.C." enam ei kasutata ja metaandmed (an2+n8) ei ole enam korrektsed. GS1 soovitab seda DI-d tulevaste rakenduste jaoks mitte kasutada.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>GS1 ettevõtte eesliide.\n2020 uuendus: GS1 soovitab seda DI-d enam mitte kasutada ja et selle DI kasutajad migreeriksid GS1 andmekvalifikaatoritele (Rakendusidentifikaatorid) vastavalt ISO/IEC 15418 ja ISO/IEC 15459-3.\nGS1 kohaselt metaandmed (an2+n9) ei ole enam korrektsed. GS1 soovitab seda DI-d tulevaste rakenduste jaoks mitte kasutada.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Tarnija, vedaja ja kliendi poolt ühiselt määratletud tööstusstandardi järgi määratud vedajakood.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Vastastikku määratletud finantsasutuse identifitseerimiskood.</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Vastastikku määratletud tootja identifitseerimiskood.</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Entiteedi või entiteetide rühma eest finantsvastutust kandva osapoole poolt määratud kood (näiteks varude omanik) (vastastikku määratletud).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Kliendi poolt kliendile määratud kliendikood.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Tarnija poolt kliendile määratud kliendikood.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Tootja ID\nMÄRKUS - Vaadake Lisa 2, CBP 7501 juhised.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Entiteedi, protsessi või protseduuri eelarvevastutusega organisatsioon (näiteks töökoda, divisjon, osakond)(sisemiselt määratud).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>Tootjat identifitseeriv DUNS number.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>Tarnijat identifitseeriv DUNS number.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>Klienti identifitseeriv DUNS number.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Vedaja poolt määratud saatjanumber.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>VMRS tarnija ID.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>USA DoD CAGE kood.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Tehingu osapoole identifitseerimine, mille andmeformaat koosneb kahest järjestikusest segmendist. Esimene segment on väljaandva asutuse kood (IAC) vastavalt ISO/IEC 15459-le, teine segment on unikaalne üksuse identifitseerimise ettevõtte identifitseerimisnumber (CIN), mille on määranud reeglid kehtestanud väljaandev asutus (vt http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Tehingu osapoole rolli(de) spetsifikatsioon, mis koosneb ühest või mitmest koodiväärtusest EDIFACTi koodiloendist 3035 'Party Qualifier', eraldatud pluss (+) märkidega (Ei tohi kunagi olla ühendatud teiste DI-dega lineaarsümbolis või muus meedias, kus ühendamise märk on pluss (+) märk).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Tehingu osapoole identifitseerimine, mille on määranud ettevõtte identifitseerimisnumbri (CIN) omanik ja mis sisaldab seotud väljaandva asutuse koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registri, koosneb 3 järjestikusest andmeelemendist: IAC, millele järgneb CIN, millele järgneb pluss (+) märk, millele järgneb üks või mitu koodiväärtust EDIFACTi koodiloendist 3035 'Party Qualifier', eraldatud pluss (+) märkidega (Ei tohi kunagi olla ühendatud teiste DI-dega lineaarsümbolis või muus meedias, kus ühendamise märk on pluss (+) märk).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Tehingu osapoole identifitseerimine, näiteks 21V IAC CIN OSU, mille on määranud ettevõtte identifitseerimisnumbri (CIN) omanik ja mis sisaldab seotud väljaandva asutuse koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registri, koosneb 3 järjestikusest andmeelemendist: IAC, millele järgneb CIN, millele järgneb organisatsiooni alaüksuse identifitseerimine, mille on määranud CIN ja mis on unikaalne CIN omaniku domeenis.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>Vedaja SCAC.\nStandard Carrier Alpha Code - Rahvusliku Mootorveo Liikluse Assotsiatsioon, Inc., (NMFTA) määrab SCACid kõigile ettevõtetele, välja arvatud need koodid, mida kasutatakse Põhja-Ameerikas mitte ainult tegutsevate kaubakonteinerite, intermodaalsete šassii ja haagiste, mitte-raudteele kuuluvate raudteevagunite ning raudteede identifitseerimiseks. http://www.nmfta.org/Pages/welcome.aspx\nEttevõtted, kes soovivad identifitseerimiskoode Põhja-Ameerikas mitte tegutsevatele kaubakonteineritele, peaksid kontakteeruma Rahvusvahelise Konteinerite Bürooga, 38, rue des Blancs Manteaux, F75004 Pariis, Prantsusmaa, e-post: bic@bic-code.org, veeb www.biccode.org. Raudteed ja intermodaalsete šassii, haagiste ning mitte-raudteele kuuluvate raudteevagunite omanikud peaksid kontakteeruma Railinci klienditeenindusega, Atn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, e-post: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Valitsuse määratud käibemaksukohuslase identifitseerimisnumber, millele eelneb ISO 3166-1 alpha-2 riigikood (välja arvatud Kreeka, mis kasutab ISO 639-1 keelekoodi EL), millele järgneb valitsuse määratud käibemaksukohuslase number.\nNäide:\n23VIE6388047V määratud Google Iirimaale.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Valitsuse määratud käibemaksukohuslase identifitseerimisnumber, mis identifitseerib kliendi, alustades ISO 3166-1 alpha-2 riigikoodiga (välja arvatud Kreeka, mis kasutab ISO 639-1 keelekoodi EL), millele järgneb valitsuse määratud käibemaksukohuslase number.\nNäide:\n24VIE6388047V määratud Google Iirimaale.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Deklareerimine, et NCAGE/CAGE kood, mis järgneb DI 25V-le, on tootja. Tehingu osapool, mille puhul NATO kaubandus- ja valitsusasutuse (NCAGE) / kaubandus- ja valitsusasutuse (CAGE) kood, mida kasutatakse DI 25V taga, deklareeritakse olevat tehingus osaleva(te) eseme(te) tootja. DI 25V-le järgnevad andmed koosnevad viiest suurtähelisest tähestikulis-numbrilisest märgist, välja arvatud tähed "I" ja "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Töökorralduse number (näiteks 'Tootmispaber') (sisemiselt määratud).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Operatsioonijärjestuse number. Number, mis määratleb konkreetse operatsiooni järjekorra operatsioonide seerias, tavaliselt tootmis- või kokkupanekuprotsessis.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Operatsioonikood/Töökood - tüüpi töö, mida tuleb teostada (sisemiselt määratud või vastastikku määratletud).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Kombineeritud töökorralduse number ja operatsioonijärjestuse number formaadis nn...n+nn...n, kus plussmärki (+) kasutatakse eraldajana töökorralduse numbri ja operatsioonijärjestuse numbri vahel.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Staatuskood (sisemiselt määratud või vastastikku määratletud).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Tööüksuse kood - identifitseerib süsteemi, alamsüsteemi, koostu, komponendi jne, mille kallal hooldust tehakse.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Nomenklatuur - (sisemiselt määratud või vastastikku määratletud).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Vormi kontrollnumber - vormidel eeltrükitud kontrollnumber.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Kvaliteedi tagamise inspektor - perekonnanimi.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Vormi täitnud isiku/tegevuse telefoninumber - väljendatud formaadis (riigikood) linna- või piirkonnakood pluss kohalik number, nt (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Vastastikku määratletud kliendi ja tarnija vahel</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Vastastikku määratletud vedaja ja tarnija vahel</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Vastastikku määratletud kliendi ja vedaja vahel</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Vaba tekst</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Vastastikku määratletud vedaja ja kaubanduspartneri vahel</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (päise andmed)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 1 andmed)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 2 andmed)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 3 andmed)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 4 andmed)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 5 andmed)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 6 andmed)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 7 andmed)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 8 andmed)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 9 andmed)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 10 andmed)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 11 andmed)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 12 andmed)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 13 andmed)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 14 andmed)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 15 andmed)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 16 andmed)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 17 andmed)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 18 andmed)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 19 andmed)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 20 andmed)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 21 andmed)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 22 andmed)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 23 andmed)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 24 andmed)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 25 andmed)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 26 andmed)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 27 andmed)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 28 andmed)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 29 andmed)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 30 andmed)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 31 andmed)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 32 andmed)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 33 andmed)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 34 andmed)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 35 andmed)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 36 andmed)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 37 andmed)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 38 andmed)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 39 andmed)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 40 andmed)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 41 andmed)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 42 andmed)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 43 andmed)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 44 andmed)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 45 andmed)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 46 andmed)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 47 andmed)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 48 andmed)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 49 andmed)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 50 andmed)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 51 andmed)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 52 andmed)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 53 andmed)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 54 andmed)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 55 andmed)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 56 andmed)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 57 andmed)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 58 andmed)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 59 andmed)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 60 andmed)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 61 andmed)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 62 andmed)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 63 andmed)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 64 andmed)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 65 andmed)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 66 andmed)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 67 andmed)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 68 andmed)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 69 andmed)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 70 andmed)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 71 andmed)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 72 andmed)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 73 andmed)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 74 andmed)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 75 andmed)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 76 andmed)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 77 andmed)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 78 andmed)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 79 andmed)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 80 andmed)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 81 andmed)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 82 andmed)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 83 andmed)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 84 andmed)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 85 andmed)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 86 andmed)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 87 andmed)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 88 andmed)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Struktureeritud vaba tekst (rea 89 andmed)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>'VÕRDUS' märk. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Kliendi poolt määratud liiga pika tootekoodi (Kategooria 16) jätk.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Tarnija poolt määratud jälituskoodi (Kategooria 20) jätk.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Tarnija poolt määratud seerianumbri (Kategooria 19) jätk.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Vaba teksti (Kategooria 26) jätk, vastastikku määratletud tarnija/vedaja/kliendi vahel.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Tehingureferentsi (Kategooria 11) jätk, vastastikku määratletud tarnija/vedaja/kliendi vahel.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Tarnija poolt määratud tootekoodi (Kategooria 16) jätk.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>FUNC1 (FUNKTSIOON 1) märk. Ilmub esimeses positsioonis pärast sümboolika algusmärki Code 128, Code 49 või Code 16K sümbolis, et tähistada GS1 kontrollitud sümbolit.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Formaat YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Formaat DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Formaat MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Formaat YDDD (Juliaan).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Formaat YYDDD (Juliaan).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>ISO formaat YYMMDD kohe järgneb ANSI X12.3 Andmeelemendi Number 374 kvalifikaatorile, mis annab koodi kuupäeva tüübi määramiseks (nt, saatmiskuupäev, tootmiskuupäev).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>ISO formaat YYYYMMDD kohe järgneb ANSI X12.3 Andmeelemendi Number 374 kvalifikaatorile, mis annab koodi kuupäeva tüübi määramiseks (nt, saatmiskuupäev, tootmiskuupäev).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Formaat MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Sündmus, Kuupäev ja Aeg.\nISO formaat YYYYMMDDHHMM (24 tunni kell - UTC) kohe järgneb ÜRO/EDIFACT Koodi Kvalifikaator 2005, mis annab koodi kuupäeva tüübi määramiseks), nt,\n11 [Kuupäev, mil kaupu oodatakse saatmiseks/laevale saatmiseks sõnumi väljastamise hetkel.];\n17 [Eeldatav kohaletoimetamise kuupäev/aeg, mil kaupu oodatakse kohaletoimetamiseks];\n35 [Kuupäev, mil kaubad toimetatakse sihtkohta.];\n118 [Broneering kinnitatud];\n129 [Kuupäev, mil laev/kaup lahkus viimasest välismaisest sadamast ekspordiriigis.];\n132 [Kuupäev/aeg, mil vedaja eeldab, et transpordivahend saabub lossimissadamasse või sihtkohta.];\n133 [Kuupäev/aeg, mil vedaja eeldab, et transpordivahend väljub väljumiskohast];\n137 [Kuupäev/aeg, mil tarnija saadab osad kliendi taotlusel. (Kuupäev, mil DESADV sõnum väljastatakse. Soovitus on, et DESADV väljastatakse 30 minuti jooksul pärast kaupade ülesvõtmist ShipFrom osapoole juurest];\n146 [Eeldatav sisenemiskuupäev (Toll) kuupäev, millal ametlik tollivormistuse kuupäev on eeldatav.];\n151 [Impordi kuupäev (Saabunud sadamasse laadimiskavatsusega];\n186 Lahkub rajatisest ('Värava väljumine)];\n204 [Kuupäev, millal Toll vabastab kaubad vedajale või importijale];\n253 [Lahkub sadamast ('Laeva väljumine')];\n252 [Saabub sadamasse ('Laeva saabumine')];\n283 [Saabub rajatisse ('Värava sissepääs)];\n342 [Transpordivahend laaditud];\n351 [Terminali värava kontroll];\n411 [Tellitud täitmine];\n412 [Tellitud tühjendamine];\n420 [Transpordivahend tühjendatud];\n534 [Parandatud];\n677 [Kinnitatud täitmine];\n678 [Kinnitatud tühjendamine];\n696 [Esitamise kuupäev].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Kuupäev (struktuur ja tähendus vastastikku määratletud).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Formaat YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Formaat YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Formaat YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Vanima ja uusima tootmiskuupäeva formaat YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Aegumiskuupäev (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Aegumiskuupäev (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Tootmiskuupäev (YYYYMMDD) - Tootmise kuupäev.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Tootmiskuupäev (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Sildi aktiveerimise aeg.\nYYYYMMDDHHMM (24 tunni kell - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Sildi deaktiveerimise aeg.\nYYYYMMDDHHMM (24 tunni kell - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Inspektsioonikuupäev (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Nõutav kohaletoimetamiskuupäev (DDD Juliaan) või DOD MILSTAMP kood.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Salvestusaeg.\nYYYYMMDDHHMM (24 tunni kell - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Kuupäev, esitatud muudetud UTC-ga kooskõlas olevas vormis:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo], kus ruutudes on näidatud valikulisus ja yyyy on aasta, mmdd kuu ja päev, hhmmss päeva aeg tundides minutites ja sekundites, fff sekundi murdosad ja poooo UTC-st erinevus tundides ja minutites, erinevus on positiivne, kui p on punkt (.), negatiivne, kui P on miinusmärk (-).\nNÄIDE:\n2005 - (UTC) kalendriaasta 2005;\n200505 - (UTC) kalendrikuu mai 2005;\n20050518 - (UTC) 18. mai 2005;\n200505181247 - 12:47 UTC 18. mail 2005;\n200505181247.0100 - 12:47 kohalik aeg, mis on 11:47 UTC, 18. mail 2005;\n20050518124723099 - 99 millisekundit pärast 12:47:23 UTC 18. mail 200.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Kvalifitseeritud kuupäev, koosneb:\n- ISO/IEC 15459 väljaandva asutuse koodist;\n- kuupäeva kvalifikaatorist, mis vastab selle väljaandva asutuse spetsifikatsioonidele;\n- kuupäevast, mille formaat ja tõlgendus vastavad väljaandva asutuse spetsifikatsioonidele selle kuupäeva kvalifikaatori jaoks.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Parim enne kuupäev: (YYYYMMDD).\nNäide: 25D20170202 = 2. veebruar 2017</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Esimene külmumiskuupäev (YYYYMMDD).\nEsimene külmumiskuupäev on määratletud kui kuupäev, mil tooted külmuvad vahetult pärast tapmist, koristamist, püüdmist või esmast töötlemist.\nNäide: 26D20170721 = 21. juuli 2017.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Saagikoristuse kuupäev (YYYYMMDD).\nKuupäev, mil loom tapeti või kala püüti või saak koristati.\nNäide: 27D20170615 = 15. juuni 2017.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Saagikoristuse kuupäevavahemik (YYYYMMDDYYYYMMDD).\nAlguskuupäev ja lõppkuupäev, millal koristamine toimus.\nNäiteks loomad tapeti, kalad püüti või saak koristati.\nAndmevoog on määratletud esimese YYYYMMDD kui alguskuupäeva ja viimase YYYYMMDD kui lõppkuupäevana.\nNäide:\n28D2017012320170214 = Algus; 23. jaanuar 2017. Lõpp; 14. veebruar 2017.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Vasakpoolne nurksulg', 'Parem sulg', 'Suurem kui märk', 'Kirjeread eraldaja' tähemärgid. Andmestruktuur vastavalt ISO/IEC 15434-le, Infotehnoloogia - Automaatne tuvastamine ja andmete kogumise tehnikad - Kõrge mahtuvusega ADC meedia süntaks.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Piiratud ainete klassifikatsioon - 'Keskkonnaklassifikatsiooni kood', sealhulgas pliivaba (Pb-Free) viimistluskategooriad, määratletud JESD97-s (IPC JEDEC J-STD-609) ja tulevikus tööstus- või valitsusasutuste määratud koodid, mis on seotud keskkonnaregulatiivse vastavuse ja ohtlike materjalide sisaldusega.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Õhurõhk - (kõrgus) väljendatuna Pascali ühikutes kui standard rahvusvaheline mõõt.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Lubatud maksimaalne temperatuur. Maksimaalne lubatud temperatuur; kraadides Celsius, '-' (miinus) kodeeritud, kui vajalik.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Lubatud minimaalne temperatuur.\nMinimaalne lubatud temperatuur; kraadides Celsius, '-' (miinus) kodeeritud, kui vajalik.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Lubatud maksimaalne suhteline niiskus.\nMaksimaalne lubatud suhteline niiskus, väljendatuna protsentides.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Lubatud minimaalne suhteline niiskus.\nMinimaalne lubatud suhteline niiskus, väljendatuna protsentides.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Külmikukonteineri temperatuur.\nTemperatuurikontrolli all olevate kaupade puhul saatja poolt määratud sihttemperatuur; kraadides Celsius, '-' (miinus) kodeeritud, kui vajalik.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Kumulatiivne aja-temperatuuri indeks - väljendatud mõõtmiste või loenduste arvuna.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Aja-temperatuuri indeks - Järgmine kõrgem koost - väljendatud mõõtmiste või loenduste arvuna.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Pakendusmaterjali kategooria*, koodi* ja kaalu deklaratsioon antud pakendusmaterjali kohta, mida kasutatakse antud pakendis vastavalt ELi pakendite ja pakendijäätmete direktiivile. (Materjalikategooria ja kood on määratletud Lisas M).\n12ECCMMMMMMNNNNNUU, kus: - '12E' (an3) on Andmeidentifikaator;\n - 'CC' (n2) on Materjali Kategooria vastavalt Lisale M;\n - 'MMMMMM' (an1...6) on Materjali Kood vastavalt Lisale M;\n - 'NNNNN' (n5) Materjali Kaal, kaasa arvatud kümnendkoht (nt, 12.12);\n - 'UU' (an2) on kaalu mõõtühik (nt, KG, GR, LB või OZ vastavalt ANSI X12.3-le, nagu on Lisas D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>DI 13E-le järgnevad andmed on üks MSL indikaatoritest (1, 2, 2a, 3, 4, 5, 5a, 6), nagu on näidatud veerus LEVEL Tabelis 5-1 JEDEC standardis IPC/JEDEC J-STD-020E. Tabel on näidatud ainult viitamiseks; viidatud standardi praegu välja antud versiooni tuleb kasutada tegeliku komponendi õige MSL saamiseks. Näide: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>'HÜFEN' ehk 'MIINUS' märk. Ravimite keskne number (PZN), mida kontrollib IFA-ABDATA, Saksamaa (Selle süsteemi identifikaatori registreerimine aegub 2016-07-01). Asendatud '9N'-ga.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Silmuse päis.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Minu vanem ______ on . . . Unikaalne identifikaator, millele järgneb Andmeidentifikaator ja seotud andmed (kasutamiseks tagastatava pakendiga). See Andmeidentifikaator peab kohe järgnema väljale (koosneb Andmeidentifikaatorist, andmetest ja grupi eraldajast), millega see on seotud.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Mul on ______ last . . . (kasutamiseks tagastatava pakendiga, nt; 3F10, kümne lapse jaoks). See Andmeidentifikaator peab kohe järgnema väljale (koosneb Andmeidentifikaatorist, andmetest ja grupi eraldajast), millega see on seotud.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Informatsiooni lehekülje loogiline määramine grupi lehekülgede seas, mis on jaotatud mitmele andmekandjale, struktureeritud kuni kolme (3) järjestikuse andmeelemendi jadana, eraldatud kaldkriipsuga ( / ):\n Lehekülje number (nõutav), millele järgneb lehekülgede arv (valikuline, nõutav viimasel leheküljel), millele järgneb valikuline alfanumeeriline grupi ID (valikuline; kui kasutusel, siis nõutav kõikidel lehekülgedel ja struktureeritud vastavalt ISO/IEC 15459-3-le kui 3 andmeelemendi jada: Väljaandva Asutuse Kood, millele järgneb Ettevõtte Identifitseerimisnumber, millele järgneb alfanumeeriline kood, mis on unikaalne väljaandja domeenis).\n Järgnevad kaldkriipsud on valikulised.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Mul on ______ last ja nad on . . . (kasutamiseks tagastatava pakendiga) See Andmeidentifikaator peab kohe järgnema väljale (koosneb Andmeidentifikaatorist, andmetest ja grupi eraldajast), millega see on seotud.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>'HÜÜUMÄRK'. Eurokood-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Osapoole Nimi.\nOsapoole nimi, millele järgneb pluss (+) märk, millele järgneb üks või mitu koodiväärtust EDIFACTi koodiloendist 3035 'Party Qualifier', nt;\nBY [Ostja];\nCF [Konteineri operaator];\nCN [Saaja];\nCS [Konsolidaator];\nDEI [Laeva operaator/kapten];\nFA [Operatiivtöötaja kood];\nIM [Importija];\nMF [Tootja];\nOS [Saatja];\nSE [Müüja];\nST [Saateaadress];\nUC [Lõplik saaja].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Töötaja identifitseerimiskood, mille on määranud tööandja.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>USA sotsiaalkindlustusnumber.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Mitte-töötaja ID number (sisemiselt määratud või vastastikku määratletud) (nt, lepingulised töötajad, müüjad, teenuse- ja kohaletoimetamispersonal).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Rahvuslik sotsiaalkindlustuse number.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Perekonnanimi.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Osapoole nimi (Rida 2).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Kontakttelefon.\nRiigikood, piirkonnakood, vahetuskood, number [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Kontakt e-post.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Saaja number.\nUnikaalne identifitseerimisnumber võib olla IRS, EIN, SSN või CBP määratud number, nagu on nõutud Turvadeklaratsioonis. Kasutada tohib ainult järgmisi formaate: IRS EIN: NN-NNNNNNN;\nIRS EIN koos sufiksiga:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP määratud nr: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Isiklik identifitseerimiskood (eesnime algustäht, perekonnanime algustäht, SSNi viimased neli numbrit).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Eesnimi ja keskmine initsiaal.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Sõjaväeline auaste (E1-E9, W1-W5 ja O1-O10).\n2020 uuendus: Metaandmevormingut on muudetud, et see vastaks tegelikult kasutusel olevatele sõjaväeliste auastmetele: "an2+an3". Selgitav teave on muudetud: "Sõjaväeline auaste (E1-E9, W1-W5 ja O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Riigisiseselt kasutatav rahvuslik identifitseerimisnumber, rahvuslik isikutunnus või rahvuslik kindlustusnumber, mida kasutatakse isikute tuvastamiseks töö, maksustamise, valitsuse hüvede, tervishoiu ja muude valitsusega seotud funktsioonide jaoks.\nSelle identifikaatori struktuur on DI (15H), millele järgneb ISO 3166-1 Alpha2 riigikood, millele järgneb riigi peamine valitsuse määratud identifitseerimiskood üksikisikutele.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Ülemaailmselt unikaalne isiklik ID, mille on määranud ettevõtte identifitseerimiskoodi (CIN) omanik ja mis sisaldab seotud väljaandva asutuse koodi (IAC) vastavalt ISO/IEC 15459-le ja selle registri, koosneb järjestikustest andmeelementidest: IAC, millele järgneb CIN, millele järgneb omaniku domeenis unikaalne ID.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Ülemaailmselt unikaalne isiklik ID, koos "Osapoole Kvalifikaatori" koodiväärtusega EDIFACTi koodiloendist 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Eksklusiivne määramine - Sõiduki Identifitseerimisnumber (VIN) defineeritud USA-s 49 CFR, jaotis 565 all ja rahvusvaheliselt ISO 3779 poolt. (Need on täielikult ühilduvad andmestruktuurid).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Lühendatud VIN kood.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Ülemaailmselt unikaalne transpordivahendi identifikaator (nt, veokid), mis koosneb Sõiduki Identifitseerimisnumbrist (VIN) defineeritud USA-s 49 CFR jaotis 565 all ja rahvusvaheliselt ISO 3779 poolt, millele järgneb '+' märk, seejärel järgneb valitsuse poolt välja antud Sõiduki Registreerimisnumbrilitsentsi number vormingus '4I' 'VIN' '+' 'valitsuse poolt välja antud Sõiduki Registreerimisnumbrilitsentsi number' (jutumärgid ja tühikud on selguse huvides näidatud; need ei kuulu andmete hulka).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Tootmisprotsessides kasutatav unikaalne tootmisvahendi identifikaator, mis koosneb Kere Taginumbrist (BTN; või mõnest muust kirjeldusest, mida kasutatakse toore auto kere, või teisiti öeldes, osade kooste identifitseerimiseks, millest auto tootmist alustatakse), millele järgneb '+' märk, seejärel järgneb Tootmisjärjekorra Number (PON), millele järgneb '+' märk, ja seejärel järgneb Tootja poolt määratud Järjekorranumber (SN). MÄRKUS - SN komponent asendatakse VIN-iga niipea kui VIN saab montaažiprotsessis kättesaadavaks.\nEhitus on järgmine;\n"5I" "BTN" "+" "PON" "+" "SN"\nmuutub (kui VIN saadaval)\n"5I" "BTN" "+" "PON" "+" "VIN"\nMÄRKUS - Jutumärgid ja tühikud on selguse huvides näidatud; need ei kuulu andmete hulka.\nMÄRKUS - Seda DI-d ei tohi kunagi ühendada teiste DI-dega lineaarsümbolis või muus meedias, kus ühendamise märk on pluss (+) märk.\nNäited:\nSN versioon: 5IABCD1234+CO1234+W0L201600500001\nVIN versioon: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

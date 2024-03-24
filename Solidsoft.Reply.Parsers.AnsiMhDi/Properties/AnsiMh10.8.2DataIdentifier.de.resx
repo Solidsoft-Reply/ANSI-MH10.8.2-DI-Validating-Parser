@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>Das 'PLUS'-Zeichen. Health Industry Business Communications Council (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Einzigartige Nummernschildnummer.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Einzigartige Nummernschildnummer, die einer Transporteinheit zugewiesen wird, die die niedrigste Verpackungsebene, die unzerbrechliche Einheit ist.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Einzigartige Nummernschildnummer, die einer Transporteinheit mit mehreren Paketen zugewiesen wird.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Einzigartige Nummernschildnummer, die einer Transporteinheit zugewiesen wird, die die niedrigste Verpackungsebene, die unzerbrechliche Einheit ist und die EDI-Daten mit der Einheit verknüpft hat.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Einzigartige Nummernschildnummer, die einer Transporteinheit mit mehreren Paketen zugewiesen wird und die mit EDI-Daten verknüpft ist.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Einzigartige Nummernschildnummer, die einer gemischten Transporteinheit zugewiesen wird, die unterschiedliche Artikel in einer einzigen Kunden-Transaktion enthält und möglicherweise EDI-Daten zugeordnet hat oder auch nicht.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Einzigartige Nummernschildnummer, die einer Haupttransporteinheit zugewiesen wird, die gleiche Artikel in einer einzigen Kunden-Transaktion enthält und möglicherweise EDI-Daten zugeordnet hat oder auch nicht.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Nummernschildnummer der Fahrzeugregistrierung (nicht eindeutig ohne Identifizierung des Landes und der ausstellenden Regierungsregion/-behörde)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Maritime Mobile Service Identity (MMSI).\nEine neunstellige Nummer, die von der Internationalen Fernmeldeunion geregelt wird, um ein Schiff oder eine Küstenfunkstelle eindeutig zu identifizieren. Beispiel: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Vom Kunden zugewiesene Bestellnummer zur Identifizierung einer Einkaufstransaktion (z. B. Bestellnummer).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesene Bestellnummer zur Identifizierung einer Einkaufstransaktion.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Frachtbrief-/Frachtbrief-/Sendungsidentifikationscode, der vom Lieferanten/Versender zugewiesen wird.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Vom Transporteur zugewiesener Frachtbrief-/Frachtbrief-/Sendungsidentifikationscode.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Vom Kunden zugewiesene Zeilennummer der Bestellung zur Identifizierung einer Einkaufstransaktion.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Vom Kunden zugewiesene Referenznummer zur Identifizierung einer Sendungsautorisierung (Freigabe) gegen eine bestehende Bestellung.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>Vom Transporteur zugewiesene PRO-Nummer.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Transportmittel in Freitextformat, das zwischen Kunde und Lieferant gemeinsam definiert wird (z. B. Luft, LKW, Boot, Bahn).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Vertragsnummer.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Allgemeiner Transaktionsreferenzcode (intern zugewiesen oder gemeinsam definiert).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Rechnungsnummer.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Packlistennummer.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Standard Carrier Alpha Code) (an4 - mit Bindestrich '-' links ausgefüllt) und vom Transporteur zugewiesene PROgressive Nummer.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Frachtbriefnummer /Transportquittungsnummer SCAC + Containerfracht B/L-Nummer oder Frachtbriefnummer.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Kombinierte Bestellnummer und Zeilennummer im Format nn...nn+nn...n, wobei ein Pluszeichen (+) als Trennzeichen zwischen der Bestellnummer und der Zeilennummer verwendet wird.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>KANBAN-Nummer.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>DELINS-Nummer: Code, der zur Identifizierung eines Dokuments verwendet wird, das Lieferinformationen enthält.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Schecknummer.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Strukturierte Referenz.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Ausländische Militärverkaufsfallnummer.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Lizenzkennung, die ein global eindeutiger Kennzeichner für eine Lizenz oder einen Vertrag ist, unter dem Artikel erzeugt, zur Verarbeitung eingereicht und/oder bezahlt werden, und die konstruiert wird durch Verkettung:\n - eines ISO/IEC 15459 ausstellenden Agenturcodes;\n - einer Lizenz- oder Vertragsnummer, die den Spezifikationen der betreffenden ausstellenden Agentur entspricht;\n und die:\n - nur aus Großbuchstaben und/oder numerischen Zeichen besteht;\n - eindeutig ist (das heißt, sich von jedem anderen ISO/IEC 15459-konformen Kennzeichner innerhalb des Bereichs der ausstellenden Agentur unterscheidet);\n - nicht von einem anderen ISO/IEC 15459-konformen Kennzeichner, der unter derselben ausstellenden Agentur ausgestellt wurde, durch einfaches Hinzufügen von Zeichen zu oder deren Entfernen von seinem Ende abgeleitet werden kann.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Kundendaten, die:\n - aus Kundensicht mit einem Artikel oder einer Transaktion oder mit einer Charge oder verwandten Artikeln oder Transaktionen verbunden oder damit verknüpft sind und\n - bis zu 35 druckbare Zeichen und/oder Leerzeichen umfassen, außer Plus (+), die aus dem in ISO/IEC 646 definierten Zeichensatz stammen.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>'22K' Transaktionsauthentifizierungsinformationen, die einen Wert darstellen, der durch Verkettung konstruiert wird:\n - eines ISO/IEC 15459 ausstellenden Agenturcodes;\n - eines Wertes, der den Spezifikationen der betreffenden ausstellenden Agentur entspricht,\n der die Überprüfung der Authentizität der betreffenden Transaktion ermöglicht und insbesondere, dass die Transaktion von der Partei, die innerhalb der Transaktion als ihr Initiator behauptet wird, initiiert wurde, durch:\n - den Empfänger einer Transaktion und/oder\n - eine oder mehrere der an ihrer Abwicklung oder Verarbeitung beteiligten Parteien und/oder\n - eine vertrauenswürdige dritte Partei.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Globale eindeutige Identifizierung von Gruppierungen von Transporteinheiten, die vom Transporteur zugewiesen werden, definiert als:\nIdentifizierung einer Partei zu einer Transaktion, wie definiert, zugewiesen von einem Inhaber einer Unternehmensidentifikationsnummer (CIN) und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt vom Frachtbrief oder Frachtbrief oder Sendungsidentifikationscode, der innerhalb des Bereichs des CIN-Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Globale eindeutige Identifizierung von Gruppierungen von Transporteinheiten, die vom Versender zugewiesen werden, definiert als:\nIdentifizierung einer Partei zu einer Transaktion, zugewiesen von einem Inhaber einer Unternehmensidentifikationsnummer (CIN) und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt vom Frachtbrief oder Frachtbrief oder Sendungsidentifikationscode, der innerhalb des Bereichs des CIN-Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesene Angebotsnummer - Nummer, die einem Angebot vom Lieferanten zugewiesen wird als Antwort auf eine Angebotsanfrage des Kunden.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Lagerort.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Ort.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>'Lieferadresse:' Standortcode, der nach einem Industriestandard oder gemeinsam definiert wird.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>'Absenderadresse:' Standortcode, der nach einem Industriestandard oder gemeinsam definiert wird.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Herkunftsland, zweistelliger ISO 3166-Ländercode. Mit Zustimmung der Handelspartner und wenn das Herkunftsland gemischt ist, soll der Ländercode 'AA' verwendet werden.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>'Schiffsadresse:' Standortcode, der nach einem Industriestandard oder gemeinsam definiert wird.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesener Routencode zur Bezeichnung eines bestimmten Transportwegs.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>6-stelliger Code des US-Verteidigungsministeriums (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Hafen der Einschiffung - Gemeinsam definiert.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Hafen der Ausschiffung - Gemeinsam definiert.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Ort (Breitengrad/Längengrad/Höhe) kodiert im Format xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>'Lieferadresse:' Ort (Breitengrad/Längengrad/Höhe) kodiert im Format xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>'Absenderadresse:' Ort (Breitengrad/Längengrad/Höhe) kodiert im Format xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>'Schiffsadresse:' Ort (Breitengrad/Längengrad/Höhe) kodiert im Format xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Aktivierungsort des Tags.\nEnglischer Ortsname (Zeichensatz: 0-9, A-Z &lt;Leerzeichen&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Deaktivierungsort des Tags.\nEnglischer Ortsname (Zeichensatz: 0-9, A-Z &lt;Leerzeichen&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>FAO-Fischereigebietscode, wie vom Fischerei- und Aquakultur-Department der FAO definiert (http://www.fao.org. Suche nach Fishing Area Code-Unterseite).\nAlle Zeichen des in den GS1-Generalvorschriften definierten Teilmengen von ISO/IEC 646 sind erlaubt.\nBeispiele:\n18L37.1.3 Westliches Mittelmeer, Sardinien;\n18L47.B.1 Atlantik, Südost, SEAFO-Division, Namibische EEZ;\n18L67 Pazifik, Nordost.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Erste Ebene (intern zugewiesen).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Zweite Ebene (intern zugewiesen).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Dritte Ebene (intern zugewiesen).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Vierte Ebene (intern zugewiesen).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Fünfte Ebene (intern zugewiesen).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Identifizierung einer Partei zu einer Transaktion, z. B. 25L IAC CIN LOC, zugewiesen von einem Inhaber einer Unternehmensidentifikationsnummer (CIN) und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt vom physischen internen Standort (LOC), der innerhalb des Bereichs des CIN-Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Standortcode, der einen Standort oder ein geografisches Gebiet oder eine damit verbundene Gruppe solcher Standorte oder Gebiete kennzeichnet, die für eine damit verbundene Transaktion relevant sind und die einer der in (a) bis (f) unten definierten Strukturen entspricht:\na) zwei Großbuchstaben entsprechend dem ISO 3166-1 zwei Buchstaben Ländercode des Landes, in dem sich der/die Standort(e) oder das/die Gebiet(e) befindet/befinden oder aus dem/denen es/sie besteht/bestehen;\nb) drei Großbuchstaben entsprechend dem IATA-Code des Flughafens oder der Stadt, in dem/denen sich der/die Standort(e) oder das/die Gebiet(e) befindet/befinden oder aus dem/denen es/sie besteht/bestehen;\nc) vier oder mehr Zeichen, von denen die ersten drei einem ISO 3166-1 Ländercode entsprechen, gefolgt von einem Bindestrich (-), mit dem Rest als Postleitzahl in dem betreffenden Land;\nd) vier oder mehr Zeichen, von denen die ersten drei einem ISO 3166-1 Ländercode entsprechen, gefolgt von einem Punkt (.), mit dem Rest als ISO 3166-2 Länderunterteilungscode in dem betreffenden Land;\ne) fünf Großbuchstaben entsprechend dem UN/LOCODE des Gebiets, in dem sich der/die Standort(e) oder das/die Gebiet(e) befindet/befinden oder aus dem/denen es/sie besteht/bestehen;\nf) die Verkettung, die nicht weniger als sieben oder mehr als 35 Zeichen lang ist, bestehend aus:\n- einem ISO/IEC 15459 ausstellenden Agenturcode;\n- einem Standortcode, bestehend aus Zeichen aus dem Satz {A-Z; 0-9}, der den Spezifikationen der betreffenden ausstellenden Agentur entspricht.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Veranstaltungsort UN/LOCODE.\nUN/LOCODE gefolgt von einem Pluszeichen (+) gefolgt von einem oder mehreren Code-Werten aus der EDIFACT-Code-Liste 3227 'Standortfunktionscode-Qualifikator', z. B.\n7 Ort der endgültigen Lieferung;\n5 Abfahrtshafen;\n9 Verladehafen;\n11 Entladehafen;\n13 Umschlagsort;\n24 Eingangshafen;\n35 Ausfuhrland;\n88 Übergabeort des Transporteurs;\n125 Ausländischer Hafen vor der Abfahrt in die USA;\n147 Stauzelle/position;\n159 Lieferort (an den Empfänger);\n248 Verladeort\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Straßennummer und -name.\nVerwendet in Verbindung mit H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Stadtname.\nVerwendet in Verbindung mit H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Einzelheiten zur Länderuntereinheit.\nVerwendet in Verbindung mit H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Postleitzahl.\nVerwendet in Verbindung mit H, 6H, 28L, 29L, 30L, 31L, 32L (Wenn ein '-' Bindestrich verwendet wird, muss dieser ausdrücklich kodiert werden).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Ländercode.\nISO 3166-1 Alpha-2-Code\nVerwendet in Verbindung mit H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Uniform Resource Locator (URL).\nBeinhaltet alle Zeichen, die eine URL bilden, einschließlich Header-Daten wie z. B. http://. Zeichensatz wie in RFC 1738 aufgeführt.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Verweis auf Process-URL (P2P-URL) zur Initiierung einer URL, um alle anderen in einem AIDC-Medium kodierten Datenelemente zu übertragen, nach folgender Regel: Den Code scannen und die URL beginnend mit dem P2P-URL-String initiieren, wobei DI 34L und ISO/IEC 15434-Umschlagssyntax (Präfix und Postfix) weggelassen werden, und alle anderen gescannten Datenelemente in derselben Reihenfolge anhängen, wie sie im Medium kodiert wurden, einschließlich DIs und Datenelementtrennern. Spezialzeichen in den angehängten Daten in das RFC 1738-Format konvertieren (z. B. Gruppentrenner 'GS' in die RFC 1738-Sequenz %1D übersetzt). Beachten Sie, dass dies nicht für die P2P-URL selbst gilt.\nBeispiel: Kodierter Datenstring (unter Verwendung von ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nresultiert in der folgenden URL mit den übertragenen Daten:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nHinweis: Daten aus dem '05'-Format-Umschlag wurden nicht in die URL aufgenommen, da das 34L im '06'-Format-Umschlag kodiert wurde.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Von einer Regierung zugewiesene Zulassungsnummer von Schiffen/Aquakulturanlagen/Farmen/Verarbeitungsbetrieben, beginnend mit einem ISO 31661 Alpha-2-Ländercode, gefolgt von der Zulassungsnummer.\nAlle Zeichen des in den GS1-Generalvorschriften definierten Teilmengen von ISO/IEC 646 sind erlaubt.\nBeispiel:\n35LIECK0107EC = Land; Irland. Schiffsname; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Von einer Regierung zugewiesene Zulassungsnummer von Erzeugern oder Farmen oder ersten Entbeinungs-/Schneidehallen, beginnend mit einem ISO 3166-1 Alpha-2-Ländercode, gefolgt von der Zulassungsnummer.\nAlle Zeichen des in den GS1-Generalvorschriften definierten Teilmengen von ISO/IEC 646 sind erlaubt.\nBeispiel:\n36LIECK0107EC = Land; Irland. Schiffsname; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Absenderadresse:' - Standortcode, der von einer Postbehörde definiert wird (z. B. 5-stellige und 9-stellige ZIP-Codes zur Identifizierung von US-Standorten oder 6-stellige Postleitzahlen zur Identifizierung kanadischer Standorte).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Lieferadresse:' - Standortcode, der von einer Postbehörde definiert wird (z. B. 5-stellige und 9-stellige ZIP-Codes zur Identifizierung von US-Standorten oder 6stellige Postleitzahlen zur Identifizierung kanadischer Standorte).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>'Absenderadresse:' - Standortcode, der von einer Postbehörde im Format definiert wird: Postleitzahlen (z. B. 5-stellige ZIP-Codes zur Identifizierung von US-Standorten oder 6- oder 7-stellige Postleitzahlen zur Identifizierung von Standorten im Vereinigten Königreich) gefolgt von einem zweistelligen ISO 3166-Ländercode (z. B. US oder GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>'Lieferadresse:' - Standortcode, der von einer Postbehörde im Format definiert wird: Postleitzahlen (z. B. 5-stellige ZIP-Codes zur Identifizierung von US-Standorten oder 6- oder 7-stellige Postleitzahlen zur Identifizierung von Standorten im Vereinigten Königreich) gefolgt von einem zweistelligen ISO 3166-Ländercode (z. B. US oder GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Army Form 2410-Daten. Format ist der Datenwert, der dem Blocknummer des Formulars 2410 vorangestellt ist. Feldlängen und akzeptable Zeichen sind unter zu finden;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Update: Die URL wurde geändert zu:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Army Form 2408-Daten. Format ist der Datenwert, der dem Blocknummer des Formulars 2408 vorangestellt ist. Feldlängen und akzeptable Zeichen sind unter zu finden;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Update: Die URL wurde geändert zu:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Army Form 2407-Daten. Format ist der Datenwert, der dem Blocknummer des Formulars 2407 vorangestellt ist. Feldlängen und akzeptable Zeichen sind unter zu finden;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Update: Die URL wurde geändert zu:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Air Force Form 95-Daten. Format ist der Datenwert, der dem Blocknummer des Formulars 95 vorangestellt ist. Feldlängen und akzeptable Zeichen sind unter zu finden;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 Update: Der Name des Formulars lautet "Air Force Technical Order Form 95 (AFTO Form 95)." Details zum Formular finden sich in der Air Force Technical Order (TO) 00-20-1. Die URL für diese TO wurde geändert zu:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Navy Form 4790-Daten. Format ist der Datenwert, der dem Blocknummer des Formulars 2410 vorangestellt ist. Feldlängen und akzeptable Zeichen sind unter zu finden;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%201 5.pdf.\n2020 Update: Die URL ist nicht mehr gültig.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>National-/NATO-Lagerbestandsnummer (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Produktmerkmaldaten, definiert vom Chemical Industry Data Exchange (CIDX).</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Kodierungsstruktur gemäß dem von der Electronic Industries Association Japan (EIAJ) definierten Format.</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Kodierungsstruktur und Formate gemäß den GS1-Anwendungsidentifikatoren (AI plus Daten) (GS1).</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Kodierungsstruktur und Formate gemäß den Empfehlungen der AIAG. Der vollständige Datenidentifikator hat das Format 5Nxx, wobei das 'xx' im vollständigen Codelisten zu finden ist, die unter https://www.aiag.org/ zu finden ist.</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>US-DOD-Anforderungs- und Ausgabeprozedur-Codes. Das Format ist der entsprechende MILSTRIP-Code, gefolgt vom damit verbundenen Datenwert. (Die vollständige Liste der Codes ist verfügbar unter;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\n2020 Update: Die URL wurde geändert zu:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>US-Verteidigungstransportverordnung-Codes. Das Format ist der DTR-Code, gefolgt vom zugehörigen Datenwert. (Die vollständige Liste der Codes ist verfügbar unter;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\n2020 Update: Die URL wurde geändert zu:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Produktionstieridentifikationscodes. Das Format ist der Produktionstiercode, gefolgt vom zugehörigen Datenwert. Der technische Bericht und die vollständige Liste der erweiterten Datenelemente (Codes) werden unter aufrechterhalten;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Erweiterte Datenelemente (Codes).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Technischer Bericht.\n2020 Update: Die URLs wurden geändert zu:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Pharmacy Product Number, gepflegt von IFA (www.ifaffm.de) mit folgenden Elementen; Datenidentifikator (DI), zweistelliger Produktregistrierungsagenturcode (PRAC), das Produktreferenz (PR) und die zwei PPN-Prüfziffern (CC), im Format DI PRAC PR CC.\nHINWEIS - Ein Leerzeichen wird als Trennzeichen für visuelle Klarheit hinzugefügt und ist nicht Teil der Daten.\nBeispiele:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Daten im Format und unter Verwendung der Semantik, die vom Inhaber einer Unternehmensidentifikationsnummer (CIN) definiert wurde, die von einem Ausstellenden Agenturcode (IAC) gemäß ISO/IEC 15459 ausgegeben wurde, definiert als eine Folge von verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt vom Trennzeichen ':' (Doppelpunkt) gefolgt von den Daten im Format und unter Verwendung der Semantik, wie sie vom CIN-Inhaber definiert wurde.\nHINWEIS: Nur die Datensyntaxregeln (falls vorhanden), wie sie vom deklarierten IAC+CIN innerhalb jedes DI '10N'-Datenstroms angegeben werden, sollen auf die Daten nach DI 10N+IAC+CIN angewendet werden.\nHINWEIS: Aufgrund eines Fehlers bei der Zuweisung von DI '10N' (es gibt keine zentrale Autorität für Datendefinition noch -wartung), sollten keine neuen Verwendungen von DI '10N' implementiert werden.\nDie Funktion von DI '10N' ist in Kategorie 18, VERSCHIEDENES mit DI '5R' festgelegt. Es wird dringend empfohlen, dass bestehende Anwendungen, die DI '10N' verwenden, zu DI 5R migrieren'.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Die Datenkonstruktion ist definiert und kontrolliert von der RLA und besteht aus 2 Segmenten: dem Feldidentifikatorcode, unmittelbar gefolgt von den Daten, wie sie für dieses Element gemäß dem Datenwörterbuch der RLA definiert sind. Es handelt sich im Wesentlichen um einen Katalog von Feldern mit standardisiertem Inhalt. Die Feldidentifikatoren werden unter http://rla.org/11ncodes veröffentlicht. Die Verwendung und Struktur dieser Codes sind definiert unter: http://rla.org/11nformat Weitere Beispiele finden Sie auf dieser Website. DI '11N' darf niemals zusammen mit anderen DI-Elementen in einem 2D- oder RFID-Tag kodiert werden.\nHINWEIS: Aufgrund eines Fehlers bei der Zuweisung von DI '11N' (die Sprache, die besagt: 'DI '11N' darf niemals zusammen mit anderen DI-Elementen in einem 2D- oder RFID-Tag kodiert werden.' ist keine gültige Aussage), sollten keine neuen Verwendungen von DI '11N' implementiert werden. Die Funktion von DI '11N' ist in DI '12N' festgelegt. Es wird dringend empfohlen, dass bestehende Anwendungen, die DI '11N' verwenden, zu DI '12N' migrieren'.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Die Datenkonstruktion ist definiert und kontrolliert von der RLA, bestehend aus 2 Segmenten: dem Feldidentifikatorcode (FI), unmittelbar gefolgt von den Daten, wie sie für dieses Element gemäß dem Datenwörterbuch der RLA definiert sind. Es handelt sich im Wesentlichen um einen Katalog von Feldern mit standardisiertem Inhalt. Die Feldidentifikatoren werden unter http://rla.org/12ncodes veröffentlicht. Die Verwendung und Struktur dieser Codes sind definiert unter: http://rla.org/12nformat. Beispiele finden Sie auf dieser Website.\n2020 Update: Die URL wurde geändert zu:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Industrie-Internet-Identifikator-Codes, die von CAICT kontrolliert und gepflegt werden, die im industriellen Internet-Identifikationsauflösungssystem von China verwendet werden und konstruiert sind als &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, in der Form an3+a3+n3+n3+n8+an1...33, wobei an3 der Datenidentifikator (DI) ist, a3 der Ausstellende Agenturcode (IAC = "VAA"), n3 der Oberstufencode (TTC), n3 der Unterstufencode (STC), n8 die Unternehmensidentifikationsnummer (CIN), die vom Unterstufenplattform kontrolliert und zugewiesen wird, und an1...33 ist die Seriennummer (SN), die vom Inhaber des CIN kontrolliert und zugewiesen wird und innerhalb des Bereichs dieses CIN-Inhabers eindeutig ist und die Zeichen 0 bis 9, Groß- und Kleinbuchstaben A bis Z, * (Stern), + (Pluszeichen), - (Bindestrich), . (Punkt oder Punkt), / (Schrägstrich), ( (linke Klammer), ) (rechte Klammer), ! (Ausrufezeichen) verwendet.\nBeispiele:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Vom Kunden zugewiesener Artikelidentifikationscode.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesener Artikelidentifikationscode.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Code, der zur Angabe der Überarbeitungsstufe eines Artikels zugewiesen wird (z. B. Änderungsstand, Ausgabe oder Überarbeitung).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Kombinierter Hersteller-Identifikationscode/Artikelcode unter den 12/13-stelligen GS1-Formaten, zuzüglich etwaiger Zusatzcodes.\n2020 Update: GS1 empfiehlt, dass dieser DI nicht mehr verwendet wird und dass Benutzer dieses DI zu GS1-Datenqualifikatoren (Anwendungsidentifikatoren) gemäß ISO/IEC 15418 und ISO/IEC 15459-3 migrieren.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Artikelcode-Teil der GS1-Formate.\n2020 Update: GS1 empfiehlt, dass dieser DI nicht mehr verwendet wird und dass Benutzer dieses DI zu GS1-Datenqualifikatoren (Anwendungsidentifikatoren) gemäß ISO/IEC 15418 und ISO/IEC 15459-3 migrieren.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Vom Transporteur zugewiesene Frachtklassifikationsartikelnummer für Gefahrgüter (z. B. Motorfracht, Luft, Boot, Bahnklassifizierung).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Kombinierter Lieferantenidentifikations- und Artikelcode (intern zugewiesen oder gemeinsam definiert).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Common Language Equipment Identification (CLEI), vom Hersteller einigen Telekommunikationsgeräten zugewiesen.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>14-stelliges GS1-Format für GTIN-14-Code-Struktur.\n2020 Update: GS1 empfiehlt, dass dieser DI nicht mehr verwendet wird und dass Benutzer dieses DI zu GS1-Datenqualifikatoren (Anwendungsidentifikatoren) gemäß ISO/IEC 15418 und ISO/IEC 15459-3 migrieren.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Kombinierter Hersteller-Identifikationscode (9-stellige DUNS-Nummer, die von Dun &amp; Bradstreet zugewiesen wird) und der Artikelcode/Teilenummer (vom Hersteller zugewiesen).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Gefahrgutcode, wie in ANSI X12.3 im Format Datenelement 208 (1-Zeichen-Codequalifikator) gefolgt von Datenelement 209 (Gefahrgutcode) definiert.</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10-stelliger CLEI-Code für Telekommunikationsgeräte.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Dokumententyp (z. B. Kommissionierliste, Konstruktionszeichnung usw.) (intern zugewiesen oder gemeinsam definiert).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>VMRS-Systemcode.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>VMRS-System- und Baugruppencode.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>VMRS-System-, Baugruppen- &amp; Teilcode.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>VMRS-System-, Baugruppen- oder Teilcode. (Benutzermodifiziert).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Kombinierter GS1-Lieferantenidentifikations- und Artikelcode, der vom Lieferanten zugewiesen wird.\n2020 Update: GS1 empfiehlt, dass dieser DI nicht mehr verwendet wird und dass Benutzer dieses DI zu GS1-Datenqualifikatoren (Anwendungsidentifikatoren) gemäß ISO/IEC 15418 und ISO/IEC 15459-3 migrieren.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Kombinierte VMRS-Lieferanten-ID und vom Lieferanten zugewiesene Artikelnummer.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Bestandteil eines Artikels. (Ein Produkt in mehreren Verpackungen enthalten).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Erste Ebene (Kundenzugewiesen).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Zweite Ebene (Kundenzugewiesen).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Dritte Ebene (Kundenzugewiesen).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Vierte Ebene (Kundenzugewiesen).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Fünfte Ebene (Kundenzugewiesen).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Identifizierung einer Partei zu einer Transaktion, die einem Inhaber einer Unternehmensidentifikationsnummer (CIN) zugewiesen wurde und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt von der vom Lieferanten zugewiesenen Teilenummer, die innerhalb des Bereichs des CIN-Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Teilenummer der nächsthöheren Baugruppe.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Warennummer HTS-6; Mit dem Format: 4012.11 oder 4012.11.4000 (Dezimalpunkt wird ausdrücklich kodiert) Die Harmonisierte Systemklassifizierung ist eine 6-stellige standardisierte numerische Methode zur Klassifizierung gehandelter Produkte. HS-Nummern werden von Zollbehörden weltweit zur Identifizierung von Produkten für die Anwendung von Zöllen und Steuern verwendet. Zusätzliche Ziffern werden von einigen Regierungen zu der HS-Nummer hinzugefügt, um Produkte in bestimmten Kategorien weiter zu unterscheiden. In den Vereinigten Staaten werden Nummern zur Klassifizierung exportierter Produkte als "Schedule B"-Nummern bezeichnet. Das U.S. Census Bureau verwaltet das Schedule B-System. Schedule B-Nummern, nicht HS-Nummern, müssen auf der Exportdeklaration des Versenders (SED) angegeben werden.\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nImportcodes werden von der U.S. International Trade Commission (USITC) verwaltet. http://hts.usitc.gov/\n2020 Update: der http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf-Link ist nicht mehr aktiv. Konsultieren Sie den Versender für ein SED-Formular.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Ladungsname. Klare Sprachbeschreibung (Englisch).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Produktklassifikationscode, wie definiert mit der GMDN (Global Medical Device Nomenclature - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Erste Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Zweite Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Dritte Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Vierte Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Fünfte Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Ein vom Kunden zugewiesener Code zur Identifizierung der Hersteller-Nummer des Sicherheitsdatenblattes (MSDS), das die Verwendung, Gefahren und chemische Zusammensetzung eines Gefahrstoffs beschreibt.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Exportkontrollierter Artikel. Unterliegt Exportkontrollen und/oder Beschränkungen, wie in der Wassenaar-Vereinbarung festgelegt. DI gefolgt vom Alpha-2 ISO 3166-Ländercode des Landes, das die Beschränkung auferlegt hat, gefolgt vom Wassenaar-Code (http://www.wassenaar.org/controllists/index.html).\n2020 Update: Die URL wurde geändert zu https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Vom Hersteller zugewiesene Artikelkennung - bestehend aus einer vom Artikelhersteller zugewiesenen Artikelnummer, gefolgt von einem Pluszeichen (+), gefolgt - falls erforderlich, um den Artikel innerhalb des Produktbereichs des Herstellers eindeutig zu identifizieren - von einer vom Hersteller zugewiesenen Artikelversion.\nBeispiel 50PABC+6 würde Artikelnummer ABC, Artikelversion 6 darstellen\nHINWEIS - Die Artikelnummer muss immer von einem Pluszeichen gefolgt werden, auch wenn keine Artikelversion vorhanden ist. Dies ist erforderlich, um die eindeutige Verkettung der vom Hersteller zugewiesenen Artikelkennung mit einer anderen Datenkonstruktion unter Verwendung des Verkettungszeichens Plus (+) zu ermöglichen. Zum Beispiel könnte die Kombination einer 50P vom Hersteller zugewiesenen Artikelkennung ohne Artikelversion und einer Seriennummer (Datenidentifikator S) auf einer Entität als 50PDEF++S1234 kodiert werden.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Global eindeutige Artikelkennung, bestehend aus der Identifizierung einer Partei zu einer Transaktion, die einem Inhaber einer Unternehmensidentifikationsnummer (CIN) zugewiesen wurde und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, gefolgt von einem Pluszeichen (+), gefolgt von der vom Hersteller zugewiesenen Artikelkennung, wie mit 50P definiert\nBeispiel: 51PJ4LBE0431863103+ABC+ würde den Artikel mit der Artikelnummer ABC und keiner Versionsnummer darstellen, hergestellt von der Firma mit der belgischen Umsatzsteuer-Identifikationsnummer 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Farbcode.\nFarbe eines Artikels/Objekts, die durch einen Code oder Begriff identifiziert wird, der zwischen Handelspartnern vereinbart wird.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Kennzeichnung für spezifische Seegeräte, die nach der Richtlinie der Europäischen Union über Seegeräte (2014/90/EU) und der Durchführungsverordnung (EU) 2018/608 genehmigt wurden.\nFormat:\n• DI (an3);\n• Art des Konformitätsbewertungsmodul(s) nach Anhang II der Richtlinie 2014/90/EU, das für die Konformitätsbewertung verwendet wird (a1);\n• Benannte Stelle (NB), Identifikationsnummer, die von der Kommission gemäß Punkt 3.1 von Anhang IV der Richtlinie 2014/90/EU zugewiesen wurde (n4);\n• Zertifikat (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Unique Device Identification - Gerätekennung) für Medizinprodukte (MD) und In-vitro-Diagnostika (IvD) als eindeutiger Schlüssel zu öffentlichen UDI-Datenbanken (GUDID, EUDAMED usw.), entsprechend den nationalen regulatorischen Anforderungen, wie vom International Medical Device Regulators Forum (IMDRF) dargelegt. Alle druckbaren Zeichen des UTF-8-Zeichensatzes sind erlaubt.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>DNV-Zertifizierungsreferenz. Gibt an, dass die Daten eine Referenz auf ein Produktzertifikat/Verifizierungsbericht/-dokument enthalten, das von DNV ausgestellt wurde. Der Datenidentifikator muss von den Buchstaben "NV" und der Zertifikatsnummer gefolgt sein. Wenn die Zertifikatsnummer einen Postfix hat, sollte dieser im Datenstrom durch Verwendung des "-"-Trennzeichens einbezogen werden. Überarbeitungsindikatoren sollen nicht angegeben werden.\nBeispiele:\n1. 55PNVXXXXXXX, wobei 55P der Datenidentifikator ist, XXXXXXX ist die DNV-Zertifikatsnummer.\n2. 55PNVXXXXXXX-Y, wobei 55P der Datenidentifikator ist, XXXXXXX-Y ist die DNV-Zertifikatsnummer mit Postfix Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Menge, Anzahl der Stücke oder Betrag (nur numerisch) (Maßeinheit und Bedeutung gemeinsam definiert).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Theoretische Länge/Gewicht (nur numerisch).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Tatsächliches Gewicht (nur numerisch).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Maßeinheit, wie definiert durch den zweistelligen ANSI X12.3-Datenelement-Nummer 355-Maßeinheitscode.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Bruttobetrag.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Nettobetrag.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Wenn mehrere Behälter ein einziges Produkt bilden (der Inhalt jedes Behälters muss mit dem Inhalt der anderen Behälter kombiniert werden, um ein einziges Produkt zu bilden), soll der Datenidentifikator '6Q' verwendet werden, um die verschiedenen Behälter zu verbinden. Das Format # von # ('dies ist das n-te Stück von x Stücken, um das Produkt zu definieren') Präsentiert im Format 'n/x', wobei das '/' (Schrägstrich) als Trennzeichen zwischen zwei Werten verwendet wird.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Menge, Betrag oder Anzahl der Stücke im Format: Menge gefolgt vom zweistelligen ANSI X12.3-Datenelement-Nummer 355-Maßeinheitscode.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Container-Nennlast\nVom Hersteller zugewiesene Tragfähigkeit des Containers. Zum Zeitpunkt der Herstellung zugewiesen. Maßeinheit ist kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Einzelteilgewicht\nGewicht eines einzelnen Artikels.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Leergewicht: Gewicht eines leeren Containers.\nContainer-Körpergewicht.\nVom Hersteller zugewiesenes Gewicht des leeren Containers. Zum Zeitpunkt der Herstellung zugewiesen. Maßeinheit ist kg (Leergewicht).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Monetärer Wert, festgelegt vom Lieferanten im Format: der Wert gefolgt von einem ISO 4217-Datenelementcode zur Darstellung der Werteinheit von Währungen und Fonds (z. B. 12Q2.50USD) (2.50 Monetärer Wert in US-Dollar) (Bedeutung gemeinsam definiert).\nEintrittswert;\nWert gefolgt von einem ISO 4217-Datenelementcode zur Darstellung der Werteinheit von Währungen und Fonds (z. B. 12Q2.50USD) (2.50 Monetärer Wert in US-Dollar)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># von # ('dies ist das n-te Stück von x Stücken in dieser Sendung').\nPräsentiert im Format 'n/x', wobei das '/' (Schrägstrich) als Trennzeichen zwischen zwei Werten verwendet wird.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Beginnende Sekundärmenge.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Endende Sekundärmenge.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Anzahl der Stücke im Van.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Anzahl der Sendungen im Van.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Würfel ausgedrückt in Kubikmetern oder Kubikfuß, gefolgt vom ANSI X12.3-Datenelement-Nummer 355-Maßeinheitscode (CR oder CF). Kein implizierter Dezimalpunkt.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Breite, ausgedrückt in linearen Metern oder linearen Fuß, gefolgt vom ANSI X12.3-Datenelement-Nummer 355-Maßeinheitscode (LC oder LF). Kein implizierter Dezimalpunkt.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Höhe, ausgedrückt in linearen Metern oder linearen Fuß, gefolgt vom ANSI X12.3-Datenelement-Nummer 355-Maßeinheitscode (LC oder LF). Kein implizierter Dezimalpunkt.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Länge, ausgedrückt in linearen Metern oder linearen Fuß, gefolgt vom ANSI X12.3-Datenelement-Nummer 355-Maßeinheitscode (LC oder LF). Kein implizierter Dezimalpunkt.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Nettogewicht der Sendung, ausgedrückt in Pfund oder Kilogramm (Kilos), gefolgt vom ANSI X12.3-Datenelement-Nummer 355-Maßeinheitscode (LB oder KG). Kein implizierter Dezimalpunkt.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Van-Länge, ausgedrückt in linearen Metern oder linearen Fuß, gefolgt vom ANSI X12.3-Datenelement-Nummer 355-Maßeinheitscode (LC oder LF). Kein implizierter Dezimalpunkt.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Innenwürfel eines Vans, ausgedrückt in Kubikmetern oder Kubikfuß, gefolgt vom ANSI X12.3-Datenelement-Nummer 355-Maßeinheitscode (CR oder CF). Kein implizierter Dezimalpunkt.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Netto-Explosivgewicht (ein berechneter Wert des Explosiväquivalents, ausgedrückt in Pfund TNT). Das Maß für NEW wird international für explosive Sicherheitsabstandsberechnungen verwendet. Kein implizierter Dezimalpunkt.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Verpackungsebene, die die hierarchische Ebene der Verpackung gemäß HIBC (Health Industry Bar Code)-Spezifikationen angibt.</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Einzelprodukt-Preiswert, Netto, '.' (Punkt) als Dezimalpunkt verwendet (z. B. 27Q1000.5 für den Preiswert von 1000,50).\nStruktur: an3+an1...20\n &lt;DI&gt;&lt;Preiswert&gt;.\nZeichensatz: 0 bis 9, Punkt (ISO 646 ASCII-Wert Dezimal 46, Hexadezimal 2E).\nBeispiel der Kodierung mit einem Nettopreiswert von 1000:\n27Q1000.\nBeispiel der Kodierung mit einem Nettopreiswert von 1000,50:\n27Q1000.5.\nHINWEIS - Wenn eine Währung erforderlich ist, kann sie aus einem anderen in demselben Code verwendeten Datenelement entnommen werden, z. B. 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Einzelner Gebührenwert für Porto und Verpackung, '.' (Punkt) stellt die Position eines Kommas dar (z. B. 30Q100.50 für den Wert von 100,50).\nStruktur: an3+an1...10\n &lt;DI&gt;&lt;Gebührenwert&gt;.\nZeichensatz: 0 bis 9, Punkt.\nBeispiel der Kodierung mit einem Porto- und Verpackungswert von 100:\n30Q100.\nBeispiel der Kodierung mit einem Porto- und Verpackungswert von 100,50:\n30Q100.50.\nHINWEIS - Wenn eine Währung erforderlich ist, kann sie aus einem anderen in demselben Code verwendeten Datenelement entnommen werden, z. B. 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Rabattprozentsatz, '.' (Punkt) stellt die Position eines Kommas dar (z. B. 31Q8.5 für einen Rabattwert von 8,5%).\nStruktur: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;Rabattprozentsatz (%)&gt;.\nZeichensatz: 0 bis 9, Punkt\nBeispiel der Kodierung mit einem Rabattprozentsatz von 10%:\n31Q10.\nBeispiel der Kodierung mit einem Rabattprozentsatz von 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>Umsatzsteuerprozentsatz, '.' (Punkt) stellt die Position eines Kommas dar (z. B. 27Q8.5 für den Umsatzsteuerwert von 8,5%).\nStruktur: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;Umsatzsteuerprozentsatz (%)&gt;.\nZeichensatz: 0 bis 9, Punkt.\nBeispiel der Kodierung mit einem Umsatzsteuerprozentsatz von 10%:\n27Q19.\nBeispiel der Kodierung mit einem Umsatzsteuerprozentsatz von 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Währung, ISO 4217-Währungscode.\nStruktur: an3+an3\n &lt;DI&gt;&lt;Währung, z. B. EUR&gt;.\nZeichensatz: A-Z, 0 bis 9.\nBeispiel der Kodierung mit ISO-alphabetischem Code des US-Dollar:\n31QUSD.\nBeispiel der Kodierung mit ISO-alphabetischem Code des EURO:\n31QEUR.\nBeispiel der Kodierung mit ISO-numerischem Code des EURO:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Klinischer Begriffscode, wie definiert mit der klinischen Nomenklatur: "Der internationale Standard zur Identifizierung von Gesundheitsmessungen, Beobachtungen und Dokumenten - LOINC" (https://loinc.org), in der folgenden Reihenfolge: &lt;DI&gt;&lt;LOINC-Code&gt;&lt;Pluszeichen&gt;&lt;Wert&gt;. Die Einheit und das Format des Wertes werden durch den LOINC-Code definiert.\nBeispiel: 32Q28903-3+60 = LOINC-Code 28903-3: Linker Kontaktlinsen-Achse (Grad); mit Wert = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesener Rücksendeautorisierungscode (RMA)</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Vom Kunden zugewiesener Rücksendecode</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>U.S. Department of Defense Identifikationscode (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Daten im Format und unter Verwendung der Semantik, die vom Inhaber einer Unternehmensidentifikationsnummer (CIN) definiert wurden, die von einem Ausstellenden Agenturcode (IAC) gemäß ISO/IEC 15459 ausgegeben wurde, definiert als eine Folge von verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt vom Trennzeichen ':' (Doppelpunkt) gefolgt von den Daten im Format und unter Verwendung der Semantik, wie sie vom CIN-Inhaber definiert wurden.\nHINWEIS - Nur die Datensyntaxregeln (falls vorhanden), wie sie vom deklarierten IAC+CIN innerhalb jedes DI '5R'-Datenstroms angegeben werden, sollen auf die Daten nach DI 5R+IAC+CIN angewendet werden.4.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 digitale Signaturdatenkonstruktion. Wenn die zugrunde liegende Datenträgerkodierung 7 Bit beträgt, kann nur das ISO/IEC 20248-Rohformat verwendet werden.\nBeispiel mit URL-Format:\n&lt;6R&gt;&lt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO&gt;\nBeispiel mit Rohformat:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nEine ISO/IEC 20248-Datenstruktur enthält eine digitale Signatur, die verwendet wird, um die spezifizierten Datenelemente der Datenmeldungen zu überprüfen. Der Wert von 6R, als erster Parameter, und die zu überprüfenden Datenelemente (entfernt von allen nicht-druckbaren Zeichen), als zweiter Parameter, werden an den ISO/IEC 20248-DecoderVerifier übergeben - der das Verifizierungsergebnis zurückgibt: AKZEPTIEREN, ABLEHNEN oder FEHLER(Fehlercode), und das JSON-Objekt der decodierten ISO/IEC 20248-Zusatzfelder. Die ISO/IEC 20248-Datenstruktur kann zusätzliche Felder und Anweisungen enthalten, um eine oder mehrere Datenmeldungen zu dekodieren und zu verifizieren. Diese Anweisungen werden vom ISO/IEC 20248-DecoderVerifier verarbeitet.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Aquatic Sciences and Fisheries Information System (ASFIS) 'Interagency 3-Alpha-Artencode', gepflegt von der Ernährungs- und Landwirtschaftsorganisation der Vereinten Nationen (www.fao.org, dann suchen nach 'ASFIS').\nBeispiele;\n7RMUC = Schlammkarpfen;\n7RPCD = Australische Süßwasserhering;\n7RWSH = Großer weißer Hai.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Internationaler Standardklassifikationscode für Fischereigeräte (ISSCFG) der Ernährungs- und Landwirtschaftsorganisation (FAO). (www.fao.org)\nAlle Zeichen des in den GS1-Generalvorschriften definierten Teilmengen von ISO/IEC 646 sind erlaubt.\nBeispiele:\n8R02.1.0 = Strandkiesnetze;\n8R03.1.5 = Garnelenschleppnetze;\n8R05.1.0 = Tragbare Hebenetze.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Produktionsmethode für Fisch und Meeresfrüchte, wie vom Fischerei- und Aquakultur-Department der Ernährungs- und Landwirtschaftsorganisation (FAO) der Vereinten Nationen spezifiziert, gemäß EU-Verordnung 1379/2013. (www.fao.org).\nAlle Zeichen des in den GS1-Generalvorschriften definierten Teilmengen von ISO/IEC 646 sind erlaubt.\nBeispiele;\n9R01 = Fang auf See;\n9R02 = Fang im Süßwasser;\n9R03 = Zucht.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Seriennummer oder Code, der vom Lieferanten einer Entität für ihre gesamte Lebensdauer zugewiesen wird (z. B. Computer-Seriennummer, Rückverfolgbarkeitsnummer, Vertragswerkzeugidentifikation)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Zusätzlicher Code, der vom Lieferanten einer Entität für ihre gesamte Lebensdauer zugewiesen wird (z. B. Rückverfolgbarkeitsnummer, Computer-Seriennummer)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Vorauslieferungsbenachrichtigung (ASN) Sendungs-ID (SID) entspricht dem ANSI ASC X12-Datenelement 396</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesene einzigartige Paketidentifikation (niedrigste Verpackungsebene, die einen Paket-ID-Code hat; soll gleiche Artikel enthalten)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesene Paketidentifikation für Hauptverpackungen, die gleiche Artikel in einer einzelnen Kundenbestellung enthalten</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesene Paketidentifikation für Hauptverpackungen, die verschiedene Artikel in einer einzelnen Kundenbestellung enthalten</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesene Paketidentifikation für Hauptverpackungen, die gleiche Artikel in mehreren Kundenbestellungen enthalten</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesene Paketidentifikation für Hauptverpackungen, die verschiedene Artikel in mehreren Kundenbestellungen enthalten</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Lieferanten-ID/Eindeutige Behälter-ID, dargestellt im Datenformat, das von den GS1 SSCC-18 spezifiziert wird\n2020 Update: Siehe GS1-Generalvorschriften für die aktuellste Version von SSCC.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Paketidentifikation, generisch (gemeinsam definiert)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Maschinen-, Zellen- oder Werkzeug-ID-Code</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Feste Anlagen-ID-Code</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Dokumentennummer (intern zugewiesen oder gemeinsam definiert)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Container-Sicherheitssiegel</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>Klasse Nicht-identische Paketpost-Manifestierung</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Vom Anbieter zugewiesene Seriennummer, die nur in Verbindung mit '13V' verwendet werden kann</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Versionsnummer, z. B. Software-Version</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Kombinierte 6-stellige GS1-Lieferantenidentifikation und vom Lieferanten zugewiesene eindeutige Paketidentifikation\n2020 Update: GS1 empfiehlt, dass dieser DI nicht mehr verwendet wird und dass Benutzer dieses DI zu GS1-Datenqualifikatoren (Anwendungsidentifikatoren) gemäß ISO/IEC 15418 und ISO/IEC 15459-3 migrieren.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>CAGE-Code &amp; Seriennummer, die innerhalb von CAGE einzigartig ist</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Kombinierte Dun &amp; Bradstreet-Unternehmensidentifikation des Lieferanten, gefolgt von einer vom Lieferanten zugewiesenen einzigartigen Paketidentifikation, im Format nn...nn+nn...n, wobei ein Pluszeichen (+) als Trennzeichen zwischen der DUNS-Nummer und der einzigartigen Paketidentifikation verwendet wird</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Rückverfolgbarkeitscode für eine Entität, zugewiesen vom Kunden</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Reifen-Identifikationsnummer, wie vom US-Verkehrsministerium (D.O.T) unter US-Code 49 CFR 574.5 definiert.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Einzigartige individuelle Identität für Mobiltelefone</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Media Access Control (MAC)-Adresse, die mit IEEE 802.11 konform ist</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Gemäß ISO/IEC 15963 (der Wert ist eine Konvertierung seines Bitwerts in 8-Bit-ASCII-Werte). Dieser Datenidentifikator könnte möglicherweise jeden ASCII-256-Wert annehmen. Für Frachtcontainer-Tags ist die Zulassungsbehörde (RA) für Hersteller die RA für ISO 14816. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Identifizierung einer Partei zu einer Transaktion, die einem Inhaber einer Unternehmensidentifikationsnummer (CIN) zugewiesen wurde und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt von der vom Lieferanten zugewiesenen Seriennummer, die innerhalb des Bereichs des CIN-Inhabers eindeutig ist (siehe Anhang C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Geräte-Identifikator, der eine global eindeutige Kennung für ein Gerät, ein Ausrüstungsstück oder eine Instanz einer Computeranwendung darstellt, die in der Produktion, im Transport, in der Verarbeitung oder anderen Handhabung von Artikeln verwendet wird, die durch Verkettung konstruiert ist:\n - ein ISO/IEC 15459 ausstellender Agenturcode;\n - eine Gerätenummer, die den Spezifikationen der betreffenden ausstellenden Agentur entspricht; und das:\n - besteht nur aus Großbuchstaben und/oder numerischen Zeichen;\n - ist eindeutig (das heißt, es ist von jedem anderen ISO/IEC 15459-konformen Identifikator) innerhalb des Bereichs der ausstellenden Agentur;\n - kann nicht von einem anderen ISO/IEC 15459-konformen Identifikator abgeleitet werden, der unter derselben ausstellenden Agentur ausgegeben wird, durch einfaches Hinzufügen von Zeichen zu oder deren Entfernung von seinem Ende.\nLeser-ID.\nGeräte-Identifikator, der eine global eindeutige Kennung für ein Gerät, ein Ausrüstungsstück oder eine Instanz einer Computeranwendung darstellt, die in der Produktion, im Transport, in der Verarbeitung oder anderen Handhabung von Artikeln verwendet wird.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Artikelnummer innerhalb einer Charge, die eine Zeichenfolge numerischer Ziffern ist:\n - die einen Artikel innerhalb einer identifizierbaren Charge verwandter Artikel eindeutig von allen anderen Artikeln in derselben Charge unterscheidet;\n - deren Länge für alle Artikel innerhalb der betreffenden Charge gleich ist.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Charge-und-Artikelnummer, die die Verkettung eines Datenidentifikators 27T Chargennummer und des Datenidentifikators 27S Artikelnummer eines Artikels, der zur betreffenden Charge gehört.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Zusätzlicher Rückverfolgbarkeitscode für eine Entität, der vom Lieferanten zusätzlich zu oder anders als die Rückverfolgbarkeitscode(s) von 'S' oder '1S' zugewiesen wird</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Anfangs-Seriennummer für aufeinanderfolgende Seriennummern</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>End-Seriennummer für aufeinanderfolgende Seriennummern</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Seriennummer der nächsthöheren Baugruppe</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Seriennummer oder Teilenummer des Endartikels</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Stoßfängernummer (verwendet in Einheits-DOD-Bewegung)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Palettenidentifikator (verwendet für beladene 463L-Luftpaletten)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Eindeutige Artikelkennung, bestehend aus einer Folge von 5 Datenelementen: 'IAC', gefolgt von 'CIN', gefolgt von 'Teilenummer (PN)', gefolgt vom '+'-Zeichen, gefolgt von der vom Lieferanten zugewiesenen (oder verwalteten) 'Teilseriennummer (PSN)', die global eindeutig innerhalb des Bereichs des CIN-Inhabers ist; im Format IAC CIN PN + PSN (Leerzeichen nur zur visuellen Klarheit hinzugefügt; sie sind nicht Teil der Daten). Siehe Anhang C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Eindeutige Artikelkennung (UII) im 25S-Format, gefolgt von einem numerischen Wert, der die Länge des Seriennummerelements angibt, das für Systeme verwendet wird, die die 'Seriennummer'-Komponente eines verketteten Seriennummerelements (IAC+CIN+SN) benötigen. Format: DI+LI+IAC+CIN+SN (LI=Länge von SN)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Integrierte Schaltkreiskartenkennung (ICCID) gemäß ITU-T-Empfehlung E.118 und ETSI-Empfehlung GSM 11.11; maximal 20 Ziffern, bestehend aus Emittentenidentifikationsnummer (IIN; maximal 7 Ziffern), individueller Kontenidentifikation (variabel; Länge durch IIN bestimmt, aber dieselbe Länge innerhalb einzelner IINs), Prüfziffer (einstellig, berechnet nach dem Luhn-Algorithmus\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = Kontenidentifikation, c = Prüfziffer)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Erste Ebene (Lieferantenzugewiesen)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Zweite Ebene (Lieferantenzugewiesen)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Dritte Ebene (Lieferantenzugewiesen)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Vierte Ebene (Lieferantenzugewiesen)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Fünfte Ebene (Lieferantenzugewiesen)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC-Nummer (Typischerweise Serialisiertes Global Trade Identification Number - SGTIN)\n2020 Update: Der Begriff "EPC-Nummer" wird von GS1 nicht mehr verwendet. Siehe GS1-Generalvorschriften und den Tag Data Standard für aktuelle Terminologie</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Verschlüsselte Seriennummer, die vom Lieferanten einer Entität zugewiesen wurde und die von einer unabhängigen vertrauenswürdigen dritten Partei authentifiziert werden kann. Die verschlüsselte Seriennummer beschreibt keine Parameter der Entität ohne Entschlüsselung durch eine unabhängige dritte Partei.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>Das 'UND'-Zeichen. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Containertyp (intern zugewiesen oder gemeinsam definiert).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Rückverfolgbarkeitsnummer, die vom Kunden zugewiesen wird, um eine einzigartige Gruppe von Entitäten zu identifizieren/verfolgen (z. B. Charge, Stapel, Hitze).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Rückverfolgbarkeitsnummer, die vom Lieferanten zugewiesen wird, um eine einzigartige Gruppe von Entitäten zu identifizieren/verfolgen (z. B. Charge, Stapel, Hitze).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Exklusive Zuweisung (U.S. EPA-Fahrzeugkennung für Emissionstests).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Rücksendefähiger Behälterkennungscode, der vom Behälterbesitzer oder der zuständigen Regulierungsbehörde zugewiesen wird (z. B. Metallwanne, Korb, Rolle, Unit Load Device (ULD), Anhänger, Tank oder intermodaler Container) (schließt Gasflaschen Siehe '2B' aus).</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Gasflaschen-Container-Kennungscode, der vom Hersteller in Übereinstimmung mit den US-Verkehrsministeriumsstandards (D.O.T.) zugewiesen wird.</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Erste Ebene (Kundenzugewiesen).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Zweite Ebene (Kundenzugewiesen).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Dritte Ebene (Kundenzugewiesen).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Vierte Ebene (Kundenzugewiesen.</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Fünfte Ebene (Kundenzugewiesen.</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Identifizierung einer Partei zu einer Transaktion, die einem Inhaber einer Unternehmensidentifikationsnummer (CIN) zugewiesen wurde und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt von der vom Lieferanten zugewiesenen Rückverfolgbarkeitsnummer, die innerhalb des Bereichs des CIN-Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Chargen-Identifikator, bestehend aus der Verkettung von entweder:\n - einem Datenidentifikator 26S Postverarbeitungsausrüstungsidentifikator, oder\n - einem Datenidentifikator 20K Lizenzkennung, oder\n - einem Datenidentifikator 18V Parteienidentifikator, der:\n - ist von jedem anderen ISO/IEC 15459-konformen Identifikator innerhalb des Bereichs der ausstellenden Agentur unterschiedlich;\n - kann nicht von einem anderen Parteienidentifikator oder einem anderen ISO/IEC 15459-konformen Identifikator abgeleitet werden, der unter derselben ausstellenden Agentur ausgegeben wird, durch einfaches Hinzufügen von Zeichen zu oder deren Entfernung von seinem Ende;\n mit einem Datenidentifikator 27T Chargennummer, die beiden durch ein Bindestrich (-) Zeichen getrennt.</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Chargennummer, die unter der Kontrolle einer identifizierten Partei oder Verarbeitungseinheit oder unter den Bestimmungen einer identifizierten Lizenz ausgegeben wird, die:\n - unterscheidet eine Charge verwandter Artikel eindeutig von allen anderen Chargen, denen eine Chargennummer von der Partei oder Ausrüstung oder unter der Lizenz zugewiesen wird;\n - besteht aus einer Zeichenfolge mit maximal 10 Zeichen, wovon das erste (numerische) Zeichen die Anzahl der folgenden Zeichen angibt, von denen jedes aus dem Satz {0-9; A-Z} entnommen wird.</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Vom Hersteller zugewiesener Frachttransportausrüstungskennungscode in Übereinstimmung mit den Standards der Internationalen Organisation für Normung (ISO).</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Erste Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Zweite Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Dritte Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Vierte Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Fünfte Ebene (Lieferantenzugewiesen).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Standard Carrier Alpha Code (SCAC) (4 alphanumerische Zeichen) und eine optionale vom Transporteur zugewiesene Anhängernummer (eins bis zehn alphanumerische Zeichen). Wenn verwendet, wird die vom Transporteur zugewiesene Anhängernummer durch einen Bindestrich '-' vom SCAC getrennt.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Rezeptakel-Vermögensnummer - Bestehend aus zwei verbundenen Teilen:\n- Identifizierung einer Organisation in Übereinstimmung mit ISO/IEC 15459 und einer eindeutigen Entitätsidentifikation, die nach Regeln, die von der ausstellenden Agentur festgelegt wurden, zugewiesen wird.\n- Eine eindeutige Seriennummer, die von der Entität zugewiesen wird, endet mit einem 3-stelligen Behältertyp-Code, der aus der EDIFACT-Codeliste 8053 oder UPU-Standard M82-3 entnommen wird. (Wenn der aufgelistete Behältertyp-Code weniger als drei Zeichen lang ist, wird das Feld links mit einem Bindestrich '-' auf die Länge von drei Zeichen gefüllt).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Container-Seriennummer.\nGemäß ISO 6346. OC EI CSN CD, wobei OC der dreibuchstabige Eigentümercode ist, der in Zusammenarbeit mit BIC zugewiesen wird, EI ist der einbuchstabige Ausrüstungskategorie-Identifikator, CSN ist eine 6-stellige eindeutige Container-Identifikation, die vom Ausrüstungseigentümer zugewiesen wird, und CD ist eine Modulus-11-Prüfziffer, die gemäß Anhang A, ISO 6346, berechnet wird.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Identifizierung eines Rücksendebehälterbesitzers, zugewiesen in Zusammenarbeit mit BIC.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Container-Größe/Typ-Code.\nGemäß ISO 6346, Abschnitt 4.2.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Container-Eigentumskennungscode. Tatsächliche vierbuchstabige Abkürzung, die vom Eigentümer auf dem Container markiert wird. Für von DOD besessene Container siehe Defense Transportation Regulation App EE-6.\n2020 Update: Datenquellenverweis auf die Defense Transportation Regulation, Teil II, App TT aktualisiert unter:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Van-Nummer (komplette Nummer ohne Prüfziffer).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Prüfziffer der in 11B identifizierten Van-Nummer.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Container-Nummerncode (letzte 5 Ziffern der Nummer, ohne Prüfziffer).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Tag-Status.\nY=Autokarte / N=Unautokarte.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Gefährliche Ladungsklasse.\nIMDG-Klasse im Format 'n.na' wobei n = numerisch, Dezimalpunkt ausdrücklich kodiert und a = bedingter alphabetischer Qualifikator. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>UN-Code für gefährliche Güter.\nFür gefährliche Ladung vom Versender gemäß UN-Code bereitgestellt.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\n2020 Update: URL geändert zu http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Name Des Transportgegenstands.\nSchiffsname oder Fahrzeugcode/Zugfahrt-Nummer in Englisch.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Schiffsregistrierungsnummer.\nDie drei Buchstaben 'IMO' gefolgt von der siebenstelligen Nummer, die allen Schiffen von IHS Fairplay bei Bau zugewiesen wird. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Reisenummer/Fahrt-Nummer.\nBuchstabe und Nummer.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Schiffsland.\nISO 3166-1 Alpha-2-Code.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Reserviert für elektronische Siegelnummern.\nBesteht aus dem 18185-1-Siegeltag-ID - 32 Bit und dem ISO 14816 16-Bit-Hersteller-ID (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Eintragsnummer/Typ.\nBesteht aus dem dreistelligen Aktenführungscode, gefolgt von der siebenstelligen Eintragsnummer und abgeschlossen mit der einstelligen Prüfziffer. Eintragsaktenführungscode stellt den dreistelligen alphanumerischen Aktenführungscode dar, der dem Aktenführer oder Importeur von CBP zugewiesen wird. Eintragsnummer stellt die siebenstellige Nummer dar, die vom Aktenführer zugewiesen wird. Die Nummer kann auf beliebige Weise zugewiesen werden, vorausgesetzt, dieselbe Nummer wird nicht mehr als einem CBP-Formular 7501 zugewiesen. Führende Nullen müssen angezeigt werden. Die Prüfziffer wird auf den vorherigen 10 Zeichen berechnet. Die Formel zur Berechnung der Prüfziffer ist in Anhang 1, CBP 7501-Anweisungen, zu finden.\nEintragstyp ist ein zweistelliger Code, der mit Block 2, CBP 7501-Anweisungen, übereinstimmt.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Kautionsnummer.\nDer dreistellige numerische Code, der die Kautionsgesellschaft auf dem Zollbürgschaftsformular identifiziert. Dieser Code ist in Block 7 des CBP-Formulars 301 zu finden oder steht ABI-Anmeldern über das automatisierte CBP-System zur Verfügung, über die Importeur-Bond-Abfrage-Transaktion. Für US-Regierungsimporte und Eintragsarten, die keine Bürgschaft erfordern, sollte in diesem Block der Code 999 erscheinen. Wenn Bargeld oder Regierungswertpapiere anstelle einer Bürgschaft verwendet werden, verwenden Sie den Code 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Ausländischer Verladehafen.\n'Schedule K' (Klassifizierung ausländischer Häfen nach geografischem Handelsgebiet und Land) für den ausländischen Hafen, an dem die Ware tatsächlich auf das Schiff geladen wurde, das die Ware in die USA beförderte. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\n2020 Update: URL geändert zu: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Identifizierung einer Partei zu einer Transaktion, wie in ISO 17364 definiert, zugewiesen von einem Inhaber einer Unternehmensidentifikationsnummer (CIN) und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt von der RTI-Seriennummer, die innerhalb des Bereichs des CIN-Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Eindeutige Rücktransportgegenstand-Kennung, bestehend aus einer Folge von 5 Datenelementen: 'IAC', gefolgt von 'CIN', gefolgt von 'RTI-Nummer' (RTIN), gefolgt vom '+'-Zeichen, gefolgt von der vom Lieferanten zugewiesenen (oder verwalteten) 'RTI-Seriennummer' (RTISN), die global eindeutig innerhalb des Bereichs des CIN-Inhabers ist; im Format IAC CIN RTIN + RTISN (Leerzeichen nur zur visuellen Klarheit hinzugefügt; sie sind nicht Teil der Daten). Siehe Anhang C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Global eindeutiger Asset-Identifikator eines großen Lastträgers (LLC) Rücktransportgegenstand (RTI) mit einer Seitenbasis von = 1000 mm, wie in ISO 17365:2013 definiert, Tertiärverpackung, Ebene 3, bestehend aus einer Folge von 5 Datenelementen: 'IAC', gefolgt von 'CIN', gefolgt von RTI-Typcode 'RTITC', gefolgt vom '+'-Zeichen, gefolgt von der vom Besitzer zugewiesenen (oder verwalteten) RTI-Seriennummer 'RTISN', die global eindeutig innerhalb des Bereichs des CIN-Inhabers ist, im Format IAC CIN RTITC + RTISN (Leerzeichen nur zur visuellen Klarheit hinzugefügt; sie sind nicht Teil der Daten).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Global eindeutiger Rücktransportgegenstand (RTI) kleiner Lastträger mit einer Seitenbasis von &lt; 1000 mm, wie in ISO 17364:2013 definiert (RTI), Tertiärverpackung, Ebene 2, bestehend aus einer Folge von 5 Datenelementen: 'IAC', gefolgt von 'CIN', gefolgt von RTI-Typcode 'RTITC', gefolgt vom '+'-Zeichen, gefolgt von der vom Besitzer zugewiesenen (oder verwalteten) RTI-Seriennummer 'RTISN', die global eindeutig innerhalb des Bereichs des CIN-Inhabers ist, im Format IAC CIN RTITC + RTISN (Leerzeichen nur zur visuellen Klarheit hinzugefügt; sie sind nicht Teil der Daten).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Global eindeutige Rückverpackungsgegenstand-Kennung (RPI) der Kategorie Verpackungshilfe (Deckel, Blister, Einlage, ...) bestehend aus einer Folge von 5 Datenelementen: 'IAC', gefolgt von 'CIN', gefolgt von 'RPI-Nummer' RPIN, gefolgt vom '+'-Zeichen, gefolgt von der vom Besitzer zugewiesenen (oder verwalteten) 'RPI-Seriennummer' RPISN, die global eindeutig innerhalb des Bereichs des CIN-Inhabers ist, im Format IAC CIN RPIN + RPISN (Leerzeichen nur zur visuellen Klarheit hinzugefügt; sie sind nicht Teil der Daten).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Packungsgegenstandsnummer.\nNummer zur Identifizierung der Art des Verpackungsgegenstands (Material), die verwendet wird, wenn Produkte und Pakete verpackt werden.\nDie Nummer ermöglicht es, Verpackungsgegenstände (Materialien) von Produkten, Paketen, Rücktransportgegenständen (RTIs) und Rückverpackungsgegenständen (RPIs) während des Verpackens zu identifizieren und zu trennen.\nDie Nummer wird als eine Folge von mindestens 1 Datenelement konstruiert:\nVerpackungsgegenstand (Material)-Nummer, die innerhalb des Bereichs des Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Global eindeutige Verpackungsnummer\nGlobal eindeutige Nummer zur Identifizierung der Art des Verpackungsgegenstands (Materials), das verwendet wird, wenn Produkte und Pakete verpackt werden.\nDie global eindeutige Nummer ermöglicht es, Verpackungsgegenstände (Materialien) von Produkten, Paketen, Rücktransportgegenständen (RTIs) und Rückverpackungsgegenständen (RPIs) während des Verpackens zu identifizieren und zu trennen.\nDie Nummer wird als eine Folge von 3 verketteten Datenelementen konstruiert:\nDas IAC, gefolgt von der CIN, gefolgt von der Verpackungsgegenstand (Material)-Nummer, die innerhalb des Bereichs des CIN-Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Global eindeutiger Rückverpackungsgegenstand (RPI), wie in ISO 17364 definiert, zugewiesen von einem Inhaber einer Unternehmensidentifikationsnummer (CIN) und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt von der RPI-Seriennummer, die innerhalb des Bereichs des CIN-Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Spezifikation eines Postdienstes und zugehöriger Prozessdaten gemäß dem UPU-Standard S25-Datenkonstrukt 'Dienstdaten'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Lizenzierungs-Postdaten gemäß der Spezifikation im UPU-Standard S25.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Spezifikation von ergänzenden Postdiensten und zugehöriger Prozessdaten gemäß dem UPU-Standard S25-Datenkonstrukt 'Ergänzende Dienstdaten'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Postverwaltungs-Identifikationen, die die Identifizierung einer oder mehrerer Postverwaltungen, die an der Verarbeitung eines Poststücks oder einer Poststückcharge beteiligt sind, in Übereinstimmung mit der Spezifikation im UPU-Standard S25 darstellen.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>UPU-Standortcode, der einen Standort oder ein geografisches Gebiet identifiziert, oder eine damit verbundene Gruppe solcher Standorte oder Gebiete, die für eine zugehörige Transaktion relevant sind und die mit einer der in a) bis g) unten definierten Strukturen übereinstimmen:\na) zwei Großbuchstaben, die dem ISO 3166-1-Zweibuchstaben-Ländercode des Landes entsprechen, in dem oder aus dem das/die Standort(e) oder Gebiet(e) sind;\nb) drei Großbuchstaben, die dem IATA-Code des Flughafens oder der Stadt entsprechen, in, nahe oder bestehend aus dem/den Standort(en) oder Gebiet(en);\nc) vier oder mehr Zeichen, von denen die ersten drei einem ISO 3166-1-Ländercode entsprechen, gefolgt von einem Bindestrich (-), mit dem Rest, der eine Postleitzahl des betreffenden Landes ist;\nd) vier oder mehr Zeichen, von denen die ersten drei einem ISO 3166-1-Ländercode entsprechen, gefolgt von einem Punkt (.), mit dem Rest, der einem ISO 3166-2-Unterteilungscode des betreffenden Landes entspricht;\ne) fünf Großbuchstaben, die dem UN/LOCODE des Gebiets entsprechen, in, nahe oder bestehend aus dem/den Standort(en) oder Gebiet(en);\nf) sechs Großbuchstaben und alphanumerische Zeichen, die einem UPU IMPC-Code entsprechen, der gemäß UPU-Standard S34 zugewiesen wird;\ng) die Verkettung, die nicht weniger als sieben oder mehr als 25 Zeichen lang ist, von:\n - einem von UPU-Standards S31 zugewiesenen Ausstellercode;\n - einem Standortcode, bestehend aus Zeichen aus dem Satz {A-Z; 0-9}, der den Spezifikationen des Ausstellers entspricht.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Qualifizierter UPU-Standortcode, Verkettung von:\n - einer Standortkategorie aus UPU-Code-Liste 139;\n - einem Datenidentifikator 17U UPU-Standortcode.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Kennzeichen-Platte mit Dienstdaten und Standortcode ist eine zusammengesetzte Datenkonstruktion, die den Spezifikationen des UPU-Standards S25 entspricht und die Spezifikation von:\n - einem ISO/IEC 15459-konformen Artikel-Identifikator enthält;\n - einer Datenidentifikator 5U-konformen Spezifikation des zu erbringenden Dienstes in Bezug auf den Artikel;\n - einem Datenidentifikator 17U-konformen UPU-Standortcode oder einem Datenidentifikator 18U-konformen qualifizierten UPU-Standortcode.\n Hinweis - Weitere Einzelheiten entnehmen Sie bitte dem UPU-Standard S25. Der Unterschied zwischen einem einfachen UPU-Standortcode (DI 17U) und einem qualifizierten UPU-Standortcode (DI 18U) kann aus dem ersten Zeichen bestimmt werden. Wenn dieses numerisch ist, gilt 18U; wenn es alphabetisch ist, gilt 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>OCR-Datenlokator.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Lieferantencode, der vom Kunden zugewiesen wird.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Lieferantencode, der vom Lieferanten zugewiesen wird.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>U.P.C. Unternehmenspräfix.\n2020 Update: GS1 empfiehlt, dass dieser DI nicht mehr verwendet wird und dass Benutzer dieses DI zu GS1-Datenqualifikatoren (Anwendungsidentifikatoren) gemäß ISO/IEC 15418 und ISO/IEC 15459-3 migrieren.\nGemäß GS1 wird der Begriff "U.P.C." nicht mehr verwendet und die Metadaten (an2+n8) sind nicht mehr korrekt.GS1 empfiehlt, diesen DI nicht für zukünftige Anwendungen zu verwenden.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>GS1-Unternehmenspräfix.\n2020 Update: GS1 empfiehlt, dass dieser DI nicht mehr verwendet wird und dass Benutzer dieses DI zu GS1-Datenqualifikatoren (Anwendungsidentifikatoren) gemäß ISO/IEC 15418 und ISO/IEC 15459-3 migrieren.\nGemäß GS1 sind die Metadaten (an2+n9) nicht mehr korrekt.GS1 empfiehlt, diesen DI nicht für zukünftige Anwendungen zu verwenden.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Vom Transporteur zugewiesener Transporteurs-Identifikationscode, der gemeinsam von Lieferant, Transporteur und Kunde definiert wird.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Von einem Finanzinstitut zugewiesener Identifikationscode (gemeinsam definiert).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Vom Hersteller zugewiesener Identifikationscode (gemeinsam definiert.</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Von einer Partei zugewiesener Code, die finanzielle Haftung für eine Entität oder Gruppe von Entitäten trägt (z. B. Eigentümer von Inventar) (gemeinsam definiert).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Vom Kunden zugewiesener Kundencode.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Vom Lieferanten zugewiesener Kundencode.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Hersteller-ID\nHINWEIS - Siehe Anhang 2, CBP 7501-Anweisungen.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Organisation mit Budgetverantwortung für eine Entität, einen Prozess oder ein Verfahren (z. B. Werkstatt, Abteilung, Abteilung)(intern zugewiesen).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>Vom Dun &amp; Bradstreet zugewiesene DUNS-Nummer zur Identifizierung des Herstellers.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>Vom Dun &amp; Bradstreet zugewiesene DUNS-Nummer zur Identifizierung des Lieferanten.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>Vom Dun &amp; Bradstreet zugewiesene DUNS-Nummer zur Identifizierung des Kunden.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Vom Transporteur zugewiesene Absendernummer.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>VMRS-Lieferanten-ID.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>U.S. DoD CAGE-Code.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Identifizierung einer Partei zu einer Transaktion, bei der das Datenformat aus zwei verketteten Segmenten besteht. Das erste Segment ist der Ausstellende Agenturcode (IAC) gemäß ISO/IEC 15459, das zweite Segment ist eine eindeutige Entitätsidentifikation Unternehmensidentifikationsnummer (CIN), die nach Regeln, die von der ausstellenden Agentur festgelegt wurden, zugewiesen wird (siehe http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSear chTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Spezifikation der Rolle(n) einer Partei in einer Transaktion, bestehend aus einem oder mehreren Code-Werten aus der EDIFACT-Code-Liste 3035 'Party Qualifier', getrennt durch Pluszeichen (+) (Niemals mit anderen DIs in einem linearen Symbol oder anderen Medien zu verkettet werden, in denen das Verkettungszeichen ein Pluszeichen (+) ist).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Identifizierung einer Partei zu einer Transaktion, die einem Inhaber einer Unternehmensidentifikationsnummer (CIN) zugewiesen wurde und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt von einem Pluszeichen (+), gefolgt von einem oder mehreren Code-Werten aus der EDIFACT-Code-Liste 3035 'Party Qualifier', getrennt durch Pluszeichen (+) (Niemals mit anderen DIs in einem linearen Symbol oder anderen Medien zu verkettet werden, in denen das Verkettungszeichen ein Pluszeichen (+) ist).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Identifizierung einer Partei zu einer Transaktion, z. B. 21V IAC CIN OSU, zugewiesen von einem Inhaber einer Unternehmensidentifikationsnummer (CIN) und einschließlich des zugehörigen Ausstellenden Agenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als eine Folge von 3 verketteten Datenelementen: IAC, gefolgt von CIN, gefolgt von der organisationsinternen Unterabteilungskennung, die vom CIN-Inhaber zugewiesen wird und innerhalb des Bereichs des CIN-Inhabers eindeutig ist.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>Carrier SCAC.\nStandard Carrier Alpha Code - Der National Motor Freight Traffic Association, Inc., (NMFTA) weist SCACs für alle Unternehmen außer denen zu, die für die Kennzeichnung von Frachtcontainern verwendet werden, die nicht ausschließlich in Nordamerika betrieben werden, für intermodale Fahrgestelle und Anhänger, für nicht eisenbahneigene Eisenbahnwagen und für Eisenbahnen. http://www.nmfta.org/Pages/welcome.aspx\nUnternehmen, die Identifikationscodes für Frachtcontainer benötigen, die nicht in Nordamerika betrieben werden, sollten sich an das Bureau International des Containers, 38, rue des Blancs Manteaux, F75004 Paris, Frankreich, E-Mail wenden: bic@bic-code.org, Webseite www.biccode.org. Eisenbahnen und Eigentümer von intermodalen Fahrgestellen, Anhängern und nicht eisenbahneigenen Eisenbahnwagen sollten sich an den Railinc-Kundendienst wenden, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, E-Mail: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Vom Staat zugewiesene Mehrwertsteuer-Identifikationsnummer zur Identifizierung des Lieferanten, beginnend mit einem ISO 3166-1-Alpha-2-Ländercode (außer Griechenland, das den ISO 639-1-Sprachcode EL verwendet), gefolgt von der staatlich zugewiesenen Umsatzsteuer-Identifikationsnummer.\nBeispiel:\n23VIE6388047V zugewiesen an Google Irland.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Vom Staat zugewiesene Mehrwertsteuer-Identifikationsnummer zur Identifizierung des Kunden, beginnend mit einem ISO 3166-1-Alpha-2-Ländercode (außer Griechenland, das den ISO 639-1-Sprachcode EL verwendet), gefolgt von der staatlich zugewiesenen Umsatzsteuer-Identifikationsnummer.\nBeispiel:\n24VIE6388047V zugewiesen an Google Irland.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Erklärung, dass der NCAGE/CAGE-Code, der DI 25V folgt, der Hersteller ist. Partei zu einer Transaktion, bei der der NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE) Code, der hinter DI 25V verwendet wird, als Hersteller des oder der beteiligten Gegenstände deklariert wird. Die Daten nach DI 25V bestehen aus fünf Großbuchstaben und alphanumerischen Zeichen, ausgenommen die Buchstaben "I" und "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Arbeitsauftragsnummer (z. B. 'Produktionspapier') (intern zugewiesen).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Vorgangs-Sequenznummer. Eine Nummer, die die Reihenfolge einer bestimmten Operation in einer Serie von Operationen definiert, normalerweise in einem Herstellungs- oder Montageprozess.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Operationscode/Arbeitscode - die Art der durchzuführenden Arbeit (intern zugewiesen oder gemeinsam definiert).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Kombinierte Arbeitsauftragsnummer und Vorgangs-Sequenznummer im Format nn...n+nn...n, wobei ein Pluszeichen (+) als Trennzeichen zwischen der Arbeitsauftragsnummer und der Vorgangs-Sequenznummer verwendet wird.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Statuscode (intern zugewiesen oder gemeinsam definiert).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Arbeitsgruppencode - Identifiziert System, Untersystem, Baugruppe, Komponente usw., an denen Wartungsarbeiten durchgeführt werden.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Nomenklatur - (intern zugewiesen oder gemeinsam definiert).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Formularkontrollnummer - Vorbedruckte Kontrollnummer auf Formularen.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Qualitätsprüfer - Nachname.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Telefonnummer der Person/Aktivität, die das Formular ausfüllt - im Format (Ländervorwahl) Vorwahl, Exchange, Nummer [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Gemeinsam definiert zwischen Kunde und Lieferant</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Gemeinsam definiert zwischen Transporteur und Lieferant</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Gemeinsam definiert zwischen Kunde und Transporteur</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Freitext</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Gemeinsam definiert zwischen Transporteur und Handelspartner</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Strukturierter Freitext (Kopfdaten)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 1 Daten)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 2 Daten)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 3 Daten)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 4 Daten)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 5 Daten)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 6 Daten)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 7 Daten)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 8 Daten)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 9 Daten)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 10 Daten)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 11 Daten)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 12 Daten)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 13 Daten)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 14 Daten)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 15 Daten)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 16 Daten)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 17 Daten)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 18 Daten)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 19 Daten)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 20 Daten)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 21 Daten)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 22 Daten)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 23 Daten)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 24 Daten)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 25 Daten)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 26 Daten)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 27 Daten)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 28 Daten)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 29 Daten)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 30 Daten)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 31 Daten)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 32 Daten)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 33 Daten)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 34 Daten)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 35 Daten)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 36 Daten)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 37 Daten)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 38 Daten)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 39 Daten)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 40 Daten)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 41 Daten)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 42 Daten)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 43 Daten)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 44 Daten)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 45 Daten)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 46 Daten)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 47 Daten)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 48 Daten)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 49 Daten)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 50 Daten)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 51 Daten)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 52 Daten)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 53 Daten)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 54 Daten)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 55 Daten)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 56 Daten)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 57 Daten)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 58 Daten)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 59 Daten)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 60 Daten)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 61 Daten)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 62 Daten)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 63 Daten)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 64 Daten)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 65 Daten)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 66 Daten)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 67 Daten)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 68 Daten)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 69 Daten)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 70 Daten)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 71 Daten)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 72 Daten)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 73 Daten)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 74 Daten)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 75 Daten)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 76 Daten)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 77 Daten)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 78 Daten)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 79 Daten)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 80 Daten)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 81 Daten)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 82 Daten)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 83 Daten)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 84 Daten)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 85 Daten)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 86 Daten)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 87 Daten)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 88 Daten)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Strukturierter Freitext (Zeile 89 Daten)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>Das 'GLEICH'-Zeichen. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Fortsetzung eines Artikelcodes (Kategorie 16), der vom Kunden zugewiesen wird und der für eine erforderliche Feldgröße zu lang ist.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Fortsetzung des Rückverfolgbarkeitscodes (Kategorie 20) des Lieferanten.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Fortsetzung der Seriennummer (Kategorie 19) des Lieferanten.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Fortsetzung von Freitext (Kategorie 26), der gemeinsam von Lieferant/Transporteur/Kunde definiert wird.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Fortsetzung der Transaktionsreferenz (Kategorie 11), die gemeinsam von Lieferant/Transporteur/Kunde definiert wird.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Fortsetzung des Artikelcodes (Kategorie 16), der vom Lieferanten zugewiesen wird.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Funktion 1 (FUNC1) Zeichen. Erscheint in der ersten Position nach dem Symbologie-Startzeichen eines Code 128, Code 49 oder Code 16K Symbols, um ein von GS1-kontrolliertes Symbol zu kennzeichnen.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Format JJMMTT.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Format TTMMJJ.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Format MMTTJJ.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Format YTTT (Julianisch).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Format JJTTT (Julianisch).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>ISO-Format JJMMTT unmittelbar gefolgt von einer ANSI X12.3 Datennummer 374 Qualifikator, der einen Code zur Spezifikation der Art des Datums liefert (z. B. Versanddatum, Herstellungsdatum).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>ISO-Format JJJJMMTT unmittelbar gefolgt von einer ANSI X12.3 Datennummer 374 Qualifikator, der einen Code zur Spezifikation der Art des Datums liefert (z. B. Versanddatum, Herstellungsdatum).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Format MMJJ.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Ereignis, Datum und Uhrzeit.\nISO-Format YYYYMMDDHHMM (24-Stunden-Uhr - UTC) unmittelbar gefolgt von einem UN/EDIFACT Code Qualifier 2005, der einen Code zur Spezifizierung des Datentyps angibt), z.B.,\n11 [Datum, an dem die Ware voraussichtlich versandt/verschickt wird, wenn die Nachricht versendet wird.];\n17 [Geschätztes Lieferdatum/-zeit, zu dem die Ware voraussichtlich geliefert wird];\n35 [Datum, an dem die Ware an ihrem Bestimmungsort geliefert wird.];\n118 [Buchung Bestätigt];\n129 [Datum, an dem das Schiff/die Ware den letzten ausländischen Hafen im Exportland verlassen hat.];\n132 [Datum/Uhrzeit, zu der der Spediteur schätzt, dass ein Transportmittel im Entladehafen oder am Bestimmungsort ankommen sollte.];\n133 [Datum/Uhrzeit, zu der der Spediteur schätzt, dass ein Transportmittel am Abfahrtsort abfahren sollte];\n137 [Datum/Uhrzeit, zu der der Lieferant Teile versendet, basierend auf der Anfrage des Kunden. (Datum, an dem die DESADV-Nachricht gesendet wird. Empfehlung ist, dass die DESADV innerhalb von 30 Minuten nach dem Abholen der Ware beim ShipFrom-Partner gesendet wird];\n146 [Geschätztes Einreisedatum (Zoll) Datum, an dem das offizielle Datum eines Zolleintrags voraussichtlich ist.];\n151 [Importdatum (Ankunft im Hafen mit der Absicht auszuladen];\n186 Abfahrt einer Einrichtung ('Tor-aus)];\n204 [Datum, an dem der Zoll die Ware dem Spediteur oder Importeur freigibt];\n253 [Abfahrt von einem Hafen ('Schiffsabfahrt')];\n252 [Ankunft in einem Hafen ('Schiffsankunft')];\n283 [Ankunft in einer Einrichtung ('Tor-ein)];\n342 [Transportmittel Beladen];\n351 [Torinspektion am Terminal];\n411 [Bestelltes Befüllen];\n412 [Bestelltes Entleeren];\n420 [Transportmittel entladen];\n534 [Repariert];\n677 [Bestätigtes Befüllen];\n678 [Bestätigtes Entleeren];\n696 [Einreichungsdatum].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Datum (Struktur und Bedeutung gegenseitig definiert).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Format JJWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Format JJJJWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Format JJJJMMTT.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Ältestes und neuestes Herstellungsdatum im Format JJWWJJWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Ablaufdatum (JJJJMMTT).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Ablaufdatum (TTMMJJJJ).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Herstellungsdatum (JJJJMMTT) - Herstellungsdatum.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Herstellungsdatum (TTMMJJJJ).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Aktivierungszeit des Tags.\nJJJJMMTTHHMM (24-Stunden-Uhr - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Deaktivierungszeit des Tags.\nJJJJMMTTHHMM (24-Stunden-Uhr - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Inspektionsdatum (TTMMJJJJ).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Erforderliches Lieferdatum (DDD Julian) oder DOD MILSTAMP Code.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Aufzeichnungszeit.\nJJJJMMTTHHMM (24-Stunden-Uhr - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Datum, dargestellt in modifizierter UTC-konformer Form:\njjjj[mm[tt[hh[mm[ss[fff]]]]]][poooo], wobei eckige Klammern Optionen andeuten und jjjj das Jahr, mmdd der Monat und Tag, hhmmss die Tageszeit in Stunden, Minuten und Sekunden, fff die Bruchteile von Sekunden und poooo die Abweichung von UTC in Stunden und Minuten darstellt, wobei die Abweichung positiv ist, wenn p ein Punkt (.) ist, negativ, wenn P ein Minuszeichen (-) ist.\nBEISPIEL:\n2005 - (UTC) Kalenderjahr 2005;\n200505 - (UTC) Kalendermonat Mai 2005;\n20050518 - (UTC) 18. Mai 2005;\n200505181247 - 12:47 UTC am 18. Mai 2005;\n200505181247.0100 - 12:47 Ortszeit, also 11:47 UTC, am 18. Mai 2005;\n20050518124723099 - 99 Millisekunden nach UTC 12:47:23 am 18. Mai 200.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Qualifiziertes Datum, bestehend aus der Verkettung von:\n- einem ISO/IEC 15459 Ausstellungsagenturcode;\n- einem Datumsqualifikator, der den Spezifikationen dieser Ausstellungsagentur entspricht;\n- einem Datum, dessen Format und Interpretation den Spezifikationen der Ausstellungsagentur für diesen Datumsqualifikator entsprechen.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Mindesthaltbarkeitsdatum: (JJJJMMTT).\nBeispiel: 25D20170202 = 2. Februar 2017</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Erstes Gefrierdatum (JJJJMMTT).\nDas erste Gefrierdatum wird definiert als das Datum, an dem Produkte direkt nach dem Schlachten, Ernten, Fangen oder nach der ersten Verarbeitung eingefroren werden.\nBeispiel: 26D20170721 = 21. Juli 2017.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Erntedatum (JJJJMMTT).\nDas Datum, an dem ein Tier geschlachtet oder getötet wurde, ein Fisch gefangen wurde, oder eine Ernte geerntet wurde.\nBeispiel: 27D20170615 = 15. Juni 2017.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Erntedatum-Bereich (JJJJMMTTJJJJMMTT).\nDer Start- und Enddatum-Bereich, über den die Ernte stattfand.\nZum Beispiel; Tiere wurden geschlachtet oder getötet, Fische wurden gefangen, oder eine Ernte wurde geerntet.\nDer Datenstrom wird definiert als das erste JJJJMMTT als Startdatum und das letzte JJJJMMTT als Enddatum.\nBeispiel:\n28D2017012320170214 = Start; 23. Januar 2017. Ende; 14. Februar 2017.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Linke eckige Klammer', 'Rechte Klammer', 'Größer-als-Zeichen', 'Datentrenner'-Zeichen. Datenstruktur konform zu ISO/IEC 15434, Informationstechnologie - Automatische Identifikation und Datenerfassungstechniken - Syntax für Medien mit hoher Kapazität ADC.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Klassifizierung beschränkter Substanzen - 'Umweltklassifizierungscode' einschließlich bleifreier (Pb-freier) Endkategorien, definiert in JESD97 (IPC JEDEC J-STD-609), und zukünftige branchen- oder behördenspezifische Codes im Zusammenhang mit umweltrechtlicher Konformität und Gefahrstoffgehalt.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Luftdruck - (Höhe) ausgedrückt in Pascal als internationaler Standardmaß.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Maximal zulässige Temperatur. Maximale zulässige Temperatur; Grad Celsius, '-' (Minus) codiert, falls erforderlich.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Mindestens zulässige Temperatur.\nMinimale zulässige Temperatur; Grad Celsius, '-' (Minus) codiert, falls erforderlich.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Maximal zulässige relative Luftfeuchtigkeit.\nMaximale zulässige relative Luftfeuchtigkeit, impliziert als Prozent.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Mindestens zulässige relative Luftfeuchtigkeit.\nMaximale zulässige relative Luftfeuchtigkeit, ausgedrückt in Prozent.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Kühlschrankbehältertemperatur.\nFür temperaturgesteuerte Ladung, vom Absender spezifiziert, Grad Celsius, '-' (Minus) codiert, falls erforderlich.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Kumulative Zeit-Temperatur-Index - ausgedrückt als Anzahl der Messungen oder Zählungen.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Zeit-Temperatur-Index - Nächsthöhere Montage - ausgedrückt als Anzahl der Messungen oder Zählungen.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Deklaration der Verpackungsmaterialkategorie*, Code* und Gewicht für ein bestimmtes Verpackungsmaterial, das in einer bestimmten Verpackung gemäß der EU-Verpackungs- und Verpackungsabfallrichtlinie verwendet wird. (Materialkategorie und -code definiert in Anhang M).\n12ECCMMMMMMNNNNNUU, wobei: - '12E' (an3) der Datenidentifikator ist;\n - 'CC' (n2) die Materialkategorie gemäß Anhang M ist;\n - 'MMMMMM' (an1...6) der Materialcode gemäß Anhang M ist;\n - 'NNNNN' (n5) Materialgewicht, inklusive Dezimalpunkt (z.B. 12,12);\n - 'UU' (an2) die Maßeinheit für Gewicht ist (z.B. KG, GR, LB oder OZ nach ANSI X12.3 wie in Anhang D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>Die Daten, die DI 13E folgen, werden einer der MSL-Anzeigen (1, 2, 2a, 3, 4, 5, 5a, 6) sein, wie in der Spalte LEVEL in Tabelle 5-1 des JEDEC-Standards IPC/JEDEC J-STD-020E gezeigt. Die Tabelle wird nur zur Referenz gezeigt; die aktuell veröffentlichte Version des referenzierten Standards sollte verwendet werden, um das korrekte MSL für das aktuelle Bauteil zu erhalten. Beispiel: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>Der 'BINDESTRICH' oder 'MINUS'-Zeichen. Pharmazentralnummer (PZN), kontrolliert von IFA-ABDATA, Deutschland (Registrierung dieses Systemidentifikators läuft am 2016-07-01 ab). Ersetzt durch '9N'.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Schleifenkopf.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Mein Elternteil ______ ist . . . Eindeutiger Identifikator, gefolgt von einem Datenidentifikator und zugehörigen Daten (zur Verwendung bei Mehrwegverpackungen). Dieser Datenidentifikator muss unmittelbar auf das Feld folgen (bestehend aus einem Datenidentifikator, Daten und einem Gruppentrenner), mit dem er assoziiert ist.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Ich habe ______ Kinder . . . (zur Verwendung bei Mehrwegverpackungen, z.B.; 3F10, für zehn Kinder). Dieser Datenidentifikator muss unmittelbar auf das Feld folgen (bestehend aus einem Datenidentifikator, Daten und einem Gruppentrenner), mit dem er assoziiert ist.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Logische Zuweisung einer Seite von Informationen innerhalb einer Gruppe von Seiten, die über mehrere Datenträger verteilt sind, strukturiert als eine Folge von bis zu drei (3) verketteten Datenelementen, getrennt durch einen Schrägstrich ( / ) :\n Seitennummer (erforderlich), gefolgt von der Seitenanzahl (optional, erforderlich für die letzte Seite), gefolgt von einer alphanumerischen Gruppen-ID (optional; falls verwendet, dann erforderlich für alle Seiten und strukturiert gemäß ISO/IEC 15459-3 als Folge von 3 Datenelementen: Ausstellungsagenturcode, gefolgt von der Firmenidentifikationsnummer, gefolgt von einem alphanumerischen Code, einzigartig im Bereich des Ausstellers).\n Nachgestellte Schrägstriche sind optional.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Ich habe ______ Kinder und sie sind . . . (zur Verwendung bei Mehrwegverpackungen) Dieser Datenidentifikator muss unmittelbar auf das Feld folgen (bestehend aus einem Datenidentifikator, Daten und einem Gruppentrenner), mit dem er assoziiert ist.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>Das 'AUSRUFEZEICHEN'. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Name der Partei.\nName einer Partei gefolgt von einem Plus (+) Zeichen, gefolgt von einem oder mehreren Code-Werten aus der EDIFACT-Code-Liste 3035 'Partei-Qualifikator', z.B.;\nBY [Käufer];\nCF [Containerbetreiber];\nCN [Empfänger];\nCS [Konsolidierer];\nDEI [Schiffsbetreiber/Kapitän des Schiffes];\nFA [Betriebspersonal-Code];\nIM [Importeur];\nMF [Hersteller];\nOS [Absender];\nSE [Verkäufer];\nST [Sendung an];\nUC [Endempfänger].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Mitarbeiteridentifikationscode, zugewiesen vom Arbeitgeber.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>U.S. Sozialversicherungsnummer.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>ID-Nummer für Nicht-Mitarbeiter (intern zugewiesen oder gegenseitig definiert) (z.B. Vertragsarbeiter, Lieferanten, Dienstleistungs- und Lieferpersonal).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Nationale Sozialversicherungsnummer.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Nachname.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Name der Partei (Zeile 2).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Kontakttelefon.\nLandesvorwahl, Ortsvorwahl, Vermittlungsstelle, Nummer [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Kontakt-E-Mail.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Empfängernummer.\nDie eindeutige Identifikationsnummer kann die IRS-, EIN-, SSN- oder die von CBP zugewiesene Nummer sein, wie auf der Sicherheitsakte erforderlich. Nur die folgenden Formate dürfen verwendet werden: IRS EIN: NN-NNNNNNN;\nIRS EIN mit Suffix:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP zugewiesene Nr.: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Persönlicher Identifikationscode (erster Buchstabe, letzter Buchstabe, letzte vier der SSN).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Vorname und Mittelinitial.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Militärischer Rang (E1-E9, W1-W5 und O1-O10).\nUpdate 2020: Das Metadatenformat wurde geändert, um mit den tatsächlich verwendeten Offiziersrängen im Militär übereinzustimmen: "an2+an3". Die Erklärungsinformationen wurden geändert zu: "Militärischer Rang (E1-E9, W1-W5 und O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Eine nationale Identifikationsnummer, National Identity Number oder National Insurance Number, die als Mittel zur Identifizierung von Personen innerhalb eines Landes für die Zwecke der Arbeit, Besteuerung, staatlicher Leistungen, Gesundheitsversorgung und anderer staatlicher Funktionen verwendet wird.\nDie Struktur des Identifikators ist DI (15H) gefolgt vom ISO 3166-1 Alpha2-Ländercode, gefolgt vom vorherrschenden staatlich zugewiesenen Identifikationscode für Einzelpersonen.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Weltweit eindeutige persönliche ID, zugewiesen von einem Inhaber eines Firmenidentifikationscodes (CIN) und einschließlich des zugehörigen Ausstellungsagenturcodes (IAC) gemäß ISO/IEC 15459 und seinem Register, strukturiert als Sequenz von 3 verketteten Datenelementen: IAC gefolgt von CIN, gefolgt von der innerhalb des Bereichs des Inhabers eindeutigen ID.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Weltweit eindeutige persönliche ID, mit einem "Partei-Qualifikator"-Code-Wert aus der EDIFACT-Code-Liste 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Exklusive Zuweisung - Fahrzeugidentifikationsnummer (VIN), wie in den USA unter 49 CFR, Abschnitt 565 und international durch ISO 3779 definiert. (Dies sind vollständig kompatible Datenstrukturen).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Abgekürzter VIN-Code.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Weltweit eindeutiger Transportfahrzeugidentifikator (z.B. LKW) bestehend aus der Fahrzeugidentifikationsnummer (VIN), wie in den USA unter 49 CFR Abschnitt 565 und international durch ISO 3779 definiert, gefolgt vom '+'-Zeichen, dann gefolgt von der staatlich ausgestellten Fahrzeugregistrierungs-Kennzeichennummer in der Form '4I' 'VIN' '+' 'staatlich ausgestellte Fahrzeugregistrierungs-Kennzeichennummer' (Anführungszeichen und Leerzeichen sind nur zur Klarstellung gezeigt; sie sind nicht Teil der Daten).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Einzigartiger Produktionsfahrzeugidentifikator, der während des Fahrzeugproduktionsprozesses verwendet wird, bestehend aus der Karosserie-Tag-Nummer (BTN; oder jede andere Bezeichnung, die verwendet wird, um den Rohkarosseriekörper oder anders ausgedrückt, die Montage von Teilen, die verwendet werden, um den Produktionsprozess des Fahrzeugs zu starten), gefolgt vom '+'-Zeichen, dann gefolgt von der Produktionsauftragsnummer (PON), gefolgt vom '+'-Zeichen und dann gefolgt von der vom Hersteller zugewiesenen Seriennummer (SN). HINWEIS - Die SN-Komponente wird durch die VIN ersetzt, sobald die VIN im Montageprozess verfügbar ist.\nDie Konstruktion wird wie folgt sein;\n\5I" "BTN" "+" "PON" "+" "SN"\nwechselt zu (wenn VIN verfügbar)\n"5I" "BTN" "+" "PON" "+" "VIN"\nHINWEIS - Anführungszeichen und Leerzeichen sind nur zur Klarstellung gezeigt; sie sind nicht Teil der Daten.\nHINWEIS - Dieses DI darf niemals mit anderen DIs in einem linearen Symbol oder anderen Medien verkettet werden, bei denen das Verkettungszeichen ein Plus (+) Zeichen ist.\nBeispiele:\nSN-Version: 5IABCD1234+CO1234+W0L201600500001\nVIN-Version: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

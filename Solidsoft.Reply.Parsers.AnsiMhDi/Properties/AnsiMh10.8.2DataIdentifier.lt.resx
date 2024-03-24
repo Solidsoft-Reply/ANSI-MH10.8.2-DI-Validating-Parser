@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>'PLUS' simbolis. Sveikatos pramonės verslo ryšių taryba (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Unikalus transporto vieneto numeris.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Transporto vienetui, kuris yra mažiausias pakavimo lygis, nesuskaidomas vienetas, priskirtas unikalus transporto vieneto numeris.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Transporto vienetui, kuriame yra keli paketai, priskirtas unikalus transporto vieneto numeris.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Transporto vienetui, kuris yra mažiausias pakavimo lygis, nesuskaidomas vienetas ir kuriam priskirti EDI duomenys, priskirtas unikalus transporto vieneto numeris.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Transporto vienetui, kuriame yra keli paketai ir kuris susijęs su EDI duomenimis, priskirtas unikalus transporto vieneto numeris.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Unikalus transporto vieneto numeris, priskirtas mišriam transporto vienetui, kuriame yra nevienodi daiktai vienoje kliento operacijoje ir gali būti arba negali būti susiję EDI duomenys.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Unikalus transporto vieneto numeris, priskirtas pagrindiniam transporto vienetui, kuriame yra panašūs daiktai vienoje kliento operacijoje ir gali būti arba negali būti susiję EDI duomenys.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Transporto priemonės registracijos numeris (nėra unikalus be šalies ir išdavusios valdžios institucijos/regiono nurodymo)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Jūrų mobiliojo ryšio identitetas (MMSI).\nDevynių skaitmenų numeris, reguliuojamas Tarptautinės telekomunikacijų sąjungos, unikaliai identifikuojantis laivą arba kranto radijo stotį. Pavyzdys: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Pirkimo operaciją identifikuojantis užsakymo numeris, kurį nustato klientas (pvz., pirkimo užsakymo numeris).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Pirkimo operaciją identifikuojantis užsakymo numeris, kurį nustato tiekėjas.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Siuntos identifikavimo kodas, kurį nustato tiekėjas / vežėjas.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Siuntos identifikavimo kodas, kurį nustato vežėjas.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Užsakymo eilės numeris, kurį nustato klientas pirkimo operaciją identifikuojant.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Siuntą autorizuojantį (išleidžiantį) nuorodos numerį nustato klientas pagal nustatytą pirkimo užsakymą.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>Vežėjo nustatytas PRO#.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Vežimo būdas laisvos formos tekstu, abipusiai apibrėžtas tarp kliento ir tiekėjo (pvz., oru, sunkvežimiu, laivu, geležinkeliu).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Sutarties numeris.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Bendras sandorio nuorodos kodas (viduje nustatytas arba abipusiai apibrėžtas).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Sąskaitos faktūros numeris.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Pakavimo sąrašo numeris.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Standartinis vežėjo alfa kodas) (an4 - brūkšnelis '-' užpildytas kairėje) ir vežėjo nustatytas PROgresyvusis numeris.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Krovinio važtaraščio numeris / Transporto kvitas SCAC + konteinerio krovinio B/L numeris arba važtaraščio numeris.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Užsakymo numeris ir eilės numeris formatu nn...nn+nn...n, kur pliuso (+) simbolis naudojamas kaip skirtukas tarp užsakymo numerio ir eilės numerio.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>KANBAN numeris.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>DELINS numeris: dokumentui, kuris apima pristatymo informaciją, priskirtas kodas.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Čekio numeris.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Struktūruota nuoroda.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Užsienio karinės pardavimų bylos numeris.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Licencijos identifikatorius, būdamas globaliai unikalus licencijos arba sutarties, pagal kurią prekės generuojamos, pateikiamos apdorojimui ir/arba apmokamos, identifikatorius, kuris sudaromas konkatenavus:\n - ISO/IEC 15459 išdavimo agentūros kodą;\n - licencijos arba sutarties numerį, kuris atitinka išdavimo agentūros nurodytas specifikacijas;\n ir kuris:\n - susideda tik iš didžiųjų raidžių ir (arba) skaitmenų;\n - yra unikalus (tai yra, skiriasi nuo bet kurio kito ISO/IEC 15459 atitinkamo identifikatoriaus) išdavimo agentūros srityje;\n - negali būti išvestas iš bet kurio kito ISO/IEC 15459 atitinkamo identifikatoriaus, išduoto pagal tą pačią išdavimo agentūrą, paprasčiausiai pridedant simbolius prie jo galo arba šalinant juos iš jo galo.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Kliento duomenys, būdami duomenys, kurie:\n - iš kliento perspektyvos yra susiję su preke arba operacija, arba su partija arba susijusiomis prekėmis arba operacijomis, ir\n - susideda iš iki 35 spausdinamų simbolių ir (arba) tarpų, išskyrus pliuso (+) simbolį, pasirinktų iš ISO/IEC 646 simbolių rinkinio.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>'22K' Sandorio autentiškumo informacija, būdama vertė, sudaryta konkatenavus:\n - ISO/IEC 15459 išdavimo agentūros kodą;\n - vertę, kuri atitinka išdavimo agentūros nurodytas specifikacijas,\n leidžiant patikrinti sandorio autentiškumą ir, ypač, kad sandorį inicijavo asmuo, sandoryje nurodytas kaip jo iniciatorius, tai:\n - sandorio gavėjas, ir (arba)\n - vienas ar daugiau asmenų, dalyvaujančių jo tvarkyme arba apdorojime, ir (arba)\n - patikimas trečiasis šalis.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Transporto vienetų grupių, kurias paskyrė vežėjas, globalus unikalus identifikavimas, apibrėžtas kaip:\nTransporto operacijos šalies identifikavimas, priskirtas įmonės identifikavimo numerio (CIN) turėtojo ir įtraukiant susijusį išdavimo agentūros kodą (IAC) pagal ISO/IEC 15459 ir jos registrą, struktūruotas kaip 3 konkatenacijos duomenų elementai: IAC, po to CIN, po to Važtaraščio arba Krovinio identifikavimo kodas, kuris yra unikalus CIN turėtojo srityje.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Transporto vienetų grupių, kurias paskyrė siuntėjas, globalus unikalus identifikavimas, apibrėžtas kaip:\nTransporto operacijos šalies identifikavimas, priskirtas įmonės identifikavimo numerio (CIN) turėtojo ir įtraukiant susijusį išdavimo agentūros kodą (IAC) pagal ISO/IEC 15459 ir jos registrą, struktūruotas kaip 3 konkatenacijos duomenų elementai: IAC, po to CIN, po to Važtaraščio arba Krovinio identifikavimo kodas, kuris yra unikalus CIN turėtojo srityje.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Tiekėjo paskirtas pasiūlymo numeris - kliento prašymo pateikti pasiūlymą atsakyme tiekėjo nustatytas pasiūlymo numeris.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Sandėlio vieta.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Vieta.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>Pristatymo vieta 'Ship To:', apibrėžta pramonės standarto arba abipusiai sutarta.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>Siuntimo vieta 'Ship From:', apibrėžta pramonės standarto arba abipusiai sutarta.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Kilmės šalis, dviejų simbolių ISO 3166 šalies kodas. Suderinus su prekybos partneriais ir kai kilmės šalis yra mišri, turėtų būti naudojamas šalies kodas 'AA'.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>Siuntimo užsakymo vieta 'Ship For:', apibrėžta pramonės standarto arba abipusiai sutarta.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Maršruto kodas, nustatytas tiekėjo tam, kad nurodytų konkretų transportavimo kelią.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>6 simbolių Gynybos departamento veiklos kodas (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Išplaukimo uostas - Abipusiai sutartas.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Atplaukimo uostas - Abipusiai sutartas.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Vieta (platuma / ilguma / aukštis) užkoduota formatu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>Pristatymo vieta 'Ship To:' (platuma / ilguma / aukštis) užkoduota formatu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>Siuntimo vieta 'Ship From:' (platuma / ilguma / aukštis) užkoduota formatu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Siuntimo užsakymo vieta 'Ship For:' (platuma / ilguma / aukštis) užkoduota formatu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Žymos aktyvavimo vieta.\nAngliškas vietovės pavadinimas (simbolių rinkinys: 0-9, A-Z &lt;Tarpas&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Žymos deaktyvavimo vieta.\nAngliškas vietovės pavadinimas (simbolių rinkinys: 0-9, A-Z &lt;Tarpas&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>FAO žvejybos srities kodas, nustatytas Žuvininkystės ir akvakultūros departamento FAO (http://www.fao.org. Ieškokite Žvejybos srities kodo posvetainėje).\nLeidžiami visi GS1 Bendrosios specifikacijos nustatyti ISO/IEC 646 simbolių rinkinio simboliai.\nPavyzdžiai:\n18L37.1.3 Vakarų Viduržemio jūra, Sardinija;\n18L47.B.1 Atlantas, pietryčiai, SEAFO dalis, Namibijos EEZ;\n18L67 Ramioji vandenynas, šiaurės rytai.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Pirmasis lygis (viduje priskirtas).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Antrasis lygis (viduje priskirtas).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Trečiasis lygis (viduje priskirtas).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Ketvirtasis lygis (viduje priskirtas).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Penktasis lygis (viduje priskirtas).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Sandorio šalies identifikavimas, pvz., 25L IAC CIN LOC, priskirtas įmonės identifikavimo numerio (CIN) turėtojo ir įtraukiant susijusį išdavimo agentūros kodą (IAC) pagal ISO/IEC 15459 ir jos registrą, struktūruotas kaip 3 konkatenacijos duomenų elementai: IAC, po to CIN, po to fizinė vidaus vieta (LOC), kuri yra unikali CIN turėtojo srityje.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Vieta, būdama kodas, identifikuojantis vietą ar geografinę sritį, ar su ja susijusią vietų ar sričių grupę, kuri turi reikšmės susijusiai operacijai ir atitinka vieną iš žemiau apibrėžtų struktūrų:\na) du didžiosios abėcėlės raidiniai simboliai, atitinkantys ISO 3166-1 dvi raidės šalies kodą, kuriame, ar sudarytoje iš šalies, yra nurodyta vieta arba sritis;\nb) trys didžiosios abėcėlės raidiniai simboliai, atitinkantys IATA oro uosto ar miesto kodą, kurioje, ar šalia kurios, yra nurodyta vieta arba sritis;\nc) keturi ar daugiau simbolių, iš kurių pirmieji trys atitinka ISO 3166-1 šalies kodą, po kurio eina brūkšnelis (-), o likusioji dalis yra pašto kodas atitinkamoje šalyje;\nd) keturi ar daugiau simbolių, iš kurių pirmieji trys atitinka ISO 3166-1 šalies kodą, po kurio eina taškas (.), o likusioji dalis yra ISO 3166-2 šalies padalinio kodas atitinkamoje šalyje;\ne) penki didžiosios abėcėlės raidiniai simboliai, atitinkantys JT/LOCODE sritį, kurioje, ar šalia kurios, yra nurodyta vieta arba sritis;\nf) konkatenacija, sudaryta iš ne mažiau kaip septynių ir ne daugiau kaip 35 simbolių, įskaitant:\n- ISO/IEC 15459 išdavimo agentūros kodą;\n- vietos kodą, sudarytą iš {A-Z; 0-9} simbolių rinkinio, kuris atitinka išdavimo agentūros nustatytas specifikacijas.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Renginio vieta UN/LOCODE.\nUN/LOCODE, po kurio eina pliuso (+) simbolis, po kurio seka vienas ar daugiau kodų iš EDIFACT Kodų sąrašo 3227 'Location function code qualifier', pvz.,\n7 Galutinės pristatymo vieta;\n5 Išvykimo uostas;\n9 Krovinio uosto;\n11 Iškrovimo uostas;\n13 Perkrovimo vieta;\n24 Įėjimo uostas;\n35 Eksportuojanti šalis;\n88 Vežėjo kvito vieta;\n125 Užsienio uostas prieš išvykimą į JAV;\n147 Krovos vieta/ pozicija;\n159 Pristatymo vieta (gavėjui);\n248 Pakrovimo vieta\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Adresas ir gatvės numeris.\nNaudojama kartu su H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Miesto pavadinimas.\nNaudojama kartu su H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Šalies sub-vieneto detalės.\nNaudojama kartu su H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Pašto kodas.\nNaudojama kartu su H, 6H, 28L, 29L, 30L, 31L, 32L (Jei naudojamas brūkšnelis '-', jis turi būti aiškiai užkoduotas).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Šalies kodas.\nISO 3166-1 Alpha 2 kodas\nNaudojama kartu su H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Vieningas išteklių lokatorius (URL).\nApima visus simbolius, sudarančius URL, įskaitant antraštės duomenis, pavyzdžiui, http://. Simbolių rinkinys nurodytas RFC 1738.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Proceso URL nukreipimo (P2P URL) taškas, skirtas inicijuoti URL, kuriame pateikiami visi kiti koduotame AIDC laikmenų duomenų elementai pagal taisyklę: Nuskaitykite kodą ir pradėkite URL nuo P2P URL eilutės, praleidžiant DI 34L ir ISO/IEC 15434 apvalkalo sintaksę (prefiksą ir postfiksą) ir pridėkite visus kitus nuskaitytus duomenų elementus toje pačioje sekoje, kaip buvo užkoduota laikmenoje, įskaitant DIs ir duomenų elementų skyriklus. Specialiųjų simbolių, pridėtų prie duomenų, konvertavimas į RFC 1738 formatą (pvz., Grupės skyriklis 'GS' verčiamas į RFC 1738 seką %1D). Atkreipkite dėmesį, kad tai netaikoma paties P2P URL.\nPavyzdys: Koduota duomenų eilutė (naudojant ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nrezultatas šiame URL su perduotais duomenimis:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nPastaba: duomenys iš '05' formato apvalkalo nebuvo įtraukti į URL, nes 34L buvo užkoduotas '06' formato apvalkale.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Valstybės paskirtas patvirtinimo numeris laivui / akvakultūros vietovei / ūkiui / perdirbėjui, prasidedantis ISO 3166-1 alpha-2 šalies kodu, po kurio seka patvirtinimo numeris.\nLeidžiami visi GS1 Bendrosios specifikacijos apibrėžti ISO/IEC 646 simbolių rinkinio simboliai.\nPavyzdys:\n35LIECK0107EC = Šalis; Airija. Laivo pavadinimas; FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Valstybės paskirtas patvirtinimo numeris gamintojui arba ūkiui arba pirmajai kaulų šalinimo / pjaustymo halei, prasidedantis ISO 3166-1 alpha-2 šalies kodu, po kurio seka patvirtinimo numeris.\nLeidžiami visi GS1 Bendrosios specifikacijos apibrėžti ISO/IEC 646 simbolių rinkinio simboliai.\nPavyzdys:\n36LIECK0107EC = Šalis; Airija. Laivo pavadinimas; FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Siunčiama iš:' - Vietos kodas, nustatytas pašto institucijos (pvz., 5 skaitmenų ir 9 skaitmenų ZIP kodai, identifikuojantys JAV vietoves arba 6 simbolių pašto kodai, identifikuojantys Kanados vietoves).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Siunčiama į:' - Vietos kodas, nustatytas pašto institucijos (pvz., 5 skaitmenų ir 9 skaitmenų ZIP kodai, identifikuojantys JAV vietoves arba 6 simbolių pašto kodai, identifikuojantys Kanados vietoves).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>'Siunčiama iš:' - Vietos kodas, nustatytas pašto institucijos formatu: pašto kodai (pvz., 5 skaitmenų ZIP kodai, identifikuojantys JAV vietoves arba 6 ar 7 simbolių pašto kodai, identifikuojantys Jungtinės Karalystės vietoves) su dviem simbolių ISO 3166 šalies kodu (pvz., US ar GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>'Siunčiama į:' - Vietos kodas, nustatytas pašto institucijos formatu: pašto kodai (pvz., 5 skaitmenų ZIP kodai, identifikuojantys JAV vietoves arba 6 ar 7 simbolių pašto kodai, identifikuojantys Jungtinės Karalystės vietoves) su dviem simbolių ISO 3166 šalies kodu (pvz., US ar GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Kariuomenės forma 2410 duomenys. Formatas yra duomenų vertė, nurodyta prieš formos 2410 bloko numerį. Laukų ilgiai ir priimtini simboliai pateikti adresu;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 metų atnaujinimas: URL buvo pakeistas į:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Kariuomenės forma 2408 duomenys. Formatas yra duomenų vertė, nurodyta prieš formos 2408 bloko numerį. Laukų ilgiai ir priimtini simboliai pateikti adresu;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 metų atnaujinimas: URL buvo pakeistas į:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Kariuomenės forma 2407 duomenys. Formatas yra duomenų vertė, nurodyta prieš formos 2407 bloko numerį. Laukų ilgiai ir priimtini simboliai pateikti adresu;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 metų atnaujinimas: URL buvo pakeistas į:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Oro pajėgų forma 95 duomenys. Formatas yra duomenų vertė, nurodyta prieš formos 95 bloko numerį. Laukų ilgiai ir priimtini simboliai pateikti adresu;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 metų atnaujinimas: Formos pavadinimas yra "Oro pajėgų techninio užsakymo forma 95 (AFTO Forma 95)." Informacija apie formą gaunama iš Oro pajėgų techninio užsakymo (TO) 00-20-1. URL šiam TO buvo pakeistas į:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Karinio jūrų laivyno forma 4790 duomenys. Formatas yra duomenų vertė, nurodyta prieš formos 2410 bloko numerį. Laukų ilgiai ir priimtini simboliai pateikti adresu;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%2015.pdf.\n2020 metų atnaujinimas: URL nebegalioja.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Nacionalinis/NATO atsargų numeris (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Chemijos pramonės duomenų mainų (CIDX) apibrėžti produkto charakteristikų duomenys.</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Elektroninių pramonės asociacijos Japonijoje (EIAJ) apibrėžta kodavimo struktūra.</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Kodavimo struktūra ir formatas pagal GS1 taikomuosius identifikatorius (AI ir duomenys) (GS1).</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Kodavimo struktūra ir formatai pagal AIAG rekomendacijas. Visas duomenų identifikatorius yra formos 5Nxx, kur 'xx' yra randamas pilname kodų sąraše, kuris pateikiamas adresu https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>JAV Gynybos departamento pirkimo ir išdavimo procedūrų kodai. Formatas yra atitinkamas MILSTRIP kodas, po kurio seka su tuo kodu susijusi duomenų vertė. (Visas kodų sąrašas prieinamas adresu;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\n2020 metų atnaujinimas: URL buvo pakeistas į:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/)</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>JAV gynybos transporto reguliavimo kodai. Formatas yra DTR kodas, po kurio seka su tuo kodu susijusi duomenų vertė. (Visas kodų sąrašas prieinamas adresu;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\n2020 metų atnaujinimas: URL buvo pakeistas į:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf)</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Produkcijos gyvūnų identifikavimo kodai. Formatas yra produkcijos gyvūnų kodas, po kurio seka su tuo kodu susijusi duomenų vertė. Techninė ataskaita ir pilnas išplėstinių duomenų elementų (kodų) sąrašas palaikomas adresu;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Išplėstinių duomenų elementai (kodai).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Techninė ataskaita.\n2020 metų atnaujinimas: URL buvo pakeisti į:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Vaistinės produkto numeris, palaikomas IFA (www.ifaffm.de), su šiais elementais; Duomenų identifikatorius (DI), dviejų skaitmenų produkto registracijos agentūros kodas (PRAC), produkto nuoroda (PR) ir dviejų PPN patikros skaitmenys (CC), formoje DI PRAC PR CC.\nPASTABA - dėl vizualinio aiškumo tarpą pridedame kaip atskirtuvą, tačiau jis nėra dalis duomenų.\nPavyzdžiai:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Duomenys pagal formatą ir semantiką, apibrėžtą kompanijos identifikavimo numerio (CIN), kuris buvo išduotas išdavimo agentūros kodo (IAC) pagal ISO/IEC 15459, turėtojo. Tai yra duomenų elementų, konkatenacijos: IAC, po to CIN, po to skirtuko simbolis ':' (dvitaškis) seka duomenimis pagal formatą ir semantiką, kaip nustatyta CIN turėtojo.\nPASTABA: Tik duomenų sintaksės taisyklės (jei tokios yra) kaip nurodyta deklaruotame IAC+CIN kiekvienoje DI '10N' duomenų sraute, turėtų būti taikomos duomenims, sekantiems po DI 10N+IAC+CIN.\nPASTABA: Dėl klaidos priskyrimo DI '10N' (nėra centrinės duomenų apibrėžimo ar priežiūros institucijos), neturėtų būti įgyvendinami nauji DI '10N' naudojimo atvejai.\nDI '10N' funkcija nustatyta Kategorijoje 18, ĮVAIRŪS su DI '5R'. Yra stipriai rekomenduojama, kad esami naudojimo atvejai, kurie naudoja DI '10N', pereitų prie DI 5R.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Duomenų struktūra, apibrėžta ir kontroliuojama RLA, sudaryta iš 2 segmentų: lauko identifikatoriaus kodo, iškart po kurio seka duomenys, kaip apibrėžta tam elementui pagal RLA duomenų žodyną. Tai iš esmės yra laukų katalogas su standartizuotu turiniu. Lauko identifikatoriai paskelbti adresu http://rla.org/11ncodes. Šių kodų naudojimas ir struktūra apibrėžti adresu: http://rla.org/11nformat Papildomi pavyzdžiai gali būti rasti šioje svetainėje taip pat. DI '11N' niekada neturėtų būti užkoduotas kartu su kitais DI elementais 2D ar RFID žymoje.\nPASTABA: Dėl klaidos priskyrimo DI '11N' (teiginys: 'DI '11N' niekada neturėtų būti užkoduotas kartu su kitais DI elementais 2D ar RFID žymoje.' nėra teisingas), neturėtų būti įgyvendinami nauji DI '11N' naudojimo atvejai. DI '11N' funkcija nustatyta DI '12N'. Yra stipriai rekomenduojama, kad esami naudojimo atvejai, kurie naudoja DI '11N', pereitų prie DI '12N'.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Duomenų struktūra, apibrėžta ir kontroliuojama RLA, sudaryta iš 2 segmentų: lauko identifikatoriaus (FI) kodo, iškart po kurio seka duomenys, kaip apibrėžta tam elementui pagal RLA duomenų žodyną. Tai iš esmės yra laukų katalogas su standartizuotu turiniu. Lauko identifikatoriai paskelbti adresu http://rla.org/12ncodes Šių kodų naudojimas ir struktūra apibrėžti adresu: http://rla.org/12nformat. Pavyzdžiai gali būti rasti šioje svetainėje.\n2020 metų atnaujinimas: URL pasikeitė į:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Atstovaujant pramonės interneto identifikatorių kodus, kuriuos kontroliuoja ir palaiko CAICT, naudojamus Kinijos pramonės interneto identifikatorių rezoliucijos sistemoje ir sudarytus kaip &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, formoje an3+a3+n3+n3+n8+an1...33, kur an3 yra Duomenų Identifikatorius (DI), a3 yra Išdavimo Agentūros Kodas (IAC = "VAA"), n3 yra Aukščiausio lygio Kodas (TTC), n3 yra Antrinio lygio Kodas (STC), n8 yra Įmonės Identifikavimo Numeris (CIN), kontroliuojamas ir priskirtas Antrinio lygio platformos, ir an1...33 yra Serijos Numeris (SN), kurį kontroliuoja ir priskiria CIN turėtojas, ir kuris yra unikalus to CIN turėtojo srityje, naudojant simbolius nuo 0 iki 9, didžiąsias ir mažąsias raides A iki Z, * (žvaigždutę), + (pliusą), - (brūkšnį), . (tašką arba sustojimą), / (pasvirą brūkšnį), ( (kairę skliaustą), ) (dešinę skliaustą), ! (šauktuką).\nPavyzdžiai:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Kliento priskirtas prekės identifikavimo kodas.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Tiekėjo priskirtas prekės identifikavimo kodas.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Nurodytas prekės revizijos lygio kodas (pvz., inžinerijos pakeitimo lygis, leidimas arba revizija).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Kombinuotas gamintojo identifikavimo kodas/prekės kodas pagal 12/13 skaitmenų GS1 formatus, plius papildomi kodai, jei tokie yra.\n2020 metų atnaujinimas: GS1 rekomenduoja šį DI nebenaudoti ir kad šio DI naudotojai pereitų prie GS1 duomenų kvalifikatorių (Taikomųjų Identifikatorių) pagal ISO/IEC 15418 ir ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Prekės kodo dalis GS1 formatais.\n2020 metų atnaujinimas: GS1 rekomenduoja šį DI nebenaudoti ir kad šio DI naudotojai pereitų prie GS1 duomenų kvalifikatorių (Taikomųjų Identifikatorių) pagal ISO/IEC 15418 ir ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Pavojingų medžiagų klasifikacijos prekės numeris, priskirtas vežėjo pagal paskirtį (pvz., kelių transporto, oro, laivų, geležinkelio klasifikacija).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Kombinuotas tiekėjo identifikavimas ir prekės kodas (viduje priskirtas arba abipusiai apibrėžtas).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Bendrosios kalbos įrangos identifikavimas (CLEI), priskirtas gamintojo tam tikrai telekomunikacijų įrangai.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>14 skaitmenų GS1 formatas GTIN-14 kodų struktūrai.\n2020 metų atnaujinimas: GS1 rekomenduoja šį DI nebenaudoti ir kad šio DI naudotojai pereitų prie GS1 duomenų kvalifikatorių (Taikomųjų Identifikatorių) pagal ISO/IEC 15418 ir ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Kombinuotas gamintojo identifikavimo kodas (9 skaitmenų DUNS numeris, priskirtas Dun &amp; Bradstreet) ir prekės kodas / dalies numeris (priskirtas gamintojo).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Pavojingų medžiagų kodas, apibrėžtas ANSI X12.3 formate, duomenų elementas 208 (1 simbolio kodo kvalifikatorius) sekamas duomenų elemento 209 (pavojingų medžiagų kodas).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10 simbolių CLEI kodas telekomunikacijų įrangai.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Dokumento tipas (pvz., pakavimo sąrašas, konstrukcijos brėžinys ir t.t.) (viduje priskirtas arba abipusiai apibrėžtas).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>VMRS sistemos kodas.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>VMRS sistemos ir surinkimo kodas.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>VMRS sistemos, surinkimo ir dalies kodas.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>VMRS sistemos, surinkimo arba dalies kodas. (Naudotojo modifikuotas).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Kombinuotas GS1 tiekėjo identifikavimas ir prekės kodas, priskirtas tiekėjo.\n2020 metų atnaujinimas: GS1 rekomenduoja šį DI nebenaudoti ir kad šio DI naudotojai pereitų prie GS1 duomenų kvalifikatorių (Taikomųjų Identifikatorių) pagal ISO/IEC 15418 ir ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Kombinuotas VMRS tiekėjo ID ir tiekėjo priskirtas dalies numeris.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Vieneto komponentas. (Vienas produktas, pateiktas keliuose paketuose).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Pirmasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Antrasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Trečiasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Ketvirtasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Penktasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Sandorio šalies identifikavimas, priskirtas kompanijos identifikavimo numerio (CIN) turėtojo ir įtraukiant susijusį išdavimo agentūros kodą (IAC) pagal ISO/IEC 15459 ir jos registrą, struktūruotas kaip 3 konkatenacijos duomenų elementai: IAC, po to CIN, po to tiekėjo priskirtas unikalus dalies numeris, kuris yra unikalus CIN turėtojo srityje.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Aukštesnio lygio surinkimo dalies numeris.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Prekių HTS-6 kodas; naudojant formatą: 4012.11 arba 4012.11.4000 (Dešimtainis taškas aiškiai užkoduotas) Harmonizuotos sistemos (HS) klasifikacija yra 6 skaitmenų standartizuotas skaitinis būdas klasifikuoti prekes prekybai. HS numeriai naudojami pasaulio muitinėse prekių identifikavimui muitų ir mokesčių taikymo tikslais. Papildomi skaitmenys pridedami prie HS numerio kai kurios vyriausybės, norint dar labiau atskirti prekes tam tikrose kategorijose. Jungtinėse Valstijose, eksportui skirtų prekių klasifikavimo numeriai vadinami 'Schedule B' numeriais. JAV Statistikos biuras administruoja Schedule B sistemą. Schedule B numeriai, o ne HS numeriai, turi būti pateikiami ant Eksporto deklaracijos (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nImporto kodai administruojami JAV Tarptautinės prekybos komisijos (USITC). http://hts.usitc.gov/\n2020 metų atnaujinimas: http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf nuoroda nebėra aktyvi. Dėl Eksporto deklaracijos (SED) formos kreipkitės į vežėją.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Krovinio pavadinimas. Paprastas anglų kalbos aprašymas.</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Produkto klasifikacijos kodas, apibrėžtas su GMDN (Global Medical Device Nomenclature - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Pirmasis lygis (Tiekėjo priskirtas).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Antrasis lygis (Tiekėjo priskirtas).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Trečiasis lygis (Tiekėjo priskirtas).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Ketvirtasis lygis (Tiekėjo priskirtas).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Penktasis lygis (Tiekėjo priskirtas).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Kliento priskirtas kodas, identifikuojantis gamintojo Medžiagų saugos duomenų lapo (MSDS) dokumento identifikavimo numerį, apibūdinantį pavojingos medžiagos naudojimą, pavojus ir cheminę sudėtį.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Eksporto kontroliuojamas objektas. Priklauso eksporto kontrolės ir/ar apribojimams, kaip nurodyta Vasaaro susitarime. DI sekamas Alpha-2 ISO 3166 šalies kodo, kuris įvedė apribojimą, sekamas Vasaaro kodu (http://www.wassenaar.org/controllists/index.html).\n2020 metų atnaujinimas: URL pasikeitė į https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Gamintojo priskirtas prekės identifikatorius - apimantis gamintojo priskirtą prekės numerį, sekamas pliuso (+) ženklu, sekamas - jei reikia unikaliai identifikuoti prekę gamintojo produktų asortimente - gamintojo priskirtu prekės versijos numeriu.\nPavyzdys 50PABC+6 reiškia prekės numerį ABC, prekės versija 6\nPASTABA - Prekės numeris visada turi būti sekamas pliuso ženklu, net jei prekės versijos nėra. Tai reikalaujama, kad būtų galima nedviprasmiškai sujungti gamintojo priskirtą prekės identifikatorių su kitu duomenų konstruktų, naudojant pliuso ženklą kaip jungtį. Pavyzdžiui, kombinacija iš 50P gamintojo priskirto prekės identifikatoriaus be prekės versijos ir serijos numerio (Duomenų identifikatorius S) ant objekto gali būti užkoduota kaip 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Globaliai unikalus prekės identifikatorius, apimantis sandorio šalies identifikavimą, priskirtą kompanijos identifikavimo numerio (CIN) turėtojo ir įtraukiant susijusį išdavimo agentūros kodą (IAC) pagal ISO/IEC 15459 ir jos registrą, sekamas pliuso (+) ženklu, sekamas gamintojo priskirtu prekės identifikatoriumi, kaip apibrėžta su 50P\nPavyzdys: 51PJ4LBE0431863103+ABC+ reiškia prekę su prekės numeriu ABC ir be versijos numerio, pagamintą kompanijos su Belgijos PVM numeriu 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Spalvos kodas.\nPrekės/objekto spalva, identifikuota kodu ar terminu, dėl kurio susitarė prekybos partneriai.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Konkretaus jūrų įrenginio identifikatorius, patvirtintas pagal Europos Sąjungos direktyvą dėl jūrų įrangos (2014/90/EU) ir įgyvendinimo reglamentą (ES) 2018/608.\nFormatas:\n• DI (an3);\n• Konformumo įvertinimo (CA) modulio (-ių), nustatyto (-ų) Direktyvos 2014/90/EU II priede, tipas (-ai);\n• Pranešėjo (NB) identifikavimo numeris, priskirtas Komisijos pagal Direktyvos 2014/90/EU IV priedo 3.1 punktą;\n• Sertifikatas (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Unikalus prietaiso identifikavimas - Prietaiso identifikatorius) medicinos prietaisams (MD) ir in vitro diagnostikai (IvD) kaip unikalus raktas į viešas UDI duomenų bazes (GUDID, EUDAMED ir t.t.), pagal nacionalinius reguliavimo reikalavimus, kaip nurodyta Tarptautinio medicinos prietaisų reguliavimo forumo (IMDRF). Leidžiami visi spausdinami UTF-8 simbolių rinkinio simboliai.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>DNV sertifikavimo nuoroda. Nurodo, kad duomenys apima nuorodą į produkto sertifikatą/patvirtinimo pareiškimą/ataskaitą, išduotą DNV. Duomenų identifikatorius turėtų būti sekamas raidėmis "NV" ir sertifikato numeriu. Kai sertifikato numeris turi priesagą, ji turėtų būti įtraukta į duomenų srautą naudojant "-" skirtuką. Revizijos indikatoriai neturėtų būti pateikiami.\nPavyzdžiai:\n1. 55PNVXXXXXXX, kur 55P yra duomenų identifikatorius, XXXXXXX yra DNV sertifikato numeris.\n2. 55PNVXXXXXXX-Y, kur 55P yra duomenų identifikatorius, XXXXXXX-Y yra DNV sertifikato numeris su priesaga Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Kiekis, vienetų skaičius arba suma (tik skaitmenys) (vieneto matas ir svarba abipusiai apibrėžti).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Teorinė ilgis/svoris (tik skaitmenys).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Tikrasis svoris (tik skaitmenys).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Matavimo vienetas, apibrėžtas pagal dviženklį ANSI X12.3 duomenų elemento numerį 355 matavimo vieneto kodą.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Bendras kiekis.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Grynasis kiekis.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Kai keli konteineriai sudaro vieną produktą (kiekvieno konteinerio turinys turi būti sujungtas su kitų konteinerių turiniu, kad sudarytų vieną produktą), turėtų būti naudojamas duomenų identifikatorius '6Q', siekiant susieti įvairius konteinerius. Formatas # iš # ('tai yra n-tasis iš x dalių, apibrėžiančių produktą') Pateikiama formatu 'n/x', kur '/' (pasvirasis brūkšnys) naudojamas kaip skirtukas tarp dviejų verčių.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Kiekis, suma arba vienetų skaičius formatu: Kiekis sekamas dviženklio ANSI X12.3 duomenų elemento numerio 355 matavimo vieneto kodu.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Konteinerio nominalus svoris\nKonteinerio gamintojo priskirtas svorio nešėjumo gebėjimas. Priskirtas gamybos metu. Matavimo vienetas yra kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Vieneto svoris\nVieno daikto svoris.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Tara: tuščio konteinerio svoris.\nKonteinerio kūno svoris.\nGamintojo priskirtas tuščio konteinerio svoris. Priskirtas gamybos metu. Matavimo vienetas yra kg (Tara svoris).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Monetinė vertė, nustatyta tiekėjo, formatu: vertė sekama ISO 4217 duomenų elemento kodu, atstovaujančiu valiutos ir fondų vertės vieneto matą (pvz., 12Q2.50USD) (2.50 Monetinė vertė JAV doleriais) svarba abipusiai apibrėžta.\nĮrašo vertė;\nVertė sekama ISO 4217 duomenų elemento kodu, atstovaujančiu valiutos ir fondų vertės vieneto matą (pvz., 12Q2.50USD) (2.50 Monetinė vertė JAV doleriais)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># iš # ('tai yra n-tasis iš x dalių šiame siuntinyje').\nPrisistatomas formatu 'n/x', kur '/' (pasvirasis brūkšnys) naudojamas kaip skirtukas tarp dviejų verčių.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Pradžios antrinė kiekis.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Pabaigos antrinė kiekis.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Furgono vienetų skaičius.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Furgono siuntų skaičius.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Kubatūra išreikšta kubiniais metrais arba kubinėmis pėdomis sekama ANSI X12.3 duomenų elemento numerio 355 matavimo vieneto kodu (CR ar CF). Neįtraukiamas prielaidinis dešimtainis taškas.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Plotis išreikštas linijiniais metrais arba linijinėmis pėdomis sekamas ANSI X12.3 duomenų elemento numerio 355 matavimo vieneto kodu (LC ar LF). Neįtraukiamas prielaidinis dešimtainis taškas.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Aukštis išreikštas linijiniais metrais arba linijinėmis pėdomis sekamas ANSI X12.3 duomenų elemento numerio 355 matavimo vieneto kodu (LC ar LF). Neįtraukiamas prielaidinis dešimtainis taškas.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Ilgis išreikštas linijiniais metrais arba linijinėmis pėdomis sekamas ANSI X12.3 duomenų elemento numerio 355 matavimo vieneto kodu (LC ar LF). Neįtraukiamas prielaidinis dešimtainis taškas.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Siuntos neto svoris išreikštas svarais arba kilogramais sekamas ANSI X12.3 duomenų elemento numerio 355 matavimo vieneto (LB ar KG). Neįtraukiamas prielaidinis dešimtainis taškas.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Furgono ilgis išreikštas linijiniais metrais arba linijinėmis pėdomis sekamas ANSI X12.3 duomenų elemento numerio 355 matavimo vieneto (LC ar LF). Neįtraukiamas prielaidinis dešimtainis taškas.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Furgono vidaus kubatūra išreikšta kubiniais metrais arba kubinėmis pėdomis sekama ANSI X12.3 duomenų elemento numerio 355 matavimo vieneto kodu (CR ar CF). Neįtraukiamas prielaidinis dešimtainis taškas.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Neto sprogstamųjų medžiagų svoris (apibrėžta sprogimo ekvivalento vertė išreikšta TNT svarais). NEW matas naudojamas tarptautiniu mastu sprogstamųjų medžiagų saugumo kiekio atstumo lanko skaičiavimams. Neįtraukiamas prielaidinis dešimtainis taškas</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Pakavimo lygis, nurodantis hierarchinį pakavimo lygį pagal HIBC (Sveikatos pramonės brūkšninio kodo) specifikacijas.</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Vieneto produkto kaina, grynasis, '.' (taškas) naudojamas kaip dešimtainis taškas (pvz., 27Q1000.5 už 1000,50 kainos vertę).\nStruktūra: an3+an1...20\n &lt;DI&gt;&lt;kainos vertė&gt;.\nSimbolių rinkinys: 0 iki 9, taškas (ISO 646 ASCII vertė dešimtainė 46, šešioliktainė 2E).\nKodavimo pavyzdys naudojant grynąją kainos vertę 1000:\n27Q1000.\nKodavimo pavyzdys naudojant grynąją kainos vertę 1000,50:\n27Q1000.5.\nPASTABA - Jei reikalinga valiuta, ji gali būti imama iš kito toje pačioje kodėje naudojamo duomenų elemento, pvz., 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Vieneto kainos mokestis už pašto ir pakavimo paslaugas, '.' (taškas) atstovauja kablelio pozicijai (pvz., 30Q100.50 už 100,50 vertę).\nStruktūra: an3+an1...10\n &lt;DI&gt;&lt;kainos vertė&gt;.\nSimbolių rinkinys: 0 iki 9, taškas.\nKodavimo pavyzdys naudojant siuntimo ir pakavimo vertę 100:\n30Q100.\nKodavimo pavyzdys naudojant siuntimo ir pakavimo vertę 100,50:\n30Q100.50.\nPASTABA - Jei reikalinga valiuta, ji gali būti imama iš kito toje pačioje kodėje naudojamo duomenų elemento, pvz., 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Nuolaidos procentas, '.' (taškas) atstovauja kablelio pozicijai (pvz., 31Q8.5 už 8,5% nuolaidos vertę).\nStruktūra: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;nuolaidos procentas (%)&gt;.\nSimbolių rinkinys: 0 iki 9, taškas\nKodavimo pavyzdys naudojant 10% nuolaidos procentą:\n31Q10.\nKodavimo pavyzdys naudojant 8,5% nuolaidos procentą:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>PVM procentas, '.' (taškas) atstovauja kablelio pozicijai (pvz., 27Q8.5 už 8,5% PVM vertę).\nStruktūra: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;PVM procentas (%)&gt;.\nSimbolių rinkinys: 0 iki 9, taškas.\nKodavimo pavyzdys naudojant 10% PVM procentą:\n27Q19.\nKodavimo pavyzdys naudojant 8,5% PVM procentą:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Valiuta, ISO 4217 valiutos kodas.\nStruktūra: an3+an3\n &lt;DI&gt;&lt;Valiuta, pvz., EUR&gt;.\nSimbolių rinkinys: A-Z, 0 iki 9.\nKodavimo pavyzdys naudojant JAV dolerio ISO abėcėlinį kodą:\n31QUSD.\nKodavimo pavyzdys naudojant EURO ISO abėcėlinį kodą:\n31QEUR.\nKodavimo pavyzdys naudojant EURO ISO skaitmeninį kodą:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Klinikinis termino kodas, apibrėžtas su klinišku nomenklatūros standartu: "Tarptautinis standartas sveikatos matavimams, stebėjimams ir dokumentams identifikuoti - LOINC" (https://loinc.org), sekoje: &lt;DI&gt;&lt;LOINC Kodas&gt;&lt;Plius Ženklas&gt;&lt;Vertė&gt;. Vieneto ir vertės formato apibrėžia LOINC Kodas.\nPavyzdys: 32Q28903-3+60 = LOINC Kodas 28903-3: Kairiojo kontakto lęšio ašis (laipsniai); su Vertė = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Grąžinimo leidimo kodas (RMA), priskirtas tiekėjo</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Grąžinimo kodas, priskirtas kliento</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>JAV Gynybos departamento identifikavimo kodas (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Duomenys pagal formatą ir semantiką, apibrėžtą kompanijos identifikavimo numerio (CIN), kuris buvo išduotas išdavimo agentūros kodo (IAC) pagal ISO/IEC 15459, turėtojo. Tai yra duomenų elementų, konkatenacijos: IAC, po to CIN, po to skirtuko simbolis ':' (dvitaškis) seka duomenimis pagal formatą ir semantiką, kaip nustatyta CIN turėtojo.\nPASTABA - Tik duomenų sintaksės taisyklės (jei tokios yra) kaip nurodyta deklaruotame IAC+CIN kiekvienoje DI '5R' duomenų sraute, turėtų būti taikomos duomenims, sekantiems po DI 5R+IAC+CIN.4.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 skaitmeninio parašo duomenų struktūra. Jei pagrindinis duomenų nešėjo kodavimas yra 7 bitai, tada gali būti naudojamas tik ISO/IEC 20248 žaliavos formatas.\nPavyzdys su URL formatu:\n&lt;6R&gt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO\nPavyzdys su žaliava formatu:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nISO/IEC 20248 duomenų struktūra apima skaitmeninį parašą, kuris naudojamas nurodytų duomenų elementų pranešime patikrinti. 6R, kaip pirmasis parametras, ir patikrinti norintys duomenų elementai (pašalinti visi nespausdinami simboliai), kaip antrasis parametras, perduodami ISO/IEC 20248 dekoderiui-patikrintojui - kuris grąžins patikrinimo rezultatą: PRIIMTA, ATMESTA arba KLAIDA (klaidos kodas), ir JSON objektą dekoduotų ISO/IEC 20248 papildomų laukų. ISO/IEC 20248 duomenų struktūra gali apimti papildomus laukus ir instrukcijas, kaip dekoduoti ir patikrinti vieną ar daugiau pranešimų su duomenų elementais. Šios instrukcijos bus apdorotos pagal ISO/IEC 20248 dekoderį-patikrintoją.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Akvatinės mokslų ir žuvininkystės informacijos sistema (ASFIS) 'Tarpagentūrinis 3 raidžių rūšies kodas', palaikomas Maisto ir žemės ūkio organizacijos Jungtinėse Tautose (www.fao.org, tada ieškokite 'ASFIS').\nPavyzdžiai;\n7RMUC = Dumbliažuvė;\n7RPCD = Australinis gėlavandenis silkės;\n7RWSH = Didysis baltasis ryklys.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Maisto ir žemės ūkio organizacijos (FAO) tarptautinio žuvininkystės įrangos standartinio klasifikavimo (ISSCFG) kodas. (www.fao.org)\nLeidžiami visi GS1 Bendrosios specifikacijos apibrėžti ISO/IEC 646 simbolių rinkinio simboliai.\nPavyzdžiai:\n8R02.1.0 = Paplūdimio tralai;\n8R03.1.5 = Krevetės tralai;\n8R05.1.0 = Nešiojami keltuvai.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Žuvies ir jūros gėrybių auginimo metodas, nurodytas Maisto ir žemės ūkio organizacijos (FAO) žuvininkystės ir akvakultūros departamento, pagal ES reglamentą 1379/2013. (www.fao.org).\nLeidžiami visi GS1 Bendrosios specifikacijos apibrėžti ISO/IEC 646 simbolių rinkinio simboliai.\nPavyzdžiai;\n9R01 = Pagauta jūroje;\n9R02 = Pagauta gėlavandenyje;\n9R03 = Užauginta.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Serijinis numeris arba kodas, priskirtas tiekėjo subjektui visam jo gyvavimo laikui, (pvz., kompiuterio serijinis numeris, sekimo numeris, sutarties įrankio identifikavimas)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Papildomas kodas, priskirtas tiekėjo subjektui visam jo gyvavimo laikui (pvz., sekimo numeris, kompiuterio serijinis numeris)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Išankstinio siuntos pranešimo (ASN) siuntos ID (SID) atitinka ANSI ASC X12 duomenų elementą 396</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Unikalus paketo identifikavimas, priskirtas tiekėjo (mažiausias pakavimo lygis, kuriam priskirtas paketo ID kodas; turi būti panašūs daiktai)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Paketo identifikavimas, priskirtas tiekėjo meistriniam pakavimui, kuriame yra panašūs daiktai vieno kliento užsakyme</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Paketo identifikavimas, priskirtas tiekėjo meistriniam pakavimui, kuriame yra nevienodi daiktai vieno kliento užsakyme</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Paketo identifikavimas, priskirtas tiekėjo meistriniam pakavimui, kuriame yra panašūs daiktai per kelis klientų užsakymus</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Paketo identifikavimas, priskirtas tiekėjo meistriniam pakavimui, kuriame yra nevienodi daiktai per kelis klientų užsakymus</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Tiekėjo ID/unikalus konteinerio ID, pateiktas pagal GS1 SSCC-18 specifikaciją\n2020 metų atnaujinimas: žiūrėkite GS1 Bendrąsias specifikacijas dėl naujausios SSCC versijos.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Bendrinis paketo identifikavimas (abipusiai apibrėžtas)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Mašinos, celės ar įrankio ID kodas</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Fiksuoto turto ID kodas</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Dokumento numeris (viduje priskirtas arba abipusiai apibrėžtas)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Konteinerio saugumo plomba</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>4-oji klasė Neidentiškas siuntinių pašto manifestavimas</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Serijinis numeris, priskirtas tiekėjo subjektui, kurį galima naudoti tik kartu su '13V'</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Versijos numeris, pvz., programinės įrangos versija</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Kombinuotas 6 skaitmenų GS1 tiekėjo identifikavimas ir unikalus paketo identifikavimas, priskirtas tiekėjo\n2020 metų atnaujinimas: GS1 rekomenduoja šį DI nebenaudoti ir kad šio DI naudotojai pereitų prie GS1 duomenų kvalifikatorių (Taikomųjų Identifikatorių) pagal ISO/IEC 15418 ir ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>CAGE kodas ir serijinis numeris, unikalus CAGE viduje</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Kombinuotas "Dun &amp; Bradstreet" kompanijos identifikavimas tiekėjo priskirtu unikaliu paketo identifikavimu, formatu nn...nn+nn...n, kur pliuso simbolis (+) naudojamas kaip skirtukas tarp DUNS numerio ir unikalaus paketo identifikavimo</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Kliento priskirtas sekimo kodas subjektui identifikuoti, priskirtas kompanijos identifikavimo numerio (CIN) turėtojo ir įtraukiant susijusį išdavimo agentūros kodą (IAC) pagal ISO/IEC 15459 ir jos registrą, struktūruotas kaip 3 konkatenacijos duomenų elementai: IAC, po to CIN, po to tiekėjo priskirtas sekimo numeris, kuris yra unikalus CIN turėtojo srityje.</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Padangos identifikavimo numeris, apibrėžtas JAV Transporto departamento (D.O.T) pagal JAV kodeksą 49 CFR 574.5.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Unikalus individualus identifikatorius mobiliesiems telefonams</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Media Access Control (MAC) adresas, atitinkantis IEEE 802.11</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Pagal ISO/IEC 15963 (vertė yra jo bitų vertės paverčiamos į 8 bitų ASCII vertes konversija). Šis duomenų identifikatorius gali priimti bet kurią iš ASCII-256 vertės. Krovinių konteinerių žymėjimui gamintojų registracijos institucija (RA) yra ISO 14816 RA. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Sandorio šalies identifikavimas, priskirtas kompanijos identifikavimo numerio (CIN) turėtojo ir įtraukiant susijusį išdavimo agentūros kodą (IAC) pagal ISO/IEC 15459 ir jos registrą, struktūruotas kaip 3 konkatenacijos duomenų elementai: IAC, po to CIN, po to tiekėjo priskirtas serijinis numeris, kuris yra unikalus CIN turėtojo srityje (Žr. Priedą C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Įrangos identifikatorius, būdamas globaliai unikalus identifikatorius prietaisui, įrangos vienetui arba kompiuterių programos egzempliui, naudojamam prekių gamyboje, transporte, apdorojime ar kitame tvarkyme, kuris sudaromas konkatenavus:\n - ISO/IEC 15459 išdavimo agentūros kodą;\n - įrangos numerį, kuris atitinka atitinkamos išdavimo agentūros nustatytas specifikacijas; ir kuris:\n - susideda tik iš didžiųjų raidžių ir (arba) skaitmenų;\n - yra unikalus (tai yra, skiriasi nuo bet kurio kito ISO/IEC 15459 atitinkamo identifikatoriaus) išdavimo agentūros srityje;\n - negali būti gautas iš bet kurio kito ISO/IEC 15459 atitinkamo identifikatoriaus, išduoto pagal tą pačią išdavimo agentūrą, paprastai pridedant simbolius prie jo galo arba šalinant juos iš jo galo.\nSkaitytuvo ID.\nĮrangos identifikatorius, būdamas globaliai unikalus identifikatorius prietaisui, įrangos vienetui arba kompiuterių programos egzempliui, naudojamam prekių gamyboje, transporte, apdorojime ar kitame tvarkyme.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Prekės numeris partijoje, būdamas skaitmenų eilutės:\n - kuri unikaliai skiria prekę, esančią identifikuojamoje partijoje, nuo visų kitų tos pačios partijos prekių;\n - kurios ilgis yra vienodas visoms tos partijos prekėms.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Partijos ir prekės numeris, būdamas duomenų identifikatoriaus 27T partijos numerio ir duomenų identifikatoriaus 27S prekės numerio konkatenacija, priklausanti atitinkamai partijai.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Papildomas sekimo kodas subjektui, priskirtas tiekėjo, papildomas arba skiriasi nuo sekimo kodo (-ų), pateikto naudojant 'S' arba '1S'</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Pradinis serijinis numeris, serijiniams numeriams iš eilės</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Pabaigos serijinis numeris, serijiniams numeriams iš eilės</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Aukštesnio lygio surinkimo serijinis numeris</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Baigtinio produkto serijinis numeris arba dalies numeris</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Priekabos numeris (Naudota vieneto DOD perkeltoje)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Padėklų identifikatorius (Naudota pakrautuose 463L oro padėkluose)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Unikalus prekės identifikatorius (UII), sudarytas iš 5 duomenų elementų sekos: 'IAC', po to 'CIN', po to 'Dalies Numeris (PN)', po to pliuso ženklas '+', po to tiekėjo priskirtas 'Dalies Serijinis Numeris (PSN)', kuris yra globaliai unikalus CIN turėtojo srityje; formatas IAC CIN PN + PSN (tarpai pateikti vizualiniam aiškumui tik; jie nėra dalis duomenų). Žr. Priedą C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Unikalus prekės identifikatorius (UII) 25S formatu, nurodant serijinio numerio elemento ilgį sistemoms, kurios reikalauja 'serijinio numerio' komponento konkatenacijoje Serijinis Numeris (IAC+CIN+SN) Formatas: DI+LI+IAC+CIN+SN (LI=SN ilgis)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Integruotas lusto kortelės identifikatorius (ICCID) pagal ITU-T Rekomendaciją E.118 ir ETSI Rekomendaciją GSM 11.11; maksimaliai 20 skaitmenų, sudarytų iš Išdavėjo identifikavimo numerio (IIN; maksimaliai 7 skaitmenys), Individualaus sąskaitos identifikavimo (kintamas; ilgis nustatomas pagal IIN, bet vienodas ilgis individualiems IIN), Patikros skaitmuo (vienas skaitmuo, apskaičiuotas naudojant Luhno algoritmą\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = sąskaitos identifikavimas, c = patikros skaitmuo)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Pirmasis lygis (Tiekėjo priskirtas)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Antrasis lygis (Tiekėjo priskirtas)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Trečiasis lygis (Tiekėjo priskirtas)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Ketvirtasis lygis (Tiekėjo priskirtas)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Penktasis lygis (Tiekėjo priskirtas)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC numeris (Paprastai Serializuotas Pasaulinis Prekybos Identifikacijos Numeris - SGTIN)\n2020 metų atnaujinimas: Terminas "EPC numeris" nebenaudojamas GS1. Dėl dabartinės terminijos žr. GS1 Bendrąsias specifikacijas ir Žymėjimo duomenų standartą.</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Šifravimo serijinis numeris, priskirtas tiekėjo subjektui, kurį gali patvirtinti nepriklausoma patikima trečioji šalis. Šifravimo serijinis numeris be trečiosios šalies atšifravimo neapibūdina jokių subjekto parametrų.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>'AND' simbolis. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Konteinerio tipas (viduje priskirtas arba abipusiai apibrėžtas).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Sekimo numeris, priskirtas kliento, nurodantis unikalią subjektų grupę (pvz., partiją, seriją, kaitą).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Sekimo numeris, priskirtas tiekėjo, nurodantis unikalią subjektų grupę (pvz., partiją, seriją, kaitą).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Išskirtinė paskyrima (JAV EPA transporto priemonių identifikavimas dėl išmetamųjų dujų testavimo).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Grąžinamojo konteinerio identifikavimo kodas, priskirtas konteinerio savininko arba atitinkamos reguliavimo agentūros (pvz., metalinė vonia, krepšys, ritinys, vieneto krovinio įrenginys (ULD), priekaba, rezervuaras arba tarpmodalinis konteineris) (neįtraukiant dujų balionų Žr. '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Dujų baliono konteinerio identifikavimo kodas, priskirtas gamintojo pagal JAV Transporto departamento (D.O.T.) standartus.</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Pirmasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Antrasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Trečiasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Ketvirtasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Penktasis lygis (Kliento priskirtas).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Sandorio šalies identifikavimas, priskirtas kompanijos identifikavimo numerio (CIN) turėtojo ir įtraukiant susijusį išdavimo agentūros kodą (IAC) pagal ISO/IEC 15459 ir jos registrą, struktūruotas kaip 3 konkatenacijos duomenų elementai: IAC, po to CIN, po to tiekėjo priskirtas sekimo numeris, kuris yra unikalus CIN turėtojo srityje.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Partijos identifikatorius, sudarytas iš konkatenacijos:\n - duomenų identifikatoriaus 26S pašto apdorojimo įrangos identifikatorius, arba\n - duomenų identifikatoriaus 20K licencijos identifikatorius, arba\n - duomenų identifikatoriaus 18V šalies identifikatorius, kuris:\n - yra skirtingas nuo bet kurio kito ISO/IEC 15459 atitinkamo identifikatoriaus išdavimo agentūros srityje;\n - negali būti gautas iš kitos šalies identifikatoriaus ar bet kurio kito ISO/IEC 15459 atitinkamo identifikatoriaus, išduoto pagal tą pačią išdavimo agentūrą, paprastai pridedant simbolius prie jo galo arba šalinant juos iš jo galo;\n su duomenų identifikatoriumi 27T partijos numeriu, du abu sudedamosios dalys atskirtos brūkšnelio (-) simboliu.</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Partijos numeris, išduotas identifikuojamos šalies ar apdorojimo įrenginio kontrolės požiūriu, arba pagal identifikuotą licenciją, kuris:\n - unikaliai atskiria vieną partiją susijusių prekių nuo visų kitų partijų, kurioms partijos numeris priskirtas šalies, įrenginio arba pagal licenciją;\n - susideda iš maksimaliai 10 simbolių eilutės, kurios pirmasis (skaitinis) simbolis nurodo sekantys simbolius, kiekvienas iš jų yra imamas iš aibės {0-9, A-Z}.</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Motorinių transporto priemonių transporto įrangos identifikavimo kodas, priskirtas gamintojo pagal Tarptautinę standartizacijos organizaciją (ISO) standartus.</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Pirmas lygis (tiekejo paskirtas).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Antras lygis (tiekejo paskirtas).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Trečias lygis (tiekejo paskirtas).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Ketvirtas lygis (tiekejo paskirtas).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Penktas lygis (tiekejo paskirtas).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Standartinis krovinio vežėjo alfa kodas (SCAC) (4 raidės ir skaičiai) ir neprivalomas vežėjo paskirtas priekabos numeris (nuo vieno iki dešimties raidžių ir skaičių simbolių). Naudojant vežėjo paskirtas priekabos numeris atskiriamas nuo SCAC brūkšneliu '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Indo turto numeris - sudarytas iš dviejų dalių:\n- Organizacijos identifikavimas pagal ISO/IEC 15459 ir unikalus subjekto identifikavimas pagal išdavimo agentūros nustatytas taisykles.\n- Unikalus serijos numeris, paskirtas subjekto, baigiantis 3 simbolių konteinerio tipo kodu, paimtu iš EDIFACT kodų sąrašo 8053 arba UPU standarto M82-3. (Jei konteinerio tipo kodas yra trumpesnis nei trys simboliai, laukas bus pildomas brūkšneliu '-' iš kairės iki trijų simbolių ilgio).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Konteinerio serijos numeris.\nPagal ISO 6346. OC EI CSN CD, kur OC yra trys raidės šeimininko kodas, priskirtas bendradarbiaujant su BIC, EI yra vienos raidės įrangos kategorijos identifikatorius, CSN yra 6 skaitmenų unikalus konteinerio identifikavimas, priskirtas įrangos savininko, ir CD yra modulis 11 tikrinimo skaitmuo, apskaičiuotas pagal Priedą A, ISO 6346.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Grąžinamo konteinerio savininko identifikavimas, priskirtas bendradarbiaujant su BIC.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Konteinerio dydžio / tipo kodas.\nPagal ISO 6346, 4.2 skirsnis.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Konteinerio nuosavybės kodas. Faktinis keturių simbolių santrumpa, pažymėta ant konteinerio savininko. Dėl DOD nuosavybės konteinerių žr. Gynybos transporto reglamento priedą EE-6.\n2020 atnaujinimas: duomenų šaltinio nuoroda atnaujinta į Gynybos transporto reglamentą, II dalis, priedas TT, esantis adresu:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Furgono numeris (pilnas numeris be tikrinimo skaitmens).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Furgono numerio tikrinimo skaitmuo nurodytas 11B.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Konteinerio numerio kodas (paskutiniai 5 numerio skaitmenys neįskaitant tikrinimo skaitmens).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Žymės būsena.\nY=Leidžiama / N=Nesankcionuota.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Pavojingos krovinių klasė.\nIMDG klasė formatu 'n.na', kur n = skaitinis, dešimtainis taškas aiškiai užkoduotas, ir a = sąlyginis abėcėlės kvalifikatorius. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>JT kodas pavojingoms prekėms.\nKrovinio, kurį tiekėjas pateikia pagal JT kodą, pavojingumas.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\n2020 atnaujinimas: URL pakeistas į http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Transporto priemonės pavadinimas.\nLaivo pavadinimas arba transporto priemonės kodas / traukinio kelionės numeris anglų kalba.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Laivo registracijos numeris.\nTrys raidės 'IMO' seka septynių skaitmenų numeriu, priskirtu visiems laivams IHS Fairplay kai jie pastatyti. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Kelionės numeris / Kelionės numeris.\nRaidė ir numeris.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Laivo šalis.\nISO 3166-1 alfa 2 kodas.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Rezervuota elektroninių saugos plombų numeriams.\nSudaryta iš 18185-1 saugos žymės ID - 32 bitai ir ISO 14816 16 bitų gamintojų ID (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Įrašo numeris / tipas.\nSudarytas iš trijų skaitmenų muitininko kodo, po to seka septynių skaitmenų įrašo numeris, ir užbaigiamas vienu tikrinimo skaitmeniu. Įrašo muitininko kodas atitinka tris simbolius alfanumerinį kodą, priskirtą įrašytojui ar importuotojui pagal CBP. Įrašo numeris atitinka septynių skaitmenų numerį, priskirtą įrašytojo. Numeris gali būti priskirtas bet kokiu patogiu būdu, su sąlyga, kad tas pats numeris nėra priskirtas daugiau nei vienam CBP formos 7501. Privalo būti rodomi pirmaujantys nuliai. Tikrinimo skaitmuo apskaičiuojamas pagal ankstesnius 10 simbolių. Tikrinimo skaitmens skaičiavimo formulė pateikta Priede 1, CBP 7501 instrukcijose.\nĮrašo tipas yra dviejų skaitmenų kodas, atitinkantis Bloką 2, CBP 7501 instrukcijas.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Garantijos numeris.\nTrys skaitmenų skaitinis kodas, identifikuojantis garantijos bendrovę muitinės bonde. Šį kodą galima rasti CBP formos 301 7 bloke, arba prieinamas per CBP automatizuotą sistemą ABI įrašytojams, per importuotojo bono užklausos sandorį. JAV vyriausybės importui ir įrašo tipams, kuriems nereikia garantijos, šiame bloke turėtų būti nurodytas kodas 999. Kai už garantiją naudojami grynaisiais pinigais arba vyriausybės vertybiniais popieriais, naudokite kodą 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Užsienio krovos uostas.\n'Schedule K' (Užsienio uostų klasifikacija pagal geografinę prekybos sritį ir šalį) užsienio uoste, kuriame prekės faktiškai buvo pakrautos į laivą, gabenusį prekes į JAV. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\n2020 atnaujinimas: URL pakeistas į: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Šalies paskirtos įmonės identifikavimas pagal ISO 17364, priskirtas turėtojo Įmonės Identifikavimo Numerio (CIN) ir įskaitant susijusį Išdavimo Agentūros Kodą (IAC) pagal ISO/IEC 15459 ir jo registrą, struktūrizuotas kaip 3 susietų duomenų elementų seka: IAC, po to CIN, po to RTI serijos numeris, kuris yra unikalus per CIN turėtojo domeną.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Unikalus grąžinamo transporto priemonės elemento identifikatorius sudarytas iš 5 duomenų elementų sekos: 'IAC', po to 'CIN', po to 'RTI numeris' (RTIN), po to '+' simbolis, po to tiekėjo paskirtas (arba valdomas) 'RTI serijos numeris' (RTISN), kuris yra globaliai unikalus per CIN turėtojo domeną formatu IAC CIN RTIN + RTISN (tarpai pridėti tik vizualinei aiškumui; jie nėra duomenų dalis). Žr. Priedą C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Globaliai unikalus didelio dydžio krovinio nešėjo (LLC) grąžinamo transporto priemonės (RTI) elemento identifikatorius su šonine baze = 1000 mm, kaip apibrėžta ISO 17365:2013, trečiojo sluoksnio pakavimas, sudarytas iš 5 duomenų elementų sekos: 'IAC', po to 'CIN', po to RTI tipo kodas 'RTITC', po to '+' simbolis, po to savininko paskirtas (arba valdomas) RTI serijos numeris 'RTISN', kuris yra globaliai unikalus per CIN turėtojo domeną formatu IAC CIN RTITC + RTISN (tarpai pridėti tik vizualinei aiškumui; jie nėra duomenų dalis).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Globaliai unikalus mažo dydžio krovinio nešėjo (SLC) grąžinamo transporto priemonės elemento identifikatorius su šonine baze &lt; 1000 mm, kaip apibrėžta ISO 17364:2013 (RTI), antrojo sluoksnio pakavimas, sudarytas iš 5 duomenų elementų sekos: 'IAC', po to 'CIN', po to RTI tipo kodas 'RTITC', po to '+' simbolis, po to savininko paskirtas (arba valdomas) RTI serijos numeris 'RTISN', kuris yra globaliai unikalus per CIN turėtojo domeną formatu IAC CIN RTITC + RTISN (tarpai pridėti tik vizualinei aiškumui; jie nėra duomenų dalis).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Globaliai unikalus grąžinamo pakavimo elemento (RPI) identifikatorius kategorijos pakavimo pagalba (dangtis, burbulinė plokštelė, įdėklas, ...), sudarytas iš 5 duomenų elementų sekos: 'IAC', po to 'CIN', po to 'RPI numeris' RPIN, po to '+' simbolis, po to savininko paskirtas (arba valdomas) 'RPI serijos numeris' RPISN, kuris yra globaliai unikalus per CIN turėtojo domeną formatu IAC CIN RPIN + RPISN (tarpai pridėti tik vizualinei aiškumui; jie nėra duomenų dalis).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Pakavimo elemento numeris.\nNumeris nustatantis pakavimo elemento (medžiagos) tipą, naudojamą produktams ir paketams pakuoti.\nNumeris leis identifikuoti pakavimo elementą (medžiagą) ir atskirti jį nuo produktų, paketų, Grąžinamų Transporto Priemonių (RTI) ir Grąžinamų Pakavimo Elementų (RPI) pakavimo metu.\nNumeris sudarytas kaip bent 1 duomenų elemento seka:\nPakavimo elemento (medžiagos) numeris, kuris yra unikalus per laikytojo domeną.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Globalus unikalus pakavimo numeris\nGlobalus unikalus numeris nustatantis pakavimo elemento (medžiagos) tipą, naudojamą produktams ir paketams pakuoti.\nGlobalus unikalus numeris leis identifikuoti pakavimo elementus (medžiagas) ir atskirti juos nuo produktų, paketų, Grąžinamų Transporto Priemonių (RTI) ir Grąžinamų Pakavimo Elementų (RPI) pakavimo metu.\nNumeris sudarytas kaip 3 susijungusių duomenų elementų seka:\nIAC, po to CIN, po to Pakavimo elemento (medžiagos) numeris, kuris yra unikalus per CIN laikytojo domeną.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Globalus unikalus Grąžinamo Pakavimo Elemento (RPI) kaip apibrėžta ISO 17364, priskirtas Įmonės Identifikavimo Numerio (CIN) laikytojo ir įskaitant susijusį Išdavimo Agentūros Kodą (IAC) pagal ISO/IEC 15459 ir jo registrą, struktūrizuotas kaip 3 susietų duomenų elementų seka: IAC, po to CIN, po to RPI serijos numeris, kuris yra unikalus per CIN laikytojo domeną.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Pašto paslaugos ir susijusių proceso duomenų specifikacija pagal UPU standartą S25 duomenų konstruktą 'Paslaugų Duomenys'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Licencijuotų pašto duomenų, pagal UPU standarto S25 specifikaciją.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Papildomos pašto paslaugos ir susijusių proceso duomenų specifikacija pagal UPU standarto S25 duomenų konstruktą 'Papildomų Paslaugų Duomenys'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Pašto administracijų identifikavimai, būdami identifikacija, išreikšta pagal UPU standarto S25 specifikaciją, vienos ar daugiau pašto administracijų, dalyvaujančių pašto siuntos ar partijos apdorojime.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>UPU vietos kodas, būdamas kodas, identifikuojantis vietą ar geografinę sritį, ar susijusią tokių vietų ar sričių grupę, turinčią reikšmę susijusiam sandoriui ir atitinkančią vieną iš struktūrų, apibrėžtų a) iki g) žemiau:\na) du didžiosios raidės abėcėlės simboliai, atitinkantys ISO 3166-1 dviejų raidžių šalies kodą, kurioje, ar kuri sudaro, vietą(-as) ar sritį(-is);\nb) trys didžiosios raidės abėcėlės simboliai, atitinkantys oro uosto ar miesto IATA kodą, esantį, arčiau, ar sudarantį vietą(-as) ar sritį(-is);\nc) keturi ar daugiau simbolių, iš kurių pirmieji trys atitinka ISO 3166-1 šalies kodą, sekami brūkšneliu (-), likusią dalį sudaro pašto kodas atitinkamoje šalyje;\nd) keturi ar daugiau simbolių, iš kurių pirmieji trys atitinka ISO 3166-1 šalies kodą, sekami tašku (.), likusią dalį sudaro ISO 3166-2 šalies subdivizijos kodas atitinkamoje šalyje;\ne) penkios didžiosios raidės abėcėlės simboliai, atitinkantys JT/LOCODE vietovės kodą, esantį, arčiau, ar sudarantį vietą(-as) ar sritį(-is);\nf) šeši didžiosios raidės ir skaitmenų simboliai, atitinkantys UPU IMPC kodą, priskirtą pagal UPU standartą S34;\ng) sudėtinis, ne mažesnis nei septynių ir ne ilgesnis nei 25 simbolių ilgio, susidedantis iš:\n - išdavimo agentūros pagal UPU standartus S31 priskirto leidėjo kodo;\n - vietos kodo, sudaryto iš simbolių rinkinio {A-Z; 0-9}, atitinkančio leidėjo specifikacijas.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Kvalifikuotas UPU vietos kodas, susidedantis iš:\n - vietos kategorijos, paimtos iš UPU kodų sąrašo 139;\n - duomenų identifikatoriaus 17U UPU vietos kodo.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Numerio lentelė su paslaugos duomenimis ir vietos kodu yra sudėtinė duomenų struktūra, atitinkanti specifikaciją pagal UPU standartą S25, kuri apima:\n - ISO/IEC 15459 atitinkantį prekės identifikatorių;\n - duomenų identifikatoriaus 5U atitinkančią specifikaciją apie teikiamą paslaugą, susijusią su preke;\n - duomenų identifikatoriaus 17U atitinkantį UPU vietos kodą arba duomenų identifikatoriaus 18U atitinkantį kvalifikuotą UPU vietos kodą.\n Pastaba - Daugiau informacijos rasite UPU standarte S25. Paprasto UPU vietos kodo (DI 17U) ir kvalifikuoto UPU vietos kodo (DI 18U) skirtumas nustatomas pagal pirmąjį simbolį. Jei jis skaitinis, taikomas 18U; jei raidinis, taikomas 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>OCR duomenų vieta.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Kliento paskirtas tiekėjo kodas.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Tiekėjo paskirtas tiekėjo kodas.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>U.P.C. Įmonės priešdėlis.\n2020 atnaujinimas: GS1 rekomenduoja šį DI nebenaudoti ir kad šio DI naudotojai pereitų prie GS1 duomenų kvalifikatorių (Prašymų Identifikatorių) pagal ISO/IEC 15418 ir ISO/IEC 15459-3.\nPagal GS1, terminas "U.P.C." nebenaudojamas ir metaduomenys (an2+n8) nebetinkami. GS1 rekomenduoja šį DI nebenaudoti būsimose programose.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>GS1 Įmonės priešdėlis.\n2020 atnaujinimas: GS1 rekomenduoja šį DI nebenaudoti ir kad šio DI naudotojai pereitų prie GS1 duomenų kvalifikatorių (Prašymų Identifikatorių) pagal ISO/IEC 15418 ir ISO/IEC 15459-3.\nPagal GS1, metaduomenys (an2+n9) nebetinkami. GS1 rekomenduoja šį DI nebenaudoti būsimose programose.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Vežėjo identifikavimo kodas, priskirtas pagal pramonės standartą, bendrai apibrėžtą tiekėjo, vežėjo ir kliento.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Finansų institucijos identifikavimo kodas (bendrai apibrėžtas).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Gamintojo identifikavimo kodas (bendrai apibrėžtas).</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Šalies, turinčios finansinę atsakomybę už subjektą ar subjektų grupę (pvz., turto savininkas) priskirtas kodas (bendrai apibrėžtas).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Kliento paskirtas kliento kodas.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Tiekėjo paskirtas kliento kodas.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Gamintojo ID\nPastaba - žr. Priedą 2, CBP 7501 Instrukcijas.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Organizacija su biudžeto atsakomybe už subjektą, procesą ar procedūrą (pvz., parduotuvė, skyrius, departamentas) (viduje priskirta).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>DUNS numeris identifikuojantis gamintoją.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>DUNS numeris identifikuojantis tiekėją.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>DUNS numeris identifikuojantis klientą.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Vežėjo priskirtas siuntėjo numeris.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>VMRS tiekėjo ID.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>JAV Gynybos departamento CAGE kodas.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Šalies paskirtas sandorio šalies identifikavimas, kai duomenų formatas susideda iš dviejų susijungusių segmentų. Pirmasis segmentas yra Išdavimo Agentūros Kodas (IAC) pagal ISO/IEC 15459, antrasis segmentas yra unikalus subjekto identifikavimo Įmonės Identifikavimo Numeris (CIN), priskirtas pagal išdavimo agentūros nustatytas taisykles (žr. http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Sandorio šalies vaidmens(-ų) specifikacija, susidedanti iš vieno ar daugiau kodo reikšmių iš EDIFACT Kodų Sąrašo 3035 'Šalies Kvalifikatorius', atskirtų pliuso (+) simboliais (niekada nesujungti su kitais DI tiesinėje simbolikoje ar kitose medijose, kur sujungimo simbolis yra pliuso (+) simbolis).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Šalies paskirtas sandorio šalies identifikavimas, priskirtas Įmonės Identifikavimo Numerio (CIN) turėtojo ir įtraukiant susijusį Išdavimo Agentūros Kodą (IAC) pagal ISO/IEC 15459 ir jo registrą, struktūrizuotas kaip 3 susietų duomenų elementų seka: IAC, po to CIN, po to pliuso (+) simbolis, po to viena ar daugiau kodo reikšmių iš EDIFACT Kodų Sąrašo 3035 'Šalies Kvalifikatorius', atskirtų pliuso (+) simboliais (niekada nesujungti su kitais DI tiesinėje simbolikoje ar kitose medijose, kur sujungimo simbolis yra pliuso (+) simbolis).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Sandorio šalies identifikavimas, pvz., 21V IAC CIN OSU, priskirtas Įmonės Identifikavimo Numerio (CIN) turėtojo ir įtraukiant susijusį Išdavimo Agentūros Kodą (IAC) pagal ISO/IEC 15459 ir jo registrą, struktūrizuotas kaip 3 susietų duomenų elementų seka: IAC, po to CIN, po to organizacinio padalinio identifikavimas, priskirtas CIN, kuris yra unikalus per CIN turėtojo domeną.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>Vežėjo SCAC.\nStandartinis vežėjo alfa kodas - Nacionalinės krovinių vežimo asociacijos, Inc., (NMFTA) priskiria SCAC visoms įmonėms, išskyrus tuos kodus, kurie naudojami krovinių konteinerių, neekskliuzyviai veikiančių Šiaurės Amerikoje, intermodalinių šasi ir priekabų, ne geležinkelių valdomų vagonų ir geležinkelių identifikavimui. http://www.nmfta.org/Pages/welcome.aspx\nĮmonėms, kurios ieško identifikavimo kodų krovinių konteineriams, neveikiantiems Šiaurės Amerikoje, reikėtų kreiptis į Tarptautinį konteinerių biurą, 38, rue des Blancs Manteaux, F75004 Paryžius, Prancūzija, el. paštas: bic@bic-code.org, tinklalapis www.biccode.org. Geležinkeliai ir intermodalinių šasi, priekabų ir ne geležinkelių valdomų vagonų savininkai turėtų kreiptis į Railinc klientų aptarnavimą, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, el. paštas: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Vyriausybės paskirtas pridėtinės vertės mokesčio (PVM) identifikavimo numeris, identifikuojantis tiekėją, pradedant ISO 3166-1 alfa-2 šalies kodu (išskyrus Graikiją, kuri naudoja ISO 639-1 kalbos kodą EL), sekamas vyriausybės paskirtu PVM numeriu.\nPavyzdys:\n23VIE6388047V priskirtas Google Airijai.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Vyriausybės paskirtas pridėtinės vertės mokesčio (PVM) identifikavimo numeris, identifikuojantis klientą, pradedant ISO 3166-1 alfa-2 šalies kodu (išskyrus Graikiją, kuri naudoja ISO 639-1 kalbos kodą EL), sekamas vyriausybės paskirtu PVM numeriu.\nPavyzdys:\n24VIE6388047V priskirtas Google Airijai.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Deklaruojama, kad NCAGE/CAGE kodas, sekantis po DI 25V, yra Gamintojas. Sandorio šalis, kurioje NATO Komercinės ir Vyriausybinės Entiteto (NCAGE) / Komercinės ir Vyriausybinės Entiteto (CAGE) kodas, naudojamas už DI 25V, deklaruojamas būti prekės(-ių) gamintojas, dalyvaujantis sandoryje. Duomenys, sekantys po DI 25V, sudarys iš penkių didžiųjų raidžių ir skaitmenų simbolių, išskyrus raides "I" ir "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Darbo užsakymo numeris (pvz., 'Gamybos dokumentas') (viduje priskirtas).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Operacijos sekos numeris. Numeris, apibrėžiantis tam tikros operacijos eiliškumą operacijų serijoje, paprastai gamybos ar surinkimo procese.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Operacijos kodas / Darbo kodas - atliekamo darbo tipas (viduje priskirtas arba bendrai apibrėžtas).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Sujungtas darbo užsakymo numeris ir operacijos sekos numeris formatu nn...n+nn...n, kur pliuso simbolis (+) naudojamas kaip skirtukas tarp darbo užsakymo numerio ir operacijos sekos numerio.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Statuso kodas (viduje priskirtas arba bendrai apibrėžtas).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Darbo vieneto kodas - identifikuoja sistemą, posistemę, surinkimą, komponentą ir pan., ant kurio atliekama priežiūra.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Nomenklatūra - (viduje priskirtas arba bendrai apibrėžtas).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Formos kontrolės numeris - Iš anksto atspausdintas kontrolės numeris ant formų.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Kokybės užtikrinimo inspektorius - Pavardė.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Asmens / veiklos, užpildžiusios formą, telefono numeris - išreikštas formatu (šalies kodas) miesto ar rajono kodas plius vietinis numeris, pvz., (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Tarpusavyje apibrėžtas tarp kliento ir tiekėjo</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Tarpusavyje apibrėžtas tarp vežėjo ir tiekėjo</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Tarpusavyje apibrėžtas tarp kliento ir vežėjo</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Laisvas tekstas</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Tarpusavyje apibrėžtas tarp vežėjo ir prekybos partnerio</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (antraštės duomenys)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (1 eilutės duomenys)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (2 eilutės duomenys)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (3 eilutės duomenys)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (4 eilutės duomenys)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (5 eilutės duomenys)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (6 eilutės duomenys)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (7 eilutės duomenys)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (8 eilutės duomenys)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (9 eilutės duomenys)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (10 eilutės duomenys)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (11 eilutės duomenys)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (12 eilutės duomenys)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (13 eilutės duomenys)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (14 eilutės duomenys)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (15 eilutės duomenys)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (16 eilutės duomenys)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (17 eilutės duomenys)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (18 eilutės duomenys)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (19 eilutės duomenys)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (20 eilutės duomenys)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (21 eilutės duomenys)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (22 eilutės duomenys)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (23 eilutės duomenys)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (24 eilutės duomenys)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (25 eilutės duomenys)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (26 eilutės duomenys)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (27 eilutės duomenys)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (28 eilutės duomenys)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (29 eilutės duomenys)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (30 eilutės duomenys)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (31 eilutės duomenys)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (32 eilutės duomenys)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (33 eilutės duomenys)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (34 eilutės duomenys)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (35 eilutės duomenys)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (36 eilutės duomenys)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (37 eilutės duomenys)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (38 eilutės duomenys)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (39 eilutės duomenys)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (40 eilutės duomenys)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (41 eilutės duomenys)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (42 eilutės duomenys)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (43 eilutės duomenys)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (44 eilutės duomenys)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (45 eilutės duomenys)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (46 eilutės duomenys)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (47 eilutės duomenys)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (48 eilutės duomenys)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (49 eilutės duomenys)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (50 eilutės duomenys)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (51 eilutės duomenys)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (52 eilutės duomenys)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (53 eilutės duomenys)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (54 eilutės duomenys)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (55 eilutės duomenys)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (56 eilutės duomenys)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (57 eilutės duomenys)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (58 eilutės duomenys)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (59 eilutės duomenys)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (60 eilutės duomenys)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (61 eilutės duomenys)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (62 eilutės duomenys)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (63 eilutės duomenys)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (64 eilutės duomenys)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (65 eilutės duomenys)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (66 eilutės duomenys)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (67 eilutės duomenys)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (68 eilutės duomenys)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (69 eilutės duomenys)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (70 eilutės duomenys)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (71 eilutės duomenys)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (72 eilutės duomenys)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (73 eilutės duomenys)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (74 eilutės duomenys)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (75 eilutės duomenys)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (76 eilutės duomenys)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (77 eilutės duomenys)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (78 eilutės duomenys)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (79 eilutės duomenys)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (80 eilutės duomenys)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (81 eilutės duomenys)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (82 eilutės duomenys)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (83 eilutės duomenys)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (84 eilutės duomenys)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (85 eilutės duomenys)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (86 eilutės duomenys)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (87 eilutės duomenys)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (88 eilutės duomenys)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Struktūrizuotas laisvas tekstas (89 eilutės duomenys)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>'Lydusis lygybės' ženklas. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Kliento priskirto prekės kodo (Kategorija 16) tęsinys, kuris per ilgas reikiamam lauko dydžiui.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Tiekėjo priskirto sekimo kodo (Kategorija 20) tęsinys.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Tiekėjo priskirto serijos numerio (Kategorija 19) tęsinys.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Laisvo teksto (Kategorija 26) tęsinys, tarpusavyje apibrėžtas tarp tiekėjo/vežėjo/kliento.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Sandorio nuorodos (Kategorija 11) tęsinys, tarpusavyje apibrėžtas tarp tiekėjo/vežėjo/kliento.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Tiekėjo priskirto prekės kodo (Kategorija 16) tęsinys.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Funkcija 1 (FUNC1) simbolis. Pasirodo pirmoje pozicijoje po simbolijos pradžios ženklo Code 128, Code 49, arba Code 16K simbolyje, kad nurodytų GS1 kontroliuojamą simbolį.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Formatas YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Formatas DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Formatas MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Formatas YDDD (Julijaus).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Formatas YYDDD (Julijaus).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>ISO formatas YYMMDD, iškart sekamas ANSI X12.3 Duomenų Elemento Numerio 374 kvalifikatoriumi, nurodančiu datos tipą (pvz., siuntimo data, gamybos data).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>ISO formatas YYYYMMDD, iškart sekamas ANSI X12.3 Duomenų Elemento Numerio 374 kvalifikatoriumi, nurodančiu datos tipą (pvz., siuntimo data, gamybos data).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Formatas MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Įvykis, Data, Ir Laikas.\nISO formatas YYYYMMDDHHMM (24 valandų laikrodis - UTC), iškart sekamas JT/EDIFACT Kodo Kvalifikatoriumi 2005, nurodančiu datos tipą), pvz.,\n11 [Data, kai prekės tikimasi būti išsiųstos / iškrautos, kai pranešimas išduotas.];\n17 [Numatomas pristatymo data/laikas, kai tikimasi, kad prekės bus pristatytos];\n35 [Data, kai prekės pristatomos jų paskirties vietoje.];\n118 [Rezervacijos patvirtinimas];\n129 [Data, kai laivas/prekės išvyko iš paskutinio užsienio uosto eksportuojančioje šalyje.];\n132 [Data/laikas, kai vežėjas įvertina, kad transporto priemonė turėtų atvykti į iškrovimo uostą arba paskirties vietą.];\n133 [Data/laikas, kai vežėjas įvertina, kad transporto priemonė turėtų išvykti iš išvykimo vietos];\n137 [Data/laikas, kai tiekėjas siunčia dalis pagal kliento prašymą. (Data, kai išduodamas DESADV pranešimas. Rekomendacija yra, kad DESADV būtų išduotas per 30 minučių nuo prekių paėmimo iš Siuntėjo šalies];\n146 [Numatyta Įrašo data (Muitinė) data, kai tikimasi oficialios Muitinės Įrašo datos.];\n151 [Importo Data (Atvyksta į uostą su ketinimu iškrauti];\n186 Išvyksta iš Įstaigos ('Vartų išvažiavimas)];\n204 [Data, kai Muitinė išleidžia prekes vežėjui ar importuotojui];\n253 [Išvyksta iš Uosto ('Laivo išplaukimas')];\n252 [Atvyksta į Uostą ('Laivo atplaukimas')];\n283 [Atvyksta į Įstaigą ('Vartų įvažiavimas)];\n342 [Transporto priemonė Pakrauta];\n351 [Terminalo Vartų Tikrinimas];\n411 [Užsakyta Pakrovimas];\n412 [Užsakyta Iškrovimas];\n420 [Transporto priemonė Iškrauta];\n534 [Remontuota];\n677 [Patvirtinta Pakrovimas];\n678 [Patvirtinta Iškrovimas];\n696 [Pateikimo Data].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Data (struktūra ir reikšmė tarpusavyje apibrėžtos).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Formatas YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Formatas YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Formatas YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Seniausios ir naujausios gamybos datos formatas YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Galiojimo pabaigos data (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Galiojimo pabaigos data (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Gamybos data (YYYYMMDD) - Gamybos data.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Gamybos data (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Žymės aktyvavimo laikas.\nYYYYMMDDHHMM (24 valandų laikrodis - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Žymės deaktyvavimo laikas.\nYYYYMMDDHHMM (24 valandų laikrodis - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Patikrinimo data (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Pristatymo data, reikalaujama (DDD Julijaus) arba DOD MILSTAMP kodas.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Įrašo laikas.\nYYYYMMDDHHMM (24 valandų laikrodis - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Data, atvaizduota modifikuotoje UTC atitinkančioje formoje:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] kur laužtiniai skliaustai reiškia pasirinkimą ir yyyy yra metai, mmdd mėnuo ir diena, hhmmss dienos laikas valandomis minutėmis sekundėmis, fff sekundžių trupmenos ir poooo UTC nuokrypis valandomis ir minutėmis, nuokrypis teigiamas, jei p yra taškas (.), neigiamas, jei P yra minuso ženklas (-).\nPavyzdys:\n2005 - (UTC) kalendoriniai 2005 metai;\n200505 - (UTC) kalendorinis 2005 m. gegužės mėnuo;\n20050518 - (UTC) 2005 m. gegužės 18 d.;\n200505181247 - 12:47 UTC 2005 m. gegužės 18 d.;\n200505181247.0100 - 12:47 vietos laiku, būnant 11:47 UTC, 2005 m. gegužės 18 d.;\n20050518124723099 - 99 milisekundžių po 12:47:23 UTC 2005 m. gegužės 18 d.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Kvalifikuota data, susidedanti iš:\n- ISO/IEC 15459 išdavimo agentūros kodo;\n- datos kvalifikatoriaus, atitinkančio tos išdavimo agentūros specifikacijas;\n- datos, kurios formatas ir interpretacija atitinka tos išdavimo agentūros specifikacijas šiam datos kvalifikatoriui.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Gerai iki datos: (YYYYMMDD).\nPavyzdys: 25D20170202 = 2017 m. vasario 2 d.</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Pirmosios šaldymo datos (YYYYMMDD).\nPirmoji šaldymo data apibrėžiama kaip data, kai produktai šaldomi iškart po žudymo, derliaus nuėmimo, sugavimo ar po pradinio apdorojimo.\nPavyzdys: 26D20170721 = 2017 m. liepos 21 d.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Derliaus nuėmimo data (YYYYMMDD).\nData, kai buvo nuskusta gyvūnas ar žuvis, arba nuimtas augalinis derlius.\nPavyzdys: 27D20170615 = 2017 m. birželio 15 d.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Derliaus nuėmimo datos diapazonas (YYYYMMDDYYYYMMDD).\nPradžios ir pabaigos datos diapazonas, per kurį vyko derliaus nuėmimas.\nPavyzdžiui; gyvūnai buvo nuskusti ar žuvys sugautos, ar augalinis derlius nuimtas.\nDuomenų srautas apibrėžiamas kaip pirmasis YYYYMMDD kaip pradžios data ir paskutinis YYYYMMDD kaip pabaigos data.\nPavyzdys:\n28D2017012320170214 = Pradžia; 2017 m. sausio 23 d. Pabaiga; 2017 m. vasario 14 d.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Kairysis laužtinis skliaustas', 'Dešinysis skliaustas', 'Didesnis nei ženklas', 'Įrašų atskyrimo' simboliai. Duomenų struktūra atitinkanti ISO/IEC 15434, Informacijos technologija - Automatinio identifikavimo ir duomenų surinkimo technikos - Aukštos talpos ADC medijos sintaksė.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Ribojamųjų medžiagų klasifikacija - 'Aplinkosaugos klasifikacijos kodas', įskaitant bešvinę (Pb-Free) apdailos kategorijas, apibrėžtas JESD97 (IPC JEDEC J-STD-609), ir būsimus pramonės ar vyriausybinių agentūrų priskirtus kodus, susijusius su aplinkosaugos reglamentavimo laikymusi ir pavojingų medžiagų turiniu.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Oro slėgis - (altitudė) išreikštas Paskaliais kaip tarptautinis standartinis matavimas.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Didžiausia leidžiama temperatūra. Maksimali leidžiama temperatūra; laipsniai Celsijaus, '-' (minusas) užkoduotas, jei reikia.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Mažiausia leidžiama temperatūra.\nMažiausia leidžiama temperatūra; laipsniai Celsijaus, '-' (minusas) užkoduotas, jei reikia.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Didžiausia leidžiama santykinė drėgmė.\nMaksimali leidžiama santykinė drėgmė, numanoma kaip procentas.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Mažiausia leidžiama santykinė drėgmė.\nMažiausia leidžiama santykinė drėgmė, išreikšta kaip procentas.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Šaldytuvo konteinerio temperatūra.\nTemperatūra, nurodyta siuntėjo, skirta temperatūrai kontroliuotiems kroviniams, laipsniai Celsijaus, '-' (minusas) užkoduotas, jei reikia.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Kumuliatyvinis laiko temperatūros indeksas - išreikštas kaip matavimų arba skaičiavimų skaičius.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Laiko temperatūros indeksas - Aukštesnės surinkimo dalies - išreikštas kaip matavimų arba skaičiavimų skaičius.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Pakuotės medžiagos kategorijos*, kodo* ir svorio deklaracija tam tikrai naudojamoje pakuotės medžiagoje pagal ES pakuočių ir pakuočių atliekų direktyvą. (Medžiagos kategorija ir kodas nustatyti Priede M).\n12ECCMMMMMMNNNNNUU kur: - '12E' (an3) yra duomenų identifikatorius;\n - 'CC' (n2) yra Medžiagos Kategorija pagal Priedą M;\n - 'MMMMMM' (an1...6) yra Medžiagos Kodas pagal Priedą M;\n - 'NNNNN' (n5) Medžiagos Svoris, įskaitant dešimtainį tašką (pvz., 12.12);\n - 'UU' (an2) yra svorio matavimo vienetas (pvz., KG, GR, LB ar OZ pagal ANSI X12.3 kaip nurodyta Priede D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>Duomenys, sekančių po DI 13E, bus vienas iš MSL indikatorių (1, 2, 2a, 3, 4, 5, 5a, 6), kaip parodyta LYGMENS stulpelyje 5-1 lentelėje JEDEC standarte IPC/JEDEC J-STD-020E. Lentelė pateikiama tik informacijai; norint gauti teisingą MSL komponentui, turėtų būti naudojama paskutinė šio standarto versija. Pavyzdys: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>'BRŪKŠNELIO' arba 'MINUSO' ženklas. Farmacijos centrinis numeris (PZN), kontroliuojamas IFA-ABDATA, Vokietija (Šios sistemos identifikatoriaus registracija baigiasi 2016-07-01). Pakeista '9N'.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Ciklo antraštė.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Mano tėvas ______ yra . . . Unikalus identifikatorius, seka duomenų identifikatorius ir susiję duomenys (naudojama su grąžinama pakuote). Šis duomenų identifikatorius turi būti iškart po lauko (sudaryto iš duomenų identifikatoriaus, duomenų ir grupės skirtuko), su kuriuo jis susijęs.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Aš turiu ______ vaikų . . . (naudojama su grąžinama pakuote, pvz.; 3F10, dešimčiai vaikų). Šis duomenų identifikatorius turi būti iškart po lauko (sudaryto iš duomenų identifikatoriaus, duomenų ir grupės skirtuko), su kuriuo jis susijęs.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Informacijos puslapio logiškas priskyrimas puslapių grupei, kurie išdėstyti per kelis duomenų nešėjus, struktūrizuotas kaip iki trijų (3) susijusių duomenų elementų seka, atskirtų kosa linija ( / ):\n Puslapio numeris (privalomas), po to puslapių skaičius (neprivalomas, reikalaujamas paskutiniame puslapyje), po to alfanumerinis grupės ID (neprivalomas; jei naudojamas, tada reikalaujamas visuose puslapiuose ir struktūrizuotas pagal ISO/IEC 15459-3 kaip trys duomenų elementų seka: Išdavimo Agentūros Kodas, po to Įmonės Identifikavimo Numeris, po to alfanumerinis kodas, unikalus leidėjo domene).\n Galutiniai kosiniai brūkšniai yra neprivalomi.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Aš turiu ______ vaikų ir jie yra . . . (naudojama su grąžinama pakuote) Šis Duomenų Identifikatorius turi būti iškart po lauko (sudaryto iš Duomenų Identifikatoriaus, duomenų ir grupės skirtuko), su kuriuo jis susijęs.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>'ŠAUKŠTO' ženklas. Eurokodas-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Šalies pavadinimas.\nŠalies pavadinimas, sekamas pliuso (+) simbolio, po to vienos ar daugiau kodo reikšmių iš EDIFACT Kodų Sąrašo 3035 'Šalies Kvalifikatorius', pvz.;\nBY [Pirkėjas];\nCF [Konteinerio operatorius];\nCN [Gavėjas];\nCS [Konsolidatorius];\nDEI [Laivo operatorius/kapitonas];\nFA [Operatyvinio personalo kodas];\nIM [Importuotojas];\nMF [Gamintojas];\nOS [Siuntėjas];\nSE [Pardavėjas];\nST [Siunčiama į];\nUC [Galutinis gavėjas].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Darbuotojo Identifikavimo Kodas, priskirtas darbdavio.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>JAV Socialinio Draudimo Numeris.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Ne darbuotojo ID numeris (viduje priskirtas arba bendrai apibrėžtas) (pvz., rangovų darbuotojai, tiekėjai, paslaugų ir pristatymo personalas).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Nacionalinis Socialinio Draudimo Numeris.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Pavardė.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Šalies pavadinimas (2 eilutė).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Kontaktinis Telefonas.\nŠalies Kodas, Rajono Kodas, Keitimas, numeris [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Kontaktinis El. Paštas.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Gavėjo Numeris.\nUnikalus identifikacinis numeris gali būti IRS, EIN, SSN, arba CBP priskirtas numeris, kaip reikalaujama Saugumo Pildyme. Turi būti naudojami tik šie formatai: IRS EIN: NN-NNNNNNN;\nIRS EIN su priesaga:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP priskirtas nr: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Asmens Identifikavimo Kodas (pirmoji raidė, paskutinė raidė, paskutiniai keturi SSN).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Vardas ir Vidurinis Inicialas.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Karinis Laipsnis (E1-E9, W1-W5, ir O1-O10).\n2020 Atnaujinimas: Metaduomenų formatas pakeistas, kad atitiktų kariuomenės naudojamus oficerių laipsnius: "an2+an3". Paaiškinimo informacija pakeista į: "Karinis Laipsnis (E1-E9, W1-W5, ir O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Nacionalinis Identifikavimo Numeris, Nacionalinis Asmens Kodas, arba Nacionalinis Draudimo Numeris, naudojamas asmens identifikavimui šalyje darbo, apmokestinimo, vyriausybės pašalpų, sveikatos priežiūros irkitų vyriausybinių funkcijų kontekste.\nŠio identifikatoriaus struktūra yra DI (15H) sekamas ISO 3166-1 Alfa2 Šalies Kodu, po to vyriausybės priskirtas asmens kodas.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Globaliai unikalus Asmens ID, priskirtas Įmonės Identifikavimo Kodo (CIN) laikytojo ir įtraukiant susijusį Išdavimo Agentūros Kodą (IAC) pagal ISO/IEC 15459 ir jo registrą, struktūrizuotas kaip 3 susietų duomenų elementų seka: IAC po to CIN, po to ID unikalus per laikytojo domeną.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Globaliai unikalus Asmens ID, su "Šalies Kvalifikatoriaus" kodo reikšme iš EDIFACT Kodų Sąrašo 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Išimtinis Priskyrimas - Transporto priemonės Identifikavimo Numeris (VIN), kaip apibrėžta JAV pagal 49 CFR, Skyrius 565 ir tarptautiškai pagal ISO 3779. (Šie yra visiškai suderinamos duomenų struktūros).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Santrumpinis VIN Kodas.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Globaliai unikalus transporto priemonės identifikatorius (pvz., sunkvežimiai), susidedantis iš Transporto priemonės Identifikavimo Numerio (VIN), kaip apibrėžta JAV pagal 49 CFR Skyrius 565, ir tarptautiškai pagal ISO 3779, sekamas '+' simboliu, tada vyriausybės išduoto Transporto priemonės Registracijos Valstybinio Numerio forma '4I' 'VIN' '+' 'vyriausybės išduotas Transporto priemonės Registracijos Valstybinis Numeris' (kabutės ir tarpai rodomi aiškumui, jie nėra dalis duomenų).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Unikalus gamybos transporto priemonės identifikatorius, naudojamas transporto priemonės gamybos procesuose, susidedantis iš Kėbulo Žymėjimo Numerio (BTN; arba bet kurio kito apibūdinimo, naudojamo identifikuoti žalią automobilio kėbulą, ar kitaip tariant, detalių rinkinį, naudojamą pradėti transporto priemonės gamybą), sekamas '+' simboliu, tada Gamybos Užsakymo Numeriu (PON), sekamas '+' simboliu, ir tada Gamintojo priskirtu Serijos Numeriu (SN). PASTABA - SN komponentas turėtų būti pakeistas VIN, kai tik VIN tampa prieinamas surinkimo procese.\nKonstrukcija bus tokia:\n"5I" "BTN" "+" "PON" "+" "SN"\nkeičiant į (kai VIN pasiekiamas)\n"5I" "BTN" "+" "PON" "+" "VIN"\nPASTABA - Kabutės ir tarpai rodomi aiškumui, jie nėra dalis duomenų.\nPASTABA - Šis DI niekada nėra sujungiamas su kitais DI tiesinėje simbolikoje ar kitose medijose, kur sujungimo simbolis yra pliuso (+) simbolis.\nPavyzdžiai:\nSN versija: 5IABCD1234+CO1234+W0L201600500001\nVIN versija: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>Ο χαρακτήρας 'PLUS'. Συμβούλιο Επικοινωνιών Επιχειρήσεων του Τομέα Υγείας (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Μοναδικός αριθμός πινακίδας κυκλοφορίας.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Μοναδικός αριθμός πινακίδας κυκλοφορίας που αποδίδεται σε μονάδα μεταφοράς η οποία αποτελεί το χαμηλότερο επίπεδο συσκευασίας, την αδιαίρετη μονάδα.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Μοναδικός αριθμός πινακίδας κυκλοφορίας που αποδίδεται σε μονάδα μεταφοράς η οποία περιέχει πολλαπλές συσκευασίες.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Μοναδικός αριθμός πινακίδας κυκλοφορίας που αποδίδεται σε μονάδα μεταφοράς η οποία αποτελεί το χαμηλότερο επίπεδο συσκευασίας, την αδιαίρετη μονάδα και η οποία έχει συνδεδεμένα δεδομένα EDI με τη μονάδα.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Μοναδικός αριθμός πινακίδας κυκλοφορίας που αποδίδεται σε μονάδα μεταφοράς η οποία περιέχει πολλαπλές συσκευασίες και η οποία συνδέεται με δεδομένα EDI.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Μοναδικός αριθμός πινακίδας κυκλοφορίας που αποδίδεται σε μεικτή μονάδα μεταφοράς που περιέχει διαφορετικά αντικείμενα σε μία συναλλαγή πελάτη και μπορεί ή μπορεί να μην έχει συνδεδεμένα δεδομένα EDI.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Μοναδικός αριθμός πινακίδας κυκλοφορίας που αποδίδεται σε κύρια μονάδα μεταφοράς που περιέχει παρόμοια αντικείμενα σε μία συναλλαγή πελάτη και μπορεί ή μπορεί να μην έχει συνδεδεμένα δεδομένα EDI.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Αριθμός Άδειας Κυκλοφορίας Οχήματος (δεν είναι μοναδικός χωρίς την αναγνώριση της χώρας και της εκδίδουσας κυβερνητικής περιοχής/αρχής)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Ταυτότητα Κινητής Θαλάσσιας Υπηρεσίας (MMSI).\nΈνας εννεαψήφιος αριθμός που ρυθμίζεται από τη Διεθνή Ένωση Τηλεπικοινωνιών για τη μοναδική ταυτοποίηση ενός πλοίου ή μιας παράκτιας ραδιοφωνικής σταθμού. Παράδειγμα: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Αριθμός Παραγγελίας που ανατέθηκε από τον Πελάτη για την ταυτοποίηση μιας Συναλλαγής Αγοράς (π.χ., αριθμός εντολής αγοράς).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Αριθμός Παραγγελίας που ανατέθηκε από τον Προμηθευτή για την ταυτοποίηση μιας Συναλλαγής Αγοράς.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Κωδικός Αναγνώρισης Φορτίου/Δελτίου Φορτίου/Κωδικός Ταυτοποίησης Αποστολής που ανατέθηκε από τον Προμηθευτή/Αποστολέα.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Κωδικός Αναγνώρισης Φορτίου/Δελτίου Φορτίου/Κωδικός Ταυτοποίησης Αποστολής που ανατέθηκε από τον Μεταφορέα.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>Αριθμός Γραμμής της παραγγελίας που ανατέθηκε από τον Πελάτη για την ταυτοποίηση μιας Συναλλαγής Αγοράς.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>Αριθμός Αναφοράς που ανατέθηκε από τον Πελάτη για την ταυτοποίηση μιας Εξουσιοδότησης Αποστολής (Απελευθέρωση) ενάντια σε μια ισχύουσα Παραγγελία Αγοράς.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>PRO# Ανατεθειμένο από τον Μεταφορέα.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Τρόπος Μεταφοράς σε Ελεύθερο Κείμενο διαμορφωμένο αμοιβαία μεταξύ Πελάτη και Προμηθευτή (π.χ., Αέρας, Φορτηγό, Βάρκα, Τρένο).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Αριθμός Σύμβασης.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Γενικός Κωδικός Αναφοράς Συναλλαγής (εσωτερικά ανατεθειμένος ή αμοιβαία καθορισμένος).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Αριθμός Τιμολογίου.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Αριθμός Λίστας Συσκευασίας.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Κωδικός Αλφαβητικής Αναγνώρισης Κανονικού Μεταφορέα) (an4 - συμπληρωμένο αριστερά με παύλα '-') και αριθμός PRO που ανατέθηκε από τον μεταφορέα.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Αριθμός Δελτίου Φορτίου /Αριθμός Αποδεικτικού Μεταφοράς SCAC + Αριθμός B/L φορτίου κοντέινερ ή αριθμός δελτίου φορτίου.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Συνδυασμένος Αριθμός Παραγγελίας και Αριθμός Γραμμής στη μορφή nn...nn+nn...n όπου το σύμβολο πλης (+) χρησιμοποιείται ως διαχωριστικό μεταξύ του Αριθμού Παραγγελίας και του Αριθμού Γραμμής.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>Αριθμός KANBAN.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>Αριθμός DELINS: κωδικός που αποδίδεται για την ταυτοποίηση ενός εγγράφου που περιέχει πληροφορίες παράδοσης.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Αριθμός Ελέγχου.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Δομημένη Αναφορά.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Αριθμός Υπόθεσης Ξένων Στρατιωτικών Πωλήσεων.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Αναγνωριστικό Άδειας, ως παγκοσμίως μοναδικός αναγνωριστικός για μια άδεια ή σύμβαση κάτω από την οποία παράγονται αντικείμενα, υποβάλλονται για επεξεργασία και/ή πληρώνονται, που δημιουργείται από τη σύνθεση:\n - ενός κωδικού εκδότη ISO/IEC 15459;\n - ενός αριθμού άδειας ή σύμβασης που συμμορφώνεται με τις προδιαγραφές του εκδότη που αφορά;\n και που:\n - περιλαμβάνει μόνο κεφαλαία αλφαβητικά και/ή αριθμητικά χαρακτήρες;\n - είναι μοναδικό (δηλαδή, διαφέρει από οποιοδήποτε άλλο αναγνωριστικό συμμορφωμένο με το ISO/IEC 15459) εντός του τομέα του εκδότη;\n - δεν μπορεί να προκύψει από οποιοδήποτε άλλο αναγνωριστικό συμμορφωμένο με το ISO/IEC 15459, εκδοθέν κάτω από τον ίδιο εκδότη, με την απλή προσθήκη χαρακτήρων στο τέλος του, ή την αφαίρεσή τους από αυτό.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Δεδομένα Πελάτη, ως δεδομένα που:\n - από την προοπτική του πελάτη, σχετίζονται με ένα αντικείμενο ή συναλλαγή, ή με ένα σύνολο ή σχετικά αντικείμενα ή συναλλαγές, και\n - περιλαμβάνουν έως 35 εκτυπώσιμους χαρακτήρες και/ή κενά, εκτός από το σύμβολο πλης (+), προερχόμενα από το σύνολο χαρακτήρων που ορίζεται στο ISO/IEC 646.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>Πληροφορίες Επικύρωσης Συναλλαγής '22K', ως τιμή, που δημιουργείται από τη σύνθεση:\n - ενός κωδικού εκδότη ISO/IEC 15459;\n - μιας τιμής που συμμορφώνεται με τις προδιαγραφές του εκδότη που αφορά,\n που επιτρέπει την επαλήθευση της αυθεντικότητας της συγκεκριμένης συναλλαγής και, ειδικότερα, ότι η συναλλαγή προήλθε από το μέρος, που ισχυρίζεται μέσα στη συναλλαγή ότι ήταν ο πρωτοβουλητής της, από:\n - τον παραλήπτη μιας συναλλαγής, και/ή\n - ένα ή περισσότερα από τα μέρη που εμπλέκονται στην χειρισμό ή επεξεργασία της, και/ή\n - μια αξιόπιστη τρίτη πλευρά.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Παγκόσμια Μοναδική Ταυτοποίηση Ομάδων Μονάδων Μεταφοράς Ανατεθειμένη από τον Μεταφορέα, ορίζεται ως:\nΤαυτοποίηση Μέρους σε μια Συναλλαγή όπως ορίζεται από τον κάτοχο ενός Αριθμού Αναγνώρισης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Οργανισμού (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τον Αριθμό Δελτίου Φορτίου ή Αριθμό Δελτίου Φορτίου ή Κωδικό Ταυτοποίησης Αποστολής που είναι μοναδικός εντός του τομέα του κατόχου CIN.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Παγκόσμια Μοναδική Ταυτοποίηση Ομάδων Μονάδων Μεταφοράς Ανατεθειμένη από τον Αποστολέα, ορίζεται ως:\nΤαυτοποίηση Μέρους σε μια Συναλλαγή που ανατίθεται από τον κάτοχο ενός Αριθμού Αναγνώρισης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Οργανισμού (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τον Αριθμό Δελτίου Φορτίου ή Αριθμό Δελτίου Φορτίου ή Κωδικό Ταυτοποίησης Αποστολής που είναι μοναδικός εντός του τομέα του κατόχου CIN.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>Αριθμός Προσφοράς που Ανατέθηκε από τον Προμηθευτή - Αριθμός που ανατίθεται σε μια προσφορά από τον προμηθευτή ως απάντηση σε ένα αίτημα για προσφορά από τον πελάτη.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Τοποθεσία Αποθήκευσης.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Τοποθεσία.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>Κωδικός Τοποθεσίας 'Προς Αποστολή' που ορίζεται από ένα βιομηχανικό πρότυπο ή αμοιβαία καθορισμένο.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>Κωδικός Τοποθεσίας 'Από Αποστολή' που ορίζεται από ένα βιομηχανικό πρότυπο ή αμοιβαία καθορισμένο.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Χώρα Προέλευσης, διψήφιος κωδικός χώρας ISO 3166. Με τη συμφωνία των εμπορικών εταίρων και όταν η Χώρα Προέλευσης είναι μικτή, θα χρησιμοποιείται ο Κωδικός Χώρας 'AA'.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>Κωδικός Τοποθεσίας 'Για Αποστολή' που ορίζεται από ένα βιομηχανικό πρότυπο ή αμοιβαία καθορισμένο.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>Κωδικός Διαδρομής που ανατίθεται από τον προμηθευτή για να υποδείξει μια συγκεκριμένη διαδρομή μεταφοράς.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>6-ψήφιος Κωδικός Δραστηριότητας του Τμήματος Άμυνας (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Λιμάνι Εκκίνησης - Αμοιβαία Καθορισμένο.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Λιμάνι Αποβίβασης - Αμοιβαία Καθορισμένο.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Τοποθεσία (Γεωγραφικό Πλάτος/Μήκος/Υψόμετρο) κωδικοποιημένη στη μορφή xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>Τοποθεσία 'Προς Αποστολή' (Γεωγραφικό Πλάτος/Μήκος/Υψόμετρο) κωδικοποιημένη στη μορφή xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>Τοποθεσία 'Από Αποστολή' (Γεωγραφικό Πλάτος/Μήκος/Υψόμετρο) κωδικοποιημένη στη μορφή xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>Τοποθεσία 'Για Αποστολή': (Γεωγραφικό Πλάτος/Μήκος/Υψόμετρο) κωδικοποιημένη στη μορφή xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Τοποθεσία Ενεργοποίησης Ετικέτας.\nΌνομα τοποθεσίας στα Αγγλικά (σύνολο χαρακτήρων: 0-9, A-Z &lt;Κενό&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Τοποθεσία Απενεργοποίησης Ετικέτας.\nΌνομα τοποθεσίας στα Αγγλικά (σύνολο χαρακτήρων: 0-9, A-Z &lt;Κενό&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>Κωδικός περιοχής αλιείας FAO όπως ορίζεται από το Τμήμα Αλιείας και Υδατοκαλλιέργειας του FAO (http://www.fao.org. Αναζήτηση για την υπο-ιστοσελίδα Κωδικός Περιοχής Αλιείας).\nΕπιτρέπονται όλοι οι χαρακτήρες του υποσυνόλου ISO/IEC 646 που ορίζεται από την GS1 General Specification.\nΠαραδείγματα:\n18L37.1.3 Δυτική Μεσόγειος Θάλασσα, Σαρδηνία;\n18L47.B.1 Ατλαντικός, Νοτιοανατολικό, Διαίρεση SEAFO, Οικονομική Ζώνη Ναμίμπιας;\n18L67 Ειρηνικός, Βορειοανατολικό.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Πρώτο Επίπεδο (εσωτερικά ανατεθειμένο).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Δεύτερο Επίπεδο (εσωτερικά ανατεθειμένο).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Τρίτο Επίπεδο (εσωτερικά ανατεθειμένο).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Τέταρτο Επίπεδο (εσωτερικά ανατεθειμένο).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Πέμπτο Επίπεδο (εσωτερικά ανατεθειμένο).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Ταυτοποίηση Μέρους σε μια Συναλλαγή, π.χ., 25L IAC CIN LOC που ανατίθεται από τον κάτοχο ενός Αριθμού Αναγνώρισης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Οργανισμού (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τη φυσική εσωτερική τοποθεσία (LOC) που είναι μοναδική εντός του τομέα του κατόχου CIN.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>Κωδικός '26L' Τοποθεσίας, ως κωδικός που ταυτοποιεί μια τοποθεσία ή γεωγραφική περιοχή, ή μια συνδεδεμένη ομάδα τέτοιων τοποθεσιών ή περιοχών, που έχει σημασία για μια σχετική συναλλαγή και που συμμορφώνεται με μία από τις δομές που ορίζονται στα (α) έως (φ) παρακάτω:\na) δύο κεφαλαία αλφαβητικά χαρακτήρα αντιστοιχούν στον κωδικό ISO 3166-1 δύο αλφάβητων της χώρας στην οποία, ή αποτελούμενη από αυτήν, βρίσκονται οι τοποθεσίες ή περιοχές·\nb) τρεις κεφαλαίοι αλφαβητικοί χαρακτήρες αντιστοιχούν στον κωδικό IATA του αεροδρομίου ή της πόλης που βρίσκεται, είναι κοντά, ή αποτελείται από αυτήν, τις τοποθεσίες ή περιοχές·\nc) τέσσερις ή περισσότεροι χαρακτήρες που οι πρώτοι τρεις αντιστοιχούν σε έναν κωδικό χώρας ISO 3166-1 ακολουθούμενο από μια παύλα (-), με το υπόλοιπο να είναι ένας ταχυδρομικός κωδικός στη συγκεκριμένη χώρα·\nd) τέσσερις ή περισσότεροι χαρακτήρες που οι πρώτοι τρεις αντιστοιχούν σε έναν κωδικό χώρας ISO 3166-1 ακολουθούμενο από ένα σημείο (.), με το υπόλοιπο να είναι ένας κωδικός υποδιαίρεσης χώρας ISO 3166-2 στη συγκεκριμένη χώρα·\ne) πέντε κεφαλαίοι αλφαβητικοί χαρακτήρες αντιστοιχούν στον κωδικό UN/LOCODE της περιοχής που βρίσκεται, είναι κοντά, ή αποτελείται από αυτήν, τις τοποθεσίες ή περιοχές·\nf) η σύνθεση, που δεν είναι λιγότερο από επτά ή περισσότερο από 35 χαρακτήρες σε μήκος, από:\n- έναν κωδικό εκδότη ISO/IEC 15459·\n- έναν κωδικό τοποθεσίας, που αποτελείται από χαρακτήρες προερχόμενους από το σύνολο {A-Z; 0-9} που συμμορφώνεται με τις προδιαγραφές του εκδότη που αφορά.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Τοποθεσία Εκδήλωσης UN/LOCODE.\nUN/LOCODE ακολουθούμενο από ένα σύμβολο πλης (+) ακολουθούμενο από μία ή περισσότερες τιμές κωδικού από τη Λίστα Κωδικών EDIFACT 3227 'Κωδικός προσδιοριστή λειτουργίας τοποθεσίας', π.χ.,\n7 Τόπος Τελικής Παράδοσης·\n5 Λιμάνι Αναχώρησης·\n9 Λιμάνι Φόρτωσης·\n11 Λιμάνι Εκφόρτωσης·\n13 Τόπος Διαμετακόμισης·\n24 Λιμάνι Εισόδου·\n35 Χώρα Εξαγωγής·\n88 Τόπος Παραλαβής από τον Μεταφορέα·\n125 Ξένο Λιμάνι πριν την Αναχώρηση προς τις ΗΠΑ·\n147 Θέση Στοιβαγίας·\n159 Τόπος παράδοσης (στον παραλήπτη)·\n248 Τοποθεσία Φόρτωσης\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Αριθμός και Διεύθυνση Οδού.\nΧρησιμοποιείται σε συνδυασμό με H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Όνομα Πόλης.\nΧρησιμοποιείται σε συνδυασμό με H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Λεπτομέρειες Υπο-οντότητας Χώρας.\nΧρησιμοποιείται σε συνδυασμό με H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Ταχυδρομικός Κωδικός.\nΧρησιμοποιείται σε συνδυασμό με H, 6H, 28L, 29L, 30L, 31L, 32L (Εάν χρησιμοποιείται παύλα '-', πρέπει να κωδικοποιηθεί ρητά).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Κωδικός Χώρας.\nΚωδικός ISO 3166-1 Alpha 2\nΧρησιμοποιείται σε συνδυασμό με H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Ενιαίος Πόρος Δικτύου (URL).\nΠεριλαμβάνει όλους τους χαρακτήρες που αποτελούν ένα URL, συμπεριλαμβανομένων δεδομένων κεφαλίδας όπως π.χ., http://. Σύνολο χαρακτήρων όπως αναφέρεται στο RFC 1738.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Δείκτης σε Διαδικασία URL (P2P URL) για την προώθηση ενός URL που φέρει όλα τα άλλα στοιχεία δεδομένων που κωδικοποιούνται σε ένα μέσο AIDC σύμφωνα με τον ακόλουθο κανόνα: Σαρώστε τον κωδικό και εκκινήστε το URL ξεκινώντας με τη συμβολοσειρά P2P URL, παραλείποντας το DI 34L και τη σύνταξη περιβλήματος ISO/IEC 15434 (πρόθεμα και επίθημα) και προσαρτήστε όλα τα άλλα στοιχεία δεδομένων που έχουν σαρωθεί στην ίδια σειρά όπως κωδικοποιούνται στο μέσο, συμπεριλαμβανομένων των DIs και των διαχωριστών στοιχείων δεδομένων. Μετατρέψτε ειδικούς χαρακτήρες στα προσαρτημένα δεδομένα σε μορφή RFC 1738 (π.χ., Διαχωριστής Ομάδας 'GS' μεταφράζεται σε ακολουθία RFC 1738 %1D). Σημειώστε ότι αυτό δεν ισχύει για το ίδιο το P2P URL.\nΠαράδειγμα: Κωδικοποιημένη συμβολοσειρά δεδομένων (χρησιμοποιώντας το ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nέχει ως αποτέλεσμα το ακόλουθο URL με τα μεταδιδόμενα δεδομένα:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nΣημείωση: δεδομένα από το περίβλημα μορφής '05' δεν ενσωματώθηκαν στο URL επειδή το 34L κωδικοποιήθηκε στο περίβλημα μορφής '06'.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Αριθμός Έγκρισης που Ανατέθηκε από την Κυβέρνηση για πλοίο / εγκατάσταση υδατοκαλλιέργειας / φάρμα / επεξεργαστής, ξεκινώντας με έναν κωδικό χώρας ISO 31661 alpha-2, ακολουθούμενο από τον αριθμό έγκρισης.\nΕπιτρέπονται όλοι οι χαρακτήρες του υποσυνόλου ISO/IEC 646 που ορίζεται από την GS1 General Specification.\nΠαράδειγμα:\n35LIECK0107EC = Χώρα· Ιρλανδία. Όνομα Πλοίου· FV Endurance DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Αριθμός Έγκρισης που Ανατέθηκε από τον Παραγωγό ή Φάρμα ή Πρώτη Αίθουσα Κατάτμησης / Κοπής, ξεκινώντας με έναν κωδικό χώρας ISO 3166-1 alpha-2, ακολουθούμενο από τον αριθμό έγκρισης.\nΕπιτρέπονται όλοι οι χαρακτήρες του υποσυνόλου ISO/IEC 646 που ορίζεται από την GS1 General Specification.\nΠαράδειγμα:\n36LIECK0107EC = Χώρα· Ιρλανδία. Όνομα Πλοίου· FV Endurance DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>Κωδικός Τοποθεσίας 'Από Αποστολή' - Ορίζεται από μια ταχυδρομική αρχή (π.χ., 5-ψήφιοι και 9-ψήφιοι ταχυδρομικοί κωδικοί που ταυτοποιούν τοποθεσίες ΗΠΑ ή 6-ψήφιοι ταχυδρομικοί κωδικοί που ταυτοποιούν τοποθεσίες Καναδά).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>Κωδικός Τοποθεσίας 'Προς Αποστολή' - Ορίζεται από μια ταχυδρομική αρχή (π.χ., 5-ψήφιοι και 9-ψήφιοι ταχυδρομικοί κωδικοί που ταυτοποιούν τοποθεσίες ΗΠΑ ή 6-ψήφιοι ταχυδρομικοί κωδικοί που ταυτοποιούν τοποθεσίες Καναδά).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>Κωδικός Τοποθεσίας 'Από Αποστολή' - Ορίζεται από μια ταχυδρομική αρχή στη μορφή: ταχυδρομικοί κωδικοί (π.χ., 5-ψήφιοι ταχυδρομικοί κωδικοί που ταυτοποιούν τοποθεσίες ΗΠΑ ή 6- ή 7-ψήφιοι ταχυδρομικοί κωδικοί που ταυτοποιούν τοποθεσίες Ηνωμένου Βασιλείου) ακολουθούμενοι από διψήφιο κωδικό χώρας ISO 3166 (π.χ., US ή GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>Κωδικός Τοποθεσίας 'Προς Αποστολή' - Ορίζεται από μια ταχυδρομική αρχή στη μορφή: ταχυδρομικοί κωδικοί (π.χ., 5-ψήφιοι ταχυδρομικοί κωδικοί που ταυτοποιούν τοποθεσίες ΗΠΑ ή 6- ή 7-ψήφιοι ταχυδρομικοί κωδικοί που ταυτοποιούν τοποθεσίες Ηνωμένου Βασιλείου) ακολουθούμενοι από διψήφιο κωδικό χώρας ISO 3166 (π.χ., US ή GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Δεδομένα Φόρμας Στρατού 2410. Η μορφή είναι η τιμή δεδομένων που προηγείται από τον αριθμό μπλοκ της φόρμας 2410. Τα μήκη πεδίων και οι αποδεκτοί χαρακτήρες μπορούν να βρεθούν στο·\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nΕνημέρωση 2020: Η διεύθυνση URL έχει τροποποιηθεί σε:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Δεδομένα Φόρμας Στρατού 2408. Η μορφή είναι η τιμή δεδομένων που προηγείται από τον αριθμό μπλοκ της φόρμας 2408. Τα μήκη πεδίων και οι αποδεκτοί χαρακτήρες μπορούν να βρεθούν στο·\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nΕνημέρωση 2020: Η διεύθυνση URL έχει τροποποιηθεί σε:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Δεδομένα Φόρμας Στρατού 2407. Η μορφή είναι η τιμή δεδομένων που προηγείται από τον αριθμό μπλοκ της φόρμας 2407. Τα μήκη πεδίων και οι αποδεκτοί χαρακτήρες μπορούν να βρεθούν στο·\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nΕνημέρωση 2020: Η διεύθυνση URL έχει τροποποιηθεί σε:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Δεδομένα Φόρμας Πολεμικής Αεροπορίας 95. Η μορφή είναι η τιμή δεδομένων που προηγείται από τον αριθμό μπλοκ της φόρμας 95. Τα μήκη πεδίων και οι αποδεκτοί χαρακτήρες μπορούν να βρεθούν στο·\nhttp://www.gsa.gov/portal/forms/download/116418.\nΕνημέρωση 2020: Το Όνομα της Φόρμας είναι "Φόρμα Τεχνικής Εντολής Πολεμικής Αεροπορίας 95 (AFTO Form 95)." Λεπτομέρειες σχετικά με τη Φόρμα προέρχονται από την Τεχνική Εντολή Πολεμικής Αεροπορίας (TO) 00-20-1. Η διεύθυνση URL για αυτήν την TO έχει τροποποιηθεί σε:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Δεδομένα Φόρμας Ναυτικού 4790. Η μορφή είναι η τιμή δεδομένων που προηγείται από τον αριθμό μπλοκ της φόρμας 2410. Τα μήκη πεδίων και οι αποδεκτοί χαρακτήρες μπορούν να βρεθούν στο·\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%201 5.pdf.\nΕνημέρωση 2020: Η διεύθυνση URL δεν είναι πλέον έγκυρη.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Εθνικός/ΝΑΤΟ Αριθμός Αποθέματος (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>Δεδομένα Χαρακτηριστικών Προϊόντος που ορίζονται από την Ανταλλαγή Δεδομένων Χημικής Βιομηχανίας (CIDX).</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Δομή Κωδικοποίησης σύμφωνα με τη Μορφή που Ορίζεται από την Ηλεκτρονική Ένωση Βιομηχανιών της Ιαπωνίας (EIAJ).</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>Δομή Κωδικοποίησης και Μορφές σύμφωνα με τους Αναγνωριστικούς Εφαρμογών GS1 (AI plus data) (GS1).</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Δομή Κωδικοποίησης και Μορφές σύμφωνα με τις Συστάσεις του AIAG. Ο πλήρης Αναγνωριστικός Δεδομένων βρίσκεται στη μορφή 5Nxx όπου το 'xx' βρίσκεται στον πλήρη κατάλογο κωδικών που μπορεί να βρεθεί στο https://www.aiag.org/</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>Κωδικοί Διαδικασίας Αίτησης και Έκδοσης του Αμερικανικού Υπουργείου Άμυνας ΗΠΑ. Η μορφή είναι ο κατάλληλος κωδικός MILSTRIP ακολουθούμενος από την τιμή δεδομένων που σχετίζεται με αυτόν τον κωδικό. (Ο πλήρης κατάλογος κωδικών είναι διαθέσιμος στο·\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\nΕνημέρωση 2020: Η διεύθυνση URL έχει τροποποιηθεί σε:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/)</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>Κωδικοί Κανονισμού Μεταφοράς Άμυνας ΗΠΑ. Η μορφή είναι ο κωδικός DTR ακολουθούμενος από την κατάλληλη τιμή δεδομένων που σχετίζεται με αυτόν τον κωδικό. (Ο πλήρης κατάλογος κωδικών είναι διαθέσιμος στο·\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\nΕνημέρωση 2020: Η διεύθυνση URL έχει τροποποιηθεί σε:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Κωδικοί Ταυτοποίησης Ζωικής Παραγωγής. Η μορφή είναι ο κωδικός ζωικής παραγωγής ακολουθούμενος από την κατάλληλη τιμή δεδομένων που σχετίζεται με αυτόν τον κωδικό. Η Τεχνική Έκθεση και ο πλήρης κατάλογος Εκτεταμένων Στοιχείων Δεδομένων (κωδικοί) διατηρούνται στο·\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Εκτεταμένα Στοιχεία Δεδομένων (Κωδικοί).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Τεχνική Έκθεση.\nΕνημέρωση 2020: Οι διευθύνσεις URL έχουν τροποποιηθεί σε:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Αριθμός Φαρμακευτικού Προϊόντος που διατηρείται από το IFA (www.ifaffm.de) με τα εξής στοιχεία· Αναγνωριστικό Δεδομένων (DI), διψήφιος κωδικός υπηρεσίας εγγραφής προϊόντος (PRAC), η αναφορά προϊόντος (PR), και τα δύο ψηφία ελέγχου PPN (CC), στη μορφή DI PRAC PR CC.\nΣΗΜΕΙΩΣΗ - προστίθεται κενό ως διαχωριστικό για οπτική σαφήνεια και δεν αποτελεί μέρος των δεδομένων.\nΠαραδείγματα:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Δεδομένα στη μορφή και χρησιμοποιώντας τη σημασιολογία που ορίζεται από τον κάτοχο ενός Αριθμού Αναγνώρισης Εταιρείας (CIN) που έχει εκδοθεί από έναν Κωδικό Εκδότη Οργανισμού (IAC) σύμφωνα με το ISO/IEC 15459, ορίζεται ως μια ακολουθία συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τον χαρακτήρα διαχωριστή ':' (άνω και κάτω τελεία) ακολουθούμενο από τα δεδομένα στη μορφή και χρησιμοποιώντας τη σημασιολογία όπως ορίζεται από τον κάτοχο CIN.\nΣΗΜΕΙΩΣΗ: Μόνο οι κανόνες σύνταξης δεδομένων (εάν υπάρχουν) όπως παρέχονται από τον δηλωμένο IAC+CIN εντός κάθε ροής δεδομένων DI '10N' θα πρέπει να εφαρμόζονται στα δεδομένα που ακολουθούν το DI 10N+IAC+CIN.\nΣΗΜΕΙΩΣΗ: Λόγω λάθους στην ανάθεση του DI '10N' (δεν υπάρχει κεντρική αρχή για τον ορισμό ή τη συντήρηση δεδομένων), δεν θα πρέπει να υλοποιούνται νέες χρήσεις του DI '10N'.\nΗ λειτουργία του DI '10N' ορίζεται στην Κατηγορία 18, ΔΙΑΦΟΡΑ με DI '5R'. Συνιστάται ανεπιφύλακτα οι υφιστάμενες εφαρμογές που χρησιμοποιούν το DI '10N' να μεταφερθούν στο DI 5R'.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Η δομή δεδομένων ορίζεται και ελέγχεται από την RLA, και αποτελείται από 2 τμήματα: τον κωδικό προσδιοριστή πεδίου, ακολουθούμενο απευθείας από τα δεδομένα όπως ορίζονται για αυτό το στοιχείο σύμφωνα με το λεξικό δεδομένων της RLA. Είναι ουσιαστικά ένας κατάλογος πεδίων με τυποποιημένο περιεχόμενο. Οι Κωδικοί Προσδιοριστών δημοσιεύονται στο http://rla.org/11ncodes. Η χρήση και η δομή αυτών των κωδικών ορίζονται στο: http://rla.org/11nformat Πρόσθετα παραδείγματα μπορούν να βρεθούν σε αυτόν τον ιστότοπο. DI '11N' δεν πρέπει ποτέ να κωδικοποιείται σε έναν 2D ή RFID ετικέτα μαζί με οποιαδήποτε άλλα στοιχεία DI.\nΣΗΜΕΙΩΣΗ: Λόγω λάθους στην ανάθεση του DI '11N' (η δήλωση που αναφέρει: 'DI '11N' δεν πρέπει ποτέ να κωδικοποιείται σε έναν 2D ή RFID ετικέτα μαζί με οποιαδήποτε άλλα στοιχεία DI.' δεν είναι έγκυρη δήλωση), δεν θα πρέπει να υλοποιούνται νέες χρήσεις του DI '11N'. Η λειτουργία του DI '11N' ορίζεται στο DI '12N'. Συνιστάται ανεπιφύλακτα οι υφιστάμενες εφαρμογές που χρησιμοποιούν το DI '11N' να μεταφερθούν στο DI '12N'.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Η δομή δεδομένων ορίζεται και ελέγχεται από την RLA, αποτελείται από 2 τμήματα: τον κωδικό προσδιοριστή (FI) πεδίου, ακολουθούμενο απευθείας από τα δεδομένα όπως ορίζονται για αυτό το στοιχείο σύμφωνα με το λεξικό δεδομένων της RLA. Είναι ουσιαστικά ένας κατάλογος πεδίων με τυποποιημένο περιεχόμενο. Οι Κωδικοί Προσδιοριστών δημοσιεύονται στο http://rla.org/12ncodes Η χρήση και η δομή αυτών των κωδικών ορίζονται στο: http://rla.org/12nformat. Παραδείγματα μπορούν να βρεθούν σε αυτόν τον ιστότοπο.\nΕνημέρωση 2020: Η διεύθυνση URL έχει αλλάξει σε:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Αντιπροσώπευση Κωδικών Ταυτοποίησης Βιομηχανικού Διαδικτύου που ελέγχονται και συντηρούνται από το CAICT, χρησιμοποιούνται στο Σύστημα Επίλυσης Ταυτοποίησης Βιομηχανικού Διαδικτύου της Κίνας και δομούνται ως &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, στη μορφή an3+a3+n3+n3+n8+an1...33, όπου an3 είναι το Αναγνωριστικό Δεδομένων (DI), a3 είναι ο Κωδικός Εκδότη Οργανισμού (IAC = "VAA"), n3 είναι ο Κωδικός Ανώτερου Επιπέδου (TTC), n3 είναι ο Δευτεροβάθμιος Κωδικός (STC), n8 είναι ο Αριθμός Αναγνώρισης Εταιρείας (CIN) που ελέγχεται και ανατίθεται από τη δευτεροβάθμια πλατφόρμα και an1...33 είναι ο Σειριακός Αριθμός (SN) που ελέγχεται και ανατίθεται από τον κάτοχο του CIN, και είναι μοναδικός εντός του τομέα του κατόχου CIN, χρησιμοποιώντας τους χαρακτήρες 0 έως 9, κεφαλαία και πεζά A έως Z, * (αστερίσκο), + (σύμβολο πλης), - (παύλα), . (τελεία ή στίξη), / (κάθετος), ( (αριστερή παρένθεση), ) (δεξιά παρένθεση), ! (θαυμαστικό).\nΠαραδείγματα:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Αριθμός Ταυτοποίησης Αντικειμένου που Ανατέθηκε από τον Πελάτη.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Αριθμός Ταυτοποίησης Αντικειμένου που Ανατέθηκε από τον Προμηθευτή.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Κωδικός που Ανατέθηκε για να Καθορίσει το Επίπεδο Αναθεώρησης για ένα Αντικείμενο (π.χ., επίπεδο αλλαγής μηχανικής, έκδοση, ή αναθεώρηση).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Συνδυασμένος Κωδικός Ταυτοποίησης Κατασκευαστή/Κωδικός Αντικειμένου Κάτω από τις Μορφές GS1 12/13-ψηφίων, συν τους πρόσθετους κωδικούς, εάν υπάρχουν.\nΕνημέρωση 2020: Η GS1 συνιστά αυτός ο DI να μη χρησιμοποιείται πλέον και ότι οι χρήστες αυτού του DI να μεταφέρονται στους προσδιοριστές δεδομένων GS1 (Αναγνωριστικά Εφαρμογών) σύμφωνα με το ISO/IEC 15418 και ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Μέρος Κωδικού Αντικειμένου των Μορφών GS1.\nΕνημέρωση 2020: Η GS1 συνιστά αυτός ο DI να μη χρησιμοποιείται πλέον και ότι οι χρήστες αυτού του DI να μεταφέρονται στους προσδιοριστές δεδομένων GS1 (Αναγνωριστικά Εφαρμογών) σύμφωνα με το ISO/IEC 15418 και ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Αριθμός Ταυτοποίησης Αντικειμένου Φορτηγού Μεταφοράς που Ανατέθηκε από τον Μεταφορέα για Σκοπούς Κατάταξης Επικίνδυνων Υλών (π.χ., Κατάταξη Φορτηγού, Αεροπορίας, Βάρκας, Σιδηροδρόμου).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Συνδυασμένος Κωδικός Ταυτοποίησης Προμηθευτή και Κωδικός Αντικειμένου (εσωτερικά ανατεθειμένος ή αμοιβαία καθορισμένος).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Κοινή Γλώσσα Ταυτοποίησης Εξοπλισμού (CLEI) που ανατίθεται από τον κατασκευαστή σε ορισμένον τηλεπικοινωνιακό εξοπλισμό.</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>Μορφή 14-ψήφιου GS1 για τη δομή κωδικού GTIN-14.\nΕνημέρωση 2020: Η GS1 συνιστά αυτός ο DI να μη χρησιμοποιείται πλέον και ότι οι χρήστες αυτού του DI να μεταφέρονται στους προσδιοριστές δεδομένων GS1 (Αναγνωριστικά Εφαρμογών) σύμφωνα με το ISO/IEC 15418 και ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Συνδυασμένος Κωδικός Ταυτοποίησης Κατασκευαστή (9-ψήφιος αριθμός DUNS που ανατίθεται από την Dun &amp; Bradstreet) και ο Κωδικός Αντικειμένου/Αριθμός Μέρους (που ανατίθεται από τον κατασκευαστή).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Κωδικός Επικίνδυνης Υλης όπως ορίζεται από το ANSI X12.3 στη μορφή Στοιχείο Δεδομένων 208 (1-ψήφιος κωδικός προσδιοριστής) ακολουθούμενο από το Στοιχείο Δεδομένων 209 (Κωδικός Επικίνδυνης Υλης).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10-ψήφιος Κωδικός CLEI για τηλεπικοινωνιακό εξοπλισμό.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Τύπος Εγγράφου (π.χ., Λίστα Παραλαβής, Σχεδιαγράμματα Σχεδίασης, κλπ.) (εσωτερικά ανατεθειμένο ή αμοιβαία καθορισμένο).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>Κωδικός Συστήματος VMRS.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>Κωδικός Συστήματος και Συναρμολόγησης VMRS.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>Κωδικός Συστήματος, Συναρμολόγησης, &amp; Μέρους VMRS.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>Κωδικός Συστήματος, Συναρμολόγησης, ή Μέρους VMRS. (Τροποποιημένο από Χρήστη).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>Συνδυασμένος Κωδικός Ταυτοποίησης Προμηθευτή GS1 και Κωδικός Αντικειμένου που Ανατέθηκε από τον Προμηθευτή.\nΕνημέρωση 2020: Η GS1 συνιστά αυτός ο DI να μη χρησιμοποιείται πλέον και ότι οι χρήστες αυτού του DI να μεταφέρονται στους προσδιοριστές δεδομένων GS1 (Αναγνωριστικά Εφαρμογών) σύμφωνα με το ISO/IEC 15418 και ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>Συνδυασμένος Κωδικός Προμηθευτή VMRS και Αριθμός Μέρους που Ανατέθηκε από τον Προμηθευτή.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Συστατικό ενός Αντικειμένου. (Ένα προϊόν περιέχεται σε πολλαπλές συσκευασίες).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Πρώτο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Δεύτερο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Τρίτο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Τέταρτο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Πέμπτο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Ταυτοποίηση Μέρους σε μια Συναλλαγή που Ανατέθηκε από τον Κάτοχο ενός Αριθμού Αναγνώρισης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Οργανισμού (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τον αριθμό μέρους που έχει ανατεθεί από τον προμηθευτή και είναι μοναδικός εντός του τομέα του κατόχου CIN.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>Αριθμός Μέρους Επόμενης Ανώτερης Συναρμολόγησης.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Κωδικός HTS-6 Εμπορεύματος· Χρησιμοποιώντας τη μορφή: 4012.11 ή 4012.11.4000 (Η δεκαδική τελεία κωδικοποιείται ρητά) Η Ταξινόμηση Συστήματος Εναρμόνισης (HS) είναι μια 6-ψήφια τυποποιημένη αριθμητική μέθοδος ταξινόμησης των εμπορευμάτων που διαπραγματεύονται. Οι αριθμοί HS χρησιμοποιούνται από τις τελωνειακές αρχές σε όλο τον κόσμο για τον προσδιορισμό των προϊόντων για την εφαρμογή δασμών και φόρων. Πρόσθετα ψηφία προστίθενται στον αριθμό HS από κάποιες κυβερνήσεις για να διακρίνουν περαιτέρω τα προϊόντα σε ορισμένες κατηγορίες. Στις Ηνωμένες Πολιτείες, οι αριθμοί που χρησιμοποιούνται για την ταξινόμηση των εξαγόμενων προϊόντων ονομάζονται 'αριθμοί Schedule B'. Το Τμήμα Απογραφών των ΗΠΑ διαχειρίζεται το σύστημα Schedule B. Οι αριθμοί Schedule B, όχι οι αριθμοί HS, πρέπει να παρέχονται στη Δήλωση Εξαγωγής Φορτίου (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nΟι κωδικοί εισαγωγής διαχειρίζονται από την Επιτροπή Διεθνούς Εμπορίου των ΗΠΑ (USITC). http://hts.usitc.gov/\nΕνημέρωση 2020: ο σύνδεσμος http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf δεν είναι πλέον ενεργός. Συμβουλευτείτε τον αποστολέα για μια φόρμα SED.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Όνομα Φορτίου. Περιγραφή σε απλή γλώσσα (Αγγλικά).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Κωδικός Ταξινόμησης Προϊόντος όπως ορίζεται με το GMDN (Global Medical Device Nomenclature - http://www.gmdnagency.org).</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Πρώτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Δεύτερο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Τρίτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Τέταρτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Πέμπτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Κωδικός που Ανατέθηκε από έναν Πελάτη στον Αριθμό Ταυτοποίησης του Φύλλου Δεδομένων Ασφαλείας Υλικού (MSDS) του κατασκευαστή που περιγράφει τις χρήσεις, τους κινδύνους, και τη χημική σύνθεση ενός επικίνδυνου υλικού.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Ελεγχόμενο Εξαγώγιμο Αντικείμενο. Υπόκειται σε έλεγχο εξαγωγής και/ή περιορισμούς όπως προσδιορίζεται στη Συμφωνία του Wassenaar. DI ακολουθούμενο από τον Κωδικό Χώρας Alpha-2 ISO 3166 της χώρας που επέβαλε τον περιορισμό ακολουθούμενο από τον Κωδικό Wassenaar (http://www.wassenaar.org/controllists/index.html).\nΕνημέρωση 2020: Η διεύθυνση URL έχει αλλάξει σε https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Αναγνωριστικό Αντικειμένου που Ανατέθηκε από τον Κατασκευαστή - που αποτελείται από έναν αριθμό αντικειμένου που ανατέθηκε από τον κατασκευαστή του αντικειμένου, ακολουθούμενο από ένα σύμβολο πλης (+), ακολουθούμενο - εάν απαιτείται για τη μοναδική ταυτοποίηση του αντικειμένου εντός της γκάμας προϊόντων του κατασκευαστή - από έναν αριθμό έκδοσης που ανατέθηκε από τον κατασκευαστή.\nΠαράδειγμα 50PABC+6 θα αντιπροσώπευε τον αριθμό αντικειμένου ABC, έκδοση αντικειμένου 6\nΣΗΜΕΙΩΣΗ - Ο αριθμός αντικειμένου πρέπει πάντα να ακολουθείται από ένα σύμβολο πλης, ακόμη και αν δεν υπάρχει παρουσία έκδοσης αντικειμένου. Αυτό απαιτείται για να επιτρέπεται η αμφισβήτηση συνένωσης αναγνωριστικού αντικειμένου που ανατέθηκε από τον κατασκευαστή με άλλη δομή δεδομένων χρησιμοποιώντας τον χαρακτήρα συνένωσης πλης. Για παράδειγμα, ο συνδυασμός ενός αναγνωριστικού αντικειμένου 50P που ανατέθηκε από τον κατασκευαστή χωρίς έκδοση αντικειμένου και ένας σειριακός αριθμός (Αναγνωριστικό Δεδομένων S) σε ένα οντότητα μπορεί να κωδικοποιηθεί ως 50PDEF++S1234.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Παγκοσμίως Μοναδικό Αναγνωριστικό Αντικειμένου που αποτελείται από την Ταυτοποίηση μέρους σε μια συναλλαγή που ανατέθηκε από τον κάτοχο ενός Αριθμού Αναγνώρισης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Οργανισμού (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, ακολουθούμενο από ένα σύμβολο πλης (+), ακολουθούμενο από τον αναγνωριστικό αριθμό αντικειμένου που ανατέθηκε όπως ορίζεται με το 50P\nΠαράδειγμα: 51PJ4LBE0431863103+ABC+ θα αντιπροσώπευε το αντικείμενο με αριθμό αντικειμένου ABC και χωρίς αριθμό έκδοσης κατασκευασμένο από την εταιρεία με Βελγικό αριθμό ΦΠΑ 0431863103.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Κωδικός Χρώματος.\nΧρώμα ενός αντικειμένου/αντικειμένου που ταυτοποιείται από έναν κωδικό ή όρο που έχει συμφωνηθεί αμοιβαία μεταξύ των εμπορικών εταίρων.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Αναγνωριστικό για Συγκεκριμένο Θαλάσσιο Εξοπλισμό που έχει εγκριθεί βάσει της Οδηγίας της Ευρωπαϊκής Ένωσης για τον Θαλάσσιο Εξοπλισμό (2014/90/EU) και του Κανονισμού Εφαρμογής (ΕΕ) 2018/608.\nΜορφή:\n• DI (an3)·\n• Τύπος μονάδας αξιολόγησης συμμόρφωσης (CA) που ορίζεται στο Παράρτημα II της Οδηγίας 2014/90/EU που χρησιμοποιείται για την αξιολόγηση συμμόρφωσης (a1)·\n• Αριθμός ενημερωμένου οργανισμού (NB) που ανατίθεται από την Επιτροπή σύμφωνα με το σημείο 3.1 του Παραρτήματος IV της Οδηγίας 2014/90/EU (n4)·\n• Πιστοποιητικό (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>UDI-DI (Μοναδική Ταυτοποίηση Συσκευής - Αναγνωριστικό Συσκευής) για Ιατρικές Συσκευές (MD) και Διαγνωστικά In-vitro (IvD) ως το μοναδικό κλειδί για δημόσιες βάσεις δεδομένων UDI (GUDID, EUDAMED, κλπ.), σύμφωνα με τις εθνικές ρυθμιστικές απαιτήσεις, όπως περιγράφεται από το Διεθνές Φόρουμ Ρυθμιστών Ιατρικών Συσκευών (IMDRF). Επιτρέπονται όλοι οι εκτυπώσιμοι χαρακτήρες του συνόλου χαρακτήρων UTF-8.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>Αναφορά πιστοποίησης DNV. Δηλώνει ότι τα δεδομένα περιέχουν αναφορά σε πιστοποιητικό προϊόντος/δήλωση επαλήθευσης/έκθεση, που εκδίδεται από την DNV. Το αναγνωριστικό δεδομένων πρέπει να ακολουθείται από τα γράμματα "NV" και τον αριθμό πιστοποιητικού. Όταν ο αριθμός πιστοποιητικού έχει επίθεμα, θα πρέπει να συμπεριληφθεί στο ρεύμα δεδομένων χρησιμοποιώντας τον χαρακτήρα διαχωριστή "-" . Δεν πρέπει να παρέχονται δείκτες αναθεώρησης.\nΠαραδείγματα:\n1. 55PNVXXXXXXX, όπου 55P είναι το αναγνωριστικό δεδομένων, XXXXXXX είναι ο Αριθμός Πιστοποιητικού DNV.\n2. 55PNVXXXXXXX-Y, όπου 55P είναι το αναγνωριστικό δεδομένων, XXXXXXX-Y είναι ο Αριθμός Πιστοποιητικού DNV με επίθεμα Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Ποσότητα, Αριθμός Τεμαχίων, ή Ποσό (μόνο αριθμητικό) (η μονάδα μέτρησης και η σημασία ορίζονται αμοιβαία).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Θεωρητικό Μήκος/Βάρος (μόνο αριθμητικό).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Πραγματικό Βάρος (μόνο αριθμητικό).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Μονάδα Μέτρησης, όπως ορίζεται από τον διψήφιο κωδικό του στοιχείου δεδομένων ANSI X12.3 Αριθμός 355 Κωδικός Μονάδας Μέτρησης.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Ακαθάριστο Ποσό.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Καθαρό Ποσό.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Όπου Πολλαπλά Δοχεία Αποτελούν Ένα Μόνο Προϊόν (το περιεχόμενο κάθε δοχείου πρέπει να συνδυαστεί με το περιεχόμενο των άλλων δοχείων για να αποτελέσουν ένα μόνο προϊόν) το Αναγνωριστικό Δεδομένων '6Q' θα πρέπει να χρησιμοποιηθεί για να συνδέσει τα διάφορα δοχεία. Η μορφή # από # ('αυτό είναι το nth κομμάτι από x κομμάτια για να ορίσει το προϊόν') Παρουσιάζεται στη μορφή 'n/x', όπου ο '/' (κάθετος) χρησιμοποιείται ως διαχωριστής μεταξύ δύο τιμών.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Ποσότητα, Ποσό, ή Αριθμός Τεμαχίων στη μορφή: Ποσότητα ακολουθούμενη από τον διψήφιο κωδικό του στοιχείου δεδομένων ANSI X12.3 Αριθμός 355 Κωδικός Μονάδας Μέτρησης.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Καθορισμένο Βάρος Δοχείου\nΚατασκευαστικά καθορισμένη ικανότητα φορτίου του δοχείου. Καθορίζεται κατά τη στιγμή της κατασκευής. Η μονάδα μέτρησης είναι το kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Βάρος Τεμαχίου\nΒάρος ενός μεμονωμένου αντικειμένου.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Βάρος Τάρας: βάρος ενός άδειου δοχείου.\nΒάρος σώματος δοχείου.\nΚατασκευαστικά καθορισμένο βάρος του άδειου δοχείου. Καθορίζεται κατά τη στιγμή της κατασκευής. Η μονάδα μέτρησης είναι το kg (Βάρος Τάρας).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Χρηματική Αξία που Καθορίζεται από τον Προμηθευτή στη μορφή: η τιμή ακολουθούμενη από έναν κωδικό στοιχείου δεδομένων ISO 4217 για την αναπαράσταση μονάδας αξίας νομισμάτων και κεφαλαίων (π.χ., 12Q2.50USD) (2.50 Χρηματική Αξία σε Δολάρια ΗΠΑ) η σημασία ορίζεται αμοιβαία.\nΑξία Εισόδου·\nΗ τιμή ακολουθούμενη από έναν κωδικό στοιχείου δεδομένων ISO 4217 για την αναπαράσταση μονάδας αξίας νομισμάτων και κεφαλαίων (π.χ., 12Q2.50USD) (2.50 Χρηματική Αξία σε Δολάρια ΗΠΑ)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># από # ('αυτό είναι το nth κομμάτι από x κομμάτια σε αυτή την αποστολή').\nΠαρουσιάζεται στη μορφή 'n/x', όπου ο '/' (κάθετος) χρησιμοποιείται ως διαχωριστής μεταξύ δύο τιμών.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Αρχική Δευτερεύουσα Ποσότητα.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Τελική Δευτερεύουσα Ποσότητα.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Αριθμός Τεμαχίων σε Φορτηγό.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Αριθμός Αποστολών σε Φορτηγό.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Όγκος εκφρασμένος σε κυβικά μέτρα ή κυβικά πόδια ακολουθούμενο από τον κωδικό στοιχείου δεδομένων ANSI X12.3 355 μονάδα μέτρησης (CR ή CF). Δεν υπονοείται δεκαδικό σημείο.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Πλάτος εκφρασμένο σε γραμμικά μέτρα ή γραμμικά πόδια ακολουθούμενο από τον κωδικό στοιχείου δεδομένων ANSI X12.3 355 μονάδα μέτρησης (LC ή LF). Δεν υπονοείται δεκαδικό σημείο.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Ύψος εκφρασμένο σε γραμμικά μέτρα ή γραμμικά πόδια ακολουθούμενο από τον κωδικό στοιχείου δεδομένων ANSI X12.3 355 μονάδα μέτρησης (LC ή LF). Δεν υπονοείται δεκαδικό σημείο.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Μήκος εκφρασμένο σε γραμμικά μέτρα ή γραμμικά πόδια ακολουθούμενο από τον κωδικό στοιχείου δεδομένων ANSI X12.3 355 μονάδα μέτρησης (LC ή LF). Δεν υπονοείται δεκαδικό σημείο.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>Καθαρό Βάρος Αποστολής εκφρασμένο σε λίβρες ή κιλά (κιλά) ακολουθούμενο από τον κωδικό στοιχείου δεδομένων ANSI X12.3 355 μονάδα μέτρησης (LB ή KG). Δεν υπονοείται δεκαδικό σημείο.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Μήκος Φορτηγού εκφρασμένο σε γραμμικά μέτρα ή γραμμικά πόδια ακολουθούμενο από τον κωδικό στοιχείου δεδομένων ANSI X12.3 355 μονάδα μέτρησης (LC ή LF). Δεν υπονοείται δεκαδικό σημείο.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Εσωτερικός Όγκος ενός Φορτηγού εκφρασμένος σε κυβικά μέτρα ή κυβικά πόδια ακολουθούμενο από τον κωδικό στοιχείου δεδομένων ANSI X12.3 355 μονάδα μέτρησης (CR ή CF). Δεν υπονοείται δεκαδικό σημείο.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Καθαρό Εκρηκτικό Βάρος (μια υπολογισμένη τιμή του εκρηκτικού ισοδύναμου εκφρασμένη σε λίβρες TNT). Το μέτρο του NEW χρησιμοποιείται διεθνώς για υπολογισμούς ασφαλείας ποσότητας εκρηκτικών αποστάσεων. Δεν υπονοείται δεκαδικό σημείο.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Επίπεδο Συσκευασίας, που καθορίζει το ιεραρχικό επίπεδο συσκευασίας σύμφωνα με τις προδιαγραφές HIBC (Health Industry Bar Code).</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Μοναδική Τιμή Τιμής Προϊόντος, Καθαρή, '.' (τελεία) χρησιμοποιείται ως δεκαδικό σημείο (π.χ. 27Q1000.5 για την τιμή τιμής 1000.50).\nΔομή: an3+an1...20\n &lt;DI&gt;&lt;τιμή τιμής&gt;.\nΣύνολο χαρακτήρων: 0 έως 9, τελεία (ISO 646 ASCII τιμή δεκαδική 46, δεκαεξαδική 2E).\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας μια καθαρή τιμή τιμής 1000:\n27Q1000.\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας μια καθαρή τιμή τιμής 1000.50:\n27Q1000.5.\nΣΗΜΕΙΩΣΗ - Εάν απαιτείται νόμισμα μπορεί να ληφθεί από άλλο στοιχείο δεδομένων που χρησιμοποιείται στον ίδιο κώδικα, π.χ. 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Μοναδική Τιμή Χρέωσης για Ταχυδρομικά και Συσκευασία, '.' (τελεία) αντιπροσωπεύει τη θέση ενός κόμμα (π.χ. 30Q100.50 για την τιμή τιμής 100,50).\nΔομή: an3+an1...10\n &lt;DI&gt;&lt;τιμή τιμής&gt;.\nΣύνολο χαρακτήρων: 0 έως 9, τελεία.\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας τιμή ταχυδρομείου &amp; συσκευασίας 100:\n30Q100.\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας τιμή ταχυδρομείου &amp; συσκευασίας 100,50:\n30Q100.50.\nΣΗΜΕΙΩΣΗ - Εάν απαιτείται νόμισμα μπορεί να ληφθεί από άλλο στοιχείο δεδομένων που χρησιμοποιείται στον ίδιο κώδικα, π.χ. 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Ποσοστό Έκπτωσης, '.' (τελεία) αντιπροσωπεύει τη θέση ενός κόμμα (π.χ. 31Q8.5 για μια τιμή έκπτωσης 8,5%).\nΔομή: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;ποσοστό έκπτωσης (%)&gt;.\nΣύνολο χαρακτήρων: 0 έως 9, τελεία\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας ποσοστό έκπτωσης 10%:\n31Q10.\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας ποσοστό έκπτωσης 8,5%:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>Ποσοστό ΦΠΑ, '.' (τελεία) αντιπροσωπεύει τη θέση ενός κόμμα (π.χ. 27Q8.5 για την τιμή ΦΠΑ 8.5%).\nΔομή: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;Ποσοστό ΦΠΑ (%)&gt;.\nΣύνολο χαρακτήρων: 0 έως 9, τελεία.\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας ποσοστό ΦΠΑ 10%:\n27Q19.\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας ποσοστό ΦΠΑ 8,5%:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Νόμισμα, κωδικός νομίσματος ISO 4217.\nΔομή: an3+an3\n &lt;DI&gt;&lt;Νόμισμα, π.χ. EUR&gt;.\nΣύνολο χαρακτήρων: A-Z, 0 έως 9.\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας τον κωδικό ISO αλφαβητικό του δολαρίου ΗΠΑ:\n31QUSD.\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας τον κωδικό ISO αλφαβητικό του EURO:\n31QEUR.\nΠαράδειγμα κωδικοποίησης χρησιμοποιώντας τον κωδικό ISO αριθμητικό του EURO:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Κλινικός κωδικός όρος όπως ορίζεται με την κλινική ονοματολογία: "Το διεθνές πρότυπο για την ταυτοποίηση υγειονομικών μετρήσεων, παρατηρήσεων, και εγγράφων - LOINC" (https://loinc.org), στην ακόλουθη ακολουθία: &lt;DI&gt;&lt;Κωδικός LOINC&gt;&lt;Σύμβολο Πλης&gt;&lt;Τιμή&gt;. Η μονάδα και η μορφή της Τιμής ορίζεται από τον Κωδικό LOINC.\nΠαράδειγμα: 32Q28903-3+60 = Κωδικός LOINC 28903-3: Άξονας αριστερού φακού επαφής (μοίρες)· με Τιμή = 60.</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Κωδικός Επιστροφής (RMA) που Ανατέθηκε από τον Προμηθευτή</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Κωδικός Επιστροφής που Ανατέθηκε από τον Πελάτη</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>Κωδικός Ταυτοποίησης Τμήματος Άμυνας των ΗΠΑ (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Δεδομένα στη μορφή και χρησιμοποιώντας τη σημασιολογία που ορίζεται από τον κάτοχο ενός Αριθμού Αναγνώρισης Εταιρείας (CIN) που έχει εκδοθεί από έναν Κωδικό Εκδότη Οργανισμού (IAC) σύμφωνα με το ISO/IEC 15459, ορίζεται ως μια ακολουθία συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τον χαρακτήρα διαχωριστή ':' (άνω και κάτω τελεία) ακολουθούμενο από τα δεδομένα στη μορφή και χρησιμοποιώντας τη σημασιολογία όπως ορίζεται από τον κάτοχο CIN.\nΣΗΜΕΙΩΣΗ - Μόνο οι κανόνες σύνταξης δεδομένων (εάν υπάρχουν) όπως παρέχονται από τον δηλωμένο IAC+CIN εντός κάθε ροής δεδομένων DI '5R' θα πρέπει να εφαρμόζονται στα δεδομένα που ακολουθούν το DI 5R+IAC+CIN.4.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 δομή δεδομένων ψηφιακής υπογραφής. Εάν η κωδικοποίηση του υποκείμενου φορέα δεδομένων είναι 7 bit, τότε μόνο η πρώτη μορφή ISO/IEC 20248 μπορεί να χρησιμοποιηθεί.\nΠαράδειγμα με μορφή URL:\n&lt;6R&gt;&lt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO&gt;\nΠαράδειγμα με πρώτη μορφή:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nΜια δομή δεδομένων ISO/IEC 20248 περιέχει μια ψηφιακή υπογραφή που χρησιμοποιείται για την επαλήθευση των καθορισμένων στοιχείων δεδομένων του μηνύματος στοιχείων δεδομένων. Η τιμή του 6R, ως πρώτο παράμετρο, και τα στοιχεία δεδομένων που πρέπει να επαληθευτούν (αφαιρούνται όλοι οι μη εκτυπώσιμοι χαρακτήρες), ως δεύτερη παράμετρος, περνούν στον ISO/IEC 20248 DecoderVerifier - ο οποίος θα επιστρέψει το αποτέλεσμα επαλήθευσης: ΑΠΟΔΟΧΗ, ΑΠΟΡΡΙΨΗ ή ΣΦΑΛΜΑ (κωδικός σφάλματος), και το αντικείμενο JSON των αποκωδικοποιημένων πρόσθετων πεδίων ISO/IEC 20248. Η δομή δεδομένων ISO/IEC 20248 μπορεί να περιέχει πρόσθετα πεδία και οδηγίες για την αποκωδικοποίηση και επαλήθευση ενός ή περισσότερων μηνυμάτων στοιχείων δεδομένων. Αυτές οι οδηγίες θα επεξεργαστούν από τον ISO/IEC 20248 DecoderVerifier.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Aquatic Sciences and Fisheries Information System (ASFIS) 'Διαθεσμικός 3-γράμματος κωδικός ειδών', που διατηρείται από την Οργάνωση Τροφίμων και Γεωργίας των Ηνωμένων Εθνών (www.fao.org, στη συνέχεια αναζητήστε 'ASFIS').\nΠαραδείγματα·\n7RMUC = Λάσπη κυπρίνος·\n7RPCD = Αυστραλιανός γλυκού νερού ρέγγος·\n7RWSH = Μεγάλος λευκός καρχαρίας.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Διεθνής Τυποποιημένη Ταξινόμηση Αλιευτικών Εργαλείων της Οργάνωσης Τροφίμων και Γεωργίας (FAO) κωδικός ISSCFG. (www.fao.org)\nΕπιτρέπονται όλοι οι χαρακτήρες του υποσυνόλου των GS1 General Specification-defined του ISO/IEC 646.\nΠαραδείγματα:\n8R02.1.0 = Παραλιακά δίχτυα·\n8R03.1.5 = Δίχτυα γαρίδας·\n8R05.1.0 = Φορητά ανυψωτικά δίχτυα.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Μέθοδος παραγωγής για ψάρια και θαλασσινά όπως προσδιορίζεται από το Τμήμα Αλιείας και Υδατοκαλλιέργειας της Οργάνωσης Τροφίμων και Γεωργίας (FAO) των Ηνωμένων Εθνών, σύμφωνα με τον Κανονισμό της ΕΕ 1379/2013. (www.fao.org).\nΕπιτρέπονται όλοι οι χαρακτήρες του υποσυνόλου των GS1 General Specification-defined του ISO/IEC 646.\nΠαραδείγματα·\n9R01 = Αλιευμένο στη θάλασσα·\n9R02 = Αλιευμένο σε γλυκό νερό·\n9R03 = Καλλιεργημένο.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>Σειριακός Αριθμός ή Κωδικός που Ανατέθηκε από τον Προμηθευτή σε μια Οντότητα για τη Διάρκεια της Ζωής της, (π.χ., σειριακός αριθμός υπολογιστή, αριθμός ιχνηλασίας, αριθμός ταυτοποίησης συμβολαίου εργαλείου)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>Επιπλέον Κωδικός που Ανατέθηκε από τον Προμηθευτή σε μια Οντότητα για τη Διάρκεια της Ζωής της (π.χ., αριθμός ιχνηλασίας, σειριακός αριθμός υπολογιστή)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Αναγνώριση Αποστολής (SID) Προηγμένης Ειδοποίησης Αποστολής (ASN) αντιστοιχεί στο Στοιχείο Δεδομένων ANSI ASC X12 396</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>Μοναδική Ταυτοποίηση Συσκευασίας που Ανατέθηκε από τον Προμηθευτή (χαμηλότερο επίπεδο συσκευασίας που έχει κωδικό ταυτοποίησης συσκευασίας· πρέπει να περιέχει όμοια αντικείμενα)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>Ταυτοποίηση Συσκευασίας που Ανατέθηκε από τον Προμηθευτή σε κύρια συσκευασία που περιέχει όμοια αντικείμενα σε μία παραγγελία πελάτη</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>Ταυτοποίηση Συσκευασίας που Ανατέθηκε από τον Προμηθευτή σε κύρια συσκευασία που περιέχει διαφορετικά αντικείμενα σε μία παραγγελία πελάτη</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>Ταυτοποίηση Συσκευασίας που Ανατέθηκε από τον Προμηθευτή σε κύρια συσκευασία που περιέχει όμοια αντικείμενα σε πολλαπλές παραγγελίες πελατών</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>Ταυτοποίηση Συσκευασίας που Ανατέθηκε από τον Προμηθευτή σε κύρια συσκευασία που περιέχει διαφορετικά αντικείμενα σε πολλαπλές παραγγελίες πελατών</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Ταυτοποίηση Προμηθευτή/Μοναδικός Κωδικός Δοχείου παρουσιάζεται στη μορφή δεδομένων που καθορίζεται από τις προδιαγραφές GS1 SSCC-18\nΕνημέρωση 2020: Ανατρέξτε στις Γενικές Προδιαγραφές GS1 σχετικά με την πιο πρόσφατη έκδοση του SSCC.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Ταυτοποίηση Συσκευασίας, Γενική (αμοιβαία καθορισμένη)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Κωδικός Μηχανής, Κελιού, ή Εργαλείου</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Κωδικός Πάγιου Περιουσιακού Στοιχείου</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Αριθμός Εγγράφου (εσωτερικά ανατεθειμένο ή αμοιβαία καθορισμένο)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Κωδικός Ασφάλειας Δοχείου</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>Διακριτικό δέμα 4ης κατηγορίας για την καταγραφή ταχυδρομικών αποστολών</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>Σειριακός Αριθμός που Ανατέθηκε από την Οντότητα Πωλητή, που μπορεί να χρησιμοποιηθεί μόνο σε συνδυασμό με το '13V'</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Αριθμός Έκδοσης, π.χ., Έκδοση Λογισμικού</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Συνδυασμένος 6-ψήφιος Κωδικός Ταυτοποίησης Προμηθευτή GS1 και Μοναδική Ταυτοποίηση Συσκευασίας που Ανατέθηκε από τον Προμηθευτή\nΕνημέρωση 2020: Η GS1 συνιστά αυτός ο DI να μη χρησιμοποιείται πλέον και ότι οι χρήστες αυτού του DI να μεταφέρονται στους προσδιοριστές δεδομένων GS1 (Αναγνωριστικά Εφαρμογών) σύμφωνα με το ISO/IEC 15418 και ISO/IEC 15459-3.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>Κωδικός CAGE &amp; Σειριακός Αριθμός Μοναδικός Εντός CAGE</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Συνδυασμένος αναγνώριση εταιρείας Dun &amp; Bradstreet του προμηθευτή ακολουθούμενο από μια μοναδική ταυτοποίηση συσκευασίας που ανατέθηκε από τον προμηθευτή, στη μορφή nn...nn+nn...n όπου ένα σύμβολο πλης (+) χρησιμοποιείται ως διαχωριστής μεταξύ του Αριθμού DUNS και της μοναδικής ταυτοποίησης συσκευασίας</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>Κωδικός Ιχνηλασιμότητας για μια Οντότητα που Ανατέθηκε από τον Πελάτη</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Αριθμός Ταυτοποίησης Ελαστικού όπως ορίζεται από το Τμήμα Μεταφορών των ΗΠΑ (D.O.T) κάτω από τον κώδικα των ΗΠΑ 49 CFR 574.5.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Μοναδική Ταυτότητα Ατόμου για Κινητά Τηλέφωνα</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Διεύθυνση Πρόσβασης Μέσων (MAC) σύμφωνα με το IEEE 802.11</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Σύμφωνα με το ISO/IEC 15963 (η τιμή είναι μετατροπή της τιμής bit του σε τιμές ASCII 8-bit). Αυτό το Αναγνωριστικό Δεδομένων μπορεί πιθανώς να υποθέσει οποιαδήποτε τιμή ASCII-256. Για ετικέτες δοχείων φορτίου το Εγγεγραμμένο Αρχή (RA) για κατασκευαστές είναι το RA για το ISO 14816. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Ταυτοποίηση μέρους σε μια συναλλαγή που ανατέθηκε από τον κάτοχο ενός Αριθμού Αναγνώρισης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Οργανισμού (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τον αριθμό σειριακού που έχει ανατεθεί από τον προμηθευτή και είναι μοναδικός εντός του τομέα του κατόχου CIN (Βλέπε Παράρτημα C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Αναγνωριστικό Εξοπλισμού, που αποτελεί ένα παγκοσμίως μοναδικό αναγνωριστικό για μια συσκευή, ένα αντικείμενο εξοπλισμού ή παράδειγμα εφαρμογής υπολογιστή που χρησιμοποιείται στην παραγωγή, μεταφορά, επεξεργασία ή άλλη διαχείριση αντικειμένων, που κατασκευάζεται συνδυάζοντας:\n - έναν κωδικό εκδότη οργανισμού ISO/IEC 15459·\n - έναν αριθμό εξοπλισμού που συμφωνεί με τις προδιαγραφές του εκδότη οργανισμού που αφορά· και ότι:\n - περιλαμβάνει μόνο κεφαλαία αλφαβητικά και/ή αριθμητικά χαρακτήρες·\n - είναι μοναδικό (δηλαδή, διαφέρει από οποιοδήποτε άλλο αναγνωριστικό σύμφωνο με το ISO/IEC 15459) εντός του τομέα του εκδότη οργανισμού·\n - δεν μπορεί να προκύψει από κανένα άλλο αναγνωριστικό σύμφωνο με το ISO/IEC 15459, που εκδόθηκε υπό τον ίδιο εκδότη οργανισμού, με την απλή προσθήκη χαρακτήρων στο τέλος του ή την αφαίρεσή τους από αυτό.\nΑναγνωριστικό Αναγνώστη.\nΑναγνωριστικό εξοπλισμού, που αποτελεί ένα παγκοσμίως μοναδικό αναγνωριστικό για μια συσκευή, ένα αντικείμενο εξοπλισμού ή παράδειγμα εφαρμογής υπολογιστή που χρησιμοποιείται στην παραγωγή, μεταφορά, επεξεργασία ή άλλη διαχείριση αντικειμένων.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Αριθμός Αντικειμένου Εντός Παρτίδας, που αποτελεί μια σειρά αριθμητικών ψηφίων:\n - που διακρίνει μοναδικά ένα αντικείμενο, εντός μιας αναγνωρίσιμης παρτίδας σχετικών αντικειμένων, από όλα τα άλλα αντικείμενα στην ίδια παρτίδα·\n - του οποίου το μήκος είναι το ίδιο για όλα τα αντικείμενα εντός της συγκεκριμένης παρτίδας.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Αριθμός Παρτίδας-και-Αντικειμένου, που αποτελεί τη συνένωση ενός αναγνωριστικού δεδομένων 27T αριθμού παρτίδας και του αναγνωριστικού δεδομένων 27S αριθμού αντικειμένου ενός αντικειμένου που ανήκει στη συγκεκριμένη παρτίδα.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>Επιπλέον Κωδικός Ιχνηλασιμότητας για μια Οντότητα που Ανατέθηκε από τον Προμηθευτή επιπλέον ή διαφορετικά από τον κωδικό(ούς) ιχνηλασιμότητας που παρέχεται από το 'S' ή το '1S'</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>Αρχικός Σειριακός Αριθμός για σειριακούς αριθμούς σε ακολουθία</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>Τελικός Σειριακός Αριθμός για σειριακούς αριθμούς σε ακολουθία</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>Σειριακός Αριθμός Επόμενης Ανώτερης Συναρμολόγησης</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Σειριακός Αριθμός ή Αριθμός Μέρους Τελικού Προϊόντος</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Αριθμός Προφυλακτήρα (Χρησιμοποιείται σε Μονάδα Μετακίνησης του DOD)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Αναγνωριστικό Παλέτας (Χρησιμοποιείται για φορτωμένες παλέτες αέρα 463L)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Μοναδικό Αναγνωριστικό Αντικειμένου που αποτελείται από μια ακολουθία 5 στοιχείων δεδομένων: 'IAC', ακολουθούμενο από 'CIN', ακολουθούμενο από 'Αριθμό Μέρους (PN)', ακολουθούμενο από τον χαρακτήρα '+' , ακολουθούμενο από τον αριθμό σειριακού που έχει ανατεθεί (ή διαχειρίζεται) 'Αριθμό Σειριακού Μέρους (PSN)' που είναι παγκοσμίως μοναδικός εντός του τομέα του κατόχου CIN· στη μορφή IAC CIN PN + PSN (οι χώροι παρέχονται για οπτική σαφήνεια μόνο· δεν αποτελούν μέρος των δεδομένων). Βλέπε Παράρτημα C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Μοναδικό Αναγνωριστικό Αντικειμένου (UII) σε μορφή 25S προηγούμενο από αριθμητική τιμή που υποδηλώνει το μήκος του στοιχείου σειριακού αριθμού για χρήση από συστήματα που απαιτούν το στοιχείο 'σειριακός αριθμός' ενός συγκεκριμένου στοιχείου σειριακού αριθμού (IAC+CIN+SN) Μορφή: DI+LI+IAC+CIN+SN (LI=μήκος του SN)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Αναγνωριστικό Κάρτας Ολοκληρωμένου Κυκλώματος (ICCID) σύμφωνα με τη Σύσταση ITU-T E.118 και τη Σύσταση ETSI GSM 11.11· μέγιστο 20 ψηφία που αποτελούνται από τον Αριθμό Ταυτοποίησης Εκδότη (IIN· μέγιστο 7 ψηφία), Ατομική Ταυτοποίηση Λογαριασμού (μεταβλητό μήκος που καθορίζεται από το IIN, αλλά το ίδιο μήκος εντός μεμονωμένων IINs), Ψηφίο Ελέγχου (μονό ψηφίο υπολογισμένο χρησιμοποιώντας τον αλγόριθμο Luhn\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = αναγνώριση λογαριασμού, c = ψηφίο ελέγχου)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Πρώτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Δεύτερο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Τρίτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Τέταρτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Πέμπτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC αριθμός (Κατά κανόνα Σειριακός Παγκόσμιος Αριθμός Ταυτοποίησης Εμπορεύματος - SGTIN)\nΕνημέρωση 2020: Ο όρος "EPC αριθμός" δεν χρησιμοποιείται πλέον από τη GS1. Ανατρέξτε στις Γενικές Προδιαγραφές GS1 και στο Πρότυπο Δεδομένων Ετικέτας για την τρέχουσα ορολογία</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>Κρυπτογραφημένος σειριακός αριθμός που Ανατέθηκε από τον Προμηθευτή σε μια οντότητα, ο οποίος μπορεί να πιστοποιηθεί από μια ανεξάρτητη εμπιστευτική τρίτη πλευρά. Ο κρυπτογραφημένος σειριακός αριθμός δεν περιγράφει κανένα παράμετρο της οντότητας χωρίς αποκρυπτογράφηση από μια ανεξάρτητη τρίτη πλευρά.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>Ο χαρακτήρας 'ΑΜΠΕΡΣΑΝΤ'. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Τύπος Δοχείου (εσωτερικά ανατεθειμένο ή αμοιβαία καθορισμένο).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>Αριθμός Ιχνηλασιμότητας που Ανατέθηκε από τον Πελάτη για την ταυτοποίηση/ιχνηλάτηση μιας μοναδικής ομάδας οντοτήτων (π.χ., παρτίδα, σειρά, θερμοκρασία).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>Αριθμός Ιχνηλασιμότητας που Ανατέθηκε από τον Προμηθευτή για την ταυτοποίηση/ιχνηλάτηση μιας μοναδικής ομάδας οντοτήτων (π.χ., παρτίδα, σειρά, θερμοκρασία).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Αποκλειστική Ανάθεση (Αναγνώριση οχήματος του ΗΠΑ EPA για δοκιμές εκπομπών).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Κωδικός Επαναχρησιμοποιήσιμου Δοχείου που Ανατέθηκε από τον κάτοχο του δοχείου ή την κατάλληλη ρυθμιστική αρχή (π.χ., μεταλλική λεκάνη, καλάθι, καρούλι, μονάδα φόρτωσης (ULD), ρυμουλκούμενο, δεξαμενή, ή διαμορφωμένο δοχείο) (εξαιρούνται οι φιάλες αερίου Βλέπε '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>Κωδικός Δοχείου Φιαλών Αερίου που Ανατέθηκε από τον κατασκευαστή σύμφωνα με τα πρότυπα του Τμήματος Μεταφορών των ΗΠΑ (D.O.T.).</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Πρώτο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Δεύτερο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Τρίτο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Τέταρτο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Πέμπτο Επίπεδο (Ανατεθειμένο από τον Πελάτη).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Ταυτοποίηση μέρους σε μια συναλλαγή που ανατέθηκε από τον κάτοχο ενός Αριθμού Αναγνώρισης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Οργανισμού (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τον κωδικό ιχνηλασιμότητας που έχει ανατεθεί από τον προμηθευτή και είναι μοναδικός εντός του τομέα του κατόχου CIN.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Αριθμός Παρτίδας που αποτελείται από τη συνένωση είτε:\n - ενός αναγνωριστικού δεδομένων 26S αναγνωριστικού εξοπλισμού επεξεργασίας ταχυδρομείου, ή\n - ενός αναγνωριστικού δεδομένων 20K αναγνωριστικού άδειας, ή\n - ενός αναγνωριστικού δεδομένων 18V αναγνωριστικού μέρους που:\n - διαφέρει από οποιοδήποτε άλλο αναγνωριστικό σύμφωνο με το ISO/IEC 15459 εντός του τομέα του εκδότη οργανισμού που αφορά·\n - δεν μπορεί να προκύψει από άλλο αναγνωριστικό μέρους ή οποιοδήποτε άλλο αναγνωριστικό σύμφωνο με το ISO/IEC 15459, που εκδόθηκε υπό τον ίδιο εκδότη οργανισμού, με την απλή προσθήκη χαρακτήρων στο τέλος του ή την αφαίρεσή τους από αυτό· με έναν αναγνωριστικό δεδομένων 27T αριθμό παρτίδας, οι δύο να χωρίζονται από έναν χαρακτήρα παύλα (-).</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Αριθμός Παρτίδας, που εκδίδεται υπό τον έλεγχο ενός ταυτοποιημένου μέρους ή μονάδας εξοπλισμού επεξεργασίας, ή υπό τις διατάξεις μιας ταυτοποιημένης άδειας, που:\n - διακρίνει μοναδικά μία παρτίδα σχετικών αντικειμένων από όλες τις άλλες παρτίδες στις οποίες ανατίθεται αριθμός παρτίδας από το μέρος ή τον εξοπλισμό, ή υπό την άδεια, που αφορά·\n - περιλαμβάνει μια σειρά μέγιστου μήκους 10 χαρακτήρων, από τους οποίους ο πρώτος (αριθμητικός) χαρακτήρας υποδηλώνει τον αριθμό των ακόλουθων χαρακτήρων, κάθε ένας από τους οποίους προέρχεται από το σύνολο .</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Κωδικός Ταυτοποίησης Εξοπλισμού Μεταφοράς Οδικών Φορτίων που Ανατέθηκε από τον κατασκευαστή σύμφωνα με τα πρότυπα της Διεθνούς Οργάνωσης για την Τυποποίηση (ISO).</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Πρώτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Δεύτερο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Τρίτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Τέταρτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Πέμπτο Επίπεδο (Ανατεθειμένο από τον Προμηθευτή).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Κωδικός Alphanumeric της Standard Carrier Alpha (SCAC) (4 αλφαριθμητικοί χαρακτήρες) και ένας προαιρετικός αριθμός τρέιλερ που έχει ανατεθεί από τον μεταφορέα (ένα έως δέκα αλφαριθμητικοί χαρακτήρες). Όταν χρησιμοποιείται, ο αριθμός τρέιλερ που έχει ανατεθεί από τον μεταφορέα χωρίζεται από τον SCAC με παύλα '-'.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Αριθμός Περιουσιακού Στοιχείου Δοχείου - Αποτελείται από δύο ενωμένα μέρη:\n- Ταυτοποίηση μιας οργάνωσης σύμφωνα με το ISO/IEC 15459 και μια μοναδική ταυτοποίηση οντότητας που έχει ανατεθεί σύμφωνα με κανόνες που έχουν καθοριστεί από τον εκδότη.\n- Ένας μοναδικός σειριακός αριθμός που έχει ανατεθεί από την οντότητα, τελειώνει με έναν 3-ψήφιο κωδικό τύπου δοχείου που προέρχεται από τον κατάλογο κωδικών EDIFACT 8053 ή το πρότυπο UPU M82-3. (Εάν ο κωδικός τύπου δοχείου που αναφέρεται είναι λιγότερος από τρεις χαρακτήρες σε μήκος, το πεδίο θα γεμίζει με παύλα '-' αριστερά μέχρι το μήκος τριών χαρακτήρων).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Σειριακός Αριθμός Δοχείου.\nΣύμφωνα με το ISO 6346. OC EI CSN CD, όπου το OC είναι ο τριψήφιος κωδικός ιδιοκτησίας που έχει ανατεθεί σε συνεργασία με το BIC, το EI είναι ο μονοψήφιος κωδικός ταυτοποίησης κατηγορίας εξοπλισμού, το CSN είναι ένας 6-ψήφιος μοναδικός αριθμός ταυτοποίησης δοχείου που έχει ανατεθεί από τον ιδιοκτήτη του εξοπλισμού, και το CD είναι ένας ψηφίο έλεγχος modulus 11 που υπολογίζεται σύμφωνα με το Παράρτημα A, ISO 6346.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Ταυτοποίηση ιδιοκτήτη επιστρεπτέου δοχείου ανατεθειμένη σε συνεργασία με το BIC.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Κωδικός Μεγέθους/Τύπου Δοχείου.\nΣύμφωνα με το ISO 6346, Ενότητα 4.2.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Κωδικός Ιδιοκτησίας Δοχείου. Πραγματική αρκτικόλεξη τεσσάρων χαρακτήρων σημειωμένη στο δοχείο από τον ιδιοκτήτη. Για δοχεία που ανήκουν στο DOD δείτε τον κανονισμό μεταφοράς άμυνας App EE-6.\nΕνημέρωση 2020: η πηγή δεδομένων αναφοράς ενημερώθηκε στον κανονισμό μεταφοράς άμυνας, Μέρος II, App TT που βρίσκεται στο:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Αριθμός Van (πλήρης αριθμός χωρίς τον αριθμό έλεγχου).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Αριθμός έλεγχου του Αριθμού Van που ταυτοποιήθηκε στο 11B.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Κωδικός Αριθμού Δοχείου (τελευταία 5 ψηφία του αριθμού χωρίς τον αριθμό έλεγχου).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Κατάσταση Ετικέτας.\nY=Εξουσιοδοτημένο / N=Μη Εξουσιοδοτημένο.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Κλάση Επικίνδυνου Φορτίου.\nΚλάση IMDG σε μορφή 'n.na' όπου n = αριθμητικό, δεκαδικό σημείο ρητά κωδικοποιημένο, και a = υποθετικός αλφαβητικός προσδιορισμός. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>Κωδικός UN για Επικίνδυνα Αγαθά.\nΓια επικίνδυνο φορτίο που παρέχεται από τον αποστολέα σύμφωνα με τον κωδικό UN.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\nΕνημέρωση 2020: Η διεύθυνση URL άλλαξε σε http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Όνομα Θέματος Μεταφοράς.\nΌνομα πλοίου ή κωδικός οχήματος/αριθμός ταξιδιού τρένου στα Αγγλικά.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Αριθμός Εγγραφής Πλοίου.\nΤα τρία γράμματα 'IMO' ακολουθούμενα από τον επταψήφιο αριθμό που έχει ανατεθεί σε όλα τα πλοία από το IHS Fairplay κατά την κατασκευή τους. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Αριθμός ταξιδιού/Αριθμός ταξιδιού.\nΓράμμα και αριθμός.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Χώρα Πλοίου.\nΚωδικός Alpha 2 ISO 3166-1.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Διατηρημένο για Αριθμούς Ηλεκτρονικών Σφραγίδων.\nΑποτελείται από τον αναγνωριστικό κωδικό σφραγίδας 18185-1 - 32 bits και τον 16-ψήφιο κωδικό κατασκευαστή ISO 14816 (ISO 646).</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Αριθμός/Τύπος Εισόδου.\nΑποτελείται από τον τριψήφιο κωδικό φοροτεχνικού, ακολουθούμενο από τον επταψήφιο αριθμό εισόδου, και ολοκληρώνεται με τον ένα ψηφίο αριθμό έλεγχου. Ο κωδικός φοροτεχνικού εκπροσωπεί τον τριψήφιο αλφαριθμητικό κωδικό που έχει ανατεθεί στον φοροτεχνικό ή στον εισαγωγέα από το CBP. Ο αριθμός εισόδου αντιπροσωπεύει τον επταψήφιο αριθμό που έχει ανατεθεί από τον φοροτεχνικό. Ο αριθμός μπορεί να ανατεθεί με οποιοδήποτε τρόπο βολικό, εφόσον ο ίδιος αριθμός δεν ανατίθεται σε περισσότερες από μία φόρμες CBP 7501. Οι μηδενικοί πρέπει να εμφανίζονται. Ο αριθμός έλεγχου υπολογίζεται βάσει των προηγούμενων 10 χαρακτήρων. Ο τύπος για τον υπολογισμό του αριθμού έλεγχου μπορεί να βρεθεί στο Παράρτημα 1, Οδηγίες CBP 7501.\nΟ τύπος εισόδου είναι ένας διψήφιος κωδικός σύμφωνος με το Μπλοκ 2, Οδηγίες CBP 7501.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Αριθμός Εγγύησης.\nΟ τριψήφιος αριθμητικός κωδικός που ταυτοποιεί την εταιρεία εγγύησης στην Τελωνειακή Εγγύηση. Αυτός ο κωδικός μπορεί να βρεθεί στο μπλοκ 7 της φόρμας CBP 301, ή είναι διαθέσιμος μέσω του αυτοματοποιημένου συστήματος του CBP στους χρήστες ABI, μέσω της συναλλαγής ερωτήματος εγγύησης εισαγωγέα. Για εισαγωγές της Κυβέρνησης των Η.Π.Α. και τύπους εισόδου που δεν απαιτούν εγγύηση, ο κωδικός 999 πρέπει να εμφανίζεται σε αυτό το μπλοκ. Όταν χρησιμοποιούνται μετρητά ή κρατικά τίτλοι αντί για εγγύηση, χρησιμοποιείται ο κωδικός 998.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Ξένο Λιμάνι Φόρτωσης.\n'Schedule K' (Ταξινόμηση Ξένων Λιμανιών ανά Γεωγραφική Περιοχή Εμπορίου και Χώρα) για το ξένο λιμάνι στο οποίο τα εμπορεύματα φορτώθηκαν πραγματικά στο πλοίο που μετέφερε τα εμπορεύματα στις Η.Π.Α. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\nΕνημέρωση 2020: Η διεύθυνση URL άλλαξε σε: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Ταυτοποίηση Μέρους σε Συναλλαγή όπως ορίζεται στο ISO 17364, ανατεθειμένη από κάτοχο Αριθμού Ταυτοποίησης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Υπηρεσίας (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τον σειριακό αριθμό RTI που είναι μοναδικός εντός του τομέα του κατόχου CIN.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Μοναδικός Παγκόσμιος Αναγνωριστικός Αριθμός Μεταφορικού Επιστρεπτέου Αντικειμένου που αποτελείται από μια ακολουθία 5 στοιχείων δεδομένων: 'IAC', ακολουθούμενο από 'CIN', ακολουθούμενο από 'Αριθμό RTI' (RTIN), ακολουθούμενο από τον χαρακτήρα '+', ακολουθούμενο από τον αριθμό σειράς 'RTI Serial Number' (RTISN) που έχει ανατεθεί (ή διαχειρίζεται) από τον προμηθευτή και είναι παγκοσμίως μοναδικός εντός του τομέα του κατόχου CIN· στη μορφή IAC CIN RTIN + RTISN (οι κενές θέσεις προστέθηκαν για οπτική σαφήνεια μόνο· δεν αποτελούν μέρος των δεδομένων). Βλέπε Παράρτημα C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Μοναδικός Παγκόσμιος Αναγνωριστικός Αριθμός Περιουσιακού Στοιχείου ενός Μεγάλου Φορτηγού Μεταφορικού Επιστρεπτέου Αντικειμένου (LLC) (RTI) με πλευρική βάση = 1000 mm, όπως ορίζεται στο ISO 17365:2013, τριτογενής συσκευασία, στρώμα 3 που αποτελείται από μια ακολουθία 5 στοιχείων δεδομένων: 'IAC', ακολουθούμενο από 'CIN', ακολουθούμενο από τον κωδικό τύπου RTI 'RTITC', ακολουθούμενο από τον χαρακτήρα '+', ακολουθούμενο από τον αριθμό σειράς 'RTI Serial Number' 'RTISN' που έχει ανατεθεί (ή διαχειρίζεται) από τον ιδιοκτήτη και είναι παγκοσμίως μοναδικός εντός του τομέα του κατόχου CIN στη μορφή IAC CIN RTITC + RTISN (οι κενές θέσεις προστέθηκαν για οπτική σαφήνεια μόνο; δεν αποτελούν μέρος των δεδομένων).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Μοναδικός Παγκόσμιος Αναγνωριστικός Αριθμός Περιουσιακού Στοιχείου ενός Μικρού Φορτηγού Μεταφορικού Επιστρεπτέου Αντικειμένου (SLC) με πλευρική βάση &lt; 1000 mm, όπως ορίζεται στο ISO 17364:2013 (RTI), τριτογενής συσκευασία, στρώμα 2 που αποτελείται από μια ακολουθία 5 στοιχείων δεδομένων: 'IAC', ακολουθούμενο από 'CIN', ακολουθούμενο από τον κωδικό τύπου RTI 'RTITC', ακολουθούμενο από τον χαρακτήρα '+', ακολουθούμενο από τον αριθμό σειράς 'RTI Serial Number' 'RTISN' που έχει ανατεθεί (ή διαχειρίζεται) από τον ιδιοκτήτη και είναι παγκοσμίως μοναδικός εντός του τομέα του κατόχου CIN στη μορφή IAC CIN RTITC + RTISN (οι κενές θέσεις προστέθηκαν για οπτική σαφήνεια μόνο; δεν αποτελούν μέρος των δεδομένων).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Μοναδικός Παγκόσμιος Αναγνωριστικός Αριθμός Επιστρεπτέου Στοιχείου Συσκευασίας (RPI) της κατηγορίας βοηθητικού υλικού συσκευασίας (καπάκι, blister, εισαγωγή, ...) που αποτελείται από μια ακολουθία 5 στοιχείων δεδομένων: 'IAC', ακολουθούμενο από 'CIN', ακολουθούμενο από 'Αριθμό RPI' RPIN, ακολουθούμενο από τον χαρακτήρα '+', ακολουθούμενο από τον αριθμό σειράς 'RPI Serial Number' RPISN που έχει ανατεθεί (ή διαχειρίζεται) από τον ιδιοκτήτη και είναι παγκοσμίως μοναδικός εντός του τομέα του κατόχου CIN στη μορφή IAC CIN RPIN + RPISN (οι κενές θέσεις προστέθηκαν για οπτική σαφήνεια μόνο; δεν αποτελούν μέρος των δεδομένων).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Αριθμός Στοιχείου Συσκευασίας.\nΑριθμός για την ταυτοποίηση του τύπου στοιχείου συσκευασίας (υλικό) που χρησιμοποιείται κατά τη συσκευασία προϊόντων και συσκευασιών.\nΟ αριθμός θα επιτρέψει τα στοιχεία συσκευασίας (υλικό) να ταυτοποιηθούν και να διαχωριστούν από προϊόντα, συσκευασίες, Μεταφορικά Επιστρεπτέα Αντικείμενα (RTIs) και Επιστρεπτέα Στοιχεία Συσκευασίας (RPIs) κατά τη διάρκεια της συσκευασίας.\nΟ αριθμός δομείται ως μια ακολουθία ελάχιστου 1 στοιχείου δεδομένων:\nΑριθμός στοιχείου συσκευασίας (υλικό) που είναι μοναδικός εντός του τομέα του κατόχου.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Παγκόσμια Μοναδική Αριθμός Συσκευασίας\nΠαγκόσμια μοναδικός αριθμός για την ταυτοποίηση του τύπου στοιχείου συσκευασίας (υλικό) που χρησιμοποιείται κατά τη συσκευασία προϊόντων και συσκευασιών.\nΟ παγκόσμια μοναδικός αριθμός θα επιτρέψει τα στοιχεία συσκευασίας (υλικά) να ταυτοποιηθούν και να διαχωριστούν από προϊόντα, συσκευασίες, Μεταφορικά Επιστρεπτέα Αντικείμενα (RTIs) και Επιστρεπτέα Στοιχεία Συσκευασίας (RPIs) κατά τη διάρκεια της συσκευασίας.\nΟ αριθμός δομείται ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων:\nΤο IAC, ακολουθούμενο από το CIN, ακολουθούμενο από τον αριθμό στοιχείου συσκευασίας (υλικό) που είναι μοναδικός εντός του τομέα του κατόχου CIN.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Παγκόσμια Μοναδικός Αναγνωριστικός Αριθμός Επιστρεπτέου Στοιχείου Συσκευασίας (RPI) όπως ορίζεται στο ISO 17364, ανατεθειμένος από κάτοχο Αριθμού Ταυτοποίησης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Υπηρεσίας (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από τον σειριακό αριθμό RPI που είναι μοναδικός εντός του τομέα του κατόχου CIN.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Προδιαγραφή ταχυδρομικής υπηρεσίας και συναφών δεδομένων διαδικασίας σύμφωνα με το πρότυπο UPU S25 'Service Data'</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Δεδομένα Άδειας Ταχυδρομείου, σύμφωνα με την προδιαγραφή στο πρότυπο UPU S25.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Προδιαγραφή πρόσθετης ταχυδρομικής υπηρεσίας και συναφών δεδομένων διαδικασίας σύμφωνα με το πρότυπο UPU S25 'Supplementary Service Data'.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Ταυτοποιήσεις Ταχυδρομικής Διοίκησης, που είναι η ταυτοποίηση, εκφρασμένη σύμφωνα με την προδιαγραφή στο πρότυπο UPU S25, μιας ή περισσότερων ταχυδρομικών διοικήσεων που συμμετέχουν στην επεξεργασία ενός ταχυδρομικού αντικειμένου ή παρτίδας.</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>Κωδικός Τοποθεσίας UPU, που είναι ένας κωδικός που ταυτοποιεί μια τοποθεσία ή γεωγραφική περιοχή, ή μια σχετική ομάδα τέτοιων τοποθεσιών ή περιοχών, που έχει σημασία για μια σχετική συναλλαγή και που συμμορφώνεται με μία από τις δομές που ορίζονται στο α) έως γ) παρακάτω:\nα) δύο κεφαλαία αλφαβητικά χαρακτήρα που αντιστοιχούν στον κωδικό δύο αλφάβητων ISO 3166-1 της χώρας στην οποία, ή που αποτελείται από αυτή, βρίσκονται οι τοποθεσίες ή οι περιοχές·\nβ) τρεις κεφαλαίοι αλφαβητικοί χαρακτήρες που αντιστοιχούν στον κωδικό IATA του αεροδρομίου ή της πόλης στην οποία, κοντά στην οποία, ή που αποτελείται από αυτή, βρίσκονται οι τοποθεσίες ή οι περιοχές·\nγ) τέσσερις ή περισσότεροι χαρακτήρες των οποίων οι πρώτοι τρεις αντιστοιχούν σε έναν κωδικό χώρας ISO 3166-1 ακολουθούμενοι από μια παύλα (-), με το υπόλοιπο να είναι ένας ταχυδρομικός κωδικός στη συγκεκριμένη χώρα·\nδ) τέσσερις ή περισσότεροι χαρακτήρες των οποίων οι πρώτοι τρεις αντιστοιχούν σε έναν κωδικό χώρας ISO 3166-1 ακολουθούμενοι από ένα σημείο (.), με το υπόλοιπο να είναι ένας κωδικός υποδιαίρεσης χώρας ISO 3166-2 στη συγκεκριμένη χώρα·\nε) πέντε κεφαλαίοι αλφαβητικοί χαρακτήρες που αντιστοιχούν στον κωδικό UN/LOCODE της περιοχής στην οποία, κοντά στην οποία, ή που αποτελείται από αυτή, βρίσκονται οι τοποθεσίες ή οι περιοχές·\nστ) έξι κεφαλαίοι αλφαριθμητικοί χαρακτήρες που αντιστοιχούν σε έναν κωδικό IMPC UPU που έχει ανατεθεί σύμφωνα με το πρότυπο UPU S34·\nζ) η συνένωση, μη μικρότερη από επτά ούτε μεγαλύτερη από 25 χαρακτήρες σε μήκος, του:\n - ενός κωδικού εκδότη που έχει ανατεθεί σύμφωνα με τα πρότυπα UPU S31;\n - ενός κωδικού τοποθεσίας, που αποτελείται από χαρακτήρες που προέρχονται από το σύνολο {A-Z; 0-9} που συμμορφώνεται με τις προδιαγραφές του εκδότη.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Προσόντα Κωδικός Τοποθεσίας UPU, συνένωση του:\n - ενός κατηγορίας τοποθεσίας που προέρχεται από τον κατάλογο κωδικών UPU 139;\n - ενός αναγνωριστικού δεδομένων 17U UPU κωδικού τοποθεσίας.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Πινακίδα Άδειας με Δεδομένα Υπηρεσίας και Κωδικό Τοποθεσίας είναι μια σύνθετη δομή δεδομένων, συμβατή με την προδιαγραφή στο πρότυπο UPU S25, που περιλαμβάνει προδιαγραφή:\n - ενός αναγνωριστικού αντικειμένου σύμφωνο με το ISO/IEC 15459;\n - ενός αναγνωριστικού δεδομένων 5U συμβατής προδιαγραφής της υπηρεσίας που πρέπει να παρέχεται σε σχέση με το αντικείμενο;\n - ενός αναγνωριστικού δεδομένων 17U συμβατού κωδικού τοποθεσίας UPU ή ενός αναγνωριστικού δεδομένων 18U συμβατού προσόντων κωδικού τοποθεσίας UPU.\n Σημείωση - Για περαιτέρω λεπτομέρειες, παρακαλώ ανατρέξτε στο πρότυπο UPU S25. Η διάκριση μεταξύ ενός απλού κωδικού τοποθεσίας UPU (DI 17U) και ενός προσόντος κωδικού τοποθεσίας UPU (DI 18U) μπορεί να προσδιοριστεί από τον πρώτο χαρακτήρα. Εάν αυτός είναι αριθμητικός, ισχύει ο 18U; εάν είναι αλφαβητικός, ισχύει ο 17U.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>Ανιχνευτής Δεδομένων OCR.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Κωδικός Προμηθευτή Ανατεθειμένος από τον Πελάτη.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Κωδικός Προμηθευτή Ανατεθειμένος από τον Προμηθευτή.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>Πρόθεμα Εταιρείας U.P.C.\nΕνημέρωση 2020: Η GS1 συνιστά αυτό το DI να μην χρησιμοποιείται πλέον και οι χρήστες αυτού του DI να μεταβούν σε προσδιοριστές δεδομένων GS1 (Αναγνωριστικά Εφαρμογών) σύμφωνα με το ISO/IEC 15418 και ISO/IEC 15459-3.\nΣύμφωνα με τη GS1, ο όρος "U.P.C." δεν χρησιμοποιείται πλέον και τα μεταδεδομένα (an2+n8) δεν είναι πλέον σωστά. Η GS1 συνιστά αυτό το DI να μην χρησιμοποιείται για μελλοντικές εφαρμογές.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>Πρόθεμα Εταιρείας GS1.\nΕνημέρωση 2020: Η GS1 συνιστά αυτό το DI να μην χρησιμοποιείται πλέον και οι χρήστες αυτού του DI να μεταβούν σε προσδιοριστές δεδομένων GS1 (Αναγνωριστικά Εφαρμογών) σύμφωνα με το ISO/IEC 15418 και ISO/IEC 15459-3.\nΣύμφωνα με τη GS1, τα μεταδεδομένα (an2+n9) δεν είναι πλέον σωστά. Η GS1 συνιστά αυτό το DI να μην χρησιμοποιείται για μελλοντικές εφαρμογές.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Κωδικός Ταυτοποίησης Μεταφορέα που έχει ανατεθεί από έναν κοινά ορισμένο βιομηχανικό πρότυπο από τον Προμηθευτή, τον Μεταφορέα και τον Πελάτη.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Κωδικός Ταυτοποίησης Χρηματοοικονομικού Ιδρύματος (κοινά ορισμένος).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Κωδικός Ταυτοποίησης Κατασκευαστή (κοινά ορισμένος).</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Κωδικός που έχει ανατεθεί σε ένα μέρος το οποίο έχει οικονομική ευθύνη για μια οντότητα ή ομάδα οντοτήτων (π.χ., ιδιοκτήτης αποθεμάτων) (κοινά ορισμένο).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Κωδικός Πελάτη Ανατεθειμένος από τον Πελάτη.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Κωδικός Πελάτη Ανατεθειμένος από τον Προμηθευτή.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Ταυτότητα Κατασκευαστή\nΣΗΜΕΙΩΣΗ - Δείτε το Παράρτημα 2, Οδηγίες CBP 7501.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Οργανισμός με ευθύνη προϋπολογισμού για μια οντότητα, διαδικασία, ή διαδικασία (π.χ., κατάστημα, τμήμα, τμήμα)(εσωτερικά ανατεθειμένο).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>Αριθμός DUNS που Ταυτοποιεί τον Κατασκευαστή.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>Αριθμός DUNS που Ταυτοποιεί τον Προμηθευτή.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>Αριθμός DUNS που Ταυτοποιεί τον Πελάτη.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Αριθμός Αποστολέα Ανατεθειμένος από τον Μεταφορέα.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>Αναγνωριστικό Προμηθευτή VMRS.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>Κωδικός CAGE των Η.Π.Α. DoD.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Ταυτοποίηση μέρους σε μια συναλλαγή στην οποία η μορφή δεδομένων αποτελείται από δύο συνεχόμενα τμήματα. Το πρώτο τμήμα είναι ο Κωδικός Εκδότη Υπηρεσίας (IAC) σύμφωνα με το ISO/IEC 15459, το δεύτερο τμήμα είναι ένας μοναδικός αριθμός ταυτοποίησης οντότητας Αριθμός Ταυτοποίησης Εταιρείας (CIN) που έχει ανατεθεί σύμφωνα με κανόνες που έχουν καθοριστεί από τον εκδότη (δείτε http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Προδιαγραφή ρόλου(ων) μέρους, σε μια συναλλαγή, που αποτελείται από έναν ή περισσότερους κωδικούς αξιών από τον κατάλογο κωδικών EDIFACT 3035 'Party Qualifier', διαχωρισμένοι με χαρακτήρες πληθυντικού (+) (Ποτέ να μην συνδυάζεται με άλλα DIs σε ένα γραμμικό σύμβολο ή άλλα μέσα όπου ο χαρακτήρας συνένωσης είναι ένας χαρακτήρας πληθυντικού (+)).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Ταυτοποίηση μέρους σε μια συναλλαγή που έχει ανατεθεί από κάτοχο Αριθμού Ταυτοποίησης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Υπηρεσίας (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από έναν χαρακτήρα πληθυντικού (+) ακολουθούμενο από έναν ή περισσότερους κωδικούς αξιών από τον κατάλογο κωδικών EDIFACT 3035 'Party Qualifier', διαχωρισμένοι με χαρακτήρες πληθυντικού (+) (Ποτέ να μην συνδυάζεται με άλλα DIs σε ένα γραμμικό σύμβολο ή άλλα μέσα όπου ο χαρακτήρας συνένωσης είναι ένας χαρακτήρας πληθυντικού (+)).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Ταυτοποίηση μέρους σε μια συναλλαγή, π.χ., 21V IAC CIN OSU, που έχει ανατεθεί από κάτοχο Αριθμού Ταυτοποίησης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Υπηρεσίας (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως μια ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC, ακολουθούμενο από CIN, ακολουθούμενο από την ταυτοποίηση υπομονάδας οργάνωσης που έχει ανατεθεί από τον CIN που είναι μοναδικός εντός του τομέα του κατόχου CIN.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>SCAC Μεταφορέα.\nΤο Standard Carrier Alpha Code - Η Εθνική Ένωση Εμπορικών Μεταφορών Οδικής Κυκλοφορίας, Inc., (NMFTA) αναθέτει SCACs για όλες τις εταιρείες εκτός από αυτούς τους κωδικούς που χρησιμοποιούνται για την ταυτοποίηση δοχείων φορτίου που δεν λειτουργούν αποκλειστικά στη Βόρεια Αμερική, σκελετούς και τρέιλερ διαμόρφωσης, μη ιδιοκτησίας σιδηροδρομικών βαγονιών, και σιδηροδρόμους. http://www.nmfta.org/Pages/welcome.aspx\nΕταιρείες που αναζητούν κωδικούς ταυτοποίησης για δοχεία φορτίου που δεν λειτουργούν στη Βόρεια Αμερική πρέπει να επικοινωνήσουν με το Bureau International des Containers, 38, rue des Blancs Manteaux, F75004 Paris, France, email: bic@bic-code.org, web www.biccode.org. Οι σιδηρόδρομοι και οι ιδιοκτήτες σκελετών διαμόρφωσης, τρέιλερ και βαγονιών που δεν ανήκουν σε σιδηροδρόμους πρέπει να επικοινωνήσουν με την Υπηρεσία Πελατών της Railinc, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, email: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Αριθμός ΦΠΑ που έχει ανατεθεί από την κυβέρνηση που ταυτοποιεί τον προμηθευτή, ξεκινώντας με έναν κωδικό χώρας ISO 3166-1 αλφα-2 (εκτός από την Ελλάδα, η οποία χρησιμοποιεί τον κωδικό γλώσσας ISO 639-1 EL), ακολουθούμενο από τον αριθμό ΦΠΑ που έχει ανατεθεί από την κυβέρνηση.\nΠαράδειγμα:\n23VIE6388047V ανατεθειμένο στην Google Ιρλανδία.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Αριθμός ΦΠΑ που έχει ανατεθεί από την κυβέρνηση που ταυτοποιεί τον πελάτη, ξεκινώντας με έναν κωδικό χώρας ISO 3166-1 αλφα-2 (εκτός από την Ελλάδα, η οποία χρησιμοποιεί τον κωδικό γλώσσας ISO 639-1 EL), ακολουθούμενο από τον αριθμό ΦΠΑ που έχει ανατεθεί από την κυβέρνηση.\nΠαράδειγμα:\n24VIE6388047V ανατεθειμένο στην Google Ιρλανδία.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Δήλωση ότι ο κωδικός NCAGE/CAGE που ακολουθεί το DI 25V είναι ο Κατασκευαστής. Μέρος μιας συναλλαγής στην οποία ο κωδικός NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE) που χρησιμοποιείται πίσω από το DI 25V δηλώνεται ότι είναι ο κατασκευαστής των αντικειμένων που εμπλέκονται στη συναλλαγή. Τα δεδομένα που ακολουθούν το DI 25V θα αποτελούνται από πέντε κεφαλαίους αλφαριθμητικούς χαρακτήρες, εξαιρουμένων των γραμμάτων "I" και "O".</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Αριθμός Εργασιακής Εντολής (π.χ., 'Παραγωγικό Χαρτί') (εσωτερικά ανατεθειμένο).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Αριθμός Ακολουθίας Εργασίας. Ένας αριθμός που καθορίζει τη σειρά μιας συγκεκριμένης εργασίας σε μια σειρά εργασιών, γενικά σε μια διαδικασία κατασκευής ή συναρμολόγησης.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Κωδικός Εργασίας/Κωδικός Εργασίας - ο τύπος της εργασίας που πρέπει να εκτελεστεί (εσωτερικά ανατεθειμένος ή κοινά ορισμένος).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Συνδυασμός Αριθμού Εργασιακής Εντολής και Αριθμού Ακολουθίας Εργασίας στη μορφή nn...n+nn...n όπου ένα σύμβολο πληθυντικού (+) χρησιμοποιείται ως διαχωριστικό μεταξύ του Αριθμού Εργασιακής Εντολής και του Αριθμού Ακολουθίας Εργασίας.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Κωδικός Κατάστασης (εσωτερικά ανατεθειμένος ή κοινά ορισμένος).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Κωδικός Μονάδας Εργασίας - προσδιορίζει το σύστημα, υποσύστημα, συναρμολόγηση, συστατικό κ.λπ. στο οποίο εκτελείται συντήρηση.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Ονομασία - (εσωτερικά ανατεθειμένος ή κοινά ορισμένος).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Αριθμός Ελέγχου Φόρμας - Προτυπωμένος αριθμός ελέγχου σε φόρμες.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Επιθεωρητής Διασφάλισης Ποιότητας - Επώνυμο.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Τηλεφωνικός Αριθμός του Προσώπου/Δραστηριότητας που Συμπληρώνει τη Φόρμα - εκφρασμένος στη μορφή (κωδικός χώρας) κωδικός πόλης ή περιοχής συν τοπικός αριθμός π.χ. (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Μεταξύ Πελάτη και Προμηθευτή Κοινά Ορισμένο</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Μεταξύ Μεταφορέα και Προμηθευτή Κοινά Ορισμένο</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Μεταξύ Πελάτη και Μεταφορέα Κοινά Ορισμένο</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Ελεύθερο Κείμενο</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Μεταξύ Μεταφορέα και Εμπορικού Συνεργάτη Κοινά Ορισμένο</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Επικεφαλίδας)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 1)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 2)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 3)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 4)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 5)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 6)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 7)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 8)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 9)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 10)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 11)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 12)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 13)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 14)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 15)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 16)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 17)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 18)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 19)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 20)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 21)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 22)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 23)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 24)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 25)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 26)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 27)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 28)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 29)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 30)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 31)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 32)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 33)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 34)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 35)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 36)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 37)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 38)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 39)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 40)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 41)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 42)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 43)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 44)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 45)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 46)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 47)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 48)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 49)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 50)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 51)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 52)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 53)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 54)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 55)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 56)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 57)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 58)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 59)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 60)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 61)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 62)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 63)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 64)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 65)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 66)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 67)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 68)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 69)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 70)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 71)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 72)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 73)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 74)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 75)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 76)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 77)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 78)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 79)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 80)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 81)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 82)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 83)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 84)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 85)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 86)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 87)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 88)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Δομημένο Ελεύθερο Κείμενο (Δεδομένα Γραμμής 89)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>Ο χαρακτήρας 'EQUAL'. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>Συνέχεια ενός Κωδικού Προϊόντος (Κατηγορία 16) που έχει ανατεθεί από τον Πελάτη και είναι πολύ μεγάλος για το απαιτούμενο μέγεθος πεδίου.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>Συνέχεια Κωδικού Ιχνηλασιμότητας (Κατηγορία 20) που έχει ανατεθεί από τον Προμηθευτή.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>Συνέχεια Σειριακού Αριθμού (Κατηγορία 19) που έχει ανατεθεί από τον Προμηθευτή.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Συνέχεια Ελεύθερου Κειμένου (Κατηγορία 26) κοινά ορισμένο μεταξύ Προμηθευτή/Μεταφορέα/Πελάτη.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Συνέχεια Αναφοράς Συναλλαγής (Κατηγορία 11) κοινά ορισμένο μεταξύ Προμηθευτή/Μεταφορέα/Πελάτη.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>Συνέχεια Κωδικού Προϊόντος (Κατηγορία 16) Ανατεθειμένο από τον Προμηθευτή.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Χαρακτήρας Λειτουργίας 1 (FUNC1). Εμφανίζεται στην πρώτη θέση μετά τον χαρακτήρα έναρξης συμβολολογίας ενός συμβόλου Code 128, Code 49, ή Code 16K για να σηματοδοτήσει ένα σύμβολο υπό τον έλεγχο της GS1.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Μορφή YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Μορφή DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Μορφή MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Μορφή YDDD (Ιουλιανή).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Μορφή YYDDD (Ιουλιανή).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>Μορφή YYMMDD αμέσως ακολουθούμενη από έναν Αριθμό Στοιχείου Δεδομένων ANSI X12.3 374 Qualifier παρέχοντας έναν κωδικό που προσδιορίζει τον τύπο της ημερομηνίας (π.χ., ημερομηνία αποστολής, ημερομηνία κατασκευής).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>Μορφή YYYYMMDD αμέσως ακολουθούμενη από έναν Αριθμό Στοιχείου Δεδομένων ANSI X12.3 374 Qualifier παρέχοντας έναν κωδικό που προσδιορίζει τον τύπο της ημερομηνίας (π.χ., ημερομηνία αποστολής, ημερομηνία κατασκευής).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Μορφή MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Εκδήλωση, Ημερομηνία, Και Ώρα.\nΜορφή YYYYMMDDHHMM (24ωρο ρολόι - UTC) αμέσως ακολουθούμενη από έναν Κωδικό Προσόντων UN/EDIFACT 2005 παρέχοντας έναν κωδικό που προσδιορίζει τον τύπο της ημερομηνίας), π.χ.,\n11 [Ημερομηνία που αναμένεται να αποσταλούν/αποστέλλονται τα αγαθά το μήνυμα εκδίδεται.];\n17 [Εκτιμώμενη ημερομηνία/ώρα παράδοσης όταν αναμένεται να παραδοθούν τα αγαθά];\n35 [Ημερομηνία κατά την οποία τα αγαθά παραδίδονται στον προορισμό τους.];\n118 [Επιβεβαίωση Κράτησης];\n129 [Ημερομηνία όταν το πλοίο/εμπορεύματα αναχώρησαν από το τελευταίο ξένο λιμάνι στη χώρα εξαγωγής.];\n132 [Ημερομηνία/ώρα όταν ο μεταφορέας εκτιμά ότι ένα μέσο μεταφοράς θα φτάσει στο λιμάνι αποβίβασης ή στον τόπο προορισμού.];\n133 [Ημερομηνία/ώρα όταν ο μεταφορέας εκτιμά ότι ένα μέσο μεταφοράς θα αναχωρήσει από τον τόπο αναχώρησης];\n137 [Ημερομηνία/ώρα όταν ο προμηθευτής στέλνει μέρη βάσει του αιτήματος του πελάτη. (Ημερομηνία όταν εκδίδεται το μήνυμα DESADV. Η σύσταση είναι το DESADV να εκδίδεται εντός 30 λεπτών από τη συλλογή των αγαθών στο μέρος ShipFrom];\n146 [Εκτιμώμενη Ημερομηνία Εισόδου (Τελωνείο) ημερομηνία κατά την οποία αναμένεται η επίσημη ημερομηνία μιας Τελωνειακής Εισόδου.];\n151 [Ημερομηνία Εισαγωγής (Άφιξη στο λιμάνι με πρόθεση να αποβιβαστούν];\n186 Αναχωρεί από Εγκατάσταση ('Έξοδος από την Πύλη)];\n204 [Ημερομηνία κατά την οποία τα Τελωνεία απελευθερώνουν τα εμπορεύματα στον μεταφορέα ή στον εισαγωγέα];\n253 [Αναχωρεί από Λιμάνι ('Αναχώρηση Πλοίου')];\n252 [Άφιξη σε Λιμάνι ('Άφιξη Πλοίου')];\n283 [Άφιξη σε Εγκατάσταση ('Είσοδος στην Πύλη)];\n342 [Φορτωμένη Μεταφορά];\n351 [Επιθεώρηση Πύλης Τερματικού Σταθμού];\n411 [Διαταγή Συμπλήρωσης];\n412 [Διαταγή Αποσυναρμολόγησης];\n420 [Αφορτωμένη Μεταφορά];\n534 [Επισκευή];\n677 [Επιβεβαίωση Συμπλήρωσης];\n678 [Επιβεβαίωση Αποσυναρμολόγησης];\n696 [Ημερομηνία Υποβολής].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Ημερομηνία (δομή και σημασία κοινά ορισμένη).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Μορφή YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Μορφή YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Μορφή YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Παλαιότερη και Νεότερη Ημερομηνία Κατασκευής στη μορφή YYWWYYWW.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Ημερομηνία Λήξης (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Ημερομηνία Λήξης (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Ημερομηνία Παραγωγής (YYYYMMDD) - Ημερομηνία κατασκευής.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Ημερομηνία Παραγωγής (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Χρόνος Ενεργοποίησης Ετικέτας.\nYYYYMMDDHHMM (24ωρο ρολόι - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Χρόνος Απενεργοποίησης Ετικέτας.\nYYYYMMDDHHMM (24ωρο ρολόι - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Ημερομηνία Επιθεώρησης (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Απαιτούμενη Ημερομηνία Παράδοσης (DDD Ιουλιανή) ή Κωδικός DOD MILSTAMP.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Χρόνος Καταγραφής.\nYYYYMMDDHHMM (24ωρο ρολόι - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Ημερομηνία, εκφρασμένη σε τροποποιημένη μορφή συμβατή με το UTC:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] όπου τα αγκύλες δηλώνουν προαιρετικότητα και το yyyy είναι το έτος, mmdd ο μήνας και η ημέρα, hhmmss η ώρα της ημέρας σε ώρες λεπτά και δευτερόλεπτα, fff τα κλάσματα δευτερολέπτων και poooo η διαφορά από το UTC εκφρασμένη σε ώρες και λεπτά, η διαφορά να είναι θετική αν το p είναι σημείο (.), αρνητική αν το P είναι πρόσημο μείον (-).\nΠΑΡΑΔΕΙΓΜΑ:\n2005 - (UTC) ημερολογιακό έτος 2005;\n200505 - (UTC) ημερολογιακός μήνας Μάιος 2005;\n20050518 - (UTC) 18 Μαΐου 2005;\n200505181247 - 12:47 UTC στις 18 Μαΐου 2005;\n200505181247.0100 - 12:47 τοπική ώρα, δηλαδή 11:47 UTC, στις 18 Μαΐου 2005;\n20050518124723099 - 99 χιλιοστά του δευτερολέπτου μετά τις 12:47:23 UTC στις 18 Μαΐου 2005.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Προσόντα Ημερομηνία, που αποτελείται από τη συνένωση των:\n- ενός κωδικού εκδότη ISO/IEC 15459;\n- ενός προσόντος ημερομηνίας που συμμορφώνεται με τις προδιαγραφές εκείνου του εκδότη;\n- μιας ημερομηνίας της οποίας η μορφή και η ερμηνεία συμμορφώνονται με τις προδιαγραφές του εκδότη για εκείνο το προσόντο ημερομηνίας.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Καλύτερη πριν από την ημερομηνία: (YYYYMMDD).\nΠαράδειγμα: 25D20170202 = 2 Φεβρουαρίου 2017</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Ημερομηνία πρώτου παγώματος (YYYYMMDD).\nΗ ημερομηνία πρώτου παγώματος ορίζεται ως η ημερομηνία κατά την οποία τα προϊόντα παγώνονται αμέσως μετά τη σφαγή, τη συγκομιδή, την αλίευση ή μετά την αρχική επεξεργασία.\nΠαράδειγμα: 26D20170721 = 21 Ιουλίου 2017.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Ημερομηνία συγκομιδής (YYYYMMDD).\nΗ ημερομηνία κατά την οποία ένα ζώο σφάγηκε ή σκοτώθηκε, ένα ψάρι αλιεύθηκε, ή μια καλλιέργεια συγκομίστηκε.\nΠαράδειγμα: 27D20170615 = 15 Ιουνίου 2017.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Εύρος Ημερομηνιών Συγκομιδής (YYYYMMDDYYYYMMDD).\nΗ αρχική και τελική ημερομηνία εύρους κατά το οποίο έγινε η συγκομιδή.\nΓια παράδειγμα· ζώα σφάγηκαν ή σκοτώθηκαν, ψάρια αλιεύθηκαν, ή μια καλλιέργεια συγκομίστηκε.\nΗ ροή δεδομένων ορίζεται ως το πρώτο YYYYMMDD ως η αρχική ημερομηνία και το τελευταίο YYYYMMDD ως η τελική ημερομηνία.\nΠαράδειγμα:\n28D2017012320170214 = Αρχή· 23 Ιανουαρίου 2017. Τέλος· 14 Φεβρουαρίου 2017.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>Χαρακτήρες 'Αριστερή Τετράγωνη Αγκύλη', 'Δεξιά Παρένθεση', 'Μεγαλύτερο Σημάδι', 'Χαρακτήρας Διαχωριστή Εγγραφής'. Δομή συμβατή με το ISO/IEC 15434, Τεχνολογία Πληροφορικής - Τεχνικές Αυτόματης Ταυτοποίησης και Συλλογής Δεδομένων - Σύνταξη για Μέσα Υψηλής Χωρητικότητας ADC.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Ταξινόμηση Περιορισμένων Ουσιών - 'Κωδικός Περιβαλλοντικής Ταξινόμησης' που περιλαμβάνει κατηγορίες φινιρίσματος χωρίς μόλυβδο (Pb-Free) που ορίζονται στο JESD97 (IPC JEDEC J-STD-609), και μελλοντικούς κωδικούς που ανατίθενται από τη βιομηχανία ή κυβερνητικούς φορείς σχετικά με την περιβαλλοντική ρυθμιστική συμμόρφωση και το περιεχόμενο επικίνδυνων υλικών.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Ατμοσφαιρική Πίεση - (υψόμετρο) εκφρασμένη σε Pascal ως το πρότυπο διεθνές μέτρο.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Μέγιστη Επιτρεπόμενη Θερμοκρασία. Μέγιστη επιτρεπόμενη θερμοκρασία· Βαθμοί Κελσίου, '-' (μείον) κωδικοποιημένο, αν απαιτείται.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Ελάχιστη Επιτρεπόμενη Θερμοκρασία.\nΕλάχιστη επιτρεπόμενη θερμοκρασία· Βαθμοί Κελσίου, '-' (μείον) κωδικοποιημένο, αν απαιτείται.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Μέγιστη Επιτρεπόμενη Σχετική Υγρασία.\nΜέγιστη επιτρεπόμενη σχετική υγρασία, υπονοούμενη ως ποσοστό.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Ελάχιστη Επιτρεπόμενη Σχετική Υγρασία.\nΜέγιστη επιτρεπόμενη σχετική υγρασία, εκφρασμένη ως ποσοστό.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Θερμοκρασία Ψυγείου Δοχείου.\nΓια τη θερμοκρασιακά ελεγχόμενη μεταφορά φορτίου, ο στόχος που ορίζεται από τον αποστολέα, Βαθμοί Κελσίου, '-' (μείον) κωδικοποιημένο, αν απαιτείται.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Συνολικός Χρόνος Δείκτης Θερμοκρασίας - εκφρασμένος ως ο αριθμός των μετρήσεων ή καταμετρήσεων.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Δείκτης Θερμοκρασίας - Επόμενη Υψηλότερη Συναρμολόγηση - εκφρασμένος ως ο αριθμός των μετρήσεων ή καταμετρήσεων.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Δήλωση Κατηγορίας Υλικού Συσκευασίας*, Κωδικού* και Βάρους για ένα δεδομένο υλικό συσκευασίας που χρησιμοποιείται σε μια δεδομένη συσκευασία σύμφωνα με την οδηγία της ΕΕ για τις συσκευασίες και τα απόβλητα συσκευασίας. (Η κατηγορία υλικού και ο κωδικός ορίζονται στο Παράρτημα M).\n12ECCMMMMMMNNNNNUU όπου: - '12E' (an3) είναι το Αναγνωριστικό Δεδομένων·\n - 'CC' (n2) είναι η Κατηγορία Υλικού σύμφωνα με το Παράρτημα M·\n - 'MMMMMM' (an1...6) είναι ο Κωδικός Υλικού σύμφωνα με το Παράρτημα M·\n - 'NNNNN' (n5) Βάρος Υλικού, συμπεριλαμβανομένου του δεκαδικού σημείου (π.χ., 12.12)·\n - 'UU' (an2) είναι η Μονάδα Μέτρησης για το βάρος (π.χ., KG, GR, LB ή OZ ανά ANSI X12.3 όπως στο Παράρτημα D).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>Τα δεδομένα που ακολουθούν το DI 13E θα είναι ένας από τους δείκτες MSL (1, 2, 2a, 3, 4, 5, 5a, 6) όπως φαίνονται στη στήλη LEVEL στον Πίνακα 5-1 του προτύπου JEDEC IPC/JEDEC J-STD-020E. Ο Πίνακας παρουσιάζεται παρακάτω μόνο για αναφορά· η τρέχουσα έκδοση του αναφερόμενου προτύπου πρέπει να χρησιμοποιηθεί για την απόκτηση του σωστού MSL για το πραγματικό συστατικό. Παράδειγμα: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>Ο χαρακτήρας 'HYPHEN' ή 'MINUS'. Κεντρικός Αριθμός Φαρμακείου (PZN), ελεγχόμενος από το IFA-ABDATA, Γερμανία (Η εγγραφή αυτού του αναγνωριστικού συστήματος λήγει στις 2016-07-01). Αντικαταστάθηκε από '9N'.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Επικεφαλίδα Επανάληψης.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Ο γονέας μου ______ είναι . . . Μοναδικός αναγνωριστικός ακολουθούμενος από ένα Αναγνωριστικό Δεδομένων και τα συναφή δεδομένα (για χρήση με επιστρεπτέα συσκευασία). Αυτό το Αναγνωριστικό Δεδομένων πρέπει να ακολουθεί αμέσως το πεδίο (δομημένο από ένα Αναγνωριστικό Δεδομένων, δεδομένα και έναν διαχωριστικό ομάδας) με το οποίο σχετίζεται.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>Έχω ______ παιδιά . . . (για χρήση με επιστρεπτέα συσκευασία, π.χ· 3F10, για δέκα παιδιά). Αυτό το Αναγνωριστικό Δεδομένων πρέπει να ακολουθεί αμέσως το πεδίο (δομημένο από ένα Αναγνωριστικό Δεδομένων, δεδομένα και έναν διαχωριστικό ομάδας) με το οποίο σχετίζεται.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Λογική Ανάθεση μιας Σελίδας Πληροφοριών μέσα σε μια ομάδα σελίδων που είναι διασκορπισμένες σε αρκετούς φορείς δεδομένων, δομημένη ως μια ακολουθία έως τριών (3) συνεχόμενων στοιχείων δεδομένων, διαχωρισμένων με μια κάθετο ( / ) :\n Αριθμός σελίδας (απαιτούμενο), ακολουθούμενος από τον αριθμό σελίδων (προαιρετικό, απαιτούμενο για την τελευταία σελίδα), ακολουθούμενος από έναν προαιρετικό αλφαριθμητικό κωδικό ομάδας (προαιρετικό· αν χρησιμοποιηθεί τότε απαιτείται για όλες τις σελίδες και δομημένο σύμφωνα με το ISO/IEC 15459-3 ως μια ακολουθία 3 στοιχείων δεδομένων: Κωδικός Εκδότη Υπηρεσίας, ακολουθούμενος από τον Αριθμό Ταυτοποίησης Εταιρείας, ακολουθούμενος από έναν αλφαριθμητικό κωδικό μοναδικό εντός του τομέα του εκδότη.\n Προαιρετικές κάθετοι.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>Έχω ______ παιδιά και είναι . . . (για χρήση με επιστρεπτέα συσκευασία) Αυτό το Αναγνωριστικό Δεδομένων πρέπει να ακολουθεί αμέσως το πεδίο (δομημένο από ένα Αναγνωριστικό Δεδομένων, δεδομένα και έναν διαχωριστικό ομάδας) με το οποίο σχετίζεται.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>Ο 'ΘΑΥΜΑΣΤΙΚΟΣ' χαρακτήρας. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Όνομα Μέρους.\nΌνομα ενός μέρους ακολουθούμενο από έναν χαρακτήρα πληθυντικού (+) ακολουθούμενο από έναν ή περισσότερους κωδικούς αξιών από τον κατάλογο κωδικών EDIFACT 3035 'Party Qualifier', π.χ·\nBY [Αγοραστής];\nCF [Χειριστής δοχείου];\nCN [Παραλήπτης];\nCS [Συμπυκνωτής];\nDEI [Χειριστής πλοίου/καπετάνιος πλοίου];\nFA [Κωδικός επιχειρησιακού προσωπικού];\nIM [Εισαγωγέας];\nMF [Κατασκευαστής];\nOS [Αποστολέας];\nSE [Πωλητής];\nST [Προς Αποστολή Σε];\nUC [Τελικός παραλήπτης].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Κωδικός Ταυτοποίησης Υπαλλήλου που έχει ανατεθεί από τον εργοδότη.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>Αριθμός Κοινωνικής Ασφάλισης των Η.Π.Α.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Αριθμός Ταυτοποίησης για Μη-Υπαλλήλους (εσωτερικά ανατεθειμένος ή κοινά ορισμένος) (π.χ., συμβασιούχοι εργαζόμενοι, προμηθευτές, προσωπικό υπηρεσιών και παραδόσεων).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Εθνικός Αριθμός Κοινωνικής Ασφάλισης.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Επώνυμο.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Όνομα Μέρους (Γραμμή 2).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Τηλέφωνο Επικοινωνίας.\nΚωδικός Χώρας, Κωδικός Περιοχής, Ανταλλαγή, αριθμός [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Ηλεκτρονική Διεύθυνση Επικοινωνίας.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Αριθμός Παραλήπτη.\nΟ μοναδικός αριθμός ταυτοποίησης μπορεί να είναι το IRS, EIN, SSN, ή ο αριθμός που έχει ανατεθεί από το CBP, όπως απαιτείται στη Φόρμα Ασφάλειας. Μόνο οι παρακάτω μορφές πρέπει να χρησιμοποιούνται: IRS EIN: NN-NNNNNNN;\nIRS EIN με επίθημα:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP ανατεθειμένος αρ.: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Προσωπικός Κωδικός Ταυτοποίησης (πρώτο γράμμα, τελευταίο γράμμα, τέσσερα τελευταία του SSN).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Πρώτο Όνομα και Μεσαίο Αρχικό.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Στρατιωτικός Βαθμός (E1-E9, W1-W5, και O1-O10).\nΕνημέρωση 2020: Η μορφή μεταδεδομένων έχει αλλάξει για να συμφωνεί με τους πραγματικούς στρατιωτικούς βαθμούς που χρησιμοποιούνται από το στρατό: "an2+an3". Οι πληροφορίες εξήγησης έχουν αλλάξει σε: "Στρατιωτικός Βαθμός (E1-E9, W1-W5, και O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Ένας Εθνικός Αριθμός Ταυτοποίησης, Εθνικός Αριθμός Ταυτότητας, ή Εθνικός Αριθμός Ασφαλιστικής Κάλυψης που χρησιμοποιείται ως μέσο ταυτοποίησης ατόμων εντός μιας χώρας για σκοπούς εργασίας, φορολόγησης, κυβερνητικών παροχών, υγειονομικής περίθαλψης και άλλων κυβερνητικών λειτουργιών.\nΗ δομή του αναγνωριστικού είναι το DI (15H) ακολουθούμενο από τον Κωδικό Χώρας ISO 3166-1 Alpha2 ακολουθούμενο από τον κυρίαρχο κυβερνητικό ανατεθειμένο αναγνωριστικό κωδικό για άτομα.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Παγκοσμίως Μοναδικό Προσωπικό ID. που έχει ανατεθεί από κάτοχο Κωδικού Ταυτοποίησης Εταιρείας (CIN) και περιλαμβάνει τον σχετικό Κωδικό Εκδότη Υπηρεσίας (IAC) σύμφωνα με το ISO/IEC 15459 και το μητρώο του, δομημένο ως ακολουθία 3 συνεχόμενων στοιχείων δεδομένων: IAC ακολουθούμενο από CIN, ακολουθούμενο από το ID μοναδικό εντός του τομέα του κατόχου.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Παγκοσμίως Μοναδικό Προσωπικό ID, με έναν κωδικό "Party Qualifier" από τον κατάλογο κωδικών EDIFACT 3035</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Αποκλειστική Ανάθεση - Αριθμός Ταυτοποίησης Οχήματος (VIN) όπως ορίζεται στις ΗΠΑ υπό τον CFR 49, Ενότητα Ενότητα 565 και διεθνώς από το ISO 3779. (Αυτές είναι πλήρως συμβατές δομές δεδομένων).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Συντομευμένος Κωδικός VIN.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Παγκοσμίως μοναδικός αναγνωριστικός κωδικός μεταφορικού οχήματος (π.χ., φορτηγά) που αποτελείται από τον Αριθμό Ταυτοποίησης Οχήματος (VIN) όπως ορίζεται στις ΗΠΑ υπό τον CFR 49 Ενότητα Ενότητα 565, και διεθνώς από το ISO 3779, ακολουθούμενο από τον χαρακτήρα '+', στη συνέχεια ακολουθεί ο αριθμός κυβερνητικής έκδοσης Άδειας Κυκλοφορίας Οχήματος στη μορφή '4I' 'VIN' '+' 'αριθμός κυβερνητικής έκδοσης Άδειας Κυκλοφορίας Οχήματος' (οι εισαγωγικές και τα κενά εμφανίζονται για διευκόλυνση· δεν είναι μέρος των δεδομένων).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Μοναδικός αναγνωριστικός κωδικός παραγωγικού οχήματος που θα χρησιμοποιηθεί κατά τις διαδικασίες παραγωγής οχημάτων, που αποτελείται από τον Αριθμό Ετικέτας Καροσαρίας (BTN· ή οποιοσδήποτε άλλος περιγραφέας χρησιμοποιείται για την ταυτοποίηση της ακατέργαστης καρότσας του αυτοκινήτου, ή αλλιώς της συναρμολόγησης των μερών που χρησιμοποιούνται για να ξεκινήσει η παραγωγή του οχήματος), ακολουθούμενο από τον χαρακτήρα '+', στη συνέχεια ακολουθεί ο Αριθμός Παραγγελίας Παραγωγής (PON), ακολουθούμενο από τον χαρακτήρα '+', και στη συνέχεια ακολουθεί ο Αριθμός Σειριακός που έχει ανατεθεί από τον κατασκευαστή (SN). ΣΗΜΕΙΩΣΗ - Το στοιχείο SN πρέπει να αντικατασταθεί από το VIN μόλις το VIN είναι διαθέσιμο στη διαδικασία συναρμολόγησης.\nΗ κατασκευή θα είναι ως εξής·\n\5I" "BTN" "+" "PON" "+" "SN"\nαλλάζοντας σε (όταν το VIN είναι διαθέσιμο)\n"5I" "BTN" "+" "PON" "+" "VIN"\nΣΗΜΕΙΩΣΗ - Οι εισαγωγικές και τα κενά εμφανίζονται για διευκόλυνση μόνο· δεν είναι μέρος των δεδομένων.\nΣΗΜΕΙΩΣΗ - Αυτό το DI ποτέ δεν πρέπει να συνδυάζεται με άλλα DIs σε ένα γραμμικό σύμβολο ή άλλα μέσα όπου ο χαρακτήρας συνένωσης είναι ένας χαρακτήρας πληθυντικού (+).\nΠαραδείγματα:\nΈκδοση SN: 5IABCD1234+CO1234+W0L201600500001\nΈκδοση VIN: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>

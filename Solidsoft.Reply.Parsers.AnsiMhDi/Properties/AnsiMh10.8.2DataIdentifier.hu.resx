@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="di0" xml:space="preserve">
+    <value>A 'PLUS' karakter. Health Industry Business Communications Council (HIBCC)</value>
+  </data>
+  <data name="di10000" xml:space="preserve">
+    <value>Egyedi rendszámtábla szám.</value>
+  </data>
+  <data name="di10001" xml:space="preserve">
+    <value>Egyedi rendszámtábla szám hozzárendelve egy szállítási egységhez, amely az alacsonyabb szintű csomagolás, a törhetetlen egység.</value>
+  </data>
+  <data name="di10002" xml:space="preserve">
+    <value>Egyedi rendszámtábla szám hozzárendelve egy szállítási egységhez, amely több csomagot tartalmaz.</value>
+  </data>
+  <data name="di10003" xml:space="preserve">
+    <value>Egyedi rendszámtábla szám hozzárendelve egy szállítási egységhez, amely az alacsonyabb szintű csomagolás, a törhetetlen egység és amelyhez EDI adatok kapcsolódnak.</value>
+  </data>
+  <data name="di10004" xml:space="preserve">
+    <value>Egyedi rendszámtábla szám hozzárendelve egy szállítási egységhez, amely több csomagot tartalmaz és amelyhez EDI adatok kapcsolódnak.</value>
+  </data>
+  <data name="di10005" xml:space="preserve">
+    <value>Egyedi rendszámtábla szám hozzárendelve egy vegyes szállítási egységhez, amely különböző tételeket tartalmaz egyetlen vevői tranzakcióban és lehet, hogy kapcsolódnak hozzá EDI adatok.</value>
+  </data>
+  <data name="di10006" xml:space="preserve">
+    <value>Egyedi rendszámtábla szám hozzárendelve egy mester szállítási egységhez, amely azonos tételeket tartalmaz egyetlen vevői tranzakcióban és lehet, hogy kapcsolódnak hozzá EDI adatok.</value>
+  </data>
+  <data name="di10007" xml:space="preserve">
+    <value>Járművek regisztrációs rendszámtáblájának száma (nem egyedi az ország és a kiadó kormányzati régió/hatóság azonosítása nélkül)</value>
+  </data>
+  <data name="di10008" xml:space="preserve">
+    <value>Tengeri Mobil Szolgáltatási Azonosító (MMSI).\nEgy kilenccifras szám, amelyet a Nemzetközi Távközlési Unió szabályoz azért, hogy egyedileg azonosíthasson egy hajót vagy egy part menti rádióállomást. Példa: 8J211123456.</value>
+  </data>
+  <data name="di11000" xml:space="preserve">
+    <value>Vevő által hozzárendelt rendelésszám egy beszerzési tranzakció azonosítására (pl. rendelési szám).</value>
+  </data>
+  <data name="di11001" xml:space="preserve">
+    <value>Szállító által hozzárendelt rendelésszám egy beszerzési tranzakció azonosítására.</value>
+  </data>
+  <data name="di11002" xml:space="preserve">
+    <value>Számla fuvarlevele/úti okmánya/szállítási azonosító kódja, amit a szállító/hajózó rendel hozzá.</value>
+  </data>
+  <data name="di11003" xml:space="preserve">
+    <value>Fuvarlevél/úti okmány/szállítási azonosító kód, amit a fuvarozó rendel hozzá.</value>
+  </data>
+  <data name="di11004" xml:space="preserve">
+    <value>A rendelés sorának száma, amelyet a vevő rendel hozzá egy beszerzési tranzakció azonosítására.</value>
+  </data>
+  <data name="di11005" xml:space="preserve">
+    <value>A vevő által hozzárendelt hivatkozási szám egy szállítási engedély (kiadás) azonosítására egy létesített beszerzési rendelés ellenében.</value>
+  </data>
+  <data name="di11006" xml:space="preserve">
+    <value>A fuvarozó által hozzárendelt PRO#.</value>
+  </data>
+  <data name="di11007" xml:space="preserve">
+    <value>Szállítási mód szabad szöveges formátumban, közösen meghatározva a vevő és a szállító között (pl. Légiközlekedés, Teherautó, Hajó, Vasút).</value>
+  </data>
+  <data name="di11008" xml:space="preserve">
+    <value>Szerződésszám.</value>
+  </data>
+  <data name="di11009" xml:space="preserve">
+    <value>Általános tranzakciós hivatkozási kód (belsőleg hozzárendelt vagy közösen meghatározott).</value>
+  </data>
+  <data name="di11010" xml:space="preserve">
+    <value>Számlaszám.</value>
+  </data>
+  <data name="di11011" xml:space="preserve">
+    <value>Csomagolólista szám.</value>
+  </data>
+  <data name="di11012" xml:space="preserve">
+    <value>SCAC (Standard Carrier Alpha Code) (an4 - kötőjellel '-' balra töltve) és a fuvarozó által hozzárendelt progresszív szám.</value>
+  </data>
+  <data name="di11013" xml:space="preserve">
+    <value>Fuvarlevél száma /Szállítási átvételi szám SCAC + konténer szállítmányának B/L száma vagy úti okmánya.</value>
+  </data>
+  <data name="di11014" xml:space="preserve">
+    <value>Összevont rendelésszám és sorozatszám a következő formátumban nn...nn+nn...n, ahol a plusz (+) szimbólumot használjuk elválasztóként a rendelésszám és a sorozatszám között.</value>
+  </data>
+  <data name="di11015" xml:space="preserve">
+    <value>KANBAN szám.</value>
+  </data>
+  <data name="di11016" xml:space="preserve">
+    <value>DELINS szám: kódot rendelnek hozzá egy olyan dokumentum azonosítására, amely tartalmazza a szállítási információkat.</value>
+  </data>
+  <data name="di11017" xml:space="preserve">
+    <value>Csekk szám.</value>
+  </data>
+  <data name="di11018" xml:space="preserve">
+    <value>Szerkezeti hivatkozás.</value>
+  </data>
+  <data name="di11019" xml:space="preserve">
+    <value>Külföldi Katonai Értékesítési Eset Száma.</value>
+  </data>
+  <data name="di11020" xml:space="preserve">
+    <value>Licenc Azonosító, egy globálisan egyedi azonosító egy licenchez vagy szerződéshez, amely alapján az elemeket előállítják, feldolgozásra benyújtják és/vagy kifizetik, amelyet az alábbiak összefűzésével hoznak létre:\n - egy ISO/IEC 15459 kiadói ügynökségi kód;\n - egy licenc- vagy szerződésszám, amely megfelel az érintett kiadói ügynökség specifikációinak;\n és amely:\n - kizárólag nagybetűs betűkből és/vagy számjegyekből áll;\n - egyedi (azaz különbözik minden más ISO/IEC 15459 szabványos azonosítótól) az ügynökség domainjén belül;\n - nem származtatható semmilyen más ISO/IEC 15459 szabványos azonosítóból, amelyet ugyanazon ügynökség adott ki, egyszerűen karakterek hozzáadásával vagy eltávolításával a végéről.</value>
+  </data>
+  <data name="di11021" xml:space="preserve">
+    <value>Vevői adatok, azaz adatok, amelyek:\n - a vevő szemszögéből egy elemmel vagy tranzakcióval, vagy egy tételcsoporttal vagy kapcsolódó tranzakciókkal kapcsolatosak, és\n - legfeljebb 35 nyomtatható karakterből és/vagy szóközből állnak, kivéve a plusz (+) jelet, az ISO/IEC 646 karakterkészletéből.</value>
+  </data>
+  <data name="di11022" xml:space="preserve">
+    <value>'22K' Tranzakció Hitelesítési Információ, egy érték, amelyet összefűzéssel hoznak létre:\n - egy ISO/IEC 15459 kiadói ügynökségi kód;\n - egy érték, amely megfelel az érintett kiadói ügynökség specifikációinak,\n amely lehetővé teszi a tranzakció hitelességének ellenőrzését, különösen azt, hogy a tranzakciót a tranzakcióban állított kezdeményező indította el, a következők által:\n - a tranzakció címzettje, és/vagy\n - egy vagy több olyan fél, amely részt vesz annak kezelésében vagy feldolgozásában, és/vagy\n - egy megbízható harmadik fél.</value>
+  </data>
+  <data name="di11025" xml:space="preserve">
+    <value>Szállítási Egységek Globálisan Egyedi Azonosítása a Fuvarozó által Hozzárendelve, amely a következőként van meghatározva:\nEgy tranzakcióhoz kapcsolódó fél azonosítása, amelyet egy Vállalati Azonosító Szám (CIN) birtokosa rendelt hozzá, beleértve a kapcsolódó Kiadói Ügynökségi Kódot (IAC) az ISO/IEC 15459 és annak nyilvántartása szerint, strukturálva 3 összefűzött adatelem sorozataként: IAC, majd CIN, majd a fuvarlevél vagy úti okmány vagy szállítási azonosító kód, amely egyedi a CIN birtokosának domainjében.</value>
+  </data>
+  <data name="di11026" xml:space="preserve">
+    <value>Szállítási Egységek Globálisan Egyedi Azonosítása a Feladó által Hozzárendelve, amely a következőként van meghatározva:\nEgy tranzakcióhoz kapcsolódó fél azonosítása, amelyet egy Vállalati Azonosító Szám (CIN) birtokosa rendelt hozzá, beleértve a kapcsolódó Kiadói Ügynökségi Kódot (IAC) az ISO/IEC 15459 és annak nyilvántartása szerint, strukturálva 3 összefűzött adatelem sorozataként: IAC, majd CIN, majd a fuvarlevél vagy úti okmány vagy szállítási azonosító kód, amely egyedi a CIN birtokosának domainjében.</value>
+  </data>
+  <data name="di11027" xml:space="preserve">
+    <value>A szállító által hozzárendelt árajánlati szám - A szállító által a vevő árajánlatkérésére adott árajánlat szám.</value>
+  </data>
+  <data name="di12000" xml:space="preserve">
+    <value>Tárolási Hely.</value>
+  </data>
+  <data name="di12001" xml:space="preserve">
+    <value>Helyszín.</value>
+  </data>
+  <data name="di12002" xml:space="preserve">
+    <value>'Szállítási cím:' Helykód, amelyet egy iparági szabvány vagy közösen meghatározott módon definiálnak.</value>
+  </data>
+  <data name="di12003" xml:space="preserve">
+    <value>'Szállítási kiindulási cím:' Helykód, amelyet egy iparági szabvány vagy közösen meghatározott módon definiálnak.</value>
+  </data>
+  <data name="di12004" xml:space="preserve">
+    <value>Származási ország, kétkarakteres ISO 3166 országkód. Amennyiben a kereskedelmi partnerek megállapodnak, és a származási ország vegyes, használják az 'AA' országkódot.</value>
+  </data>
+  <data name="di12005" xml:space="preserve">
+    <value>'Szállításért felelős:' helykód, amelyet egy iparági szabvány vagy közösen meghatározott módon definiálnak.</value>
+  </data>
+  <data name="di12006" xml:space="preserve">
+    <value>A szállító által hozzárendelt útvonalkód, amely meghatároz egy adott szállítási utat.</value>
+  </data>
+  <data name="di12007" xml:space="preserve">
+    <value>6 karakteres Védelmi Minisztériumi Tevékenységi Kód (DoDAAC).</value>
+  </data>
+  <data name="di12008" xml:space="preserve">
+    <value>Indulási kikötő - Közösen meghatározott.</value>
+  </data>
+  <data name="di12009" xml:space="preserve">
+    <value>Érkezési kikötő - Közösen meghatározott.</value>
+  </data>
+  <data name="di12011" xml:space="preserve">
+    <value>Helyszín (szélesség/hosszúság/magasság) a következő formátumban kódolva: xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12012" xml:space="preserve">
+    <value>'Szállítási cím:' Helyszín (szélesség/hosszúság/magasság) a következő formátumban kódolva: xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12013" xml:space="preserve">
+    <value>'Szállítási kiindulási cím:' Helyszín (szélesség/hosszúság/magasság) a következő formátumban kódolva: xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12015" xml:space="preserve">
+    <value>'Szállításért felelős:' Helyszín (szélesség/hosszúság/magasság) a következő formátumban kódolva: xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+  </data>
+  <data name="di12016" xml:space="preserve">
+    <value>Címke Aktiválási Helyszín.\nAngol helyszínnév (karakterkészlet: 0-9, A-Z &lt;Szóköz&gt;).</value>
+  </data>
+  <data name="di12017" xml:space="preserve">
+    <value>Címke Deaktiválási Helyszín.\nAngol helyszínnév (karakterkészlet: 0-9, A-Z &lt;Szóköz&gt;).</value>
+  </data>
+  <data name="di12018" xml:space="preserve">
+    <value>FAO halászati terület kódja, amelyet az FAO Halászati és Akvakultúra Osztálya határoz meg (http://www.fao.org. Keresse meg a Halászati Terület Kód aloldalt).\nAz ISO/IEC 646 GS1 Általános Specifikációja által meghatározott karakterkészlet minden karaktere engedélyezett.\nPéldák:\n18L37.1.3 Nyugat-mediterrán tenger, Szardínia;\n18L47.B.1 Atlanti-óceán, Délkelet, SEAFO Divízió, Namíbia EEZ;\n18L67 Csendes-óceán, Északkelet.</value>
+  </data>
+  <data name="di12020" xml:space="preserve">
+    <value>Első szint (belsőleg hozzárendelt).</value>
+  </data>
+  <data name="di12021" xml:space="preserve">
+    <value>Második szint (belsőleg hozzárendelt).</value>
+  </data>
+  <data name="di12022" xml:space="preserve">
+    <value>Harmadik szint (belsőleg hozzárendelt).</value>
+  </data>
+  <data name="di12023" xml:space="preserve">
+    <value>Negyedik szint (belsőleg hozzárendelt).</value>
+  </data>
+  <data name="di12024" xml:space="preserve">
+    <value>Ötödik szint (belsőleg hozzárendelt).</value>
+  </data>
+  <data name="di12025" xml:space="preserve">
+    <value>Egy tranzakcióhoz kapcsolódó fél azonosítása, pl., 25L IAC CIN LOC, amelyet egy Vállalati Azonosító Szám (CIN) birtokosa rendelt hozzá, beleértve a kapcsolódó Kiadói Ügynökségi Kódot (IAC) az ISO/IEC 15459 és annak nyilvántartása szerint, strukturálva 3 összefűzött adatelem sorozataként: IAC, majd CIN, majd a fizikai belső helyszín (LOC), amely egyedi a CIN birtokosának domainjében.</value>
+  </data>
+  <data name="di12026" xml:space="preserve">
+    <value>'26L' Helykód, egy olyan hely vagy földrajzi terület azonosító kódja, vagy az ilyen helyekhez vagy területekhez kapcsolódó csoport, amely releváns egy kapcsolódó tranzakcióhoz, és amely megfelel az (a)-tól (f)-ig meghatározott struktúráknak:\na) két nagybetűs karakter, amely megfelel az országban található, vagy abból álló hely(ek)nek vagy terület(ek)nek ISO 3166-1 kétbetűs országkódjának;\nb) három nagybetűs karakter, amely megfelel azon repülőtér vagy város IATA kódjának, ahol, vagy amelyhez közel, vagy amelyből áll a hely(ek) vagy terület(ek);\nc) négy vagy több karakter, amelyek közül az első három megfelel egy ISO 3166-1 országkódnak, amit egy kötőjel (-) követ, a maradék pedig az érintett országban található irányítószám;\nd) négy vagy több karakter, amelyek közül az első három megfelel egy ISO 3166-1 országkódnak, amit egy pont (.) követ, a maradék pedig az érintett országban található ISO 3166-2 országrész kódja;\ne) öt nagybetűs karakter, amely megfelel az UN/LOCODE-nak azon a területen, közelében vagy amelyből áll a hely(ek) vagy terület(ek);\nf) a konkatenáció, amely legalább hét, de legfeljebb 35 karakter hosszúságú, az alábbiakból áll:\n- egy ISO/IEC 15459 kiadói ügynökségi kód;\n- egy helykód, amely a {A-Z; 0-9} karakterkészletből álló karakterekből áll, amely megfelel az ügynökség specifikációinak.</value>
+  </data>
+  <data name="di12027" xml:space="preserve">
+    <value>Esemény Helye UN/LOCODE.\nUN/LOCODE, amelyet egy plusz (+) karakter követ, amelyet egy vagy több kódérték követ az EDIFACT Kód Lista 3227 'Hely funkció kód minősítő' szerint, pl.,\n7 Végső Kiszállítási Hely;\n5 Indulási Kikötő;\n9 Rakományfelvételi Kikötő;\n11 Rakomány-lerakodási Kikötő;\n13 Átrakodási Hely;\n24 Bejövő Kikötő;\n35 Exportáló Ország;\n88 Fuvarozó Átvételi Helye;\n125 Külföldi Kikötő az Egyesült Államokba való indulás előtt;\n147 Raktározási cella/pozíció;\n159 Kiszállítási Hely (a címzettnek);\n248 Rakodási Hely\nhttp://www.unece.org/cefact/locode/.</value>
+  </data>
+  <data name="di12028" xml:space="preserve">
+    <value>Utca és Házszám.\nH, 6H, 28L, 29L, 30L, 31L, 32L használata esetén.</value>
+  </data>
+  <data name="di12029" xml:space="preserve">
+    <value>Városnév.\nH, 6H, 28L, 29L, 30L, 31L, 32L használata esetén.</value>
+  </data>
+  <data name="di12030" xml:space="preserve">
+    <value>Ország Alrészleteinek Részletei.\nH, 6H, 28L, 29L, 30L, 31L, 32L használata esetén.</value>
+  </data>
+  <data name="di12031" xml:space="preserve">
+    <value>Irányítószám.\nH, 6H, 28L, 29L, 30L, 31L, 32L használata esetén (Ha kötőjelet '-' használnak, azt kifejezetten kódolni kell).</value>
+  </data>
+  <data name="di12032" xml:space="preserve">
+    <value>Országkód.\nISO 3166-1 Alpha 2 Kód\nH, 6H, 28L, 29L, 30L, 31L, 32L használata esetén.</value>
+  </data>
+  <data name="di12033" xml:space="preserve">
+    <value>Egységes Erőforrás Helymegjelölő (URL).\nTartalmazza az összes karaktert, amely egy URL-t alkot, beleértve a fejléc adatokat is, mint pl. http://. Karakterkészlet, ahogy az RFC 1738-ban szerepel.</value>
+  </data>
+  <data name="di12034" xml:space="preserve">
+    <value>Folyamat URL-re Mutató Mutató (P2P URL) egy URL indításához, amely minden más adatelemet tartalmaz, amely egy AIDC médiában van kódolva a következő szabály szerint: Olvassa be a kódot, és indítsa el az URL-t a P2P URL karakterlánccal kezdve, elhagyva a 34L DI-t és az ISO/IEC 15434 borítékszintaxisát (előtagot és utótagot) és fűzze hozzá az összes többi adatelemet, amelyet ugyanabban a sorrendben olvasott be, ahogy az a médiában van kódolva, beleértve a DI-kat és az adatelem-elválasztókat. Alakítsa át a hozzáfűzött adatokban lévő speciális karaktereket RFC 1738 formátumra (pl. a 'GS' csoportelválasztót fordítsa le RFC 1738 sorozatra %1D). Vegye figyelembe, hogy ez nem vonatkozik magára a P2P URL-re.\nPélda: Kódolt adatsor (ISO/IEC 15434 használatával) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\neredményez a következő URL-t az átvitt adatokkal:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nMegjegyzés: az '05' formátumú boríték adatait nem vették figyelembe az URL-ben, mivel a 34L-t az '06' formátumú borítékban kódolták.</value>
+  </data>
+  <data name="di12035" xml:space="preserve">
+    <value>Egy kormányzati szerv által kiosztott jóváhagyási szám hajóra / akvakultúra helyszínre / farmra / feldolgozóra, az ISO 3166-1 alpha-2 országkóddal kezdve, amelyet a jóváhagyási szám követ.\nAz ISO/IEC 646 GS1 Általános Specifikációja által meghatározott karakterkészlet minden karaktere engedélyezett.\nPélda:\n35LIECK0107EC = Ország; Írország. Hajónév; FV Kitartás DA31.</value>
+  </data>
+  <data name="di12036" xml:space="preserve">
+    <value>Egy kormányzati szerv által kiosztott jóváhagyási szám termelőre vagy farmra vagy első csontozó / vágóhelyre, az ISO 3166-1 alpha-2 országkóddal kezdve, amelyet a jóváhagyási szám követ.\nAz ISO/IEC 646 GS1 Általános Specifikációja által meghatározott karakterkészlet minden karaktere engedélyezett.\nPélda:\n36LIECK0107EC = Ország; Írország. Hajónév; FV Kitartás DA31.</value>
+  </data>
+  <data name="di12051" xml:space="preserve">
+    <value>'Szállítási cím:' - Helykód, amelyet egy postai hatóság határoz meg (pl. az Egyesült Államokban található helyeket azonosító 5 számjegyű és 9 számjegyű ZIP kódok vagy a Kanadában található helyeket azonosító 6 karakteres postai kódok).</value>
+  </data>
+  <data name="di12052" xml:space="preserve">
+    <value>'Szállítási cím:' - Helykód, amelyet egy postai hatóság határoz meg (pl. az Egyesült Államokban található helyeket azonosító 5 számjegyű és 9 számjegyű ZIP kódok vagy az Egyesült Királyságban található helyeket azonosító 6- vagy 7 karakteres postai kódok) két karakteres ISO 3166 országkód követi (pl. US vagy GB).</value>
+  </data>
+  <data name="di12054" xml:space="preserve">
+    <value>Szállítás innen: - Helykód, amelyet egy postai hatóság határoz meg a következő formátumban: postai kódok (pl. 5 számjegyű ZIP kódok, amelyek az Egyesült Államok helyszíneit azonosítják, vagy 6 vagy 7 karakteres postai kódok, amelyek az Egyesült Királyság helyszíneit azonosítják), ezt követi két karakteres ISO 3166 országkód (pl. US vagy GB).</value>
+  </data>
+  <data name="di12055" xml:space="preserve">
+    <value>Szállítás ide: - Helykód, amelyet egy postai hatóság határoz meg a következő formátumban: postai kódok (pl. 5 számjegyű ZIP kódok, amelyek az Egyesült Államok helyszíneit azonosítják, vagy 6 vagy 7 karakteres postai kódok, amelyek az Egyesült Királyság helyszíneit azonosítják), ezt követi két karakteres ISO 3166 országkód (pl. US vagy GB).</value>
+  </data>
+  <data name="di13010" xml:space="preserve">
+    <value>Az Amerikai Hadsereg 2410-es űrlapjának adatai. Az adatformátum az 2410-es űrlap blokkszámától függ. A mezőhosszakat és az elfogadható karaktereket a következő helyen találja meg;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Frissítés: Az URL módosult:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1408</value>
+  </data>
+  <data name="di13011" xml:space="preserve">
+    <value>Az Amerikai Hadsereg 2408-as űrlapjának adatai. Az adatformátum az 2408-as űrlap blokkszámától függ. A mezőhosszakat és az elfogadható karaktereket a következő helyen találja meg;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Frissítés: Az URL módosult:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1400</value>
+  </data>
+  <data name="di13012" xml:space="preserve">
+    <value>Az Amerikai Hadsereg 2407-es űrlapjának adatai. Az adatformátum az 2407-es űrlap blokkszámától függ. A mezőhosszakat és az elfogadható karaktereket a következő helyen találja meg;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Frissítés: Az URL módosult:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1391</value>
+  </data>
+  <data name="di13013" xml:space="preserve">
+    <value>Az Amerikai Légierő 95-ös űrlapjának adatai. Az adatformátum az űrlap 95-ös blokkszámától függ. A mezőhosszakat és az elfogadható karaktereket a következő helyen találja meg;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 Frissítés: Az űrlap neve "Amerikai Légierő Műszaki Rendelkezési Űrlap 95 (AFTO Űrlap 95)." Az űrlapról szóló részleteket az Amerikai Légierő Műszaki Rendelkezés (TO) 00-20-1 tartalmazza. Az URL ehhez a TO-hoz módosult:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+  </data>
+  <data name="di13014" xml:space="preserve">
+    <value>Az Amerikai Haditengerészet 4790-es űrlapjának adatai. Az adatformátum az űrlap 2410-es blokkszámától függ. A mezőhosszakat és az elfogadható karaktereket a következő helyen találja meg;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%2015.pdf.\n2020 Frissítés: Az URL már nem érvényes.</value>
+  </data>
+  <data name="di14000" xml:space="preserve">
+    <value>Nemzeti/NATO Készlet Szám (NSN).</value>
+  </data>
+  <data name="di14001" xml:space="preserve">
+    <value>A Chemical Industry Data Exchange (CIDX) által meghatározott Termék Jellemzői Adatok.</value>
+  </data>
+  <data name="di14003" xml:space="preserve">
+    <value>Az Electronic Industries Association Japan (EIAJ) által meghatározott Kódolási Struktúra.</value>
+  </data>
+  <data name="di14004" xml:space="preserve">
+    <value>A GS1 Alkalmazási Azonosítók (AI plusz adatok) (GS1) szerinti Kódolási Struktúra és Formátumok.</value>
+  </data>
+  <data name="di14005" xml:space="preserve">
+    <value>Az AIAG Ajánlásainak megfelelő Kódolási Struktúra és Formátumok. Az adat azonosító teljes formája 5Nxx formátumban van, ahol az 'xx' a teljes kódlistában található, amely elérhető a https://www.aiag.org/ oldalon</value>
+  </data>
+  <data name="di14006" xml:space="preserve">
+    <value>Az Amerikai Védelmi Minisztérium Beszerzési és Kiadási Eljárásának Kódjai. A formátum az adott MILSTRIP kódot követi, amelyhez az adott kódhoz tartozó adatérték kapcsolódik. (A kódok teljes listája elérhető itt;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\n2020 Frissítés: Az URL módosult:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/)</value>
+  </data>
+  <data name="di14007" xml:space="preserve">
+    <value>Az Amerikai Védelmi Szállítási Szabályzat Kódjai. A formátum a DTR kódot követi, amelyhez az adott kódhoz tartozó adatérték kapcsolódik. (A kódok teljes listája elérhető itt;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\n2020 Frissítés: Az URL módosult:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf)</value>
+  </data>
+  <data name="di14008" xml:space="preserve">
+    <value>Termelői Állat Azonosítási Kódok. A formátum az állati termelési kódhoz kapcsolódó adatérték. A Műszaki Jelentés és a bővített adatelemek (kódok) teljes listája itt található;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Bővített Adatelemek (Kódok).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Műszaki Jelentés.\n2020 Frissítés: Az URL-ek módosultak:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+  </data>
+  <data name="di14009" xml:space="preserve">
+    <value>Gyógyszertári Termékszám, amelyet az IFA (www.ifaffm.de) tart fenn, a következő elemekkel; Adat Azonosító (DI), kétszámjegyű termékregisztrációs ügynökségi kód (PRAC), a termékreferencia (PR) és a két PPN ellenőrző szám (CC), a következő formában DI PRAC PR CC.\nMEGJEGYZÉS - a vizuális tisztaság érdekében szóközt adtunk elválasztóként, ez nem része az adatnak.\nPéldák:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+  </data>
+  <data name="di14010" xml:space="preserve">
+    <value>Az ISO/IEC 15459 szerint kiadott Vállalati Azonosító Szám (CIN) birtokosa által meghatározott formátumban és szemantikával rendelkező adatok, amelyeket a következőként határoznak meg: összefűzött adatelemek sorozata: IAC, majd CIN, majd a kettőspont karakter (':') elválasztó után az adatok a CIN birtokos által meghatározott formátumban és szemantikával.\nMEGJEGYZÉS: Csak az adott IAC+CIN által meghatározott adatszintaxis szabályokat (ha vannak ilyenek) kell alkalmazni az adott '10N' DI adatfolyam után következő adatokra.\nMEGJEGYZÉS: A '10N' DI hozzárendelése hibás volt (nincs központi hatóság az adatdefinícióhoz vagy karbantartáshoz), ezért nem szabad új '10N' használatokat bevezetni.\nAz '10N' DI funkciója a 18. kategóriában, EGYÉB, a '5R' DI-val van meghatározva. Erősen ajánlott, hogy a '10N' DI-t használó meglévő alkalmazások migráljanak a '5R' DI-ra.</value>
+  </data>
+  <data name="di14011" xml:space="preserve">
+    <value>Az RLA által meghatározott és irányított adatstruktúra, amely 2 szegmensből áll: a mezőazonosító kód, amelyet közvetlenül követ az adott elemhez a RLA adatszótára szerint meghatározott adat. Gyakorlatilag ez egy szabványos tartalmú mezők katalógusa. A Mezőazonosítók itt találhatók: http://rla.org/11ncodes. Ezeknek a kódoknak a használata és szerkezete itt van meghatározva: http://rla.org/11nformat További példák is megtalálhatók ezen az oldalon. A '11N' DI-t soha nem szabad 2D vagy RFID címkével együtt más DI elemekkel kódolni.\nMEGJEGYZÉS: A '11N' DI hozzárendelése hibás volt (a nyilatkozat, miszerint: "a '11N' DI-t soha nem szabad 2D vagy RFID címkével együtt más DI elemekkel kódolni." nem érvényes állítás), ezért nem szabad új '11N' használatokat bevezetni. A '11N' DI funkciója a '12N' DI-ban van meghatározva. Erősen ajánlott, hogy a '11N' DI-t használó meglévő alkalmazások migráljanak a '12N' DI-ra.</value>
+  </data>
+  <data name="di14012" xml:space="preserve">
+    <value>Az RLA által meghatározott és irányított adatstruktúra, amely 2 szegmensből áll: a mezőazonosító (FI) kód, amelyet közvetlenül követ az adott elemhez a RLA adatszótára szerint meghatározott adat. Gyakorlatilag ez egy szabványos tartalmú mezők katalógusa. A Mezőazonosítók itt találhatók: http://rla.org/12ncodes Ezeknek a kódoknak a használata és szerkezete itt van meghatározva: http://rla.org/12nformat. Példák is megtalálhatók ezen az oldalon.\n2020 Frissítés: Az URL megváltozott:\nhttps://rla.org/page/sqrl-code-listing</value>
+  </data>
+  <data name="di14015" xml:space="preserve">
+    <value>Az ipari internet azonosító kódjait a CAICT irányítja és karbantartja, amelyet Kínában használnak az Ipari Internet Azonosító Felbontási Rendszerben, és a következőképpen épül fel &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, a formátum an3+a3+n3+n3+n8+an1...33, ahol an3 az Adat Azonosító (DI), a3 a Kiadói Ügynökségi Kód (IAC = "VAA"), n3 a Felsőbb Szintű Kód (TTC), n3 az Alsóbb Szintű Kód (STC), n8 a Másodlagos Szintű platform által irányított és hozzárendelt Vállalati Azonosító Szám (CIN) és an1...33 a CIN birtokosa által irányított és hozzárendelt Sorozatszám (SN), amely egyedi a CIN birtokosának domainjében, a 0-tól 9-ig terjedő számjegyeket, a nagy- és kisbetűs A-tól Z-ig terjedő betűket, a * (csillagot), a + (plusz jelet), a - (kötőjelet), a . (pontot vagy teljes megállót), a / (perjelet), a ( (bal zárójelet), a ) (jobb zárójelet), a ! (felkiáltójel) karaktereket használva.\nPéldák:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+  </data>
+  <data name="di16000" xml:space="preserve">
+    <value>Vevő által hozzárendelt cikkazonosító kód.</value>
+  </data>
+  <data name="di16001" xml:space="preserve">
+    <value>Szállító által hozzárendelt cikkazonosító kód.</value>
+  </data>
+  <data name="di16002" xml:space="preserve">
+    <value>Egy cikkhez hozzárendelt revíziószint megjelölése (pl. mérnöki változtatási szint, kiadás vagy revízió).</value>
+  </data>
+  <data name="di16003" xml:space="preserve">
+    <value>Gyártó Azonosító Kód/Tételkód kombinációja a 12/13 számjegyű GS1 formátumok alapján, plusz kiegészítő kódok, ha vannak.\n2020 Frissítés: Az GS1 azt javasolja, hogy ezt az DI-t ne használják tovább, és hogy az ezt az DI-t használó felhasználók migráljanak az GS1 adatminősítőire (Alkalmazási Azonosítók) az ISO/IEC 15418 és az ISO/IEC 15459-3 szerint.</value>
+  </data>
+  <data name="di16004" xml:space="preserve">
+    <value>Tételkód része a GS1 formátumoknak.\n2020 Frissítés: Az GS1 azt javasolja, hogy ezt az DI-t ne használják tovább, és hogy az ezt az DI-t használó felhasználók migráljanak az GS1 adatminősítőire (Alkalmazási Azonosítók) az ISO/IEC 15418 és az ISO/IEC 15459-3 szerint.</value>
+  </data>
+  <data name="di16005" xml:space="preserve">
+    <value>Fuvarozó által kijelölt Veszélyes Anyagok Besorolási Tételszáma a Veszélyes Anyagok Besorolásának Céljából (pl. Szárazföldi Fuvarozás, Légifuvarozás, Hajózás, Vasúti Szállítás Besorolása).</value>
+  </data>
+  <data name="di16006" xml:space="preserve">
+    <value>Beszállító által kijelölt és Tételkód kombinációja (belsőleg kijelölve vagy közösen meghatározva).</value>
+  </data>
+  <data name="di16007" xml:space="preserve">
+    <value>Gyártó által néhány távközlési berendezéshez kijelölt Közös Nyelvű Berendezés Azonosító (CLEI).</value>
+  </data>
+  <data name="di16008" xml:space="preserve">
+    <value>14 számjegyű GS1 formátum a GTIN-14 kódstruktúrához.\n2020 Frissítés: Az GS1 azt javasolja, hogy ezt az DI-t ne használják tovább, és hogy az ezt az DI-t használó felhasználók migráljanak az GS1 adatminősítőire (Alkalmazási Azonosítók) az ISO/IEC 15418 és az ISO/IEC 15459-3 szerint.</value>
+  </data>
+  <data name="di16009" xml:space="preserve">
+    <value>Gyártó Azonosító Kód (Dun &amp; Bradstreet által kijelölt 9 számjegyű DUNS szám) és a Tételkód/Részszám (a gyártó által kijelölt).</value>
+  </data>
+  <data name="di16010" xml:space="preserve">
+    <value>Veszélyes Anyagok Kódja az ANSI X12.3 szerint a formátumban Adatelem 208 (1 karakteres kódminősítő) ezt követi Adatelem 209 (Veszélyes Anyagok Kódja).</value>
+  </data>
+  <data name="di16011" xml:space="preserve">
+    <value>10 karakteres CLEI Kód távközlési berendezésekhez.</value>
+  </data>
+  <data name="di16012" xml:space="preserve">
+    <value>Dokumentum Típusa (pl. Komissiózó Lista, Tervezési Rajz stb.) (belsőleg kijelölve vagy közösen meghatározva).</value>
+  </data>
+  <data name="di16013" xml:space="preserve">
+    <value>VMRS Rendszerkód.</value>
+  </data>
+  <data name="di16014" xml:space="preserve">
+    <value>VMRS Rendszer és Összeállítási Kód.</value>
+  </data>
+  <data name="di16015" xml:space="preserve">
+    <value>VMRS Rendszer, Összeállítás és Alkatrész Kód.</value>
+  </data>
+  <data name="di16016" xml:space="preserve">
+    <value>VMRS Rendszer, Összeállítás vagy Alkatrész Kód. (Felhasználó által Módosítva).</value>
+  </data>
+  <data name="di16017" xml:space="preserve">
+    <value>GS1 Beszállító Azonosító és Tételkód kombinációja a Beszállító által Kijelölve.\n2020 Frissítés: Az GS1 azt javasolja, hogy ezt az DI-t ne használják tovább, és hogy az ezt az DI-t használó felhasználók migráljanak az GS1 adatminősítőire (Alkalmazási Azonosítók) az ISO/IEC 15418 és az ISO/IEC 15459-3 szerint.</value>
+  </data>
+  <data name="di16018" xml:space="preserve">
+    <value>VMRS beszállítói AZ és a Beszállító által Kijelölt Alkatrészszám kombinációja.</value>
+  </data>
+  <data name="di16019" xml:space="preserve">
+    <value>Egy Tétel Összetevője. (Egy termék több csomagban található).</value>
+  </data>
+  <data name="di16020" xml:space="preserve">
+    <value>Első Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di16021" xml:space="preserve">
+    <value>Második Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di16022" xml:space="preserve">
+    <value>Harmadik Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di16023" xml:space="preserve">
+    <value>Negyedik Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di16024" xml:space="preserve">
+    <value>Ötödik Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di16025" xml:space="preserve">
+    <value>Egy Fél Azonosítása egy Tranzakcióban egy Cégazonosító Szám (CIN) Birtokosa által Kijelölve, beleértve a kapcsolódó Kiadói Ügynökség Kódot (IAC) az ISO/IEC 15459 szerint és annak nyilvántartását, három összefűzött adatelemből álló sorozatként: IAC, majd CIN, majd a beszállító által kijelölt alkatrészszám, amely egyedi a CIN birtokosának tartományában.</value>
+  </data>
+  <data name="di16026" xml:space="preserve">
+    <value>A Következő Magasabb Összeállítás Alkatrészszáma.</value>
+  </data>
+  <data name="di16027" xml:space="preserve">
+    <value>Áru HTS-6 Kódja; A formátum használata: 4012.11 vagy 4012.11.4000 (A tizedespont kifejezetten kódolva) A Harmonizált Rendszer (HS) Osztályozása egy 6 számjegyű szabványosított numerikus módszer a kereskedelmi termékek osztályozására. Az HS számokat a vámhatóságok világszerte használják a termékek vámok és adók alkalmazásának azonosítására. További számjegyeket adnak hozzá az HS számhoz egyes kormányok bizonyos kategóriák termékeinek további megkülönböztetésére. Az Egyesült Államokban az exportált termékeket osztályozó számokat 'Schedule B' számoknak nevezik. Az Egyesült Államok Népszámlálási Hivatala kezeli a Schedule B rendszert. A Schedule B számokat, nem az HS számokat kell megadni a Szállítók Export Nyilatkozatán (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nAz importkódokat az Egyesült Államok Nemzetközi Kereskedelmi Bizottsága (USITC) kezeli. http://hts.usitc.gov/\n2020 Frissítés: a http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf link már nem aktív. Konzultáljon a szállítóval egy SED űrlapért.</value>
+  </data>
+  <data name="di16028" xml:space="preserve">
+    <value>Árunév. Egyszerű nyelvű leírás (angol).</value>
+  </data>
+  <data name="di16029" xml:space="preserve">
+    <value>Termék Osztályozási Kód, amelyet a GMDN (Globális Orvostechnikai Eszközök Nómenklatúrája - http://www.gmdnagency.org) határoz meg.</value>
+  </data>
+  <data name="di16030" xml:space="preserve">
+    <value>Első Szint (Beszállító által Kijelölt).</value>
+  </data>
+  <data name="di16031" xml:space="preserve">
+    <value>Második Szint (Beszállító által Kijelölt).</value>
+  </data>
+  <data name="di16032" xml:space="preserve">
+    <value>Harmadik Szint (Beszállító által Kijelölt).</value>
+  </data>
+  <data name="di16033" xml:space="preserve">
+    <value>Negyedik Szint (Beszállító által Kijelölt).</value>
+  </data>
+  <data name="di16034" xml:space="preserve">
+    <value>Ötödik Szint (Beszállító által Kijelölt).</value>
+  </data>
+  <data name="di16040" xml:space="preserve">
+    <value>Egy Vevő által Kijelölt Kód a Gyártó Anyagbiztonsági Adatlapjának (MSDS) Azonosító Számához, amely leírja egy veszélyes anyag felhasználását, veszélyeit és kémiai összetételét.</value>
+  </data>
+  <data name="di16049" xml:space="preserve">
+    <value>Exportra Korlátozott Tétel. Exportkontroll alá esik és/vagy korlátozásoknak van alávetve, amint azt a Wassenaar Megállapodás azonosítja. DI-t követi az Alpha-2 ISO 3166 Országkódja annak az országnak, amely a korlátozást kivetette, majd a Wassenaar Kód (http://www.wassenaar.org/controllists/index.html).\n2020 Frissítés: Az URL megváltozott: https://www.wassenaar.org/control-lists/</value>
+  </data>
+  <data name="di16050" xml:space="preserve">
+    <value>Gyártó által hozzárendelt egyedi cikkazonosító - egy cikkszámot követő plusz (+) jel, amelyet - amennyiben szükséges a cikk egyedi azonosításához a gyártó termékválasztékában - egy gyártó által hozzárendelt cikkverzió követ.\nPélda 50PABC+6 azt jelenti, hogy a cikkszám ABC, a cikk verziója 6\nMEGJEGYZÉS - A cikkszámot mindig követnie kell egy plusz jelnek, még akkor is, ha nincs cikkverzió. Ez szükséges ahhoz, hogy egyértelműen összefűzhető legyen a gyártó által hozzárendelt cikkazonosító egy másik adatstruktúrával a plusz (+) karakter használatával. Például egy 50P gyártó által hozzárendelt cikkazonosító egy cikkverzió nélkül egy entitás sorozatszámával (Adat azonosító S) történő kombinációja 50PDEF++S1234 formában lehet kódolva.</value>
+  </data>
+  <data name="di16051" xml:space="preserve">
+    <value>Globálisan Egyedi Cikkazonosító, amely a tranzakcióhoz kapcsolódó fél azonosítását tartalmazza, amelyet egy Vállalati Azonosító Szám (CIN) birtokosa rendelt hozzá, beleértve a kapcsolódó Kiadói Ügynökségi Kódot (IAC) az ISO/IEC 15459 és annak nyilvántartása szerint, amelyet egy plusz (+) jel követ, majd a 50P szerint meghatározott Gyártó által hozzárendelt cikkazonosító.\nPélda: 51PJ4LBE0431863103+ABC+ azt jelenti, hogy a cikkszám ABC, nincs verziószám, amelyet a 0431863103 belga ÁFA-számmal rendelkező vállalat gyártott.</value>
+  </data>
+  <data name="di16052" xml:space="preserve">
+    <value>Színkód.\nEgy tárgy/cikk színének azonosítása egy kóddal vagy kifejezéssel, amelyet a kereskedelmi partnerek közösen határoztak meg.</value>
+  </data>
+  <data name="di16053" xml:space="preserve">
+    <value>Az Európai Unió Tengeri Felszerelési Irányelvének (2014/90/EU) és a Végrehajtási Rendeletnek (EU) 2018/608 alapján engedélyezett specifikus tengeri felszerelés azonosítója.\nFormátum:\n• DI (an3);\n• Az Irányelv 2014/90/EU II. mellékletében meghatározott megfelelőségi értékelési (CA) modul(ok) típusa(a1);\n• Az Bizottság által az Irányelv 2014/90/EU IV. mellékletének 3.1 pontja szerint kijelölt értesített testület (NB) azonosítószáma (n4);\n• Tanúsítvány (an5...20)</value>
+  </data>
+  <data name="di16054" xml:space="preserve">
+    <value>Orvostechnikai eszközök UDI-DI (Egyedi Eszköz Azonosítás - Eszköz Azonosító) adatai, mint a nyilvános UDI adatbázisok (GUDID, EUDAMED stb.) egyedi kulcsa, a nemzeti szabályozási követelményeknek megfelelően, ahogy azt az International Medical Device Regulators Forum (IMDRF) vázolja. Az UTF-8 karakterkészlet összes nyomtatható karaktere engedélyezett.</value>
+  </data>
+  <data name="di16055" xml:space="preserve">
+    <value>DNV tanúsítási hivatkozás. Jelzi, hogy az adatok egy terméktanúsítványra/ellenőrzési nyilatkozatra/jelentésre vonatkoznak, amelyet a DNV bocsátott ki. Az adat azonosítót a "NV" betűk és a tanúsítvány száma követi. Amennyiben a tanúsítványszámnak van utótagja, azt az adatfolyamban a "-" elválasztó karakter segítségével kell megadni. A revíziós jelölőket nem szabad megadni.\nPéldák:\n1. 55PNVXXXXXXX, ahol 55P az adat azonosító, XXXXXXX a DNV Tanúsítvány Száma.\n2. 55PNVXXXXXXX-Y, ahol 55P az adat azonosító, XXXXXXX-Y a DNV Tanúsítvány Száma utótaggal Y.</value>
+  </data>
+  <data name="di17000" xml:space="preserve">
+    <value>Mennyiség, Darabszám vagy Mennyiség (csak szám) (mértékegység és jelentőség közösen meghatározott).</value>
+  </data>
+  <data name="di17001" xml:space="preserve">
+    <value>Elméleti Hossz/Súly (csak szám).</value>
+  </data>
+  <data name="di17002" xml:space="preserve">
+    <value>Tényleges Súly (csak szám).</value>
+  </data>
+  <data name="di17003" xml:space="preserve">
+    <value>Mértékegység, az ANSI X12.3 Adatelem Szám 355 Mértékegység Kódja szerint meghatározva.</value>
+  </data>
+  <data name="di17004" xml:space="preserve">
+    <value>Bruttó Összeg.</value>
+  </data>
+  <data name="di17005" xml:space="preserve">
+    <value>Nettó Összeg.</value>
+  </data>
+  <data name="di17006" xml:space="preserve">
+    <value>Amikor Több Tartály Képezi Egyetlen Terméket (minden tartály tartalmát össze kell keverni a többi tartály tartalmával, hogy egyetlen terméket alkossanak) az '6Q' Adat Azonosítót kell használni a különböző tartályok összekapcsolására. A formátum #/# ('ez az n. darab x darabból ebben a szállítmányban'). A formátum 'n/x', ahol a '/' (perjel) két érték elválasztójaként szolgál.</value>
+  </data>
+  <data name="di17007" xml:space="preserve">
+    <value>Mennyiség, Mennyiség vagy Darabszám a következő formátumban: Mennyiség, amelyet az ANSI X12.3 Adatelem Szám 355 Mértékegység Kódja követ.</value>
+  </data>
+  <data name="di17008" xml:space="preserve">
+    <value>Konténer Névleges Súlya\nA gyártó által hozzárendelt konténer súlyviselő képessége. A gyártáskor hozzárendelve. A mértékegység kg.</value>
+  </data>
+  <data name="di17009" xml:space="preserve">
+    <value>Darab Súlya\nEgyetlen tétel súlya.</value>
+  </data>
+  <data name="di17011" xml:space="preserve">
+    <value>Üres Konténer Súlya: egy üres konténer súlya.\nKonténer test súlya.\nA gyártó által hozzárendelt üres konténer súlya. A gyártáskor hozzárendelve. A mértékegység kg (Üres súly).</value>
+  </data>
+  <data name="di17012" xml:space="preserve">
+    <value>Pénzügyi Érték, amelyet a Szállító határoz meg a következő formátumban: az érték után egy ISO 4217 adatelem kód a pénznemek és alapok értékegységének reprezentálásához (pl. 12Q2.50USD) (2.50 Pénzügyi Érték USA Dollárban) jelentőség közösen meghatározott.\nBejegyzési Érték;\nÉrték, amelyet egy ISO 4217 adatelem kód követ a pénznemek és alapok értékegységének reprezentálásához (pl. 12Q2.50USD) (2.50 Pénzügyi Érték USA Dollárban)</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value>#/# ('ez az n. darab x darabból a szállítmányban').\nA formátum 'n/x', ahol a '/' (perjel) két érték elválasztójaként szolgál.</value>
+  </data>
+  <data name="di17014" xml:space="preserve">
+    <value>Kezdő Másodlagos Mennyiség.</value>
+  </data>
+  <data name="di17015" xml:space="preserve">
+    <value>Végső Másodlagos Mennyiség.</value>
+  </data>
+  <data name="di17016" xml:space="preserve">
+    <value>Darabszám a Furgonban.</value>
+  </data>
+  <data name="di17017" xml:space="preserve">
+    <value>Szállítmányok Száma a Furgonban.</value>
+  </data>
+  <data name="di17018" xml:space="preserve">
+    <value>Térfogat kifejezve köbméterben vagy köblábban, amelyet az ANSI X12.3 adatelem szám 355 mértékegység kódja követ (CR vagy CF). Nincs feltételezett tizedes pont.</value>
+  </data>
+  <data name="di17019" xml:space="preserve">
+    <value>Szélesség kifejezve lineáris méterben vagy lineáris lábban, amelyet az ANSI X12.3 adatelem szám 355 mértékegység kódja követ (LC vagy LF). Nincs feltételezett tizedes pont.</value>
+  </data>
+  <data name="di17020" xml:space="preserve">
+    <value>Magasság kifejezve lineáris méterben vagy lineáris lábban, amelyet az ANSI X12.3 adatelem szám 355 mértékegység kódja követ (LC vagy LF). Nincs feltételezett tizedes pont.</value>
+  </data>
+  <data name="di17021" xml:space="preserve">
+    <value>Hosszúság kifejezve lineáris méterben vagy lineáris lábban, amelyet az ANSI X12.3 adatelem szám 355 mértékegység kódja követ (LC vagy LF). Nincs feltételezett tizedes pont.</value>
+  </data>
+  <data name="di17022" xml:space="preserve">
+    <value>A Szállítmány Nettó Súlya kifejezve fontban vagy kilogrammban (kilóban), amelyet az ANSI X12.3 adatelem szám 355 mértékegység (LB vagy KG) követ. Nincs feltételezett tizedes pont.</value>
+  </data>
+  <data name="di17023" xml:space="preserve">
+    <value>Furgon Hossza kifejezve lineáris méterben vagy lineáris lábban, amelyet az ANSI X12.3 adatelem szám 355 mértékegység (LC vagy LF) követ. Nincs feltételezett tizedes pont.</value>
+  </data>
+  <data name="di17024" xml:space="preserve">
+    <value>Egy Furgon Belső Térfogata kifejezve köbméterben vagy köblábban, amelyet az ANSI X12.3 adatelem szám 355 mértékegység kódja (CR vagy CF) követ. Nincs feltételezett tizedes pont.</value>
+  </data>
+  <data name="di17025" xml:space="preserve">
+    <value>Nettó Robbanóanyag Súlya (a TNT robbanóanyag-egyenértékének kiszámított értéke fontban). Az ÚJ értékét nemzetközileg használják a robbanóanyag-biztonsági távolságszámításokhoz. Nincs feltételezett tizedes pont.</value>
+  </data>
+  <data name="di17026" xml:space="preserve">
+    <value>Csomagolási Szint, amely meghatározza a csomagolás hierarchikus szintjét a HIBC (Health Industry Bar Code) specifikációk szerint.</value>
+  </data>
+  <data name="di17027" xml:space="preserve">
+    <value>Egytermék Ár Értéke, Nettó, '.' (pont) használata tizedes pontként (pl. 27Q1000.5 az ár értéke 1000,50).\nStruktúra: an3+an1...20\n &lt;DI&gt;&lt;ár érték&gt;.\nKarakterkészlet: 0-tól 9-ig, pont (ISO 646 ASCII érték tizedes 46, hexadecimális 2E).\nPélda kódolásra egy nettó ár értékével 1000:\n27Q1000.\nPélda kódolásra egy nettó ár értékével 1000,50:\n27Q1000.5.\nMEGJEGYZÉS - Ha pénznem szükséges, azt egy másik ugyanabban a kódban használt adatelemből lehet venni, pl. 12Q.</value>
+  </data>
+  <data name="di17028" xml:space="preserve">
+    <value>Egyedi Ár Töltési Érték a Postaköltségért és Csomagolásért, '.' (pont) a vessző helyét jelöli (pl. 30Q100.50 az érték 100,50).\nStruktúra: an3+an1...10\n &lt;DI&gt;&lt;ár érték&gt;.\nKarakterkészlet: 0-tól 9-ig, pont.\nPélda kódolásra postaköltség &amp; csomagolási értékkel 100:\n30Q100.\nPélda kódolásra postaköltség &amp; csomagolási értékkel 100,50:\n30Q100.50.\nMEGJEGYZÉS - Ha pénznem szükséges, azt egy másik ugyanabban a kódban használt adatelemből lehet venni, pl. 12Q.</value>
+  </data>
+  <data name="di17029" xml:space="preserve">
+    <value>Kedvezmény Százaléka, '.' (pont) a vessző helyét jelöli (pl. 31Q8.5 a kedvezmény értéke 8,5%).\nStruktúra: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;kedvezmény százalék (%)&gt;.\nKarakterkészlet: 0-tól 9-ig, pont\nPélda kódolásra 10% kedvezménnyel:\n31Q10.\nPélda kódolásra 8,5% kedvezménnyel:\n31Q8.5.</value>
+  </data>
+  <data name="di17030" xml:space="preserve">
+    <value>ÁFA Százaléka, '.' (pont) a vessző helyét jelöli (pl. 27Q8.5 az ÁFA értéke 8,5%).\nStruktúra: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;ÁFA százalék (%)&gt;.\nKarakterkészlet: 0-tól 9-ig, pont.\nPélda kódolásra 10% ÁFA-val:\n27Q19.\nPélda kódolásra 8,5% ÁFA-val:\n27Q8.5.</value>
+  </data>
+  <data name="di17031" xml:space="preserve">
+    <value>Pénznem, ISO 4217 pénznem kód.\nStruktúra: an3+an3\n &lt;DI&gt;&lt;Pénznem, pl. EUR&gt;.\nKarakterkészlet: A-Z, 0-tól 9-ig.\nPélda kódolásra az amerikai dollár ISO betűkódjával:\n31QUSD.\nPélda kódolásra az euró ISO betűkódjával:\n31QEUR.\nPélda kódolásra az euró ISO számjegykódjával:\n31Q978.</value>
+  </data>
+  <data name="di17032" xml:space="preserve">
+    <value>Klinikai kifejezés kódja, amelyet a klinikai nómenklatúrával meghatároznak: "Az egészségügyi mérések, megfigyelések és dokumentumok nemzetközi szabványa - LOINC" (https://loinc.org), a következő sorrendben: &lt;DI&gt;&lt;LOINC Kód&gt;&lt;Plusz Jel&gt;&lt;Érték&gt;. Az Érték egységét és formátumát a LOINC Kód határozza</value>
+  </data>
+  <data name="di18001" xml:space="preserve">
+    <value>Visszaküldési Engedély Kódja (RMA), amelyet a Beszállító rendel hozzá</value>
+  </data>
+  <data name="di18002" xml:space="preserve">
+    <value>Vevő által Kijelölt Visszaküldési Kód</value>
+  </data>
+  <data name="di18004" xml:space="preserve">
+    <value>Az Egyesült Államok Védelmi Minisztériumának Azonosító Kódja (DoDIC)</value>
+  </data>
+  <data name="di18005" xml:space="preserve">
+    <value>Adatok a Cégazonosító Szám (CIN) birtokosa által meghatározott formátumban és szemantikával, amelyet egy Kiadói Ügynökségi Kód (IAC) által az ISO/IEC 15459 szerint kiadott CIN követ, összefűzött adatelemek sorozataként: IAC, majd CIN, majd az elválasztó karakter ':' (kettőspont) követi az adatokat, a CIN birtokosa által meghatározott formátumban és szemantikával.\nMEGJEGYZÉS - Csak az adott IAC+CIN által deklarált adatszintaxis szabályok (ha vannak) alkalmazandók az DI 5R+IAC+CIN utáni adatokra.</value>
+  </data>
+  <data name="di18006" xml:space="preserve">
+    <value>ISO/IEC 20248 digitális aláírás adatszerkezete. Ha az alapul szolgáló adathordozó kódolása 7 bit, akkor csak az ISO/IEC 20248 nyers formátumát lehet használni.\nPélda URL formátumban:\n&lt;6R&gt;&lt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO&gt;\nPélda nyers formátumban:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nEgy ISO/IEC 20248 adatszerkezet tartalmaz egy digitális aláírást, amelyet az adatelemek üzenetének meghatározott adatelemeinek ellenőrzésére használnak. Az 6R értéket, mint első paramétert, és az ellenőrizendő adatelemeket (az összes nem nyomtatható karakter nélkül) mint második paramétert, átadják az ISO/IEC 20248 DecoderVerifier-nek, amely visszaadja az ellenőrzés eredményét: ELFogad, ELUTASÍT vagy HIBA(hibakód), és az ISO/IEC 20248 további mezőinek dekódolt JSON objektumát. Az ISO/IEC 20248 adatszerkezet tartalmazhat további mezőket és utasításokat egy vagy több adatelemek üzenetének dekódolására és ellenőrzésére. Ezeket az utasításokat az ISO/IEC 20248 DecoderVerifier dolgozza fel.</value>
+  </data>
+  <data name="di18007" xml:space="preserve">
+    <value>Vízi Tudományok és Halászat Információs Rendszere (ASFIS) 'Inter-ügynökségi 3-alfabetikus fajkód', amelyet az Egyesült Nemzetek Élelmezésügyi és Mezőgazdasági Szervezete (www.fao.org, majd keresse meg az 'ASFIS') tart fenn.\nPéldák:\n7RMUC = Sáros ponty;\n7RPCD = Ausztrál édesvízi hering;\n7RWSH = Nagy fehér cápa.</value>
+  </data>
+  <data name="di18008" xml:space="preserve">
+    <value>Élelmezésügyi és Mezőgazdasági Szervezet (FAO) Nemzetközi Standard Halászati Eszközök Osztályozási Kódja (ISSCFG). (www.fao.org)\nAz ISO/IEC 646 GS1 Általános Specifikációban meghatározott karakterkészletének összes karaktere engedélyezett.\nPéldák:\n8R02.1.0 = Part menti hálók;\n8R03.1.5 = Garnélarákok;\n8R05.1.0 = Hordozható emelőháló.</value>
+  </data>
+  <data name="di18009" xml:space="preserve">
+    <value>Halak és tengeri ételek előállítási módszere, amelyet az Élelmezésügyi és Mezőgazdasági Szervezet (FAO) Halászati és Akvakultúra Osztálya határoz meg, az EU 1379/2013 rendelete szerint. (www.fao.org).\nAz ISO/IEC 646 GS1 Általános Specifikációban meghatározott karakterkészletének összes karaktere engedélyezett.\nPéldák:\n9R01 = Tengeren fogott;\n9R02 = Édesvízben fogott;\n9R03 = Tenyésztett.</value>
+  </data>
+  <data name="di19000" xml:space="preserve">
+    <value>A Beszállító által egy Entitáshoz az élettartama során hozzárendelt Sorozatszám vagy Kód, (pl., számítógép sorozatszáma, nyomonkövetési szám, szerződéses eszközazonosító)</value>
+  </data>
+  <data name="di19001" xml:space="preserve">
+    <value>A Beszállító által egy Entitáshoz az élettartama során hozzárendelt További Kód (pl., nyomonkövetési szám, számítógép sorozatszáma)</value>
+  </data>
+  <data name="di19002" xml:space="preserve">
+    <value>Előzetes Szállítmány Értesítés (ASN) Szállítmány AZ (SID) megfelel az ANSI ASC X12 Adatelem 396-nak</value>
+  </data>
+  <data name="di19003" xml:space="preserve">
+    <value>A Beszállító által hozzárendelt Egyedi Csomagazonosító (a legkisebb csomagolási szint, amelynek van csomagazonosító kódja; azonos tételeket kell tartalmaznia)</value>
+  </data>
+  <data name="di19004" xml:space="preserve">
+    <value>A Beszállító által hozzárendelt Csomagazonosító a fő csomagoláshoz, amely azonos tételeket tartalmaz egyetlen vevői rendelésen</value>
+  </data>
+  <data name="di19005" xml:space="preserve">
+    <value>A Beszállító által hozzárendelt Csomagazonosító a fő csomagoláshoz, amely különböző tételeket tartalmaz egyetlen vevői rendelésen</value>
+  </data>
+  <data name="di19006" xml:space="preserve">
+    <value>A Beszállító által hozzárendelt Csomagazonosító a fő csomagoláshoz, amely azonos tételeket tartalmaz több vevői rendelésen</value>
+  </data>
+  <data name="di19007" xml:space="preserve">
+    <value>A Beszállító által hozzárendelt Csomagazonosító a fő csomagoláshoz, amely különböző tételeket tartalmaz több vevői rendelésen</value>
+  </data>
+  <data name="di19008" xml:space="preserve">
+    <value>Beszállító AZ/Egyedi Konténer AZ a GS1 SSCC-18 által meghatározott adatformátumban\n2020 Frissítés: Hivatkozzon a GS1 Általános Specifikációkra a SSCC legújabb verzióját illetően.</value>
+  </data>
+  <data name="di19009" xml:space="preserve">
+    <value>Általános Csomagazonosító (közösen meghatározva)</value>
+  </data>
+  <data name="di19010" xml:space="preserve">
+    <value>Gép, Sejt vagy Eszköz AZ Kód</value>
+  </data>
+  <data name="di19011" xml:space="preserve">
+    <value>Rögzített Eszköz AZ Kód</value>
+  </data>
+  <data name="di19012" xml:space="preserve">
+    <value>Dokumentumszám (belsőleg kijelölve vagy közösen meghatározva)</value>
+  </data>
+  <data name="di19013" xml:space="preserve">
+    <value>Konténer Biztonsági Pecsét</value>
+  </data>
+  <data name="di19014" xml:space="preserve">
+    <value>Osztályú Nem azonos csomagpostai manifesztálás</value>
+  </data>
+  <data name="di19015" xml:space="preserve">
+    <value>A Gyártó Entitás által hozzárendelt Sorozatszám, amely csak a '13V' -vel együtt használható</value>
+  </data>
+  <data name="di19016" xml:space="preserve">
+    <value>Verziószám, pl. Szoftververzió</value>
+  </data>
+  <data name="di19017" xml:space="preserve">
+    <value>Kombinált 6 számjegyű GS1 Beszállító Azonosító és a Beszállító által Hozzárendelt Egyedi Csomagazonosító\n2020 Frissítés: Az GS1 azt javasolja, hogy ezt az DI-t ne használják tovább, és hogy az ezt az DI-t használó felhasználók migráljanak az GS1 adatminősítőire (Alkalmazási Azonosítók) az ISO/IEC 15418 és az ISO/IEC 15459-3 szerint.</value>
+  </data>
+  <data name="di19018" xml:space="preserve">
+    <value>CAGE Kód és CAGE-en Belül Egyedi Sorozatszám</value>
+  </data>
+  <data name="di19019" xml:space="preserve">
+    <value>Kombinált Dun &amp; Bradstreet cégazonosító a beszállítótól, amelyet egy beszállító által hozzárendelt egyedi csomagazonosító követ, a formátumban nn...nn+nn...n ahol egy plusz szimbólum (+) szolgál elválasztóként a DUNS Szám és az egyedi csomagazonosító között</value>
+  </data>
+  <data name="di19020" xml:space="preserve">
+    <value>A Vevő által hozzárendelt Nyomonkövetési Kód egy Entitás számára</value>
+  </data>
+  <data name="di19021" xml:space="preserve">
+    <value>Az Egyesült Államok Közlekedési Minisztériuma (D.O.T) által meghatározott Gumiabroncs Azonosító Szám az Egyesült Államok 49 CFR 574.5 kódja alapján.</value>
+  </data>
+  <data name="di19022" xml:space="preserve">
+    <value>Mobiltelefonok Egyedi Egyéni Azonosítója</value>
+  </data>
+  <data name="di19023" xml:space="preserve">
+    <value>Média Hozzáférési Vezérlés (MAC) Cím az IEEE 802.11 szerint</value>
+  </data>
+  <data name="di19024" xml:space="preserve">
+    <value>Az ISO/IEC 15963 szerint (az érték a bit értékének 8 bites ASCII értékekre való átalakítása). Ez az Adat Azonosító bármely ASCII-256 értéket felvehet. A teherszállító konténerek címkéi esetében a gyártók Regisztrációs Hatósága (RA) az ISO 14816 RA-je. (ISO 646)</value>
+  </data>
+  <data name="di19025" xml:space="preserve">
+    <value>Egy tranzakcióban részt vevő fél azonosítása, amelyet egy Cégazonosító Szám (CIN) birtokosa rendel hozzá, beleértve a kapcsolódó Kiadói Ügynökségi Kódot (IAC) az ISO/IEC 15459 szerint és annak nyilvántartását, összefűzött adatelemek sorozataként: IAC, majd CIN, majd a beszállító által hozzárendelt sorozatszám, amely egyedi a CIN birtokosa tartományában (Lásd Melléklet C.11)</value>
+  </data>
+  <data name="di19026" xml:space="preserve">
+    <value>Berendezés Azonosító, egy globálisan egyedi azonosító egy eszköz, berendezés vagy egy számítógépes alkalmazás példány számára, amelyet az előállítás, szállítás, feldolgozás vagy más tételek kezelésében használnak, amelyet a következők konkatenálásával hoznak létre:\n - egy ISO/IEC 15459 kiadói ügynökségi kód;\n - egy berendezésszám, amely megfelel az érintett kiadói ügynökség specifikációinak; és hogy:\n - csak nagybetűs alfabetikus és/vagy numerikus karakterekből áll;\n - egyedi (azaz különbözik bármely más ISO/IEC 15459-nek megfelelő azonosítótól) a kiadói ügynökség doménjén belül;\n - nem lehet bármely más ISO/IEC 15459-nek megfelelő azonosító, amelyet ugyanazon kiadói ügynökség adott ki, egyszerűen karakterek hozzáadásával vagy eltávolításával.\nOlvasó AZ.\nBerendezés azonosító, egy globálisan egyedi azonosító egy eszköz, berendezés vagy egy számítógépes alkalmazás példány számára, amelyet az előállítás, szállítás, feldolgozás vagy más tételek kezelésében használnak.</value>
+  </data>
+  <data name="di19027" xml:space="preserve">
+    <value>Tételszám a tételcsoporton belül, egy számsor:\n - amely egyedileg megkülönbözteti a tételet az azonosítható kapcsolódó tételcsoport minden más tételétől;\n - amelynek hossza azonos minden tételnél a tételcsoporton belül.</value>
+  </data>
+  <data name="di19028" xml:space="preserve">
+    <value>Tétel- és Tételszám, egy adat azonosító 27T tételcsoport száma és az adott tételcsoportba tartozó tétel adat azonosító 27S tételszáma konkatenációja.</value>
+  </data>
+  <data name="di19030" xml:space="preserve">
+    <value>További Nyomonkövetési Kód Egy Entitás számára a Beszállító által hozzárendelve a 'S' vagy '1S' által biztosított nyomonkövetési kód(ok)on túl vagy azoktól eltérően</value>
+  </data>
+  <data name="di19031" xml:space="preserve">
+    <value>A sorozatszámok sorozatának Kezdő Sorozatszáma</value>
+  </data>
+  <data name="di19032" xml:space="preserve">
+    <value>A sorozatszámok sorozatának Befejező Sorozatszáma</value>
+  </data>
+  <data name="di19033" xml:space="preserve">
+    <value>A Következő Magasabb Összeállítás Sorozatszáma</value>
+  </data>
+  <data name="di19034" xml:space="preserve">
+    <value>Végtétel Sorozatszáma vagy Alkatrészszáma</value>
+  </data>
+  <data name="di19035" xml:space="preserve">
+    <value>Lökhárító Szám (Használva az Egység DOD Mozgatásához)</value>
+  </data>
+  <data name="di19036" xml:space="preserve">
+    <value>Raklap Azonosító (Használva a 463L légi raklapokra rakodáshoz)</value>
+  </data>
+  <data name="di19037" xml:space="preserve">
+    <value>Egyedi Tétel Azonosító, amely öt adatelemből áll: 'IAC', majd 'CIN', majd 'Alkatrészszám (PN)', ezt követi a '+' karakter, majd a beszállító által hozzárendelt (vagy kezelt) 'Alkatrész Sorozatszám (PSN)', amely globálisan egyedi a CIN birtokosának doménjében; a formátumban IAC CIN PN + PSN (a térközök csak a vizuális tisztaság érdekében vannak, nem részei az adatnak). Lásd Melléklet C.11.</value>
+  </data>
+  <data name="di19042" xml:space="preserve">
+    <value>Egyedi Tétel Azonosító (UII) a 25S formátumban, amelyet egy számszerű érték előz meg, ami a sorozatszám elem hosszát jelzi azoknak a rendszereknek, amelyek a konkatenált Sorozatszám elem (IAC+CIN+SN) 'sorozatszám' komponensét igénylik Formátum: DI+LI+IAC+CIN+SN (LI=a SN hossza)</value>
+  </data>
+  <data name="di19043" xml:space="preserve">
+    <value>Integrált Áramkör Kártya Azonosító (ICCID) az ITU-T Ajánlás E.118 és az ETSI Ajánlás GSM 11.11 szerint; legfeljebb 20 számjegyből álló Kiadó azonosító szám (IIN; legfeljebb 7 számjegy), Egyéni fiók azonosítás (változó; hossza az IIN által meghatározott, de azonos hosszúságú az egyes IIN-eken belül), Ellenőrző számjegy (egy számjegy, amelyet a Luhn algoritmus segítségével számolnak ki\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = fiók azonosítás, c = ellenőrző számjegy)</value>
+  </data>
+  <data name="di19050" xml:space="preserve">
+    <value>Első Szint (Beszállító által Kijelölt)</value>
+  </data>
+  <data name="di19051" xml:space="preserve">
+    <value>Második Szint (Beszállító által Kijelölt)</value>
+  </data>
+  <data name="di19052" xml:space="preserve">
+    <value>Harmadik Szint (Beszállító által Kijelölt)</value>
+  </data>
+  <data name="di19053" xml:space="preserve">
+    <value>Negyedik Szint (Beszállító által Kijelölt)</value>
+  </data>
+  <data name="di19054" xml:space="preserve">
+    <value>Ötödik Szint (Beszállító által Kijelölt)</value>
+  </data>
+  <data name="di19096" xml:space="preserve">
+    <value>EPC szám (Általában Szerializált Globális Kereskedelmi Azonosító Szám - SGTIN)\n2020 Frissítés: Az „EPC szám” kifejezést a GS1 már nem használja. Hivatkozzon a GS1 Általános Specifikációira és a Címkeadat Standardra a jelenlegi terminológia érdekében</value>
+  </data>
+  <data name="di19097" xml:space="preserve">
+    <value>A Beszállító által egy entitáshoz hozzárendelt titkosított sorozatszám, amelyet egy független megbízható harmadik fél által hitelesíthető. A titkosított sorozatszám nem ír le semmilyen paramétert az entitásról anélkül, hogy egy független harmadik fél dekódolná.</value>
+  </data>
+  <data name="di2" xml:space="preserve">
+    <value>Az 'ÉS' jel. ICCBBA</value>
+  </data>
+  <data name="di2000" xml:space="preserve">
+    <value>Konténer Típusa (belsőleg kijelölve vagy közösen meghatározva).</value>
+  </data>
+  <data name="di20000" xml:space="preserve">
+    <value>A Vevő által hozzárendelt Nyomonkövetési Szám egy entitáscsoport azonosítására/nyomonkövetésére (pl. tétel, batch, hegesztés).</value>
+  </data>
+  <data name="di20001" xml:space="preserve">
+    <value>A Beszállító által hozzárendelt Nyomonkövetési Szám egy entitáscsoport azonosítására/nyomonkövetésére (pl. tétel, batch, hegesztés).</value>
+  </data>
+  <data name="di20003" xml:space="preserve">
+    <value>Kizárólagos Kijelölés (Az USA Környezetvédelmi Ügynökségének járműazonosítása kibocsátási tesztelésre).</value>
+  </data>
+  <data name="di2001" xml:space="preserve">
+    <value>Visszaváltható Konténer Azonosító Kód, amelyet a konténer tulajdonosa vagy a megfelelő szabályozó hatóság rendel hozzá (pl. fém tartály, kosár, tekercs, egységterhelési eszköz (ULD), pótkocsi, tartály vagy intermodális konténer) (kizárja a gáztartályokat, lásd '2B').</value>
+  </data>
+  <data name="di2002" xml:space="preserve">
+    <value>A gyártó által a Amerikai Közlekedési Minisztérium (D.O.T.) szabványainak megfelelően hozzárendelt Gáztartály Konténer Azonosító Kód.</value>
+  </data>
+  <data name="di20020" xml:space="preserve">
+    <value>Első Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di20021" xml:space="preserve">
+    <value>Második Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di20022" xml:space="preserve">
+    <value>Harmadik Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di20023" xml:space="preserve">
+    <value>Negyedik Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di20024" xml:space="preserve">
+    <value>Ötödik Szint (Vevő által Kijelölt).</value>
+  </data>
+  <data name="di20025" xml:space="preserve">
+    <value>Egy tranzakcióban részt vevő fél azonosítása, amelyet egy Cégazonosító Szám (CIN) birtokosa rendel hozzá, beleértve a kapcsolódó Kiadói Ügynökségi Kódot (IAC) az ISO/IEC 15459 szerint és annak nyilvántartását, három összefűzött adatelemből álló sorozatként: IAC, majd CIN, majd a beszállító által hozzárendelt nyomonkövetési szám, amely egyedi a CIN birtokosa tartományában.</value>
+  </data>
+  <data name="di20026" xml:space="preserve">
+    <value>Tételazonosító, amely vagy:\n - egy 26S adat azonosító levélfeldolgozó berendezés azonosítójának, vagy\n - egy 20K adat azonosító licenc azonosítójának, vagy\n - egy 18V adat azonosító fél azonosítójának konkatenációja, amely:\n - különbözik bármely más ISO/IEC 15459-nek megfelelő azonosítótól az adott kiadói ügynökség doménjében;\n - nem származtatható más fél azonosítójából vagy bármely más ISO/IEC 15459-nek megfelelő azonosítóból, amelyet ugyanazon kiadói ügynökség adott ki, egyszerűen karakterek hozzáadásával vagy eltávolításával a végétől;\n egy 27T adat azonosító tételszámmal, a kettőt egy kötőjel (-) karakter választja el.</value>
+  </data>
+  <data name="di20027" xml:space="preserve">
+    <value>Tételszám, amelyet egy azonosított fél vagy feldolgozási berendezés egysége, vagy egy azonosított licenc rendelkezései alatt bocsátanak ki, amely:\n - egyedileg megkülönbözteti az egyik tételcsoportot az összes többi olyan tételcsoporttól, amelyhez a fél, berendezés vagy licenc tételszámot rendel;\n - legfeljebb 10 karakterből álló sorozatból áll, amelynek első (numerikus) karaktere jelzi a következő karakterek számát, mindegyik a {0-9; A-Z} készletből.</value>
+  </data>
+  <data name="di2003" xml:space="preserve">
+    <value>Nemzetközi Szabványosítási Szervezet (ISO) szabványainak megfelelően a gyártó által hozzárendelt Motoros Fuvarozási Eszköz Azonosító Kód.</value>
+  </data>
+  <data name="di20030" xml:space="preserve">
+    <value>Első szint (Beszállító által kijelölt).</value>
+  </data>
+  <data name="di20031" xml:space="preserve">
+    <value>Második szint (Beszállító által kijelölt).</value>
+  </data>
+  <data name="di20032" xml:space="preserve">
+    <value>Harmadik szint (Beszállító által kijelölt).</value>
+  </data>
+  <data name="di20033" xml:space="preserve">
+    <value>Negyedik szint (Beszállító által kijelölt).</value>
+  </data>
+  <data name="di20034" xml:space="preserve">
+    <value>Ötödik szint (Beszállító által kijelölt).</value>
+  </data>
+  <data name="di2004" xml:space="preserve">
+    <value>Standard Fuvarozói Alfa Kód (SCAC) (4 alfanumerikus karakter) és egy opcionális fuvarozó által kijelölt pótkocsi szám (egy-tíz alfanumerikus karakter). Ha használják, a fuvarozó által kijelölt pótkocsi számot kötőjel '-' választja el a SCAC-tól.</value>
+  </data>
+  <data name="di2005" xml:space="preserve">
+    <value>Tartály Vagyontárgy Száma - Két összekapcsolt részből áll:\n- Egy szervezet azonosítása az ISO/IEC 15459 szerint és egy egyedi entitás azonosító kijelölése az adott kiadó által megállapított szabályok szerint.\n- Az entitás által kijelölt egyedi sorozatszám, amely egy 3 karakteres tartálytípus kóddal végződik, amely az EDIFACT Kódlista 8053-ból vagy az UPU M82-3 szabványból származik. (Ha a felsorolt tartálytípus kód kevesebb mint három karakter hosszúságú, a mezőt kötőjellel '-' töltik ki balra a három karakter hosszúságáig).</value>
+  </data>
+  <data name="di2007" xml:space="preserve">
+    <value>Tartály Sorozatszám.\nAz ISO 6346 szerint. OC EI CSN CD, ahol az OC a hárombetűs tulajdonos kódot jelöl, amelyet a BIC-kel együttműködve osztanak ki, az EI az egybetűs felszerelési kategória azonosítót, a CSN a felszerelés tulajdonosa által kijelölt 6 számjegyű egyedi tartályazonosítót, és a CD a modulus 11 ellenőrző számjegyet jelöli, amelyet az A melléklet, ISO 6346 szerint számítanak ki.</value>
+  </data>
+  <data name="di2008" xml:space="preserve">
+    <value>Visszaváltható Tartály tulajdonosának azonosítása, BIC-kel együttműködésben kijelölve.</value>
+  </data>
+  <data name="di2009" xml:space="preserve">
+    <value>Tartály Méret/Típus Kód.\nAz ISO 6346, 4.2. szakasz szerint.</value>
+  </data>
+  <data name="di2010" xml:space="preserve">
+    <value>Tartály Tulajdonosi Kód. A tartályon a tulajdonos által feltüntetett valós négy karakteres rövidítés. A DOD tulajdonában lévő tartályok esetében lásd a Védelmi Szállítási Szabályzat App EE-6.\n2020 Frissítés: az adatforrás hivatkozás frissítve a Védelmi Szállítási Szabályzat, II. rész, App TT, elérhető itt:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+  </data>
+  <data name="di2011" xml:space="preserve">
+    <value>Furgon Száma (teljes szám ellenőrző szám nélkül).</value>
+  </data>
+  <data name="di2012" xml:space="preserve">
+    <value>Furgon Számának ellenőrző számjegye, az 11B-ben azonosítva.</value>
+  </data>
+  <data name="di2013" xml:space="preserve">
+    <value>Tartályszám Kód (az utolsó 5 számjegy a számból, az ellenőrző számot nem számítva).</value>
+  </data>
+  <data name="di2014" xml:space="preserve">
+    <value>Címke Státusza.\nY=Engedélyezett / N=Nem engedélyezett.</value>
+  </data>
+  <data name="di2015" xml:space="preserve">
+    <value>Veszélyes Áru Osztálya.\nIMDG Osztály a 'n.na' formátumban, ahol n = numerikus, tizedespont kifejezetten kódolva, és a = feltételes betűs minősítő. http://docs.imo.org/.</value>
+  </data>
+  <data name="di2016" xml:space="preserve">
+    <value>VESZÉLYES ÁRU UN Kódja.\nVeszélyes áru esetén a szállító által az ENSZ Kód szerint biztosított.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\n2020 Frissítés: Az URL megváltozott: http://www.unece.org/trans/danger/danger.html</value>
+  </data>
+  <data name="di2017" xml:space="preserve">
+    <value>Szállítási Tárgy Neve.\nHajónév vagy járműkód/vonatút szám angolul.</value>
+  </data>
+  <data name="di2018" xml:space="preserve">
+    <value>Hajó Regisztrációs Száma.\nAz 'IMO' három betűje után a hajóknak az IHS Fairplay által a gyártáskor hozzárendelt hét számjegyű száma. http://www.imonumbers.lrfairplay.com/.</value>
+  </data>
+  <data name="di2019" xml:space="preserve">
+    <value>Út száma/Vonatút szám.\nBetű és szám.</value>
+  </data>
+  <data name="di2020" xml:space="preserve">
+    <value>Hajó Országa.\nISO 3166-1 Alpha 2 Kód.</value>
+  </data>
+  <data name="di2021" xml:space="preserve">
+    <value>Elektronikus Pecsét Számokra Fenntartva.\nAz 18185-1 pecsét címke ID - 32 bit és az ISO 14816 16-bit gyártói ID (ISO 646) alkotta.</value>
+  </data>
+  <data name="di2022" xml:space="preserve">
+    <value>Bejegyzés Száma/Típusa.\nAz háromjegyű töltőkód által követett hétjegyű bejegyzési szám, és egyjegyű ellenőrző számmal zárul. A Bejegyzési Töltőkód a CBP által a töltőnek vagy importőrnek kijelölt három karakteres alfanumerikus töltőkódot jelöli. A Bejegyzési Szám a töltő által hozzárendelt hétjegyű számot jelöli. A számot bármilyen kényelmes módon lehet hozzárendelni, feltéve, hogy ugyanazt a számot nem rendelik több mint egy CBP Form 7501-hez. A vezető nullákat meg kell jeleníteni. Az ellenőrző számjegyet az előző 10 karakteren számítják ki. Az ellenőrző szám számításának képletét az 1. mellékletben, a CBP 7501 utasításokban lehet megtalálni.\nA bejegyzés típusa egy kétjegyű kód, amely megfelel a CBP 7501 utasítások 2. blokkjának.</value>
+  </data>
+  <data name="di2023" xml:space="preserve">
+    <value>Kaució Száma.\nAz vámkezességi társaságot azonosító háromjegyű numerikus kód. Ezt a kódot a CBP Form 301 7. blokkjában található, vagy az ABI töltők számára a CBP automatizált rendszerén keresztül, az importőri kezesség lekérdezési tranzakción keresztül érhető el. Az Egyesült Államok kormányzati importjai és a kezességet nem igénylő bejegyzési típusok esetében ebben a blokkban a 999-es kódot kell megjeleníteni. Ha készpénzt vagy kormányzati értékpapírokat használnak kezesség helyett, használja a 998-as kódot.</value>
+  </data>
+  <data name="di2024" xml:space="preserve">
+    <value>Külföldi Kirakodási Kikötő.\nA 'Schedule K' (Külföldi Kikötők Osztályozása Földrajzi Kereskedelmi Terület és Ország szerint) a külföldi kikötőre, ahol a áru ténylegesen fel volt rakodva a hajóra, amely az árut az Egyesült Államokba szállította. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\n2020 Frissítés: Az URL megváltozott: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+  </data>
+  <data name="di2025" xml:space="preserve">
+    <value>Egy tranzakcióhoz tartozó fél azonosítása az ISO 17364 szerint, egy Cégazonosító Szám (CIN) birtokosa által kijelölve, beleértve a kapcsolódó Kiadói Ügynökség Kódot (IAC) az ISO/IEC 15459 szerint és annak nyilvántartását, 3 összefűzött adatelemként strukturálva: IAC, majd CIN, majd az RTI sorozatszám, amely egyedi a CIN birtokosának tartományában.</value>
+  </data>
+  <data name="di2026" xml:space="preserve">
+    <value>Egyedi Visszaváltható Szállítási Tétel Azonosító öt adatelemből álló sorozatban: 'IAC', majd 'CIN', majd 'RTI Szám' (RTIN), majd a '+' karakter, majd a szállító által kijelölt (vagy kezelt) 'RTI Sorozatszám' (RTISN), amely globálisan egyedi a CIN birtokosának tartományában; a formátumban IAC CIN RTIN + RTISN (a vizuális tisztaság érdekében hozzáadott szóközökkel; nem részei az adatnak). Lásd Melléklet C.11.</value>
+  </data>
+  <data name="di2027" xml:space="preserve">
+    <value>Nagy Rakományhordozó (LLC) Visszaváltható Szállítási Tétel (RTI) globálisan egyedi Vagyontárgy Azonosítója, amelynek oldalalapja = 1000 mm, az ISO 17365:2013 szerint meghatározva, harmadik csomagolási réteg, öt adatelemből álló sorozatban: 'IAC', majd 'CIN', majd RTI Típuskód 'RTITC', majd a '+' karakter, majd a tulajdonos által kijelölt (vagy kezelt) RTI Sorozatszám 'RTISN', amely globálisan egyedi a CIN birtokosának tartományában a formátumban IAC CIN RTITC + RTISN (a vizuális tisztaság érdekében hozzáadott szóközökkel; nem részei az adatnak).</value>
+  </data>
+  <data name="di2028" xml:space="preserve">
+    <value>Kis Rakományhordozó (SLC) Visszaváltható Szállítási Tétel globálisan egyedi Vagyontárgy Azonosítója, amelynek oldalalapja &lt; 1000 mm, az ISO 17364:2013 szerint meghatározva (RTI), harmadik csomagolási réteg, öt adatelemből álló sorozatban: 'IAC', majd 'CIN', majd RTI Típuskód 'RTITC', majd a '+' karakter, majd a tulajdonos által kijelölt (vagy kezelt) RTI Sorozatszám 'RTISN', amely globálisan egyedi a CIN birtokosának tartományában a formátumban IAC CIN RTITC + RTISN (a vizuális tisztaság érdekében hozzáadott szóközökkel; nem részei az adatnak).</value>
+  </data>
+  <data name="di2029" xml:space="preserve">
+    <value>Globálisan Egyedi Visszaváltható Csomagolási Tétel (RPI) azonosító a csomagolási segéd (fedél, blister, betét, ...) kategóriájában, öt adatelemből álló sorozatban: 'IAC', majd 'CIN', majd 'RPI Szám' RPIN, majd a '+' karakter, majd a tulajdonos által kijelölt (vagy kezelt) 'RPI Sorozatszám' RPISN, amely globálisan egyedi a CIN birtokosának tartományában a formátumban IAC CIN RPIN + RPISN (a vizuális tisztaság érdekében hozzáadott szóközökkel; nem részei az adatnak).</value>
+  </data>
+  <data name="di2030" xml:space="preserve">
+    <value>Csomagolási Tétel Száma.\nSzám a csomagolási tétel (anyag) típusának azonosítására, amikor termékeket és csomagokat csomagolnak.\nA szám lehetővé teszi a csomagolási tétel (anyag) azonosítását és elkülönítését a termékektől, csomagoktól, Visszaváltható Szállítási Tételektől (RTI-k) és Visszaváltható Csomagolási Tételektől (RPI-k) a csomagolás során.\nA számot legalább 1 adatelemből álló sorozatként állítják össze:\nA csomagolási tétel (anyag) száma, amely egyedi a birtokos tartományában.</value>
+  </data>
+  <data name="di2031" xml:space="preserve">
+    <value>Globálisan Egyedi Csomagolási Szám\nGlobálisan egyedi szám a csomagolási tétel (anyag) típusának azonosítására, amikor termékeket és csomagokat csomagolnak.\nA globálisan egyedi szám lehetővé teszi a csomagolási tételek (anyagok) azonosítását és elkülönítését a termékektől, csomagoktól, Visszaváltható Szállítási Tételektől (RTI-k) és Visszaváltható Csomagolási Tételektől (RPI-k) a csomagolás során.\nA számot három összefűzött adatelemből álló sorozatként állítják össze:\nAz IAC, majd a CIN, majd a csomagolási tétel (anyag) száma, amely egyedi a CIN birtokosának tartományában.</value>
+  </data>
+  <data name="di2055" xml:space="preserve">
+    <value>Globálisan Egyedi Visszaváltható Csomagolási Tétel (RPI) az ISO 17364 szerint meghatározva, egy Cégazonosító Szám (CIN) birtokosa által kijelölve, beleértve a kapcsolódó Kiadói Ügynökség Kódot (IAC) az ISO/IEC 15459 szerint és annak nyilvántartását, három összefűzött adatelemből álló sorozatként: IAC, majd CIN, majd az RPI sorozatszám, amely egyedi a CIN birtokosának tartományában.</value>
+  </data>
+  <data name="di21005" xml:space="preserve">
+    <value>Egy postai szolgáltatás és a hozzá kapcsolódó folyamatadatok meghatározása az UPU S25 adatszerkezet standardja szerint.</value>
+  </data>
+  <data name="di21006" xml:space="preserve">
+    <value>Engedélyező Postai Adatok, az UPU S25 standardjában meghatározott specifikáció szerint.</value>
+  </data>
+  <data name="di21015" xml:space="preserve">
+    <value>Kiegészítő postai szolgáltatás és a hozzá kapcsolódó folyamatadatok meghatározása az UPU S25 adatszerkezet standardja szerint.</value>
+  </data>
+  <data name="di21016" xml:space="preserve">
+    <value>Postai Igazgatás Azonosítói, az UPU S25 standardjában meghatározott specifikáció szerint kifejezett egy vagy több postai igazgatás azonosítója, amely(ek) egy levéltárgy vagy tételek feldolgozásában részt vesz(nek).</value>
+  </data>
+  <data name="di21017" xml:space="preserve">
+    <value>UPU Helykód, egy hely vagy földrajzi terület, vagy az ehhez kapcsolódó helyek vagy területek csoportjának azonosítására szolgáló kód, amely releváns egy kapcsolódó tranzakcióhoz és amely megfelel az alábbi a)-tól g)-ig terjedő szerkezetek egyikének:\na) két nagybetűs alfabetikus karakter, amely megfelel az ország ISO 3166-1 kétbetűs országkódjának, amelyben, vagy amelyből áll, a hely(ek) vagy terület(ek);\nb) három nagybetűs alfabetikus karakter, amely megfelel a repülőtér vagy város IATA kódjának, amelyben, közelében, vagy amelyből áll, a hely(ek) vagy terület(ek);\nc) négy vagy több karakter, amelynek az első három megfelel egy ISO 3166-1 országkódnak, amelyet egy kötőjel (-) követ, a maradék pedig az adott országban érvényes irányítószám;\nd) négy vagy több karakter, amelynek az első három megfelel egy ISO 3166-1 országkódnak, amelyet egy pont (.) követ, a maradék pedig az adott ország ISO 3166-2 országalkotórész kódja;\ne) öt nagybetűs alfabetikus karakter, amely megfelel az UN/LOCODE kódnak azon a területen, közelében vagy amelyből áll, a hely(ek) vagy terület(ek);\nf) hat nagybetűs alfanumerikus karakter, amely megfelel az UPU IMPC kódnak, amelyet az UPU S34 standard szerint osztanak ki;\ng) a konkatenáció, amely nem kevesebb, mint hét, de nem több, mint 25 karakter hosszúságú, amely tartalmazza:\n - egy UPU standardok S31 szerint kiosztott kiadói kódot;\n - egy helykódot, amely a {A-Z; 0-9} karakterkészletből álló karakterekből áll, amely megfelel az adott kiadó specifikációjának.</value>
+  </data>
+  <data name="di21018" xml:space="preserve">
+    <value>Minősített UPU Helykód, a következők konkatenációja:\n - egy helykategória az UPU kódlista 139-ből;\n - egy adatazonosító 17U UPU helykód.</value>
+  </data>
+  <data name="di21019" xml:space="preserve">
+    <value>Rendszámtábla Szolgáltatási Adatokkal és Helykóddal egy összetett adatszerkezet, amely megfelel az UPU S25 standardban meghatározott specifikációnak, amely tartalmazza:\n - egy ISO/IEC 15459 szerinti cikkazonosítót;\n - egy 5U adatazonosítóval megfelelő specifikációt a cikkre vonatkozóan nyújtandó szolgáltatásról;\n - egy 17U adatazonosítóval megfelelő UPU helykódot vagy egy 18U adatazonosítóval megfelelő minősített UPU helykódot.\n Megjegyzés - További részletekért lásd az UPU S25 standardot. Az egyszerű UPU helykód (DI 17U) és a minősített UPU helykód (DI 18U) közötti különbség az első karakterből megállapítható. Ha ez numerikus, akkor 18U érvényes; ha ez alfabetikus, akkor 17U érvényes.</value>
+  </data>
+  <data name="di21055" xml:space="preserve">
+    <value>OCR Adatlokátor.</value>
+  </data>
+  <data name="di22000" xml:space="preserve">
+    <value>Vevő által kijelölt Beszállítói Kód.</value>
+  </data>
+  <data name="di22001" xml:space="preserve">
+    <value>Beszállító által kijelölt Beszállítói Kód.</value>
+  </data>
+  <data name="di22002" xml:space="preserve">
+    <value>U.P.C. Cég Előtag.\n2020 Frissítés: Az GS1 azt javasolja, hogy ezt az DI-t ne használják tovább, és hogy az ezt az DI-t használó felhasználók migráljanak az GS1 adatminősítőire (Alkalmazási Azonosítók) az ISO/IEC 15418 és az ISO/IEC 15459-3 szerint.\nAz GS1 szerint a "U.P.C." kifejezést már nem használják, és az adatok (an2+n8) már nem helyesek. Az GS1 azt javasolja, hogy ezt az DI-t ne használják további alkalmazásokhoz.</value>
+  </data>
+  <data name="di22003" xml:space="preserve">
+    <value>GS1 Cég Előtag.\n2020 Frissítés: Az GS1 azt javasolja, hogy ezt az DI-t ne használják tovább, és hogy az ezt az DI-t használó felhasználók migráljanak az GS1 adatminősítőire (Alkalmazási Azonosítók) az ISO/IEC 15418 és az ISO/IEC 15459-3 szerint.\nAz GS1 szerint az adatok (an2+n9) már nem helyesek. Az GS1 azt javasolja, hogy ezt az DI-t ne használják további alkalmazásokhoz.</value>
+  </data>
+  <data name="di22004" xml:space="preserve">
+    <value>Fuvarozó által kijelölt Fuvarozó Azonosítási Kód, az ipari szabvány által közösen meghatározva a Beszállító, Fuvarozó és Vevő által.</value>
+  </data>
+  <data name="di22005" xml:space="preserve">
+    <value>Pénzintézeti Azonosítási Kód (közösen meghatározva).</value>
+  </data>
+  <data name="di22006" xml:space="preserve">
+    <value>Gyártó Azonosítási Kód (közösen meghatározva).</value>
+  </data>
+  <data name="di22007" xml:space="preserve">
+    <value>Egy entitásért vagy entitáscsoportért anyagilag felelős félre kijelölt kód (pl. készlettulajdonos) (közösen meghatározva).</value>
+  </data>
+  <data name="di22008" xml:space="preserve">
+    <value>Vevő által kijelölt Vevői Kód.</value>
+  </data>
+  <data name="di22009" xml:space="preserve">
+    <value>Beszállító által kijelölt Vevői Kód.</value>
+  </data>
+  <data name="di22010" xml:space="preserve">
+    <value>Gyártói AZ\nMEGJEGYZÉS - Lásd a 2. mellékletet, a CBP 7501 utasítások.</value>
+  </data>
+  <data name="di22011" xml:space="preserve">
+    <value>Egy entitás, folyamat vagy eljárás költségvetési felelősségével bíró szervezet (pl. műhely, osztály, részleg)(belsőleg kijelölve).</value>
+  </data>
+  <data name="di22012" xml:space="preserve">
+    <value>Gyártót Azonosító DUNS Szám.</value>
+  </data>
+  <data name="di22013" xml:space="preserve">
+    <value>Beszállítót Azonosító DUNS Szám.</value>
+  </data>
+  <data name="di22014" xml:space="preserve">
+    <value>Vevőt Azonosító DUNS Szám.</value>
+  </data>
+  <data name="di22015" xml:space="preserve">
+    <value>Fuvarozó által Kijelölt Szállítói Szám.</value>
+  </data>
+  <data name="di22016" xml:space="preserve">
+    <value>VMRS Beszállítói AZ.</value>
+  </data>
+  <data name="di22017" xml:space="preserve">
+    <value>Amerikai Védelmi Minisztérium (U.S. DoD) CAGE Kódja.</value>
+  </data>
+  <data name="di22018" xml:space="preserve">
+    <value>Egy tranzakcióban részt vevő fél azonosítása, amelynek az adatformátuma két összefűzött szegmensből áll. Az első szegmens az Kiadói Ügynökség Kód (IAC) az ISO/IEC 15459 szerint, a második szegmens egy egyedi entitás azonosító Cégazonosító Szám (CIN), amelyet az adott kiadó által meghatározott szabályok szerint rendelnek hozzá (lásd: http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+  </data>
+  <data name="di22019" xml:space="preserve">
+    <value>Egy tranzakcióban részt vevő fél(ek) szerep(ének) meghatározása, amely egy vagy több kódból áll az EDIFACT Kódlista 3035 'Fél Minősítő' szerint, plusz (+) karakterekkel elválasztva (Soha ne legyen összefűzve más DI-kkel egy lineáris szimbólumban vagy más médiában, ahol az összefűzés karaktere egy plusz (+) karakter).</value>
+  </data>
+  <data name="di22020" xml:space="preserve">
+    <value>Egy tranzakcióban részt vevő fél azonosítása, amelyet egy Cégazonosító Szám (CIN) birtokosa jelöl ki, beleértve a kapcsolódó Kiadói Ügynökség Kódot (IAC) az ISO/IEC 15459 szerint és annak nyilvántartását, három összefűzött adatelemből álló sorozatként: IAC, majd CIN, majd egy plusz (+) karakter, majd egy vagy több kódból álló sorozat az EDIFACT Kódlista 3035 'Fél Minősítő' szerint, plusz (+) karakterekkel elválasztva (Soha ne legyen összefűzve más DI-kkel egy lineáris szimbólumban vagy más médiában, ahol az összefűzés karaktere egy plusz (+) karakter).</value>
+  </data>
+  <data name="di22021" xml:space="preserve">
+    <value>Egy tranzakcióban részt vevő fél azonosítása, pl. 21V IAC CIN OSU, amelyet egy Cégazonosító Szám (CIN) birtokosa jelöl ki, beleértve a kapcsolódó Kiadói Ügynökség Kódot (IAC) az ISO/IEC 15459 szerint és annak nyilvántartását, három összefűzött adatelemből álló sorozatként: IAC, majd CIN, majd a CIN által kijelölt szervezeti alrészlet azonosító, amely egyedi a CIN birtokosának tartományában.</value>
+  </data>
+  <data name="di22022" xml:space="preserve">
+    <value>Fuvarozó SCAC.\nStandard Fuvarozói Alfa Kód - A Nemzeti Motoros Fuvarozási Szövetség, Inc., (NMFTA) osztja ki a SCAC-eket minden cég számára, kivéve azokat a kódokat, amelyeket Észak-Amerikán kívül működő teherszállító konténerek azonosítására használnak, intermodális alvázak és pótkocsik, nem vasúti tulajdonú vasúti kocsik és vasutak esetében. http://www.nmfta.org/Pages/welcome.aspx\nÉszak-Amerikán kívül működő teherszállító konténerek azonosítási kódjait kereső cégek a Nemzetközi Konténerek Hivatalához fordulhatnak, 38, rue des Blancs Manteaux, F75004 Párizs, Franciaország, e-mail: bic@bic-code.org, web www.biccode.org. Vasutak és intermodális alvázak, pótkocsik és nem vasúti tulajdonú vasúti kocsik tulajdonosai a Railinc Ügyfélszolgálatához fordulhatnak, Cím: Privát Jelölések, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, e-mail: private.marks@railinc.com.</value>
+  </data>
+  <data name="di22023" xml:space="preserve">
+    <value>Kormányzati hozzárendelt Általános Forgalmi Adó azonosító szám a beszállítót azonosítva, az ISO 3166-1 alpha-2 országkóddal kezdve (kivéve Görögországot, amely az ISO 639-1 nyelvi kódot EL használja), majd a kormány által hozzárendelt ÁFA számmal.\nPélda:\n23VIE6388047V a Google Irelandhez hozzárendelve.</value>
+  </data>
+  <data name="di22024" xml:space="preserve">
+    <value>Kormányzati hozzárendelt Általános Forgalmi Adó azonosító szám a vevőt azonosítva, az ISO 3166-1 alpha-2 országkóddal kezdve (kivéve Görögországot, amely az ISO 639-1 nyelvi kódot EL használja), majd a kormány által hozzárendelt ÁFA számmal.\nPélda:\n24VIE6388047V a Google Irelandhez hozzárendelve.</value>
+  </data>
+  <data name="di22025" xml:space="preserve">
+    <value>Kijelentés, hogy a DI 25V után következő NCAGE/CAGE kód a Gyártó. Tranzakcióban részt vevő fél, amelyben a DI 25V mögött használt NATO Kereskedelmi és Kormányzati Entitás (NCAGE) / Kereskedelmi és Kormányzati Entitás (CAGE) kódot kijelentik, hogy az adott tranzakcióban érintett termék(ek) gyártója. A DI 25V után következő adatok öt nagybetűs alfanumerikus karakterből állnak, kivéve az "I" és "O" betűket.</value>
+  </data>
+  <data name="di23000" xml:space="preserve">
+    <value>Munkarendelési Szám (pl. 'Gyártási Papír') (belsőleg kijelölve).</value>
+  </data>
+  <data name="di23001" xml:space="preserve">
+    <value>Műveleti Sorrend Száma. Egy adott művelet sorrendjét meghatározó szám egy sorozatban lévő műveletek között, általában egy gyártási vagy összeszerelési folyamatban.</value>
+  </data>
+  <data name="di23002" xml:space="preserve">
+    <value>Műveleti Kód/Munkakód - a végzendő munka típusa (belsőleg kijelölve vagy közösen meghatározva).</value>
+  </data>
+  <data name="di23003" xml:space="preserve">
+    <value>Összevont Munkarendelési Szám és Műveleti Sorrend Száma a nn...n+nn...n formátumban, ahol egy plusz szimbólumot (+) használnak elválasztóként a Munkarendelési Szám és a Műveleti Sorrend Száma között.</value>
+  </data>
+  <data name="di23004" xml:space="preserve">
+    <value>Státuszkód (belsőleg kijelölve vagy közösen meghatározva).</value>
+  </data>
+  <data name="di23005" xml:space="preserve">
+    <value>Munkaegység Kód - azonosítja a rendszert, alrendszert, összeállítást, alkatrészt stb., amelyen a karbantartást végzik.</value>
+  </data>
+  <data name="di23006" xml:space="preserve">
+    <value>Névlegesség - (belsőleg kijelölve vagy közösen meghatározva).</value>
+  </data>
+  <data name="di23010" xml:space="preserve">
+    <value>Űrlap Ellenőrzési Szám - Nyomtatott ellenőrzési szám az űrlapokon.</value>
+  </data>
+  <data name="di23011" xml:space="preserve">
+    <value>Minőségbiztosítási Ellenőr - Vezetéknév.</value>
+  </data>
+  <data name="di23012" xml:space="preserve">
+    <value>Az Űrlapot Kitöltő Személy/Szervezet Telefonszáma - a formátum szerint (országkód) városi vagy területi kód plusz helyi szám, azaz (1) 319 555 1212.</value>
+  </data>
+  <data name="di26000" xml:space="preserve">
+    <value>Közösen Meghatározva Vevő és Beszállító Között</value>
+  </data>
+  <data name="di26001" xml:space="preserve">
+    <value>Közösen Meghatározva Fuvarozó és Beszállító Között</value>
+  </data>
+  <data name="di26002" xml:space="preserve">
+    <value>Közösen Meghatározva Vevő és Fuvarozó Között</value>
+  </data>
+  <data name="di26003" xml:space="preserve">
+    <value>Szabad Szöveg</value>
+  </data>
+  <data name="di26004" xml:space="preserve">
+    <value>Közösen Meghatározva Fuvarozó és Kereskedelmi Partner Között</value>
+  </data>
+  <data name="di26010" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (Fejlécadatok)</value>
+  </data>
+  <data name="di26011" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (1. Sor Adatok)</value>
+  </data>
+  <data name="di26012" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (2. Sor Adatok)</value>
+  </data>
+  <data name="di26013" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (3. Sor Adatok)</value>
+  </data>
+  <data name="di26014" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (4. Sor Adatok)</value>
+  </data>
+  <data name="di26015" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (5. Sor Adatok)</value>
+  </data>
+  <data name="di26016" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (6. Sor Adatok)</value>
+  </data>
+  <data name="di26017" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (7. Sor Adatok)</value>
+  </data>
+  <data name="di26018" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (8. Sor Adatok)</value>
+  </data>
+  <data name="di26019" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (9. Sor Adatok)</value>
+  </data>
+  <data name="di26020" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (10. Sor Adatok)</value>
+  </data>
+  <data name="di26021" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (11. Sor Adatok)</value>
+  </data>
+  <data name="di26022" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (12. Sor Adatok)</value>
+  </data>
+  <data name="di26023" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (13. Sor Adatok)</value>
+  </data>
+  <data name="di26024" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (14. Sor Adatok)</value>
+  </data>
+  <data name="di26025" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (15. Sor Adatok)</value>
+  </data>
+  <data name="di26026" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (16. Sor Adatok)</value>
+  </data>
+  <data name="di26027" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (17. Sor Adatok)</value>
+  </data>
+  <data name="di26028" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (18. Sor Adatok)</value>
+  </data>
+  <data name="di26029" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (19. Sor Adatok)</value>
+  </data>
+  <data name="di26030" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (20. Sor Adatok)</value>
+  </data>
+  <data name="di26031" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (21. Sor Adatok)</value>
+  </data>
+  <data name="di26032" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (22. Sor Adatok)</value>
+  </data>
+  <data name="di26033" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (23. Sor Adatok)</value>
+  </data>
+  <data name="di26034" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (24. Sor Adatok)</value>
+  </data>
+  <data name="di26035" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (25. Sor Adatok)</value>
+  </data>
+  <data name="di26036" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (26. Sor Adatok)</value>
+  </data>
+  <data name="di26037" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (27. Sor Adatok)</value>
+  </data>
+  <data name="di26038" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (28. Sor Adatok)</value>
+  </data>
+  <data name="di26039" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (29. Sor Adatok)</value>
+  </data>
+  <data name="di26040" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (30. Sor Adatok)</value>
+  </data>
+  <data name="di26041" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (31. Sor Adatok)</value>
+  </data>
+  <data name="di26042" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (32. Sor Adatok)</value>
+  </data>
+  <data name="di26043" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (33. Sor Adatok)</value>
+  </data>
+  <data name="di26044" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (34. Sor Adatok)</value>
+  </data>
+  <data name="di26045" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (35. Sor Adatok)</value>
+  </data>
+  <data name="di26046" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (36. Sor Adatok)</value>
+  </data>
+  <data name="di26047" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (37. Sor Adatok)</value>
+  </data>
+  <data name="di26048" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (38. Sor Adatok)</value>
+  </data>
+  <data name="di26049" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (39. Sor Adatok)</value>
+  </data>
+  <data name="di26050" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (40. Sor Adatok)</value>
+  </data>
+  <data name="di26051" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (41. Sor Adatok)</value>
+  </data>
+  <data name="di26052" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (42. Sor Adatok)</value>
+  </data>
+  <data name="di26053" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (43. Sor Adatok)</value>
+  </data>
+  <data name="di26054" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (44. Sor Adatok)</value>
+  </data>
+  <data name="di26055" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (45. Sor Adatok)</value>
+  </data>
+  <data name="di26056" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (46. Sor Adatok)</value>
+  </data>
+  <data name="di26057" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (47. Sor Adatok)</value>
+  </data>
+  <data name="di26058" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (48. Sor Adatok)</value>
+  </data>
+  <data name="di26059" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (49. Sor Adatok)</value>
+  </data>
+  <data name="di26060" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (50. Sor Adatok)</value>
+  </data>
+  <data name="di26061" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (51. Sor Adatok)</value>
+  </data>
+  <data name="di26062" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (52. Sor Adatok)</value>
+  </data>
+  <data name="di26063" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (53. Sor Adatok)</value>
+  </data>
+  <data name="di26064" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (54. Sor Adatok)</value>
+  </data>
+  <data name="di26065" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (55. Sor Adatok)</value>
+  </data>
+  <data name="di26066" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (56. Sor Adatok)</value>
+  </data>
+  <data name="di26067" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (57. Sor Adatok)</value>
+  </data>
+  <data name="di26068" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (58. Sor Adatok)</value>
+  </data>
+  <data name="di26069" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (59. Sor Adatok)</value>
+  </data>
+  <data name="di26070" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (60. Sor Adatok)</value>
+  </data>
+  <data name="di26071" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (61. Sor Adatok)</value>
+  </data>
+  <data name="di26072" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (62. Sor Adatok)</value>
+  </data>
+  <data name="di26073" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (63. Sor Adatok)</value>
+  </data>
+  <data name="di26074" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (64. Sor Adatok)</value>
+  </data>
+  <data name="di26075" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (65. Sor Adatok)</value>
+  </data>
+  <data name="di26076" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (66. Sor Adatok)</value>
+  </data>
+  <data name="di26077" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (67. Sor Adatok)</value>
+  </data>
+  <data name="di26078" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (68. Sor Adatok)</value>
+  </data>
+  <data name="di26079" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (69. Sor Adatok)</value>
+  </data>
+  <data name="di26080" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (70. Sor Adatok)</value>
+  </data>
+  <data name="di26081" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (71. Sor Adatok)</value>
+  </data>
+  <data name="di26082" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (72. Sor Adatok)</value>
+  </data>
+  <data name="di26083" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (73. Sor Adatok)</value>
+  </data>
+  <data name="di26084" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (74. Sor Adatok)</value>
+  </data>
+  <data name="di26085" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (75. Sor Adatok)</value>
+  </data>
+  <data name="di26086" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (76. Sor Adatok)</value>
+  </data>
+  <data name="di26087" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (77. Sor Adatok)</value>
+  </data>
+  <data name="di26088" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (78. Sor Adatok)</value>
+  </data>
+  <data name="di26089" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (79. Sor Adatok)</value>
+  </data>
+  <data name="di26090" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (80. Sor Adatok)</value>
+  </data>
+  <data name="di26091" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (81. Sor Adatok)</value>
+  </data>
+  <data name="di26092" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (82. Sor Adatok)</value>
+  </data>
+  <data name="di26093" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (83. Sor Adatok)</value>
+  </data>
+  <data name="di26094" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (84. Sor Adatok)</value>
+  </data>
+  <data name="di26095" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (85. Sor Adatok)</value>
+  </data>
+  <data name="di26096" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (86. Sor Adatok)</value>
+  </data>
+  <data name="di26097" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (87. Sor Adatok)</value>
+  </data>
+  <data name="di26098" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (88. Sor Adatok)</value>
+  </data>
+  <data name="di26099" xml:space="preserve">
+    <value>Strukturált Szabad Szöveg (89. Sor Adatok)</value>
+  </data>
+  <data name="di3" xml:space="preserve">
+    <value>Az 'EGYENLŐ' karakter. ICCBB</value>
+  </data>
+  <data name="di3000" xml:space="preserve">
+    <value>A Vevő által kijelölt Túl hosszú Tételkód (16. Kategória) folytatása, amely túl nagy a szükséges mezőméretre.</value>
+  </data>
+  <data name="di3001" xml:space="preserve">
+    <value>A Beszállító által kijelölt Nyomonkövethetőségi Kód (20. Kategória) folytatása.</value>
+  </data>
+  <data name="di3002" xml:space="preserve">
+    <value>A Beszállító által kijelölt Sorozatszám (19. Kategória) folytatása.</value>
+  </data>
+  <data name="di3003" xml:space="preserve">
+    <value>Szabad Szöveg (26. Kategória) folytatása, amely közösen meghatározva a Beszállító/Fuvarozó/Vevő között.</value>
+  </data>
+  <data name="di3004" xml:space="preserve">
+    <value>Tranzakciós Hivatkozás (11. Kategória) folytatása, amely közösen meghatározva a Beszállító/Fuvarozó/Vevő között.</value>
+  </data>
+  <data name="di3005" xml:space="preserve">
+    <value>A Beszállító által kijelölt Tételkód (16. Kategória) folytatása.</value>
+  </data>
+  <data name="di4" xml:space="preserve">
+    <value>Funkció 1 (FUNC1) karakter. Megjelenik az első pozícióban a szimbológia kezdő karaktere után a Code 128, Code 49 vagy Code 16K Szimbólumban, hogy jelezze egy GS1-vezérelt szimbólumot.</value>
+  </data>
+  <data name="di4000" xml:space="preserve">
+    <value>Formátum YYMMDD.</value>
+  </data>
+  <data name="di4001" xml:space="preserve">
+    <value>Formátum DDMMYY.</value>
+  </data>
+  <data name="di4002" xml:space="preserve">
+    <value>Formátum MMDDYY.</value>
+  </data>
+  <data name="di4003" xml:space="preserve">
+    <value>Formátum YDDD (Julián).</value>
+  </data>
+  <data name="di4004" xml:space="preserve">
+    <value>Formátum YYDDD (Julián).</value>
+  </data>
+  <data name="di4005" xml:space="preserve">
+    <value>ISO formátum YYMMDD közvetlenül egy ANSI X12.3 Adatelem Szám 374 Minősítő után, amely egy dátumtípus kódját adja meg (pl. szállítási dátum, gyártási dátum).</value>
+  </data>
+  <data name="di4006" xml:space="preserve">
+    <value>ISO formátum YYYYMMDD közvetlenül egy ANSI X12.3 Adatelem Szám 374 Minősítő után, amely egy dátumtípus kódját adja meg (pl. szállítási dátum, gyártási dátum).</value>
+  </data>
+  <data name="di4007" xml:space="preserve">
+    <value>Formátum MMYY.</value>
+  </data>
+  <data name="di4008" xml:space="preserve">
+    <value>Esemény, Dátum és Idő.\nISO formátum YYYYMMDDHHMM (24 órás óra - UTC) közvetlenül egy UN/EDIFACT Kód Minősítő 2005 után, amely egy dátumtípus kódot ad meg), pl.\n11 [Az áruk várható feladási/szállítási dátuma, amikor az üzenetet kiadják.];\n17 [Becsült kézbesítési dátum/idő, amikor az árukat várhatóan kézbesítik];\n35 [Az áruk célállomásra történő kézbesítésének dátuma.];\n118 [Foglalás Megerősítve];\n129 [Dátum, amikor a hajó/áru elhagyta az utolsó külföldi kikötőt az exportáló országban.];\n132 [Dátum/idő, amikor a fuvarozó becsli, hogy a szállítási eszköz megérkezik a lerakodási kikötőbe vagy a célhelyre];\n133 [Dátum/idő, amikor a fuvarozó becsli, hogy a szállítási eszköz elindul a kiindulási helyről];\n137 [Dátum/idő, amikor a beszállító az ügyfél kérésére alkatrészeket szállít. (A DESADV üzenet kiadásának dátuma. Ajánlás, hogy a DESADV-t az áruk ShipFrom fél általi felvételét követő 30 percen belül adják ki];\n146 [Becsült Bejegyzési dátum (Vám) a vámbejegyzés hivatalos dátumának várható dátuma.];\n151 [Import Dátum (Kikötőbe érkezett lerakodási szándékkal];\n186 Elhagy egy Létesítményt ('Kapu-ki)];\n204 [Dátum, amikor a Vám kiadja az árut a fuvarozónak vagy az importőrnek];\n253 [Elhagy egy Kikötőt ('Hajó Indulása')];\n252 [Megérkezik egy Kikötőbe ('Hajó Érkezése')];\n283 [Megérkezik egy Létesítménybe ('Kapu-be)];\n342 [Szállítmány Felrakodva];\n351 [Terminál Kapu Ellenőrzése];\n411 [Rendelt Betöltés];\n412 [Rendelt Kirakodás];\n420 [Szállítmány Lerakodva];\n534 [Megjavítva];\n677 [Megerősített Betöltés];\n678 [Megerősített Kirakodás];\n696 [Bejelentési Dátum].</value>
+  </data>
+  <data name="di4009" xml:space="preserve">
+    <value>Dátum (szerkezet és jelentőség közösen meghatározva).</value>
+  </data>
+  <data name="di4010" xml:space="preserve">
+    <value>Formátum YYWW.</value>
+  </data>
+  <data name="di4011" xml:space="preserve">
+    <value>Formátum YYYYWW.</value>
+  </data>
+  <data name="di4012" xml:space="preserve">
+    <value>Formátum YYYYMMDD.</value>
+  </data>
+  <data name="di4013" xml:space="preserve">
+    <value>Legkorábbi és Legújabb Gyártási Dátum a YYWWYYWW formátumban.</value>
+  </data>
+  <data name="di4014" xml:space="preserve">
+    <value>Lejárati Dátum (YYYYMMDD).</value>
+  </data>
+  <data name="di4015" xml:space="preserve">
+    <value>Lejárati Dátum (DDMMYYYY).</value>
+  </data>
+  <data name="di4016" xml:space="preserve">
+    <value>Gyártási Dátum (YYYYMMDD) - A gyártás dátuma.</value>
+  </data>
+  <data name="di4017" xml:space="preserve">
+    <value>Gyártási Dátum (DDMMYYYY).</value>
+  </data>
+  <data name="di4018" xml:space="preserve">
+    <value>Címke Aktiválási Idő.\nYYYYMMDDHHMM (24 órás óra - UTC).</value>
+  </data>
+  <data name="di4019" xml:space="preserve">
+    <value>Címke Deaktiválási Idő.\nYYYYMMDDHHMM (24 órás óra - UTC).</value>
+  </data>
+  <data name="di4020" xml:space="preserve">
+    <value>Ellenőrzési Dátum (DDMMYYYY).</value>
+  </data>
+  <data name="di4021" xml:space="preserve">
+    <value>Szükséges Szállítási Dátum (DDD Julián) vagy DOD MILSTAMP Kód.</value>
+  </data>
+  <data name="di4022" xml:space="preserve">
+    <value>Feljegyzés Ideje.\nYYYYMMDDHHMM (24 órás óra - UTC).</value>
+  </data>
+  <data name="di4023" xml:space="preserve">
+    <value>Dátum, módosított UTC-kompatibilis formában reprezentálva:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] ahol a szögletes zárójelek az opcionális részeket jelölik, yyyy az év, mmdd a hónap és nap, hhmmss az idő órában, percben és másodpercben, fff a másodpercek törtrészei, és poooo az UTC-től való eltérés órában és percben kifejezve, az eltérés pozitív, ha p pont (.), negatív, ha P mínuszjel (-).\nPÉLDA:\n2005 - (UTC) 2005-ös naptári év;\n200505 - (UTC) 2005 május hónap;\n20050518 - (UTC) 2005. május 18.;\n200505181247 - 12:47 UTC 2005. május 18-án;\n200505181247.0100 - 12:47 helyi idő, ami 11:47 UTC, 2005. május 18-án;\n20050518124723099 - 99 ezredmásodperc múlva UTC 12:47:23 2005. május 18-án.</value>
+  </data>
+  <data name="di4024" xml:space="preserve">
+    <value>Minősített Dátum, a következők konkatenációja:\n- egy ISO/IEC 15459 kiadói ügynökségi kód;\n- egy dátumminősítő, amely megfelel az adott kiadói ügynökség specifikációinak;\n- egy dátum, amelynek formátuma és értelmezése megfelel az adott kiadói ügynökség specifikációinak az adott dátumminősítőre vonatkozóan.</value>
+  </data>
+  <data name="di4025" xml:space="preserve">
+    <value>Legjobb fogyasztási időpontig: (YYYYMMDD).\nPélda: 25D20170202 = 2017. február 2.</value>
+  </data>
+  <data name="di4026" xml:space="preserve">
+    <value>Első fagyasztási dátum (YYYYMMDD).\nAz első fagyasztási dátumot úgy határozzák meg, mint a termékek vágás, betakarítás, fogás vagy kezdeti feldolgozás utáni közvetlen fagyasztásának dátuma.\nPélda: 26D20170721 = 2017. július 21.</value>
+  </data>
+  <data name="di4027" xml:space="preserve">
+    <value>Betakarítási Dátum (YYYYMMDD).\nAz a dátum, amikor egy állatot levágtak vagy megöltek, egy halat kifogtak, vagy egy terményt betakarítottak.\nPélda: 27D20170615 = 2017. június 15.</value>
+  </data>
+  <data name="di4028" xml:space="preserve">
+    <value>Betakarítási Időszak (YYYYMMDDYYYYMMDD).\nAz a kezdő és befejező dátumtartomány, amely alatt a betakarítás történt.\nPéldául; állatokat levágtak vagy megöltek, halakat kifogtak, vagy egy terményt betakarítottak.\nAz adatfolyamot az első YYYYMMDD mint kezdő dátum és az utolsó YYYYMMDD mint befejező dátum határozza meg.\nPélda:\n28D2017012320170214 = Kezdő; 2017. január 23. Befejező; 2017. február 14.</value>
+  </data>
+  <data name="di5" xml:space="preserve">
+    <value>'Bal Szögletes Zárójel', 'Jobb Zárójel', 'Nagyobb Mint Jel', 'Rekord Elválasztó' karakterek. Adatszerkezet megfelel az ISO/IEC 15434-nek, Információtechnológia - Automatikus Azonosítás és Adatgyűjtési Technikák - Nagy Kapacitású ADC Média Szintaxisa.</value>
+  </data>
+  <data name="di5000" xml:space="preserve">
+    <value>Korlátozott Anyagok Osztályozása - 'Környezeti Osztályozási Kód' beleértve a Ólommentes (Pb-mentes) bevonatkategóriákat, amelyek a JESD97-ben (IPC JEDEC J-STD-609) vannak meghatározva, és a jövőbeni ipari vagy kormányzati ügynökség által hozzárendelt kódokat, amelyek kapcsolódnak a környezeti szabályozási megfeleléshez és a veszélyes anyagok tartalmához.</value>
+  </data>
+  <data name="di5001" xml:space="preserve">
+    <value>Légnyomás - (magasság) Pascalban kifejezve, mint a nemzetközi standard mértékegység.</value>
+  </data>
+  <data name="di5002" xml:space="preserve">
+    <value>Megengedett Maximális Hőmérséklet. Maximálisan megengedett hőmérséklet; Celsius fokban, '-' (mínusz) kódolva, ha szükséges.</value>
+  </data>
+  <data name="di5003" xml:space="preserve">
+    <value>Megengedett Minimális Hőmérséklet.\nMinimálisan megengedett hőmérséklet; Celsius fokban, '-' (mínusz) kódolva, ha szükséges.</value>
+  </data>
+  <data name="di5004" xml:space="preserve">
+    <value>Megengedett Maximális Relatív Páratartalom.\nMaximálisan megengedett relatív páratartalom, százalékban feltételezve.</value>
+  </data>
+  <data name="di5005" xml:space="preserve">
+    <value>Megengedett Minimális Relatív Páratartalom.\nMaximálisan megengedett relatív páratartalom, százalékban kifejezve.</value>
+  </data>
+  <data name="di5006" xml:space="preserve">
+    <value>Hűtőkonténer Hőmérséklete.\nHőmérséklet-szabályozott áruk esetében a szállító által meghatározott cél, Celsius fokban, '-' (mínusz) kódolva, ha szükséges.</value>
+  </data>
+  <data name="di5010" xml:space="preserve">
+    <value>Összegzett Idő-Hőmérséklet Index - kifejezve a mérések vagy számlálások számában.</value>
+  </data>
+  <data name="di5011" xml:space="preserve">
+    <value>Idő-Hőmérséklet Index - Következő Magasabb Összeállítás - kifejezve a mérések vagy számlálások számában.</value>
+  </data>
+  <data name="di5012" xml:space="preserve">
+    <value>Csomagolóanyag Kategóriájának*, Kódjának* és Súlyának Kijelentése egy adott csomagolóanyag esetében, amelyet egy adott csomagolásban használnak az EU csomagolási és csomagolási hulladék irányelv szerint. (Az anyagkategória és kód az M mellékletben van meghatározva).\n12ECCMMMMMMNNNNNUU ahol: - '12E' (an3) az Adat Azonosító;\n - 'CC' (n2) az Anyagkategória az M melléklet szerint;\n - 'MMMMMM' (an1...6) az Anyagkód az M melléklet szerint;\n - 'NNNNN' (n5) Anyagsúly, tizedes ponttal együtt (pl. 12.12);\n - 'UU' (an2) a súly mértékegysége (pl. KG, GR, LB vagy OZ az ANSI X12.3 szerint, mint az D mellékletben).</value>
+  </data>
+  <data name="di5013" xml:space="preserve">
+    <value>Az adatok a DI 13E után az egyik MSL jelző (1, 2, 2a, 3, 4, 5, 5a, 6) lesznek, ahogy az a JEDEC standard IPC/JEDEC J-STD-020E 5-1. táblázatában a SZINT oszlopban szerepel. A táblázat csak tájékoztatásul szerepel; a hivatkozott standard jelenleg kiadott változatát kell használni a tényleges komponens helyes MSL-jének megszerzéséhez. Példa: 13E2a</value>
+  </data>
+  <data name="di6" xml:space="preserve">
+    <value>A 'KÖTŐJEL' vagy 'MÍNUSZ' karakter. Gyógyszerközponti Szám (PZN), az IFA-ABDATA, Németország által irányítva (Ennek a rendszerazonosítónak a regisztrációja 2016-07-01-kor lejár). Helyettesítve '9N' által.</value>
+  </data>
+  <data name="di6000" xml:space="preserve">
+    <value>Ciklus Fejléc.</value>
+  </data>
+  <data name="di6001" xml:space="preserve">
+    <value>Szüleim ______ . . . Egyedi azonosító, amelyet egy Adat Azonosító és a hozzá kapcsolódó adatok követnek (visszaváltható csomagolás esetén használva). Ezt az Adat Azonosítót közvetlenül az őt követő mezővel (egy Adat Azonosítóból, adatokból és egy csoportelválasztóból álló mező) kell használni.</value>
+  </data>
+  <data name="di6003" xml:space="preserve">
+    <value>______ gyermekem van . . . (visszaváltható csomagolás esetén használva; pl.: 3F10, tíz gyermek esetén). Ezt az Adat Azonosítót közvetlenül az őt követő mezővel (egy Adat Azonosítóból, adatokból és egy csoportelválasztóból álló mező) kell használni.</value>
+  </data>
+  <data name="di6004" xml:space="preserve">
+    <value>Információk Logikai Hozzárendelése egy információs oldalhoz egy olyan oldalcsoportban, amely több adathordozón keresztül terjed, legfeljebb három (3) összefűzött adatelemből álló sorozatként, perjellel (/) elválasztva:\n Oldalszám (kötelező), majd oldalszám (opcionális, az utolsó oldal esetén kötelező), majd egy alfanumerikus csoportazonosító (opcionális; ha használják, akkor minden oldal esetén kötelező, és az ISO/IEC 15459-3 szerinti sorozatként strukturálva: Kiadói Ügynökség Kódja, majd a Cégazonosító Szám, majd az adott kiadó tartományában egyedi alfanumerikus kód).\n A perjelek opcionálisak.</value>
+  </data>
+  <data name="di6005" xml:space="preserve">
+    <value>______ gyermekem van, és ők . . . (visszaváltható csomagolás esetén használva) Ezt az Adat Azonosítót közvetlenül az őt követő mezővel (egy Adat Azonosítóból, adatokból és egy csoportelválasztóból álló mező) kell használni.</value>
+  </data>
+  <data name="di7" xml:space="preserve">
+    <value>A 'KIÁLTÓJEL'. Eurocode-IBLS</value>
+  </data>
+  <data name="di8000" xml:space="preserve">
+    <value>Fél Neve.\nEgy fél neve, amelyet egy plusz (+) karakter követ, majd egy vagy több kódból álló sorozat az EDIFACT Kódlista 3035 'Fél Minősítő' szerint, pl.;\nBY [Vevő];\nCF [Konténer üzemeltető];\nCN [Címzett];\nCS [Konszolidátor];\nDEI [Hajó üzemeltetője/kapitány];\nFA [Műveleti személyzet kód];\nIM [Importőr];\nMF [Gyártó];\nOS [Feladó];\nSE [Eladó];\nST [Szállítási cím];\nUC [Végső címzett].</value>
+  </data>
+  <data name="di8001" xml:space="preserve">
+    <value>Munkavállaló Azonosítási Kód, amelyet a munkáltató rendel hozzá.</value>
+  </data>
+  <data name="di8002" xml:space="preserve">
+    <value>Amerikai Szociálbiztosítási Szám.</value>
+  </data>
+  <data name="di8003" xml:space="preserve">
+    <value>Nem Munkavállaló Azonosító Száma (belsőleg kijelölve vagy közösen meghatározva) (pl. szerződéses munkavállalók, beszállítók, szolgáltatók, szállítók).</value>
+  </data>
+  <data name="di8004" xml:space="preserve">
+    <value>Nemzeti Szociálbiztosítási Szám.</value>
+  </data>
+  <data name="di8005" xml:space="preserve">
+    <value>Vezetéknév.</value>
+  </data>
+  <data name="di8006" xml:space="preserve">
+    <value>Fél Neve (2. Sor).</value>
+  </data>
+  <data name="di8007" xml:space="preserve">
+    <value>Kapcsolattartó Telefon.\nOrszágkód, Területi Kód, Központ, szám [XX YYY ZZZ ZZZZ].</value>
+  </data>
+  <data name="di8008" xml:space="preserve">
+    <value>Kapcsolattartó Email.</value>
+  </data>
+  <data name="di8009" xml:space="preserve">
+    <value>Címzett Száma.\nAz egyedi azonosító szám az IRS, EIN, SSN, vagy a CBP által hozzárendelt szám lehet, amely a Biztonsági Bejelentésen szükséges. Csak a következő formátumok használhatók: IRS EIN: NN-NNNNNNN;\nIRS EIN kiterjesztéssel:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP hozzárendelt szám: YYDDPP-NNNNN.</value>
+  </data>
+  <data name="di8010" xml:space="preserve">
+    <value>Személyi Azonosító Kód (első betű, utolsó betű, SSN utolsó négy számjegye).</value>
+  </data>
+  <data name="di8011" xml:space="preserve">
+    <value>Keresztnév és Középkezdőbetű.</value>
+  </data>
+  <data name="di8012" xml:space="preserve">
+    <value>Katonai Rang (E1-E9, W1-W5, és O1-O10).\n2020 Frissítés: Az adatformátumot megváltoztatták, hogy megfeleljen a hadsereg által használt tényleges tisztikari rangoknak: "an2+an3". A magyarázatot megváltoztatták: "Katonai Rang (E1-E9, W1-W5, és O1-O11).</value>
+  </data>
+  <data name="di8015" xml:space="preserve">
+    <value>Egy Nemzeti Azonosító Szám, Nemzeti Személyazonosító Szám, vagy Nemzeti Biztosítási Szám, amelyet egy országban az egyének azonosítására használnak a munka, adózás, kormányzati juttatások, egészségügy és egyéb kormányzati kapcsolódó funkciók céljából.\nAz azonosító szerkezete a DI (15H) után az ISO 3166-1 Alpha2 Országkód, majd az adott kormány által az egyének számára elsődlegesen hozzárendelt azonosító kód.</value>
+  </data>
+  <data name="di8025" xml:space="preserve">
+    <value>Globálisan Egyedi Személyi AZ, amelyet egy Cégazonosító Kód (CIN) birtokosa rendel hozzá, beleértve a kapcsolódó Kiadói Ügynökség Kódot (IAC) az ISO/IEC 15459 szerint és annak nyilvántartását, három összefűzött adatelemből álló sorozatként: IAC, majd CIN, majd a birtokos tartományában egyedi AZ.</value>
+  </data>
+  <data name="di8026" xml:space="preserve">
+    <value>Globálisan Egyedi Személyi AZ, "Fél Minősítő" kóddal az EDIFACT Kódlista 3035-ből</value>
+  </data>
+  <data name="di9000" xml:space="preserve">
+    <value>Kizárólagos Kijelölés - Jármű Azonosító Szám (VIN), amelyet az Egyesült Államokban a 49 CFR, Szakasz 565 alatt és nemzetközileg az ISO 3779 szerint határoznak meg. (Ezek teljesen kompatibilis adatszerkezetek).</value>
+  </data>
+  <data name="di9002" xml:space="preserve">
+    <value>Rövidített VIN Kód.</value>
+  </data>
+  <data name="di9004" xml:space="preserve">
+    <value>Globálisan egyedi szállítóeszköz azonosító (pl. teherautók), amely a Jármű Azonosító Számot (VIN) tartalmazza, amelyet az Egyesült Államokban a 49 CFR Szakasz 565 alatt és nemzetközileg az ISO 3779 szerint határoznak meg, majd a '+' karakter követi, ezután a kormány által kiadott Jármű Regisztrációs Rendszámtábla Száma a '4I' 'VIN' '+' 'kormány által kiadott Jármű Regisztrációs Rendszámtábla Szám' formában (az idézőjelek és szóközök csak a tisztaság kedvéért vannak megadva; nem részei az adatnak).</value>
+  </data>
+  <data name="di9005" xml:space="preserve">
+    <value>Egyedi gyártási járműazonosító, amelyet a jármű gyártási folyamatai során használnak, amely a Karosszéria Címke Számot (BTN; vagy bármely más leíró, amelyet a nyers autókarosszéria, vagyis a jármű gyártási folyamatának kezdéséhez használt alkatrészegyüttes azonosítására használnak) tartalmazza, majd a '+' karakter követi, ezután a Gyártási Rendelés Szám (PON), majd a '+' karakter, és ezután a Gyártó által hozzárendelt Sorozatszám (SN). MEGJEGYZÉS - Az SN komponenst az SN komponenssel kell helyettesíteni, amint az SN a gyártási folyamat során elérhetővé válik.\nA szerkezet a következőképpen fog kinézni;\n\5I" "BTN" "+" "PON" "+" "SN"\nátváltozva (amikor az SN elérhető)\n"5I" "BTN" "+" "PON" "+" "VIN"\nMEGJEGYZÉS - Az idézőjelek és szóközök csak a tisztaság kedvéért vannak megadva; nem részei az adatnak.\nMEGJEGYZÉS - Ezt az DI-t soha nem szabad más DI-kkel összefűzni egy lineáris szimbólumban vagy más médiában, ahol az összefűzés karaktere egy plusz (+) karakter.\nPéldák:\nSN verzió: 5IABCD1234+CO1234+W0L201600500001\nVIN verzió: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+</root>
