@@ -20,8 +20,6 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-using System.Diagnostics;
-
 [assembly: CLSCompliant(true)]
 
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
@@ -67,9 +65,13 @@ public static class Parser {
     /// <return>The pack identifier.</return>
     public static void Parse(string? data, Action<IResolvedEntity> processResolvedEntity, int initialPosition = 0)
     {
+#if NET6_0_OR_GREATER
+        ArgumentNullException.ThrowIfNull(processResolvedEntity);
+#else
         if (processResolvedEntity is null) {
             throw new ArgumentNullException(nameof(processResolvedEntity));
         }
+#endif
 
         // Is any data present?
         if (string.IsNullOrWhiteSpace(data))
@@ -116,7 +118,7 @@ public static class Parser {
             var fieldPosition = currentPosition;
             var fieldBuffer = recordBuffer.Contains(
                 fieldSeparator
-#if NETCOREAPP2_1_OR_GREATER 
+#if NETCOREAPP2_1_OR_GREATER
                     , StringComparison.Ordinal
 #endif
                 )
@@ -147,7 +149,7 @@ public static class Parser {
             var recordBufferLength = recordBuffer.Length;
             recordBuffer = recordBuffer.StartsWith(fieldSeparator, StringComparison.Ordinal)
                                ? recordBuffer
-#if NET6_0_OR_GREATER                                 
+#if NET6_0_OR_GREATER
                                     [fieldSeparator.Length..]
 #else
                                     .Substring(fieldSeparator.Length)
@@ -204,7 +206,7 @@ public static class Parser {
     ///   The current character position.
     /// </param>
     private static void DoParseRecords(
-        string dataBuffer,
+        string? dataBuffer,
         Action<IResolvedEntity> processResolvedEntity,
         int currentPosition)
     {
@@ -233,7 +235,7 @@ public static class Parser {
             // Is the data terminated by a format trailer?
             var recordPosition = currentPosition;
 
-            var recordBuffer = dataBuffer.Contains(
+            var recordBuffer = dataBuffer!.Contains(
                 formatTrailer
 #if NETCOREAPP2_1_OR_GREATER
                 , StringComparison.Ordinal
@@ -258,7 +260,7 @@ public static class Parser {
             var dataBufferLength = dataBuffer.Length;
             dataBuffer = dataBuffer.StartsWith(formatTrailer, StringComparison.Ordinal)
                              ? dataBuffer
-#if NET6_0_OR_GREATER                                 
+#if NET6_0_OR_GREATER
                                 [formatTrailer.Length..]
 #else
                                 .Substring(formatTrailer.Length)
@@ -269,7 +271,7 @@ public static class Parser {
             // Remove any leading format header from the record buffer
             recordBuffer = recordBuffer.StartsWith(formatHeader, StringComparison.Ordinal)
                                ? recordBuffer
-#if NET6_0_OR_GREATER 
+#if NET6_0_OR_GREATER
                                     [formatHeader.Length..]
 #else
                                     .Substring(formatHeader.Length)

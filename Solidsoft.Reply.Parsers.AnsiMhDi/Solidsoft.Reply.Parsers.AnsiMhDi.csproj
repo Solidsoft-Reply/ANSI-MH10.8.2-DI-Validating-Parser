@@ -18,7 +18,8 @@
 	  <PackageTags>ansi;mh10.8.2;di;parser;barcode;datamatrix;qr;code-128</PackageTags>
 	<RepositoryUrl>https://github.com/Solidsoft-Reply/Solidsoft.Reply.Parsers.AnsiMhDi</RepositoryUrl>
 	<PackageReleaseNotes>
-		1) Added Italian language support.
+		1) Includes translations for all entity descriptions.
+		2) Provides language support for all EU official languages and Norwegian and Icelandic.
 	</PackageReleaseNotes>
 	<Description>
 		A comprehensive validating parser for ANSI MH10.8.2 Data Identifiers (DIs).
@@ -27,7 +28,7 @@
 		--------------
 		$(PackageReleaseNotes)
 	</Description>
-	<Version>1.0.3</Version>
+	<Version>1.0.4</Version>
 	<NeutralLanguage>en</NeutralLanguage>
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
