@@ -1,8 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="Category.cs" company="Solidsoft Reply Ltd.">
-//   (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
-// </copyright>
-// <license>
+// <copyright file="Category.cs" company="Solidsoft Reply Ltd">
+// Copyright (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -14,23 +12,22 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-// </license>
+// </copyright>
 // <summary>
 // Defined ASC MH10.8.2 categories.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
 // ReSharper disable UnusedMember.Global
-
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 
 /// <summary>
-///   Defined ASC MH10.8.2 categories
+///   Defined ASC MH10.8.2 categories.
 /// </summary>
 [System.Diagnostics.CodeAnalysis.SuppressMessage("Naming", "CA1700:Do not name enum values 'Reserved'", Justification = "<Pending>")]
+
 // ReSharper disable once UnusedType.Global
-public enum Category
-{
+public enum Category {
     /// <summary>
     ///   CATEGORY 0 Special Characters Employed as Data Identifiers
     /// </summary>
@@ -165,5 +162,5 @@ public enum Category
     /// <summary>
     ///   CATEGORY 26 Mutually Defined
     /// </summary>
-    MutuallyDefined = 26
+    MutuallyDefined = 26,
 }

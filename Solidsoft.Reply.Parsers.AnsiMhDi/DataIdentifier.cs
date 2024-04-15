@@ -1,8 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="DataIdentifier.cs" company="Solidsoft Reply Ltd.">
-//   (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
-// </copyright>
-// <license>
+// <copyright file="DataIdentifier.cs" company="Solidsoft Reply Ltd">
+// Copyright (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -14,7 +12,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-// </license>
+// </copyright>
 // <summary>
 // ASC MH10.8 0 Data Identifiers.
 // </summary>
@@ -22,7 +20,6 @@
 
 // ReSharper disable UnusedMember.Global
 // ReSharper disable CommentTypo
-
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 
 using System.Diagnostics.CodeAnalysis;
@@ -36,8 +33,7 @@ using System.Diagnostics.CodeAnalysis;
 ///   Identifier") not defined herein is reserved for future assignment by the body controlling
 ///   these guidelines.
 /// </remarks>
-public enum DataIdentifier
-{
+public enum DataIdentifier {
     /// <summary>
     ///   Unrecognised entity.
     /// </summary>
@@ -1298,7 +1294,7 @@ public enum DataIdentifier
     ///   DNV certificate reference.
     /// </summary>
     DnvCertificateReference = 16055,
-    
+
     /// <summary>
     ///   The quantity.
     /// </summary>
@@ -2508,5 +2504,5 @@ public enum DataIdentifier
     /// <summary>
     ///   The line 89.
     /// </summary>
-    Line89 = 26099
+    Line89 = 26099,
 }

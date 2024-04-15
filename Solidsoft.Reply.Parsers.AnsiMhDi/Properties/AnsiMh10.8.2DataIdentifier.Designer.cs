@@ -754,7 +754,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Air Force Form 95 data. Format is data value preceded by the block number of the form 95. Field lengths and acceptable characters can be found at;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 Update: The Name of the Form is â€œAir Force Technical Order Form 95 (AFTO Form 95).â€ Details about the Form are sourced in Air Force Technical Order (TO) 00-20-1. The URL for this TO has been modified to:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf.
+        ///   Looks up a localized string similar to Air Force Form 95 data. Format is data value preceded by the block number of the form 95. Field lengths and acceptable characters can be found at;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 Update: The Name of the Form is &quot;Air Force Technical Order Form 95 (AFTO Form 95).&quot; Details about the Form are sourced in Air Force Technical Order (TO) 00-20-1. The URL for this TO has been modified to:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf.
         /// </summary>
         internal static string di13013 {
             get {
@@ -844,7 +844,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pharmacy Product Number maintained by IFA (www.ifaffm.de) with the following elements; Data Identifier (DI), two-digit product registration agency code (PRAC), the product reference (PR), and the two PPN check digits (CC), in the form DI PRAC PR CC.\nNOTE â€“ space is added as a separator for visual clarity and is not part of the data.\nExamples:\n  â€¢ 9N1112345678CC\n  â€¢ 9N1312345MEDDEVICE1245678900CC.
+        ///   Looks up a localized string similar to Pharmacy Product Number maintained by IFA (www.ifaffm.de) with the following elements; Data Identifier (DI), two-digit product registration agency code (PRAC), the product reference (PR), and the two PPN check digits (CC), in the form DI PRAC PR CC.\nNOTE - space is added as a separator for visual clarity and is not part of the data.\nExamples:\n  • 9N1112345678CC\n  • 9N1312345MEDDEVICE1245678900CC.
         /// </summary>
         internal static string di14009 {
             get {
@@ -880,7 +880,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Representing Industrial Internet Identifier Codes controlled and maintained by CAICT, used in the Industrial Internet Identifier Resolution System of China and constructed as &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, in the form an3+a3+n3+n3+n8+an1â€¦33, where an3 is the Data Identifier (DI), a3 is the Issuing Agency Code (IAC = â€œVAAâ€), n3 is the Top-Tier Code (TTC), n3 is the Secondary-Tier Code (STC), n8 is the Company Identification Number (CIN) controlled and assigned by the Secondary-Tier platform and an1â€¦33 [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Representing Industrial Internet Identifier Codes controlled and maintained by CAICT, used in the Industrial Internet Identifier Resolution System of China and constructed as &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, in the form an3+a3+n3+n3+n8+an1...33, where an3 is the Data Identifier (DI), a3 is the Issuing Agency Code (IAC = &quot;VAA&quot;), n3 is the Top-Tier Code (TTC), n3 is the Secondary-Tier Code (STC), n8 is the Company Identification Number (CIN) controlled and assigned by the Secondary-Tier platform and an1...33 is [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string di14015 {
             get {
@@ -1249,7 +1249,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Identifier for Specific Marine Equipment approved under the European Union Directive on Marine Equipment (2014/90/EU) and Implementing Regulation (EU) 2018/608.\nFormat:\nâ€¢ DI (an3);\nâ€¢ Type of conformity assessment (CA) module(s) set out in Annex II to Directive 2014/90/EU used for the conformity assessment (a1);\nâ€¢ Notified body (NB) identification number assigned by the Commission in accordance with point 3.1 of Annex IV to Directive 2014/90/EU (n4);\nâ€¢ Certificate (an5â€¦20).
+        ///   Looks up a localized string similar to Identifier for Specific Marine Equipment approved under the European Union Directive on Marine Equipment (2014/90/EU) and Implementing Regulation (EU) 2018/608.\nFormat:\n• DI (an3);\n• Type of conformity assessment (CA) module(s) set out in Annex II to Directive 2014/90/EU used for the conformity assessment (a1);\n• Notified body (NB) identification number assigned by the Commission in accordance with point 3.1 of Annex IV to Directive 2014/90/EU (n4);\n• Certificate (an5...20).
         /// </summary>
         internal static string di16053 {
             get {
@@ -1267,7 +1267,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DNV certification reference. Indicates that the data contains a reference to a product certificate/verification statement/report, issued by DNV. Data identifier shall be followed by letters â€œNVâ€ and certificate number. When certificate Number has postfix, it should be included in the datastream by using the â€œ-â€œ separator character. Revision indicators shall not be provided.\nExamples:\n1. 55PNVXXXXXXX, where 55P is the data identifier, XXXXXXX is DNV Certificate Number.\n2. 55PNVXXXXXXX-Y, where 55P [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to DNV certification reference. Indicates that the data contains a reference to a product certificate/verification statement/report, issued by DNV. Data identifier shall be followed by letters &quot;NV&quot; and certificate number. When certificate Number has postfix, it should be included in the datastream by using the &quot;-&quot; separator character. Revision indicators shall not be provided.\nExamples:\n1. 55PNVXXXXXXX, where 55P is the data identifier, XXXXXXX is DNV Certificate Number.\n2. 55PNVXXXXXXX-Y, where 55P is the [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string di16055 {
             get {
@@ -1555,7 +1555,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Clinical term code as defined with the clinical nomenclature: â€œThe international standard for identifying health measurements, observations, and documents â€“ LOINCâ€ (https://loinc.org), in the following sequence: &lt;DI&gt;&lt;LOINC Code&gt;&lt;Plus Sign&gt;&lt;Value&gt;. The unit and format of the Value is defined by the LOINC Code.\nExample: 32Q28903-3+60 = LOINC Code 28903-3: Left contact lens Axis (degrees); with Value = 60..
+        ///   Looks up a localized string similar to Clinical term code as defined with the clinical nomenclature: &quot;The international standard for identifying health measurements, observations, and documents - LOINC&quot; (https://loinc.org), in the following sequence: &lt;DI&gt;&lt;LOINC Code&gt;&lt;Plus Sign&gt;&lt;Value&gt;. The unit and format of the Value is defined by the LOINC Code.\nExample: 32Q28903-3+60 = LOINC Code 28903-3: Left contact lens Axis (degrees); with Value = 60..
         /// </summary>
         internal static string di17032 {
             get {
@@ -2032,7 +2032,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to EPC number (Typically Serialized Global Trade Identification Number - SGTIN)\n2020 Update: The term â€œEPC numberâ€ is no longer used by GS1. Refer to GS1 General Specifications and the Tag Data Standard for current terminology.
+        ///   Looks up a localized string similar to EPC number (Typically Serialized Global Trade Identification Number - SGTIN)\n2020 Update: The term &quot;EPC number&quot; is no longer used by GS1. Refer to GS1 General Specifications and the Tag Data Standard for current terminology.
         /// </summary>
         internal static string di19096 {
             get {
@@ -2581,7 +2581,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to U.P.C. Company Prefix.\n2020 Update: GS1 recommends this DI no longer be used and that users of this DI migrate to GS1 data qualifiers (Application Identifiers) per ISO/IEC 15418 and ISO/IEC 15459-3.\nAccording to GS1, the term â€œU.P.C.â€ is no longer used and the metadata (an2+n8) is no longer correct.GS1 recommends this DI not be used for future applications..
+        ///   Looks up a localized string similar to U.P.C. Company Prefix.\n2020 Update: GS1 recommends this DI no longer be used and that users of this DI migrate to GS1 data qualifiers (Application Identifiers) per ISO/IEC 15418 and ISO/IEC 15459-3.\nAccording to GS1, the term &quot;U.P.C.&quot; is no longer used and the metadata (an2+n8) is no longer correct.GS1 recommends this DI not be used for future applications..
         /// </summary>
         internal static string di22002 {
             get {
@@ -2788,7 +2788,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Declaring that the NCAGE/CAGE code that follows DI 25V is the Manufacturer. Party to a transaction wherein the NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE) code used behind DI 25V is declared to be the manufacturer of the item(s) involved in the transaction. Data following DI 25V will consist of five upper\u0002case alphanumeric characters, excluding the letters â€œIâ€ and â€œOâ€..
+        ///   Looks up a localized string similar to Declaring that the NCAGE/CAGE code that follows DI 25V is the Manufacturer. Party to a transaction wherein the NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE) code used behind DI 25V is declared to be the manufacturer of the item(s) involved in the transaction. Data following DI 25V will consist of five upper\u0002case alphanumeric characters, excluding the letters &quot;I&quot; and &quot;O&quot;..
         /// </summary>
         internal static string di22025 {
             get {
@@ -4354,7 +4354,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Military Grade (E1-E9, W1-W5, and O1-O10).\n2020 Update: Metadata format has been changed to agree with the actual officer grades in use by the military: â€œan2+an3â€. The Explanation information has been changed to: â€œMilitary Grade (E1-E9, W1-W5, and O1-O11)..
+        ///   Looks up a localized string similar to Military Grade (E1-E9, W1-W5, and O1-O10).\n2020 Update: Metadata format has been changed to agree with the actual officer grades in use by the military: &quot;an2+an3&quot;. The Explanation information has been changed to: &quot;Military Grade (E1-E9, W1-W5, and O1-O11)..
         /// </summary>
         internal static string di8012 {
             get {
@@ -4417,7 +4417,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unique production vehicle identifier that will be used during the vehicle production processes, consisting of the Body Tag Number (BTN; or any other descriptor used to identify the raw car body, or stated another way, the assemblage of parts that are used to start the vehicleâ€™s production), followed by the â€œ+â€ character, then followed by the Production Order Number (PON), followed by the â€œ+â€ character, and then followed by the Manufacturer-assigned Serial Number (SN). NOTE â€“ The SN component sha [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Unique production vehicle identifier that will be used during the vehicle production processes, consisting of the Body Tag Number (BTN; or any other descriptor used to identify the raw car body, or stated another way, the assemblage of parts that are used to start the vehicle&apos;s production), followed by the &quot;+&quot; character, then followed by the Production Order Number (PON), followed by the &quot;+&quot; character, and then followed by the Manufacturer-assigned Serial Number (SN). NOTE - The SN component shall be repl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string di9005 {
             get {

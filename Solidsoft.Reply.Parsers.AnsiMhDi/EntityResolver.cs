@@ -1,8 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="EntityResolver.cs" company="Solidsoft Reply Ltd.">
-//   (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
-// </copyright>
-// <license>
+// <copyright file="EntityResolver.cs" company="Solidsoft Reply Ltd">
+// Copyright (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -14,14 +12,14 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-// </license>
+// </copyright>
 // <summary>
 // The entity resolver for ASC (MH10.8) data identifiers.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
 // ReSharper disable BadListLineBreaks
-
+#pragma warning disable SA1009
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 
 using System;
@@ -41,760 +39,18 @@ using Common;
 [SuppressMessage(
      "ReSharper",
      "StringLiteralTypo",
-     Justification = "Resharper does not hide errors correctly using in-line comments."),
- SuppressMessage(
+     Justification = "Resharper does not hide errors correctly using in-line comments.")]
+[SuppressMessage(
      "ReSharper",
      "CommentTypo",
      Justification = "Resharper does not hide errors correctly using in-line comments.")]
 #if NET7_0_OR_GREATER
 public static partial class EntityResolver {
-    /// <summary>
-    ///   A regular expression for six-digit date representation - DDMMYY.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"(((0\d|[12]\d|3[01])(0[13578]|1[02])(\d{2}))|((0\d|[12]\d|30)(0[13456789]|1[012])(\d{2}))|((0\d|1\d|2[0-8])02(\d{2}))|(2902((0[048]|[2468][048]|[13579][26]))))", RegexOptions.None, "en-US")]
-    private static partial Regex DatePatternDdMmYyRegEx();
-
-    /// <summary>
-    ///   The date pattern dd mm yyyyy.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [SuppressMessage(
-        "StyleCop.CSharp.DocumentationRules",
-        "SA1650:ElementDocumentationMustBeSpelledCorrectly",
-        Justification = "Reviewed. Suppression is OK here.")]
-    [GeneratedRegex(@"^(((0[1-9]|[12]\d|30)[-/]?(0[13-9]|1[012])|31[-/]?(0[13578]|1[02])|(0[1-9]|1\d|2[0-8])[-/]?02)[-/]?\d{4}|29[-/]?02[-/]?(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00))$", RegexOptions.None, "en-US")]
-    // ReSharper disable once IdentifierTypo
-    private static partial Regex DatePatternDdMmYyyyyRegEx();
-
-    /// <summary>
-    ///   A regular expression for six-digit date representation - MMDDYY.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"(((0[13578]|1[02])(0\d|[12]\d|3[01])(\d{2}))|((0[13456789]|1[012])(0\d|[12]\d|30)(\d{2}))|(02(0\d|1\d|2[0-8])(\d{2}))|(0229((0[048]|[2468][048]|[13579][26]))))", RegexOptions.None, "en-US")]
-    private static partial Regex DatePatternMmDdYyRegEx();
-
-    /// <summary>
-    ///   The Julian date patter YDDD.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^(\d)(00[1-9]|0[1-9]\d|[1-2]\d\d|3[0-5]\d|36[0-6])$", RegexOptions.None, "en-US")]
-    private static partial Regex DatePatternYDddJulianRegEx();
-
-    /// <summary>
-    ///   The Julian date patter YYDDD.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^(\d{2})(00[1-9]|0[1-9]\d|[1-2]\d\d|3[0-5]\d|36[0-6])$", RegexOptions.None, "en-US")]
-    private static partial Regex DatePatternYyDddJulianRegEx();
-
-    /// <summary>
-    ///   A regular expression for six-digit date representation - YYMMDD.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"(((\d{2})(0[13578]|1[02])(0[1-9]|[12]\d|3[01]))|((\d{2})(0[13456789]|1[012])(0[1-9]|[12]\d|30))|((\d{2})02(0[1-9]|1\d|2[0-8]))|(((0[048]|[2468][048]|[13579][26]))0229))", RegexOptions.None, "en-US")]
-    private static partial Regex DatePatternYyMmDdRegEx();
-
-    /// <summary>
-    ///   A regular expression for six-digit date representation - YYMMDD.
-    ///   If it is not necessary to specify the day, the day field can be filled with two zeros.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"(((\d{2})(0[13578]|1[02])(0\d|[12]\d|3[01]))|((\d{2})(0[13456789]|1[012])(0\d|[12]\d|30))|((\d{2})02(0\d|1\d|2[0-8]))|(((0[048]|[2468][048]|[13579][26]))0229))", RegexOptions.None, "en-US")]
-    private static partial Regex DatePatternYyMmDdZerosRegEx();
-
-    /// <summary>
-    ///   The date patter YDWW.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))", RegexOptions.None, "en-US")]
-    private static partial Regex DatePatternYyWwRegEx();
-
-    /// <summary>
-    ///   The date pattern yyyy mm dd.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    // ReSharper disable once IdentifierTypo
-    [GeneratedRegex(@"(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)", RegexOptions.None, "en-US")]
-    private static partial Regex DatePatternYyyyMmDdRegEx();
-
-    /// <summary>
-    ///   The date pattern YYYYMMDDHHMM.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    // ReSharper disable once IdentifierTypo
-    [GeneratedRegex(@"(?:(?:(?:(?:(?:[13579][26]|[2468][048])00)|(?:\d{2}(?:(?:[13579][26])|(?:[2468][048]|0[48]))))(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:0[1-9]|1\d|2\d))))|(?:\d{4}(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:[01]\d|2[0-8])))))(?:0\d|1\d|2[0-3])(?:[0-5]\d)", RegexOptions.None, "en-US")]
-    private static partial Regex DatePatternYyyyMmDdHhMmRegEx();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {1 ..}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]+", RegexOptions.None, "en-US")]
-    private static partial Regex Alphanumeric01UnboundRegEx();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric with plus {1 ..}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z+]+", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericWithPlus01UnboundRegEx();
-
-    /// <summary>
-    /// Regular Expression: Invariants except plus {1 ..}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[-!""%&'()*,./0-9:;<=>?A-Z_a-z]+", RegexOptions.None, "en-US")]
-    private static partial Regex InvariantNoPlus01UnboundPlusRegEx();
-
-    /// <summary>
-    /// Regular Expression: Numeric with plus {1 ..}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9+]+", RegexOptions.None, "en-US")]
-    private static partial Regex NumericPlus01UnboundRegEx();
-
-    /// <summary>
-    ///   Returns a regular expression for character strings of variable length
-    ///   representing latitude, longitude and attitude.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"-?\d{1,2}(.\d{1,5})?/-?\d{1,3}(.\d{1,5})?/-?\d{1,4}", RegexOptions.None, "en-US")]
-    private static partial Regex LatitudeLongitudeAttitudeRegEx();
-
-    /// <summary>
-    ///   Returns a regular expression for character strings indicating Yes (Y) and No (N).
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[YN]", RegexOptions.None, "en-US")]
-    private static partial Regex YesNoLetterRegEx();
-
-    /// <summary>
-    ///   Returns a regular expression for the '+' character used for HIBC codes.
-    /// </summary>
-    /// <returns></returns>
-    [GeneratedRegex(@"^\+$", RegexOptions.None, "en-US")]
-    private static partial Regex HibccPlusRegEx();
-
-    /// <summary>
-    ///   Returns a regular expression for the '$' character used for ISBT 128 codes.
-    /// </summary>
-    /// <returns></returns>
-    [GeneratedRegex(@"^\&$", RegexOptions.None, "en-US")]
-    private static partial Regex IccbbaAmpersandRegEx();
-
-    /// <summary>
-    ///   Returns a regular expression for the '=' character used for ISBT 128 codes.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^\=$", RegexOptions.None, "en-US")]
-    private static partial Regex IccbbaEqualRegEx();
-
-    /// <summary>
-    ///   Returns a regular expression for the GS1 FNC1 character.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^\x1D$", RegexOptions.None, "en-US")]
-    private static partial Regex Gs1Function1RegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for the message header preamble defined by ISO/IEC 15434 ",
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^\[\)\>\x1E", RegexOptions.None, "en-US")]
-    private static partial Regex IsoIec15434PreambleRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for the hyphen character used to specify Pharmaceutical Central Numbers (PZNs).
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^\-$", RegexOptions.None, "en-US")]
-    private static partial Regex IfaAbdataPznHyphenRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for the exclamation mark character used for Eurocode IBLS.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^\!$", RegexOptions.None, "en-US")]
-    private static partial Regex EurocodeIblsExclamationMarkRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for the Dangerous Cargo IMDG class.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^\d(.\d[A-Z]?)?$", RegexOptions.None, "en-US")]
-    private static partial Regex DangerousCargoClassRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for Vessel Registration Numbers.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^IMO\d{7}$", RegexOptions.None, "en-US")]
-    private static partial Regex VesselRegistrationNumberRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for Electronic Seal Numbers.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^.{{6}}$", RegexOptions.None, "en-US")]
-    private static partial Regex ElectronicSealNumbersRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for Surety Numbers.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^.{{6}}$", RegexOptions.None, "en-US")]
-    private static partial Regex SuretyNumberRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for Foreign Ports of Lading.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^.{{6}}$", RegexOptions.None, "en-US")]
-    private static partial Regex ForeignPortOfLadingRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for "Format MMYY dates.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^((0[1-9])|(1[0-2]))\d{2}$", RegexOptions.None, "en-US")]
-    private static partial Regex FormatMmYyRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for Event, Date, And Time.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^(?:(?:(?:(?:(?:[13579][26]|[2468][048])00)|(?:\d{2}(?:(?:[13579][26])|(?:[2468][048]|0[48]))))(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:0[1-9]|1\d|2\d))))|(?:\d{4}(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:[01]\d|2[0-8])))))(?:0\d|1\d|2[0-3])(?:[0-5]\d)\d{{1,3}}$", RegexOptions.None, "en-US")]
-    private static partial Regex EventDateAndTimeRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for Format YYYYWW.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^([1-2]\d)(\d\d)(0[1-9]|[1-4]\d|5[0-3])$", RegexOptions.None, "en-US")]
-    private static partial Regex FormatYyyyWwRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for the oldest and newest manufacturing date in the format YYWWYYWW.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))$", RegexOptions.None, "en-US")]
-    private static partial Regex OldestAndNewestManufacturingDateRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for the harvest date range.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)$", RegexOptions.None, "en-US")]
-    private static partial Regex HarvestDateRangeRegEx();
-
-    /// <summary>
-    ///    Returns a regular expression for a Uniform Resource Locator (URL).
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"^(http[s]?:\/\/((([a-zA-Z0-9]([a-zA-Z0-9]|-)*[a-zA-Z0-9]|[a-zA-Z0-9])\\.)*[a-zA-Z]([a-zA-Z0-9]|-)*[a-zA-Z0-9]|[a-zA-Z]|\d+\\.\d+\\.\d+\\.\d+)(:\d+)?(\/([a-zA-Z]|\d|[-$_.+]|[!*'(),]|%\d|A-F|a-f\d|A-F|a-f|;|\\?|&|=)*(\/([a-zA-Z]|\d|[-$_.+]|[!*'(),]|%\d|A-F|a-f\d|A-F|a-f|;|\\?|&|=)*)*(\\?([a-zA-Z]|\d|[-$_.+]|[!*'(),]|%\d|A-F|a-f\d|A-F|a-f|;|\\?|&|=)*)?)?)$", RegexOptions.None, "en-US")]
-    private static partial Regex UniformResourceLocatorRegEx();
-
-    /// <summary>
-    ///   Returns a regular expression for alphanumeric character strings of variable length for CAGE Code and Serial number.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z-/]{6,25}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericCageSnRegEx();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {2}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{2}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx2();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {3}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{3}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx3();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {4}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{4}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx4();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {5}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{5}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx5();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {6}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{6}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx6();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {10}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{10}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx10();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {12}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{12}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx12();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {18}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{18}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx18();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {1, 3}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{1,3}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0103();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {1, 9}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{1,9}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0109();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {1, 10}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{1,10}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0110();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {1, 20}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{1,20}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0120();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {1, 35}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{1,35}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0135();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {1, 50}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{1,50}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0150();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {1, 100}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{1,100}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx01100();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {2, 30}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{2,30}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0230();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {2, 35}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{2,35}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0235();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {3, 9}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{3,9}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0309();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {3, 22}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{3,22}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0322();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {3, 35}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{3,35}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0335();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {4, 11}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{4,11}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0411();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {4, 25}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{4,25}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0425();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {5, 29}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{5,29}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0529();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {5, 16}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{5,16}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0516();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {5, 22}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{5,22}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0522();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {6, 35}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{6,35}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx0635();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {10, 12}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{10,12}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx1012();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {10, 15}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{10,15}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx1015();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {13, 15}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{13,15}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx1315();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {16, 26}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{16,26}", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericRegEx1626();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {4} . Alphanumeric {1, 10}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{4}.[0-9A-Z]{1,10}", RegexOptions.None, "en-US")]
-    private static partial Regex Alphanumeric04Alphanumeric0110RegEx();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {1, 32} Alphanumeric {3} with leading dashes
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{1,32}([0-9A-Z]{3}|-[0-9A-Z]{2}|--[0-9A-Z]{1}|---)", RegexOptions.None, "en-US")]
-    private static partial Regex Alphanumeric0132Alphanumeric03WithDashesRegEx();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {11} Numeric {2}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{11}\d{2}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alphanumeric11Numeric02();
-
-    /// <summary>
-    /// Regular Expression: Numeric {2} Alphanumeric and dash {1, 6} Numeric and dot {5} Alphanumeric {2}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{2}[A-Z0-9-]{1,6}[0-9.]{5}[0-9A-Z]{2}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric02AlphanumericDash0106NumericDot05Alphanumeric02RegEx();
-
-    /// <summary>
-    /// Regular Expression: Alphanumeric {3, 35} + Alpha {1, 3}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z]{3,35}\+[A-Z]{1,3}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alphanumeric0335Alpha0103RegEx();
-
-    /// <summary>
-    /// Regular Expression: Alpha {2} Alphanumeric {3, 27}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{2}[0-9A-Z]{3,27}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alpha02Alphanumeric0327RegEx();
-
-    /// <summary>
-    /// Regular Expression: Alpha {3} Numeric {14} Alphanumeric {1, 33}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{3}\d{14}[0-9A-Za-z*+-./()!]{1,33}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alpha03Numeric14Alphanumeric0133RegEx();
-
-    /// <summary>
-    /// Regular Expression: Alpha {1} Numeric {4} Alphanumeric {5, 20}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{1}\d{4}[0-9A-Z]{5,20}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alpha01Numeric04Alphanumeric0520RegEx();
-
-    /// <summary>
-    /// Regular Expression: Numeric {1, 8} Alphanumeric {2}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{1,8}[0-9A-Z]{2}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric0108Alphanumeric02RegEx();
-
-    /// <summary>
-    /// Regular Expression: Numeric {1, 10} Alphanumeric {3}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{1,10}[0-9A-Z]{3}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric0110Alphanumeric03RegEx();
-
-    /// <summary>
-    /// Regular Expression: Numeric {2} Alphanumeric {3, 42}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{2}[0-9A-Z]{3,42}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric02Alphanumeric0342RegEx();
-
-    /// <summary>
-    /// Regular Expression: Alpha {2} Alphanumeric {3, 18}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{2}[0-9A-Z]{3,18}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alpha02Alphanumeric0318RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Alphanumeric with space {1, 60}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z ]{1,60}$", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericSpace0160RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Alphanumeric with plus {1, 50}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z ]{1,50}$", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericPlus0150RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Alphanumeric with plus {20, 50}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z+]{20,50}$", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericPlus2050RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Alphanumeric with plus {1, 60}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9A-Z ]{1,60}$", RegexOptions.None, "en-US")]
-    private static partial Regex AlphanumericPlus0160RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Alpha {4} Numeric {7}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{4}\d{7}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alpha04Numeric07RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Alpha {4} Numeric {1, 3}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{4}\d{1,3}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alpha04Numeric0103RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Alpha {3} Numeric {3}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{3}\d{3}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alpha03Numeric03RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Alpha {2}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{2}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alpha02RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Invariant {2, 12}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{2,12}$", RegexOptions.None, "en-US")]
-    private static partial Regex Invariant0212RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Alpha {2} Invariant {3, 27}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[A-Z]{2}[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{3,27}$", RegexOptions.None, "en-US")]
-    private static partial Regex Alpha02Invariant0327RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {1}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{1}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric01RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {5}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{5}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric05RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {9}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{9}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric09RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {14}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{14}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric14RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {18}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{18}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric18RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {1, 2}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{1,2}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric0102RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {4, 6}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{4,6}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric0406RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {6, 26}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{6,26}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric0626RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {7, 12}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{7,12}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric0712RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {9, 13}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{9,13}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric0913RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {10, 12}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{10,12}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric1012RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {13, 14}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{13,14}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric1314RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric {14, 26}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"\d{14,26}$", RegexOptions.None, "en-US")]
-    private static partial Regex Numeric1426RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric with dot {01, 10}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9.]{1,10}$", RegexOptions.None, "en-US")]
-    private static partial Regex NumericDot0110RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric with dot {01, 20}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9.]{1,20}$", RegexOptions.None, "en-US")]
-    private static partial Regex NumericDot0120RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric with dot {01, 05}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9.]{1,5}$", RegexOptions.None, "en-US")]
-    private static partial Regex NumericDot0105RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Numeric with dot {01, 06}
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"[0-9.]{1,6}$", RegexOptions.None, "en-US")]
-    private static partial Regex NumericDot0106RegEx();
-
-    /// <summary>
-    ///  Regular Expression: Minus with Numeric {01, 04}
-    ///   sign.
-    /// </summary>
-    /// <returns>A regular expression.</returns>
-    [GeneratedRegex(@"-?\d{1,4}$", RegexOptions.None, "en-US")]
-    private static partial Regex MinusNumeric0104RegEx();
 #else
-public static class EntityResolver
-{
+public static class EntityResolver {
+#endif
+
+#if !NET7_0_OR_GREATER
     /// <summary>
     ///   A regular expression for six-digit date representation - DDMMYY.
     /// </summary>
@@ -807,6 +63,7 @@ public static class EntityResolver
         "StyleCop.CSharp.DocumentationRules",
         "SA1650:ElementDocumentationMustBeSpelledCorrectly",
         Justification = "Reviewed. Suppression is OK here.")]
+
     // ReSharper disable once IdentifierTypo
     private static readonly Regex DatePatternDdMmYyyyyRegEx = new(@"^(((0[1-9]|[12]\d|30)[-/]?(0[13-9]|1[012])|31[-/]?(0[13578]|1[02])|(0[1-9]|1\d|2[0-8])[-/]?02)[-/]?\d{4}|29[-/]?02[-/]?(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00))$", RegexOptions.None);
 
@@ -854,22 +111,22 @@ public static class EntityResolver
     private static readonly Regex DatePatternYyyyMmDdHhMmRegEx = new(@"(?:(?:(?:(?:(?:[13579][26]|[2468][048])00)|(?:\d{2}(?:(?:[13579][26])|(?:[2468][048]|0[48]))))(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:0[1-9]|1\d|2\d))))|(?:\d{4}(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:[01]\d|2[0-8])))))(?:0\d|1\d|2[0-3])(?:[0-5]\d)", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {1 ..}
+    /// Regular Expression: Alphanumeric {1 ..}.
     /// </summary>
     private static readonly Regex Alphanumeric01UnboundRegEx = new(@"[0-9A-Z]+", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric with plus {1 ..}
+    /// Regular Expression: Alphanumeric with plus {1 ..}.
     /// </summary>
     private static readonly Regex AlphanumericWithPlus01UnboundRegEx = new(@"[0-9A-Z+]+", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Invariants except plus {1 ..}
+    /// Regular Expression: Invariants except plus {1 ..}.
     /// </summary>
     private static readonly Regex InvariantNoPlus01UnboundPlusRegEx = new(@"[-!""%&'()*,./0-9:;<=>?A-Z_a-z]+", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Numeric with plus {1 ..}
+    /// Regular Expression: Numeric with plus {1 ..}.
     /// </summary>
     private static readonly Regex NumericPlus01UnboundRegEx = new(@"[0-9+]+", RegexOptions.None);
 
@@ -905,7 +162,7 @@ public static class EntityResolver
     private static readonly Regex Gs1Function1RegEx = new(@"^\x1D$", RegexOptions.None);
 
     /// <summary>
-    ///    Returns a regular expression for the message header preamble defined by ISO/IEC 15434 ",
+    ///    Returns a regular expression for the message header preamble defined by ISO/IEC 15434.
     /// </summary>
     private static readonly Regex IsoIec15434PreambleRegEx = new(@"^\[\)\>\x1E", RegexOptions.None);
 
@@ -972,7 +229,7 @@ public static class EntityResolver
     /// <summary>
     ///    Returns a regular expression for a Uniform Resource Locator (URL).
     /// </summary>
-    private static readonly Regex UniformResourceLocatorRegEx = new(@"^(http[s]?:\/\/((([a-zA-Z0-9]([a-zA-Z0-9]|-)*[a-zA-Z0-9]|[a-zA-Z0-9])\\.)*[a-zA-Z]([a-zA-Z0-9]|-)*[a-zA-Z0-9]|[a-zA-Z]|\d+\\.\d+\\.\d+\\.\d+)(:\d+)?(\/([a-zA-Z]|\d|[-$_.+]|[!*'(),]|%\d|A-F|a-f\d|A-F|a-f|;|\\?|&|=)*(\/([a-zA-Z]|\d|[-$_.+]|[!*'(),]|%\d|A-F|a-f\d|A-F|a-f|;|\\?|&|=)*)*(\\?([a-zA-Z]|\d|[-$_.+]|[!*'(),]|%\d|A-F|a-f\d|A-F|a-f|;|\\?|&|=)*)?)?)$", RegexOptions.None);
+    private static readonly Regex UniformResourceLocatorRegEx = new(@"^(?:(?:http|https|ftp|telnet|gopher|ms\-help|file|notes)://)?(?:(?:[a-z][\w~%!&amp;',;=\-\.$\(\)\*\+]*):.*@)?(?:(?:[a-z0-9][\w\-]*[a-z0-9]*\.)*(?:(?:(?:(?:[a-z0-9][\w\-]*[a-z0-9]*)(?:\.[a-z0-9]+)?)|(?:(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)))(?::[0-9]+)?))?(?:(?:(?:/(?:[\w`~!$=;\-\+\.\^\(\)\|\{\}\[\]]|(?:%\d\d))+)*/(?:[\w`~!$=;\-\+\.\^\(\)\|\{\}\[\]]|(?:%\d\d))*)(?:\?[^#]+)?(?:#[a-z0-9]\w*)?)?$", RegexOptions.None);
 
     /// <summary>
     ///   Returns a regular expression for alphanumeric character strings of variable length for CAGE Code and Serial number.
@@ -980,356 +237,357 @@ public static class EntityResolver
     private static readonly Regex AlphanumericCageSnRegEx = new(@"[0-9A-Z-/]{6,25}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {2}
+    /// Regular Expression: Alphanumeric {2}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx2 = new(@"[0-9A-Z]{2}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {3}
+    /// Regular Expression: Alphanumeric {3}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx3 = new(@"[0-9A-Z]{3}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {4}
+    /// Regular Expression: Alphanumeric {4}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx4 = new(@"[0-9A-Z]{4}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {5}
+    /// Regular Expression: Alphanumeric {5}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx5 = new(@"[0-9A-Z]{5}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {6}
+    /// Regular Expression: Alphanumeric {6}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx6 = new(@"[0-9A-Z]{6}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {10}
+    /// Regular Expression: Alphanumeric {10}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx10 = new(@"[0-9A-Z]{10}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {12}
+    /// Regular Expression: Alphanumeric {12}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx12 = new(@"[0-9A-Z]{12}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {18}
+    /// Regular Expression: Alphanumeric {18}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx18 = new(@"[0-9A-Z]{18}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {1, 3}
+    /// Regular Expression: Alphanumeric {1, 3}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0103 = new(@"[0-9A-Z]{1,3}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {1, 9}
+    /// Regular Expression: Alphanumeric {1, 9}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0109 = new(@"[0-9A-Z]{1,9}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {1, 10}
+    /// Regular Expression: Alphanumeric {1, 10}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0110 = new(@"[0-9A-Z]{1,10}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {1, 20}
+    /// Regular Expression: Alphanumeric {1, 20}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0120 = new(@"[0-9A-Z]{1,20}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {1, 35}
+    /// Regular Expression: Alphanumeric {1, 35}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0135 = new(@"[0-9A-Z]{1,35}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {1, 50}
+    /// Regular Expression: Alphanumeric {1, 50}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0150 = new("[0-9A-Z]{1,50}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {1, 100}
+    /// Regular Expression: Alphanumeric {1, 100}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx01100 = new(@"[0-9A-Z]{1,100}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {2, 30}
+    /// Regular Expression: Alphanumeric {2, 30}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0230 = new(@"[0-9A-Z]{2,30}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {2, 35}
+    /// Regular Expression: Alphanumeric {2, 35}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0235 = new(@"[0-9A-Z]{2,35}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {3, 9}
+    /// Regular Expression: Alphanumeric {3, 9}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0309 = new(@"[0-9A-Z]{3,9}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {3, 22}
+    /// Regular Expression: Alphanumeric {3, 22}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0322 = new(@"[0-9A-Z]{3,22}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {3, 35}
+    /// Regular Expression: Alphanumeric {3, 35}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0335 = new(@"[0-9A-Z]{3,35}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {4, 11}
+    /// Regular Expression: Alphanumeric {4, 11}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0411 = new(@"[0-9A-Z]{4,11}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {4, 25}
+    /// Regular Expression: Alphanumeric {4, 25}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0425 = new(@"[0-9A-Z]{4,25}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {5, 29}
+    /// Regular Expression: Alphanumeric {5, 29}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0529 = new(@"[0-9A-Z]{5,29}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {5, 16}
+    /// Regular Expression: Alphanumeric {5, 16}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0516 = new(@"[0-9A-Z]{5,16}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {5, 22}
+    /// Regular Expression: Alphanumeric {5, 22}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0522 = new(@"[0-9A-Z]{5,22}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {6, 35}
+    /// Regular Expression: Alphanumeric {6, 35}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx0635 = new(@"[0-9A-Z]{6,35}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {10, 12}
+    /// Regular Expression: Alphanumeric {10, 12}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx1012 = new(@"[0-9A-Z]{10,12}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {10, 15}
+    /// Regular Expression: Alphanumeric {10, 15}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx1015 = new(@"[0-9A-Z]{10,15}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {13, 15}
+    /// Regular Expression: Alphanumeric {13, 15}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx1315 = new(@"[0-9A-Z]{13,15}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {16, 26}
+    /// Regular Expression: Alphanumeric {16, 26}.
     /// </summary>
     private static readonly Regex AlphanumericRegEx1626 = new(@"[0-9A-Z]{16,26}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {4} . Alphanumeric {1, 10}
+    /// Regular Expression: Alphanumeric {4} . Alphanumeric {1, 10}.
     /// </summary>
     private static readonly Regex Alphanumeric04Alphanumeric0110RegEx = new(@"[0-9A-Z]{4}.[0-9A-Z]{1,10}", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {1, 32} Alphanumeric {3} with leading dashes
+    /// Regular Expression: Alphanumeric {1, 32} Alphanumeric {3} with leading dashes.
     /// </summary>
     private static readonly Regex Alphanumeric0132Alphanumeric03WithDashesRegEx = new(@"[0-9A-Z]{1,32}([0-9A-Z]{3}|-[0-9A-Z]{2}|--[0-9A-Z]{1}|---)", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {11} Numeric {2}
+    /// Regular Expression: Alphanumeric {11} Numeric {2}.
     /// </summary>
     private static readonly Regex Alphanumeric11Numeric02 = new(@"[0-9A-Z]{11}\d{2}$", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Numeric {2} Alphanumeric and dash {1, 6} Numeric and dot {5} Alphanumeric {2}
+    /// Regular Expression: Numeric {2} Alphanumeric and dash {1, 6} Numeric and dot {5} Alphanumeric {2}.
     /// </summary>
     private static readonly Regex Numeric02AlphanumericDash0106NumericDot05Alphanumeric02RegEx = new(@"\d{2}[A-Z0-9-]{1,6}[0-9.]{5}[0-9A-Z]{2}$", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alphanumeric {3, 35} + Alpha {1, 3}
+    /// Regular Expression: Alphanumeric {3, 35} + Alpha {1, 3}.
     /// </summary>
     private static readonly Regex Alphanumeric0335Alpha0103RegEx = new(@"[0-9A-Z]{3,35}\+[A-Z]{1,3}$", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alpha {2} Alphanumeric {3, 27}
+    /// Regular Expression: Alpha {2} Alphanumeric {3, 27}.
     /// </summary>
     private static readonly Regex Alpha02Alphanumeric0327RegEx = new(@"[A-Z]{2}[0-9A-Z]{3,27}$", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alpha {3} Numeric {14} Alphanumeric {1, 33}
+    /// Regular Expression: Alpha {3} Numeric {14} Alphanumeric {1, 33}.
     /// </summary>
     private static readonly Regex Alpha03Numeric14Alphanumeric0133RegEx = new(@"[A-Z]{3}\d{14}[0-9A-Za-z*+-./()!]{1,33}$", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alpha {1} Numeric {4} Alphanumeric {5, 20}
+    /// Regular Expression: Alpha {1} Numeric {4} Alphanumeric {5, 20}.
     /// </summary>
     private static readonly Regex Alpha01Numeric04Alphanumeric0520RegEx = new(@"[A-Z]{1}\d{4}[0-9A-Z]{5,20}$", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Numeric {1, 8} Alphanumeric {2}
+    /// Regular Expression: Numeric {1, 8} Alphanumeric {2}.
     /// </summary>
     private static readonly Regex Numeric0108Alphanumeric02RegEx = new(@"\d{1,8}[0-9A-Z]{2}$", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Numeric {1, 10} Alphanumeric {3}
+    /// Regular Expression: Numeric {1, 10} Alphanumeric {3}.
     /// </summary>
     private static readonly Regex Numeric0110Alphanumeric03RegEx = new(@"\d{1,10}[0-9A-Z]{3}$", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Numeric {2} Alphanumeric {3, 42}
+    /// Regular Expression: Numeric {2} Alphanumeric {3, 42}.
     /// </summary>
     private static readonly Regex Numeric02Alphanumeric0342RegEx = new(@"\d{2}[0-9A-Z]{3,42}$", RegexOptions.None);
 
     /// <summary>
-    /// Regular Expression: Alpha {2} Alphanumeric {3, 18}
+    /// Regular Expression: Alpha {2} Alphanumeric {3, 18}.
     /// </summary>
     private static readonly Regex Alpha02Alphanumeric0318RegEx = new(@"[A-Z]{2}[0-9A-Z]{3,18}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Alphanumeric with space {1, 60}
+    ///  Regular Expression: Alphanumeric with space {1, 60}.
     /// </summary>
     private static readonly Regex AlphanumericSpace0160RegEx = new(@"[0-9A-Z ]{1,60}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Alphanumeric with plus {1, 50}
+    ///  Regular Expression: Alphanumeric with plus {1, 50}.
     /// </summary>
     private static readonly Regex AlphanumericPlus0150RegEx = new(@"[0-9A-Z ]{1,50}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Alphanumeric with plus {20, 50}
+    ///  Regular Expression: Alphanumeric with plus {20, 50}.
     /// </summary>
     private static readonly Regex AlphanumericPlus2050RegEx = new(@"[0-9A-Z+]{20,50}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Alphanumeric with plus {1, 60}
+    ///  Regular Expression: Alphanumeric with plus {1, 60}.
     /// </summary>
     private static readonly Regex AlphanumericPlus0160RegEx = new(@"[0-9A-Z ]{1,60}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Alpha {4} Numeric {7}
+    ///  Regular Expression: Alpha {4} Numeric {7}.
     /// </summary>
     private static readonly Regex Alpha04Numeric07RegEx = new(@"[A-Z]{4}\d{7}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Alpha {4} Numeric {1, 3}
+    ///  Regular Expression: Alpha {4} Numeric {1, 3}.
     /// </summary>
     private static readonly Regex Alpha04Numeric0103RegEx = new(@"[A-Z]{4}\d{1,3}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Alpha {3} Numeric {3}
+    ///  Regular Expression: Alpha {3} Numeric {3}.
     /// </summary>
     private static readonly Regex Alpha03Numeric03RegEx = new(@"[A-Z]{3}\d{3}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Alpha {2}
+    ///  Regular Expression: Alpha {2}.
     /// </summary>
     private static readonly Regex Alpha02RegEx = new(@"[A-Z]{2}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Invariant {2, 12}
+    ///  Regular Expression: Invariant {2, 12}.
     /// </summary>
     private static readonly Regex Invariant0212RegEx = new(@"[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{2,12}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Alpha {2} Invariant {3, 27}
+    ///  Regular Expression: Alpha {2} Invariant {3, 27}.
     /// </summary>
     private static readonly Regex Alpha02Invariant0327RegEx = new(@"[A-Z]{2}[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{3,27}$", RegexOptions.None);
-    
+
     /// <summary>
-    ///  Regular Expression: Numeric {1}
+    ///  Regular Expression: Numeric {1}.
     /// </summary>
     private static readonly Regex Numeric01RegEx = new(@"\d{1}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {5}
+    ///  Regular Expression: Numeric {5}.
     /// </summary>
     private static readonly Regex Numeric05RegEx = new(@"\d{5}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {9}
+    ///  Regular Expression: Numeric {9}.
     /// </summary>
     private static readonly Regex Numeric09RegEx = new(@"\d{9}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {14}
+    ///  Regular Expression: Numeric {14}.
     /// </summary>
     private static readonly Regex Numeric14RegEx = new(@"\d{14}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {18}
+    ///  Regular Expression: Numeric {18}.
     /// </summary>
     private static readonly Regex Numeric18RegEx = new(@"\d{18}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {1, 2}
+    ///  Regular Expression: Numeric {1, 2}.
     /// </summary>
     private static readonly Regex Numeric0102RegEx = new(@"\d{1,2}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {4, 6}
+    ///  Regular Expression: Numeric {4, 6}.
     /// </summary>
     private static readonly Regex Numeric0406RegEx = new(@"\d{4,6}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {6, 26}
+    ///  Regular Expression: Numeric {6, 26}.
     /// </summary>
     private static readonly Regex Numeric0626RegEx = new(@"\d{6,26}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {7, 12}
+    ///  Regular Expression: Numeric {7, 12}.
     /// </summary>
     private static readonly Regex Numeric0712RegEx = new(@"\d{7,12}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {9, 13}
+    ///  Regular Expression: Numeric {9, 13}.
     /// </summary>
     private static readonly Regex Numeric0913RegEx = new(@"\d{9,13}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {10, 12}
+    ///  Regular Expression: Numeric {10, 12}.
     /// </summary>
     private static readonly Regex Numeric1012RegEx = new(@"\d{10,12}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {13, 14}
+    ///  Regular Expression: Numeric {13, 14}.
     /// </summary>
     private static readonly Regex Numeric1314RegEx = new(@"\d{13,14}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric {14, 26}
+    ///  Regular Expression: Numeric {14, 26}.
     /// </summary>
     private static readonly Regex Numeric1426RegEx = new(@"\d{14,26}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric with dot {01, 10}
+    ///  Regular Expression: Numeric with dot {01, 10}.
     /// </summary>
     private static readonly Regex NumericDot0110RegEx = new(@"[0-9.]{1,10}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric with dot {01, 20}
+    ///  Regular Expression: Numeric with dot {01, 20}.
     /// </summary>
     private static readonly Regex NumericDot0120RegEx = new(@"[0-9.]{1,20}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric with dot {01, 05}
+    ///  Regular Expression: Numeric with dot {01, 05}.
     /// </summary>
     private static readonly Regex NumericDot0105RegEx = new(@"[0-9.]{1,5}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Numeric with dot {01, 06}
+    ///  Regular Expression: Numeric with dot {01, 06}.
     /// </summary>
     private static readonly Regex NumericDot0106RegEx = new(@"[0-9.]{1,6}$", RegexOptions.None);
 
     /// <summary>
-    ///  Regular Expression: Minus with Numeric {01, 04}
+    ///  Regular Expression: Minus with Numeric {01, 04}.
     ///   sign.
     /// </summary>
     private static readonly Regex MinusNumeric0104RegEx = new(@"-?\d{1,4}$", RegexOptions.None);
 #endif
+
     /// <summary>
     ///   A dictionary of data identifier descriptors.
     /// </summary>
@@ -1345,6 +603,7 @@ public static class EntityResolver
 #else
                     () => HibccPlusRegEx
 #endif
+#pragma warning disable SA1111 // Closing parenthesis should be on line of last parameter
                     )
             },
             {
@@ -1405,8 +664,6 @@ public static class EntityResolver
             },
             {
                 7, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "EXCLAMATIONMARK",
                     AnsiMh10_8_2DataIdentifier.di7,
 #if NET7_0_OR_GREATER
@@ -1459,15 +716,13 @@ public static class EntityResolver
 #if NET7_0_OR_GREATER
                     Alphanumeric01UnboundRegEx
 #else
-                    () =>                     Alphanumeric01UnboundRegEx
+                    () => Alphanumeric01UnboundRegEx
 
 #endif
                 )
             },
             {
                 2004, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "SCAC",
                     AnsiMh10_8_2DataIdentifier.di2004,
 #if NET7_0_OR_GREATER
@@ -2444,10 +1699,10 @@ public static class EntityResolver
             },
             {
                 8005, new EntityDescriptor(
-                "LAST NAME",
-                AnsiMh10_8_2DataIdentifier.di8005,
+                    "LAST NAME",
+                    AnsiMh10_8_2DataIdentifier.di8005,
 #if NET7_0_OR_GREATER
-                Alphanumeric01UnboundRegEx
+                    Alphanumeric01UnboundRegEx
 #else
                     () => Alphanumeric01UnboundRegEx
 #endif
@@ -2457,7 +1712,7 @@ public static class EntityResolver
                 8006,
                 new EntityDescriptor(
                     "PARTY NAME",
-                    AnsiMh10_8_2DataIdentifier.di8006, 
+                    AnsiMh10_8_2DataIdentifier.di8006,
 #if NET7_0_OR_GREATER
                     AlphanumericRegEx0135
 #else
@@ -2715,8 +1970,6 @@ public static class EntityResolver
             },
             {
                 10008, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "MMSI",
                     AnsiMh10_8_2DataIdentifier.di10008,
 #if NET7_0_OR_GREATER
@@ -2802,7 +2055,7 @@ public static class EntityResolver
                 11006,
                 new EntityDescriptor(
                     "PRO#",
-                    AnsiMh10_8_2DataIdentifier.di11006, 
+                    AnsiMh10_8_2DataIdentifier.di11006,
 #if NET7_0_OR_GREATER
                     Alphanumeric01UnboundRegEx
 #else
@@ -2850,7 +2103,7 @@ public static class EntityResolver
                 11010,
                 new EntityDescriptor(
                     "INVOICE NUMBER",
-                    AnsiMh10_8_2DataIdentifier.di11010, 
+                    AnsiMh10_8_2DataIdentifier.di11010,
 #if NET7_0_OR_GREATER
                     Alphanumeric01UnboundRegEx
 #else
@@ -2872,8 +2125,6 @@ public static class EntityResolver
             },
             {
                 11012, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "SCAC",
                     AnsiMh10_8_2DataIdentifier.di11012,
 #if NET7_0_OR_GREATER
@@ -2908,8 +2159,6 @@ public static class EntityResolver
             },
             {
                 11015, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "KANBAN",
                     AnsiMh10_8_2DataIdentifier.di11015,
 #if NET7_0_OR_GREATER
@@ -2921,8 +2170,6 @@ public static class EntityResolver
             },
             {
                 11016, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "DELINS",
                     AnsiMh10_8_2DataIdentifier.di11016,
 #if NET7_0_OR_GREATER
@@ -2932,11 +2179,12 @@ public static class EntityResolver
 #endif
                 )
             },
-            { 11017, new EntityDescriptor(
-                "CHECK",
-                AnsiMh10_8_2DataIdentifier.di11017,
+            {
+                11017, new EntityDescriptor(
+                    "CHECK",
+                    AnsiMh10_8_2DataIdentifier.di11017,
 #if NET7_0_OR_GREATER
-                Alphanumeric01UnboundRegEx 
+                    Alphanumeric01UnboundRegEx
 #else
                     () => Alphanumeric01UnboundRegEx
 #endif
@@ -3050,11 +2298,12 @@ public static class EntityResolver
 #endif
                 )
             },
-            { 12001, new EntityDescriptor(
-                "LOCATION",
-                AnsiMh10_8_2DataIdentifier.di12001,
+            {
+                12001, new EntityDescriptor(
+                    "LOCATION",
+                    AnsiMh10_8_2DataIdentifier.di12001,
 #if NET7_0_OR_GREATER
-                Alphanumeric01UnboundRegEx
+                    Alphanumeric01UnboundRegEx
 #else
                     () => Alphanumeric01UnboundRegEx
 #endif
@@ -3122,8 +2371,6 @@ public static class EntityResolver
             },
             {
                 12007, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "DODAAC",
                     AnsiMh10_8_2DataIdentifier.di12007,
 #if NET7_0_OR_GREATER
@@ -3558,8 +2805,6 @@ public static class EntityResolver
             },
             {
                 14001, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "CIDX PRODUCT CHARACTERISTIC",
                     AnsiMh10_8_2DataIdentifier.di14001,
 #if NET7_0_OR_GREATER
@@ -3571,8 +2816,6 @@ public static class EntityResolver
             },
             {
                 14003, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "EIAJ ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14003,
 #if NET7_0_OR_GREATER
@@ -3596,8 +2839,6 @@ public static class EntityResolver
             },
             {
                 14005, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "AIAG ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14005,
 #if NET7_0_OR_GREATER
@@ -3609,8 +2850,6 @@ public static class EntityResolver
             },
             {
                 14006, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "MILSTRIP ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14006,
 #if NET7_0_OR_GREATER
@@ -3646,9 +2885,9 @@ public static class EntityResolver
             },
             {
                 // NB. The PPN is a general-purpose standard product identifier for pharmaceutical use, and is managed by IFA. It
-                // is fundamentally alphanumeric (the last two characters are a checksum, and therefore always digits), starting with 
+                // is fundamentally alphanumeric (the last two characters are a checksum, and therefore always digits), starting with
                 // a two-character issuing agency identifier, a 1..18 alphanumeric domain identifier and a two digit checksum. The
-                // MH10.82 format is simplified to 5..22 alphanumeric characters, nd so does not quite fully describe the true PPN 
+                // MH10.82 format is simplified to 5..22 alphanumeric characters, nd so does not quite fully describe the true PPN
                 // standard. In Germany, the issuing agency is currently always numeric. For the European Medicines Verification
                 // System (EMVS), the domain identifier is always based on the 8-digit PZN. So, currently, a German PPN on a medicinal
                 // pack is always exactly 12 digits in length. NB. SecurPharm erroneously state that the PPN is 4..22 alphanumeric
@@ -3797,8 +3036,6 @@ public static class EntityResolver
             },
             {
                 16007, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "CLEI",
                     AnsiMh10_8_2DataIdentifier.di16007,
 #if NET7_0_OR_GREATER
@@ -3810,8 +3047,6 @@ public static class EntityResolver
             },
             {
                 16008, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "GS1 GTIN-14",
                     AnsiMh10_8_2DataIdentifier.di16008,
 #if NET7_0_OR_GREATER
@@ -3848,8 +3083,6 @@ public static class EntityResolver
             },
             {
                 16011, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "CLEI",
                     AnsiMh10_8_2DataIdentifier.di16011,
 #if NET7_0_OR_GREATER
@@ -3873,8 +3106,6 @@ public static class EntityResolver
             },
             {
                 16013, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "VMRS SYSTEM",
                     AnsiMh10_8_2DataIdentifier.di16013,
 #if NET7_0_OR_GREATER
@@ -3886,8 +3117,6 @@ public static class EntityResolver
             },
             {
                 16014, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "VMRS SYSTEM & ASSEMBLY",
                     AnsiMh10_8_2DataIdentifier.di16014,
 #if NET7_0_OR_GREATER
@@ -3899,8 +3128,6 @@ public static class EntityResolver
             },
             {
                 16015, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "VMRS SYSTEM, ASSEMBLY & PART",
                     AnsiMh10_8_2DataIdentifier.di16015,
 #if NET7_0_OR_GREATER
@@ -3912,8 +3139,6 @@ public static class EntityResolver
             },
             {
                 16016, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "VMRS SYSTEM, ASSEMBLY & PART",
                     AnsiMh10_8_2DataIdentifier.di16016,
 #if NET7_0_OR_GREATER
@@ -3937,8 +3162,6 @@ public static class EntityResolver
             },
             {
                 16018, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "VMRS SUPPLIER ID & PART NO.",
                     AnsiMh10_8_2DataIdentifier.di16018,
 #if NET7_0_OR_GREATER
@@ -4069,8 +3292,6 @@ public static class EntityResolver
             },
             {
                 16029, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "GMDN PRODUCT CLASSIFICATION",
                     AnsiMh10_8_2DataIdentifier.di16029,
 #if NET7_0_OR_GREATER
@@ -4142,8 +3363,6 @@ public static class EntityResolver
             },
             {
                 16040, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "MSDS CODE",
                     AnsiMh10_8_2DataIdentifier.di16040,
 #if NET7_0_OR_GREATER
@@ -4640,8 +3859,6 @@ public static class EntityResolver
             },
             {
                 18004, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "DODIC",
                     AnsiMh10_8_2DataIdentifier.di18004,
 #if NET7_0_OR_GREATER
@@ -4676,8 +3893,6 @@ public static class EntityResolver
             },
             {
                 18007, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "ASFIS CODE",
                     AnsiMh10_8_2DataIdentifier.di18007,
 #if NET7_0_OR_GREATER
@@ -5168,8 +4383,6 @@ public static class EntityResolver
             },
             {
                 19043, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "ICCID",
                     AnsiMh10_8_2DataIdentifier.di19043,
 #if NET7_0_OR_GREATER
@@ -5743,8 +4956,6 @@ public static class EntityResolver
             },
             {
                 22016, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "VMRS SUPPLIER ID",
                     AnsiMh10_8_2DataIdentifier.di22016,
 #if NET7_0_OR_GREATER
@@ -5780,8 +4991,6 @@ public static class EntityResolver
             },
             {
                 22019, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "PARTYS ROLE(S) IN A TRANSACTION",
                     AnsiMh10_8_2DataIdentifier.di22019,
 #if NET7_0_OR_GREATER
@@ -5816,8 +5025,6 @@ public static class EntityResolver
             },
             {
                 22022, new EntityDescriptor(
-
-                    // ReSharper disable once StringLiteralTypo
                     "CARRIER SCAC",
                     AnsiMh10_8_2DataIdentifier.di22022,
 #if NET7_0_OR_GREATER
@@ -7122,7 +6329,8 @@ public static class EntityResolver
                     () => Alphanumeric01UnboundRegEx
 #endif
                 )
-            }
+#pragma warning restore SA1111 // Closing parenthesis should be on line of last parameter
+            },
         };
 
     /// <summary>
@@ -7190,13 +6398,12 @@ public static class EntityResolver
                         currentPosition);
                 }
 
-                var lastChar = dataIdentifier?
 #if NET6_0_OR_GREATER
-                    [^1..]
+                var lastChar = dataIdentifier?[^1..]?.ToInvariantUpper();
 #else
-                    .Substring(dataIdentifier.Length - 2)
+                var lastChar = dataIdentifier?.Substring(dataIdentifier.Length - 2).ToInvariantUpper();
 #endif
-                    ?.ToInvariantUpper();
+
                 var ascii = lastChar?[0] - 64;
 
                 if (ascii is < 1 or > 65) {
@@ -7204,11 +6411,10 @@ public static class EntityResolver
                 }
 
                 if (dataIdentifier?.Length > 1) {
-                    var entityValuePart = dataIdentifier
 #if NET6_0_OR_GREATER
-                        [..^1];
+                    var entityValuePart = dataIdentifier[..^1];
 #else
-                        .Substring(0, dataIdentifier.Length - 1);
+                    var entityValuePart = dataIdentifier.Substring(0, dataIdentifier.Length - 1);
 #endif
 
                     if (entityValuePart.Length > 3) {
@@ -7278,6 +6484,753 @@ public static class EntityResolver
                 descriptors.Description,
                 currentPosition));
     }
+
+#if NET7_0_OR_GREATER
+    /// <summary>
+    ///   A regular expression for six-digit date representation - DDMMYY.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"(((0\d|[12]\d|3[01])(0[13578]|1[02])(\d{2}))|((0\d|[12]\d|30)(0[13456789]|1[012])(\d{2}))|((0\d|1\d|2[0-8])02(\d{2}))|(2902((0[048]|[2468][048]|[13579][26]))))", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternDdMmYyRegEx();
+
+    /// <summary>
+    ///   The date pattern dd mm yyyyy.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    // ReSharper disable once IdentifierTypo
+    [SuppressMessage(
+        "StyleCop.CSharp.DocumentationRules",
+        "SA1650:ElementDocumentationMustBeSpelledCorrectly",
+        Justification = "Reviewed. Suppression is OK here.")]
+    [GeneratedRegex(@"^(((0[1-9]|[12]\d|30)[-/]?(0[13-9]|1[012])|31[-/]?(0[13578]|1[02])|(0[1-9]|1\d|2[0-8])[-/]?02)[-/]?\d{4}|29[-/]?02[-/]?(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00))$", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternDdMmYyyyyRegEx();
+
+    /// <summary>
+    ///   A regular expression for six-digit date representation - MMDDYY.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"(((0[13578]|1[02])(0\d|[12]\d|3[01])(\d{2}))|((0[13456789]|1[012])(0\d|[12]\d|30)(\d{2}))|(02(0\d|1\d|2[0-8])(\d{2}))|(0229((0[048]|[2468][048]|[13579][26]))))", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternMmDdYyRegEx();
+
+    /// <summary>
+    ///   The Julian date patter YDDD.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^(\d)(00[1-9]|0[1-9]\d|[1-2]\d\d|3[0-5]\d|36[0-6])$", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternYDddJulianRegEx();
+
+    /// <summary>
+    ///   The Julian date patter YYDDD.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^(\d{2})(00[1-9]|0[1-9]\d|[1-2]\d\d|3[0-5]\d|36[0-6])$", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternYyDddJulianRegEx();
+
+    /// <summary>
+    ///   A regular expression for six-digit date representation - YYMMDD.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"(((\d{2})(0[13578]|1[02])(0[1-9]|[12]\d|3[01]))|((\d{2})(0[13456789]|1[012])(0[1-9]|[12]\d|30))|((\d{2})02(0[1-9]|1\d|2[0-8]))|(((0[048]|[2468][048]|[13579][26]))0229))", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternYyMmDdRegEx();
+
+    /// <summary>
+    ///   A regular expression for six-digit date representation - YYMMDD.
+    ///   If it is not necessary to specify the day, the day field can be filled with two zeros.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"(((\d{2})(0[13578]|1[02])(0\d|[12]\d|3[01]))|((\d{2})(0[13456789]|1[012])(0\d|[12]\d|30))|((\d{2})02(0\d|1\d|2[0-8]))|(((0[048]|[2468][048]|[13579][26]))0229))", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternYyMmDdZerosRegEx();
+
+    /// <summary>
+    ///   The date patter YDWW.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternYyWwRegEx();
+
+    /// <summary>
+    ///   The date pattern yyyy mm dd.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    // ReSharper disable once IdentifierTypo
+    [GeneratedRegex(@"(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternYyyyMmDdRegEx();
+
+    /// <summary>
+    ///   The date pattern YYYYMMDDHHMM.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    // ReSharper disable once IdentifierTypo
+    [GeneratedRegex(@"(?:(?:(?:(?:(?:[13579][26]|[2468][048])00)|(?:\d{2}(?:(?:[13579][26])|(?:[2468][048]|0[48]))))(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:0[1-9]|1\d|2\d))))|(?:\d{4}(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:[01]\d|2[0-8])))))(?:0\d|1\d|2[0-3])(?:[0-5]\d)", RegexOptions.None, "en-US")]
+    private static partial Regex DatePatternYyyyMmDdHhMmRegEx();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {1 ..}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]+", RegexOptions.None, "en-US")]
+    private static partial Regex Alphanumeric01UnboundRegEx();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric with plus {1 ..}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z+]+", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericWithPlus01UnboundRegEx();
+
+    /// <summary>
+    /// Regular Expression: Invariants except plus {1 ..}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[-!""%&'()*,./0-9:;<=>?A-Z_a-z]+", RegexOptions.None, "en-US")]
+    private static partial Regex InvariantNoPlus01UnboundPlusRegEx();
+
+    /// <summary>
+    /// Regular Expression: Numeric with plus {1 ..}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9+]+", RegexOptions.None, "en-US")]
+    private static partial Regex NumericPlus01UnboundRegEx();
+
+    /// <summary>
+    ///   Returns a regular expression for character strings of variable length
+    ///   representing latitude, longitude and attitude.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"-?\d{1,2}(.\d{1,5})?/-?\d{1,3}(.\d{1,5})?/-?\d{1,4}", RegexOptions.None, "en-US")]
+    private static partial Regex LatitudeLongitudeAttitudeRegEx();
+
+    /// <summary>
+    ///   Returns a regular expression for character strings indicating Yes (Y) and No (N).
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[YN]", RegexOptions.None, "en-US")]
+    private static partial Regex YesNoLetterRegEx();
+
+    /// <summary>
+    ///   Returns a regular expression for the '+' character used for HIBC codes.
+    /// </summary>
+    /// <returns></returns>
+    [GeneratedRegex(@"^\+$", RegexOptions.None, "en-US")]
+    private static partial Regex HibccPlusRegEx();
+
+    /// <summary>
+    ///   Returns a regular expression for the '$' character used for ISBT 128 codes.
+    /// </summary>
+    /// <returns></returns>
+    [GeneratedRegex(@"^\&$", RegexOptions.None, "en-US")]
+    private static partial Regex IccbbaAmpersandRegEx();
+
+    /// <summary>
+    ///   Returns a regular expression for the '=' character used for ISBT 128 codes.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^\=$", RegexOptions.None, "en-US")]
+    private static partial Regex IccbbaEqualRegEx();
+
+    /// <summary>
+    ///   Returns a regular expression for the GS1 FNC1 character.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^\x1D$", RegexOptions.None, "en-US")]
+    private static partial Regex Gs1Function1RegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for the message header preamble defined by ISO/IEC 15434 ",
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^\[\)\>\x1E", RegexOptions.None, "en-US")]
+    private static partial Regex IsoIec15434PreambleRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for the hyphen character used to specify Pharmaceutical Central Numbers (PZNs).
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^\-$", RegexOptions.None, "en-US")]
+    private static partial Regex IfaAbdataPznHyphenRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for the exclamation mark character used for Eurocode IBLS.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^\!$", RegexOptions.None, "en-US")]
+    private static partial Regex EurocodeIblsExclamationMarkRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for the Dangerous Cargo IMDG class.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^\d(.\d[A-Z]?)?$", RegexOptions.None, "en-US")]
+    private static partial Regex DangerousCargoClassRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for Vessel Registration Numbers.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^IMO\d{7}$", RegexOptions.None, "en-US")]
+    private static partial Regex VesselRegistrationNumberRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for Electronic Seal Numbers.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^.{{6}}$", RegexOptions.None, "en-US")]
+    private static partial Regex ElectronicSealNumbersRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for Surety Numbers.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^.{{6}}$", RegexOptions.None, "en-US")]
+    private static partial Regex SuretyNumberRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for Foreign Ports of Lading.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^.{{6}}$", RegexOptions.None, "en-US")]
+    private static partial Regex ForeignPortOfLadingRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for "Format MMYY dates.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^((0[1-9])|(1[0-2]))\d{2}$", RegexOptions.None, "en-US")]
+    private static partial Regex FormatMmYyRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for Event, Date, And Time.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^(?:(?:(?:(?:(?:[13579][26]|[2468][048])00)|(?:\d{2}(?:(?:[13579][26])|(?:[2468][048]|0[48]))))(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:0[1-9]|1\d|2\d))))|(?:\d{4}(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:[01]\d|2[0-8])))))(?:0\d|1\d|2[0-3])(?:[0-5]\d)\d{{1,3}}$", RegexOptions.None, "en-US")]
+    private static partial Regex EventDateAndTimeRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for Format YYYYWW.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^([1-2]\d)(\d\d)(0[1-9]|[1-4]\d|5[0-3])$", RegexOptions.None, "en-US")]
+    private static partial Regex FormatYyyyWwRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for the oldest and newest manufacturing date in the format YYWWYYWW.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))$", RegexOptions.None, "en-US")]
+    private static partial Regex OldestAndNewestManufacturingDateRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for the harvest date range.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)$", RegexOptions.None, "en-US")]
+    private static partial Regex HarvestDateRangeRegEx();
+
+    /// <summary>
+    ///    Returns a regular expression for a Uniform Resource Locator (URL).
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"^(?:(?:http|https|ftp|telnet|gopher|ms\-help|file|notes)://)?(?:(?:[a-z][\w~%!&amp;',;=\-\.$\(\)\*\+]*):.*@)?(?:(?:[a-z0-9][\w\-]*[a-z0-9]*\.)*(?:(?:(?:(?:[a-z0-9][\w\-]*[a-z0-9]*)(?:\.[a-z0-9]+)?)|(?:(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)))(?::[0-9]+)?))?(?:(?:(?:/(?:[\w`~!$=;\-\+\.\^\(\)\|\{\}\[\]]|(?:%\d\d))+)*/(?:[\w`~!$=;\-\+\.\^\(\)\|\{\}\[\]]|(?:%\d\d))*)(?:\?[^#]+)?(?:#[a-z0-9]\w*)?)?$", RegexOptions.None, "en-US")]
+    private static partial Regex UniformResourceLocatorRegEx();
+
+    /// <summary>
+    ///   Returns a regular expression for alphanumeric character strings of variable length for CAGE Code and Serial number.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z-/]{6,25}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericCageSnRegEx();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {2}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{2}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx2();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {3}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{3}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx3();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {4}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{4}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx4();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {5}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{5}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx5();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {6}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{6}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx6();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {10}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{10}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx10();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {12}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{12}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx12();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {18}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{18}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx18();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {1, 3}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{1,3}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0103();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {1, 9}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{1,9}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0109();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {1, 10}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{1,10}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0110();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {1, 20}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{1,20}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0120();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {1, 35}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{1,35}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0135();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {1, 50}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{1,50}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0150();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {1, 100}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{1,100}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx01100();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {2, 30}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{2,30}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0230();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {2, 35}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{2,35}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0235();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {3, 9}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{3,9}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0309();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {3, 22}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{3,22}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0322();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {3, 35}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{3,35}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0335();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {4, 11}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{4,11}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0411();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {4, 25}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{4,25}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0425();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {5, 29}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{5,29}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0529();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {5, 16}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{5,16}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0516();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {5, 22}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{5,22}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0522();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {6, 35}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{6,35}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx0635();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {10, 12}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{10,12}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx1012();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {10, 15}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{10,15}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx1015();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {13, 15}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{13,15}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx1315();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {16, 26}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{16,26}", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericRegEx1626();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {4} . Alphanumeric {1, 10}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{4}.[0-9A-Z]{1,10}", RegexOptions.None, "en-US")]
+    private static partial Regex Alphanumeric04Alphanumeric0110RegEx();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {1, 32} Alphanumeric {3} with leading dashes
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{1,32}([0-9A-Z]{3}|-[0-9A-Z]{2}|--[0-9A-Z]{1}|---)", RegexOptions.None, "en-US")]
+    private static partial Regex Alphanumeric0132Alphanumeric03WithDashesRegEx();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {11} Numeric {2}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{11}\d{2}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alphanumeric11Numeric02();
+
+    /// <summary>
+    /// Regular Expression: Numeric {2} Alphanumeric and dash {1, 6} Numeric and dot {5} Alphanumeric {2}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{2}[A-Z0-9-]{1,6}[0-9.]{5}[0-9A-Z]{2}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric02AlphanumericDash0106NumericDot05Alphanumeric02RegEx();
+
+    /// <summary>
+    /// Regular Expression: Alphanumeric {3, 35} + Alpha {1, 3}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z]{3,35}\+[A-Z]{1,3}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alphanumeric0335Alpha0103RegEx();
+
+    /// <summary>
+    /// Regular Expression: Alpha {2} Alphanumeric {3, 27}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[A-Z]{2}[0-9A-Z]{3,27}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alpha02Alphanumeric0327RegEx();
+
+    /// <summary>
+    /// Regular Expression: Alpha {3} Numeric {14} Alphanumeric {1, 33}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[A-Z]{3}\d{14}[0-9A-Za-z*+-./()!]{1,33}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alpha03Numeric14Alphanumeric0133RegEx();
+
+    /// <summary>
+    /// Regular Expression: Alpha {1} Numeric {4} Alphanumeric {5, 20}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[A-Z]{1}\d{4}[0-9A-Z]{5,20}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alpha01Numeric04Alphanumeric0520RegEx();
+
+    /// <summary>
+    /// Regular Expression: Numeric {1, 8} Alphanumeric {2}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{1,8}[0-9A-Z]{2}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric0108Alphanumeric02RegEx();
+
+    /// <summary>
+    /// Regular Expression: Numeric {1, 10} Alphanumeric {3}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{1,10}[0-9A-Z]{3}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric0110Alphanumeric03RegEx();
+
+    /// <summary>
+    /// Regular Expression: Numeric {2} Alphanumeric {3, 42}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{2}[0-9A-Z]{3,42}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric02Alphanumeric0342RegEx();
+
+    /// <summary>
+    /// Regular Expression: Alpha {2} Alphanumeric {3, 18}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[A-Z]{2}[0-9A-Z]{3,18}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alpha02Alphanumeric0318RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Alphanumeric with space {1, 60}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z ]{1,60}$", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericSpace0160RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Alphanumeric with plus {1, 50}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z ]{1,50}$", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericPlus0150RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Alphanumeric with plus {20, 50}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z+]{20,50}$", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericPlus2050RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Alphanumeric with plus {1, 60}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9A-Z ]{1,60}$", RegexOptions.None, "en-US")]
+    private static partial Regex AlphanumericPlus0160RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Alpha {4} Numeric {7}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[A-Z]{4}\d{7}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alpha04Numeric07RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Alpha {4} Numeric {1, 3}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[A-Z]{4}\d{1,3}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alpha04Numeric0103RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Alpha {3} Numeric {3}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[A-Z]{3}\d{3}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alpha03Numeric03RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Alpha {2}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[A-Z]{2}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alpha02RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Invariant {2, 12}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{2,12}$", RegexOptions.None, "en-US")]
+    private static partial Regex Invariant0212RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Alpha {2} Invariant {3, 27}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[A-Z]{2}[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{3,27}$", RegexOptions.None, "en-US")]
+    private static partial Regex Alpha02Invariant0327RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {1}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{1}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric01RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {5}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{5}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric05RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {9}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{9}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric09RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {14}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{14}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric14RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {18}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{18}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric18RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {1, 2}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{1,2}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric0102RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {4, 6}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{4,6}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric0406RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {6, 26}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{6,26}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric0626RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {7, 12}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{7,12}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric0712RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {9, 13}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{9,13}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric0913RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {10, 12}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{10,12}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric1012RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {13, 14}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{13,14}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric1314RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric {14, 26}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"\d{14,26}$", RegexOptions.None, "en-US")]
+    private static partial Regex Numeric1426RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric with dot {01, 10}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9.]{1,10}$", RegexOptions.None, "en-US")]
+    private static partial Regex NumericDot0110RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric with dot {01, 20}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9.]{1,20}$", RegexOptions.None, "en-US")]
+    private static partial Regex NumericDot0120RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric with dot {01, 05}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9.]{1,5}$", RegexOptions.None, "en-US")]
+    private static partial Regex NumericDot0105RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Numeric with dot {01, 06}
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"[0-9.]{1,6}$", RegexOptions.None, "en-US")]
+    private static partial Regex NumericDot0106RegEx();
+
+    /// <summary>
+    ///  Regular Expression: Minus with Numeric {01, 04}
+    ///   sign.
+    /// </summary>
+    /// <returns>A regular expression.</returns>
+    [GeneratedRegex(@"-?\d{1,4}$", RegexOptions.None, "en-US")]
+    private static partial Regex MinusNumeric0104RegEx();
+#endif
 
     /// <summary>
     ///   Returns the descriptors tuple for the given data identifier descriptor key.

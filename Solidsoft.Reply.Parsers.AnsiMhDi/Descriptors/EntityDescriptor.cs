@@ -1,8 +1,6 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="EntityDescriptor.cs" company="Solidsoft Reply Ltd.">
-//   (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
-// </copyright>
-// <license>
+// <copyright file="EntityDescriptor.cs" company="Solidsoft Reply Ltd">
+// Copyright (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -14,7 +12,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-// </license>
+// </copyright>
 // <summary>
 // A descriptor for an ASC MH10.8.2 entity.
 // </summary>
@@ -33,52 +31,43 @@ using Common;
 /// <summary>
 ///   A descriptor for an ASC MH10.8.2 entity.
 /// </summary>
-
+/// <remarks>
+///   Initializes a new instance of the <see cref="EntityDescriptor" /> class.
+/// </remarks>
+/// <param name="dataTitle">
+///   The data title.
+/// </param>
+/// <param name="description">
+///   The description.
+/// </param>
+/// <param name="pattern">
+///   The pattern.
+/// </param>
 // ReSharper disable once ClassWithVirtualMembersNeverInherited.Global
-public class EntityDescriptor
-{
+public class EntityDescriptor(string? dataTitle, string? description, Func<Regex> pattern) {
     /// <summary>
     ///   The regular expression pattern of the entity.
     /// </summary>
-    private readonly Func<Regex> _pattern;
+    private readonly Func<Regex> _pattern = pattern;
 
     /// <summary>
     ///   The regular expression pattern of the entity.
     /// </summary>
-    private Regex? _validator;
-
-    /// <summary>
-    ///   Initializes a new instance of the <see cref="EntityDescriptor" /> class.
-    /// </summary>
-    /// <param name="dataTitle">
-    ///   The data title.
-    /// </param>
-    /// <param name="description">
-    ///   The description.
-    /// </param>
-    /// <param name="pattern">
-    ///   The pattern.
-    /// </param>
-    public EntityDescriptor(string? dataTitle, string? description, Func<Regex> pattern) {
-        DataTitle = dataTitle;
-        Description = description;
-        _pattern = pattern;
-        _validator = null;
-    }
+    private Regex? _validator = null;
 
     /// <summary>
     ///   Gets the data title of the entity.
     /// </summary>
     // ReSharper disable once MemberCanBePrivate.Global
     // ReSharper disable once UnusedAutoPropertyAccessor.Global
-    public string? DataTitle { get; }
+    public string? DataTitle { get; } = dataTitle;
 
     /// <summary>
     ///   Gets the description of the entity.
     /// </summary>
     // ReSharper disable once MemberCanBePrivate.Global
     // ReSharper disable once UnusedAutoPropertyAccessor.Global
-    public string? Description { get; }
+    public string? Description { get; } = description;
 
     /// <summary>
     ///   Gets the compiled regular expression object for validating the entity.
@@ -92,14 +81,14 @@ public class EntityDescriptor
     /// <param name="value">The data to be validated.</param>
     /// <param name="validationErrors">A list of validation errors.</param>
     /// <returns>True, if valid. Otherwise, false.</returns>
-    public virtual bool IsValid(string? value, out IList<ParserException> validationErrors)
-    {
+    public virtual bool IsValid(string? value, out IList<ParserException> validationErrors) {
+#pragma warning disable IDE0028 // Simplify collection initialization
         validationErrors = new List<ParserException>();
+#pragma warning restore IDE0028 // Simplify collection initialization
 
         var result = Pattern.IsMatch(value ?? string.Empty);
 
-        if (result)
-        {
+        if (result) {
             return true;
         }
 
