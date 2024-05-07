@@ -22,8 +22,6 @@
 // ReSharper disable CommentTypo
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 
-using System.Diagnostics.CodeAnalysis;
-
 /// <summary>
 ///   ASC MH10.8 0 Data Identifiers.
 /// </summary>
@@ -37,10 +35,6 @@ public enum DataIdentifier {
     /// <summary>
     ///   Unrecognised entity.
     /// </summary>
-    [SuppressMessage(
-        "StyleCop.CSharp.DocumentationRules",
-        "SA1650:ElementDocumentationMustBeSpelledCorrectly",
-        Justification = "Reviewed. Suppression is OK here.")]
     Unrecognised = -1,
 
     /// <summary>

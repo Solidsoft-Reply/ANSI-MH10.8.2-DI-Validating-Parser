@@ -44,7 +44,7 @@ public static class Parser {
     ///   Code generator for regular expression that captures a data identifier (0..3 digits followed by a letter).
     /// </summary>
     /// <returns>A regular expression.</returns>
-    private static readonly Regex MatchDataIdentifierRegex = new(@"^\d{0,3}[a-zA-Z]", RegexOptions.IgnoreCase);
+    private static readonly Regex MatchDataIdentifierRegex = new (@"^\d{0,3}[a-zA-Z]", RegexOptions.IgnoreCase);
 #endif
 
     /// <summary>
@@ -266,9 +266,7 @@ public static class Parser {
 
             DoParseFields(recordBuffer, processResolvedEntity, recordPosition);
 #pragma warning disable S1751
-#pragma warning disable S3626
             continue;
-#pragma warning restore S3626
 #pragma warning restore S1751
 
             string FormatTrailerTestFormatHeader() => dataBuffer.StartsWith(formatHeader, StringComparison.Ordinal)

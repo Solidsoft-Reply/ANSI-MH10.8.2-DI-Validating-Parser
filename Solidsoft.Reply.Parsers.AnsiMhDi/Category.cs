@@ -24,8 +24,6 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 /// <summary>
 ///   Defined ASC MH10.8.2 categories.
 /// </summary>
-[System.Diagnostics.CodeAnalysis.SuppressMessage("Naming", "CA1700:Do not name enum values 'Reserved'", Justification = "<Pending>")]
-
 // ReSharper disable once UnusedType.Global
 public enum Category {
     /// <summary>

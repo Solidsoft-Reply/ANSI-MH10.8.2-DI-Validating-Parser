@@ -39,7 +39,6 @@ Added:
 Added:
 [assembly: SuppressMessage("CodeQuality", "IDE0079:Remove unnecessary suppression", Justification = "<Pending>", Scope = "type", Target = "~T:Solidsoft.Reply.Parsers.AnsiMhDi.EntityResolver")]
 */
-[assembly: SuppressMessage("CodeQuality", "IDE0079:Remove unnecessary suppression", Justification = "<Pending>", Scope = "member", Target = "~M:Solidsoft.Reply.Parsers.AnsiMhDi.EntityResolver.DatePatternDdMmYyyyyRegEx~System.Text.RegularExpressions.Regex")]
 [assembly: SuppressMessage("CodeQuality", "IDE0079:Remove unnecessary suppression", Justification = "<Pending>", Scope = "type", Target = "~T:Solidsoft.Reply.Parsers.AnsiMhDi.EntityResolver")]
 [assembly: SuppressMessage("CodeQuality", "IDE0079:Remove unnecessary suppression", Justification = "<Pending>", Scope = "member", Target = "~F:Solidsoft.Reply.Parsers.AnsiMhDi.DataIdentifier.Unrecognised")]
 [assembly: SuppressMessage("CodeQuality", "IDE0079:Remove unnecessary suppression", Justification = "<Pending>", Scope = "type", Target = "~T:Solidsoft.Reply.Parsers.AnsiMhDi.Category")]

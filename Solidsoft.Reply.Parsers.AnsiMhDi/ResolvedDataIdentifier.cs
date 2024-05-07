@@ -21,8 +21,6 @@
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-
 using Common;
 
 /// <summary>
@@ -85,10 +83,6 @@ public class ResolvedDataIdentifier : IResolvedEntity {
     /// <param name="value">
     ///   The value of the unrecognised ASC MH10.8.2 data identifier.
     /// </param>
-    [SuppressMessage(
-        "StyleCop.CSharp.DocumentationRules",
-        "SA1650:ElementDocumentationMustBeSpelledCorrectly",
-        Justification = "Reviewed. Suppression is OK here.")]
     public ResolvedDataIdentifier(ParserException exception, int currentPosition, string? value = null) {
         Entity = -1;
         Identifier = string.Empty;
