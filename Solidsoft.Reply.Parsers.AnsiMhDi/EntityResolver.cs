@@ -44,533 +44,533 @@ public static class EntityResolver {
     /// <summary>
     ///   A regular expression for six-digit date representation - DDMMYY.
     /// </summary>
-    private static readonly Regex DatePatternDdMmYyRegEx = new (@"(((0\d|[12]\d|3[01])(0[13578]|1[02])(\d{2}))|((0\d|[12]\d|30)(0[13456789]|1[012])(\d{2}))|((0\d|1\d|2[0-8])02(\d{2}))|(2902((0[048]|[2468][048]|[13579][26]))))", RegexOptions.None);
+    private static readonly Regex DatePatternDdMmYyRegEx = new(@"(((0\d|[12]\d|3[01])(0[13578]|1[02])(\d{2}))|((0\d|[12]\d|30)(0[13456789]|1[012])(\d{2}))|((0\d|1\d|2[0-8])02(\d{2}))|(2902((0[048]|[2468][048]|[13579][26]))))", RegexOptions.None);
 
     /// <summary>
     ///   The date pattern dd mm yyyyy.
     /// </summary>
     // ReSharper disable once IdentifierTypo
-    private static readonly Regex DatePatternDdMmYyyyyRegEx = new (@"^(((0[1-9]|[12]\d|30)[-/]?(0[13-9]|1[012])|31[-/]?(0[13578]|1[02])|(0[1-9]|1\d|2[0-8])[-/]?02)[-/]?\d{4}|29[-/]?02[-/]?(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00))$", RegexOptions.None);
+    private static readonly Regex DatePatternDdMmYyyyyRegEx = new(@"^(((0[1-9]|[12]\d|30)[-/]?(0[13-9]|1[012])|31[-/]?(0[13578]|1[02])|(0[1-9]|1\d|2[0-8])[-/]?02)[-/]?\d{4}|29[-/]?02[-/]?(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00))$", RegexOptions.None);
 
     /// <summary>
     ///   A regular expression for six-digit date representation - MMDDYY.
     /// </summary>
-    private static readonly Regex DatePatternMmDdYyRegEx = new (@"(((0[13578]|1[02])(0\d|[12]\d|3[01])(\d{2}))|((0[13456789]|1[012])(0\d|[12]\d|30)(\d{2}))|(02(0\d|1\d|2[0-8])(\d{2}))|(0229((0[048]|[2468][048]|[13579][26]))))", RegexOptions.None);
+    private static readonly Regex DatePatternMmDdYyRegEx = new(@"(((0[13578]|1[02])(0\d|[12]\d|3[01])(\d{2}))|((0[13456789]|1[012])(0\d|[12]\d|30)(\d{2}))|(02(0\d|1\d|2[0-8])(\d{2}))|(0229((0[048]|[2468][048]|[13579][26]))))", RegexOptions.None);
 
     /// <summary>
     ///   The Julian date patter YDDD.
     /// </summary>
-    private static readonly Regex DatePatternYDddJulianRegEx = new (@"^(\d)(00[1-9]|0[1-9]\d|[1-2]\d\d|3[0-5]\d|36[0-6])$", RegexOptions.None);
+    private static readonly Regex DatePatternYDddJulianRegEx = new(@"^(\d)(00[1-9]|0[1-9]\d|[1-2]\d\d|3[0-5]\d|36[0-6])$", RegexOptions.None);
 
     /// <summary>
     ///   The Julian date patter YYDDD.
     /// </summary>
-    private static readonly Regex DatePatternYyDddJulianRegEx = new (@"^(\d{2})(00[1-9]|0[1-9]\d|[1-2]\d\d|3[0-5]\d|36[0-6])$", RegexOptions.None);
+    private static readonly Regex DatePatternYyDddJulianRegEx = new(@"^(\d{2})(00[1-9]|0[1-9]\d|[1-2]\d\d|3[0-5]\d|36[0-6])$", RegexOptions.None);
 
     /// <summary>
     ///   A regular expression for six-digit date representation - YYMMDD.
     /// </summary>
-    private static readonly Regex DatePatternYyMmDdRegEx = new (@"(((\d{2})(0[13578]|1[02])(0[1-9]|[12]\d|3[01]))|((\d{2})(0[13456789]|1[012])(0[1-9]|[12]\d|30))|((\d{2})02(0[1-9]|1\d|2[0-8]))|(((0[048]|[2468][048]|[13579][26]))0229))", RegexOptions.None);
+    private static readonly Regex DatePatternYyMmDdRegEx = new(@"(((\d{2})(0[13578]|1[02])(0[1-9]|[12]\d|3[01]))|((\d{2})(0[13456789]|1[012])(0[1-9]|[12]\d|30))|((\d{2})02(0[1-9]|1\d|2[0-8]))|(((0[048]|[2468][048]|[13579][26]))0229))", RegexOptions.None);
 
     /// <summary>
     ///   A regular expression for six-digit date representation - YYMMDD.
     ///   If it is not necessary to specify the day, the day field can be filled with two zeros.
     /// </summary>
-    private static readonly Regex DatePatternYyMmDdZerosRegEx = new (@"(((\d{2})(0[13578]|1[02])(0\d|[12]\d|3[01]))|((\d{2})(0[13456789]|1[012])(0\d|[12]\d|30))|((\d{2})02(0\d|1\d|2[0-8]))|(((0[048]|[2468][048]|[13579][26]))0229))", RegexOptions.None);
+    private static readonly Regex DatePatternYyMmDdZerosRegEx = new(@"(((\d{2})(0[13578]|1[02])(0\d|[12]\d|3[01]))|((\d{2})(0[13456789]|1[012])(0\d|[12]\d|30))|((\d{2})02(0\d|1\d|2[0-8]))|(((0[048]|[2468][048]|[13579][26]))0229))", RegexOptions.None);
 
     /// <summary>
     ///   The date patter YDWW.
     /// </summary>
-    private static readonly Regex DatePatternYyWwRegEx = new (@"\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))", RegexOptions.None);
+    private static readonly Regex DatePatternYyWwRegEx = new(@"\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))", RegexOptions.None);
 
     /// <summary>
     ///   The date pattern yyyy mm dd.
     /// </summary>
     // ReSharper disable once IdentifierTypo
-    private static readonly Regex DatePatternYyyyMmDdRegEx = new (@"(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)", RegexOptions.None);
+    private static readonly Regex DatePatternYyyyMmDdRegEx = new(@"(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)", RegexOptions.None);
 
     /// <summary>
     ///   The date pattern YYYYMMDDHHMM.
     /// </summary>
     // ReSharper disable once IdentifierTypo
-    private static readonly Regex DatePatternYyyyMmDdHhMmRegEx = new (@"(?:(?:(?:(?:(?:[13579][26]|[2468][048])00)|(?:\d{2}(?:(?:[13579][26])|(?:[2468][048]|0[48]))))(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:0[1-9]|1\d|2\d))))|(?:\d{4}(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:[01]\d|2[0-8])))))(?:0\d|1\d|2[0-3])(?:[0-5]\d)", RegexOptions.None);
+    private static readonly Regex DatePatternYyyyMmDdHhMmRegEx = new(@"(?:(?:(?:(?:(?:[13579][26]|[2468][048])00)|(?:\d{2}(?:(?:[13579][26])|(?:[2468][048]|0[48]))))(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:0[1-9]|1\d|2\d))))|(?:\d{4}(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:[01]\d|2[0-8])))))(?:0\d|1\d|2[0-3])(?:[0-5]\d)", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {1 ..}.
     /// </summary>
-    private static readonly Regex Alphanumeric01UnboundRegEx = new (@"[0-9A-Z]+", RegexOptions.None);
+    private static readonly Regex Alphanumeric01UnboundRegEx = new(@"[0-9A-Z]+", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric with plus {1 ..}.
     /// </summary>
-    private static readonly Regex AlphanumericWithPlus01UnboundRegEx = new (@"[0-9A-Z+]+", RegexOptions.None);
+    private static readonly Regex AlphanumericWithPlus01UnboundRegEx = new(@"[0-9A-Z+]+", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Invariants except plus {1 ..}.
     /// </summary>
-    private static readonly Regex InvariantNoPlus01UnboundPlusRegEx = new (@"[-!""%&'()*,./0-9:;<=>?A-Z_a-z]+", RegexOptions.None);
+    private static readonly Regex InvariantNoPlus01UnboundPlusRegEx = new(@"[-!""%&'()*,./0-9:;<=>?A-Z_a-z]+", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Numeric with plus {1 ..}.
     /// </summary>
-    private static readonly Regex NumericPlus01UnboundRegEx = new (@"[0-9+]+", RegexOptions.None);
+    private static readonly Regex NumericPlus01UnboundRegEx = new(@"[0-9+]+", RegexOptions.None);
 
     /// <summary>
     ///   Returns a regular expression for character strings of variable length
     ///   representing latitude, longitude and attitude.
     /// </summary>
-    private static readonly Regex LatitudeLongitudeAttitudeRegEx = new (@"-?\d{1,2}(.\d{1,5})?/-?\d{1,3}(.\d{1,5})?/-?\d{1,4}", RegexOptions.None);
+    private static readonly Regex LatitudeLongitudeAttitudeRegEx = new(@"-?\d{1,2}(.\d{1,5})?/-?\d{1,3}(.\d{1,5})?/-?\d{1,4}", RegexOptions.None);
 
     /// <summary>
     ///   Returns a regular expression for character strings indicating Yes (Y) and No (N).
     /// </summary>
-    private static readonly Regex YesNoLetterRegEx = new (@"[YN]", RegexOptions.None);
+    private static readonly Regex YesNoLetterRegEx = new(@"[YN]", RegexOptions.None);
 
     /// <summary>
     ///   Returns a regular expression for the '+' character used for HIBC codes.
     /// </summary>
-    private static readonly Regex HibccPlusRegEx = new (@"^\+$", RegexOptions.None);
+    private static readonly Regex HibccPlusRegEx = new(@"^\+$", RegexOptions.None);
 
     /// <summary>
     ///   Returns a regular expression for the '$' character used for ISBT 128 codes.
     /// </summary>
-    private static readonly Regex IccbbaAmpersandRegEx = new (@"^\&$", RegexOptions.None);
+    private static readonly Regex IccbbaAmpersandRegEx = new(@"^\&$", RegexOptions.None);
 
     /// <summary>
     ///   Returns a regular expression for the '=' character used for ISBT 128 codes.
     /// </summary>
-    private static readonly Regex IccbbaEqualRegEx = new (@"^\=$", RegexOptions.None);
+    private static readonly Regex IccbbaEqualRegEx = new(@"^\=$", RegexOptions.None);
 
     /// <summary>
     ///   Returns a regular expression for the GS1 FNC1 character.
     /// </summary>
-    private static readonly Regex Gs1Function1RegEx = new (@"^\x1D$", RegexOptions.None);
+    private static readonly Regex Gs1Function1RegEx = new(@"^\x1D$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for the message header preamble defined by ISO/IEC 15434.
     /// </summary>
-    private static readonly Regex IsoIec15434PreambleRegEx = new (@"^\[\)\>\x1E", RegexOptions.None);
+    private static readonly Regex IsoIec15434PreambleRegEx = new(@"^\[\)\>\x1E", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for the hyphen character used to specify Pharmaceutical Central Numbers (PZNs).
     /// </summary>
-    private static readonly Regex IfaAbdataPznHyphenRegEx = new (@"^\-$", RegexOptions.None);
+    private static readonly Regex IfaAbdataPznHyphenRegEx = new(@"^\-$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for the exclamation mark character used for Eurocode IBLS.
     /// </summary>
-    private static readonly Regex EurocodeIblsExclamationMarkRegEx = new (@"^\!$", RegexOptions.None);
+    private static readonly Regex EurocodeIblsExclamationMarkRegEx = new(@"^\!$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for the Dangerous Cargo IMDG class.
     /// </summary>
-    private static readonly Regex DangerousCargoClassRegEx = new (@"^\d(.\d[A-Z]?)?$", RegexOptions.None);
+    private static readonly Regex DangerousCargoClassRegEx = new(@"^\d(.\d[A-Z]?)?$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for Vessel Registration Numbers.
     /// </summary>
-    private static readonly Regex VesselRegistrationNumberRegEx = new (@"^IMO\d{7}$", RegexOptions.None);
+    private static readonly Regex VesselRegistrationNumberRegEx = new(@"^IMO\d{7}$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for Electronic Seal Numbers.
     /// </summary>
-    private static readonly Regex ElectronicSealNumbersRegEx = new (@"^.{{6}}$", RegexOptions.None);
+    private static readonly Regex ElectronicSealNumbersRegEx = new(@"^.{{6}}$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for Surety Numbers.
     /// </summary>
-    private static readonly Regex SuretyNumberRegEx = new (@"^.{{6}}$", RegexOptions.None);
+    private static readonly Regex SuretyNumberRegEx = new(@"^.{{6}}$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for Foreign Ports of Lading.
     /// </summary>
-    private static readonly Regex ForeignPortOfLadingRegEx = new (@"^.{{6}}$", RegexOptions.None);
+    private static readonly Regex ForeignPortOfLadingRegEx = new(@"^.{{6}}$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for "Format MMYY dates.
     /// </summary>
-    private static readonly Regex FormatMmYyRegEx = new (@"^((0[1-9])|(1[0-2]))\d{2}$", RegexOptions.None);
+    private static readonly Regex FormatMmYyRegEx = new(@"^((0[1-9])|(1[0-2]))\d{2}$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for Event, Date, And Time.
     /// </summary>
-    private static readonly Regex EventDateAndTimeRegEx = new (@"^(?:(?:(?:(?:(?:[13579][26]|[2468][048])00)|(?:\d{2}(?:(?:[13579][26])|(?:[2468][048]|0[48]))))(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:0[1-9]|1\d|2\d))))|(?:\d{4}(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:[01]\d|2[0-8])))))(?:0\d|1\d|2[0-3])(?:[0-5]\d)\d{{1,3}}$", RegexOptions.None);
+    private static readonly Regex EventDateAndTimeRegEx = new(@"^(?:(?:(?:(?:(?:[13579][26]|[2468][048])00)|(?:\d{2}(?:(?:[13579][26])|(?:[2468][048]|0[48]))))(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:0[1-9]|1\d|2\d))))|(?:\d{4}(?:(?:(?:09|04|06|11)(?:0[1-9]|1\d|2\d|30))|(?:(?:01|03|05|07|08|10|12)(?:0[1-9]|1\d|2\d|3[01]))|(?:02(?:[01]\d|2[0-8])))))(?:0\d|1\d|2[0-3])(?:[0-5]\d)\d{{1,3}}$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for Format YYYYWW.
     /// </summary>
-    private static readonly Regex FormatYyyyWwRegEx = new (@"^([1-2]\d)(\d\d)(0[1-9]|[1-4]\d|5[0-3])$", RegexOptions.None);
+    private static readonly Regex FormatYyyyWwRegEx = new(@"^([1-2]\d)(\d\d)(0[1-9]|[1-4]\d|5[0-3])$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for the oldest and newest manufacturing date in the format YYWWYYWW.
     /// </summary>
-    private static readonly Regex OldestAndNewestManufacturingDateRegEx = new (@"^\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))$", RegexOptions.None);
+    private static readonly Regex OldestAndNewestManufacturingDateRegEx = new(@"^\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))\d{2}((0[1-9])|([1-4]\d)|(5[0-3]))$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for the harvest date range.
     /// </summary>
-    private static readonly Regex HarvestDateRangeRegEx = new (@"^(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)$", RegexOptions.None);
+    private static readonly Regex HarvestDateRangeRegEx = new(@"^(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)(\d{4}[-/]?((0[13-9]|1[012])[-/]?(0[1-9]|[12]\d|30)|(0[13578]|1[02])[-/]?31|02[-/]?(0[1-9]|1\d|2[0-8]))|(\d{2}(([2468][048]|[02468][48])|[13579][26])|([13579][26]|[02468][048]|0\d|1[0-6])00)[-/]?02[-/]?29)$", RegexOptions.None);
 
     /// <summary>
     ///    Returns a regular expression for a Uniform Resource Locator (URL).
     /// </summary>
-    private static readonly Regex UniformResourceLocatorRegEx = new (@"^(?:(?:http|https|ftp|telnet|gopher|ms\-help|file|notes)://)?(?:(?:[a-z][\w~%!&amp;',;=\-\.$\(\)\*\+]*):.*@)?(?:(?:[a-z0-9][\w\-]*[a-z0-9]*\.)*(?:(?:(?:(?:[a-z0-9][\w\-]*[a-z0-9]*)(?:\.[a-z0-9]+)?)|(?:(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)))(?::[0-9]+)?))?(?:(?:(?:/(?:[\w`~!$=;\-\+\.\^\(\)\|\{\}\[\]]|(?:%\d\d))+)*/(?:[\w`~!$=;\-\+\.\^\(\)\|\{\}\[\]]|(?:%\d\d))*)(?:\?[^#]+)?(?:#[a-z0-9]\w*)?)?$", RegexOptions.None);
+    private static readonly Regex UniformResourceLocatorRegEx = new(@"^(?:(?:http|https|ftp|telnet|gopher|ms\-help|file|notes)://)?(?:(?:[a-z][\w~%!&amp;',;=\-\.$\(\)\*\+]*):.*@)?(?:(?:[a-z0-9][\w\-]*[a-z0-9]*\.)*(?:(?:(?:(?:[a-z0-9][\w\-]*[a-z0-9]*)(?:\.[a-z0-9]+)?)|(?:(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)))(?::[0-9]+)?))?(?:(?:(?:/(?:[\w`~!$=;\-\+\.\^\(\)\|\{\}\[\]]|(?:%\d\d))+)*/(?:[\w`~!$=;\-\+\.\^\(\)\|\{\}\[\]]|(?:%\d\d))*)(?:\?[^#]+)?(?:#[a-z0-9]\w*)?)?$", RegexOptions.None);
 
     /// <summary>
     ///   Returns a regular expression for alphanumeric character strings of variable length for CAGE Code and Serial number.
     /// </summary>
-    private static readonly Regex AlphanumericCageSnRegEx = new (@"[0-9A-Z-/]{6,25}", RegexOptions.None);
+    private static readonly Regex AlphanumericCageSnRegEx = new(@"[0-9A-Z-/]{6,25}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {2}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx2 = new (@"[0-9A-Z]{2}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx2 = new(@"[0-9A-Z]{2}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {3}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx3 = new (@"[0-9A-Z]{3}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx3 = new(@"[0-9A-Z]{3}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {4}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx4 = new (@"[0-9A-Z]{4}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx4 = new(@"[0-9A-Z]{4}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {5}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx5 = new (@"[0-9A-Z]{5}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx5 = new(@"[0-9A-Z]{5}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {6}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx6 = new (@"[0-9A-Z]{6}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx6 = new(@"[0-9A-Z]{6}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {10}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx10 = new (@"[0-9A-Z]{10}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx10 = new(@"[0-9A-Z]{10}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {12}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx12 = new (@"[0-9A-Z]{12}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx12 = new(@"[0-9A-Z]{12}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {18}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx18 = new (@"[0-9A-Z]{18}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx18 = new(@"[0-9A-Z]{18}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {1, 3}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0103 = new (@"[0-9A-Z]{1,3}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0103 = new(@"[0-9A-Z]{1,3}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {1, 9}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0109 = new (@"[0-9A-Z]{1,9}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0109 = new(@"[0-9A-Z]{1,9}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {1, 10}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0110 = new (@"[0-9A-Z]{1,10}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0110 = new(@"[0-9A-Z]{1,10}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {1, 20}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0120 = new (@"[0-9A-Z]{1,20}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0120 = new(@"[0-9A-Z]{1,20}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {1, 35}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0135 = new (@"[0-9A-Z]{1,35}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0135 = new(@"[0-9A-Z]{1,35}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {1, 50}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0150 = new ("[0-9A-Z]{1,50}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0150 = new("[0-9A-Z]{1,50}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {1, 100}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx01100 = new (@"[0-9A-Z]{1,100}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx01100 = new(@"[0-9A-Z]{1,100}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {2, 30}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0230 = new (@"[0-9A-Z]{2,30}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0230 = new(@"[0-9A-Z]{2,30}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {2, 35}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0235 = new (@"[0-9A-Z]{2,35}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0235 = new(@"[0-9A-Z]{2,35}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {3, 9}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0309 = new (@"[0-9A-Z]{3,9}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0309 = new(@"[0-9A-Z]{3,9}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {3, 22}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0322 = new (@"[0-9A-Z]{3,22}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0322 = new(@"[0-9A-Z]{3,22}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {3, 35}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0335 = new (@"[0-9A-Z]{3,35}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0335 = new(@"[0-9A-Z]{3,35}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {4, 11}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0411 = new (@"[0-9A-Z]{4,11}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0411 = new(@"[0-9A-Z]{4,11}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {4, 25}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0425 = new (@"[0-9A-Z]{4,25}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0425 = new(@"[0-9A-Z]{4,25}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {5, 29}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0529 = new (@"[0-9A-Z]{5,29}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0529 = new(@"[0-9A-Z]{5,29}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {5, 16}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0516 = new (@"[0-9A-Z]{5,16}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0516 = new(@"[0-9A-Z]{5,16}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {5, 22}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0522 = new (@"[0-9A-Z]{5,22}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0522 = new(@"[0-9A-Z]{5,22}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {6, 35}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx0635 = new (@"[0-9A-Z]{6,35}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx0635 = new(@"[0-9A-Z]{6,35}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {10, 12}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx1012 = new (@"[0-9A-Z]{10,12}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx1012 = new(@"[0-9A-Z]{10,12}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {10, 15}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx1015 = new (@"[0-9A-Z]{10,15}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx1015 = new(@"[0-9A-Z]{10,15}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {13, 15}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx1315 = new (@"[0-9A-Z]{13,15}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx1315 = new(@"[0-9A-Z]{13,15}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {16, 26}.
     /// </summary>
-    private static readonly Regex AlphanumericRegEx1626 = new (@"[0-9A-Z]{16,26}", RegexOptions.None);
+    private static readonly Regex AlphanumericRegEx1626 = new(@"[0-9A-Z]{16,26}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {4} . Alphanumeric {1, 10}.
     /// </summary>
-    private static readonly Regex Alphanumeric04Alphanumeric0110RegEx = new (@"[0-9A-Z]{4}.[0-9A-Z]{1,10}", RegexOptions.None);
+    private static readonly Regex Alphanumeric04Alphanumeric0110RegEx = new(@"[0-9A-Z]{4}.[0-9A-Z]{1,10}", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {1, 32} Alphanumeric {3} with leading dashes.
     /// </summary>
-    private static readonly Regex Alphanumeric0132Alphanumeric03WithDashesRegEx = new (@"[0-9A-Z]{1,32}([0-9A-Z]{3}|-[0-9A-Z]{2}|--[0-9A-Z]{1}|---)", RegexOptions.None);
+    private static readonly Regex Alphanumeric0132Alphanumeric03WithDashesRegEx = new(@"[0-9A-Z]{1,32}([0-9A-Z]{3}|-[0-9A-Z]{2}|--[0-9A-Z]{1}|---)", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {11} Numeric {2}.
     /// </summary>
-    private static readonly Regex Alphanumeric11Numeric02 = new (@"[0-9A-Z]{11}\d{2}$", RegexOptions.None);
+    private static readonly Regex Alphanumeric11Numeric02 = new(@"[0-9A-Z]{11}\d{2}$", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Numeric {2} Alphanumeric and dash {1, 6} Numeric and dot {5} Alphanumeric {2}.
     /// </summary>
-    private static readonly Regex Numeric02AlphanumericDash0106NumericDot05Alphanumeric02RegEx = new (@"\d{2}[A-Z0-9-]{1,6}[0-9.]{5}[0-9A-Z]{2}$", RegexOptions.None);
+    private static readonly Regex Numeric02AlphanumericDash0106NumericDot05Alphanumeric02RegEx = new(@"\d{2}[A-Z0-9-]{1,6}[0-9.]{5}[0-9A-Z]{2}$", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alphanumeric {3, 35} + Alpha {1, 3}.
     /// </summary>
-    private static readonly Regex Alphanumeric0335Alpha0103RegEx = new (@"[0-9A-Z]{3,35}\+[A-Z]{1,3}$", RegexOptions.None);
+    private static readonly Regex Alphanumeric0335Alpha0103RegEx = new(@"[0-9A-Z]{3,35}\+[A-Z]{1,3}$", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alpha {2} Alphanumeric {3, 27}.
     /// </summary>
-    private static readonly Regex Alpha02Alphanumeric0327RegEx = new (@"[A-Z]{2}[0-9A-Z]{3,27}$", RegexOptions.None);
+    private static readonly Regex Alpha02Alphanumeric0327RegEx = new(@"[A-Z]{2}[0-9A-Z]{3,27}$", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alpha {3} Numeric {14} Alphanumeric {1, 33}.
     /// </summary>
-    private static readonly Regex Alpha03Numeric14Alphanumeric0133RegEx = new (@"[A-Z]{3}\d{14}[0-9A-Za-z*+-./()!]{1,33}$", RegexOptions.None);
+    private static readonly Regex Alpha03Numeric14Alphanumeric0133RegEx = new(@"[A-Z]{3}\d{14}[0-9A-Za-z*+-./()!]{1,33}$", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alpha {1} Numeric {4} Alphanumeric {5, 20}.
     /// </summary>
-    private static readonly Regex Alpha01Numeric04Alphanumeric0520RegEx = new (@"[A-Z]{1}\d{4}[0-9A-Z]{5,20}$", RegexOptions.None);
+    private static readonly Regex Alpha01Numeric04Alphanumeric0520RegEx = new(@"[A-Z]{1}\d{4}[0-9A-Z]{5,20}$", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Numeric {1, 8} Alphanumeric {2}.
     /// </summary>
-    private static readonly Regex Numeric0108Alphanumeric02RegEx = new (@"\d{1,8}[0-9A-Z]{2}$", RegexOptions.None);
+    private static readonly Regex Numeric0108Alphanumeric02RegEx = new(@"\d{1,8}[0-9A-Z]{2}$", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Numeric {1, 10} Alphanumeric {3}.
     /// </summary>
-    private static readonly Regex Numeric0110Alphanumeric03RegEx = new (@"\d{1,10}[0-9A-Z]{3}$", RegexOptions.None);
+    private static readonly Regex Numeric0110Alphanumeric03RegEx = new(@"\d{1,10}[0-9A-Z]{3}$", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Numeric {2} Alphanumeric {3, 42}.
     /// </summary>
-    private static readonly Regex Numeric02Alphanumeric0342RegEx = new (@"\d{2}[0-9A-Z]{3,42}$", RegexOptions.None);
+    private static readonly Regex Numeric02Alphanumeric0342RegEx = new(@"\d{2}[0-9A-Z]{3,42}$", RegexOptions.None);
 
     /// <summary>
     /// Regular Expression: Alpha {2} Alphanumeric {3, 18}.
     /// </summary>
-    private static readonly Regex Alpha02Alphanumeric0318RegEx = new (@"[A-Z]{2}[0-9A-Z]{3,18}$", RegexOptions.None);
+    private static readonly Regex Alpha02Alphanumeric0318RegEx = new(@"[A-Z]{2}[0-9A-Z]{3,18}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Alphanumeric with space {1, 60}.
     /// </summary>
-    private static readonly Regex AlphanumericSpace0160RegEx = new (@"[0-9A-Z ]{1,60}$", RegexOptions.None);
+    private static readonly Regex AlphanumericSpace0160RegEx = new(@"[0-9A-Z ]{1,60}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Alphanumeric with plus {1, 50}.
     /// </summary>
-    private static readonly Regex AlphanumericPlus0150RegEx = new (@"[0-9A-Z ]{1,50}$", RegexOptions.None);
+    private static readonly Regex AlphanumericPlus0150RegEx = new(@"[0-9A-Z ]{1,50}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Alphanumeric with plus {20, 50}.
     /// </summary>
-    private static readonly Regex AlphanumericPlus2050RegEx = new (@"[0-9A-Z+]{20,50}$", RegexOptions.None);
+    private static readonly Regex AlphanumericPlus2050RegEx = new(@"[0-9A-Z+]{20,50}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Alphanumeric with plus {1, 60}.
     /// </summary>
-    private static readonly Regex AlphanumericPlus0160RegEx = new (@"[0-9A-Z ]{1,60}$", RegexOptions.None);
+    private static readonly Regex AlphanumericPlus0160RegEx = new(@"[0-9A-Z ]{1,60}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Alpha {4} Numeric {7}.
     /// </summary>
-    private static readonly Regex Alpha04Numeric07RegEx = new (@"[A-Z]{4}\d{7}$", RegexOptions.None);
+    private static readonly Regex Alpha04Numeric07RegEx = new(@"[A-Z]{4}\d{7}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Alpha {4} Numeric {1, 3}.
     /// </summary>
-    private static readonly Regex Alpha04Numeric0103RegEx = new (@"[A-Z]{4}\d{1,3}$", RegexOptions.None);
+    private static readonly Regex Alpha04Numeric0103RegEx = new(@"[A-Z]{4}\d{1,3}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Alpha {3} Numeric {3}.
     /// </summary>
-    private static readonly Regex Alpha03Numeric03RegEx = new (@"[A-Z]{3}\d{3}$", RegexOptions.None);
+    private static readonly Regex Alpha03Numeric03RegEx = new(@"[A-Z]{3}\d{3}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Alpha {2}.
     /// </summary>
-    private static readonly Regex Alpha02RegEx = new (@"[A-Z]{2}$", RegexOptions.None);
+    private static readonly Regex Alpha02RegEx = new(@"[A-Z]{2}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Invariant {2, 12}.
     /// </summary>
-    private static readonly Regex Invariant0212RegEx = new (@"[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{2,12}$", RegexOptions.None);
+    private static readonly Regex Invariant0212RegEx = new(@"[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{2,12}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Alpha {2} Invariant {3, 27}.
     /// </summary>
-    private static readonly Regex Alpha02Invariant0327RegEx = new (@"[A-Z]{2}[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{3,27}$", RegexOptions.None);
+    private static readonly Regex Alpha02Invariant0327RegEx = new(@"[A-Z]{2}[-!""%&'()*+,./0-9:;<=>?A-Z_a-z]{3,27}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {1}.
     /// </summary>
-    private static readonly Regex Numeric01RegEx = new (@"\d{1}$", RegexOptions.None);
+    private static readonly Regex Numeric01RegEx = new(@"\d{1}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {5}.
     /// </summary>
-    private static readonly Regex Numeric05RegEx = new (@"\d{5}$", RegexOptions.None);
+    private static readonly Regex Numeric05RegEx = new(@"\d{5}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {9}.
     /// </summary>
-    private static readonly Regex Numeric09RegEx = new (@"\d{9}$", RegexOptions.None);
+    private static readonly Regex Numeric09RegEx = new(@"\d{9}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {14}.
     /// </summary>
-    private static readonly Regex Numeric14RegEx = new (@"\d{14}$", RegexOptions.None);
+    private static readonly Regex Numeric14RegEx = new(@"\d{14}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {18}.
     /// </summary>
-    private static readonly Regex Numeric18RegEx = new (@"\d{18}$", RegexOptions.None);
+    private static readonly Regex Numeric18RegEx = new(@"\d{18}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {1, 2}.
     /// </summary>
-    private static readonly Regex Numeric0102RegEx = new (@"\d{1,2}$", RegexOptions.None);
+    private static readonly Regex Numeric0102RegEx = new(@"\d{1,2}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {4, 6}.
     /// </summary>
-    private static readonly Regex Numeric0406RegEx = new (@"\d{4,6}$", RegexOptions.None);
+    private static readonly Regex Numeric0406RegEx = new(@"\d{4,6}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {6, 26}.
     /// </summary>
-    private static readonly Regex Numeric0626RegEx = new (@"\d{6,26}$", RegexOptions.None);
+    private static readonly Regex Numeric0626RegEx = new(@"\d{6,26}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {7, 12}.
     /// </summary>
-    private static readonly Regex Numeric0712RegEx = new (@"\d{7,12}$", RegexOptions.None);
+    private static readonly Regex Numeric0712RegEx = new(@"\d{7,12}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {9, 13}.
     /// </summary>
-    private static readonly Regex Numeric0913RegEx = new (@"\d{9,13}$", RegexOptions.None);
+    private static readonly Regex Numeric0913RegEx = new(@"\d{9,13}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {10, 12}.
     /// </summary>
-    private static readonly Regex Numeric1012RegEx = new (@"\d{10,12}$", RegexOptions.None);
+    private static readonly Regex Numeric1012RegEx = new(@"\d{10,12}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {13, 14}.
     /// </summary>
-    private static readonly Regex Numeric1314RegEx = new (@"\d{13,14}$", RegexOptions.None);
+    private static readonly Regex Numeric1314RegEx = new(@"\d{13,14}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric {14, 26}.
     /// </summary>
-    private static readonly Regex Numeric1426RegEx = new (@"\d{14,26}$", RegexOptions.None);
+    private static readonly Regex Numeric1426RegEx = new(@"\d{14,26}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric with dot {01, 10}.
     /// </summary>
-    private static readonly Regex NumericDot0110RegEx = new (@"[0-9.]{1,10}$", RegexOptions.None);
+    private static readonly Regex NumericDot0110RegEx = new(@"[0-9.]{1,10}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric with dot {01, 20}.
     /// </summary>
-    private static readonly Regex NumericDot0120RegEx = new (@"[0-9.]{1,20}$", RegexOptions.None);
+    private static readonly Regex NumericDot0120RegEx = new(@"[0-9.]{1,20}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric with dot {01, 05}.
     /// </summary>
-    private static readonly Regex NumericDot0105RegEx = new (@"[0-9.]{1,5}$", RegexOptions.None);
+    private static readonly Regex NumericDot0105RegEx = new(@"[0-9.]{1,5}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Numeric with dot {01, 06}.
     /// </summary>
-    private static readonly Regex NumericDot0106RegEx = new (@"[0-9.]{1,6}$", RegexOptions.None);
+    private static readonly Regex NumericDot0106RegEx = new(@"[0-9.]{1,6}$", RegexOptions.None);
 
     /// <summary>
     ///  Regular Expression: Minus with Numeric {01, 04}.
     ///   sign.
     /// </summary>
-    private static readonly Regex MinusNumeric0104RegEx = new (@"-?\d{1,4}$", RegexOptions.None);
+    private static readonly Regex MinusNumeric0104RegEx = new(@"-?\d{1,4}$", RegexOptions.None);
 #endif
 
     /// <summary>

@@ -44,7 +44,7 @@ public static class Parser {
     ///   Code generator for regular expression that captures a data identifier (0..3 digits followed by a letter).
     /// </summary>
     /// <returns>A regular expression.</returns>
-    private static readonly Regex MatchDataIdentifierRegex = new (@"^\d{0,3}[a-zA-Z]", RegexOptions.IgnoreCase);
+    private static readonly Regex MatchDataIdentifierRegex = new(@"^\d{0,3}[a-zA-Z]", RegexOptions.IgnoreCase);
 #endif
 
     /// <summary>
