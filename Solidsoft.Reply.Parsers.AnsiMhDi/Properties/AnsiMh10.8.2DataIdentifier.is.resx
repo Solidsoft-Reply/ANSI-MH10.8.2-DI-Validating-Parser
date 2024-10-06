@@ -823,7 +823,7 @@
     <value>Lotukennari sem samanstendur af annaðhvort:\n - gagnakennara 26S póstmeðferðarbúnaðarkenni, eða\n - gagnakennara 20K leyfiskenni, eða\n - gagnakennara 18V aðila að viðskiptum kenni sem:\n - er frábrugðið öðrum ISO/IEC 15459 samrýmanlegu kenni innan sviðs útgáfustofnunarinnar;\n - getur ekki komið frá öðru aðila að viðskiptum kenni eða öðru ISO/IEC 15459 samrýmanlegu kenni, gefið út undir sömu útgáfustofnun, með einfaldri viðbót stafa við, eða þeirra fjarlægingu frá, því enda;\n með gagnakennara 27T lotunúmeri, þau tvenn aðskilin með bandstriki (-) tákni.</value>
   </data>
   <data name="di20027" xml:space="preserve">
-    <value>Lotunúmer, gefið út undir stjórn þekkts aðila eða einingar vinnslubúnaðar, eða samkvæmt ákvæðum þekkts leyfis, sem:\n - auðkennir sérstaklega eina lotu af tengdum atriðum frá öllum öðrum lotum sem lotunúmer er úthlutað af viðkomandi aðila eða búnaði, eða undir leyfinu;\n - samanstendur af röð hámarkslengd 10 stafa, þar sem fyrsti (tölulegi) stafur tilkynnir fjölda eftirfarandi stafa, hvert tekið úr settinu {A-Z; 0-9}.</value>
+    <value>Lotunúmer, gefið út undir stjórn tiltekins aðila eða vinnslutækja, eða samkvæmt ákvæðum tiltekins leyfis, sem:\n - greinir á einstakan hátt eina lotu skyldra atriða frá öllum öðrum lotum sem lotunúmer er úthlutað af aðilanum eða tækinu, eða samkvæmt leyfinu;\n - samanstendur af streng með hámarkslengd 10 stafa, þar sem fyrsti (tölustafur) stafurinn gefur til kynna fjölda eftirfarandi stafa, þar sem hver er valinn úr mengi {0-9; A-Z}.</value>
   </data>
   <data name="di2003" xml:space="preserve">
     <value>Flutningstækjaauðkenni úthlutað af framleiðanda í samræmi við alþjóðlega staðla International Organisation for Standardization (ISO).</value>
