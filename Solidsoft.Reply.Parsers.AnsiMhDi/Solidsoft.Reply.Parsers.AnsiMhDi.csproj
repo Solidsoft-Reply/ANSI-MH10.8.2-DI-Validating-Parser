@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<TargetFrameworks>net8.0;net7.0;net6.0;netstandard2.0</TargetFrameworks>
+	<TargetFrameworks>net7.0;net6.0;netstandard2.0</TargetFrameworks>
 	<LangVersion>12.0</LangVersion>
 	<ImplicitUsings>enable</ImplicitUsings>
 	<Nullable>enable</Nullable>
@@ -17,8 +17,9 @@
 	<PackageTags>ansi;mh10.8.2;di;parser;barcode;datamatrix;qr;code-128</PackageTags>
 	<RepositoryUrl>https://github.com/Solidsoft-Reply/Solidsoft.Reply.Parsers.AnsiMhDi</RepositoryUrl>
 	<PackageReleaseNotes>
-		1) Includes translations for all entity descriptions.
-		2) Provides language support for all EU official languages and Norwegian and Icelandic.
+		The following changes were made in this release.
+
+		1) Fixed issue with versions prior to .NET 6.0.
 	</PackageReleaseNotes>
 	<Description>
 		A comprehensive validating parser for ANSI MH10.8.2 Data Identifiers (DIs).
@@ -27,7 +28,7 @@
 		--------------
 		$(PackageReleaseNotes)
 	</Description>
-	<Version>1.0.4</Version>
+	<Version>1.0.5</Version>
 	<NeutralLanguage>en</NeutralLanguage>
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>

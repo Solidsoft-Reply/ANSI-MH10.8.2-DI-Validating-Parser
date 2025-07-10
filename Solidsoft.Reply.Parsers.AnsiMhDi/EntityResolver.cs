@@ -6386,7 +6386,7 @@ public static class EntityResolver {
 #if NET6_0_OR_GREATER
                 var lastChar = dataIdentifier?[^1..]?.ToInvariantUpper();
 #else
-                var lastChar = dataIdentifier?.Substring(dataIdentifier.Length - 2).ToInvariantUpper();
+                var lastChar = dataIdentifier?.Substring(dataIdentifier.Length - 1, 1).ToInvariantUpper();
 #endif
 
                 var ascii = lastChar?[0] - 64;
