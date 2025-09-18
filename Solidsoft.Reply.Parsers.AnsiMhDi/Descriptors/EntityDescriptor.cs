@@ -81,11 +81,8 @@ public class EntityDescriptor(string? dataTitle, string? description, Func<Regex
     /// <param name="value">The data to be validated.</param>
     /// <param name="validationErrors">A list of validation errors.</param>
     /// <returns>True, if valid. Otherwise, false.</returns>
-    public virtual bool IsValid(string? value, out IList<ParserException> validationErrors) {
-#pragma warning disable IDE0028 // Simplify collection initialization
-        validationErrors = new List<ParserException>();
-#pragma warning restore IDE0028 // Simplify collection initialization
-
+    public virtual bool IsValid(string? value, out IList<ParserException>? validationErrors) {
+        validationErrors = null;
         var result = Pattern.IsMatch(value ?? string.Empty);
 
         if (result) {
@@ -93,6 +90,8 @@ public class EntityDescriptor(string? dataTitle, string? description, Func<Regex
         }
 
         var valueString = (value ?? string.Empty).Length > 0 ? " " + value : string.Empty;
+        validationErrors = [];
+
         validationErrors.Add(
             new ParserException(
                 3100,

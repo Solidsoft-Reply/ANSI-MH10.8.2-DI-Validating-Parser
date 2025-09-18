@@ -6410,7 +6410,7 @@ public static class EntityResolver {
                         break;
                     }
 
-                    descriptorKey = (ascii ?? 0) * 1000 + entityValue;
+                    descriptorKey = ((ascii ?? 0) * 1000) + entityValue;
                 }
                 else {
                     descriptorKey = (ascii ?? 0) * 1000;
@@ -7262,6 +7262,10 @@ public static class EntityResolver {
                             false),
                         resolvedEntity.CharacterPosition,
                         resolvedEntity);
+
+            if (validationErrors is null || validationErrors.Count == 0) {
+                return identifier;
+            }
 
             // Add additional resolver exceptions to the collection
             foreach (var parserException in validationErrors) {
