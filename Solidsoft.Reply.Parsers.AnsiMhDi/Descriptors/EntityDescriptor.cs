@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="EntityDescriptor.cs" company="Solidsoft Reply Ltd">
+// <copyright file="EntityDescriptors.cs" company="Solidsoft Reply Ltd">
 // Copyright (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@ using Common;
 ///   A descriptor for an ASC MH10.8.2 entity.
 /// </summary>
 /// <remarks>
-///   Initializes a new instance of the <see cref="EntityDescriptor" /> class.
+///   Initializes a new instance of the <see cref="EntityDescriptors" /> class.
 /// </remarks>
 /// <param name="dataTitle">
 ///   The data title.
@@ -44,7 +44,7 @@ using Common;
 ///   The pattern.
 /// </param>
 // ReSharper disable once ClassWithVirtualMembersNeverInherited.Global
-public class EntityDescriptor(string? dataTitle, string? description, Func<Regex> pattern) {
+public class EntityDescriptors(string? dataTitle, string? description, Func<Regex> pattern) {
     /// <summary>
     ///   The regular expression pattern of the entity.
     /// </summary>

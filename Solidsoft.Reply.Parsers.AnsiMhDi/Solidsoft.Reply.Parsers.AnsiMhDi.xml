@@ -2585,24 +2585,24 @@
               The line 89.
             </summary>
         </member>
-        <member name="T:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptor">
+        <member name="T:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptors">
             <summary>
               A descriptor for an ASC MH10.8.2 entity.
             </summary>
         </member>
-        <member name="F:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptor._pattern">
+        <member name="F:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptors._pattern">
             <summary>
               The regular expression pattern of the entity.
             </summary>
         </member>
-        <member name="F:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptor._validator">
+        <member name="F:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptors._validator">
             <summary>
               The regular expression pattern of the entity.
             </summary>
         </member>
-        <member name="M:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptor.#ctor(System.String,System.String,System.Func{System.Text.RegularExpressions.Regex})">
+        <member name="M:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptors.#ctor(System.String,System.String,System.Func{System.Text.RegularExpressions.Regex})">
             <summary>
-              Initializes a new instance of the <see cref="T:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptor" /> class.
+              Initializes a new instance of the <see cref="T:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptors" /> class.
             </summary>
             <param name="dataTitle">
               The data title.
@@ -2614,22 +2614,22 @@
               The pattern.
             </param>
         </member>
-        <member name="P:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptor.DataTitle">
+        <member name="P:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptors.DataTitle">
             <summary>
               Gets the data title of the entity.
             </summary>
         </member>
-        <member name="P:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptor.Description">
+        <member name="P:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptors.Description">
             <summary>
               Gets the description of the entity.
             </summary>
         </member>
-        <member name="P:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptor.Pattern">
+        <member name="P:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptors.Pattern">
             <summary>
               Gets the compiled regular expression object for validating the entity.
             </summary>
         </member>
-        <member name="M:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptor.IsValid(System.String,System.Collections.Generic.IList{Solidsoft.Reply.Parsers.Common.ParserException}@)">
+        <member name="M:Solidsoft.Reply.Parsers.AnsiMhDi.Descriptors.EntityDescriptors.IsValid(System.String,System.Collections.Generic.IList{Solidsoft.Reply.Parsers.Common.ParserException}@)">
             <summary>
               Validate data against the descriptor.
             </summary>

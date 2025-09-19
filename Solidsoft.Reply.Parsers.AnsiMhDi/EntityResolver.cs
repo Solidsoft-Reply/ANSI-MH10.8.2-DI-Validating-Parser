@@ -576,11 +576,11 @@ public static class EntityResolver {
     /// <summary>
     ///   A dictionary of data identifier descriptors.
     /// </summary>
-    private static readonly IDictionary<int, EntityDescriptor> Descriptors =
-        new Dictionary<int, EntityDescriptor>
+    private static readonly IDictionary<int, EntityDescriptors> Descriptors =
+        new Dictionary<int, EntityDescriptors>
         {
             {
-                0, new EntityDescriptor(
+                0, new EntityDescriptors(
                     "PLUS",
                     AnsiMh10_8_2DataIdentifier.di0,
 #if NET7_0_OR_GREATER
@@ -592,7 +592,7 @@ public static class EntityResolver {
                     )
             },
             {
-                2, new EntityDescriptor(
+                2, new EntityDescriptors(
                     "AMPERSAND",
                     AnsiMh10_8_2DataIdentifier.di2,
 #if NET7_0_OR_GREATER
@@ -603,7 +603,7 @@ public static class EntityResolver {
                 )
             },
             {
-                3, new EntityDescriptor(
+                3, new EntityDescriptors(
                     "EQUAL",
                     AnsiMh10_8_2DataIdentifier.di3,
 #if NET7_0_OR_GREATER
@@ -614,7 +614,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4, new EntityDescriptor(
+                4, new EntityDescriptors(
                     "FUNC1",
                     AnsiMh10_8_2DataIdentifier.di4,
 #if NET7_0_OR_GREATER
@@ -626,7 +626,7 @@ public static class EntityResolver {
             },
             {
                 5,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ISOIEC15434PREAMBLE",
                     AnsiMh10_8_2DataIdentifier.di5,
 #if NET7_0_OR_GREATER
@@ -637,7 +637,7 @@ public static class EntityResolver {
                 )
             },
             {
-                6, new EntityDescriptor(
+                6, new EntityDescriptors(
                     "HYPHEN",
                     AnsiMh10_8_2DataIdentifier.di6,
 #if NET7_0_OR_GREATER
@@ -648,7 +648,7 @@ public static class EntityResolver {
                 )
             },
             {
-                7, new EntityDescriptor(
+                7, new EntityDescriptors(
                     "EXCLAMATIONMARK",
                     AnsiMh10_8_2DataIdentifier.di7,
 #if NET7_0_OR_GREATER
@@ -660,7 +660,7 @@ public static class EntityResolver {
             },
             {
                 2000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTAINER TYPE",
                     AnsiMh10_8_2DataIdentifier.di2000,
 #if NET7_0_OR_GREATER
@@ -671,7 +671,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2001, new EntityDescriptor(
+                2001, new EntityDescriptors(
                     "RETURNABLE CONTAINER",
                     AnsiMh10_8_2DataIdentifier.di2001,
 #if NET7_0_OR_GREATER
@@ -683,7 +683,7 @@ public static class EntityResolver {
             },
             {
                 2002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "GAS CYLINDER CONTAINER",
                     AnsiMh10_8_2DataIdentifier.di2002,
 #if NET7_0_OR_GREATER
@@ -695,7 +695,7 @@ public static class EntityResolver {
             },
             {
                 2003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MOTOR FREIGHT TRANSPORT EQUIPMENT",
                     AnsiMh10_8_2DataIdentifier.di2003,
 #if NET7_0_OR_GREATER
@@ -707,7 +707,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2004, new EntityDescriptor(
+                2004, new EntityDescriptors(
                     "SCAC",
                     AnsiMh10_8_2DataIdentifier.di2004,
 #if NET7_0_OR_GREATER
@@ -718,7 +718,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2005, new EntityDescriptor(
+                2005, new EntityDescriptors(
                     "RECEPTACLE ASSET",
                     AnsiMh10_8_2DataIdentifier.di2005,
 #if NET7_0_OR_GREATER
@@ -730,7 +730,7 @@ public static class EntityResolver {
             },
             {
                 2007,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTAINER SERIAL",
                     AnsiMh10_8_2DataIdentifier.di2007,
 #if NET7_0_OR_GREATER
@@ -742,7 +742,7 @@ public static class EntityResolver {
             },
             {
                 2008,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "RETURNABLE CONTAINER OWNER ",
                     AnsiMh10_8_2DataIdentifier.di2008,
 #if NET7_0_OR_GREATER
@@ -754,7 +754,7 @@ public static class EntityResolver {
             },
             {
                 2009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTAINER SIZE ",
                     AnsiMh10_8_2DataIdentifier.di2009,
 #if NET7_0_OR_GREATER
@@ -766,7 +766,7 @@ public static class EntityResolver {
             },
             {
                 2010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTAINER OWNERSHIP",
                     AnsiMh10_8_2DataIdentifier.di2010,
 #if NET7_0_OR_GREATER
@@ -778,7 +778,7 @@ public static class EntityResolver {
             },
             {
                 2011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "VAN ",
                     AnsiMh10_8_2DataIdentifier.di2011,
 #if NET7_0_OR_GREATER
@@ -790,7 +790,7 @@ public static class EntityResolver {
             },
             {
                 2012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "VAN CHECK DIGIT",
                     AnsiMh10_8_2DataIdentifier.di2012,
 #if NET7_0_OR_GREATER
@@ -802,7 +802,7 @@ public static class EntityResolver {
             },
             {
                 2013,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTAINER ",
                     AnsiMh10_8_2DataIdentifier.di2013,
 #if NET7_0_OR_GREATER
@@ -814,7 +814,7 @@ public static class EntityResolver {
             },
             {
                 2014,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TAG STATUS ",
                     AnsiMh10_8_2DataIdentifier.di2014,
 #if NET7_0_OR_GREATER
@@ -825,7 +825,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2015, new EntityDescriptor(
+                2015, new EntityDescriptors(
                     "DANGEROUS CARGO CLASS ",
                     AnsiMh10_8_2DataIdentifier.di2015,
 #if NET7_0_OR_GREATER
@@ -837,7 +837,7 @@ public static class EntityResolver {
             },
             {
                 2016,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DANGEROUS GOODS ",
                     AnsiMh10_8_2DataIdentifier.di2016,
 #if NET7_0_OR_GREATER
@@ -849,7 +849,7 @@ public static class EntityResolver {
             },
             {
                 2017,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TRANSPORTATION SUBJECT ",
                     AnsiMh10_8_2DataIdentifier.di2017,
 #if NET7_0_OR_GREATER
@@ -860,7 +860,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2018, new EntityDescriptor(
+                2018, new EntityDescriptors(
                     "VESSEL REGISTRATION ",
                     AnsiMh10_8_2DataIdentifier.di2018,
 #if NET7_0_OR_GREATER
@@ -872,7 +872,7 @@ public static class EntityResolver {
             },
             {
                 2019,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "VOYAGE",
                     AnsiMh10_8_2DataIdentifier.di2019,
 #if NET7_0_OR_GREATER
@@ -884,7 +884,7 @@ public static class EntityResolver {
             },
             {
                 2020,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "VESSEL COUNTRY ",
                     AnsiMh10_8_2DataIdentifier.di2020,
 #if NET7_0_OR_GREATER
@@ -896,7 +896,7 @@ public static class EntityResolver {
             },
             {
                 2021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ELECTRONIC SEAL",
                     AnsiMh10_8_2DataIdentifier.di2021,
 #if NET7_0_OR_GREATER
@@ -907,7 +907,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2022, new EntityDescriptor(
+                2022, new EntityDescriptors(
                     "ENTRY",
                     AnsiMh10_8_2DataIdentifier.di2022,
 #if NET7_0_OR_GREATER
@@ -918,7 +918,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2023, new EntityDescriptor(
+                2023, new EntityDescriptors(
                     "SURETY ",
                     AnsiMh10_8_2DataIdentifier.di2023,
 #if NET7_0_OR_GREATER
@@ -930,7 +930,7 @@ public static class EntityResolver {
             },
             {
                 2024,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FOREIGN PORT OF LADING ",
                     AnsiMh10_8_2DataIdentifier.di2024,
 #if NET7_0_OR_GREATER
@@ -942,7 +942,7 @@ public static class EntityResolver {
             },
             {
                 2025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PARTY TO TRANSACTION ",
                     AnsiMh10_8_2DataIdentifier.di2025,
 #if NET7_0_OR_GREATER
@@ -953,7 +953,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2026, new EntityDescriptor(
+                2026, new EntityDescriptors(
                     "UNIQUE RETURNABLE TRANSPORT ITEM ",
                     AnsiMh10_8_2DataIdentifier.di2026,
 #if NET7_0_OR_GREATER
@@ -964,7 +964,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2027, new EntityDescriptor(
+                2027, new EntityDescriptors(
                     "LLC RTI ASSET",
                     AnsiMh10_8_2DataIdentifier.di2027,
 #if NET7_0_OR_GREATER
@@ -975,7 +975,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2028, new EntityDescriptor(
+                2028, new EntityDescriptors(
                     "SLC RTI ASSET",
                     AnsiMh10_8_2DataIdentifier.di2028,
 #if NET7_0_OR_GREATER
@@ -986,7 +986,7 @@ public static class EntityResolver {
                 )
             },
             {
-                2029, new EntityDescriptor(
+                2029, new EntityDescriptors(
                     "RPI IDENTIFIER",
                     AnsiMh10_8_2DataIdentifier.di2029,
 #if NET7_0_OR_GREATER
@@ -998,7 +998,7 @@ public static class EntityResolver {
             },
             {
                 2030,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PACKAGING ITEM",
                     AnsiMh10_8_2DataIdentifier.di2030,
 #if NET7_0_OR_GREATER
@@ -1010,7 +1010,7 @@ public static class EntityResolver {
             },
             {
                 2031,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PACKAGING ",
                     AnsiMh10_8_2DataIdentifier.di2031,
 #if NET7_0_OR_GREATER
@@ -1022,7 +1022,7 @@ public static class EntityResolver {
             },
             {
                 2055,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "RPI",
                     AnsiMh10_8_2DataIdentifier.di2055,
 #if NET7_0_OR_GREATER
@@ -1034,7 +1034,7 @@ public static class EntityResolver {
             },
             {
                 3000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER ITEM CODE CONT.",
                     AnsiMh10_8_2DataIdentifier.di3000,
 #if NET7_0_OR_GREATER
@@ -1046,7 +1046,7 @@ public static class EntityResolver {
             },
             {
                 3001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER TRACEABILITY CODE CONT.",
                     AnsiMh10_8_2DataIdentifier.di3001,
 #if NET7_0_OR_GREATER
@@ -1058,7 +1058,7 @@ public static class EntityResolver {
             },
             {
                 3002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER FREE TEXT CONT.",
                     AnsiMh10_8_2DataIdentifier.di3002,
 #if NET7_0_OR_GREATER
@@ -1070,7 +1070,7 @@ public static class EntityResolver {
             },
             {
                 3003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FREE TEXT CONT.",
                     AnsiMh10_8_2DataIdentifier.di3003,
 #if NET7_0_OR_GREATER
@@ -1082,7 +1082,7 @@ public static class EntityResolver {
             },
             {
                 3004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TRANSACTION REFERENCE CONT.",
                     AnsiMh10_8_2DataIdentifier.di3004,
 #if NET7_0_OR_GREATER
@@ -1094,7 +1094,7 @@ public static class EntityResolver {
             },
             {
                 3005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER ITEM CODE CONT.",
                     AnsiMh10_8_2DataIdentifier.di3005,
 #if NET7_0_OR_GREATER
@@ -1105,7 +1105,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4000, new EntityDescriptor(
+                4000, new EntityDescriptors(
                     "DATE",
                     AnsiMh10_8_2DataIdentifier.di4000,
 #if NET7_0_OR_GREATER
@@ -1116,7 +1116,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4001, new EntityDescriptor(
+                4001, new EntityDescriptors(
                     "DATE",
                     AnsiMh10_8_2DataIdentifier.di4001,
 #if NET7_0_OR_GREATER
@@ -1127,7 +1127,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4002, new EntityDescriptor(
+                4002, new EntityDescriptors(
                     "DATE",
                     AnsiMh10_8_2DataIdentifier.di4002,
 #if NET7_0_OR_GREATER
@@ -1138,7 +1138,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4003, new EntityDescriptor(
+                4003, new EntityDescriptors(
                     "DATE",
                     AnsiMh10_8_2DataIdentifier.di4003,
 #if NET7_0_OR_GREATER
@@ -1149,7 +1149,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4004, new EntityDescriptor(
+                4004, new EntityDescriptors(
                     "DATE",
                     AnsiMh10_8_2DataIdentifier.di4004,
 #if NET7_0_OR_GREATER
@@ -1160,7 +1160,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4005, new EntityDescriptor(
+                4005, new EntityDescriptors(
                     "DATE AND TYPE",
                     AnsiMh10_8_2DataIdentifier.di4005,
 #if NET7_0_OR_GREATER
@@ -1171,7 +1171,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4006, new EntityDescriptor(
+                4006, new EntityDescriptors(
                     "DATE AND TYPE",
                     AnsiMh10_8_2DataIdentifier.di4006,
 #if NET7_0_OR_GREATER
@@ -1182,7 +1182,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4007, new EntityDescriptor(
+                4007, new EntityDescriptors(
                     "MONTH",
                     AnsiMh10_8_2DataIdentifier.di4007,
 #if NET7_0_OR_GREATER
@@ -1194,7 +1194,7 @@ public static class EntityResolver {
             },
             {
                 4008,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "EVENT, DATE AND TIME ",
                     AnsiMh10_8_2DataIdentifier.di4008,
 #if NET7_0_OR_GREATER
@@ -1206,7 +1206,7 @@ public static class EntityResolver {
             },
             {
                 4009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DATE",
                     AnsiMh10_8_2DataIdentifier.di4009,
 #if NET7_0_OR_GREATER
@@ -1217,7 +1217,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4010, new EntityDescriptor(
+                4010, new EntityDescriptors(
                     "WEEK",
                     AnsiMh10_8_2DataIdentifier.di4010,
 #if NET7_0_OR_GREATER
@@ -1229,7 +1229,7 @@ public static class EntityResolver {
             },
             {
                 4011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "WEEK",
                     AnsiMh10_8_2DataIdentifier.di4011,
 #if NET7_0_OR_GREATER
@@ -1240,7 +1240,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4012, new EntityDescriptor(
+                4012, new EntityDescriptors(
                     "DATE",
                     AnsiMh10_8_2DataIdentifier.di4012,
 #if NET7_0_OR_GREATER
@@ -1251,7 +1251,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4013, new EntityDescriptor(
+                4013, new EntityDescriptors(
                     "OLDEST AND NEWEST MANUFACTURING DATE",
                     AnsiMh10_8_2DataIdentifier.di4013,
 #if NET7_0_OR_GREATER
@@ -1262,7 +1262,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4014, new EntityDescriptor(
+                4014, new EntityDescriptors(
                     "EXPIRATION DATE",
                     AnsiMh10_8_2DataIdentifier.di4014,
 #if NET7_0_OR_GREATER
@@ -1273,7 +1273,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4015, new EntityDescriptor(
+                4015, new EntityDescriptors(
                     "EXPIRATION DATE",
                     AnsiMh10_8_2DataIdentifier.di4015,
 #if NET7_0_OR_GREATER
@@ -1284,7 +1284,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4016, new EntityDescriptor(
+                4016, new EntityDescriptors(
                     "DATE OF MANUFACTURE ",
                     AnsiMh10_8_2DataIdentifier.di4016,
 #if NET7_0_OR_GREATER
@@ -1295,7 +1295,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4017, new EntityDescriptor(
+                4017, new EntityDescriptors(
                     "PRODUCTION DATE",
                     AnsiMh10_8_2DataIdentifier.di4017,
 #if NET7_0_OR_GREATER
@@ -1307,7 +1307,7 @@ public static class EntityResolver {
             },
             {
                 4018,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TAG ACTIVATION TIME",
                     AnsiMh10_8_2DataIdentifier.di4018,
 #if NET7_0_OR_GREATER
@@ -1319,7 +1319,7 @@ public static class EntityResolver {
             },
             {
                 4019,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TAG DEACTIVATION TIME ",
                     AnsiMh10_8_2DataIdentifier.di4019,
 #if NET7_0_OR_GREATER
@@ -1330,7 +1330,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4020, new EntityDescriptor(
+                4020, new EntityDescriptors(
                     "INSPECTION DATE",
                     AnsiMh10_8_2DataIdentifier.di4020,
 #if NET7_0_OR_GREATER
@@ -1342,7 +1342,7 @@ public static class EntityResolver {
             },
             {
                 4021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DOD MILSTAMP CODE",
                     AnsiMh10_8_2DataIdentifier.di4021,
 #if NET7_0_OR_GREATER
@@ -1354,7 +1354,7 @@ public static class EntityResolver {
             },
             {
                 4022,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "RECORD TIME",
                     AnsiMh10_8_2DataIdentifier.di4022,
 #if NET7_0_OR_GREATER
@@ -1365,7 +1365,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4023, new EntityDescriptor(
+                4023, new EntityDescriptors(
                     "UTC DATE",
                     AnsiMh10_8_2DataIdentifier.di4023,
 #if NET7_0_OR_GREATER
@@ -1377,7 +1377,7 @@ public static class EntityResolver {
             },
             {
                 4024,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "QUALIFIED DATE",
                     AnsiMh10_8_2DataIdentifier.di4024,
 #if NET7_0_OR_GREATER
@@ -1388,7 +1388,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4025, new EntityDescriptor(
+                4025, new EntityDescriptors(
                     "BEST BEFORE DATE",
                     AnsiMh10_8_2DataIdentifier.di4025,
 #if NET7_0_OR_GREATER
@@ -1399,7 +1399,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4026, new EntityDescriptor(
+                4026, new EntityDescriptors(
                     "FIRST FREEZE DATE",
                     AnsiMh10_8_2DataIdentifier.di4026,
 #if NET7_0_OR_GREATER
@@ -1410,7 +1410,7 @@ public static class EntityResolver {
                 )
             },
             {
-                4027, new EntityDescriptor(
+                4027, new EntityDescriptors(
                     "HARVEST DATE",
                     AnsiMh10_8_2DataIdentifier.di4027,
 #if NET7_0_OR_GREATER
@@ -1422,7 +1422,7 @@ public static class EntityResolver {
             },
             {
                 4028,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "HARVEST DATE RANGE",
                     AnsiMh10_8_2DataIdentifier.di4028,
 #if NET7_0_OR_GREATER
@@ -1434,7 +1434,7 @@ public static class EntityResolver {
             },
             {
                 5000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "RESTRICTED SUBSTANCES CLASSIFICATION",
                     AnsiMh10_8_2DataIdentifier.di5000,
 #if NET7_0_OR_GREATER
@@ -1446,7 +1446,7 @@ public static class EntityResolver {
             },
             {
                 5001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "AIR PRESSURE",
                     AnsiMh10_8_2DataIdentifier.di5001,
 #if NET7_0_OR_GREATER
@@ -1458,7 +1458,7 @@ public static class EntityResolver {
             },
             {
                 5002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MAXIMUM ALLOWED TEMPERATURE",
                     AnsiMh10_8_2DataIdentifier.di5002,
 #if NET7_0_OR_GREATER
@@ -1470,7 +1470,7 @@ public static class EntityResolver {
             },
             {
                 5003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MINIMUM ALLOWED TEMPERATURE",
                     AnsiMh10_8_2DataIdentifier.di5003,
 #if NET7_0_OR_GREATER
@@ -1482,7 +1482,7 @@ public static class EntityResolver {
             },
             {
                 5004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MAXIMUM ALLOWED RELATIVE HUMIDITY",
                     AnsiMh10_8_2DataIdentifier.di5004,
 #if NET7_0_OR_GREATER
@@ -1494,7 +1494,7 @@ public static class EntityResolver {
             },
             {
                 5005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MINIMUM ALLOWED RELATIVE HUMIDITY",
                     AnsiMh10_8_2DataIdentifier.di5005,
 #if NET7_0_OR_GREATER
@@ -1506,7 +1506,7 @@ public static class EntityResolver {
             },
             {
                 5006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "REFRIGERATOR CONTAINER TEMPERATURE",
                     AnsiMh10_8_2DataIdentifier.di5006,
 #if NET7_0_OR_GREATER
@@ -1518,7 +1518,7 @@ public static class EntityResolver {
             },
             {
                 5010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUMULATIVE TIME TEMPERATURE INDEX",
                     AnsiMh10_8_2DataIdentifier.di5010,
 #if NET7_0_OR_GREATER
@@ -1530,7 +1530,7 @@ public static class EntityResolver {
             },
             {
                 5011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TIME TEMPERATURE INDEX",
                     AnsiMh10_8_2DataIdentifier.di5011,
 #if NET7_0_OR_GREATER
@@ -1541,7 +1541,7 @@ public static class EntityResolver {
                 )
             },
             {
-                5012, new EntityDescriptor(
+                5012, new EntityDescriptors(
                     "PACKAGING MATERIAL",
                     AnsiMh10_8_2DataIdentifier.di5012,
 #if NET7_0_OR_GREATER
@@ -1553,7 +1553,7 @@ public static class EntityResolver {
             },
             {
                 5013,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MSL",
                     AnsiMh10_8_2DataIdentifier.di5013,
 #if NET7_0_OR_GREATER
@@ -1565,7 +1565,7 @@ public static class EntityResolver {
             },
             {
                 6000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LOOPING HEADER",
                     AnsiMh10_8_2DataIdentifier.di6000,
 #if NET7_0_OR_GREATER
@@ -1577,7 +1577,7 @@ public static class EntityResolver {
             },
             {
                 6001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PARENT",
                     AnsiMh10_8_2DataIdentifier.di6001,
 #if NET7_0_OR_GREATER
@@ -1589,7 +1589,7 @@ public static class EntityResolver {
             },
             {
                 6003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NUMBER OF CHILDREN",
                     AnsiMh10_8_2DataIdentifier.di6003,
 #if NET7_0_OR_GREATER
@@ -1601,7 +1601,7 @@ public static class EntityResolver {
             },
             {
                 6004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LOGICAL ASSIGNMENT",
                     AnsiMh10_8_2DataIdentifier.di6004,
 #if NET7_0_OR_GREATER
@@ -1613,7 +1613,7 @@ public static class EntityResolver {
             },
             {
                 6005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CHILDREN",
                     AnsiMh10_8_2DataIdentifier.di6005,
 #if NET7_0_OR_GREATER
@@ -1624,7 +1624,7 @@ public static class EntityResolver {
                 )
             },
             {
-                8000, new EntityDescriptor(
+                8000, new EntityDescriptors(
                     "NAME",
                     AnsiMh10_8_2DataIdentifier.di8000,
 #if NET7_0_OR_GREATER
@@ -1636,7 +1636,7 @@ public static class EntityResolver {
             },
             {
                 8001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "EMPLOYEE ID",
                     AnsiMh10_8_2DataIdentifier.di8001,
 #if NET7_0_OR_GREATER
@@ -1648,7 +1648,7 @@ public static class EntityResolver {
             },
             {
                 8002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SOCIAL SECURITY NUMBER",
                     AnsiMh10_8_2DataIdentifier.di8002,
 #if NET7_0_OR_GREATER
@@ -1660,7 +1660,7 @@ public static class EntityResolver {
             },
             {
                 8003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NON-EMPLOYEE ID",
                     AnsiMh10_8_2DataIdentifier.di8003,
 #if NET7_0_OR_GREATER
@@ -1672,7 +1672,7 @@ public static class EntityResolver {
             },
             {
                 8004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NATIONAL SOCIAL SECURITY NUMBER",
                     AnsiMh10_8_2DataIdentifier.di8004,
 #if NET7_0_OR_GREATER
@@ -1683,7 +1683,7 @@ public static class EntityResolver {
                 )
             },
             {
-                8005, new EntityDescriptor(
+                8005, new EntityDescriptors(
                     "LAST NAME",
                     AnsiMh10_8_2DataIdentifier.di8005,
 #if NET7_0_OR_GREATER
@@ -1695,7 +1695,7 @@ public static class EntityResolver {
             },
             {
                 8006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PARTY NAME",
                     AnsiMh10_8_2DataIdentifier.di8006,
 #if NET7_0_OR_GREATER
@@ -1706,7 +1706,7 @@ public static class EntityResolver {
                 )
             },
             {
-                8007, new EntityDescriptor(
+                8007, new EntityDescriptors(
                     "CONTACT PHONE",
                     AnsiMh10_8_2DataIdentifier.di8007,
 #if NET7_0_OR_GREATER
@@ -1718,7 +1718,7 @@ public static class EntityResolver {
             },
             {
                 8008,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTACT EMAIL",
                     AnsiMh10_8_2DataIdentifier.di8008,
 #if NET7_0_OR_GREATER
@@ -1729,7 +1729,7 @@ public static class EntityResolver {
                 )
             },
             {
-                8009, new EntityDescriptor(
+                8009, new EntityDescriptors(
                     "CONSIGNEE NUMBER",
                     AnsiMh10_8_2DataIdentifier.di8009,
 #if NET7_0_OR_GREATER
@@ -1741,7 +1741,7 @@ public static class EntityResolver {
             },
             {
                 8010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PERSONAL ID",
                     AnsiMh10_8_2DataIdentifier.di8010,
 #if NET7_0_OR_GREATER
@@ -1753,7 +1753,7 @@ public static class EntityResolver {
             },
             {
                 8011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIRST NAME AND MIDDLE INITIAL",
                     AnsiMh10_8_2DataIdentifier.di8011,
 #if NET7_0_OR_GREATER
@@ -1765,7 +1765,7 @@ public static class EntityResolver {
             },
             {
                 8012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MILITARY GRADE",
                     AnsiMh10_8_2DataIdentifier.di8012,
 #if NET7_0_OR_GREATER
@@ -1776,7 +1776,7 @@ public static class EntityResolver {
                 )
             },
             {
-                8015, new EntityDescriptor(
+                8015, new EntityDescriptors(
                     "NI NUMBER",
                     AnsiMh10_8_2DataIdentifier.di8015,
 #if NET7_0_OR_GREATER
@@ -1788,7 +1788,7 @@ public static class EntityResolver {
             },
             {
                 8025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PERSONAL ID",
                     AnsiMh10_8_2DataIdentifier.di8025,
 #if NET7_0_OR_GREATER
@@ -1800,7 +1800,7 @@ public static class EntityResolver {
             },
             {
                 8026,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PERSONAL ID",
                     AnsiMh10_8_2DataIdentifier.di8026,
 #if NET7_0_OR_GREATER
@@ -1812,7 +1812,7 @@ public static class EntityResolver {
             },
             {
                 9000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "VIN",
                     AnsiMh10_8_2DataIdentifier.di9000,
 #if NET7_0_OR_GREATER
@@ -1824,7 +1824,7 @@ public static class EntityResolver {
             },
             {
                 9002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ABBREVIATED VIN ",
                     AnsiMh10_8_2DataIdentifier.di9002,
 #if NET7_0_OR_GREATER
@@ -1836,7 +1836,7 @@ public static class EntityResolver {
             },
             {
                 9004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TRANSPORT VEHICLE IDENTIFIER ",
                     AnsiMh10_8_2DataIdentifier.di9004,
 #if NET7_0_OR_GREATER
@@ -1847,7 +1847,7 @@ public static class EntityResolver {
                 )
             },
             {
-                9005, new EntityDescriptor(
+                9005, new EntityDescriptors(
                     "PRODUCTION VEHICLE IDENTIFIER ",
                     AnsiMh10_8_2DataIdentifier.di9005,
 #if NET7_0_OR_GREATER
@@ -1859,7 +1859,7 @@ public static class EntityResolver {
             },
             {
                 10000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LICENSE PLATE",
                     AnsiMh10_8_2DataIdentifier.di10000,
 #if NET7_0_OR_GREATER
@@ -1871,7 +1871,7 @@ public static class EntityResolver {
             },
             {
                 10001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "UNBREAKABLE UNIT LICENSE PLATE",
                     AnsiMh10_8_2DataIdentifier.di10001,
 #if NET7_0_OR_GREATER
@@ -1883,7 +1883,7 @@ public static class EntityResolver {
             },
             {
                 10002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TRANSPORT UNIT LICENSE PLATE",
                     AnsiMh10_8_2DataIdentifier.di10002,
 #if NET7_0_OR_GREATER
@@ -1895,7 +1895,7 @@ public static class EntityResolver {
             },
             {
                 10003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "EDI UNBREAKABLE UNIT LICENSE PLATE",
                     AnsiMh10_8_2DataIdentifier.di10003,
 #if NET7_0_OR_GREATER
@@ -1907,7 +1907,7 @@ public static class EntityResolver {
             },
             {
                 10004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "EDI TRANSPORT UNIT LICENSE PLATE",
                     AnsiMh10_8_2DataIdentifier.di10004,
 #if NET7_0_OR_GREATER
@@ -1919,7 +1919,7 @@ public static class EntityResolver {
             },
             {
                 10005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MIXED TRANSPORT UNIT LICENSE PLATE",
                     AnsiMh10_8_2DataIdentifier.di10005,
 #if NET7_0_OR_GREATER
@@ -1931,7 +1931,7 @@ public static class EntityResolver {
             },
             {
                 10006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MASTER TRANSPORT UNIT LICENSE PLATE",
                     AnsiMh10_8_2DataIdentifier.di10006,
 #if NET7_0_OR_GREATER
@@ -1943,7 +1943,7 @@ public static class EntityResolver {
             },
             {
                 10007,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "VEHICLE REGISTRATION LICENSE PLATE NUMBER",
                     AnsiMh10_8_2DataIdentifier.di10007,
 #if NET7_0_OR_GREATER
@@ -1954,7 +1954,7 @@ public static class EntityResolver {
                 )
             },
             {
-                10008, new EntityDescriptor(
+                10008, new EntityDescriptors(
                     "MMSI",
                     AnsiMh10_8_2DataIdentifier.di10008,
 #if NET7_0_OR_GREATER
@@ -1966,7 +1966,7 @@ public static class EntityResolver {
             },
             {
                 11000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER ORDER NUMBER",
                     AnsiMh10_8_2DataIdentifier.di11000,
 #if NET7_0_OR_GREATER
@@ -1978,7 +1978,7 @@ public static class EntityResolver {
             },
             {
                 11001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER ORDER NUMBER",
                     AnsiMh10_8_2DataIdentifier.di11001,
 #if NET7_0_OR_GREATER
@@ -1990,7 +1990,7 @@ public static class EntityResolver {
             },
             {
                 11002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER BILL OF LADING",
                     AnsiMh10_8_2DataIdentifier.di11002,
 #if NET7_0_OR_GREATER
@@ -2002,7 +2002,7 @@ public static class EntityResolver {
             },
             {
                 11003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CARRIER BILL OF LADING",
                     AnsiMh10_8_2DataIdentifier.di11003,
 #if NET7_0_OR_GREATER
@@ -2014,7 +2014,7 @@ public static class EntityResolver {
             },
             {
                 11004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ORDER LINE",
                     AnsiMh10_8_2DataIdentifier.di11004,
 #if NET7_0_OR_GREATER
@@ -2026,7 +2026,7 @@ public static class EntityResolver {
             },
             {
                 11005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "REFERENCE NUMBER",
                     AnsiMh10_8_2DataIdentifier.di11005,
 #if NET7_0_OR_GREATER
@@ -2038,7 +2038,7 @@ public static class EntityResolver {
             },
             {
                 11006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PRO#",
                     AnsiMh10_8_2DataIdentifier.di11006,
 #if NET7_0_OR_GREATER
@@ -2050,7 +2050,7 @@ public static class EntityResolver {
             },
             {
                 11007,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CARRIER MODE",
                     AnsiMh10_8_2DataIdentifier.di11007,
 #if NET7_0_OR_GREATER
@@ -2062,7 +2062,7 @@ public static class EntityResolver {
             },
             {
                 11008,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTRACT NUMBER",
                     AnsiMh10_8_2DataIdentifier.di11008,
 #if NET7_0_OR_GREATER
@@ -2074,7 +2074,7 @@ public static class EntityResolver {
             },
             {
                 11009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TRANSACTION REFERENCE",
                     AnsiMh10_8_2DataIdentifier.di11009,
 #if NET7_0_OR_GREATER
@@ -2086,7 +2086,7 @@ public static class EntityResolver {
             },
             {
                 11010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "INVOICE NUMBER",
                     AnsiMh10_8_2DataIdentifier.di11010,
 #if NET7_0_OR_GREATER
@@ -2098,7 +2098,7 @@ public static class EntityResolver {
             },
             {
                 11011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PACKING LIST NUMBER",
                     AnsiMh10_8_2DataIdentifier.di11011,
 #if NET7_0_OR_GREATER
@@ -2109,7 +2109,7 @@ public static class EntityResolver {
                 )
             },
             {
-                11012, new EntityDescriptor(
+                11012, new EntityDescriptors(
                     "SCAC",
                     AnsiMh10_8_2DataIdentifier.di11012,
 #if NET7_0_OR_GREATER
@@ -2120,7 +2120,7 @@ public static class EntityResolver {
                 )
             },
             {
-                11013, new EntityDescriptor(
+                11013, new EntityDescriptors(
                     "BILL OF LADING NUMBER",
                     AnsiMh10_8_2DataIdentifier.di11013,
 #if NET7_0_OR_GREATER
@@ -2132,7 +2132,7 @@ public static class EntityResolver {
             },
             {
                 11014,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ORDER AND LINE",
                     AnsiMh10_8_2DataIdentifier.di11014,
 #if NET7_0_OR_GREATER
@@ -2143,7 +2143,7 @@ public static class EntityResolver {
                 )
             },
             {
-                11015, new EntityDescriptor(
+                11015, new EntityDescriptors(
                     "KANBAN",
                     AnsiMh10_8_2DataIdentifier.di11015,
 #if NET7_0_OR_GREATER
@@ -2154,7 +2154,7 @@ public static class EntityResolver {
                 )
             },
             {
-                11016, new EntityDescriptor(
+                11016, new EntityDescriptors(
                     "DELINS",
                     AnsiMh10_8_2DataIdentifier.di11016,
 #if NET7_0_OR_GREATER
@@ -2165,7 +2165,7 @@ public static class EntityResolver {
                 )
             },
             {
-                11017, new EntityDescriptor(
+                11017, new EntityDescriptors(
                     "CHECK",
                     AnsiMh10_8_2DataIdentifier.di11017,
 #if NET7_0_OR_GREATER
@@ -2177,7 +2177,7 @@ public static class EntityResolver {
             },
             {
                 11018,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "REFERENCE",
                     AnsiMh10_8_2DataIdentifier.di11018,
 #if NET7_0_OR_GREATER
@@ -2189,7 +2189,7 @@ public static class EntityResolver {
             },
             {
                 11019,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FOREIGN MILITARY SALES CASE",
                     AnsiMh10_8_2DataIdentifier.di11019,
 #if NET7_0_OR_GREATER
@@ -2201,7 +2201,7 @@ public static class EntityResolver {
             },
             {
                 11020,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LICENSE IDENTIFIER",
                     AnsiMh10_8_2DataIdentifier.di11020,
 #if NET7_0_OR_GREATER
@@ -2213,7 +2213,7 @@ public static class EntityResolver {
             },
             {
                 11021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER DATA",
                     AnsiMh10_8_2DataIdentifier.di11021,
 #if NET7_0_OR_GREATER
@@ -2225,7 +2225,7 @@ public static class EntityResolver {
             },
             {
                 11022,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TRANSACTION AUTHENTICATION",
                     AnsiMh10_8_2DataIdentifier.di11022,
 #if NET7_0_OR_GREATER
@@ -2237,7 +2237,7 @@ public static class EntityResolver {
             },
             {
                 11025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CARRIER TRANSPORT UNITS GROUPINGS",
                     AnsiMh10_8_2DataIdentifier.di11025,
 #if NET7_0_OR_GREATER
@@ -2249,7 +2249,7 @@ public static class EntityResolver {
             },
             {
                 11026,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SHIPPER TRANSPORT UNITS GROUPINGS",
                     AnsiMh10_8_2DataIdentifier.di11026,
 #if NET7_0_OR_GREATER
@@ -2261,7 +2261,7 @@ public static class EntityResolver {
             },
             {
                 11027,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "QUOTATION",
                     AnsiMh10_8_2DataIdentifier.di11027,
 #if NET7_0_OR_GREATER
@@ -2273,7 +2273,7 @@ public static class EntityResolver {
             },
             {
                 12000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "STORAGE LOCATION",
                     AnsiMh10_8_2DataIdentifier.di12000,
 #if NET7_0_OR_GREATER
@@ -2284,7 +2284,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12001, new EntityDescriptor(
+                12001, new EntityDescriptors(
                     "LOCATION",
                     AnsiMh10_8_2DataIdentifier.di12001,
 #if NET7_0_OR_GREATER
@@ -2296,7 +2296,7 @@ public static class EntityResolver {
             },
             {
                 12002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SHIP TO",
                     AnsiMh10_8_2DataIdentifier.di12002,
 #if NET7_0_OR_GREATER
@@ -2308,7 +2308,7 @@ public static class EntityResolver {
             },
             {
                 12003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SHIP FROM",
                     AnsiMh10_8_2DataIdentifier.di12003,
 #if NET7_0_OR_GREATER
@@ -2320,7 +2320,7 @@ public static class EntityResolver {
             },
             {
                 12004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "COUNTRY OF ORIGIN",
                     AnsiMh10_8_2DataIdentifier.di12004,
 #if NET7_0_OR_GREATER
@@ -2332,7 +2332,7 @@ public static class EntityResolver {
             },
             {
                 12005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SHIP FOR",
                     AnsiMh10_8_2DataIdentifier.di12005,
 #if NET7_0_OR_GREATER
@@ -2344,7 +2344,7 @@ public static class EntityResolver {
             },
             {
                 12006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ROUTE CODE",
                     AnsiMh10_8_2DataIdentifier.di12006,
 #if NET7_0_OR_GREATER
@@ -2355,7 +2355,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12007, new EntityDescriptor(
+                12007, new EntityDescriptors(
                     "DODAAC",
                     AnsiMh10_8_2DataIdentifier.di12007,
 #if NET7_0_OR_GREATER
@@ -2367,7 +2367,7 @@ public static class EntityResolver {
             },
             {
                 12008,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PORT OF EMBARKATION",
                     AnsiMh10_8_2DataIdentifier.di12008,
 #if NET7_0_OR_GREATER
@@ -2379,7 +2379,7 @@ public static class EntityResolver {
             },
             {
                 12009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PORT OF DEBARKATION",
                     AnsiMh10_8_2DataIdentifier.di12009,
 #if NET7_0_OR_GREATER
@@ -2390,7 +2390,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12011, new EntityDescriptor(
+                12011, new EntityDescriptors(
                     "LOCATION",
                     AnsiMh10_8_2DataIdentifier.di12011,
 #if NET7_0_OR_GREATER
@@ -2401,7 +2401,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12012, new EntityDescriptor(
+                12012, new EntityDescriptors(
                     "SHIP TO",
                     AnsiMh10_8_2DataIdentifier.di12012,
 #if NET7_0_OR_GREATER
@@ -2412,7 +2412,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12013, new EntityDescriptor(
+                12013, new EntityDescriptors(
                     "SHIP FROM",
                     AnsiMh10_8_2DataIdentifier.di12013,
 #if NET7_0_OR_GREATER
@@ -2423,7 +2423,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12015, new EntityDescriptor(
+                12015, new EntityDescriptors(
                     "SHIP FOR",
                     AnsiMh10_8_2DataIdentifier.di12015,
 #if NET7_0_OR_GREATER
@@ -2435,7 +2435,7 @@ public static class EntityResolver {
             },
             {
                 12016,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TAG ACTIVATION LOCATION",
                     AnsiMh10_8_2DataIdentifier.di12016,
 #if NET7_0_OR_GREATER
@@ -2447,7 +2447,7 @@ public static class EntityResolver {
             },
             {
                 12017,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TAG DEACTIVATION LOCATION",
                     AnsiMh10_8_2DataIdentifier.di12017,
 #if NET7_0_OR_GREATER
@@ -2458,7 +2458,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12018, new EntityDescriptor(
+                12018, new EntityDescriptors(
                     "FAO FISHING AREA",
                     AnsiMh10_8_2DataIdentifier.di12018,
 #if NET7_0_OR_GREATER
@@ -2470,7 +2470,7 @@ public static class EntityResolver {
             },
             {
                 12020,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIRST LEVEL",
                     AnsiMh10_8_2DataIdentifier.di12020,
 #if NET7_0_OR_GREATER
@@ -2482,7 +2482,7 @@ public static class EntityResolver {
             },
             {
                 12021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SECOND LEVEL",
                     AnsiMh10_8_2DataIdentifier.di12021,
 #if NET7_0_OR_GREATER
@@ -2494,7 +2494,7 @@ public static class EntityResolver {
             },
             {
                 12022,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "THIRD LEVEL",
                     AnsiMh10_8_2DataIdentifier.di12022,
 #if NET7_0_OR_GREATER
@@ -2506,7 +2506,7 @@ public static class EntityResolver {
             },
             {
                 12023,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FOURTH LEVEL",
                     AnsiMh10_8_2DataIdentifier.di12023,
 #if NET7_0_OR_GREATER
@@ -2518,7 +2518,7 @@ public static class EntityResolver {
             },
             {
                 12024,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIFTH LEVEL",
                     AnsiMh10_8_2DataIdentifier.di12024,
 #if NET7_0_OR_GREATER
@@ -2530,7 +2530,7 @@ public static class EntityResolver {
             },
             {
                 12025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PARTY TO TRANSACTION",
                     AnsiMh10_8_2DataIdentifier.di12025,
 #if NET7_0_OR_GREATER
@@ -2541,7 +2541,7 @@ public static class EntityResolver {
                     )
             },
             {
-                12026, new EntityDescriptor(
+                12026, new EntityDescriptors(
                     "LOCATION",
                     AnsiMh10_8_2DataIdentifier.di12026,
 #if NET7_0_OR_GREATER
@@ -2552,7 +2552,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12027, new EntityDescriptor(
+                12027, new EntityDescriptors(
                     "EVENT LOCATION",
                     AnsiMh10_8_2DataIdentifier.di12027,
 #if NET7_0_OR_GREATER
@@ -2564,7 +2564,7 @@ public static class EntityResolver {
             },
             {
                 12028,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NUMBER AND STREET",
                     AnsiMh10_8_2DataIdentifier.di12028,
 #if NET7_0_OR_GREATER
@@ -2576,7 +2576,7 @@ public static class EntityResolver {
             },
             {
                 12029,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CITY",
                     AnsiMh10_8_2DataIdentifier.di12029,
 #if NET7_0_OR_GREATER
@@ -2588,7 +2588,7 @@ public static class EntityResolver {
             },
             {
                 12030,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "COUNTRY SUB ENTITY",
                     AnsiMh10_8_2DataIdentifier.di12030,
 #if NET7_0_OR_GREATER
@@ -2600,7 +2600,7 @@ public static class EntityResolver {
             },
             {
                 12031,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "POSTAL CODE",
                     AnsiMh10_8_2DataIdentifier.di12031,
 #if NET7_0_OR_GREATER
@@ -2612,7 +2612,7 @@ public static class EntityResolver {
             },
             {
                 12032,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "COUNTRY",
                     AnsiMh10_8_2DataIdentifier.di12032,
 #if NET7_0_OR_GREATER
@@ -2624,7 +2624,7 @@ public static class EntityResolver {
             },
             {
                 12033,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "URL",
                     AnsiMh10_8_2DataIdentifier.di12033,
 #if NET7_0_OR_GREATER
@@ -2635,7 +2635,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12034, new EntityDescriptor(
+                12034, new EntityDescriptors(
                     "P2P URL",
                     AnsiMh10_8_2DataIdentifier.di12034,
 #if NET7_0_OR_GREATER
@@ -2646,7 +2646,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12035, new EntityDescriptor(
+                12035, new EntityDescriptors(
                     "SITE APPROVAL",
                     AnsiMh10_8_2DataIdentifier.di12035,
 #if NET7_0_OR_GREATER
@@ -2657,7 +2657,7 @@ public static class EntityResolver {
                 )
             },
             {
-                12036, new EntityDescriptor(
+                12036, new EntityDescriptors(
                     "PRODUCER APPROVAL",
                     AnsiMh10_8_2DataIdentifier.di12036,
 #if NET7_0_OR_GREATER
@@ -2669,7 +2669,7 @@ public static class EntityResolver {
             },
             {
                 12051,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SHIP FROM",
                     AnsiMh10_8_2DataIdentifier.di12051,
 #if NET7_0_OR_GREATER
@@ -2681,7 +2681,7 @@ public static class EntityResolver {
             },
             {
                 12052,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SHIP TO",
                     AnsiMh10_8_2DataIdentifier.di12052,
 #if NET7_0_OR_GREATER
@@ -2693,7 +2693,7 @@ public static class EntityResolver {
             },
             {
                 12054,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SHIP FROM",
                     AnsiMh10_8_2DataIdentifier.di12054,
 #if NET7_0_OR_GREATER
@@ -2705,7 +2705,7 @@ public static class EntityResolver {
             },
             {
                 12055,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SHIP TO",
                     AnsiMh10_8_2DataIdentifier.di12055,
 #if NET7_0_OR_GREATER
@@ -2717,7 +2717,7 @@ public static class EntityResolver {
             },
             {
                 13010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FORM 2410",
                     AnsiMh10_8_2DataIdentifier.di13010,
 #if NET7_0_OR_GREATER
@@ -2730,7 +2730,7 @@ public static class EntityResolver {
             },
             {
                 13011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FORM 2408",
                     AnsiMh10_8_2DataIdentifier.di13011,
 #if NET7_0_OR_GREATER
@@ -2742,7 +2742,7 @@ public static class EntityResolver {
             },
             {
                 13012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FORM 2407",
                     AnsiMh10_8_2DataIdentifier.di13012,
 #if NET7_0_OR_GREATER
@@ -2754,7 +2754,7 @@ public static class EntityResolver {
             },
             {
                 13013,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FORM 95",
                     AnsiMh10_8_2DataIdentifier.di13013,
 #if NET7_0_OR_GREATER
@@ -2766,7 +2766,7 @@ public static class EntityResolver {
             },
             {
                 13014,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FORM 4790",
                     AnsiMh10_8_2DataIdentifier.di13014,
 #if NET7_0_OR_GREATER
@@ -2778,7 +2778,7 @@ public static class EntityResolver {
             },
             {
                 14000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NSN",
                     AnsiMh10_8_2DataIdentifier.di14000,
 #if NET7_0_OR_GREATER
@@ -2789,7 +2789,7 @@ public static class EntityResolver {
                     )
             },
             {
-                14001, new EntityDescriptor(
+                14001, new EntityDescriptors(
                     "CIDX PRODUCT CHARACTERISTIC",
                     AnsiMh10_8_2DataIdentifier.di14001,
 #if NET7_0_OR_GREATER
@@ -2800,7 +2800,7 @@ public static class EntityResolver {
                 )
             },
             {
-                14003, new EntityDescriptor(
+                14003, new EntityDescriptors(
                     "EIAJ ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14003,
 #if NET7_0_OR_GREATER
@@ -2812,7 +2812,7 @@ public static class EntityResolver {
             },
             {
                 14004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "GS1 ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14004,
 #if NET7_0_OR_GREATER
@@ -2823,7 +2823,7 @@ public static class EntityResolver {
                 )
             },
             {
-                14005, new EntityDescriptor(
+                14005, new EntityDescriptors(
                     "AIAG ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14005,
 #if NET7_0_OR_GREATER
@@ -2834,7 +2834,7 @@ public static class EntityResolver {
                 )
             },
             {
-                14006, new EntityDescriptor(
+                14006, new EntityDescriptors(
                     "MILSTRIP ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14006,
 #if NET7_0_OR_GREATER
@@ -2846,7 +2846,7 @@ public static class EntityResolver {
             },
             {
                 14007,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DTR ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14007,
 #if NET7_0_OR_GREATER
@@ -2858,7 +2858,7 @@ public static class EntityResolver {
             },
             {
                 14008,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PRODUCTION ANIMAL IDENTIFICATION",
                     AnsiMh10_8_2DataIdentifier.di14008,
 #if NET7_0_OR_GREATER
@@ -2878,7 +2878,7 @@ public static class EntityResolver {
                 // pack is always exactly 12 digits in length. NB. SecurPharm erroneously state that the PPN is 4..22 alphanumeric
                 // characters.
                 14009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PPN",
                     AnsiMh10_8_2DataIdentifier.di14009,
 #if NET7_0_OR_GREATER
@@ -2890,7 +2890,7 @@ public static class EntityResolver {
             },
             {
                 14010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "IAC CIN ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14010,
 #if NET7_0_OR_GREATER
@@ -2901,7 +2901,7 @@ public static class EntityResolver {
                 )
             },
             {
-                14011, new EntityDescriptor(
+                14011, new EntityDescriptors(
                     "RLA ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14011,
 #if NET7_0_OR_GREATER
@@ -2913,7 +2913,7 @@ public static class EntityResolver {
             },
             {
                 14012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "RLA ENCODED",
                     AnsiMh10_8_2DataIdentifier.di14012,
 #if NET7_0_OR_GREATER
@@ -2925,7 +2925,7 @@ public static class EntityResolver {
             },
             {
                 14015,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CAICT INDUSTRIAL INTERNET ID",
                     AnsiMh10_8_2DataIdentifier.di14015,
 #if NET7_0_OR_GREATER
@@ -2937,7 +2937,7 @@ public static class EntityResolver {
             },
             {
                 16000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER ITEM ID",
                     AnsiMh10_8_2DataIdentifier.di16000,
 #if NET7_0_OR_GREATER
@@ -2949,7 +2949,7 @@ public static class EntityResolver {
             },
             {
                 16001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER ITEM ID",
                     AnsiMh10_8_2DataIdentifier.di16001,
 #if NET7_0_OR_GREATER
@@ -2961,7 +2961,7 @@ public static class EntityResolver {
             },
             {
                 16002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "REVISION LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16002,
 #if NET7_0_OR_GREATER
@@ -2973,7 +2973,7 @@ public static class EntityResolver {
             },
             {
                 16003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "GS1 MFR/ITEM CODE",
                     AnsiMh10_8_2DataIdentifier.di16003,
 #if NET7_0_OR_GREATER
@@ -2985,7 +2985,7 @@ public static class EntityResolver {
             },
             {
                 16004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "GS1 ITEM CODE PORTION",
                     AnsiMh10_8_2DataIdentifier.di16004,
 #if NET7_0_OR_GREATER
@@ -2997,7 +2997,7 @@ public static class EntityResolver {
             },
             {
                 16005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FREIGHT CLASSIFICATION ITEM",
                     AnsiMh10_8_2DataIdentifier.di16005,
 #if NET7_0_OR_GREATER
@@ -3009,7 +3009,7 @@ public static class EntityResolver {
             },
             {
                 16006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER/ITEM CODE",
                     AnsiMh10_8_2DataIdentifier.di16006,
 #if NET7_0_OR_GREATER
@@ -3020,7 +3020,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16007, new EntityDescriptor(
+                16007, new EntityDescriptors(
                     "CLEI",
                     AnsiMh10_8_2DataIdentifier.di16007,
 #if NET7_0_OR_GREATER
@@ -3031,7 +3031,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16008, new EntityDescriptor(
+                16008, new EntityDescriptors(
                     "GS1 GTIN-14",
                     AnsiMh10_8_2DataIdentifier.di16008,
 #if NET7_0_OR_GREATER
@@ -3044,7 +3044,7 @@ public static class EntityResolver {
             },
             {
                 16009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DUNS/ITEM CODE",
                     AnsiMh10_8_2DataIdentifier.di16009,
 #if NET7_0_OR_GREATER
@@ -3056,7 +3056,7 @@ public static class EntityResolver {
             },
             {
                 16010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "HAZARDOUS MATERIAL CODE",
                     AnsiMh10_8_2DataIdentifier.di16010,
 #if NET7_0_OR_GREATER
@@ -3067,7 +3067,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16011, new EntityDescriptor(
+                16011, new EntityDescriptors(
                     "CLEI",
                     AnsiMh10_8_2DataIdentifier.di16011,
 #if NET7_0_OR_GREATER
@@ -3079,7 +3079,7 @@ public static class EntityResolver {
             },
             {
                 16012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DOCUMENT TYPE",
                     AnsiMh10_8_2DataIdentifier.di16012,
 #if NET7_0_OR_GREATER
@@ -3090,7 +3090,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16013, new EntityDescriptor(
+                16013, new EntityDescriptors(
                     "VMRS SYSTEM",
                     AnsiMh10_8_2DataIdentifier.di16013,
 #if NET7_0_OR_GREATER
@@ -3101,7 +3101,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16014, new EntityDescriptor(
+                16014, new EntityDescriptors(
                     "VMRS SYSTEM & ASSEMBLY",
                     AnsiMh10_8_2DataIdentifier.di16014,
 #if NET7_0_OR_GREATER
@@ -3112,7 +3112,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16015, new EntityDescriptor(
+                16015, new EntityDescriptors(
                     "VMRS SYSTEM, ASSEMBLY & PART",
                     AnsiMh10_8_2DataIdentifier.di16015,
 #if NET7_0_OR_GREATER
@@ -3123,7 +3123,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16016, new EntityDescriptor(
+                16016, new EntityDescriptors(
                     "VMRS SYSTEM, ASSEMBLY & PART",
                     AnsiMh10_8_2DataIdentifier.di16016,
 #if NET7_0_OR_GREATER
@@ -3135,7 +3135,7 @@ public static class EntityResolver {
             },
             {
                 16017,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "GS1 SUPPLIER ID & ITEM CODE",
                     AnsiMh10_8_2DataIdentifier.di16017,
 #if NET7_0_OR_GREATER
@@ -3146,7 +3146,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16018, new EntityDescriptor(
+                16018, new EntityDescriptors(
                     "VMRS SUPPLIER ID & PART NO.",
                     AnsiMh10_8_2DataIdentifier.di16018,
 #if NET7_0_OR_GREATER
@@ -3158,7 +3158,7 @@ public static class EntityResolver {
             },
             {
                 16019,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "COMPONENT",
                     AnsiMh10_8_2DataIdentifier.di16019,
 #if NET7_0_OR_GREATER
@@ -3170,7 +3170,7 @@ public static class EntityResolver {
             },
             {
                 16020,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER FIRST LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16020,
 #if NET7_0_OR_GREATER
@@ -3182,7 +3182,7 @@ public static class EntityResolver {
             },
             {
                 16021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER SECOND LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16021,
 #if NET7_0_OR_GREATER
@@ -3194,7 +3194,7 @@ public static class EntityResolver {
             },
             {
                 16022,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER THIRD LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16022,
 #if NET7_0_OR_GREATER
@@ -3206,7 +3206,7 @@ public static class EntityResolver {
             },
             {
                 16023,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER FOURTH LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16023,
 #if NET7_0_OR_GREATER
@@ -3218,7 +3218,7 @@ public static class EntityResolver {
             },
             {
                 16024,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER FIFTH LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16024,
 #if NET7_0_OR_GREATER
@@ -3230,7 +3230,7 @@ public static class EntityResolver {
             },
             {
                 16025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PARTY TO TRANSACTION",
                     AnsiMh10_8_2DataIdentifier.di16025,
 #if NET7_0_OR_GREATER
@@ -3242,7 +3242,7 @@ public static class EntityResolver {
             },
             {
                 16026,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PART NUMBER",
                     AnsiMh10_8_2DataIdentifier.di16026,
 #if NET7_0_OR_GREATER
@@ -3253,7 +3253,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16027, new EntityDescriptor(
+                16027, new EntityDescriptors(
                     "HTS-6 CODE",
                     AnsiMh10_8_2DataIdentifier.di16027,
 #if NET7_0_OR_GREATER
@@ -3265,7 +3265,7 @@ public static class EntityResolver {
             },
             {
                 16028,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CARGO NAME",
                     AnsiMh10_8_2DataIdentifier.di16028,
 #if NET7_0_OR_GREATER
@@ -3276,7 +3276,7 @@ public static class EntityResolver {
                     )
             },
             {
-                16029, new EntityDescriptor(
+                16029, new EntityDescriptors(
                     "GMDN PRODUCT CLASSIFICATION",
                     AnsiMh10_8_2DataIdentifier.di16029,
 #if NET7_0_OR_GREATER
@@ -3288,7 +3288,7 @@ public static class EntityResolver {
             },
             {
                 16030,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER FIRST LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16030,
 #if NET7_0_OR_GREATER
@@ -3300,7 +3300,7 @@ public static class EntityResolver {
             },
             {
                 16031,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER SECOND LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16031,
 #if NET7_0_OR_GREATER
@@ -3312,7 +3312,7 @@ public static class EntityResolver {
             },
             {
                 16032,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER THIRD LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16032,
 #if NET7_0_OR_GREATER
@@ -3324,7 +3324,7 @@ public static class EntityResolver {
             },
             {
                 16033,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER FOURTH LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16033,
 #if NET7_0_OR_GREATER
@@ -3336,7 +3336,7 @@ public static class EntityResolver {
             },
             {
                 16034,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER FIFTH LEVEL",
                     AnsiMh10_8_2DataIdentifier.di16034,
 #if NET7_0_OR_GREATER
@@ -3347,7 +3347,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16040, new EntityDescriptor(
+                16040, new EntityDescriptors(
                     "MSDS CODE",
                     AnsiMh10_8_2DataIdentifier.di16040,
 #if NET7_0_OR_GREATER
@@ -3358,7 +3358,7 @@ public static class EntityResolver {
                 )
             },
             {
-                16049, new EntityDescriptor(
+                16049, new EntityDescriptors(
                     "EXPORT CONTROLLED BY",
                     AnsiMh10_8_2DataIdentifier.di16049,
 #if NET7_0_OR_GREATER
@@ -3369,7 +3369,7 @@ public static class EntityResolver {
                     )
             },
             {
-                16050, new EntityDescriptor(
+                16050, new EntityDescriptors(
                     "MANUFACTURER ITEM ID",
                     AnsiMh10_8_2DataIdentifier.di16050,
 #if NET7_0_OR_GREATER
@@ -3381,7 +3381,7 @@ public static class EntityResolver {
             },
             {
                 16051,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ITEM ID",
                     AnsiMh10_8_2DataIdentifier.di16051,
 #if NET7_0_OR_GREATER
@@ -3393,7 +3393,7 @@ public static class EntityResolver {
             },
             {
                 16052,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "COLOR",
                     AnsiMh10_8_2DataIdentifier.di16052,
 #if NET7_0_OR_GREATER
@@ -3405,7 +3405,7 @@ public static class EntityResolver {
             },
             {
                 16053,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SPECIFIC MARINE EQUIPMENT",
                     AnsiMh10_8_2DataIdentifier.di16053,
 #if NET7_0_OR_GREATER
@@ -3417,7 +3417,7 @@ public static class EntityResolver {
             },
             {
                 16054,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "UDI DI",
                     AnsiMh10_8_2DataIdentifier.di16054,
 #if NET7_0_OR_GREATER
@@ -3429,7 +3429,7 @@ public static class EntityResolver {
             },
             {
                 16055,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DNV CERT REF",
                     AnsiMh10_8_2DataIdentifier.di16055,
 #if NET7_0_OR_GREATER
@@ -3441,7 +3441,7 @@ public static class EntityResolver {
             },
             {
                 17000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "QUANTITY",
                     AnsiMh10_8_2DataIdentifier.di17000,
 #if NET7_0_OR_GREATER
@@ -3453,7 +3453,7 @@ public static class EntityResolver {
             },
             {
                 17001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "THEORETICAL LENGTH/WEIGHT",
                     AnsiMh10_8_2DataIdentifier.di17001,
 #if NET7_0_OR_GREATER
@@ -3465,7 +3465,7 @@ public static class EntityResolver {
             },
             {
                 17002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ACTUAL WEIGHT",
                     AnsiMh10_8_2DataIdentifier.di17002,
 #if NET7_0_OR_GREATER
@@ -3477,7 +3477,7 @@ public static class EntityResolver {
             },
             {
                 17003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "UNIT OF MEASURE",
                     AnsiMh10_8_2DataIdentifier.di17003,
 #if NET7_0_OR_GREATER
@@ -3488,7 +3488,7 @@ public static class EntityResolver {
                     )
             },
             {
-                17004, new EntityDescriptor(
+                17004, new EntityDescriptors(
                     "GROSS AMOUNT",
                     AnsiMh10_8_2DataIdentifier.di17004,
 #if NET7_0_OR_GREATER
@@ -3499,7 +3499,7 @@ public static class EntityResolver {
                 )
             },
             {
-                17005, new EntityDescriptor(
+                17005, new EntityDescriptors(
                     "NET AMOUNT",
                     AnsiMh10_8_2DataIdentifier.di17005,
 #if NET7_0_OR_GREATER
@@ -3511,7 +3511,7 @@ public static class EntityResolver {
             },
             {
                 17006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTAINERS",
                     AnsiMh10_8_2DataIdentifier.di17006,
 #if NET7_0_OR_GREATER
@@ -3523,7 +3523,7 @@ public static class EntityResolver {
             },
             {
                 17007,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "QUANTITY/UOM",
                     AnsiMh10_8_2DataIdentifier.di17007,
 #if NET7_0_OR_GREATER
@@ -3535,7 +3535,7 @@ public static class EntityResolver {
             },
             {
                 17008,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTAINER RATED WEIGHT",
                     AnsiMh10_8_2DataIdentifier.di17008,
 #if NET7_0_OR_GREATER
@@ -3547,7 +3547,7 @@ public static class EntityResolver {
             },
             {
                 17009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PIECE WEIGHT",
                     AnsiMh10_8_2DataIdentifier.di17009,
 #if NET7_0_OR_GREATER
@@ -3559,7 +3559,7 @@ public static class EntityResolver {
             },
             {
                 17011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TARE WEIGHT",
                     AnsiMh10_8_2DataIdentifier.di17011,
 #if NET7_0_OR_GREATER
@@ -3571,7 +3571,7 @@ public static class EntityResolver {
             },
             {
                 17012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MONETARY VALUE",
                     AnsiMh10_8_2DataIdentifier.di17012,
 #if NET7_0_OR_GREATER
@@ -3583,7 +3583,7 @@ public static class EntityResolver {
             },
             {
                 17013,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PIECE OF PIECES",
                     AnsiMh10_8_2DataIdentifier.di17013,
 #if NET7_0_OR_GREATER
@@ -3595,7 +3595,7 @@ public static class EntityResolver {
             },
             {
                 17014,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "BEGINNING SECONDARY QUANTITY",
                     AnsiMh10_8_2DataIdentifier.di17014,
 #if NET7_0_OR_GREATER
@@ -3607,7 +3607,7 @@ public static class EntityResolver {
             },
             {
                 17015,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ENDING SECONDARY QUANTITY",
                     AnsiMh10_8_2DataIdentifier.di17015,
 #if NET7_0_OR_GREATER
@@ -3619,7 +3619,7 @@ public static class EntityResolver {
             },
             {
                 17016,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NUMBER OF PIECES IN VAN",
                     AnsiMh10_8_2DataIdentifier.di17016,
 #if NET7_0_OR_GREATER
@@ -3631,7 +3631,7 @@ public static class EntityResolver {
             },
             {
                 17017,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NUMBER OF SHIPMENTS IN VAN",
                     AnsiMh10_8_2DataIdentifier.di17017,
 #if NET7_0_OR_GREATER
@@ -3643,7 +3643,7 @@ public static class EntityResolver {
             },
             {
                 17018,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUBE",
                     AnsiMh10_8_2DataIdentifier.di17018,
 #if NET7_0_OR_GREATER
@@ -3655,7 +3655,7 @@ public static class EntityResolver {
             },
             {
                 17019,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "WIDTH",
                     AnsiMh10_8_2DataIdentifier.di17019,
 #if NET7_0_OR_GREATER
@@ -3667,7 +3667,7 @@ public static class EntityResolver {
             },
             {
                 17020,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "HEIGHT",
                     AnsiMh10_8_2DataIdentifier.di17020,
 #if NET7_0_OR_GREATER
@@ -3679,7 +3679,7 @@ public static class EntityResolver {
             },
             {
                 17021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LENGTH",
                     AnsiMh10_8_2DataIdentifier.di17021,
 #if NET7_0_OR_GREATER
@@ -3691,7 +3691,7 @@ public static class EntityResolver {
             },
             {
                 17022,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NET WEIGHT",
                     AnsiMh10_8_2DataIdentifier.di17022,
 #if NET7_0_OR_GREATER
@@ -3703,7 +3703,7 @@ public static class EntityResolver {
             },
             {
                 17023,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "VAN LENGTH",
                     AnsiMh10_8_2DataIdentifier.di17023,
 #if NET7_0_OR_GREATER
@@ -3715,7 +3715,7 @@ public static class EntityResolver {
             },
             {
                 17024,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "INSIDE CUBE OF A VAN",
                     AnsiMh10_8_2DataIdentifier.di17024,
 #if NET7_0_OR_GREATER
@@ -3727,7 +3727,7 @@ public static class EntityResolver {
             },
             {
                 17025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NET EXPLOSIVE WEIGHT",
                     AnsiMh10_8_2DataIdentifier.di17025,
 #if NET7_0_OR_GREATER
@@ -3738,7 +3738,7 @@ public static class EntityResolver {
                 )
             },
             {
-                17026, new EntityDescriptor(
+                17026, new EntityDescriptors(
                     "PACKAGING LEVEL",
                     AnsiMh10_8_2DataIdentifier.di17026,
 #if NET7_0_OR_GREATER
@@ -3750,7 +3750,7 @@ public static class EntityResolver {
             },
             {
                 17027,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SINGLE PRODUCT NET PRICE",
                     AnsiMh10_8_2DataIdentifier.di17027,
 #if NET7_0_OR_GREATER
@@ -3762,7 +3762,7 @@ public static class EntityResolver {
             },
             {
                 17028,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SINGLE PRICE CHARGE VALUE FOR POSTAGE AND PACKAGING",
                     AnsiMh10_8_2DataIdentifier.di17028,
 #if NET7_0_OR_GREATER
@@ -3774,7 +3774,7 @@ public static class EntityResolver {
             },
             {
                 17029,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DISCOUNT PERCENTAGE",
                     AnsiMh10_8_2DataIdentifier.di17029,
 #if NET7_0_OR_GREATER
@@ -3786,7 +3786,7 @@ public static class EntityResolver {
             },
             {
                 17030,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "VAT PERCENTAGE",
                     AnsiMh10_8_2DataIdentifier.di17030,
 #if NET7_0_OR_GREATER
@@ -3797,7 +3797,7 @@ public static class EntityResolver {
                 )
             },
             {
-                17031, new EntityDescriptor(
+                17031, new EntityDescriptors(
                     "CURRENCY",
                     AnsiMh10_8_2DataIdentifier.di17031,
 #if NET7_0_OR_GREATER
@@ -3808,7 +3808,7 @@ public static class EntityResolver {
                 )
             },
             {
-                17032, new EntityDescriptor(
+                17032, new EntityDescriptors(
                     "LOINC CODE",
                     AnsiMh10_8_2DataIdentifier.di17032,
 #if NET7_0_OR_GREATER
@@ -3820,7 +3820,7 @@ public static class EntityResolver {
             },
             {
                 18001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "RMA",
                     AnsiMh10_8_2DataIdentifier.di18001,
 #if NET7_0_OR_GREATER
@@ -3832,7 +3832,7 @@ public static class EntityResolver {
             },
             {
                 18002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "RETURN CODE",
                     AnsiMh10_8_2DataIdentifier.di18002,
 #if NET7_0_OR_GREATER
@@ -3843,7 +3843,7 @@ public static class EntityResolver {
                 )
             },
             {
-                18004, new EntityDescriptor(
+                18004, new EntityDescriptors(
                     "DODIC",
                     AnsiMh10_8_2DataIdentifier.di18004,
 #if NET7_0_OR_GREATER
@@ -3855,7 +3855,7 @@ public static class EntityResolver {
             },
             {
                 18005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "IAC CIN DATE",
                     AnsiMh10_8_2DataIdentifier.di18005,
 #if NET7_0_OR_GREATER
@@ -3866,7 +3866,7 @@ public static class EntityResolver {
                 )
             },
             {
-                18006, new EntityDescriptor(
+                18006, new EntityDescriptors(
                     "SIGNATURE",
                     AnsiMh10_8_2DataIdentifier.di18006,
 #if NET7_0_OR_GREATER
@@ -3877,7 +3877,7 @@ public static class EntityResolver {
                 )
             },
             {
-                18007, new EntityDescriptor(
+                18007, new EntityDescriptors(
                     "ASFIS CODE",
                     AnsiMh10_8_2DataIdentifier.di18007,
 #if NET7_0_OR_GREATER
@@ -3888,7 +3888,7 @@ public static class EntityResolver {
                     )
             },
             {
-                18008, new EntityDescriptor(
+                18008, new EntityDescriptors(
                     "FAO CODE",
                     AnsiMh10_8_2DataIdentifier.di18008,
 #if NET7_0_OR_GREATER
@@ -3900,7 +3900,7 @@ public static class EntityResolver {
             },
             {
                 18009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FAO PRODUCTION METHOD",
                     AnsiMh10_8_2DataIdentifier.di18009,
 #if NET7_0_OR_GREATER
@@ -3912,7 +3912,7 @@ public static class EntityResolver {
             },
             {
                 19000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SERIAL NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19000,
 #if NET7_0_OR_GREATER
@@ -3924,7 +3924,7 @@ public static class EntityResolver {
             },
             {
                 19001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ADDITIONAL CODE",
                     AnsiMh10_8_2DataIdentifier.di19001,
 #if NET7_0_OR_GREATER
@@ -3936,7 +3936,7 @@ public static class EntityResolver {
             },
             {
                 19002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ASN SID",
                     AnsiMh10_8_2DataIdentifier.di19002,
 #if NET7_0_OR_GREATER
@@ -3948,7 +3948,7 @@ public static class EntityResolver {
             },
             {
                 19003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "UNIQUE PACKAGE IDENTIFICATION",
                     AnsiMh10_8_2DataIdentifier.di19003,
 #if NET7_0_OR_GREATER
@@ -3960,7 +3960,7 @@ public static class EntityResolver {
             },
             {
                 19004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PACKAGE IDENTIFICATION LIKE ITEMS",
                     AnsiMh10_8_2DataIdentifier.di19004,
 #if NET7_0_OR_GREATER
@@ -3972,7 +3972,7 @@ public static class EntityResolver {
             },
             {
                 19005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PACKAGE IDENTIFICATION UNLIKE ITEMS",
                     AnsiMh10_8_2DataIdentifier.di19005,
 #if NET7_0_OR_GREATER
@@ -3984,7 +3984,7 @@ public static class EntityResolver {
             },
             {
                 19006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PACKAGE IDENTIFICATION LIKE ITEMS MULTIPLE",
                     AnsiMh10_8_2DataIdentifier.di19006,
 #if NET7_0_OR_GREATER
@@ -3996,7 +3996,7 @@ public static class EntityResolver {
             },
             {
                 19007,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PACKAGE IDENTIFICATION UNLIKE ITEMS MULTIPLE",
                     AnsiMh10_8_2DataIdentifier.di19007,
 #if NET7_0_OR_GREATER
@@ -4007,7 +4007,7 @@ public static class EntityResolver {
                 )
             },
             {
-                19008, new EntityDescriptor(
+                19008, new EntityDescriptors(
                     "SUPPLIER ID",
                     AnsiMh10_8_2DataIdentifier.di19008,
 #if NET7_0_OR_GREATER
@@ -4019,7 +4019,7 @@ public static class EntityResolver {
             },
             {
                 19009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PACKAGE IDENTIFICATION",
                     AnsiMh10_8_2DataIdentifier.di19009,
 #if NET7_0_OR_GREATER
@@ -4031,7 +4031,7 @@ public static class EntityResolver {
             },
             {
                 19010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ID CODE",
                     AnsiMh10_8_2DataIdentifier.di19010,
 #if NET7_0_OR_GREATER
@@ -4043,7 +4043,7 @@ public static class EntityResolver {
             },
             {
                 19011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIXED ASSET ID CODE",
                     AnsiMh10_8_2DataIdentifier.di19011,
 #if NET7_0_OR_GREATER
@@ -4055,7 +4055,7 @@ public static class EntityResolver {
             },
             {
                 19012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DOCUMENT NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19012,
 #if NET7_0_OR_GREATER
@@ -4067,7 +4067,7 @@ public static class EntityResolver {
             },
             {
                 19013,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CONTAINER SECURITY SEAL",
                     AnsiMh10_8_2DataIdentifier.di19013,
 #if NET7_0_OR_GREATER
@@ -4079,7 +4079,7 @@ public static class EntityResolver {
             },
             {
                 19014,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "4TH CLASS MANIFESTING ",
                     AnsiMh10_8_2DataIdentifier.di19014,
 #if NET7_0_OR_GREATER
@@ -4091,7 +4091,7 @@ public static class EntityResolver {
             },
             {
                 19015,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SERIAL NUMBER ASSIGNED BY THE VENDOR ENTITY",
                     AnsiMh10_8_2DataIdentifier.di19015,
 #if NET7_0_OR_GREATER
@@ -4103,7 +4103,7 @@ public static class EntityResolver {
             },
             {
                 19016,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "VERSION NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19016,
 #if NET7_0_OR_GREATER
@@ -4115,7 +4115,7 @@ public static class EntityResolver {
             },
             {
                 19017,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "GS1 SUPPLIER AND UNIQUE PACKAGE IDENTIFICATION",
                     AnsiMh10_8_2DataIdentifier.di19017,
 #if NET7_0_OR_GREATER
@@ -4127,7 +4127,7 @@ public static class EntityResolver {
             },
             {
                 19018,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CAGE CODE & SERIAL NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19018,
 #if NET7_0_OR_GREATER
@@ -4139,7 +4139,7 @@ public static class EntityResolver {
             },
             {
                 19019,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DUNS AND PACKAGE IDENTIFICATION",
                     AnsiMh10_8_2DataIdentifier.di19019,
 #if NET7_0_OR_GREATER
@@ -4151,7 +4151,7 @@ public static class EntityResolver {
             },
             {
                 19020,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TRACEABILITY CODE",
                     AnsiMh10_8_2DataIdentifier.di19020,
 #if NET7_0_OR_GREATER
@@ -4163,7 +4163,7 @@ public static class EntityResolver {
             },
             {
                 19021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TIRE IDENTIFICATION NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19021,
 #if NET7_0_OR_GREATER
@@ -4175,7 +4175,7 @@ public static class EntityResolver {
             },
             {
                 19022,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "UNIQUE INDIVIDUAL IDENTITY",
                     AnsiMh10_8_2DataIdentifier.di19022,
 #if NET7_0_OR_GREATER
@@ -4186,7 +4186,7 @@ public static class EntityResolver {
                 )
             },
             {
-                19023, new EntityDescriptor(
+                19023, new EntityDescriptors(
                     "MAC ADDRESS",
                     AnsiMh10_8_2DataIdentifier.di19023,
 #if NET7_0_OR_GREATER
@@ -4198,7 +4198,7 @@ public static class EntityResolver {
             },
             {
                 19024,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "RF TAG UNIQUE IDENTIFIER",
                     AnsiMh10_8_2DataIdentifier.di19024,
 #if NET7_0_OR_GREATER
@@ -4210,7 +4210,7 @@ public static class EntityResolver {
             },
             {
                 19025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PARTY TO TRANSACTION",
                     AnsiMh10_8_2DataIdentifier.di19025,
 #if NET7_0_OR_GREATER
@@ -4222,7 +4222,7 @@ public static class EntityResolver {
             },
             {
                 19026,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "READER ID",
                     AnsiMh10_8_2DataIdentifier.di19026,
 #if NET7_0_OR_GREATER
@@ -4235,7 +4235,7 @@ public static class EntityResolver {
             },
             {
                 19027,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ITEM NUMBER WITHIN BATCH",
                     AnsiMh10_8_2DataIdentifier.di19027,
 #if NET7_0_OR_GREATER
@@ -4247,7 +4247,7 @@ public static class EntityResolver {
             },
             {
                 19028,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "BATCH-AND-ITEM NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19028,
 #if NET7_0_OR_GREATER
@@ -4259,7 +4259,7 @@ public static class EntityResolver {
             },
             {
                 19030,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ADDITIONAL TRACEABILITY CODE",
                     AnsiMh10_8_2DataIdentifier.di19030,
 #if NET7_0_OR_GREATER
@@ -4271,7 +4271,7 @@ public static class EntityResolver {
             },
             {
                 19031,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "BEGINNING SERIAL NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19031,
 #if NET7_0_OR_GREATER
@@ -4283,7 +4283,7 @@ public static class EntityResolver {
             },
             {
                 19032,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ENDING SERIAL NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19032,
 #if NET7_0_OR_GREATER
@@ -4295,7 +4295,7 @@ public static class EntityResolver {
             },
             {
                 19033,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SERIAL NUMBER OF NEXT HIGHER ASSEMBLY",
                     AnsiMh10_8_2DataIdentifier.di19033,
 #if NET7_0_OR_GREATER
@@ -4308,7 +4308,7 @@ public static class EntityResolver {
             },
             {
                 19034,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PART NUMBER OF END ITEM",
                     AnsiMh10_8_2DataIdentifier.di19034,
 #if NET7_0_OR_GREATER
@@ -4320,7 +4320,7 @@ public static class EntityResolver {
             },
             {
                 19035,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "BUMPER NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19035,
 #if NET7_0_OR_GREATER
@@ -4332,7 +4332,7 @@ public static class EntityResolver {
             },
             {
                 19036,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PALLET IDENTIFIER",
                     AnsiMh10_8_2DataIdentifier.di19036,
 #if NET7_0_OR_GREATER
@@ -4344,7 +4344,7 @@ public static class EntityResolver {
             },
             {
                 19037,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "IAC CIN PN + PSN",
                     AnsiMh10_8_2DataIdentifier.di19037,
 #if NET7_0_OR_GREATER
@@ -4356,7 +4356,7 @@ public static class EntityResolver {
             },
             {
                 19042,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "UII",
                     AnsiMh10_8_2DataIdentifier.di19042,
 #if NET7_0_OR_GREATER
@@ -4367,7 +4367,7 @@ public static class EntityResolver {
                 )
             },
             {
-                19043, new EntityDescriptor(
+                19043, new EntityDescriptors(
                     "ICCID",
                     AnsiMh10_8_2DataIdentifier.di19043,
 #if NET7_0_OR_GREATER
@@ -4379,7 +4379,7 @@ public static class EntityResolver {
             },
             {
                 19050,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIRST LEVEL",
                     AnsiMh10_8_2DataIdentifier.di19050,
 #if NET7_0_OR_GREATER
@@ -4391,7 +4391,7 @@ public static class EntityResolver {
             },
             {
                 19051,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SECOND LEVEL",
                     AnsiMh10_8_2DataIdentifier.di19051,
 #if NET7_0_OR_GREATER
@@ -4403,7 +4403,7 @@ public static class EntityResolver {
             },
             {
                 19052,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "THIRD LEVEL",
                     AnsiMh10_8_2DataIdentifier.di19052,
 #if NET7_0_OR_GREATER
@@ -4415,7 +4415,7 @@ public static class EntityResolver {
             },
             {
                 19053,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FOURTH LEVEL",
                     AnsiMh10_8_2DataIdentifier.di19053,
 #if NET7_0_OR_GREATER
@@ -4427,7 +4427,7 @@ public static class EntityResolver {
             },
             {
                 19054,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIFTH LEVEL",
                     AnsiMh10_8_2DataIdentifier.di19054,
 #if NET7_0_OR_GREATER
@@ -4438,7 +4438,7 @@ public static class EntityResolver {
                 )
             },
             {
-                19096, new EntityDescriptor(
+                19096, new EntityDescriptors(
                     "EPC NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19096,
 #if NET7_0_OR_GREATER
@@ -4450,7 +4450,7 @@ public static class EntityResolver {
             },
             {
                 19097,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "ENCRYPTED SERIAL NUMBER",
                     AnsiMh10_8_2DataIdentifier.di19097,
 #if NET7_0_OR_GREATER
@@ -4462,7 +4462,7 @@ public static class EntityResolver {
             },
             {
                 20000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TRACEABILITY NUMBER ASSIGNED BY THE CUSTOMER",
                     AnsiMh10_8_2DataIdentifier.di20000,
 #if NET7_0_OR_GREATER
@@ -4474,7 +4474,7 @@ public static class EntityResolver {
             },
             {
                 20001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TRACEABILITY NUMBER ASSIGNED BY THE SUPPLIER",
                     AnsiMh10_8_2DataIdentifier.di20001,
 #if NET7_0_OR_GREATER
@@ -4486,7 +4486,7 @@ public static class EntityResolver {
             },
             {
                 20003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "EXCLUSIVE ASSIGNMENT",
                     AnsiMh10_8_2DataIdentifier.di20003,
 #if NET7_0_OR_GREATER
@@ -4498,7 +4498,7 @@ public static class EntityResolver {
             },
             {
                 20020,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIRST LEVEL (CUSTOMER ASSIGNED)",
                     AnsiMh10_8_2DataIdentifier.di20020,
 #if NET7_0_OR_GREATER
@@ -4510,7 +4510,7 @@ public static class EntityResolver {
             },
             {
                 20021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SECOND LEVEL (CUSTOMER ASSIGNED)",
                     AnsiMh10_8_2DataIdentifier.di20021,
 #if NET7_0_OR_GREATER
@@ -4522,7 +4522,7 @@ public static class EntityResolver {
             },
             {
                 20022,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "THIRD LEVEL (CUSTOMER ASSIGNED)",
                     AnsiMh10_8_2DataIdentifier.di20022,
 #if NET7_0_OR_GREATER
@@ -4534,7 +4534,7 @@ public static class EntityResolver {
             },
             {
                 20023,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FOURTH LEVEL (CUSTOMER ASSIGNED",
                     AnsiMh10_8_2DataIdentifier.di20023,
 #if NET7_0_OR_GREATER
@@ -4546,7 +4546,7 @@ public static class EntityResolver {
             },
             {
                 20024,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIFTH LEVEL (CUSTOMER ASSIGNED)",
                     AnsiMh10_8_2DataIdentifier.di20024,
 #if NET7_0_OR_GREATER
@@ -4558,7 +4558,7 @@ public static class EntityResolver {
             },
             {
                 20025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PARTY TO A TRANSACTION",
                     AnsiMh10_8_2DataIdentifier.di20025,
 #if NET7_0_OR_GREATER
@@ -4570,7 +4570,7 @@ public static class EntityResolver {
             },
             {
                 20026,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "BATCH IDENTIFIER",
                     AnsiMh10_8_2DataIdentifier.di20026,
 #if NET7_0_OR_GREATER
@@ -4582,7 +4582,7 @@ public static class EntityResolver {
             },
             {
                 20027,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "BATCH NUMBER",
                     AnsiMh10_8_2DataIdentifier.di20027,
 #if NET7_0_OR_GREATER
@@ -4594,7 +4594,7 @@ public static class EntityResolver {
             },
             {
                 20030,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIRST LEVEL (SUPPLIER ASSIGNED)",
                     AnsiMh10_8_2DataIdentifier.di20030,
 #if NET7_0_OR_GREATER
@@ -4606,7 +4606,7 @@ public static class EntityResolver {
             },
             {
                 20031,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SECOND LEVEL (SUPPLIER ASSIGNED)",
                     AnsiMh10_8_2DataIdentifier.di20031,
 #if NET7_0_OR_GREATER
@@ -4618,7 +4618,7 @@ public static class EntityResolver {
             },
             {
                 20032,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "THIRD LEVEL (SUPPLIER ASSIGNED) ",
                     AnsiMh10_8_2DataIdentifier.di20032,
 #if NET7_0_OR_GREATER
@@ -4630,7 +4630,7 @@ public static class EntityResolver {
             },
             {
                 20033,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FOURTH LEVEL (SUPPLIER ASSIGNED) ",
                     AnsiMh10_8_2DataIdentifier.di20033,
 #if NET7_0_OR_GREATER
@@ -4642,7 +4642,7 @@ public static class EntityResolver {
             },
             {
                 20034,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FIFTH LEVEL (SUPPLIER ASSIGNED) ",
                     AnsiMh10_8_2DataIdentifier.di20034,
 #if NET7_0_OR_GREATER
@@ -4654,7 +4654,7 @@ public static class EntityResolver {
             },
             {
                 21005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "POSTAL SERVICE",
                     AnsiMh10_8_2DataIdentifier.di21005,
 #if NET7_0_OR_GREATER
@@ -4666,7 +4666,7 @@ public static class EntityResolver {
             },
             {
                 21006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LICENSING POST DATA",
                     AnsiMh10_8_2DataIdentifier.di21006,
 #if NET7_0_OR_GREATER
@@ -4678,7 +4678,7 @@ public static class EntityResolver {
             },
             {
                 21015,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLEMENTARY POSTAL SERVICE",
                     AnsiMh10_8_2DataIdentifier.di21015,
 #if NET7_0_OR_GREATER
@@ -4690,7 +4690,7 @@ public static class EntityResolver {
             },
             {
                 21016,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "POSTAL ADMINISTRATION IDENTIFICATIONS",
                     AnsiMh10_8_2DataIdentifier.di21016,
 #if NET7_0_OR_GREATER
@@ -4701,7 +4701,7 @@ public static class EntityResolver {
                 )
             },
             {
-                21017, new EntityDescriptor(
+                21017, new EntityDescriptors(
                     "UPU LOCATION CODE",
                     AnsiMh10_8_2DataIdentifier.di21017,
 #if NET7_0_OR_GREATER
@@ -4713,7 +4713,7 @@ public static class EntityResolver {
             },
             {
                 21018,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "QUALIFIED UPU LOCATION CODE",
                     AnsiMh10_8_2DataIdentifier.di21018,
 #if NET7_0_OR_GREATER
@@ -4725,7 +4725,7 @@ public static class EntityResolver {
             },
             {
                 21019,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LICENSE PLATE WITH SERVICE DATA AND LOCATION CODE",
                     AnsiMh10_8_2DataIdentifier.di21019,
 #if NET7_0_OR_GREATER
@@ -4737,7 +4737,7 @@ public static class EntityResolver {
             },
             {
                 21055,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "OCR DATA LOCATOR",
                     AnsiMh10_8_2DataIdentifier.di21055,
 #if NET7_0_OR_GREATER
@@ -4749,7 +4749,7 @@ public static class EntityResolver {
             },
             {
                 22000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER CODE ASSIGNED BY CUSTOMER",
                     AnsiMh10_8_2DataIdentifier.di22000,
 #if NET7_0_OR_GREATER
@@ -4761,7 +4761,7 @@ public static class EntityResolver {
             },
             {
                 22001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER CODE ASSIGNED BY SUPPLIER",
                     AnsiMh10_8_2DataIdentifier.di22001,
 #if NET7_0_OR_GREATER
@@ -4773,7 +4773,7 @@ public static class EntityResolver {
             },
             {
                 22002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "U.P.C. COMPANY PREFIX",
                     AnsiMh10_8_2DataIdentifier.di22002,
 #if NET7_0_OR_GREATER
@@ -4785,7 +4785,7 @@ public static class EntityResolver {
             },
             {
                 22003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "GS1 COMPANY PREFIX",
                     AnsiMh10_8_2DataIdentifier.di22003,
 #if NET7_0_OR_GREATER
@@ -4797,7 +4797,7 @@ public static class EntityResolver {
             },
             {
                 22004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CARRIER IDENTIFICATION CODE",
                     AnsiMh10_8_2DataIdentifier.di22004,
 #if NET7_0_OR_GREATER
@@ -4809,7 +4809,7 @@ public static class EntityResolver {
             },
             {
                 22005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FINANCIAL INSTITUTION IDENTIFICATION CODE",
                     AnsiMh10_8_2DataIdentifier.di22005,
 #if NET7_0_OR_GREATER
@@ -4821,7 +4821,7 @@ public static class EntityResolver {
             },
             {
                 22006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MANUFACTURER'S IDENTIFICATION CODE",
                     AnsiMh10_8_2DataIdentifier.di22006,
 #if NET7_0_OR_GREATER
@@ -4833,7 +4833,7 @@ public static class EntityResolver {
             },
             {
                 22007,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LIABLE PARTY",
                     AnsiMh10_8_2DataIdentifier.di22007,
 #if NET7_0_OR_GREATER
@@ -4845,7 +4845,7 @@ public static class EntityResolver {
             },
             {
                 22008,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER CODE ASSIGNED BY THE CUSTOMER",
                     AnsiMh10_8_2DataIdentifier.di22008,
 #if NET7_0_OR_GREATER
@@ -4857,7 +4857,7 @@ public static class EntityResolver {
             },
             {
                 22009,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER CODE ASSIGNED BY THE SUPPLIER",
                     AnsiMh10_8_2DataIdentifier.di22009,
 #if NET7_0_OR_GREATER
@@ -4869,7 +4869,7 @@ public static class EntityResolver {
             },
             {
                 22010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MANUFACTURER ID",
                     AnsiMh10_8_2DataIdentifier.di22010,
 #if NET7_0_OR_GREATER
@@ -4881,7 +4881,7 @@ public static class EntityResolver {
             },
             {
                 22011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "BUDGET HOLDER",
                     AnsiMh10_8_2DataIdentifier.di22011,
 #if NET7_0_OR_GREATER
@@ -4893,7 +4893,7 @@ public static class EntityResolver {
             },
             {
                 22012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "MANUFACTURER DUNS NUMBER",
                     AnsiMh10_8_2DataIdentifier.di22012,
 #if NET7_0_OR_GREATER
@@ -4905,7 +4905,7 @@ public static class EntityResolver {
             },
             {
                 22013,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "SUPPLIER DUNS NUMBER",
                     AnsiMh10_8_2DataIdentifier.di22013,
 #if NET7_0_OR_GREATER
@@ -4917,7 +4917,7 @@ public static class EntityResolver {
             },
             {
                 22014,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER DUNS NUMBER",
                     AnsiMh10_8_2DataIdentifier.di22014,
 #if NET7_0_OR_GREATER
@@ -4929,7 +4929,7 @@ public static class EntityResolver {
             },
             {
                 22015,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CARRIER-ASSIGNED SHIPPER NUMBER",
                     AnsiMh10_8_2DataIdentifier.di22015,
 #if NET7_0_OR_GREATER
@@ -4940,7 +4940,7 @@ public static class EntityResolver {
                 )
             },
             {
-                22016, new EntityDescriptor(
+                22016, new EntityDescriptors(
                     "VMRS SUPPLIER ID",
                     AnsiMh10_8_2DataIdentifier.di22016,
 #if NET7_0_OR_GREATER
@@ -4952,7 +4952,7 @@ public static class EntityResolver {
             },
             {
                 22017,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "DOD CAGE CODE",
                     AnsiMh10_8_2DataIdentifier.di22017,
 #if NET7_0_OR_GREATER
@@ -4964,7 +4964,7 @@ public static class EntityResolver {
             },
             {
                 22018,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "PARTY TO A TRANSACTION",
                     AnsiMh10_8_2DataIdentifier.di22018,
 #if NET7_0_OR_GREATER
@@ -4975,7 +4975,7 @@ public static class EntityResolver {
                 )
             },
             {
-                22019, new EntityDescriptor(
+                22019, new EntityDescriptors(
                     "PARTYS ROLE(S) IN A TRANSACTION",
                     AnsiMh10_8_2DataIdentifier.di22019,
 #if NET7_0_OR_GREATER
@@ -4986,7 +4986,7 @@ public static class EntityResolver {
                 )
             },
             {
-                22020, new EntityDescriptor(
+                22020, new EntityDescriptors(
                     "IAC CIN CODE VALUES IDENTIFICATION",
                     AnsiMh10_8_2DataIdentifier.di22020,
 #if NET7_0_OR_GREATER
@@ -4998,7 +4998,7 @@ public static class EntityResolver {
             },
             {
                 22021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "IAC CIN SUB UNIT IDENTIFICATION",
                     AnsiMh10_8_2DataIdentifier.di22021,
 #if NET7_0_OR_GREATER
@@ -5009,7 +5009,7 @@ public static class EntityResolver {
                     )
             },
             {
-                22022, new EntityDescriptor(
+                22022, new EntityDescriptors(
                     "CARRIER SCAC",
                     AnsiMh10_8_2DataIdentifier.di22022,
 #if NET7_0_OR_GREATER
@@ -5020,7 +5020,7 @@ public static class EntityResolver {
                     )
             },
             {
-                22023, new EntityDescriptor(
+                22023, new EntityDescriptors(
                     "SUPPLIER VAT NUMBER",
                     AnsiMh10_8_2DataIdentifier.di22023,
 #if NET7_0_OR_GREATER
@@ -5032,7 +5032,7 @@ public static class EntityResolver {
             },
             {
                 22024,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER VAT NUMBER",
                     AnsiMh10_8_2DataIdentifier.di22024,
 #if NET7_0_OR_GREATER
@@ -5044,7 +5044,7 @@ public static class EntityResolver {
             },
             {
                 22025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NCAGE CAGE MANUFACTURER CODE",
                     AnsiMh10_8_2DataIdentifier.di22025,
 #if NET7_0_OR_GREATER
@@ -5056,7 +5056,7 @@ public static class EntityResolver {
             },
             {
                 23000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "WORK ORDER NUMBER",
                     AnsiMh10_8_2DataIdentifier.di23000,
 #if NET7_0_OR_GREATER
@@ -5068,7 +5068,7 @@ public static class EntityResolver {
             },
             {
                 23001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "OPERATION SEQUENCE NUMBER",
                     AnsiMh10_8_2DataIdentifier.di23001,
 #if NET7_0_OR_GREATER
@@ -5080,7 +5080,7 @@ public static class EntityResolver {
             },
             {
                 23002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "OPERATION CODE",
                     AnsiMh10_8_2DataIdentifier.di23002,
 #if NET7_0_OR_GREATER
@@ -5092,7 +5092,7 @@ public static class EntityResolver {
             },
             {
                 23003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "WORK ORDER AND OPERATION SEQUENCE NUMBER",
                     AnsiMh10_8_2DataIdentifier.di23003,
 #if NET7_0_OR_GREATER
@@ -5104,7 +5104,7 @@ public static class EntityResolver {
             },
             {
                 23004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "STATUS CODE",
                     AnsiMh10_8_2DataIdentifier.di23004,
 #if NET7_0_OR_GREATER
@@ -5116,7 +5116,7 @@ public static class EntityResolver {
             },
             {
                 23005,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "WORK UNIT CODE",
                     AnsiMh10_8_2DataIdentifier.di23005,
 #if NET7_0_OR_GREATER
@@ -5128,7 +5128,7 @@ public static class EntityResolver {
             },
             {
                 23006,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "NOMENCLATURE",
                     AnsiMh10_8_2DataIdentifier.di23006,
 #if NET7_0_OR_GREATER
@@ -5139,7 +5139,7 @@ public static class EntityResolver {
                 )
             },
             {
-                23010, new EntityDescriptor(
+                23010, new EntityDescriptors(
                     "FORM CONTROL NUMBER",
                     AnsiMh10_8_2DataIdentifier.di23010,
 #if NET7_0_OR_GREATER
@@ -5151,7 +5151,7 @@ public static class EntityResolver {
             },
             {
                 23011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "QUALITY ASSURANCE INSPECTOR",
                     AnsiMh10_8_2DataIdentifier.di23011,
 #if NET7_0_OR_GREATER
@@ -5163,7 +5163,7 @@ public static class EntityResolver {
             },
             {
                 23012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "TELEPHONE NUMBER",
                     AnsiMh10_8_2DataIdentifier.di23012,
 #if NET7_0_OR_GREATER
@@ -5175,7 +5175,7 @@ public static class EntityResolver {
             },
             {
                 26000,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER-SUPPLIER",
                     AnsiMh10_8_2DataIdentifier.di26000,
 #if NET7_0_OR_GREATER
@@ -5187,7 +5187,7 @@ public static class EntityResolver {
             },
             {
                 26001,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CARRIER-SUPPLIER",
                     AnsiMh10_8_2DataIdentifier.di26001,
 #if NET7_0_OR_GREATER
@@ -5199,7 +5199,7 @@ public static class EntityResolver {
             },
             {
                 26002,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CUSTOMER-CARRIER",
                     AnsiMh10_8_2DataIdentifier.di26002,
 #if NET7_0_OR_GREATER
@@ -5211,7 +5211,7 @@ public static class EntityResolver {
             },
             {
                 26003,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "FREE TEXT",
                     AnsiMh10_8_2DataIdentifier.di26003,
 #if NET7_0_OR_GREATER
@@ -5223,7 +5223,7 @@ public static class EntityResolver {
             },
             {
                 26004,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "CARRIER-TRADING PARTNER",
                     AnsiMh10_8_2DataIdentifier.di26004,
 #if NET7_0_OR_GREATER
@@ -5235,7 +5235,7 @@ public static class EntityResolver {
             },
             {
                 26010,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "HEADER",
                     AnsiMh10_8_2DataIdentifier.di26010,
 #if NET7_0_OR_GREATER
@@ -5247,7 +5247,7 @@ public static class EntityResolver {
             },
             {
                 26011,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 1",
                     AnsiMh10_8_2DataIdentifier.di26011,
 #if NET7_0_OR_GREATER
@@ -5259,7 +5259,7 @@ public static class EntityResolver {
             },
             {
                 26012,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 2",
                     AnsiMh10_8_2DataIdentifier.di26012,
 #if NET7_0_OR_GREATER
@@ -5271,7 +5271,7 @@ public static class EntityResolver {
             },
             {
                 26013,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 3",
                     AnsiMh10_8_2DataIdentifier.di26013,
 #if NET7_0_OR_GREATER
@@ -5284,7 +5284,7 @@ public static class EntityResolver {
             },
             {
                 26014,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 4",
                     AnsiMh10_8_2DataIdentifier.di26014,
 #if NET7_0_OR_GREATER
@@ -5296,7 +5296,7 @@ public static class EntityResolver {
             },
             {
                 26015,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 5",
                     AnsiMh10_8_2DataIdentifier.di26015,
 #if NET7_0_OR_GREATER
@@ -5308,7 +5308,7 @@ public static class EntityResolver {
             },
             {
                 26016,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 6",
                     AnsiMh10_8_2DataIdentifier.di26016,
 #if NET7_0_OR_GREATER
@@ -5320,7 +5320,7 @@ public static class EntityResolver {
             },
             {
                 26017,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 7",
                     AnsiMh10_8_2DataIdentifier.di26017,
 #if NET7_0_OR_GREATER
@@ -5332,7 +5332,7 @@ public static class EntityResolver {
             },
             {
                 26018,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 8",
                     AnsiMh10_8_2DataIdentifier.di26018,
 #if NET7_0_OR_GREATER
@@ -5344,7 +5344,7 @@ public static class EntityResolver {
             },
             {
                 26019,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 9",
                     AnsiMh10_8_2DataIdentifier.di26019,
 #if NET7_0_OR_GREATER
@@ -5356,7 +5356,7 @@ public static class EntityResolver {
             },
             {
                 26020,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 10",
                     AnsiMh10_8_2DataIdentifier.di26020,
 #if NET7_0_OR_GREATER
@@ -5368,7 +5368,7 @@ public static class EntityResolver {
             },
             {
                 26021,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 11",
                     AnsiMh10_8_2DataIdentifier.di26021,
 #if NET7_0_OR_GREATER
@@ -5380,7 +5380,7 @@ public static class EntityResolver {
             },
             {
                 26022,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 12",
                     AnsiMh10_8_2DataIdentifier.di26022,
 #if NET7_0_OR_GREATER
@@ -5392,7 +5392,7 @@ public static class EntityResolver {
             },
             {
                 26023,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 13",
                     AnsiMh10_8_2DataIdentifier.di26023,
 #if NET7_0_OR_GREATER
@@ -5404,7 +5404,7 @@ public static class EntityResolver {
             },
             {
                 26024,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 14",
                     AnsiMh10_8_2DataIdentifier.di26024,
 #if NET7_0_OR_GREATER
@@ -5416,7 +5416,7 @@ public static class EntityResolver {
             },
             {
                 26025,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 15",
                     AnsiMh10_8_2DataIdentifier.di26025,
 #if NET7_0_OR_GREATER
@@ -5428,7 +5428,7 @@ public static class EntityResolver {
             },
             {
                 26026,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 16",
                     AnsiMh10_8_2DataIdentifier.di26026,
 #if NET7_0_OR_GREATER
@@ -5440,7 +5440,7 @@ public static class EntityResolver {
             },
             {
                 26027,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 17",
                     AnsiMh10_8_2DataIdentifier.di26027,
 #if NET7_0_OR_GREATER
@@ -5452,7 +5452,7 @@ public static class EntityResolver {
             },
             {
                 26028,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 18",
                     AnsiMh10_8_2DataIdentifier.di26028,
 #if NET7_0_OR_GREATER
@@ -5464,7 +5464,7 @@ public static class EntityResolver {
             },
             {
                 26029,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 19",
                     AnsiMh10_8_2DataIdentifier.di26029,
 #if NET7_0_OR_GREATER
@@ -5476,7 +5476,7 @@ public static class EntityResolver {
             },
             {
                 26030,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 20",
                     AnsiMh10_8_2DataIdentifier.di26030,
 #if NET7_0_OR_GREATER
@@ -5488,7 +5488,7 @@ public static class EntityResolver {
             },
             {
                 26031,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 21",
                     AnsiMh10_8_2DataIdentifier.di26031,
 #if NET7_0_OR_GREATER
@@ -5500,7 +5500,7 @@ public static class EntityResolver {
             },
             {
                 26032,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 22",
                     AnsiMh10_8_2DataIdentifier.di26032,
 #if NET7_0_OR_GREATER
@@ -5512,7 +5512,7 @@ public static class EntityResolver {
             },
             {
                 26033,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 23",
                     AnsiMh10_8_2DataIdentifier.di26033,
 #if NET7_0_OR_GREATER
@@ -5524,7 +5524,7 @@ public static class EntityResolver {
             },
             {
                 26034,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 24",
                     AnsiMh10_8_2DataIdentifier.di26034,
 #if NET7_0_OR_GREATER
@@ -5536,7 +5536,7 @@ public static class EntityResolver {
             },
             {
                 26035,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 25",
                     AnsiMh10_8_2DataIdentifier.di26035,
 #if NET7_0_OR_GREATER
@@ -5548,7 +5548,7 @@ public static class EntityResolver {
             },
             {
                 26036,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 26",
                     AnsiMh10_8_2DataIdentifier.di26036,
 #if NET7_0_OR_GREATER
@@ -5560,7 +5560,7 @@ public static class EntityResolver {
             },
             {
                 26037,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 27",
                     AnsiMh10_8_2DataIdentifier.di26037,
 #if NET7_0_OR_GREATER
@@ -5572,7 +5572,7 @@ public static class EntityResolver {
             },
             {
                 26038,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 28",
                     AnsiMh10_8_2DataIdentifier.di26038,
 #if NET7_0_OR_GREATER
@@ -5584,7 +5584,7 @@ public static class EntityResolver {
             },
             {
                 26039,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 29",
                     AnsiMh10_8_2DataIdentifier.di26039,
 #if NET7_0_OR_GREATER
@@ -5596,7 +5596,7 @@ public static class EntityResolver {
             },
             {
                 26040,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 30",
                     AnsiMh10_8_2DataIdentifier.di26040,
 #if NET7_0_OR_GREATER
@@ -5608,7 +5608,7 @@ public static class EntityResolver {
             },
             {
                 26041,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 31",
                     AnsiMh10_8_2DataIdentifier.di26041,
 #if NET7_0_OR_GREATER
@@ -5620,7 +5620,7 @@ public static class EntityResolver {
             },
             {
                 26042,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 32",
                     AnsiMh10_8_2DataIdentifier.di26042,
 #if NET7_0_OR_GREATER
@@ -5632,7 +5632,7 @@ public static class EntityResolver {
             },
             {
                 26043,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 33",
                     AnsiMh10_8_2DataIdentifier.di26043,
 #if NET7_0_OR_GREATER
@@ -5644,7 +5644,7 @@ public static class EntityResolver {
             },
             {
                 26044,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 34",
                     AnsiMh10_8_2DataIdentifier.di26044,
 #if NET7_0_OR_GREATER
@@ -5656,7 +5656,7 @@ public static class EntityResolver {
             },
             {
                 26045,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 35",
                     AnsiMh10_8_2DataIdentifier.di26045,
 #if NET7_0_OR_GREATER
@@ -5668,7 +5668,7 @@ public static class EntityResolver {
             },
             {
                 26046,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 36",
                     AnsiMh10_8_2DataIdentifier.di26046,
 #if NET7_0_OR_GREATER
@@ -5680,7 +5680,7 @@ public static class EntityResolver {
             },
             {
                 26047,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 37",
                     AnsiMh10_8_2DataIdentifier.di26047,
 #if NET7_0_OR_GREATER
@@ -5692,7 +5692,7 @@ public static class EntityResolver {
             },
             {
                 26048,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 38",
                     AnsiMh10_8_2DataIdentifier.di26048,
 #if NET7_0_OR_GREATER
@@ -5704,7 +5704,7 @@ public static class EntityResolver {
             },
             {
                 26049,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 39",
                     AnsiMh10_8_2DataIdentifier.di26049,
 #if NET7_0_OR_GREATER
@@ -5716,7 +5716,7 @@ public static class EntityResolver {
             },
             {
                 26050,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 40",
                     AnsiMh10_8_2DataIdentifier.di26050,
 #if NET7_0_OR_GREATER
@@ -5728,7 +5728,7 @@ public static class EntityResolver {
             },
             {
                 26051,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 41",
                     AnsiMh10_8_2DataIdentifier.di26051,
 #if NET7_0_OR_GREATER
@@ -5740,7 +5740,7 @@ public static class EntityResolver {
             },
             {
                 26052,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 42",
                     AnsiMh10_8_2DataIdentifier.di26052,
 #if NET7_0_OR_GREATER
@@ -5752,7 +5752,7 @@ public static class EntityResolver {
             },
             {
                 26053,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 43",
                     AnsiMh10_8_2DataIdentifier.di26053,
 #if NET7_0_OR_GREATER
@@ -5764,7 +5764,7 @@ public static class EntityResolver {
             },
             {
                 26054,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 44",
                     AnsiMh10_8_2DataIdentifier.di26054,
 #if NET7_0_OR_GREATER
@@ -5776,7 +5776,7 @@ public static class EntityResolver {
             },
             {
                 26055,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 45",
                     AnsiMh10_8_2DataIdentifier.di26055,
 #if NET7_0_OR_GREATER
@@ -5788,7 +5788,7 @@ public static class EntityResolver {
             },
             {
                 26056,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 46",
                     AnsiMh10_8_2DataIdentifier.di26056,
 #if NET7_0_OR_GREATER
@@ -5800,7 +5800,7 @@ public static class EntityResolver {
             },
             {
                 26057,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 47",
                     AnsiMh10_8_2DataIdentifier.di26057,
 #if NET7_0_OR_GREATER
@@ -5812,7 +5812,7 @@ public static class EntityResolver {
             },
             {
                 26058,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 48",
                     AnsiMh10_8_2DataIdentifier.di26058,
 #if NET7_0_OR_GREATER
@@ -5824,7 +5824,7 @@ public static class EntityResolver {
             },
             {
                 26059,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 49",
                     AnsiMh10_8_2DataIdentifier.di26059,
 #if NET7_0_OR_GREATER
@@ -5836,7 +5836,7 @@ public static class EntityResolver {
             },
             {
                 26060,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 50",
                     AnsiMh10_8_2DataIdentifier.di26060,
 #if NET7_0_OR_GREATER
@@ -5848,7 +5848,7 @@ public static class EntityResolver {
             },
             {
                 26061,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 51",
                     AnsiMh10_8_2DataIdentifier.di26061,
 #if NET7_0_OR_GREATER
@@ -5860,7 +5860,7 @@ public static class EntityResolver {
             },
             {
                 26062,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 52",
                     AnsiMh10_8_2DataIdentifier.di26062,
 #if NET7_0_OR_GREATER
@@ -5872,7 +5872,7 @@ public static class EntityResolver {
             },
             {
                 26063,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 53",
                     AnsiMh10_8_2DataIdentifier.di26063,
 #if NET7_0_OR_GREATER
@@ -5884,7 +5884,7 @@ public static class EntityResolver {
             },
             {
                 26064,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 54",
                     AnsiMh10_8_2DataIdentifier.di26064,
 #if NET7_0_OR_GREATER
@@ -5896,7 +5896,7 @@ public static class EntityResolver {
             },
             {
                 26065,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 55",
                     AnsiMh10_8_2DataIdentifier.di26065,
 #if NET7_0_OR_GREATER
@@ -5908,7 +5908,7 @@ public static class EntityResolver {
             },
             {
                 26066,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 56",
                     AnsiMh10_8_2DataIdentifier.di26066,
 #if NET7_0_OR_GREATER
@@ -5920,7 +5920,7 @@ public static class EntityResolver {
             },
             {
                 26067,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 57",
                     AnsiMh10_8_2DataIdentifier.di26067,
 #if NET7_0_OR_GREATER
@@ -5932,7 +5932,7 @@ public static class EntityResolver {
             },
             {
                 26068,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 58",
                     AnsiMh10_8_2DataIdentifier.di26068,
 #if NET7_0_OR_GREATER
@@ -5944,7 +5944,7 @@ public static class EntityResolver {
             },
             {
                 26069,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 59",
                     AnsiMh10_8_2DataIdentifier.di26069,
 #if NET7_0_OR_GREATER
@@ -5956,7 +5956,7 @@ public static class EntityResolver {
             },
             {
                 26070,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 60",
                     AnsiMh10_8_2DataIdentifier.di26070,
 #if NET7_0_OR_GREATER
@@ -5968,7 +5968,7 @@ public static class EntityResolver {
             },
             {
                 26071,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 61",
                     AnsiMh10_8_2DataIdentifier.di26071,
 #if NET7_0_OR_GREATER
@@ -5980,7 +5980,7 @@ public static class EntityResolver {
             },
             {
                 26072,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 62",
                     AnsiMh10_8_2DataIdentifier.di26072,
 #if NET7_0_OR_GREATER
@@ -5992,7 +5992,7 @@ public static class EntityResolver {
             },
             {
                 26073,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 63",
                     AnsiMh10_8_2DataIdentifier.di26073,
 #if NET7_0_OR_GREATER
@@ -6004,7 +6004,7 @@ public static class EntityResolver {
             },
             {
                 26074,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 64",
                     AnsiMh10_8_2DataIdentifier.di26074,
 #if NET7_0_OR_GREATER
@@ -6016,7 +6016,7 @@ public static class EntityResolver {
             },
             {
                 26075,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 65",
                     AnsiMh10_8_2DataIdentifier.di26075,
 #if NET7_0_OR_GREATER
@@ -6028,7 +6028,7 @@ public static class EntityResolver {
             },
             {
                 26076,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 66",
                     AnsiMh10_8_2DataIdentifier.di26076,
 #if NET7_0_OR_GREATER
@@ -6040,7 +6040,7 @@ public static class EntityResolver {
             },
             {
                 26077,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 67",
                     AnsiMh10_8_2DataIdentifier.di26077,
 #if NET7_0_OR_GREATER
@@ -6052,7 +6052,7 @@ public static class EntityResolver {
             },
             {
                 26078,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 68",
                     AnsiMh10_8_2DataIdentifier.di26078,
 #if NET7_0_OR_GREATER
@@ -6064,7 +6064,7 @@ public static class EntityResolver {
             },
             {
                 26079,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 69",
                     AnsiMh10_8_2DataIdentifier.di26079,
 #if NET7_0_OR_GREATER
@@ -6076,7 +6076,7 @@ public static class EntityResolver {
             },
             {
                 26080,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 70",
                     AnsiMh10_8_2DataIdentifier.di26080,
 #if NET7_0_OR_GREATER
@@ -6088,7 +6088,7 @@ public static class EntityResolver {
             },
             {
                 26081,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 71",
                     AnsiMh10_8_2DataIdentifier.di26081,
 #if NET7_0_OR_GREATER
@@ -6100,7 +6100,7 @@ public static class EntityResolver {
             },
             {
                 26082,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 72",
                     AnsiMh10_8_2DataIdentifier.di26082,
 #if NET7_0_OR_GREATER
@@ -6112,7 +6112,7 @@ public static class EntityResolver {
             },
             {
                 26083,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 73",
                     AnsiMh10_8_2DataIdentifier.di26083,
 #if NET7_0_OR_GREATER
@@ -6124,7 +6124,7 @@ public static class EntityResolver {
             },
             {
                 26084,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 74",
                     AnsiMh10_8_2DataIdentifier.di26084,
 #if NET7_0_OR_GREATER
@@ -6136,7 +6136,7 @@ public static class EntityResolver {
             },
             {
                 26085,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 75",
                     AnsiMh10_8_2DataIdentifier.di26085,
 #if NET7_0_OR_GREATER
@@ -6148,7 +6148,7 @@ public static class EntityResolver {
             },
             {
                 26086,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 76",
                     AnsiMh10_8_2DataIdentifier.di26086,
 #if NET7_0_OR_GREATER
@@ -6160,7 +6160,7 @@ public static class EntityResolver {
             },
             {
                 26087,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 77",
                     AnsiMh10_8_2DataIdentifier.di26087,
 #if NET7_0_OR_GREATER
@@ -6172,7 +6172,7 @@ public static class EntityResolver {
             },
             {
                 26088,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 78",
                     AnsiMh10_8_2DataIdentifier.di26088,
 #if NET7_0_OR_GREATER
@@ -6184,7 +6184,7 @@ public static class EntityResolver {
             },
             {
                 26089,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 79",
                     AnsiMh10_8_2DataIdentifier.di26089,
 #if NET7_0_OR_GREATER
@@ -6196,7 +6196,7 @@ public static class EntityResolver {
             },
             {
                 26090,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 80",
                     AnsiMh10_8_2DataIdentifier.di26090,
 #if NET7_0_OR_GREATER
@@ -6208,7 +6208,7 @@ public static class EntityResolver {
             },
             {
                 26091,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 81",
                     AnsiMh10_8_2DataIdentifier.di26091,
 #if NET7_0_OR_GREATER
@@ -6220,7 +6220,7 @@ public static class EntityResolver {
             },
             {
                 26092,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 82",
                     AnsiMh10_8_2DataIdentifier.di26092,
 #if NET7_0_OR_GREATER
@@ -6232,7 +6232,7 @@ public static class EntityResolver {
             },
             {
                 26093,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 83",
                     AnsiMh10_8_2DataIdentifier.di26093,
 #if NET7_0_OR_GREATER
@@ -6244,7 +6244,7 @@ public static class EntityResolver {
             },
             {
                 26094,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 84",
                     AnsiMh10_8_2DataIdentifier.di26094,
 #if NET7_0_OR_GREATER
@@ -6256,7 +6256,7 @@ public static class EntityResolver {
             },
             {
                 26095,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 85",
                     AnsiMh10_8_2DataIdentifier.di26095,
 #if NET7_0_OR_GREATER
@@ -6268,7 +6268,7 @@ public static class EntityResolver {
             },
             {
                 26096,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 86",
                     AnsiMh10_8_2DataIdentifier.di26096,
 #if NET7_0_OR_GREATER
@@ -6280,7 +6280,7 @@ public static class EntityResolver {
             },
             {
                 26097,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 87",
                     AnsiMh10_8_2DataIdentifier.di26097,
 #if NET7_0_OR_GREATER
@@ -6292,7 +6292,7 @@ public static class EntityResolver {
             },
             {
                 26098,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 88",
                     AnsiMh10_8_2DataIdentifier.di26098,
 #if NET7_0_OR_GREATER
@@ -6305,7 +6305,7 @@ public static class EntityResolver {
             },
             {
                 26099,
-                new EntityDescriptor(
+                new EntityDescriptors(
                     "LINE 89",
                     AnsiMh10_8_2DataIdentifier.di26099,
 #if NET7_0_OR_GREATER
@@ -6440,7 +6440,7 @@ public static class EntityResolver {
                 currentPosition);
         }
 
-        EntityDescriptor descriptors;
+        EntityDescriptors descriptors;
 
         try {
             descriptors = descriptorKey.GetDescriptors();
@@ -7218,8 +7218,8 @@ public static class EntityResolver {
     /// </summary>
     /// <param name="descriptorKey">The data identifier descriptor key.</param>
     /// <returns>The descriptors tuple for the given The data identifier descriptor key.</returns>
-    private static EntityDescriptor GetDescriptors(this int descriptorKey) {
-        return descriptorKey < 0 ? new EntityDescriptor(null, null, () => new Regex(string.Empty)) : Descriptors[descriptorKey];
+    private static EntityDescriptors GetDescriptors(this int descriptorKey) {
+        return descriptorKey < 0 ? new EntityDescriptors(null, null, () => new Regex(string.Empty)) : Descriptors[descriptorKey];
     }
 
     /// <summary>
