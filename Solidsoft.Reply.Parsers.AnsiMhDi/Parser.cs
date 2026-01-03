@@ -82,6 +82,81 @@ public static class Parser {
 
 #if NET7_0_OR_GREATER
     /// <summary>
+    ///     Parse the content of a GS1-encoded string.
+    /// </summary>
+    /// <param name="data">
+    ///     The data to be parsed.
+    /// </param>
+    /// <param name="processResolvedEntity">
+    ///     A delegate that is invoked to process each resolved entity.  Use this overload to minmise heap allocations for greatest performance.
+    /// </param>
+    /// <param name="initialPosition">
+    ///     The initial character position.
+    /// </param>
+    /// <remarks>
+    /// Use this method as an alternative to Parse() for the very highest performance scenarios.  By using the ResolvedEntityDelegate delegate,
+    /// you can avoid unecessary heap allocations.
+    /// </remarks>
+    public static void ParseEx(ReadOnlySpan<char> data, ResolvedEntityDelegate processResolvedEntity, int initialPosition = 0) {
+        ArgumentNullException.ThrowIfNull(processResolvedEntity);
+
+        // Is any data present?
+        if (data.IsNullOrWhiteSpace()) {
+            var entity = new ResolvedApplicationIdentifierRef(
+                    new ParserException(2001, Resources.GS1_Error_001, true),
+                    initialPosition);
+
+            // Handle errors
+            processResolvedEntity(in entity);
+            return;
+        }
+
+        DoParseRecords(data, null, processResolvedEntity, initialPosition);
+    }
+#endif
+
+#if NET6_0_OR_GREATER
+    /// <summary>
+    ///     Parse the content of a GS1-encoded string.
+    /// </summary>
+    /// <param name="data">
+    ///     The data to be parsed.
+    /// </param>
+    /// <param name="processResolvedEntity">
+    ///     An action that is invoked to process each resolved entity.
+    /// </param>
+    /// <param name="initialPosition">
+    ///     The initial character position.
+    /// </param>
+    public static void Parse(ReadOnlySpan<char> data, Action<IResolvedEntity> processResolvedEntity, int initialPosition = 0) {
+#if NET7_0_OR_GREATER
+        ArgumentNullException.ThrowIfNull(processResolvedEntity);
+#else
+        if (processResolvedEntity is null) {
+            throw new ArgumentNullException(nameof(processResolvedEntity));
+        }
+#endif
+
+        // Is any data present?
+        if (data.IsNullOrWhiteSpace()) {
+            // Handle errors
+            processResolvedEntity(
+                new ResolvedApplicationIdentifier(
+                    new ParserException(2001, Resources.GS1_Error_001, true),
+                    initialPosition));
+            return;
+        }
+
+#if NET7_0_OR_GREATER
+        DoParseRecords(data, processResolvedEntity, null, initialPosition);
+#else
+        DoParseRecords(data, processResolvedEntity, initialPosition);
+#endif
+    }
+#endif
+
+#if NET7_0_OR_GREATER
+    /// <summary>
     ///   Code generator for regular expression that captures a data identifier (0..3 digits followed by a letter).
     /// </summary>
     /// <returns></returns>

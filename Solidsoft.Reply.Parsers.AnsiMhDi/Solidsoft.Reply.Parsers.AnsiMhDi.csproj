@@ -32,6 +32,7 @@
 	<NeutralLanguage>en</NeutralLanguage>
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
   </PropertyGroup>
 
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
