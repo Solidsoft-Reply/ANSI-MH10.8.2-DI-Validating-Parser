@@ -154,6 +154,9 @@
     <value>Ugyldigt dataidentifikator.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Værdien{0} stemmer ikke overens med det angivne mønster for datasegmentet.</value>
+    <value>Værdien {0} matcher ikke det angivne mønster for dataelementet {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Den implicitte decimalpunktsposition (omvendt eksponent) er angivet forkert.</value>
   </data>
 </root>

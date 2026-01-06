@@ -154,6 +154,9 @@
     <value>Neplatný identifikátor údajov.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Hodnota{0} nezodpovedá špecifikovanému vzoru pre dátový prvok.</value>
+    <value>Hodnota {0} nezodpovedá zadanému vzoru pre dátový prvok {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Implicitná pozícia desatinnej čiarky (inverzný exponent) je zadaná nesprávne.</value>
   </data>
 </root>

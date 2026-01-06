@@ -154,6 +154,9 @@
     <value>Identificador de datos inválido.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>El valor{0} no coincide con el patrón especificado para el elemento de datos.</value>
+    <value>El valor {0} no coincide con el patrón especificado para el elemento de datos {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>La posición implícita del punto decimal (exponente inverso) se ha especificado incorrectamente.</value>
   </data>
 </root>

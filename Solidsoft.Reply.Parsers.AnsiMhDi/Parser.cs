@@ -24,11 +24,19 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 
 using Common;
 
+using Properties;
+
 using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-using Properties;
+#if NET7_0_OR_GREATER
+/// <summary>
+/// Delegate for processing element data elements with minimal heap allocations.
+/// </summary>
+/// <param name="resolvedElement">The element element to process.</param>
+public delegate void ResolvedElementDelegate(scoped in ResolvedDataIdentifierRef resolvedElement);
+#endif
 
 /// <summary>
 ///   Barcode Parser for ANSI MH10.8 data.
@@ -72,17 +80,21 @@ public static class Parser {
             // Handle errors
             processResolvedEntity(
                 new ResolvedDataIdentifier(
-                    new ParserException(3001, Resources.Ansi_Mh10_8_2_Error_003, true),
+                    new ParserException(string.Empty, 3001, Resources.Ansi_Mh10_8_2_Error_003, true),
                     initialPosition));
             return;
         }
 
-        DoParseRecords(data, processResolvedEntity, initialPosition);
+#if NET7_0_OR_GREATER
+        DoParseRecords(data.AsSpan(), processResolvedEntity, null, initialPosition);
+#else
+        DoParseRecords(data.AsSpan(), processResolvedEntity, initialPosition);
+#endif
     }
 
 #if NET7_0_OR_GREATER
     /// <summary>
-    ///     Parse the content of a GS1-encoded string.
+    ///     Parse ANSI MH10.8-encoded data..
     /// </summary>
     /// <param name="data">
     ///     The data to be parsed.
@@ -97,13 +109,13 @@ public static class Parser {
     /// Use this method as an alternative to Parse() for the very highest performance scenarios.  By using the ResolvedEntityDelegate delegate,
     /// you can avoid unecessary heap allocations.
     /// </remarks>
-    public static void ParseEx(ReadOnlySpan<char> data, ResolvedEntityDelegate processResolvedEntity, int initialPosition = 0) {
+    public static void ParseEx(ReadOnlySpan<char> data, ResolvedElementDelegate processResolvedEntity, int initialPosition = 0) {
         ArgumentNullException.ThrowIfNull(processResolvedEntity);
 
         // Is any data present?
         if (data.IsNullOrWhiteSpace()) {
-            var entity = new ResolvedApplicationIdentifierRef(
-                    new ParserException(2001, Resources.GS1_Error_001, true),
+            var entity = new ResolvedDataIdentifierRef(
+                    new ParserException(string.Empty, 3001, Resources.Ansi_Mh10_8_2_Error_003, true),
                     initialPosition);
 
             // Handle errors
@@ -117,7 +129,7 @@ public static class Parser {
 
 #if NET6_0_OR_GREATER
     /// <summary>
-    ///     Parse the content of a GS1-encoded string.
+    ///     Parse ANSI MH10.8-encoded data..
     /// </summary>
     /// <param name="data">
     ///     The data to be parsed.
@@ -141,8 +153,8 @@ public static class Parser {
         if (data.IsNullOrWhiteSpace()) {
             // Handle errors
             processResolvedEntity(
-                new ResolvedApplicationIdentifier(
-                    new ParserException(2001, Resources.GS1_Error_001, true),
+                new ResolvedDataIdentifier(
+                    new ParserException(string.Empty, 3001, Resources.Ansi_Mh10_8_2_Error_003, true),
                     initialPosition));
             return;
         }
@@ -164,6 +176,7 @@ public static class Parser {
     private static partial Regex MatchDataIdentifierRegex();
 #endif
 
+#pragma warning disable CS1587 // XML comment is not placed on a valid language element
     /// <summary>
     ///   Parse the fields in the record buffer.
     /// </summary>
@@ -173,34 +186,43 @@ public static class Parser {
     /// <param name="processResolvedEntity">
     ///   The function for processing resolved entities.
     /// </param>
+#if NET7_0_OR_GREATER
+    /// <param name="processResolvedElementDelegate">
+    ///     A delegate that is invoked to process each element element.
+    /// </param>
+    /// <remarks>
+    /// If a delegate is provided, it is invoked to process each element element.
+    /// </remarks>
+#endif
     /// <param name="currentPosition">
     ///   The current character position.
     /// </param>
+#pragma warning restore CS1587 // XML comment is not placed on a valid language element
+#pragma warning disable CS1573 // Parameter has no matching param tag in the XML comment (but other parameters do)
     private static void DoParseFields(
-        string recordBuffer,
-        Action<IResolvedEntity> processResolvedEntity,
+        ReadOnlySpan<char> recordBuffer,
+        Action<IResolvedEntity>? processResolvedEntity,
+#if NET7_0_OR_GREATER
+        ResolvedElementDelegate? processResolvedElementDelegate,
+#endif
         int currentPosition) {
+#pragma warning restore CS1573 // Parameter has no matching param tag in the XML comment (but other parameters do)
         var fieldSeparator = ((char)29).ToInvariantString();
 
         while (true) {
             // If the record buffer does not contain data, process next record
-            if (string.IsNullOrWhiteSpace(recordBuffer)) {
+            if (recordBuffer.IsNullOrWhiteSpace()) {
                 return;
             }
 
             // Does the record buffer contain at least one field separator?
             var fieldPosition = currentPosition;
-
-#if NETCOREAPP2_1_OR_GREATER
             var fieldBuffer = recordBuffer.Contains(fieldSeparator ?? string.Empty, StringComparison.Ordinal)
-#else
-            var fieldBuffer = recordBuffer.Contains(fieldSeparator ?? string.Empty)
-#endif
                 /* Yes - Move data up the first field separator from the record buffer into the field buffer. */
 #if NET6_0_OR_GREATER
                 ? recordBuffer[..recordBuffer.IndexOf(fieldSeparator ?? string.Empty, StringComparison.Ordinal)]
 #else
-                ? recordBuffer.Substring(0, recordBuffer.IndexOf(fieldSeparator ?? string.Empty, StringComparison.Ordinal))
+                ? recordBuffer.Slice(0, recordBuffer.IndexOf(fieldSeparator ?? string.Empty, StringComparison.Ordinal))
 #endif
                 /* No - Move all data from the record buffer into the field buffer. */
                 : recordBuffer;
@@ -209,7 +231,7 @@ public static class Parser {
 #if NET6_0_OR_GREATER
             recordBuffer = recordBuffer[fieldBuffer.Length..];
 #else
-            recordBuffer = recordBuffer.Substring(fieldBuffer.Length);
+            recordBuffer = recordBuffer.Slice(fieldBuffer.Length);
 #endif
             currentPosition += fieldBuffer.Length;
 
@@ -219,17 +241,50 @@ public static class Parser {
 #if NET6_0_OR_GREATER
                 ? recordBuffer[(fieldSeparator ?? string.Empty).Length..]
 #else
-                ? recordBuffer.Substring((fieldSeparator ?? string.Empty).Length)
+                ? recordBuffer.Slice((fieldSeparator ?? string.Empty).Length)
 #endif
                 : recordBuffer;
             currentPosition += recordBufferLength - recordBuffer.Length;
 
             // Capture the data identifier (0..3 digits followed by a letter)
 #if NET7_0_OR_GREATER
-            var match = MatchDataIdentifierRegex().Match(fieldBuffer);
+            var enumerator = MatchDataIdentifierRegex().EnumerateMatches(fieldBuffer);
+            var hasMatch = enumerator.MoveNext();
+            if (!hasMatch) {
+                HandleMissingDataIdentifierError(fieldPosition);
+                continue;
+            }
+
+            var first = enumerator.Current;
+
+            // Move the field position to the start of the field data
+            fieldPosition += first.Length;
+
+            // Transmit data for further processing.
+            if (processResolvedElementDelegate is not null) {
+                ResolvedDataIdentifierRef defaultElement = new (
+                    -1,
+                    stackalloc char[4],
+                    null,
+                    null,
+                    stackalloc char[ResolvedDataIdentifierRef.ValueMaxLength],
+                    false,
+                    stackalloc char[ResolvedDataIdentifierRef.DataTitleMaxLength],
+                    stackalloc char[ResolvedDataIdentifierRef.DescriptionMaxLength],
+                    0,
+                    0);
+                processResolvedElementDelegate
+                    .Invoke(fieldBuffer[first.Length..]
+                    .ResolveEx(defaultElement, fieldBuffer[first.Index..first.Length], fieldPosition));
+                return;
+            }
+
+            processResolvedEntity?
+                .Invoke(fieldBuffer[first.Length..]
+                .Resolve(fieldBuffer[first.Index..first.Length], fieldPosition));
+
 #else
-            var match = MatchDataIdentifierRegex.Match(fieldBuffer);
-#endif
+            var match = MatchDataIdentifierRegex.Match(fieldBuffer.ToString());  // must materialize to string for Regex use
 
             if (!match.Success) {
                 // Handle errors
@@ -240,23 +295,24 @@ public static class Parser {
             // Move the field position to the start of the field data
             fieldPosition += match.Value.Length;
 
-            // Transmit data for further processing.
 #if NET6_0_OR_GREATER
             processResolvedEntity?.Invoke(fieldBuffer[match.Length..]
 #else
-            processResolvedEntity?.Invoke(fieldBuffer.Substring(match.Length)
+            processResolvedEntity?.Invoke(fieldBuffer.Slice(match.Length)
 #endif
                 .Resolve(match.Value, fieldPosition));
+#endif
         }
 
         void HandleMissingDataIdentifierError(int fieldPosition) {
             processResolvedEntity?.Invoke(
                 new ResolvedDataIdentifier(
-                    new ParserException(3008, Resources.Ansi_Mh10_8_2_Error_004, false),
+                    new ParserException(string.Empty, 3008, Resources.Ansi_Mh10_8_2_Error_004, false),
                     fieldPosition));
         }
     }
 
+#pragma warning disable CS1587 // XML comment is not placed on a valid language element
     /// <summary>
     ///   Parse the records in the data buffer.
     /// </summary>
@@ -266,50 +322,68 @@ public static class Parser {
     /// <param name="processResolvedEntity">
     ///   The function for processing resolved entities.
     /// </param>
+#if NET7_0_OR_GREATER
+    /// <param name="processResolvedElementDelegate">
+    ///     A delegate that is invoked to process each element element.
+    /// </param>
+    /// <remarks>
+    /// If a delegate is provided, it is invoked to process each element element.
+    /// </remarks>
+#endif
     /// <param name="currentPosition">
     ///   The current character position.
     /// </param>
+#pragma warning restore CS1587 // XML comment is not placed on a valid language element
+#pragma warning disable CS1573 // Parameter has no matching param tag in the XML comment (but other parameters do)
     private static void DoParseRecords(
-        string? dataBuffer,
-        Action<IResolvedEntity> processResolvedEntity,
+        ReadOnlySpan<char> dataBuffer,
+        Action<IResolvedEntity>? processResolvedEntity,
+#if NET7_0_OR_GREATER
+        ResolvedElementDelegate? processResolvedElementDelegate,
+#endif
         int currentPosition) {
+#pragma warning restore CS1573 // Parameter has no matching param tag in the XML comment (but other parameters do)
         var formatHeader = "06" + (char)29;
         var formatTrailer = ((char)30).ToInvariantString();
 
         // Does the data buffer contain data?
-        if (string.IsNullOrWhiteSpace(dataBuffer)) {
+        if (dataBuffer.IsNullOrWhiteSpace()) {
             // No - End parsing.
-            processResolvedEntity.Invoke(
+#if NET7_0_OR_GREATER
+            if (processResolvedElementDelegate is not null) {
+                processResolvedElementDelegate.Invoke(
+                    new ResolvedDataIdentifierRef(
+                        new ParserException(string.Empty, 3004, Resources.Ansi_Mh10_8_2_Error_001, true),
+                        currentPosition));
+                return;
+            }
+#endif
+            processResolvedEntity?.Invoke(
                 new ResolvedDataIdentifier(
-                    new ParserException(3004, Resources.Ansi_Mh10_8_2_Error_001, true),
+                    new ParserException(string.Empty, 3004, Resources.Ansi_Mh10_8_2_Error_001, true),
                     currentPosition));
             return;
         }
 
         while (true) {
             // If the data buffer does not contain data, end parsing.
-            if (string.IsNullOrWhiteSpace(dataBuffer)) {
+            if (dataBuffer.IsNullOrWhiteSpace()) {
                 return;
             }
 
             // Is the data terminated by a format trailer?
             var recordPosition = currentPosition;
-
-#if NETCOREAPP2_1_OR_GREATER
             var recordBuffer = dataBuffer!.Contains(formatTrailer, StringComparison.Ordinal)
-#else
-            var recordBuffer = dataBuffer!.Contains(formatTrailer)
-#endif
-               /* Yes - Does the data buffer start with a format header? */
-               ? FormatTrailerTestFormatHeader()
+               ? FormatTrailerTestFormatHeader(dataBuffer)
                /* No - Does the data buffer start with a format header */
-               : NoFormatTrailerTestFormatHeader();
+               : NoFormatTrailerTestFormatHeader(dataBuffer);
 
             // Remove record from data buffer.
 #if NET6_0_OR_GREATER
             dataBuffer = dataBuffer[recordBuffer.Length..];
+
 #else
-            dataBuffer = dataBuffer.Substring(recordBuffer.Length);
+            dataBuffer = dataBuffer.Slice(recordBuffer.Length);
 #endif
             currentPosition += recordBuffer.Length;
 
@@ -319,7 +393,7 @@ public static class Parser {
 #if NET6_0_OR_GREATER
                 ? dataBuffer[formatTrailer.Length..]
 #else
-                ? dataBuffer.Substring(formatTrailer.Length)
+                ? dataBuffer.Slice(formatTrailer.Length)
 #endif
                 : dataBuffer;
             currentPosition += dataBufferLength - dataBuffer.Length;
@@ -329,42 +403,63 @@ public static class Parser {
 #if NET6_0_OR_GREATER
                 ? recordBuffer[formatHeader.Length..]
 #else
-                ? recordBuffer.Substring(formatHeader.Length)
+                ? recordBuffer.Slice(formatHeader.Length)
 #endif
                 : recordBuffer;
 
             // Does the record buffer contain data?
-            if (string.IsNullOrWhiteSpace(recordBuffer)) {
+            if (recordBuffer.IsNullOrWhiteSpace()) {
                 // No - continue.
                 continue;
             }
 
+#if NET7_0_OR_GREATER
+            if (processResolvedElementDelegate is not null) {
+                DoParseFields(recordBuffer, null, processResolvedElementDelegate, recordPosition);
+            }
+            else {
+                DoParseFields(recordBuffer, processResolvedEntity, null, recordPosition);
+            }
+#else
             DoParseFields(recordBuffer, processResolvedEntity, recordPosition);
-#pragma warning disable S1751
+#endif
             continue;
-#pragma warning restore S1751
 
-            string FormatTrailerTestFormatHeader() => dataBuffer.StartsWith(formatHeader, StringComparison.Ordinal)
+            ReadOnlySpan<char> FormatTrailerTestFormatHeader(ReadOnlySpan<char> buffer) => buffer.StartsWith(formatHeader, StringComparison.Ordinal)
                 /* Yes - Copy data up to and including the first format trailer into record buffer */
 #if NET6_0_OR_GREATER
-                ? dataBuffer[..dataBuffer.IndexOf(formatTrailer, StringComparison.Ordinal)]
+                ? buffer[..buffer.IndexOf(formatTrailer, StringComparison.Ordinal)]
 #else
-                ? dataBuffer.Substring(dataBuffer.IndexOf(formatTrailer, StringComparison.Ordinal))
+                ? buffer.Slice(buffer.IndexOf(formatTrailer, StringComparison.Ordinal))
 #endif
                 /* No - Handle errors */
                 : HandleFormatDataError(Resources.Ansi_Mh10_8_2_001);
 
-            string NoFormatTrailerTestFormatHeader() => dataBuffer.StartsWith(formatHeader, StringComparison.Ordinal)
+            ReadOnlySpan<char> NoFormatTrailerTestFormatHeader(ReadOnlySpan<char> buffer) => buffer.StartsWith(formatHeader, StringComparison.Ordinal)
                 /* Yes - Handle errors */
                 ? HandleFormatDataError(Resources.Ansi_Mh10_8_2_002)
                 /* No - Copy the data buffer into the record buffer */
-                : dataBuffer;
+                : buffer;
         }
 
         string HandleFormatDataError(string formatPart) {
-            processResolvedEntity.Invoke(
+#if NET7_0_OR_GREATER
+            if (processResolvedElementDelegate is not null) {
+                processResolvedElementDelegate.Invoke(
+                    new ResolvedDataIdentifierRef(
+                        new ParserException(
+                            string.Empty,
+                            3003,
+                            string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_002, formatPart),
+                            false),
+                        currentPosition));
+                return string.Empty;
+            }
+#endif
+            processResolvedEntity?.Invoke(
                 new ResolvedDataIdentifier(
                     new ParserException(
+                        string.Empty,
                         3003,
                         string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_002, formatPart),
                         false),

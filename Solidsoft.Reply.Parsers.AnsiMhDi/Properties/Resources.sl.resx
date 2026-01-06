@@ -154,6 +154,9 @@
     <value>Neveljaven identifikator podatkov.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Vrednost{0} se ne ujema z določenim vzorcem za podatkovni element.</value>
+    <value>Vrednost {0} se ne ujema z določenim vzorcem za podatkovni element {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Implicitni položaj decimalne vejice (inverzni eksponent) je napačno določen.</value>
   </data>
 </root>

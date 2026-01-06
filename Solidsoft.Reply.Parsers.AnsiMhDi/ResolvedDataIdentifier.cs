@@ -178,6 +178,22 @@ public class ResolvedDataIdentifier : IResolvedEntity {
     public string Value { get; }
 
     /// <summary>
+    ///   Gets the index of the element string sequence. This is always 0 unless parsing a lit of strings.
+    /// </summary>
+    public int Index => 0;
+
+    /// <summary>
+    ///     Gets a value indicating whether the application identifier is a fixed-width field,.
+    /// </summary>
+    // ReSharper disable once MemberCanBePrivate.Global
+    public bool IsFixedWidth => false;
+
+    /// <summary>
+    ///     Gets the sequence number..
+    /// </summary>
+    public int? Sequence => null;
+
+    /// <summary>
     ///   Adds a resolver exception.
     /// </summary>
     /// <param name="parserException">The resolver exception to be added.</param>

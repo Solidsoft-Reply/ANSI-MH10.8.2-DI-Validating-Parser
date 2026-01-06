@@ -154,6 +154,9 @@
     <value>Netinkamas duomenų identifikatorius.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Vertė{0} neatitinka nustatyto duomenų elemento rašto.</value>
+    <value>Reikšmė{0} neatitinka nurodyto duomenų elemento {1} šablono.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Numanoma numanomo kablelio padėtis (atvirkštinis eksponentas) nurodyta neteisingai.</value>
   </data>
 </root>

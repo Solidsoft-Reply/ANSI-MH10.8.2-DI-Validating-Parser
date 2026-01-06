@@ -154,6 +154,9 @@
     <value>Vigane andmete identifikaator.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Väärtus{0} ei ühti määratud mustriga andmeelemendile.</value>
+    <value>Väärtus{0} ei vasta andmeelemendi {1} jaoks määratud mustrile.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Kaudse kümnendkoha asukoht (pöördeksponent) on määratud valesti.</value>
   </data>
 </root>

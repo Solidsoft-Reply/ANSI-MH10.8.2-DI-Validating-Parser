@@ -649,13 +649,13 @@
     <value>Additional Code Assigned by the Supplier to an Entity for its Lifetime (e.g., traceability number, computer serial number)</value>
   </data>
   <data name="di19002" xml:space="preserve">
-    <value>Advance Shipment Notification (ASN) Shipment ID (SID) corresponds to ANSI ASC X12 Data Element 396</value>
+    <value>Advance Shipment Notification (ASN) Shipment ID (SID) corresponds to ANSI ASC X12 Data Element 396.</value>
   </data>
   <data name="di19003" xml:space="preserve">
     <value>Unique Package Identification Assigned by Supplier (lowest level of packaging which has a package ID code; shall contain like items)</value>
   </data>
   <data name="di19004" xml:space="preserve">
-    <value>Package Identification Assigned by Supplier to master packaging containing like items on a single customer order</value>
+    <value>Package Identification Assigned by Supplier to master packaging containing like items on a single customer order.</value>
   </data>
   <data name="di19005" xml:space="preserve">
     <value>Package Identification Assigned by Supplier to master packaging containing unlike items on a single customer order</value>
@@ -688,7 +688,7 @@
     <value>4th Class Non-identical parcel post manifesting</value>
   </data>
   <data name="di19015" xml:space="preserve">
-    <value>Serial Number Assigned by the Vendor Entity, that can only be used in conjunction with '13V'</value>
+    <value>Serial Number Assigned by the Vendor Entity, that can only be used in conjunction with '13V'.</value>
   </data>
   <data name="di19016" xml:space="preserve">
     <value>Version Number, e.g., Software Version</value>
@@ -700,7 +700,7 @@
     <value>CAGE Code &amp; Serial Number Unique Within CAGE</value>
   </data>
   <data name="di19019" xml:space="preserve">
-    <value>Combined Dun &amp; Bradstreet company identification of the supplier followed by a unique package identification assigned by the supplier, in the format nn...nn+nn...n where a plus symbol (+) is used as a delimiter between the DUNS Number and unique package identification</value>
+    <value>Combined Dun &amp; Bradstreet company identification of the supplier followed by a unique package identification assigned by the supplier, in the format nn...nn+nn...n where a plus symbol (+) is used as a delimiter between the DUNS Number and unique package identification.</value>
   </data>
   <data name="di19020" xml:space="preserve">
     <value>Traceability Code for an Entity Assigned by the Customer</value>
@@ -718,7 +718,7 @@
     <value>According to ISO/IEC 15963 (value is a conversion of its bit value to 8-bit ASCII values). This Data Identifier could possibly assume any ASCII-256 value. For freight container tags the Registration Authority (RA) for manufacturers is the RA for ISO 14816. (ISO 646)</value>
   </data>
   <data name="di19025" xml:space="preserve">
-    <value>Identification of a party to a transaction assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 3 concatenated data elements:  IAC, followed by CIN, followed by the supplier assign serial number that is unique within the CIN holder's domain  (See Annex C.11)</value>
+    <value>Identification of a party to a transaction assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 3 concatenated data elements:  IAC, followed by CIN, followed by the supplier assign serial number that is unique within the CIN holder's domain  (See Annex C.11).</value>
   </data>
   <data name="di19026" xml:space="preserve">
     <value>Equipment Identifier, being a globally unique identifier for a device, an item of equipment or instance of a computer application used in the production, transport, processing or other handling of items, that is constructed by concatenating:\n - an ISO/IEC 15459 issuing agency code;\n - an equipment number which accords with specifications of the issuing agency concerned; and that:\n - comprises only upper case alphabetic and/or numeric characters;\n - is unique (that is, is distinct from any other ISO/IEC 15459 compliant identifier) within the domain of the issuing agency;\n - cannot be from any other ISO/IEC 15459 compliant identifier, issued under the same issuing agency, by the simple addition of characters to, or their removal from, it end.\nReader ID.\nEquipment identifier, being a globally unique identifier for a device, an item of equipment or instance of a computer application used in the production, transport, processing or other handling of items.</value>
@@ -730,7 +730,7 @@
     <value>Batch-and-Item Number, being the concatenation of a data identifier 27T batch number and the data identifier 27S item number of an item belonging to the batch concerned.</value>
   </data>
   <data name="di19030" xml:space="preserve">
-    <value>Additional Traceability Code For An Entity Assigned by the Supplier in addition to or different from the traceability code(s) provided by 'S' or '1S'</value>
+    <value>Additional Traceability Code For An Entity Assigned by the Supplier in addition to or different from the traceability code(s) provided by 'S' or '1S'.</value>
   </data>
   <data name="di19031" xml:space="preserve">
     <value>Beginning Serial Number for serial numbers in sequence</value>
@@ -775,7 +775,7 @@
     <value>Fifth Level (Supplier Assigned)</value>
   </data>
   <data name="di19096" xml:space="preserve">
-    <value>EPC number (Typically Serialized Global Trade Identification Number - SGTIN)\n2020 Update: The term "EPC number" is no longer used by GS1. Refer to GS1 General Specifications and the Tag Data Standard for current terminology</value>
+    <value>EPC number (Typically Serialized Global Trade Identification Number - SGTIN)\n2020 Update: The term "EPC number" is no longer used by GS1. Refer to GS1 General Specifications and the Tag Data Standard for current terminology.</value>
   </data>
   <data name="di19097" xml:space="preserve">
     <value>Encrypted serial number assigned by the Supplier to an entity, which can be authenticated by an independent trusted third party. The encrypted serial number does not describe any parameters of the entity without decryption by an independent third party.</value>
@@ -1444,7 +1444,7 @@
     <value>Qualified Date, comprising the concatenation of:\n- an ISO/IEC 15459 issuing agency code;\n- a date qualifier conforming to the specifications of that issuing agency;\n- a date whose format and interpretation comply with the specifications of the issuing agency for that date qualifier.</value>
   </data>
   <data name="di4025" xml:space="preserve">
-    <value>Best before date: (YYYYMMDD).\nExample: 25D20170202 = February 2, 2017</value>
+    <value>Best before date: (YYYYMMDD).\nExample: 25D20170202 = February 2, 2017.</value>
   </data>
   <data name="di4026" xml:space="preserve">
     <value>First freeze date (YYYYMMDD).\nThe first freeze date is defined as the date on which products are frozen directly after slaughtering, harvesting, catching or after initial processing.\nExample: 26D20170721 = July 21, 2017.</value>

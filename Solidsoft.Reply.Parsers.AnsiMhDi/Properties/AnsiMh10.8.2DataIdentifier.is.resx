@@ -118,421 +118,425 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="di0" xml:space="preserve">
-    <value>'PLUS' stafurinn. Heilbrigðis- og viðskiptasamskiptaráð geirans (HIBCC)</value>
+    <value>Stafurinn „PLUS“. Heilbrigðisiðnaðar viðskiptasamskiptaráð (HIBCC)</value>
   </data>
   <data name="di10000" xml:space="preserve">
-    <value>Einstakt númer bílspjalds.</value>
+    <value>Einkvæmt skráningarnúmer ökutækis.</value>
   </data>
   <data name="di10001" xml:space="preserve">
-    <value>Einstakt númer bílspjalds úthlutað til flutningseiningar sem er lægsta stig pökkunar, óbrotanleg eining.</value>
+    <value>Einstakt skráningarnúmer ökutækis sem er úthlutað flutningseiningu sem er lægsta stig umbúða, órofanleg eining.</value>
   </data>
   <data name="di10002" xml:space="preserve">
-    <value>Einstakt númer bílspjalds úthlutað til flutningseiningar sem inniheldur margar pakkningar.</value>
+    <value>Einstakt skráningarnúmer sem er úthlutað flutningseiningu sem inniheldur marga pakka.</value>
   </data>
   <data name="di10003" xml:space="preserve">
-    <value>Einstakt númer bílspjalds úthlutað til flutningseiningar sem er lægsta stig pökkunar, óbrotanleg eining og sem hefur EDI gögn tengd við eininguna.</value>
+    <value>Einstakt skráningarnúmer á flutningseiningu sem er lægsta umbúðastigið, órofanleg eining og hefur EDI-gögn tengd einingunni.</value>
   </data>
   <data name="di10004" xml:space="preserve">
-    <value>Einstakt númer bílspjalds úthlutað til flutningseiningar sem inniheldur margar pakkningar og sem tengist EDI gögnum.</value>
+    <value>Einstakt skráningarnúmer sem er úthlutað flutningseiningu sem inniheldur marga pakka og er tengt EDI-gögnum.</value>
   </data>
   <data name="di10005" xml:space="preserve">
-    <value>Einstakt númer bílspjalds úthlutað til blandaðrar flutningseiningar sem inniheldur ólíka hluti í einum viðskiptum viðskiptavinar og getur haft eða ekki haft tengd EDI gögn.</value>
+    <value>Einstakt skráningarnúmer ökutækis sem er úthlutað blandaðri flutningseiningu sem inniheldur ólíkar vörur í einni viðskiptavinafærslu og kann að hafa eða ekki hafa tengd EDI-gögn.</value>
   </data>
   <data name="di10006" xml:space="preserve">
-    <value>Einstakt númer bílspjalds úthlutað til aðalflutningseiningar sem inniheldur líka hluti í einum viðskiptum viðskiptavinar og getur haft eða ekki haft tengd EDI gögn.</value>
+    <value>Einstakt skráningarnúmer á númeraplötu sem er úthlutað aðalflutningseiningu sem inniheldur sambærilegar vörur í einni viðskiptavinafærslu og kann að hafa eða ekki hafa tengd EDI-gögn.</value>
   </data>
   <data name="di10007" xml:space="preserve">
-    <value>Skráningarnúmer ökutækis (ekki einstakt án tilgreiningar á landi og útgefandi stjórnvaldi/umráðasvæði)</value>
+    <value>Skráningarnúmer ökutækis (ekki einstakt án tilgreiningar á landi og útgefandi stjórnvaldssvæði/yfirvaldi)</value>
   </data>
   <data name="di10008" xml:space="preserve">
-    <value>Sjóflutningaþjónustu auðkenni (MMSI).\nNíu stafa númer sem alþjóðasamtök fjarskipta hafa sett reglur um til að auðkenna skip eða strandarútvarpsstöðvar sérstaklega. Dæmi: 8J211123456.</value>
+    <value>Sjófars farsímaþjónustuauðkenni (MMSI).\nNíu stafa númer sem Alþjóðafjarskiptasambandið (ITU) hefur umsjón með til að auðkenna skip eða strandradíóstöð á einstakan hátt. Dæmi: 8J211123456.</value>
   </data>
   <data name="di11000" xml:space="preserve">
-    <value>Pöntunarnúmer úthlutað af viðskiptavini til að auðkenna kaupaviðskipti (t.d., pöntunarnúmer).</value>
+    <value>Pöntunarnúmer sem viðskiptavinur úthlutar til að auðkenna innkaupaviðskipti (t.d. innkaupapöntunarnúmer).</value>
   </data>
   <data name="di11001" xml:space="preserve">
-    <value>Pöntunarnúmer úthlutað af birgja til að auðkenna kaupaviðskipti.</value>
+    <value>Pöntunarnúmer sem birgir úthlutar til að auðkenna innkaupaviðskipti.</value>
   </data>
   <data name="di11002" xml:space="preserve">
-    <value>Sendingarnúmer/fraktbréf/vöruflutningakenni úthlutað af birgja/flytjanda.</value>
+    <value>Farmbréf/Flutningsbréf/Auðkenningarkóði sendingar úthlutaður af birgi/afgreiðanda.</value>
   </data>
   <data name="di11003" xml:space="preserve">
-    <value>Sendingarnúmer/fraktbréf/vöruflutningakenni úthlutað af flutningsaðila.</value>
+    <value>Farmbréf/Flutningsbréf/Auðkenningarkóði sendingar úthlutaður af flutningsaðila.</value>
   </data>
   <data name="di11004" xml:space="preserve">
-    <value>Línunúmer pöntunar úthlutað af viðskiptavini til að auðkenna kaupaviðskipti.</value>
+    <value>Línunúmer pöntunar sem viðskiptavinur úthlutar til að auðkenna innkaupaviðskipti.</value>
   </data>
   <data name="di11005" xml:space="preserve">
-    <value>Tilvísunarnúmer úthlutað af viðskiptavini til að auðkenna sendingarleyfi (útgáfa) gegn stofnaðri kaupapöntun.</value>
+    <value>Tilvísunarnúmer sem viðskiptavinurinn úthlutar til að auðkenna sendingarheimild (útgáfu) sem tengist staðfestri innkaupapöntun.</value>
   </data>
   <data name="di11006" xml:space="preserve">
     <value>PRO# úthlutað af flutningsaðila.</value>
   </data>
   <data name="di11007" xml:space="preserve">
-    <value>Flutningsháttur í frjálsum texta samþykktur í sameiningu milli viðskiptavinar og birgja (t.d., Loft, Vörubíll, Bátur, Lest).</value>
+    <value>Flutningsmáti á frjálsu textasniði, skilgreindur í sameiningu af viðskiptavini og birgi (t.d. flug, vörubíll, bátur, járnbraut).</value>
   </data>
   <data name="di11008" xml:space="preserve">
-    <value>Samninganúmer.</value>
+    <value>Samningsnúmer.</value>
   </data>
   <data name="di11009" xml:space="preserve">
-    <value>Almennt viðskiptatilvísunarkóði (innanhúss úthlutað eða í sameiningu skilgreint).</value>
+    <value>Almennur tilvísunarkóði færslu (úthlutaður innanhúss eða skilgreindur í sameiningu).</value>
   </data>
   <data name="di11010" xml:space="preserve">
     <value>Reikningsnúmer.</value>
   </data>
   <data name="di11011" xml:space="preserve">
-    <value>Pakkanúmer.</value>
+    <value>Númer pakklista.</value>
   </data>
   <data name="di11012" xml:space="preserve">
-    <value>SCAC (Staðlaður flutningsaðila alfanúmerakóði) (an4 - strik '-' fyllt út til vinstri) og flutningsaðila úthlutað PROgressíft númer.</value>
+    <value>SCAC (staðlaður flutningsaðila-alfastafakóði) (an4 - bandstrik „-“ fyllt vinstra megin) og framsækið númer úthlutað af flutningsaðila.</value>
   </data>
   <data name="di11013" xml:space="preserve">
-    <value>Sendingarnúmer /Samgöngukvittunarnúmer SCAC + gámaflutninga B/L númer eða vöruflutninganúmer.</value>
+    <value>Farmbréfsnúmer /Flutningskvittunarnúmer SCAC + farmbréfsnúmer eða sendingarnúmer gámaflutningsins.</value>
   </data>
   <data name="di11014" xml:space="preserve">
-    <value>Samsett pöntunarnúmer og línunúmer í sniðinu nn...nn+nn...n þar sem plúsmerki (+) er notað sem aðskilnaður milli pöntunarnúmers og línunúmers.</value>
+    <value>Samsett pöntunarnúmer og línunúmer á sniðinu nn...nn+nn...n þar sem plústákn (+) er notað sem aðgreinir milli pöntunarnúmers og línunúmers.</value>
   </data>
   <data name="di11015" xml:space="preserve">
-    <value>KANBAN númer.</value>
+    <value>KANBAN-númer.</value>
   </data>
   <data name="di11016" xml:space="preserve">
-    <value>DELINS númer: kóði úthlutaður til að auðkenna skjal sem inniheldur upplýsingar um afhendingu.</value>
+    <value>DELINS-númer: kóði sem er úthlutaður til að auðkenna skjal sem inniheldur afhendingarupplýsingar.</value>
   </data>
   <data name="di11017" xml:space="preserve">
-    <value>Athugunar númer.</value>
+    <value>Athuga númer.</value>
   </data>
   <data name="di11018" xml:space="preserve">
-    <value>Strúktúr Tilvísun.</value>
+    <value>Skipulögð tilvísun.</value>
   </data>
   <data name="di11019" xml:space="preserve">
-    <value>Erlent hermála sölu mál númer.</value>
+    <value>Málsnúmer erlendra hernaðarsölu.</value>
   </data>
   <data name="di11020" xml:space="preserve">
-    <value>Leyfis auðkenni, vera alheims einstakt auðkenni fyrir leyfi eða samning undir hverju hlutir eru framleiddir, sendir til vinnslu og/eða greiddir fyrir, sem er byggt með því að tengja saman:\n - útgáfustofnun ISO/IEC 15459 kóða;\n - leyfis eða samnings númer sem samræmist forskriftum viðkomandi útgáfustofnunar;\n og það:\n - inniheldur aðeins hástafi og/eða tölustafi;\n - er einstakt (það er, er frábrugðið öðrum ISO/IEC 15459 samrýmanlegum auðkenni) innan sviðs útgáfustofnunarinnar;\n - getur ekki verið leitt af öðru ISO/IEC 15459 samrýmanlegu auðkenni, gefið út undir sömu útgáfustofnun, með því að bæta við stöfum við enda þess, eða fjarlægja þá frá því.</value>
+    <value>Leyfisauðkenni, sem er alþjóðlega einstakt auðkenni fyrir leyfi eða samning samkvæmt því sem hlutir eru búnir til, sendir til vinnslu og/eða greiddir fyrir, og er myndað með því að samtengja:\n - ISO/IEC 15459 útgáfustofnunarkóða;\n - leyfis- eða samningsnúmer sem er í samræmi við forskriftir viðkomandi útgáfustofnunar;\n og sem:\n - samanstendur eingöngu af hástöfum og/eða tölustöfum;\n - er einstakt (þ.e. aðgreint frá öllum öðrum ISO/IEC 15459-samhæfum auðkennum) innan sviðs útgáfustofnunarinnar;\n - er ekki hægt að leiða af neinu öðru ISO/IEC 15459-samhæfu auðkenni, sem gefið er út af sömu útgáfustofnun, með einfaldri viðbót stafa við endann á því eða með því að fjarlægja stafi af endanum á því.</value>
   </data>
   <data name="di11021" xml:space="preserve">
-    <value>Viðskiptavina gögn, vera gögn sem:\n - frá sjónarhóli viðskiptavinar, tengjast eða eru tengd við hlut eða viðskipti, eða að sendingu eða tengdum hlutum eða viðskiptum, og\n - innihalda allt að 35 prentanlega stafi og/eða bil, annað en plús (+), dregin úr stafasetti skilgreindu í ISO/IEC 646.</value>
+    <value>Gögn viðskiptavinar, þ.e. gögn sem:\n - frá sjónarhóli viðskiptavinar tengjast eða eru tengd vöru eða færslu, eða lotu eða tengdum vörum eða færslum, og\n - samanstanda af allt að 35 prentanlegum stöfum og/eða bilum, öðrum en plús (+), valin úr stafasettinu sem skilgreint er í ISO/IEC 646.</value>
   </data>
   <data name="di11022" xml:space="preserve">
-    <value>'22K' viðskipta auðkenningar upplýsingar, vera gildi, byggt með því að tengja saman:\n - útgáfustofnun ISO/IEC 15459 kóða;\n - gildi sem samræmist forskriftum viðkomandi útgáfustofnunar,\n sem leyfir staðfestingu á auðkenningu viðskiptanna og sér í lagi að viðskiptin voru hafin af aðilanum, sem talið var innan viðskiptanna sem þeirra upphafsmaður, með:\n - móttakanda viðskipta, og/eða\n - einum eða fleiri af þeim aðilum sem koma að meðhöndlun þeirra eða vinnslu, og/eða\n - treystum þriðja aðila.</value>
+    <value>„22K“ Upplýsingar um auðkenningu færslu, sem eru gildi sem er myndað með því að samtengja:\n - ISO/IEC 15459 útgáfustofnunarkóða;\n - gildi sem er í samræmi við forskriftir viðkomandi útgáfustofnunar,\n sem gerir kleift að sannreyna áreiðanleika viðkomandi færslu og, sérstaklega, að færslan hafi verið hafin af þeim aðila sem í færslunni er sagður hafa hafið hana, af:\n - viðtakanda færslu, og/eða\n - einum eða fleiri aðilum sem koma að meðhöndlun eða vinnslu hennar, og/eða\n - traustum þriðja aðila.</value>
   </data>
   <data name="di11025" xml:space="preserve">
-    <value>Alheims einstakt auðkenni hópa flutningseininga úthlutað af flutningsaðila, skilgreint sem:\nAuðkenning aðila að viðskiptum eins og skilgreint er úthlutað af haldi fyrirtækjaauðkennisnúmers (CIN) og inniheldur viðeigandi útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá þess, byggt sem röð 3 tengdra gagnaþátta: IAC, á eftir CIN, á eftir sendingarnúmeri eða vöruflutninganúmeri eða auðkenni sem er einstakt innan sviðs CIN haldarans.</value>
+    <value>Alþjóðleg einstök auðkenning á hópunum flutningseininga sem flutningsaðili úthlutar, skilgreind sem:\nAuðkenning aðila í viðskiptum, eins og skilgreint er, úthlutað af handhafa fyrirtækjaauðkennisnúmers (CIN) og með tilheyrandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggð sem röð af 3 samtengdum gagnaþáttum: IAC, síðan CIN, síðan farmskírteinis- eða flutningsbréfs- eða sendingarauðkenningarkóði sem er einstakur innan léns handhafa CIN.</value>
   </data>
   <data name="di11026" xml:space="preserve">
-    <value>Alheims einstakt auðkenni hópa flutningseininga úthlutað af sendanda, skilgreint sem:\nAuðkenning aðila að viðskiptum úthlutað af haldi fyrirtækjaauðkennisnúmers (CIN) og inniheldur vieldur viðeigandi útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá þess, byggt sem röð 3 tengdra gagnaþátta: IAC, á eftir CIN, á eftir sendingarnúmeri eða vöruflutninganúmeri eða auðkenni sem er einstakt innan sviðs CIN haldarans.</value>
+    <value>Alþjóðleg einstök auðkenning á hópunum flutningseininga sem sendandi úthlutar, skilgreind sem:\nAuðkenning aðila í viðskiptum sem úthlutað er af handhafa fyrirtækjaauðkennisnúmers (CIN) og felur í sér viðeigandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggð sem röð af 3 samtengdum gagnaþáttum: IAC, síðan CIN, síðan farmskírteinis- eða flutningsbréfs- eða sendingarauðkenningarkóði sem er einstakur innan sviðs handhafa CIN.</value>
   </data>
   <data name="di11027" xml:space="preserve">
-    <value>Tilboðsnúmer úthlutað af birgja - Númer úthlutað til tilboðs af birgja í svari við beiðni um tilboð frá viðskiptavini.</value>
+    <value>Tilboðsnummer úthlutað af birgi – Númer sem birgir úthlutar tilboði til svara beiðni viðskiptavinar um tilboð.</value>
   </data>
   <data name="di12000" xml:space="preserve">
-    <value>Geymslustaður.</value>
+    <value>Geymslustaðsetning.</value>
   </data>
   <data name="di12001" xml:space="preserve">
     <value>Staðsetning.</value>
   </data>
   <data name="di12002" xml:space="preserve">
-    <value>'Sendu til:' Staðsetningarkóði skilgreindur af iðnaðarstaðli eða í sameiningu skilgreindur.</value>
+    <value>Senda til: Staðsetningarkóði skilgreindur samkvæmt iðnaðarstaðli eða samkvæmt gagnkvæmu samkomulagi.</value>
   </data>
   <data name="di12003" xml:space="preserve">
-    <value>'Sendu frá:' Staðsetningarkóði skilgreindur af iðnaðarstaðli eða í sameiningu skilgreindur.</value>
+    <value>Senda frá: Staðsetningarkóði skilgreindur af iðnaðarstaðli eða skilgreindur í sameiningu.</value>
   </data>
   <data name="di12004" xml:space="preserve">
-    <value>Upprunaland, tveggja stafa ISO 3166 landskóði. Með samkomulagi viðskiptafélaga og þegar upprunaland er blandað, skal nota landskóða 'AA'.</value>
+    <value>Upprunaland, tveggja stafa ISO 3166 landskóði. Með samþykki viðskiptaaðila og þegar upprunaland er blandað skal nota landskóðann „AA“.</value>
   </data>
   <data name="di12005" xml:space="preserve">
-    <value>'Sendu fyrir:' Staðsetningarkóði skilgreindur af iðnaðarstaðli eða í sameiningu skilgreindur.</value>
+    <value>Senda til: Staðsetningarkóði skilgreindur samkvæmt iðnaðarstaðli eða samkvæmt gagnkvæmu samkomulagi.</value>
   </data>
   <data name="di12006" xml:space="preserve">
-    <value>Leiðarkóði úthlutað af birgja til að tilgreina ákveðna flutningsleið.</value>
+    <value>Leiðarkóði sem birgirinn úthlutar til að tilgreina tiltekna flutningsleið.</value>
   </data>
   <data name="di12007" xml:space="preserve">
-    <value>6 stafa varnarmálaráðuneytis kóði (DoDAAC).</value>
+    <value>6 stafa kóði fyrir starfsemi varnarmálaráðuneytisins (DoDAAC).</value>
   </data>
   <data name="di12008" xml:space="preserve">
-    <value>Farmskráningarhöfn - Í sameiningu skilgreind.</value>
+    <value>Brottfararhöfn – skilgreind í sameiningu.</value>
   </data>
   <data name="di12009" xml:space="preserve">
-    <value>Afarmskráningarhöfn - Í sameiningu skilgreind.</value>
+    <value>Brottfararhöfn - skilgreind í sameiningu.</value>
   </data>
   <data name="di12011" xml:space="preserve">
-    <value>Staðsetning (Breiddargráða/Lengdargráða/Hæð) kóðuð í sniðinu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+    <value>Staðsetning (breiddargráða/lengdargráða/hæð) kóðuð á sniðinu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
   </data>
   <data name="di12012" xml:space="preserve">
-    <value>'Sendu til:' Staðsetning (Breiddargráða/Lengdargráða/Hæð) kóðuð í sniðinu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+    <value>Senda til: Staðsetning (breiddar-/lengdargráða/hæð) kóðuð á sniðinu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
   </data>
   <data name="di12013" xml:space="preserve">
-    <value>'Sendu frá:' Staðsetning (Breiddargráða/Lengdargráða/Hæð) kóðuð í sniðinu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+    <value>Senda frá: Staðsetning (breiddar-/lengdargráða/hæð) kóðuð á sniðinu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
   </data>
   <data name="di12015" xml:space="preserve">
-    <value>Sendu fyrir: Staðsetning (Breiddargráða/Lengdargráða/Hæð) kóðuð í sniðinu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
+    <value>Senda fyrir: Staðsetning (breiddar-/lengdargráða/hæð) kóðuð á sniðinu xnn.nnnnn/xnnn.nnnnnn/xnnnn.</value>
   </data>
   <data name="di12016" xml:space="preserve">
-    <value>Merking virkjunarstaðar.\nEnska staðarheitið (stafasett: 0-9, A-Z &lt;Bil&gt;).</value>
+    <value>Staðsetning virkjunar merkis.\nEnskt heiti staðsetningar (stafasett: 0-9, A-Z &lt;Bil&gt;).</value>
   </data>
   <data name="di12017" xml:space="preserve">
-    <value>Merking afvirkjunarstaðar.\nEnska staðarheitið (stafasett: 0-9, A-Z &lt;Bil&gt;).</value>
+    <value>Staðsetning afvirkjunar merkis.\nEnskt heiti staðsetningar (stafasett: 0-9, A-Z &lt;Bil&gt;).</value>
   </data>
   <data name="di12018" xml:space="preserve">
-    <value>FAO fiskveiðisvæðakóði eins og skilgreint af Fiskveiði- og fiskeldisdeild FAO (http://www.fao.org. Leitaðu að Fiskveiðisvæðakóða undirsíðu).\nAllir stafir af GS1 almennu forskriftinni-skilgreindu hlutmengi af ISO/IEC 646 eru leyfðir.\nDæmi:\n18L37.1.3 Vestur Miðjarðarhafið, Sardinía;\n18L47.B.1 Atlantshafið, Suðaustur, SEAFO deild, efnahagslögsaga Namibíu;\n18L67 Norðaustur Kyrrahafið.</value>
+    <value>FAO-veiðisvæðiskóði eins og hann er skilgreindur af Fiskveiði- og fiskeldisdeild FAO (http://www.fao.org. Leitaðu að undirsíðunni „Fishing Area Code“).\nAllir stafir í undirmengi ISO/IEC 646 sem GS1 General Specification skilgreinir eru leyfðir.\nDæmi:\n18L37.1.3 Vestur-Miðjarðarhaf, Sardinía;\n18L47.B.1 Atlantshaf, suðaustur, SEAFO-deild, efnahagslögsaga Namibíu;\n18L67    Kyrrahaf, norðaustur.</value>
   </data>
   <data name="di12020" xml:space="preserve">
-    <value>Fyrsta stig (innanhúss úthlutað).</value>
+    <value>Fyrsta stig (úthlutað innanhúss).</value>
   </data>
   <data name="di12021" xml:space="preserve">
-    <value>Annað stig (innanhúss úthlutað).</value>
+    <value>Annað stig (úthlutað innanhúss).</value>
   </data>
   <data name="di12022" xml:space="preserve">
-    <value>Þriðja stig (innanhúss úthlutað).</value>
+    <value>Þriðja stig (úthlutað innanhúss).</value>
   </data>
   <data name="di12023" xml:space="preserve">
-    <value>Fjórða stig (innanhúss úthlutað).</value>
+    <value>Fjórða stig (úthlutað innanhúss).</value>
   </data>
   <data name="di12024" xml:space="preserve">
-    <value>Fimmta stig (innanhúss úthlutað).</value>
+    <value>Fimmta stig (úthlutað innanhúss).</value>
   </data>
   <data name="di12025" xml:space="preserve">
-    <value>Auðkenning aðila að viðskiptum, t.d., 25L IAC CIN LOC úthlutað af haldi fyrirtækjaauðkennisnúmers (CIN) og inniheldur viðeigandi útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá þess, byggt sem röð 3 tengdra gagnaþátta: IAC, á eftir CIN, á eftir líkamlegri innri staðsetningu (LOC) sem er einstök innan sviðs CIN haldarans.</value>
+    <value>Auðkenning aðila að viðskiptum, t.d. 25L IAC CIN LOC sem er úthlutað af handhafa fyrirtækjaauðkennisnúmers (CIN) og inniheldur viðkomandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggt sem röð af 3 samtengdum gagnaþáttum: IAC, síðan CIN, síðan innri staðsetning (LOC) sem er einstök innan sviðs handhafa CIN.</value>
   </data>
   <data name="di12026" xml:space="preserve">
-    <value>'26L' Staðsetningarkóði, vera kóði sem auðkennir staðsetningu eða landfræðilegt svæði, eða tengdan hóp slíkra staðsetninga eða svæða, sem hefur þýðingu fyrir tengdan viðskipti og sem samræmist einni af strúktúrunum skilgreindum í (a) til (f) hér að neðan:\na) tveir hástafir sem samsvarar ISO 3166-1 tveggja stafa landskóða landsins þar sem staðsetning(ar) eða svæði eru staðsett;\nb) þrír hástafir sem samsvarar IATA kóða flugvallar eða borgar í, nálægt, eða samanstendur af staðsetningunni (svæðinu);\nc) fjórir eða fleiri stafir þar sem fyrstu þrír samsvara ISO 3166-1 landskóða fylgt af bandstriki (-), með því sem eftir er vera póstnúmer í viðkomandi landi;\nd) fjórir eða fleiri stafir þar sem fyrstu þrír samsvara ISO 3166-1 landskóða fylgt af punkti (.), með því sem eftir er vera ISO 3166-2 landsundirkóði í viðkomandi landi;\ne) fimm hástafir sem samsvarar UN/LOCODE svæðisins í, nálægt, eða samanstendur af staðsetningunni (svæðinu);\nf) samsetning, vera ekki minna en sjö eða fleiri en 35 stafir að lengd, af:\n- útgáfustofnunarkóða ISO/IEC 15459;\n- staðsetningarkóða, sem samanstendur af stöfum dregnum úr settinu {A-Z; 0-9} sem samræmist forskriftum viðkomandi útgáfustofnunar.</value>
+    <value>Staðsetningarkóði „26L“, sem er kóði sem auðkennir staðsetningu eða landfræðilegt svæði, eða tengdan hóp slíkra staðsetninga eða svæða, sem hefur þýðingu fyrir tengd viðskipti og uppfyllir eina eða fleiri af þeim uppbyggingum sem skilgreindar eru í (a) til (f) hér að neðan:\n\na) tveir hástafir sem samsvara ISO 3166-1 tveggja stafa landakóða þess lands þar sem staðsetning(in)/svæðið(n) er(u) staðsett, eða sem staðsetning(in)/svæðið(n) samanstendur af;\n\nb) þrír hástafir sem samsvara IATA-kóða flugvallar eða borgar þar sem, nálægt eða sem staðsetning(in)/svæðið(n) er(u) staðsett, eða sem það samanstendur af;\n\nc) fjórir eða fleiri stafir þar sem fyrstu þrír samsvara ISO 3166-1 landakóða, á eftir kemur bandstrik (-), og afgangurinn er póstnúmer í viðkomandi landi;\n\nd) fjórir eða fleiri stafir þar sem fyrstu þrír samsvara ISO 3166-1 landakóða, á eftir kemur punktur (.), og afgangurinn er ISO 3166-2 kóði fyrir stjórnsýslueiningu í viðkomandi landi;\n\ne) fimm hástafir sem samsvara UN/LOCODE-kóða svæðisins þar sem, nálægt eða sem staðsetning(in)/svæðið(n) er(u) staðsett, eða sem það samanstendur af;\n\nf) samsetning (samruni), sem er ekki styttri en sjö og ekki lengri en 35 stafir, af:\n- ISO/IEC 15459 kóða útgáfustofnunar;\n- staðsetningarkóða, sem samanstendur af stöfum úr menginu {A-Z; 0-9} og er í samræmi við forskriftir viðkomandi útgáfustofnunar.</value>
   </data>
   <data name="di12027" xml:space="preserve">
-    <value>Atburðarstaður UN/LOCODE.\nUN/LOCODE fylgt af plúsmerki (+) fylgt af einum eða fleiri kóðagildum úr EDIFACT kóðalista 3227 'Staðarhlutverkakóða kvörðun', t.d.,\n7 Afhendingarstaður;\n5 Brottfararhöfn;\n9 Farmhöfn;\n11 Affermingarhöfn;\n13 Flutningsstaður;\n24 Innkomuhöfn;\n35 Útflutningsland;\n88 Afhendingarstaður flutningsaðila;\n125 Erlend höfn fyrir brottför til Bandaríkjanna;\n147 Farþegarými/staðsetning;\n159 Afhendingarstaður (til viðtakanda);\n248 Hleðslustaður\nhttp://www.unece.org/cefact/locode/.</value>
+    <value>UN/LOCODE staðsetning viðburðar.\nUN/LOCODE á eftir plúsmerki (+) og á eftir því eitt eða fleiri kóðagildi úr EDIFACT kóðalista 3227 „Location function code qualifier“, t.d.,\n7 Staður endanlegrar afhendingar;\n5 Brottfararhöfn;\n9 Lestunarhöfn;\n11 Losunarhöfn;\n13 Umhleðslustaður;\n24 Innkomuhöfn;\n35 Útflutningsland;\n88 Staður þar sem flutningsaðili tekur við;\n125 Erlend höfn áður en lagt er af stað til Bandaríkjanna;\n147 Stúfunarreitur/staða;\n159 Afhendingarstaður (til viðtakanda);\n248 Lestunarstaður\nhttp://www.unece.org/cefact/locode/.</value>
   </data>
   <data name="di12028" xml:space="preserve">
-    <value>Heimilisfang og götunúmer.\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+    <value>Húsnúmer og götuheiti.\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
   </data>
   <data name="di12029" xml:space="preserve">
-    <value>Borgarnafn.\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+    <value>Nafn borgar.\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
   </data>
   <data name="di12030" xml:space="preserve">
-    <value>Upplýsingar um landshluta.\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+    <value>Upplýsingar um undireiningu lands.\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
   </data>
   <data name="di12031" xml:space="preserve">
-    <value>Póstnúmer.\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L (Ef '-' bandstrikið er notað, skal það vera skýrt kóðað).</value>
+    <value>Póstnúmer.\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L (Ef bandstrik '-' er notað skal það vera sérstaklega kóðað).</value>
   </data>
   <data name="di12032" xml:space="preserve">
-    <value>Landskóði.\nISO 3166-1 Alfa 2 kóði\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
+    <value>Landskóði.\nISO 3166-1 Alpha 2 kóði\nNotað í tengslum við H, 6H, 28L, 29L, 30L, 31L, 32L.</value>
   </data>
   <data name="di12033" xml:space="preserve">
-    <value>Einhver netfang (URL).\nInniheldur alla stafi sem mynda URL, þar með talið hausagögn eins og t.d., http://. Stafasett eins og skráð er í RFC 1738.</value>
+    <value>Samræmd auðlindavísun (URL).\nInniheldur alla stafi sem mynda URL, þar á meðal hausgögn eins og t.d. http://. Stafasett samkvæmt RFC 1738.</value>
   </data>
   <data name="di12034" xml:space="preserve">
-    <value>Bendill að ferli URL (P2P URL) fyrir að hefja URL sem ber öll önnur gagnaeiningar kóðuð í AIDC miðli samkvæmt eftirfarandi reglu: Skannaðu kóðann og hefjaðu URL byrjandi með P2P URL strengnum, sleppt DI 34L og ISO/IEC 15434 umslagsmálfræði (forskeyti og eftirkeyti) og bæta við öllum öðrum gagnaeiningum sem hafa verið skannaðar í sömu röð og þær voru kóðaðar í miðlinum, þar með talin DIs og aðskilnaðareinkenni gagnaeininga. Breyttu sérstökum stöfum í viðbótargögnum í RFC 1738 sniði (t.d., Group Separator 'GS' þýtt í RFC 1738 röð %1D). Athugaðu að þetta á ekki við um P2P URL sjálft.\nDæmi: Kóðuð gagnaþráður (notað ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nleiðir til eftirfarandi URL með sendum gögnum:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nAthugið: gögn frá '05' umslagi voru ekki innifalin í URL þar sem 34L var kóðað í '06' umslaginu.</value>
+    <value>Vísir á ferli-URL (P2P URL) til að hefja URL sem ber öll önnur gagnastök kóðuð í AIDC-miðli samkvæmt eftirfarandi reglu: Skannaðu kóðann og ræstu URL-ið sem byrjar á P2P URL-strengnum, slepptu DI 34L og ISO/IEC 15434 umslagssniði (forskeyti og viðskeyti) og bættu við öllum öðrum gagnastökum sem hafa verið skönnuð í sömu röð og þau eru kóðuð í miðlinum, þar með talið DI og aðskiljum gagnastaka. Umbreyttu sértáknum í viðbættu gögnunum í RFC 1738-snið (t.d. hópaðskiljari „GS“ þýddur í RFC 1738-röðina %1D). Athugaðu að þetta á ekki við um sjálft P2P URL-ið.\nDæmi: Kóðaður gagnastrengur (með ISO/IEC 15434) [)&gt;RS06GS25SUN123456789PA12345GS4LUSGS16D20131108 G S34LHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN= R S05 GS13131108RSEOT\nleiðir til eftirfarandi URL með sendum gögnum:\nHTTP://WWW.SECUREUID.COM/ITEMDATA/?SCAN=25SU N123456789PA12345%1D4LUS%1D16D20131108.\nAthugið: gögn úr „05“ snið-umslaginu voru ekki felld inn í URL-ið þar sem 34L var kóðað í „06“ snið-umslaginu.</value>
   </data>
   <data name="di12035" xml:space="preserve">
-    <value>Ríkisúthlutað samþykktarnúmer skips / fiskeldisstaðar / bús / vinnslustöðvar, byrjandi með ISO 31661 alfa-2 landskóða, fylgt af samþykktarnúmeri.\nAllir stafir af GS1 almennu forskriftinni-skilgreindu hlutmengi af ISO/IEC 646 eru leyfðir.\nDæmi:\n35LIECK0107EC = Land; Írland. Skipanafn; FV Endurance DA31.</value>
+    <value>Samþykkisnúmer skips / fiskeldisstöðvar / búgarðs / vinnsluaðila, úthlutað af stjórnvöldum, sem byrjar á ISO 31661 alpha-2 landskóða og er síðan fylgt eftir af samþykkisnúmerinu.\nAllir stafir í þeim hluta ISO/IEC 646 sem GS1 General Specification skilgreinir eru leyfðir.\nDæmi:\n35LIECK0107EC = Land: Írland. Heiti skips: FV Endurance DA31.</value>
   </data>
   <data name="di12036" xml:space="preserve">
-    <value>Ríkisúthlutað samþykktarnúmer framleiðanda eða bús eða fyrstu beinunar-/skurðarsalar, byrjandi með ISO 3166-1 alfa-2 landskóða, fylgt af samþykktarnúmeri.\nAllir stafir af GS1 almennu forskriftinni-skilgreindu hlutmengi af ISO/IEC 646 eru leyfðir.\nDæmi:\n36LIECK0107EC = Land; Írland. Skipanafn; FV Endurance DA31.</value>
+    <value>Samþykkisnúmer sem stjórnvöld úthluta framleiðanda eða búi eða fyrstu úrbeiningar-/skurðstöð, sem byrjar á ISO 3166-1 alpha-2 landskóða og er síðan fylgt eftir af samþykkisnúmerinu.\nAllir stafir í þeim hluta ISO/IEC 646 sem GS1 General Specification skilgreinir eru leyfðir.\nDæmi:\n36LIECK0107EC = Land: Írland. Heiti skips: FV Endurance DA31.</value>
   </data>
   <data name="di12051" xml:space="preserve">
-    <value>'Sendu frá:' - Staðsetningarkóði skilgreindur af póstþjónustu (t.d., 5 tölustafa og 9 tölustafa ZIP kóðar sem auðkenna staðsetningar í Bandaríkjunum eða 6 stafa póstnúmer sem auðkenna kanadískar staðsetningar).</value>
+    <value>Senda frá: - Staðsetningarkóði skilgreindur af póstyfirvöldum (t.d. 5 stafa og 9 stafa ZIP-kóðar sem auðkenna staði í Bandaríkjunum eða 6 stafa póstkóðar sem auðkenna staði í Kanada).</value>
   </data>
   <data name="di12052" xml:space="preserve">
-    <value>'Sendu til:' - Staðsetningarkóði skilgreindur af póstþjónustu (t.d., 5 tölustafa og 9 tölustafa ZIP kóðar sem auðkenna staðsetningar í Bandaríkjunum eða 6 stafa póstnúmer sem auðkenna kanadískar staðsetningar).</value>
+    <value>Senda til: - Staðsetningarkóði skilgreindur af póstyfirvöldum (t.d. 5 stafa og 9 stafa ZIP-kóðar sem auðkenna staði í Bandaríkjunum eða 6 stafa póstkóðar sem auðkenna staði í Kanada).</value>
   </data>
   <data name="di12054" xml:space="preserve">
-    <value>'Sendu frá:' - Staðsetningarkóði skilgreindur af póstþjónustu í sniðinu: póstnúmer (t.d., 5 tölustafa ZIP kóðar sem auðkenna staðsetningar í Bandaríkjunum eða 6- eða 7 stafa póstnúmer sem auðkenna staðsetningar í Bretlandi) fylgt af tveggja stafa ISO 3166 landskóða (t.d., US eða GB).</value>
+    <value>Senda frá: - Staðsetningarkóði skilgreindur af póstyfirvöldum á sniðinu: póstnúmer (t.d. 5 stafa ZIP-númer sem auðkennir staði í Bandaríkjunum eða 6 eða 7 stafa póstnúmer sem auðkennir staði í Bretlandi) ásamt tveggja stafa ISO 3166 landskóða (t.d. US eða GB).</value>
   </data>
   <data name="di12055" xml:space="preserve">
-    <value>'Sendu til:' - Staðsetningarkóði skilgreindur af póstþjónustu í sniðinu: póstnúmer (t.d., 5 tölustafa ZIP kóðar sem auðkenna staðsetningar í Bandaríkjunum eða 6- eða 7 stafa póstnúmer sem auðkenna staðsetningar í Bretlandi) fylgt af tveggja stafa ISO 3166 landskóða (t.d., US eða GB).</value>
+    <value>Senda til: – Staðsetningarkóði sem póstyfirvöld skilgreina á sniðinu: póstnúmer (t.d. 5 stafa ZIP-númer sem auðkennir staði í Bandaríkjunum eða 6 eða 7 stafa póstnúmer sem auðkennir staði í Bretlandi) ásamt tveggja stafa ISO 3166 landskóða (t.d. US eða GB).</value>
   </data>
   <data name="di13010" xml:space="preserve">
-    <value>Herform 2410 gögn. Snið er gagnagildi fylgt af blokkarnúmeri á formi 2410. Lengdir svæða og leyfilegir stafir eru að finna á;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Uppfærsla: URL hefur verið breytt í:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1408</value>
+    <value>Army Form 2410 gögn. Sniðið er gagnagildi á undan blokkarnúmeri eyðublaðs 2410. Lengdir reita og leyfilegir stafir má finna á;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nUppfærsla 2020: Vefslóðinni hefur verið breytt í:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1408</value>
   </data>
   <data name="di13011" xml:space="preserve">
-    <value>Herform 2408 gögn. Snið er gagnagildi fylgt af blokkarnúmeri á formi 2408. Lengdir svæða og leyfilegir stafir eru að finna á;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Uppfærsla: URL hefur verið breytt í:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1400</value>
+    <value>Army Form 2408 gögn. Sniðið er gagnagildi á undan reitanúmeri á eyðublaði 2408. Lengdir reita og leyfilegir stafir má finna á;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nUppfærsla 2020: Slóðinni hefur verið breytt í:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1400</value>
   </data>
   <data name="di13012" xml:space="preserve">
-    <value>Herform 2407 gögn. Snið er gagnagildi fylgt af blokkarnúmeri á formi 2407. Lengdir svæða og leyfilegir stafir eru að finna á;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\n2020 Uppfærsla: URL hefur verið breytt í:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1391</value>
+    <value>Gögn á Army Form 2407. Sniðið er gagnagildi á undan reitanúmeri á eyðublaði 2407. Lengdir reita og leyfileg tákn má finna á;\nhttp://www.apd.army.mil/pdffiles/p738_751.pdf.\nUppfærsla 2020: Slóðinni hefur verið breytt í:\nhttps://armypubs.army.mil/ProductMaps/PubForm/Details.asp x?PUB_ID=1391</value>
   </data>
   <data name="di13013" xml:space="preserve">
-    <value>Flugherform 95 gögn. Snið er gagnagildi fylgt af blokkarnúmeri á formi 95. Lengdir svæða og leyfilegir stafir eru að finna á;\nhttp://www.gsa.gov/portal/forms/download/116418.\n2020 Uppfærsla: Nafn formsins er "Air Force Technical Order Form 95 (AFTO Form 95)." Upplýsingar um formið eru sóttar í Air Force Technical Order (TO) 00-20-1. URL fyrir þetta TO hefur verið breytt í:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
+    <value>Gögn úr Air Force eyðublaði 95. Sniðið er gagnagildi á undan blokkarnúmeri eyðublaðs 95. Lengdir reita og leyfilegir stafir má finna á;\nhttp://www.gsa.gov/portal/forms/download/116418.\nUppfærsla 2020: Heiti eyðublaðsins er „Air Force Technical Order Form 95 (AFTO Form 95).“ Upplýsingar um eyðublaðið eru fengnar úr Air Force Technical Order (TO) 00-20-1. Vefslóðin fyrir þessa TO hefur verið breytt í:\nhttps://www.tinker.af.mil/Portals/106/Documents/Technical%20Orders/AFD-180615-00-20-1.pdf</value>
   </data>
   <data name="di13014" xml:space="preserve">
-    <value>Sjóherform 4790 gögn. Snið er gagnagildi fylgt af blokkarnúmeri formsins 2410. Lengdir svæða og leyfilegir stafir eru að finna á;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%2015.pdf.\n2020 Uppfærsla: URL er ekki lengur í gildi.</value>
+    <value>Navy Form 4790 gögn. Sniðið er gagnagildi á undan blokkarnúmeri eyðublaðs 2410. Lengdir reita og leyfilegir stafir má finna á;\nhttp://www.navair.navy.mil/logistics/4790/library/Chapter%201 5.pdf.\nUppfærsla 2020: Vefslóðin er ekki lengur gild.</value>
   </data>
   <data name="di14000" xml:space="preserve">
-    <value>Þjóðlegt/NATO birgðanúmer (NSN).</value>
+    <value>Þjóðar-/NATO birgðanúmer (NSN).</value>
   </data>
   <data name="di14001" xml:space="preserve">
-    <value>Vöru eiginleika gögn skilgreind af Chemical Industry Data Exchange (CIDX).</value>
+    <value>Vörueiginleikagögn skilgreind af Chemical Industry Data Exchange (CIDX).</value>
   </data>
   <data name="di14003" xml:space="preserve">
-    <value>Kóðunarstrúktúr í samræmi við snið skilgreint af Electronic Industries Association Japan (EIAJ).</value>
+    <value>Kóðunaruppbygging í samræmi við snið sem skilgreint er af Electronic Industries Association Japan (EIAJ).</value>
   </data>
   <data name="di14004" xml:space="preserve">
-    <value>Kóðunarstrúktúr og snið í samræmi við GS1 Application Identifiers (AI plús gögn) (GS1).</value>
+    <value>Kóðunaruppbygging og snið í samræmi við GS1 notkunarauðkenni (AI ásamt gögnum) (GS1).</value>
   </data>
   <data name="di14005" xml:space="preserve">
-    <value>Kóðunarstrúktúr og snið í samræmi við AIAG tillögur. Heill gagnakennari er á formi 5Nxx þar sem 'xx' er að finna í heilli kóðalista sem er að finna á https://www.aiag.org/</value>
+    <value>Kóðunaruppbygging og snið í samræmi við ráðleggingar AIAG. Fullt gagnakenni er á forminu 5Nxx þar sem „xx“ er að finna í heildarlistanum yfir kóða sem má finna á https://www.aiag.org/</value>
   </data>
   <data name="di14006" xml:space="preserve">
-    <value>U.S. DOD Requisition og útgáfuferli kóðar. Sniðið er viðeigandi MILSTRIP kóði fylgt af gagnagildi tengdu því kóða. (Heill listi yfir kóða er aðgengilegur á;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\n2020 Uppfærsla: URL hefur verið breytt í:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/</value>
+    <value>Beiðni- og útgáfuaðferðarkóðar bandaríska varnarmálaráðuneytisins (DOD). Sniðið er viðeigandi MILSTRIP-kóði ásamt gagnagildinu sem tengist þeim kóða. (Heildarlisti kóða er aðgengilegur á;\nhttp://www2.dla.mil/j6/dlmso/elibrary/Manuals/DLM/MILSTRIP/MILSTRIP.pdf.\nUppfærsla 2020: Vefslóðinni hefur verið breytt í:\nhttps://www.dla.mil/HQ/InformationOperations/DLMS/elibrary/manuals/MILSTRIP/</value>
   </data>
   <data name="di14007" xml:space="preserve">
-    <value>U.S. Defense Transportation Regulation kóðar. Sniðið er DTR kóði fylgt af viðeigandi gagnagildi tengdu því kóða. (Heill listi yfir kóða er aðgengilegur á;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\n2020 Uppfærsla: URL hefur verið breytt í:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf</value>
+    <value>Kóðar samkvæmt reglugerð bandaríska varnarmálaráðuneytisins um flutninga (DTR). Sniðið er DTR-kóði ásamt viðeigandi gagnagildi sem tengist þeim kóða. (Heildarlisti kóða er aðgengilegur á;\nhttp://www.transcom.mil/dtr/part-ii/dtr_part_ii_toc.pdf.\nUppfærsla 2020: Vefslóðinni hefur verið breytt í:\nhttps://www.ustranscom.mil/dtr/part-ii/dtr_part_ii_toc.pdf</value>
   </data>
   <data name="di14008" xml:space="preserve">
-    <value>Framleiðsludýra auðkenniskóðar. Sniðið er framleiðsludýrakóði fylgt af viðeigandi gagnagildi tengdu því kóða. Tækniskýrsla og heill listi yfir Extended Data Elements (kóða) er viðhaldið á;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441 Extended Data Elements (Kóðar).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Tækniskýrsla.\n2020 Uppfærsla: URL hefur verið breytt í:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
+    <value>Auðkenningarkóðar framleiðsludýra. Sniðið er kóði framleiðsludýrsins, á eftir viðeigandi gagnagildi sem tengist þeim kóða. Tækniskýrslan og heildarlisti yfir útvíkkuð gagnastök (kóða) er haldið við á;\nhttp://www.aimglobal.org/store/view_product.asp?id=4926441  Útvíkkuð gagnastök (kóðar).\nhttp://www.aimglobal.org/store/view_product.asp?id=4926483 Tækniskýrsla.\nUppfærsla 2020: Vefslóðunum hefur verið breytt í:\nhttps://web.aimglobal.org/external/wcpages/wcecommerce/ecomlistpage.aspx?Keyword=animal</value>
   </data>
   <data name="di14009" xml:space="preserve">
-    <value>Lyfjavarunúmer viðhaldið af IFA (www.ifaffm.de) með eftirfarandi þáttum; Gagnakennari (DI), tveggja stafa skráningarstofnunarkóði vöru (PRAC), vísun vöru (PR), og tveir PPN athugunartölustafir (CC), á formi DI PRAC PR CC.\nATH - bil er bætt við sem aðskilnaður fyrir sjónræna skýrleika og er ekki hluti af gögnunum.\nDæmi:\n • 9N1112345678CC\n • 9N1312345MEDDEVICE1245678900CC</value>
+    <value>Lyfjanúmer (PPN) sem IFA (www.ifaffm.de) heldur utan um með eftirfarandi þáttum: Gagnaauðkenni (DI), tveggja stafa kóði skráningaryfirvalds vöru (PRAC), vörutilvísun (PR) og tveir PPN-staðfestingartölustafir (CC), á forminu DI PRAC PR CC.\nATHUGIÐ – bil er bætt við sem aðskilnaði til að auðvelda sjónrænan lestur og er ekki hluti af gögnunum.\nDæmi:\n  • 9N1112345678CC\n  • 9N1312345MEDDEVICE1245678900CC</value>
   </data>
   <data name="di14010" xml:space="preserve">
-    <value>Gögn á sniði og með merkingu skilgreind af haldara Fyrirtækjaauðkennisnúmers (CIN) sem hefur verið úthlutað af Útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459, skilgreint sem röð samtengdra gagnaþátta: IAC, fylgt af CIN, fylgt af aðskilnaðartákni ':' (tvípunktur) fylgt af gögnunum á sniði og með merkingu eins og skilgreint af CIN haldaranum.\nATH: Aðeins gagnamálfræðireglur (ef einhverjar) sem veittar eru af yfirlýstu IAC+CIN innan hvers DI '10N' gagnastróms skulu beittar á gögnin sem fylgja DI 10N+IAC+CIN.\nATH: Vegna villu í úthlutun DI '10N' (þar sem engin miðlæg stjórn er á skilgreiningu eða viðhaldi gagna), ætti ekki að innleiða ný notkun DI '10N'. Virkni DI '10N' er staðfest í flokki 18, MISCELLANEOUS með DI '5R'. Mælt er með því að núverandi forrit sem nota DI '10N' færist yfir í DI 5R'.</value>
+    <value>Gögn á sniði og með merkingarfræði sem skilgreind er af handhafa fyrirtækjaauðkennisnúmers (CIN) sem hefur verið gefið út með útgáfustofnanakóða (IAC) í samræmi við ISO/IEC 15459, skilgreint sem röð samtengdra gagnaþátta: IAC, á eftir CIN, á eftir aðgreiningarstafnum „:“ (tvípunkti) og síðan gögnin á sniði og með merkingarfræði eins og skilgreint er af CIN-handhafa.\nATHUGASEMD: Aðeins reglur um gagnamálfræði (ef einhverjar) eins og þær eru veittar af tilgreindu IAC+CIN innan hvers DI „10N“ gagnastraums skulu gilda um gögnin sem fylgja á eftir DI 10N+IAC+CIN.\nATHUGASEMD: Vegna villu í úthlutun DI „10N“ (engin miðlæg yfirvald er fyrir gagnaskilgreiningu né viðhald) ætti ekki að innleiða neina nýja notkun á DI „10N“.\nHlutverk DI „10N“ er skilgreint í flokki 18, ÝMISLEGT, með DI „5R“. Mjög er mælt með því að núverandi forrit sem nota DI „10N“ flytji yfir í DI „5R“.</value>
   </data>
   <data name="di14011" xml:space="preserve">
-    <value>Gagnagrind skilgreind og stjórnað af RLA, og samanstendur af 2 hlutum: auðkenniskóða svæðis, strax fylgt af gögnum eins og skilgreint fyrir það atriði samkvæmt gagnasafni RLA. Þetta er í raun safn af svæðum með staðlaðu efni. Auðkenniskóðar svæðis eru birtir á http://rla.org/11ncodes. Notkun og uppbygging þessara kóða er skilgreind á: http://rla.org/11nformat Frekari dæmi er hægt að finna á þeirri síðu líka. DI '11N' skal aldrei vera kóðað saman í 2D eða RFID merki ásamt öðrum DI þáttum.\nATH: Vegna villu í úthlutun DI '11N' (yfirlýsingin sem segir: 'DI '11N' skal aldrei vera kóðað í 2D eða RFID merki ásamt öðrum DI þáttum.' er ekki gild yfirlýsing), ætti ekki að innleiða ný notkun DI '11N'. Virkni DI '11N' er staðfest í DI '12N'. Mælt er með því að núverandi forrit sem nota DI '11N' færist yfir í DI '12N'.</value>
+    <value>Gagnasmíðin er skilgreind og stjórnað af RLA og samanstendur af 2 hlutum: auðkenningarkóða reitsins, strax á eftir fylgt af gögnunum eins og þau eru skilgreind fyrir þann þátt samkvæmt gagnasafni (data dictionary) RLA. Hún er í meginatriðum skrá yfir reiti með stöðluðu innihaldi. Auðkenni reita (Field Identifiers) eru birt á http://rla.org/11ncodes. Notkun og uppbygging þessara kóða er skilgreind á: http://rla.org/11nformat. Frekari dæmi má einnig finna á þeirri síðu. DI „11N“ skal aldrei vera kóðað í 2D- eða RFID-merki ásamt neinum öðrum DI-þáttum.\nATHUGASEMD: Vegna villu í úthlutun DI „11N“ (orðalagið sem segir: „DI „11N“ skal aldrei vera kóðað í 2D- eða RFID-merki ásamt neinum öðrum DI-þáttum.“ er ekki gild fullyrðing), ætti ekki að innleiða neina nýja notkun á DI „11N“. Hlutverk DI „11N“ er fest í DI „12N“. Mælt er eindregið með því að núverandi forrit sem nota DI „11N“ flytji yfir í DI „12N“.</value>
   </data>
   <data name="di14012" xml:space="preserve">
-    <value>Gagnagrind skilgreind og stjórnað af RLA, samanstendur af 2 hlutum: auðkenniskóði (FI) kóða, strax fylgt af gögnum eins og skilgreint fyrir það atriði samkvæmt gagnasafni RLA. Þetta er í raun safn af svæðum með staðlaðu efni. Auðkenniskóðar svæðis eru birtir á http://rla.org/12ncodes Notkun og uppbygging þessara kóða er skilgreind á: http://rla.org/12nformat. Dæmi er hægt að finna á þeirri síðu.\n2020 Uppfærsla: URL hefur breyst í:\nhttps://rla.org/page/sqrl-code-listing</value>
+    <value>Gagnasmíðin (Data) er skilgreind og stjórnað af RLA og samanstendur af 2 hlutum: reitauðkennis- (FI) kóðanum, sem kemur strax á undan, og síðan gögnunum eins og þau eru skilgreind fyrir þann þátt samkvæmt gagnasafni (data dictionary) RLA. Þetta er í raun skrá yfir reiti með stöðluðu innihaldi. Reitauðkennin eru birt á http://rla.org/12ncodes. Notkun og uppbygging þessara kóða er skilgreind á: http://rla.org/12nformat. Dæmi má finna á þeirri síðu.\nUppfærsla 2020: Vefslóðin hefur breyst í:\nhttps://rla.org/page/sqrl-code-listing</value>
   </data>
   <data name="di14015" xml:space="preserve">
-    <value>Fulltrúi iðnaðar nets auðkenniskóða stjórnað og viðhaldið af CAICT, notað í iðnaðar nets auðkennisleysikerfinu í Kína og samanstendur af &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, á formi an3+a3+n3+n3+n8+an1...33, þar sem an3 er gagnakennari (DI), a3 er útgáfustofnunarkóði (IAC = "VAA"), n3 er efsta stigs kóði (TTC), n3 er annars stigs kóði (STC), n8 er fyrirtækjaauðkenniskóði (CIN) stjórnað og úthlutað af annars stigs palli og an1...33 er raðnúmer (SN) sem er stjórnað og úthlutað af haldara CIN, og er einstakt innan þess CIN haldara sviðs, með notkun stafanna 0 til 9, há- og lágstafi A til Z, * (stjörnu), + (plúsmerki), - (bandstriki), . (punktur eða fullstopp), / (framstrik), ( (vinstri sviga), ) (hægri sviga), ! (upphrópunarmerki).\nDæmi:\n15NVAA08810000000001123Ab.098\n15NVAA0881000000000112334Diat*C-\nDE!(8765)jiuY/L23+a!h</value>
+    <value>Táknar auðkennakóða iðnaðarinternetsins sem CAICT stýrir og viðheldur, notaða í kínverska upplausnarkerfi auðkenna iðnaðarinternetsins og samsetta sem &lt;DI&gt;&lt;IAC&gt;&lt;TTC&gt;&lt;STC&gt;&lt;CIN&gt;&lt;SN&gt;, á forminu an3+a3+n3+n3+n8+an1...33, þar sem an3 er gagnaauðkennið (DI), a3 er kóði útgáfustofnunar (IAC = „VAA“), n3 er efsta stigs kóði (TTC), n3 er annars stigs kóði (STC), n8 er fyrirtækjaauðkennisnúmer (CIN) sem er stjórnað og úthlutað af annars stigs vettvangi og an1...33 er raðnúmerið (SN) sem er stjórnað og úthlutað af handhafa CIN og er einstakt innan léns handhafa þess CIN, með notkun stafanna 0 til 9, há- og lágstafa A til Z, * (stjarna), + (plúsmerki), - (bandstrik), . (punktur), / (skástrik), ( (vinstri svigi), ) (hægri svigi), ! (upphrópunarmerki).
+Dæmi:
+15NVAA08810000000001123Ab.098
+15NVAA0881000000000112334Diat*C-
+DE!(8765)jiuY/L23+a!h</value>
   </data>
   <data name="di16000" xml:space="preserve">
-    <value>Vöruauðkenniskóði úthlutað af viðskiptavini.</value>
+    <value>Vörukenningarkóði úthlutaður af viðskiptavini.</value>
   </data>
   <data name="di16001" xml:space="preserve">
-    <value>Vöruauðkenniskóði úthlutað af birgja.</value>
+    <value>Auðkenningarkóði vöru sem birgir úthlutar.</value>
   </data>
   <data name="di16002" xml:space="preserve">
-    <value>Kóði úthlutaður til að tilgreina endurskoðunarstig fyrir vöru (t.d., verkfræðibreytingarstig, útgáfa, eða endurskoðun).</value>
+    <value>Kóði úthlutaður til að tilgreina endurskoðunarstig hlutar (t.d. verkfræðilegt breytingastig, útgáfa eða endurskoðun).</value>
   </data>
   <data name="di16003" xml:space="preserve">
-    <value>Samsett framleiðanda auðkennisnúmer/vörukóði undir 12/13 stafa GS1 sniðum, auk viðbótar kóða ef við á.\n2020 Uppfærsla: GS1 mælir með því að þessi DI lengur sé ekki notaður og að notendur þessa DI færist yfir í GS1 gagnaauðkenni (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
+    <value>Samsettur auðkenningarkóði framleiðanda/vörukóði samkvæmt 12/13 stafa GS1-sniðum, auk viðbótarkóða, ef einhverjir.\nUppfærsla 2020: GS1 mælir með að þessi DI sé ekki lengur notaður og að notendur þessa DI flytji yfir í GS1 gagnakvalara (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
   </data>
   <data name="di16004" xml:space="preserve">
-    <value>Vörudeild GS1 sniða.\n2020 Uppfærsla: GS1 mælir með því að þessi DI lengur sé ekki notaður og að notendur þessa DI færist yfir í GS1 gagnaauðkenni (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
+    <value>Vörukóðahluti GS1-sniða.\nUppfærsla 2020: GS1 mælir með að þessi DI sé ekki lengur notaður og að notendur þessa DI flytji yfir í GS1 gagnakvarða (notkunarauðkenni) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
   </data>
   <data name="di16005" xml:space="preserve">
-    <value>Flutningsflokkunar númer úthlutað af flutningsaðila til þess að meta hættuleg efni (t.d., Vegflutningur, Loftflutningur, Sjóflutningur, Lestarflutningur).</value>
+    <value>Flokkunarvörunúmer flutnings sem flutningsaðili úthlutar í þeim tilgangi að ákvarða gjaldskrá fyrir hættuleg efni (t.d. flokkun í vöruflutningum á vegum, í lofti, á sjó eða með járnbrautum).</value>
   </data>
   <data name="di16006" xml:space="preserve">
-    <value>Samsett birgja auðkenni og vörukóði (innanhúss úthlutað eða í sameiningu skilgreint).</value>
+    <value>Samsett auðkenning birgja og vörunúmer (úthlutað innanhúss eða skilgreint í sameiningu).</value>
   </data>
   <data name="di16007" xml:space="preserve">
-    <value>Common Language Equipment Identification (CLEI) úthlutað af framleiðanda til sumra fjarskiptabúnaða.</value>
+    <value>Algeng tungumálabúnaðarauðkenni (CLEI) sem framleiðandinn úthlutar sumum fjarskiptabúnaði.</value>
   </data>
   <data name="di16008" xml:space="preserve">
-    <value>14 stafa GS1 snið fyrir GTIN-14 kóðauppbyggingu.\n2020 Uppfærsla: GS1 mælir með því að þessi DI lengur sé ekki notaður og að notendur þessa DI færist yfir í GS1 gagnaauðkenni (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
+    <value>14 stafa GS1-snið fyrir GTIN-14 kóðauppbyggingu.\nUppfærsla 2020: GS1 mælir með að þessi DI sé ekki lengur notaður og að notendur þessa DI flytji yfir í GS1 gagnakennimerki (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
   </data>
   <data name="di16009" xml:space="preserve">
-    <value>Samsett framleiðanda auðkennisnúmer (9 stafa DUNS númer úthlutað af Dun &amp; Bradstreet) og hlutanúmer/vörupartanúmer (úthlutað af framleiðanda).</value>
+    <value>Samsettur auðkenningarkóði framleiðanda (9 stafa DUNS-númer úthlutað af Dun &amp; Bradstreet) og vörukóði/hlutanúmer (úthlutað af framleiðanda).</value>
   </data>
   <data name="di16010" xml:space="preserve">
-    <value>Hættulegs efnis kóði sem skilgreindur er af ANSI X12.3 í sniðinu Gagnaþáttur 208 (1 stafa kóðaauðkenni) fylgt af Gagnaþáttur 209 (Hættulegs efnis kóði).</value>
+    <value>Hættuleg efnisnúmer eins og skilgreint er af ANSI X12.3 á sniðinu Gagnaeining 208 (1 stafs kóðaforskeyti) á eftir Gagnaeining 209 (hættulegt efnisnúmer).</value>
   </data>
   <data name="di16011" xml:space="preserve">
-    <value>10 stafa CLEI kóði fyrir fjarskiptabúnað.</value>
+    <value>10 stafa CLEI-kóði fyrir fjarskiptabúnað.</value>
   </data>
   <data name="di16012" xml:space="preserve">
-    <value>Skjalategund (t.d., Afhendingarlista, Hönnunarteikning, o.s.frv.) (innanhúss úthlutað eða í sameiningu skilgreint).</value>
+    <value>Tegund skjals (t.d. valmynd, hönnunarteikning o.s.frv.) (úthlutað innanhúss eða skilgreint í sameiningu).</value>
   </data>
   <data name="di16013" xml:space="preserve">
-    <value>VMRS kerfiskóði.</value>
+    <value>VMRS-kerfiskóði.</value>
   </data>
   <data name="di16014" xml:space="preserve">
-    <value>VMRS kerfi og samsetningarkóði.</value>
+    <value>VMRS-kerfi og samsetningarkóði.</value>
   </data>
   <data name="di16015" xml:space="preserve">
-    <value>VMRS kerfi, samsetning, &amp; hlutakóði.</value>
+    <value>VMRS-kerfi, samsetningar- og varahlutakóði.</value>
   </data>
   <data name="di16016" xml:space="preserve">
-    <value>VMRS kerfi, samsetning, eða hlutakóði. (Notandi breytt).</value>
+    <value>VMRS kerfis-, samsetningar- eða hlutakóði. (Breytt af notanda).</value>
   </data>
   <data name="di16017" xml:space="preserve">
-    <value>Samsett GS1 birgja auðkenni og vörukóði úthlutað af birgja.\n2020 Uppfærsla: GS1 mælir með því að þessi DI lengur sé ekki notaður og að notendur þessa DI færist yfir í GS1 gagnaauðkenni (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
+    <value>Samsett auðkenni GS1 birgja og vörunúmer úthlutað af birgjanum.\nUppfærsla 2020: GS1 mælir með að þetta DI sé ekki lengur notað og að notendur þessa DI flytji yfir í GS1 gagnakvarða (forritsauðkenni) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
   </data>
   <data name="di16018" xml:space="preserve">
-    <value>Samsett VMRS birgja ID og birgja úthlutað varahlutanúmer.</value>
+    <value>Samsett auðkenni VMRS-birgja og birgjaskráð varanúmer.</value>
   </data>
   <data name="di16019" xml:space="preserve">
-    <value>Hluti af vöru. (Eitt vara innihaldið í mörgum pökkum).</value>
+    <value>Hluti af vöru. (Ein vara í mörgum umbúðum).</value>
   </data>
   <data name="di16020" xml:space="preserve">
-    <value>Fyrsta stig (Viðskiptavinur úthlutað).</value>
+    <value>Fyrsta stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di16021" xml:space="preserve">
-    <value>Annað stig (Viðskiptavinur úthlutað).</value>
+    <value>Annað stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di16022" xml:space="preserve">
-    <value>Þriðja stig (Viðskiptavinur úthlutað).</value>
+    <value>Þriðja stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di16023" xml:space="preserve">
-    <value>Fjórða stig (Viðskiptavinur úthlutað).</value>
+    <value>Fjórða stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di16024" xml:space="preserve">
-    <value>Fimmta stig (Viðskiptavinur úthlutað).</value>
+    <value>Fimmta stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di16025" xml:space="preserve">
-    <value>Auðkenni aðila að viðskiptum úthlutað af haldi fyrirtækjaauðkennisnúmers (CIN) og inniheldur viðeigandi útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá þess, byggt sem röð 3 tengdra gagnaþátta: IAC, fylgt af CIN, fylgt af birgja úthlutað varahlutanúmeri sem er einstakt innan sviðs CIN haldarans.</value>
+    <value>Auðkenning aðila að viðskiptum sem er úthlutað af handhafa fyrirtækjaauðkennisnúmers (CIN) og felur í sér tengdan kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggð sem röð af 3 samtengdum gagnaþáttum: IAC, síðan CIN, síðan varahlutanúmer úthlutað af birgi sem er einstakt innan léns handhafa CIN.</value>
   </data>
   <data name="di16026" xml:space="preserve">
-    <value>Hlutanúmer næsta hærra samsetningu.</value>
+    <value>Vörunúmer næsta hærra samsetningar.</value>
   </data>
   <data name="di16027" xml:space="preserve">
-    <value>Vöruflokkun HTS-6 kóði; Notað snið: 4012.11 eða 4012.11.4000 (Kommapunktur er skýrt kóðaður) The Harmonized System (HS) Flokkun er 6 stafa staðlað tölulegt aðferð til að flokka verslunarvörur. HS númer eru notuð af tollayfirvöldum um allan heim til að auðkenna vörur fyrir beitingu tolla og skatta. Auka tölustafir eru bætt við HS númer af sumum ríkjum til að greina frekar á milli vara í ákveðnum flokkum. Í Bandaríkjunum, númer notuð til að flokka útfluttar vörur eru kallaðar 'Schedule B' númer. U.S. Census Bureau stjórnar Schedule B kerfinu. Schedule B númer, ekki HS númer, verður að veita á Shippers' Export Declaration (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nInnflutningskóðar eru stjórnaðir af U.S. International Trade Commission (USITC). http://hts.usitc.gov/\n2020 Uppfærsla: http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf tengill er ekki lengur virkur. Hafðu samband við skipuleggjanda vegna SED eyðublaðs.</value>
+    <value>HTS-6 vörunúmer; Notaðu sniðið: 4012.11 eða 4012.11.4000 (punkturinn er sérstaklega kóðaður). Samræmda vörulýsingar- og vörunúmerakerfið (HS) er 6 stafa staðlað tölulegt kerfi til að flokka vörur í alþjóðaviðskiptum. HS-númer eru notuð af tollayfirvöldum um allan heim til að bera kennsl á vörur við álagningu tolla og skatta. Sum stjórnvöld bæta við aukastöfum við HS-númer til að greina nánar á milli vara í tilteknum flokkum. Í Bandaríkjunum eru númer sem notuð eru til að flokka útfluttar vörur kölluð „Schedule B“-númer. Bandaríska manntalsskrifstofan (U.S. Census Bureau) annast Schedule B-kerfið. Schedule B-númer, en ekki HS-númer, verða að vera tilgreind á Shippers' Export Declaration (SED).\nhttp://www.niccomp.com/rohs/files/NIC_HTS1006.pdf\nInnflutningskóðar eru í umsjón U.S. International Trade Commission (USITC). http://hts.usitc.gov/\nUppfærsla 2020: tengillinn http://www.niccomp.com/rohs/files/NIC_HTS1006.pdf er ekki lengur virkur. Hafðu samband við sendanda til að fá SED-eyðublað.</value>
   </data>
   <data name="di16028" xml:space="preserve">
-    <value>Varaheiti. Hrein máls lýsing (Enska).</value>
+    <value>Heiti farms. Lýsing á almennu máli (enska).</value>
   </data>
   <data name="di16029" xml:space="preserve">
-    <value>Vöru flokkunarkóði eins og skilgreint með GMDN (Global Medical Device Nomenclature - http://www.gmdnagency.org).</value>
+    <value>Vöruflokkunarkóði eins og skilgreint er með GMDN (Global Medical Device Nomenclature – http://www.gmdnagency.org).</value>
   </data>
   <data name="di16030" xml:space="preserve">
-    <value>Fyrsta stig (Birgja úthlutað).</value>
+    <value>Fyrsta stig (úthlutað af birgi).</value>
   </data>
   <data name="di16031" xml:space="preserve">
-    <value>Annað stig (Birgja úthlutað).</value>
+    <value>Annað stig (úthlutað af birgi).</value>
   </data>
   <data name="di16032" xml:space="preserve">
-    <value>Þriðja stig (Birgja úthlutað).</value>
+    <value>Þriðja stig (úthlutað af birgi).</value>
   </data>
   <data name="di16033" xml:space="preserve">
-    <value>Fjórða stig (Birgja úthlutað).</value>
+    <value>Fjórða stig (úthlutað af birgi).</value>
   </data>
   <data name="di16034" xml:space="preserve">
-    <value>Fimmta stig (Birgja úthlutað).</value>
+    <value>Fimmta stig (úthlutað af birgi).</value>
   </data>
   <data name="di16040" xml:space="preserve">
-    <value>Kóði úthlutað af viðskiptavini til auðkennisnúmers framleiðanda á Öryggisgagnablöðum (MSDS) skjali sem lýsir notkun, hættum og efnafræðilegri samsetningu hættulegs efnis.</value>
+    <value>Kóði sem viðskiptavinur úthlutar auðkennisnúmeri öryggisblaðs framleiðanda (MSDS) sem lýsir notkun, hættum og efnasamsetningu hættulegs efnis.</value>
   </data>
   <data name="di16049" xml:space="preserve">
-    <value>Útflutningsstjórnað atriði. Hlutur til útflutningsstjórnunar og/eða takmarkana eins og tilgreint er í Wassenaar samkomulaginu. DI fylgt af Alfa-2 ISO 3166 landskóða landsins sem lagði á takmörkunina fylgt af Wassenaar kóða (http://www.wassenaar.org/controllists/index.html).\n2020 Uppfærsla: URL hefur breyst í https://www.wassenaar.org/control-lists/</value>
+    <value>Útflutningsstýrð vara. Háð útflutningseftirliti og/eða takmörkunum eins og tilgreint er í Wassenaar-samkomulaginu. DI á eftir Alpha-2 ISO 3166 landskóða þess lands sem setti takmörkunina, á eftir Wassenaar-kóða (http://www.wassenaar.org/controllists/index.html).\nUppfærsla 2020: Vefslóðin hefur breyst í https://www.wassenaar.org/control-lists/</value>
   </data>
   <data name="di16050" xml:space="preserve">
-    <value>Framleiðanda úthlutað atriðisauðkenni - samanstendur af atriðisnúmeri úthlutað af atriðisframleiðanda, fylgt af plúsmerki (+), fylgt - ef nauðsynlegt til að auðkenna atriðið einstaklega innan framleiðanda vöruúrvals - af framleiðanda úthlutaðri atriðisútgáfu.\nDæmi 50PABC+6 myndi tákna atriðisnúmer ABC, atriðisútgáfa 6\nATH - Atriðisnúmeri skal alltaf fylgja plúsmerki, jafnvel þótt engin atriðisútgáfa sé til staðar. Þetta er nauðsynlegt til að leyfa ótvíræða samtengingu framleiðanda úthlutaðs atriðisauðkennis með öðru gagnagrind með notkun samtengingartákns plús. Til dæmis, samtenging 50P framleiðanda úthlutaðs atriðisauðkennis án atriðisútgáfu og raðnúmer (Gagnakennari S) á einingu gæti verið kóðuð sem 50PDEF++S1234.</value>
+    <value>Vörunúmer úthlutað af framleiðanda – samanstendur af vörunúmeri sem framleiðandi vörunnar úthlutar, á eftir kemur plústákn (+), og síðan – ef þess þarf til að auðkenna vöruna á einkvæman hátt innan vöruframboðs framleiðandans – útgáfa vörunnar úthlutuð af framleiðanda.\nDæmi: 50PABC+6 myndi tákna vörunúmer ABC, vöruútgáfu 6.\nATHUGIÐ – Vörunúmerinu skal alltaf fylgja plústákn, jafnvel þótt engin vöruútgáfa sé tilgreind. Þetta er nauðsynlegt til að gera kleift að tengja á ótvíræðan hátt auðkenni vöru úthlutað af framleiðanda við aðra gagnasmíð með því að nota samtengingartáknið plús (+). Til dæmis gæti samsetning 50P-auðkennis vöru úthlutaðs af framleiðanda án vöruútgáfu og raðnúmers (gagnaauðkenni S) á einingu verið kóðuð sem 50PDEF++S1234.</value>
   </data>
   <data name="di16051" xml:space="preserve">
-    <value>Alheims einstakt atriðisauðkenni sem samanstendur af Auðkenni aðila að viðskiptum úthlutað af haldi fyrirtækjaauðkennisnúmers (CIN) og inniheldur viðeigandi útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá þess, fylgt af plúsmerki (+), fylgt af Framleiðanda úthlutaðri atriðisauðkenni eins og skilgreint með 50P\nDæmi: 51PJ4LBE0431863103+ABC+ myndi tákna atriðið með atriðisnúmer ABC og enga útgáfu númer framleidd af fyrirtæki með belgískri VSK númer 0431863103.</value>
+    <value>Alþjóðlega einstakt auðkenni hlutar sem samanstendur af auðkenningu aðila í viðskiptum, úthlutað af handhafa fyrirtækjaauðkennisnúmers (CIN) og inniheldur viðkomandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, á eftir kemur plúsmerki (+), á eftir kemur auðkenni hlutar sem framleiðandi úthlutar eins og skilgreint er með 50P\nDæmi: 51PJ4LBE0431863103+ABC+ myndi tákna hlutinn með vörunúmerinu ABC og án útgáfunúmers, framleiddan af fyrirtækinu með belgíska VSK-númerið 0431863103.</value>
   </data>
   <data name="di16052" xml:space="preserve">
-    <value>Litakóði.\nLitur á atriði/hlut greindur með kóða eða hugtaki sem samkomulag hefur náðst um á milli viðskiptafélaga.</value>
+    <value>Litakóði.\nLitur vöru/hlutar sem er auðkenndur með kóða eða hugtaki sem viðskiptaaðilar hafa sammælst um.</value>
   </data>
   <data name="di16053" xml:space="preserve">
-    <value>Auðkenni fyrir sérstök sjófarartæki samþykkt undir Evrópusambands tilskipun um sjófarartæki (2014/90/EU) og Framkvæmdarreglugerð (EU) 2018/608.\nSnið:\n• DI (an3);\n• Tegund samræmis mats (CA) mát eininga sett fram í viðauka II til tilskipunar 2014/90/EU notað fyrir samræmis mat (a1);\n• Tilkynnt stofnun (NB) auðkenninúmer úthlutað af framkvæmdastjórninni í samræmi við lið 3.1 í viðauka IV til tilskipunar 2014/90/EU (n4);\n• Vottorð (an5...20)</value>
+    <value>Auðkenni fyrir tiltekinn sjóútbúnað sem er samþykktur samkvæmt tilskipun Evrópusambandsins um sjóútbúnað (2014/90/ESB) og framkvæmdarreglugerð (ESB) 2018/608.\nSnið:\n• DI (an3);\n• Tegund samræmismats (CA) einingar/eininga sem tilgreind er/eru í II. viðauka við tilskipun 2014/90/ESB og notuð/notaðar við samræmismat (a1);\n• Auðkennisnúmer tilkynnts aðila (NB) sem framkvæmdastjórnin úthlutar í samræmi við lið 3.1 í IV. viðauka við tilskipun 2014/90/ESB (n4);\n• Vottorð (an5...20)</value>
   </data>
   <data name="di16054" xml:space="preserve">
-    <value>UDI-DI (Einstakt tæki auðkenni - Tækisauðkenni) fyrir lækningatæki (MD) og In-vitro-Diagnostics (IvD) sem einstakt lykill að opinberum UDI gagnagrunnum (GUDID, EUDAMED, o.fl.), samkvæmt þjóðlegum reglugerðarkröfum, eins og útlínur International Medical Device Regulators Forum (IMDRF). Öll prentanleg stafi UTF-8 stafasettsins eru leyfðir.</value>
+    <value>UDI-DI (einstök auðkenning tækis – auðkenni tækis) fyrir lækningatæki (MD) og in vitro greiningartæki (IvD) sem einstakur lykill að opinberum UDI-gagnagrunnum (GUDID, EUDAMED o.s.frv.), samkvæmt innlendum reglugerðarkröfum, eins og lýst er af International Medical Device Regulators Forum (IMDRF). Allir prentanlegir stafir úr UTF-8 stafasettinu eru leyfðir.</value>
   </data>
   <data name="di16055" xml:space="preserve">
-    <value>DNV vottunartilvísun. Bendir til þess að gögn innihalda tilvísun að vöruvottorði/staðfestingaryfirlýsingu/skýrslu, gefið út af DNV. Gagnakennari skal fylgja stöfum "NV" og vottorðsnúmeri. Þegar vottorðsnúmer hefur eftirlið, skal hann innifalin í gagnastreymi með því að nota "-" aðskilnaðartákn. Endurskoðunarvísar skulu ekki veittir.\nDæmi:\n1. 55PNVXXXXXXX, þar sem 55P er gagnakennari, XXXXXXX er DNV vottorðsnúmer.\n2. 55PNVXXXXXXX-Y, þar sem 55P er gagnakennari, XXXXXXX-Y er DNV vottorðsnúmer með eftirlið Y.</value>
+    <value>Tilvísun í DNV-vottun. Gefur til kynna að gögnin innihaldi tilvísun í vöruvottorð/staðfestingaryfirlýsingu/skýrslu, gefið út af DNV. Auðkenni gagna skal fylgt eftir af bókstöfunum „NV“ og vottorðsnúmeri. Þegar vottorðsnúmer hefur viðskeyti skal það vera innifalið í gagnastraumnum með því að nota aðgreiningarmerkið „-“. Endurskoðunarvísar skulu ekki vera gefnir upp.\nDæmi:\n1. 55PNVXXXXXXX, þar sem 55P er gagnaauðkennið, XXXXXXX er DNV-vottorðsnúmer.\n2. 55PNVXXXXXXX-Y, þar sem 55P er gagnaauðkennið, XXXXXXX-Y er DNV-vottorðsnúmer með viðskeyti Y.</value>
   </data>
   <data name="di17000" xml:space="preserve">
-    <value>Magn, Fjöldi stykkja, eða Magn (aðeins tölulegt) (eining og þýðing í sameiningu skilgreind).</value>
+    <value>Magn, fjöldi eininga eða upphæð (aðeins tölur) (mælieining og mikilvægi skilgreind gagnkvæmt).</value>
   </data>
   <data name="di17001" xml:space="preserve">
-    <value>Fræðilegur Lengd/Þyngd (aðeins tölulegt).</value>
+    <value>Fræðileg lengd/þyngd (aðeins tölur).</value>
   </data>
   <data name="di17002" xml:space="preserve">
-    <value>Raunþyngd (aðeins tölulegt).</value>
+    <value>Raunþyngd (aðeins tölur).</value>
   </data>
   <data name="di17003" xml:space="preserve">
-    <value>Einingarmál, skilgreint af tveggja stafa ANSI X12.3 Gagnaeining Númer 355 Einingarmálakóða.</value>
+    <value>Mælieining, eins og skilgreint er með tveggja stafa ANSI X12.3 gagnastaksnúmeri 355, kóða fyrir mælieiningu.</value>
   </data>
   <data name="di17004" xml:space="preserve">
     <value>Heildarupphæð.</value>
@@ -541,1035 +545,1051 @@
     <value>Nettóupphæð.</value>
   </data>
   <data name="di17006" xml:space="preserve">
-    <value>Þar sem Mörg ílát mynda Eitt Vöru (innihald hvers íláts verður að vera sameinað með innihaldi hinna ílátanna til að mynda eina vöru) skal Gagnakennari '6Q' notaður til að tengja mismunandi ílát saman. Sniðið # af # ('þetta er nth stykki af x stykkjum til að skilgreina vöruna') Birt í sniðinu 'n/x', þar sem '/' (skástrik) er notað sem aðskilnaðartákn á milli tveggja gilda.</value>
+    <value>Þar sem margar umbúðir mynda eina vöru (innihald hverrar umbúðar verður að sameinast innihaldi hinna umbúðanna til að mynda eina vöru) skal nota gagnakennið „6Q“ til að tengja saman hinar ýmsu umbúðir. Sniðið # af # („þetta er n-ta stykkið af x stykkjum sem skilgreina vöruna“) er sett fram á sniðinu „n/x“, þar sem „/“ (skástrik) er notað sem aðgreinir milli tveggja gilda.</value>
   </data>
   <data name="di17007" xml:space="preserve">
-    <value>Magn, Upphæð, eða Fjöldi stykkja á sniðinu: Magn fylgt af tveggja stafa ANSI X12.3 Gagnaeining Númer 355 Einingarmálakóða.</value>
+    <value>Magn, upphæð eða fjöldi eininga á sniðinu: magn á eftir tveggja stafa ANSI X12.3 gagnastakeiningarnúmeri 355 einingakóða.</value>
   </data>
   <data name="di17008" xml:space="preserve">
-    <value>Íláts Rated Þyngd\nFramleiðanda-úthlutað burðargeta ílátsins. Úthlutað við framleiðslu. Eining er kg.</value>
+    <value>Metin burðargeta gáms\nBurðargeta gáms sem framleiðandi úthlutar. Úthlutað við framleiðslu. Mælieining er kg.</value>
   </data>
   <data name="di17009" xml:space="preserve">
-    <value>Stykkiþyngd\nÞyngd eins hlutar.</value>
+    <value>Þyngd einingar  
+Þyngd eins hlutar.</value>
   </data>
   <data name="di17011" xml:space="preserve">
-    <value>Taraþyngd: þyngd auðs íláts.\nÍlátslíkamsþyngd.\nFramleiðanda-úthlutað þyngd auðs íláts. Úthlutað við framleiðslu. Eining er kg (Taraþyngd).</value>
+    <value>Eiginþyngd: þyngd tóms íláts.\nÞyngd ílátskropps.\nÞyngd tóms íláts sem framleiðandi úthlutar. Úthlutað við framleiðslu. Mælieining er kg (eiginþyngd).</value>
   </data>
   <data name="di17012" xml:space="preserve">
-    <value>Fjárhagslegt gildi ákveðið af birgja á sniðinu: gildi fylgt af ISO 4217 gagnaeiningarkóða fyrir framsetningu gildiseiningar gjaldmiðla og sjóða (t.d., 12Q2.50USD) (2.50 Fjárhagslegt gildi í Bandaríkjadölum) þýðing í sameiningu skilgreind.\nInnsláttargildi;\nGildi fylgt af ISO 4217 gagnaeiningarkóða fyrir framsetningu gildiseiningar gjaldmiðla og sjóða (t.d., 12Q2.50USD) (2.50 Fjárhagslegt gildi í Bandaríkjadölum)</value>
-  </data>
-  <data name="di17013" xml:space="preserve">
-    <value># af # ('þetta er nth stykki af x stykkjum í þessari sendingu').\nBirt í sniðinu 'n/x', þar sem '/' (skástrik) er notað sem aðskilnaðartákn á milli tveggja gilda.</value>
+    <value>Peningalegt gildi sem birgirinn ákvarðar á eftirfarandi sniði: gildið á eftir ISO 4217 gagnastakakóða sem táknar einingu gildis gjaldmiðla og sjóða (t.d. 12Q2.50USD) (2.50 peningalegt gildi í Bandaríkjadölum), merking skilgreind í sameiningu.\nInntaksgildi;\nGildi á eftir ISO 4217 gagnastakakóða sem táknar einingu gildis gjaldmiðla og sjóða (t.d. 12Q2.50USD) (2.50 peningalegt gildi í Bandaríkjadölum)</value>
   </data>
   <data name="di17014" xml:space="preserve">
-    <value>Byrjun auka magns.</value>
+    <value>Upphaf aukamagns.</value>
   </data>
   <data name="di17015" xml:space="preserve">
-    <value>Lok auka magns.</value>
+    <value>Lokun aukamagns.</value>
   </data>
   <data name="di17016" xml:space="preserve">
-    <value>Fjöldi stykkja í flutningabíl.</value>
+    <value>Fjöldi hluta í sendibíl.</value>
   </data>
   <data name="di17017" xml:space="preserve">
-    <value>Fjöldi sendinga í flutningabíl.</value>
+    <value>Fjöldi sendinga í sendibíl.</value>
   </data>
   <data name="di17018" xml:space="preserve">
-    <value>Rúmmál tjáð í rúmmetrum eða rúmfetum fylgt af ANSI X12.3 gagnaeininganúmeri 355 einingarmálskóða (CR eða CF). Enginn gefinn aukapunktur.</value>
+    <value>Rúmmál gefið upp í rúmmetrum eða rúmfetum, á eftir kemur ANSI X12.3 gagnastaksnúmer 355 einingakóði (CR eða CF). Enginn óbeinn aukastafur.</value>
   </data>
   <data name="di17019" xml:space="preserve">
-    <value>Breidd tjáð í línulegum metrum eða línulegum fetum fylgt af ANSI X12.3 gagnaeininganúmeri 355 einingarmálskóða (LC eða LF). Enginn gefinn aukapunktur.</value>
+    <value>Breidd gefin upp í línulegum metrum eða línulegum fetum, á eftir ANSI X12.3 gagnastaksnúmeri 355 einingakóða (LC eða LF). Enginn óbeinn aukastafur.</value>
   </data>
   <data name="di17020" xml:space="preserve">
-    <value>Hæð tjáð í línulegum metrum eða línulegum fetum fylgt af ANSI X12.3 gagnaeininganúmeri 355 einingarmálskóða (LC eða LF). Enginn gefinn aukapunktur.</value>
+    <value>Hæð gefin upp í línulegum metrum eða línulegum fetum, á eftir ANSI X12.3 gagnastaksnúmeri 355 einingakóða (LC eða LF). Enginn óbeinn aukastafur.</value>
   </data>
   <data name="di17021" xml:space="preserve">
-    <value>Lengd tjáð í línulegum metrum eða línulegum fetum fylgt af ANSI X12.3 gagnaeininganúmeri 355 einingarmálskóða (LC eða LF). Enginn gefinn aukapunktur.</value>
+    <value>Lengd gefin upp í línulegum metrum eða línulegum fetum, á eftir kemur ANSI X12.3 gagnastak númer 355 einingakóði (LC eða LF). Enginn óbeinn aukastafur.</value>
   </data>
   <data name="di17022" xml:space="preserve">
-    <value>Nettóþyngd sendingar tjáð í pundum eða kílógrömmum (kílóum) fylgt af ANSI X12.3 gagnaeininganúmeri 355 einingarmálskóða (LB eða KG). Enginn gefinn aukapunktur.</value>
+    <value>Nettóþyngd sendingar gefin upp í pundum eða kílóum (kg), ásamt ANSI X12.3 gagnastakinu númer 355 fyrir mælieiningu (LB eða KG). Enginn óbeinn aukastafur.</value>
   </data>
   <data name="di17023" xml:space="preserve">
-    <value>Lengd flutningabíls tjáð í línulegum metrum eða línulegum fetum fylgt af ANSI X12.3 gagnaeininganúmeri 355 einingarmálskóða (LC eða LF). Enginn gefinn aukapunktur.</value>
+    <value>Lengd sendibíls gefin upp í línulegum metrum eða línulegum fetum, ásamt ANSI X12.3 gagnastaksnúmeri 355 fyrir mælieiningu (LC eða LF). Enginn óbeinn aukastafur.</value>
   </data>
   <data name="di17024" xml:space="preserve">
-    <value>Innanrúmsrúmmál flutningabíls tjáð í rúmmetrum eða rúmfetum fylgt af ANSI X12.3 gagnaeininganúmeri 355 einingarmálskóða (CR eða CF). Enginn gefinn aukapunktur.</value>
+    <value>Rúmmál innan í sendibíl, gefið upp í rúmmetrum eða rúmfetum og á eftir kemur ANSI X12.3 gagnastaksnúmer 355 fyrir einingakóða (CR eða CF). Enginn óbeinn aukastafur.</value>
   </data>
   <data name="di17025" xml:space="preserve">
-    <value>Net sprengiefniþyngd (reiknað gildi af sprengiefnajafngildi tjáð í pundum af TNT). Mæling á NET er notuð alþjóðlega fyrir sprengiefniöryggis magn fjarlægðarbogareikninga. Enginn gefinn aukapunktur.</value>
+    <value>Nettó sprengiefnisþyngd (útreiknað gildi sprengiefnisjafngildis, gefið upp í pundum af TNT). Mæling á NEW er notuð á alþjóðavísu við útreikninga á öryggisfjarlægðarboga fyrir sprengiefni. Enginn gefinn aukastafur.</value>
   </data>
   <data name="di17026" xml:space="preserve">
-    <value>Pökkunarstig, tilgreining á hierarkísku stigi pökkunar í samræmi við HIBC (Health Industry Bar Code) forskriftir.</value>
+    <value>Pökkunarstig, sem tilgreinir stigveldisstig pökkunar í samræmi við HIBC (Health Industry Bar Code) forskriftir.</value>
   </data>
   <data name="di17027" xml:space="preserve">
-    <value>Einstakt verðgildi vöru, nettó, '.' (punktur) notaður sem komma (t.d. 27Q1000.5 fyrir verðgildi 1000,50).\nStrúktúr: an3+an1...20\n &lt;DI&gt;&lt;verðgildi&gt;.\nStafasett: 0 til 9, punktur (ISO 646 ASCII gildi aukastafur 46, sextándakerfi 2E).\nDæmi um kóðun með nettóverðgildi 1000:\n27Q1000.\nDæmi um kóðun með nettóverðgildi 1000.50:\n27Q1000.5.\nATH - Ef gjaldmiðill er krafist getur hann verið tekin frá öðru gagnaelementi notað í sama kóða, t.d. 12Q.</value>
+    <value>Verðgildi stakrar vöru, nettó, „.“ (punktur) notaður sem tugabrotspunktur (t.d. 27Q1000.5 fyrir verðgildi 1000.50).\nUppbygging: an3+an1...20\n   &lt;DI&gt;&lt;verðgildi&gt;.\nStafasett: 0 til 9, punktur (ISO 646 ASCII gildi í tugakerfi 46, í sextándakerfi 2E).\nDæmi um kóðun með nettóverðgildi 1000:\n27Q1000.\nDæmi um kóðun með nettóverðgildi 1000.50:\n27Q1000.5.\nATHUGIÐ – Ef gjaldmiðils er krafist má taka hann úr öðrum gagnaþætti sem notaður er í sama kóða, t.d. 12Q.</value>
   </data>
   <data name="di17028" xml:space="preserve">
-    <value>Einstakt gjald fyrir sendingu og pökkun, '.' (punktur) táknar staðsetningu kommu (t.d. 30Q100.50 fyrir gildið 100,50).\nStrúktúr: an3+an1...10\n &lt;DI&gt;&lt;gjaldgildi&gt;.\nStafasett: 0 til 9, punktur.\nDæmi um kóðun notkunar á gjaldi fyrir sendingu og pökkun upp á 100:\n30Q100.\nDæmi um kóðun notkunar á gjaldi fyrir sendingu og pökkun upp á 100,50:\n30Q100.50.\nATH - Ef gjaldmiðill er krafist getur hann verið tekin frá öðru gagnaelementi notað í sama kóða, t.d. 12Q.</value>
+    <value>Eitt verðgildi gjalds fyrir burðargjald og pökkun, „.“ (punktur) táknar staðsetningu kommu (t.d. 30Q100.50 fyrir gildið 100,50).\nUppbygging: an3+an1...10\n   &lt;DI&gt;&lt;verðgildi&gt;.\nStafamengi: 0 til 9, punktur.\nDæmi um kóðun með burðar- og pökkunargildi 100:\n30Q100.\nDæmi um kóðun með burðar- og pökkunargildi 100,50:\n30Q100.50.\nATHUGIÐ – Ef gjaldmiðils er krafist má taka hann úr öðrum gagnaþætti sem notaður er í sama kóða, t.d. 12Q.</value>
   </data>
   <data name="di17029" xml:space="preserve">
-    <value>Afhendingaprósent, '.' (punktur) táknar staðsetningu kommu (t.d. 31Q8.5 fyrir afsláttargildi 8,5%).\nStrúktúr: an3+n1...6 (12.456)\n &lt;DI&gt;&lt;afsláttarprósent&gt;.\nStafasett: 0 til 9, punktur\nDæmi um kóðun notkunar á afsláttarprósentu 10%:\n31Q10.\nDæmi um kóðun notkunar á afsláttarprósentu 8,5%:\n31Q8.5.</value>
+    <value>Afsláttarprósenta, „.“ (punktur) táknar staðsetningu kommu (t.d. 31Q8.5 fyrir afsláttargildi 8,5%).\nUppbygging: an3+n1...6 (12.456)\n   &lt;DI&gt;&lt;afsláttarprósenta (%)&gt;.\nStafamengi: 0 til 9, punktur\nDæmi um kóðun með afsláttarprósentu 10%:\n31Q10.\nDæmi um kóðun með afsláttarprósentu 8,5%:\n31Q8.5.</value>
   </data>
   <data name="di17030" xml:space="preserve">
-    <value>VSK prósent, '.' (punktur) táknar staðsetningu kommu (t.d. 27Q8.5 fyrir VSK gildi 8,5%).\nStrúktúr: an3+an1...5 (12.45)\n &lt;DI&gt;&lt;VSK prósent&gt;.\nStafasett: 0 til 9, punktur.\nDæmi um kóðun notkunar á VSK prósentu 10%:\n27Q19.\nDæmi um kóðun notkunar á VSK prósentu 8,5%:\n27Q8.5.</value>
+    <value>VSK-hlutfall, „.“ (punktur) táknar staðsetningu kommu (t.d. 27Q8.5 fyrir VSK-gildi 8,5%).\nUppbygging: an3+an1...5 (12.45)\n    &lt;DI&gt;&lt;VSK-hlutfall (%)&gt;.\nStafamengi: 0 til 9, punktur.\nDæmi um kóðun með VSK-hlutfalli 10%:\n27Q19.\nDæmi um kóðun með VSK-hlutfalli 8,5%:\n27Q8.5.</value>
   </data>
   <data name="di17031" xml:space="preserve">
-    <value>Gjaldmiðill, ISO 4217 gjaldmiðlakóði.\nStrúktúr: an3+an3\n &lt;DI&gt;&lt;Gjaldmiðill, t.d. EUR&gt;.\nStafasett: A-Z, 0 til 9.\nDæmi um kóðun notkunar á ISO bókstafakóða Bandaríkjadal:\n31QUSD.\nDæmi um kóðun notkunar á ISO bókstafakóða evru:\n31QEUR.\nDæmi um kóðun notkunar á ISO tölukóða evru:\n31Q978.</value>
+    <value>Gjaldmiðill, ISO 4217 gjaldmiðilskóði.\nUppbygging: an3+an3\n  &lt;DI&gt;&lt;Gjaldmiðill, t.d. EUR&gt;.\nStafasett: A–Z, 0 til 9.\nDæmi um kóðun með ISO stafrófskóða fyrir Bandaríkjadal:\n31QUSD.\nDæmi um kóðun með ISO stafrófskóða fyrir evru:\n31QEUR.\nDæmi um kóðun með ISO tölukóða fyrir evru:\n31Q978.</value>
   </data>
   <data name="di17032" xml:space="preserve">
-    <value>Klínískur hugtakakóði eins og skilgreindur með klínísku nafnkerfi: "Alþjóðlegur staðall fyrir auðkenningu heilsufars mælinga, athugana, og skjala - LOINC" (https://loinc.org), í eftirfarandi röð: &lt;DI&gt;&lt;LOINC Kóði&gt;&lt;Plúsmerki&gt;&lt;Gildi&gt;. Eining og snið Gildis er skilgreint af LOINC Kóða.\nDæmi: 32Q28903-3+60 = LOINC Kóði 28903-3: Vinstri augnlinsa Ás (gráður); með Gildi = 60.</value>
+    <value>Klínískt hugtakakóði eins og skilgreint er í klínískri nafnfræði: „Alþjóðlegi staðallinn til að auðkenna heilsumælingar, athuganir og skjöl – LOINC“ (https://loinc.org), í eftirfarandi röð: &lt;DI&gt;&lt;LOINC-kóði&gt;&lt;plúsmerki&gt;&lt;gildi&gt;. Eining og snið gildisins er skilgreint af LOINC-kóðanum.\nDæmi: 32Q28903-3+60 = LOINC-kóði 28903-3: Ás (gráður) vinstri snertilinsu; með gildi = 60.</value>
   </data>
   <data name="di18001" xml:space="preserve">
-    <value>Skilaboðaleyfiskóði (RMA) úthlutað af birgja</value>
+    <value>Skilakóði (RMA) sem birgirinn úthlutaði</value>
   </data>
   <data name="di18002" xml:space="preserve">
-    <value>Skilakóði Úthlutað af viðskiptavini</value>
+    <value>Skilakóði úthlutaður af viðskiptavininum</value>
   </data>
   <data name="di18004" xml:space="preserve">
-    <value>Bandaríkja varnarmálaráðuneytis auðkenniskóði (DoDIC)</value>
+    <value>Auðkenningarkóði varnarmálaráðuneytis Bandaríkjanna (DoDIC)</value>
   </data>
   <data name="di18005" xml:space="preserve">
-    <value>Gögn á sniði og með merkingu skilgreind af haldara Fyrirtækjaauðkennisnúmers (CIN) sem hefur verið úthlutað af Útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459, skilgreind sem röð samtengdra gagnaþátta: IAC, fylgt af CIN, fylgt af aðskilnaðartákni ':' (tvípunktur) fylgt af gögnunum á sniði og með merkingu eins og skilgreint af CIN haldaranum.\nATH - Aðeins gagnamálfræðireglur (ef einhverjar) sem veittar eru af yfirlýstu IAC+CIN innan hvers DI '5R' gagnastróms skulu beittar á gögnin sem fylgja DI 5R+IAC+CIN.4.</value>
+    <value>Gögn á sniði og með merkingarfræði sem skilgreind er af handhafa fyrirtækjaauðkennisnúmers (CIN) sem hefur verið gefið út af útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459, skilgreint sem röð samtengdra gagnaþátta: IAC, síðan CIN, síðan aðgreiningartáknið ':' (tvípunktur) og síðan gögnin á sniði og með merkingarfræði eins og skilgreint er af CIN-handhafa.\nATHUGASEMD - Aðeins reglur um gagnamálfræði (ef einhverjar) eins og þær eru veittar af tilgreindu IAC+CIN innan hvers DI '5R' gagnastraums skulu gilda um gögnin sem fylgja á eftir DI 5R+IAC+CIN.4.</value>
   </data>
   <data name="di18006" xml:space="preserve">
-    <value>ISO/IEC 20248 stafræn undirskrift gagnagrind. Ef undirliggjandi gagnaberi kóðun er 7 bitar, þá má aðeins nota ISO/IEC 20248 hrátt snið.\nDæmi með URL sniði:\n&lt;6R&gt;&lt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO&gt;\nDæmi með hráu sniði:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nISO/IEC 20248 gagnastrúktúr inniheldur stafræna undirskrift sem er notuð til að staðfesta tiltekin gagnaelement skilaboðanna. Gildi 6R, sem fyrsta stikið, og gagnaelementin til að staðfesta (strippuð frá öllum óprentanlegum stöfum), sem annað stikið, er sent til ISO/IEC 20248 DecoderVerifier - sem mun skila staðfestingarúrslitum: SAMÞYKKI, HAFNA eða VILLA(villukóði), og JSON hlut af afkóðuðum ISO/IEC 20248 viðbótarreitum. ISO/IEC 20248 gagnastrúktúr gæti innihaldið viðbótarreiti og leiðbeiningar til að afkóða og staðfesta eitt eða fleiri skilaboð gagnaelementa. Þessar leiðbeiningar verða unnar af ISO/IEC 20248 DecoderVerifier.</value>
+    <value>ISO/IEC 20248 stafræn undirskriftargagnasmíð. Ef kóðun undirliggjandi gagnabera er 7 bita, þá má einungis nota ISO/IEC 20248 hrátt snið.\nDæmi með URL-sniði:\n&lt;6R&gt;&lt;https://20248.sigvr.it/?Oo586eJAMEYCIQCf31EqIJML GclBpHLlRgBdO&gt;\nDæmi með hráu sniði:\n&lt;6R&gt;&lt;Oo586eJAMEYCIQCf31EqIJMLGclBpHLlRgBdO&gt;\nISO/IEC 20248 gagnaskipan inniheldur stafræna undirskrift sem er notuð til að sannreyna tilgreinda gagnaþætti í skilaboðum gagnaþátta. Gildi 6R, sem fyrsta færibreytan, og gagnaþættirnir sem á að sannreyna (hreinsaðir af öllum óprentanlegum stöfum), sem önnur færibreytan, eru send til ISO/IEC 20248 DecoderVerifier – sem skilar sannreyningarniðurstöðu: ACCEPT, REJECT eða ERROR(villukóði), og JSON-hlutnum með afkóðuðum ISO/IEC 20248 viðbótarreitum. ISO/IEC 20248 gagnaskipan getur innihaldið viðbótarreiti og leiðbeiningar til að afkóða og sannreyna eitt eða fleiri skilaboð gagnaþátta. Þessar leiðbeiningar verða unnar af ISO/IEC 20248 DecoderVerifier.</value>
   </data>
   <data name="di18007" xml:space="preserve">
-    <value>Vísindakerfi og fiskveiðiupplýsingakerfi (ASFIS) 'Millistofnanalegur 3-stafa tegundakóði', viðhaldið af Matvæla- og landbúnaðarstofnun Sameinuðu þjóðanna (www.fao.org, síðan leitaðu að 'ASFIS').\nDæmi;\n7RMUC = Mud carp;\n7RPCD = Ástralískur ferskvatnssíld;\n7RWSH = Stóri hvíthákarl.</value>
+    <value>Upplýsingakerfi um vatnavísindi og fiskveiðar (ASFIS) „3-stafa tegundakóði milli stofnana“, haldið við af Matvæla- og landbúnaðarstofnun Sameinuðu þjóðanna (www.fao.org, leitaðu síðan að „ASFIS“).\nDæmi;\n7RMUC = leðjukarpi;\n7RPCD = áströlsk ferskvatnssíld;\n7RWSH = hvíthákarl.</value>
   </data>
   <data name="di18008" xml:space="preserve">
-    <value>Alþjóðlegur staðall flokkun fiskveiðarfæra FAO (ISSCFG) kóði. (www.fao.org)\nAllir stafir af GS1 almennu forskriftinni-skilgreindu hlutmengi af ISO/IEC 646 eru leyfðir.\nDæmi:\n8R02.1.0 = Strönd draga;\n8R03.1.5 = Rækju troll;\n8R05.1.0 = Færanleg upplyftinet.</value>
+    <value>Alþjóðastaðlaður flokkunarkóði Matvæla- og landbúnaðarstofnunarinnar (FAO) fyrir veiðarfæri (ISSCFG). (www.fao.org)\nAllir stafir í þeim hluta ISO/IEC 646 sem er skilgreindur í GS1 almennu forskriftinni eru leyfðir.\nDæmi:\n8R02.1.0 = Strandnætur;\n8R03.1.5 = Rækjutroll;\n8R05.1.0 = Færanlegt lyftinet.</value>
   </data>
   <data name="di18009" xml:space="preserve">
-    <value>Framleiðsluaðferð fyrir fisk og sjávarfang eins og tilgreint af Fiskveiði- og fiskeldisdeild Matvæla- og landbúnaðarstofnunar (FAO) Sameinuðu þjóðanna, samkvæmt reglugerð ESB 1379/2013. (www.fao.org).\nAllir stafir af GS1 almennu forskriftinni-skilgreindu hlutmengi af ISO/IEC 646 eru leyfðir.\nDæmi;\n9R01 = Veiddur á sjó;\n9R02 = Veiddur í ferskvatni;\n9R03 = Ræktaður.</value>
+    <value>Framleiðsluaðferð fyrir fisk og sjávarafurðir eins og tilgreint er af Fiskveiði- og fiskeldisdeild Matvæla- og landbúnaðarstofnunar Sameinuðu þjóðanna (FAO), samkvæmt reglugerð ESB 1379/2013. (www.fao.org).\nAllir stafir í undirmengi ISO/IEC 646 sem skilgreint er í GS1 General Specification eru leyfðir.\nDæmi;\n9R01 = Veitt í sjó;\n9R02 = Veitt í ferskvatni;\n9R03 = Eldað.</value>
   </data>
   <data name="di19000" xml:space="preserve">
-    <value>Raðnúmer eða kóði úthlutað af birgja til einingar fyrir líftíma þess, (t.d., tölvu raðnúmer, rekjanleikanúmer, samningstól auðkenni)</value>
+    <value>Raðnúmer eða kóði sem birgir úthlutar einingu til æviloka (t.d. raðnúmer tölvu, rekjanleikanúmer, auðkenning samningsverkfæris)</value>
   </data>
   <data name="di19001" xml:space="preserve">
-    <value>Viðbótar kóði úthlutað af birgja til einingar fyrir líftíma þess (t.d., rekjanleikanúmer, tölvu raðnúmer)</value>
+    <value>Viðbótarkóði sem birgir úthlutar einingu til æviloka hennar (t.d. rekjanleikanúmer, raðnúmer tölvu)</value>
   </data>
   <data name="di19002" xml:space="preserve">
-    <value>Framvísunarsendingar tilkynning (ASN) sendingar auðkenni (SID) samsvarar ANSI ASC X12 gagnaeining 396</value>
+    <value>Tilkynning um fyrirfram tilkynnta sendingu (ASN) Sendingarauðkenni (SID) samsvarar ANSI ASC X12 gagnastaki 396.</value>
   </data>
   <data name="di19003" xml:space="preserve">
-    <value>Einstakt pakkningaauðkenni úthlutað af birgja (lægsta stig pökkunar sem hefur pakkningarkóða; skal innihalda líka atriði)</value>
+    <value>Einstök pakkningaauðkenni úthlutað af birgi (lægsta stig umbúða sem hefur pakkningaauðkenniskóða; skal innihalda einsleitar vörur)</value>
   </data>
   <data name="di19004" xml:space="preserve">
-    <value>Pakkningaauðkenni úthlutað af birgja fyrir aðalpökkun sem inniheldur lík atriði í einni viðskiptapöntun</value>
+    <value>Auðkenni pakkningar sem birgir úthlutar á ytri umbúðir sem innihalda eins vörur í einni pöntun viðskiptavinar.</value>
   </data>
   <data name="di19005" xml:space="preserve">
-    <value>Pakkningaauðkenni úthlutað af birgja fyrir aðalpökkun sem inniheldur ólík atriði í einni viðskiptapöntun</value>
+    <value>Auðkenni pakkningar sem birgir úthlutar aðalumbúðum sem innihalda ólíkar vörur í einni pöntun viðskiptavinar</value>
   </data>
   <data name="di19006" xml:space="preserve">
-    <value>Pakkningaauðkenni úthlutað af birgja fyrir aðalpökkun sem inniheldur lík atriði yfir margar viðskiptapantanir</value>
+    <value>Auðkenni pakkningar sem birgir úthlutar á aðalumbúðir sem innihalda sams konar vörur fyrir margar pantanir frá mismunandi viðskiptavinum</value>
   </data>
   <data name="di19007" xml:space="preserve">
-    <value>Pakkningaauðkenni úthlutað af birgja fyrir aðalpökkun sem inniheldur ólík atriði yfir margar viðskiptapantanir</value>
+    <value>Pakkaauðkenni úthlutað af birgi fyrir aðalumbúðir sem innihalda ólíkar vörur fyrir marga viðskiptavini</value>
   </data>
   <data name="di19008" xml:space="preserve">
-    <value>Birgja ID/Einstakt ílátaauðkenni kynnt í gagnaformi skilgreint af GS1 SSCC-18\n2020 Uppfærsla: Sjá GS1 Almennar forskriftir varðandi nýjustu útgáfu af SSCC.</value>
+    <value>Auðkenni birgja/einstakt gámauðkenni sett fram á gagnasniðinu sem GS1 SSCC-18 tilgreinir\nUppfærsla 2020: Vísað er til GS1 almennu forskriftanna varðandi nýjustu útgáfu SSCC.</value>
   </data>
   <data name="di19009" xml:space="preserve">
-    <value>Almenn pakkningaauðkenni (í sameiningu skilgreint)</value>
+    <value>Auðkenning pakka, almenn (gagnkvæmt skilgreint)</value>
   </data>
   <data name="di19010" xml:space="preserve">
-    <value>Vél, fruma, eða verkfæra auðkenniskóði</value>
+    <value>Vélar-, frumu- eða verkfæraauðkenniskóði</value>
   </data>
   <data name="di19011" xml:space="preserve">
-    <value>Fastafjármuna auðkenniskóði</value>
+    <value>Fastafjárnúmerkóði</value>
   </data>
   <data name="di19012" xml:space="preserve">
-    <value>Skjalanúmer (innanhúss úthlutað eða í sameiningu skilgreint)</value>
+    <value>Skjalnúmer (úthlutað innanhúss eða skilgreint í sameiningu)</value>
   </data>
   <data name="di19013" xml:space="preserve">
-    <value>Gáma öryggis innsigli</value>
+    <value>Öryggisinnsigli gáms</value>
   </data>
   <data name="di19014" xml:space="preserve">
-    <value>Fjórða flokks ósamstæður póstpakkaúrlestur</value>
+    <value>Skráning á óeins 4. flokks bögglapósti</value>
   </data>
   <data name="di19015" xml:space="preserve">
-    <value>Raðnúmer úthlutað af seljanda einingu, sem aðeins má nota í samhengi við '13V'</value>
+    <value>Raðnúmer úthlutað af söluaðilanum, sem aðeins er hægt að nota í tengslum við „13V“.</value>
   </data>
   <data name="di19016" xml:space="preserve">
-    <value>Útgáfunúmer, t.d., hugbúnaðarútgáfa</value>
+    <value>Útgáfunúmer, t.d. hugbúnaðarútgáfa</value>
   </data>
   <data name="di19017" xml:space="preserve">
-    <value>Samsett 6 stafa GS1 birgjaauðkenni og Einstakt pakkningaauðkenni úthlutað af birgja\n2020 Uppfærsla: GS1 mælir með því að þessi DI lengur sé ekki notaður og að notendur þessa DI færist yfir í GS1 gagnaauðkenni (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
+    <value>Samsett 6 stafa GS1 auðkenni birgis og einstakt pakkningaauðkenni úthlutað af birgi\nUppfærsla 2020: GS1 mælir með að þetta DI sé ekki lengur notað og að notendur þessa DI flytji yfir í GS1 gagnakvarða (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.</value>
   </data>
   <data name="di19018" xml:space="preserve">
-    <value>CAGE kóði &amp; Raðnúmer Einstakt innan CAGE</value>
+    <value>CAGE-kóði og raðnúmer einstakt innan CAGE</value>
   </data>
   <data name="di19019" xml:space="preserve">
-    <value>Samsett Dun &amp; Bradstreet fyrirtækjaauðkenni birgja fylgt af einstöku pakkningaauðkenni úthlutað af birgja, á formi nn...nn+nn...n þar sem plús tákn (+) er notað sem aðskilnaðartákn á milli DUNS númer og einstaks pakkningaauðkennis</value>
+    <value>Samsett Dun &amp; Bradstreet-fyrirtækjaauðkenni birgjans ásamt einstöku pakkningaauðkenni sem birgirinn úthlutar, á sniðinu nn...nn+nn...n þar sem plústákn (+) er notað sem aðgreinir milli DUNS-númersins og einstaka pakkningaauðkennisins.</value>
   </data>
   <data name="di19020" xml:space="preserve">
-    <value>Rekjanleikakóði fyrir einingu úthlutað af viðskiptavini</value>
+    <value>Rekjanleikakóði fyrir einingu úthlutaður af viðskiptavininum</value>
   </data>
   <data name="di19021" xml:space="preserve">
-    <value>Dekkja auðkennistala eins og skilgreint af U.S. Department of Transportation (D.O.T) undir U.S. Code 49 CFR 574.5.</value>
+    <value>Auðkennisnúmer hjólbarða eins og það er skilgreint af samgönguráðuneyti Bandaríkjanna (D.O.T.) samkvæmt bandarískum lögum 49 CFR 574.5.</value>
   </data>
   <data name="di19022" xml:space="preserve">
-    <value>Einstakt einstaklings auðkenni fyrir farsíma</value>
+    <value>Einstakt einstaklingsauðkenni fyrir farsíma með farsímatengingu</value>
   </data>
   <data name="di19023" xml:space="preserve">
-    <value>Miðlunar aðgangsstýringar (MAC) heimilisfang í samræmi við IEEE 802.11</value>
+    <value>MAC-vistfang (Media Access Control) sem samræmist IEEE 802.11</value>
   </data>
   <data name="di19024" xml:space="preserve">
-    <value>Samkvæmt ISO/IEC 15963 (gildi er umbreyting á bitagildi þess í 8-bita ASCII gildi). Þessi Gagnakennari gæti mögulega tekið á sig hvert ASCII-256 gildi. Fyrir flutningsíláts merki er skráningarstofnunin (RA) fyrir framleiðendur RA fyrir ISO 14816. (ISO 646)</value>
+    <value>Samkvæmt ISO/IEC 15963 (gildið er umbreyting bitagildis þess í 8-bita ASCII-gildi). Þetta gagnakenni gæti hugsanlega tekið hvaða ASCII-256 gildi sem er. Fyrir flutningagáma-merki er skráningaryfirvaldið (RA) fyrir framleiðendur það sama og RA fyrir ISO 14816. (ISO 646)</value>
   </data>
   <data name="di19025" xml:space="preserve">
-    <value>Auðkenni aðila að viðskiptum úthlutað af haldi fyrirtækjaauðkennisnúmers (CIN) og inniheldur viðeigandi útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá þess, byggt sem röð 3 tengdra gagnaþátta: IAC, fylgt af CIN, fylgt af birgja úthlutaðri raðnúmeri sem er einstakt innan sviðs CIN haldarans (Sjá Viðauka C.11).</value>
+    <value>Auðkenning aðila í viðskiptum sem er úthlutað af handhafa fyrirtækjaauðkennisnúmers (CIN) og felur í sér viðeigandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggð sem röð af 3 samtengdum gagnaþáttum: IAC, síðan CIN, síðan raðnúmer sem birgir úthlutar og er einstakt innan sviðs handhafa CIN (sjá viðauka C.11).</value>
   </data>
   <data name="di19026" xml:space="preserve">
-    <value>Búnaðarauðkenni, vera alheims einstakt auðkenni fyrir tæki, búnað eða tilvik af tölvuforriti notað í framleiðslu, flutningi, vinnslu eða annarri meðhöndlun á hlutum, sem er byggt með því að tengja saman:\n - útgáfustofnunarkóða ISO/IEC 15459;\n - búnaðarnúmer sem samræmist forskriftum viðkomandi útgáfustofnunar; og að:\n - inniheldur aðeins hástafi í stafrófi og/eða tölustafi;\n - er einstakt (það er, er frábrugðið öðrum ISO/IEC 15459 samrýmanlegu auðkenni) innan sviðs útgáfustofnunarinnar;\n - getur ekki komið frá öðru ISO/IEC 15459 samrýmanlegu auðkenni, gefið út undir sömu útgáfustofnun, með einfaldri viðbót stafa við, eða þeirra fjarlægingu frá, því enda.\nLesarar ID.\nBúnaðarauðkenni, vera alheims einstakt auðkenni fyrir tæki, búnað eða tilvik af tölvuforriti notað í framleiðslu, flutningi, vinnslu eða annarri meðhöndlun á hlutum.</value>
+    <value>Auðkenni búnaðar, sem er alþjóðlega einstakt auðkenni fyrir tæki, búnaðareiningu eða tilvik tölvuforrits sem er notað við framleiðslu, flutning, vinnslu eða aðra meðhöndlun hluta, og er myndað með því að samtengja:\n - útgáfuaðilakóða samkvæmt ISO/IEC 15459;\n - búnaðarnúmer sem er í samræmi við forskriftir viðkomandi útgáfuaðila; og sem:\n - samanstendur eingöngu af hástöfum og/eða tölustöfum;\n - er einstakt (þ.e. aðgreint frá öllum öðrum auðkennum sem uppfylla ISO/IEC 15459) innan sviðs útgáfuaðilans;\n - getur ekki verið dregið af neinu öðru ISO/IEC 15459-samræmdu auðkenni, gefnu út af sama útgáfuaðila, með einfaldri viðbót stafa við endann eða fjarlægingu stafa af endanum.\nLesarauðkenni.\nAuðkenni búnaðar, sem er alþjóðlega einstakt auðkenni fyrir tæki, búnaðareiningu eða tilvik tölvuforrits sem er notað við framleiðslu, flutning, vinnslu eða aðra meðhöndlun hluta.</value>
   </data>
   <data name="di19027" xml:space="preserve">
-    <value>Atriðisnúmer innan sendingar, vera röð tölustafa:\n - sem auðkennir sérstaklega atriði, innan þekkjanlegrar sendingar af tengdum atriðum, frá öllum öðrum atriðum í sömu sendingunni;\n - þar sem lengd er sú sama fyrir öll atriði innan viðkomandi sendingar.</value>
+    <value>Vörunúmer innan lotu, sem er strengur af tölustöfum:\n - sem aðgreinir vöru á einstakan hátt, innan auðkennanlegrar lotu tengdra vara, frá öllum öðrum vörum í sömu lotu;\n - sem er jafnlangt fyrir allar vörur innan viðkomandi lotu.</value>
   </data>
   <data name="di19028" xml:space="preserve">
-    <value>Sendingar- og atriðisnúmer, vera samtenging af gagnakennara 27T sendingarnúmeri og gagnakennara 27S atriðisnúmeri atriðis sem tilheyrir viðkomandi sendingu.</value>
+    <value>Lotu- og vörunúmer, sem er samsetning gagnaauðkennis 27T lotunúmers og gagnaauðkennis 27S vörunúmers fyrir vöru sem tilheyrir viðkomandi lotu.</value>
   </data>
   <data name="di19030" xml:space="preserve">
-    <value>Viðbótar rekjanleikakóði fyrir einingu úthlutað af birgja auk eða í stað rekjanleikakóða sem veitt er af 'S' eða '1S'</value>
+    <value>Viðbótarrekjanleikakóði fyrir einingu sem birgirinn úthlutar, til viðbótar við eða frábrugðinn rekjanleikakóða/-kóðum sem gefnir eru upp af „S“ eða „1S“.</value>
   </data>
   <data name="di19031" xml:space="preserve">
-    <value>Byrjun raðnúmers fyrir raðnúmer í röð</value>
+    <value>Upphafsraðnúmer fyrir raðnúmer í röð</value>
   </data>
   <data name="di19032" xml:space="preserve">
-    <value>Lok raðnúmers fyrir raðnúmer í röð</value>
+    <value>Lokara raðnúmer fyrir raðnúmer í röð</value>
   </data>
   <data name="di19033" xml:space="preserve">
-    <value>Raðnúmer næsta hærri samsetningar</value>
+    <value>Raðnúmer næsta hærra samsetningarhluta</value>
   </data>
   <data name="di19034" xml:space="preserve">
-    <value>Raðnúmer eða hlutanúmer endanlegs atriðis</value>
+    <value>Raðnúmer eða varanúmer lokahlutar</value>
   </data>
   <data name="di19035" xml:space="preserve">
-    <value>Stuðningsnúmer (Notað í einingu DOD flutningi)</value>
+    <value>Stuðararnúmer (notað í Unit DOD flutningi)</value>
   </data>
   <data name="di19036" xml:space="preserve">
-    <value>Pallauðkenni (Notað fyrir hlaðna 463L loftflutningspalla)</value>
+    <value>Auðkenni brettis (notað fyrir hlaðin 463L flugbretti)</value>
   </data>
   <data name="di19037" xml:space="preserve">
-    <value>Einstakt atriðisauðkenni sem samanstendur af röð 5 gagnaþátta: 'IAC', fylgt af 'CIN', fylgt af 'Part Number (PN)', fylgt af plúsmerki (+), fylgt af birgja úthlutað 'Part Serial Number (PSN)' sem er alheims einstakt innan sviðs CIN haldarans; á sniðinu IAC CIN PN + PSN (bil eru veitt fyrir sjónrænan skýrleika aðeins; þau eru ekki hluti af gögnunum). Sjá Viðauka C.11.</value>
+    <value>Einstakt vörukenni sem samanstendur af röð 5 gagnaþátta: „IAC“, á eftir „CIN“, á eftir „Vörunúmeri (PN)“, á eftir „+“-tákninu, á eftir af birgi úthlutuðu (eða stýrðu) „Raðnúmeri vöruhlutar (PSN)“ sem er alþjóðlega einstakt innan léns CIN-handhafans; á sniðinu IAC CIN PN + PSN (bil eru aðeins til að auðvelda sjónrænan lestur; þau eru ekki hluti af gögnunum). Sjá viðauka C.11.</value>
   </data>
   <data name="di19042" xml:space="preserve">
-    <value>Einstakt atriðisauðkenni (UII) á 25S sniði fylgt af tölulegu gildi sem tilgreinir lengd raðnúmerselements fyrir kerfi sem krefjast 'raðnúmer' hluta af samsettum Raðnúmerselementi (IAC+CIN+SN) Snið: DI+LI+IAC+CIN+SN (LI=lengd SN)</value>
+    <value>Einstakt auðkenni hlutar (UII) á 25S-sniði, á undan tölugildi sem tilgreinir lengd raðnúmerahlutans, til notkunar í kerfum sem krefjast „raðnúmer“-hluta samsetts raðnúmeraeiningar (IAC+CIN+SN). Snið: DI+LI+IAC+CIN+SN (LI=lengd SN)</value>
   </data>
   <data name="di19043" xml:space="preserve">
-    <value>Samþætt rásarkort auðkenni (ICCID) í samræmi við ITU-T Tilmæli E.118 og ETSI Tilmæli GSM 11.11; hámarks 20 tölustafir samanstandandi af Útgefandi auðkennistölu (IIN; hámark 7 tölustafir), Einstökum reikningsauðkenni (breytilegur; lengd ákvarðast af IIN, en er sú sama lengd innan einstakra IINs), Athugunartölustaf (ein tölustafur reiknaður með Luhn algrími\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = reikningsauðkenni, c = athugunartölustafur)</value>
+    <value>Samþætt auðkenni snjallkorts (ICCID) í samræmi við ITU-T tilmæli E.118 og ETSI tilmæli GSM 11.11; að hámarki 20 tölustafir sem samanstanda af útgefandaauðkennisnúmeri (IIN; að hámarki 7 tölustafir), einstaklingsbundnu reikningsauðkenni (breytilegt; lengd ræðst af IIN, en er sú sama innan einstakra IIN), og próftölu (einn tölustafur reiknaður með Luhn-reikniritinu\nhttp://en.wikipedia.org/wiki/Luhn_algorithm).\n43Siiiiiiinnnnnnnnnnnnc (i = IIN, n = reikningsauðkenni, c = próftala)</value>
   </data>
   <data name="di19050" xml:space="preserve">
-    <value>Fyrsta stig (Birgja úthlutað)</value>
+    <value>Fyrsta stig (úthlutað af birgi)</value>
   </data>
   <data name="di19051" xml:space="preserve">
-    <value>Annað stig (Birgja úthlutað)</value>
+    <value>Annað stig (úthlutað af birgi)</value>
   </data>
   <data name="di19052" xml:space="preserve">
-    <value>Þriðja stig (Birgja úthlutað)</value>
+    <value>Þriðja stig (úthlutað af birgi)</value>
   </data>
   <data name="di19053" xml:space="preserve">
-    <value>Fjórða stig (Birgja úthlutað)</value>
+    <value>Fjórða stig (úthlutað af birgi)</value>
   </data>
   <data name="di19054" xml:space="preserve">
-    <value>Fimmta stig (Birgja úthlutað)</value>
+    <value>Fimmta stig (úthlutað af birgi)</value>
   </data>
   <data name="di19096" xml:space="preserve">
-    <value>EPC númer (Venjulega Serialized Global Trade Identification Number - SGTIN)\n2020 Uppfærsla: Hugtakið "EPC númer" er ekki lengur notað af GS1. Sjá GS1 Almennar forskriftir og Tag Data Standard fyrir núverandi orðalag</value>
+    <value>EPC-númer (venjulega raðnúmerað alþjóðlegt vörunúmer – SGTIN)\nUppfærsla 2020: Hugtakið „EPC-númer“ er ekki lengur notað af GS1. Vísað er til GS1 General Specifications og Tag Data Standard fyrir núverandi hugtakanotkun.</value>
   </data>
   <data name="di19097" xml:space="preserve">
-    <value>Dulkóðað raðnúmer úthlutað af birgja til einingar, sem hægt er að staðfesta af óháðum treystum þriðja aðila. Dulkóðað raðnúmer lýsir ekki neinum eiginleikum einingarinnar án afkóðunar af óháðum þriðja aðila.</value>
+    <value>Dulkóðað raðnúmer sem birgir úthlutar einingu og sem hægt er að sannvotta af óháðum, traustum þriðja aðila. Dulkóðaða raðnúmerið lýsir engum breytum einingarinnar án afkóðunar af óháðum þriðja aðila.</value>
   </data>
   <data name="di2" xml:space="preserve">
-    <value>'OG' tákn. ICCBBA</value>
+    <value>Stafurinn „AMPERSAND“. ICCBBA</value>
   </data>
   <data name="di2000" xml:space="preserve">
-    <value>Ílátstegund (innanhúss úthlutað eða í sameiningu skilgreint).</value>
+    <value>Tegund íláts (úthlutað innanhúss eða skilgreint í sameiningu).</value>
   </data>
   <data name="di20000" xml:space="preserve">
-    <value>Rekjanleikanúmer úthlutað af viðskiptavini til að auðkenna/rekja einstakan hóp eininga (t.d., lotu, sendingu, bræðslu).</value>
+    <value>Rekjanleikanúmer sem viðskiptavinurinn úthlutar til að auðkenna/rekja einstakan hóp eininga (t.d. lotu, framleiðslulotu, bræðslu).</value>
   </data>
   <data name="di20001" xml:space="preserve">
-    <value>Rekjanleikanúmer úthlutað af birgja til að auðkenna/rekja einstakan hóp eininga (t.d., lotu, sendingu, bræðslu).</value>
+    <value>Rekjanleikanúmer sem birgir úthlutar til að auðkenna/rekja einstakan hóp eininga (t.d. lotu, framleiðslulotu, bræðslu).</value>
   </data>
   <data name="di20003" xml:space="preserve">
-    <value>Einkaréttarúthlutun (U.S. EPA ökutækjaauðkenni fyrir útblástursprófanir).</value>
+    <value>Einkaréttarskráning (auðkenning ökutækis hjá Umhverfisstofnun Bandaríkjanna (EPA) fyrir útblástursprófanir).</value>
   </data>
   <data name="di2001" xml:space="preserve">
-    <value>Endurvinnanlegt ílátaauðkenni úthlutað af eiganda ílátsins eða viðeigandi reglugerðarstofnun (t.d., málmkar, körfu, spólu, einingarhleðslutæki (ULD), vagni, tanki, eða millilandaíláti) (útilokar gasflöskur Sjá '2B').</value>
+    <value>Auðkenningarkóði endurnýtanlegs íláts sem eigandi ílátsins eða viðeigandi eftirlitsstofnun úthlutar (t.d. málmtunna, karfa, spóla, einingaflutningstæki (ULD), eftirvagn, tankur eða milliflutningaílát) (gasflöskur undanskildar, sjá „2B“).</value>
   </data>
   <data name="di2002" xml:space="preserve">
-    <value>Gasflösku ílátaauðkenni úthlutað af framleiðanda í samræmi við staðla U.S. Department of Transportation (D.O.T.).</value>
+    <value>Auðkenningarkóði gashylkisíláts sem framleiðandi úthlutar í samræmi við staðla bandaríska samgönguráðuneytisins (D.O.T.).</value>
   </data>
   <data name="di20020" xml:space="preserve">
-    <value>Fyrsta stig (Viðskiptavinur úthlutað).</value>
+    <value>Fyrsta stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di20021" xml:space="preserve">
-    <value>Annað stig (Viðskiptavinur úthlutað).</value>
+    <value>Annað stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di20022" xml:space="preserve">
-    <value>Þriðja stig (Viðskiptavinur úthlutað).</value>
+    <value>Þriðja stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di20023" xml:space="preserve">
-    <value>Fjórða stig (Viðskiptavinur úthlutað).</value>
+    <value>Fjórða stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di20024" xml:space="preserve">
-    <value>Fimmta stig (Viðskiptavinur úthlutað).</value>
+    <value>Fimmta stig (úthlutað af viðskiptavini).</value>
   </data>
   <data name="di20025" xml:space="preserve">
-    <value>Auðkenni aðila að viðskiptum úthlutað af haldi fyrirtækjaauðkennisnúmers (CIN) og inniheldur viðeigandi útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá þess, byggt sem röð 3 tengdra gagnaþátta: IAC, fylgt af CIN, fylgt af birgja úthlutaðri rekjanleikakóða sem er einstakt innan sviðs CIN haldarans.</value>
+    <value>Auðkenning aðila í viðskiptum sem er úthlutað af handhafa fyrirtækjaauðkennisnúmers (CIN) og felur í sér viðeigandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggð sem röð af 3 samtengdum gagnaþáttum: IAC, síðan CIN, síðan rekjanleikanúmer úthlutað af birgi sem er einstakt innan sviðs handhafa CIN.</value>
   </data>
   <data name="di20026" xml:space="preserve">
-    <value>Lotukennari sem samanstendur af annaðhvort:\n - gagnakennara 26S póstmeðferðarbúnaðarkenni, eða\n - gagnakennara 20K leyfiskenni, eða\n - gagnakennara 18V aðila að viðskiptum kenni sem:\n - er frábrugðið öðrum ISO/IEC 15459 samrýmanlegu kenni innan sviðs útgáfustofnunarinnar;\n - getur ekki komið frá öðru aðila að viðskiptum kenni eða öðru ISO/IEC 15459 samrýmanlegu kenni, gefið út undir sömu útgáfustofnun, með einfaldri viðbót stafa við, eða þeirra fjarlægingu frá, því enda;\n með gagnakennara 27T lotunúmeri, þau tvenn aðskilin með bandstriki (-) tákni.</value>
+    <value>Lotukenni sem samanstendur af samsetningu annaðhvort:\n - gagnakenni 26S auðkenni póstvinnslubúnaðar, eða\n - gagnakenni 20K leyfisauðkenni, eða\n - gagnakenni 18V aðilaauðkenni sem:\n - er aðgreint frá öllum öðrum ISO/IEC 15459-samræmdum auðkennum innan sviðs viðkomandi útgáfustofnunar;\n - er ekki hægt að leiða af öðru aðilaauðkenni eða neinu öðru ISO/IEC 15459-samræmdu auðkenni, gefnu út af sömu útgáfustofnun, með einfaldri viðbót stafa við endann á því eða með því að fjarlægja stafi af endanum;\n ásamt gagnakenni 27T lotunúmeri, þar sem þessu tvennu er aðskilið með bandstriki (-).</value>
   </data>
   <data name="di20027" xml:space="preserve">
-    <value>Lotunúmer, gefið út undir stjórn tiltekins aðila eða vinnslutækja, eða samkvæmt ákvæðum tiltekins leyfis, sem:\n - greinir á einstakan hátt eina lotu skyldra atriða frá öllum öðrum lotum sem lotunúmer er úthlutað af aðilanum eða tækinu, eða samkvæmt leyfinu;\n - samanstendur af streng með hámarkslengd 10 stafa, þar sem fyrsti (tölustafur) stafurinn gefur til kynna fjölda eftirfarandi stafa, þar sem hver er valinn úr mengi {0-9; A-Z}.</value>
+    <value>Lotunúmer, gefið út undir stjórn tilgreinds aðila eða vinnslueiningar, eða samkvæmt ákvæðum tilgreinds leyfis, sem:\n - aðgreinir á einstakan hátt eina lotu tengdra hluta frá öllum öðrum lotum sem lotunúmer er úthlutað af viðkomandi aðila eða búnaði, eða samkvæmt viðkomandi leyfi;\n - samanstendur af streng með hámarkslengd 10 stafa, þar sem fyrsti (tölulegi) stafurinn gefur til kynna fjölda stafa sem á eftir koma, og hver þeirra er valinn úr menginu {0-9; A-Z}.</value>
   </data>
   <data name="di2003" xml:space="preserve">
-    <value>Flutningstækjaauðkenni úthlutað af framleiðanda í samræmi við alþjóðlega staðla International Organisation for Standardization (ISO).</value>
+    <value>Auðkenningarkóði flutningabúnaðar fyrir vöruflutninga á vegum, úthlutaður af framleiðanda í samræmi við staðla Alþjóðlegu staðlasamtakanna (ISO).</value>
   </data>
   <data name="di20030" xml:space="preserve">
-    <value>Fyrsta stig (Úthlutað af birgi).</value>
+    <value>Fyrsta stig (úthlutað af birgi).</value>
   </data>
   <data name="di20031" xml:space="preserve">
-    <value>Annað stig (Úthlutað af birgi).</value>
+    <value>Annað stig (úthlutað af birgi).</value>
   </data>
   <data name="di20032" xml:space="preserve">
-    <value>Þriðja stig (Úthlutað af birgi).</value>
+    <value>Þriðja stig (úthlutað af birgi).</value>
   </data>
   <data name="di20033" xml:space="preserve">
-    <value>Fjórða stig (Úthlutað af birgi).</value>
+    <value>Fjórða stig (úthlutað af birgi).</value>
   </data>
   <data name="di20034" xml:space="preserve">
-    <value>Fimmta stig (Úthlutað af birgi).</value>
+    <value>Fimmta stig (úthlutað af birgi).</value>
   </data>
   <data name="di2004" xml:space="preserve">
-    <value>Staðlaður flutningsaðila kóði (SCAC) (4 bókstafir eða tölustafir) og valfrjáls einkennisnúmer flutningsaðila (eitt til tíu bókstafir eða tölustafir). Þegar notað er, er einkennisnúmer flutningsaðila aðskilið frá SCAC með bandstriki '-'.</value>
+    <value>Staðlaður flutningsaðilakóði (SCAC) (4 tölustafir og/eða bókstafir) og valfrjálst vagnnúmer sem flutningsaðili úthlutar (1 til 10 tölustafir og/eða bókstafir). Þegar það er notað er vagnnúmerið aðskilið frá SCAC með bandstriki „-“.</value>
   </data>
   <data name="di2005" xml:space="preserve">
-    <value>Tösku auðkennisnúmer - Samanstendur af tveimur samsettum hlutum:\n- Auðkenning stofnunar í samræmi við ISO/IEC 15459 og einstakt auðkenni úthlutað í samræmi við reglur gefnar út af útgáfuaðila.\n- Einstakt raðnúmer gefið út af aðila, endar á 3-stafa gámategundarkóða úr EDIFACT kóðalista 8053 eða UPU staðlinum M82-3. (Ef gámategundarkóðinn er styttri en þrír stafir, verður sviðið fyllt út með bandstriki '-' til vinstri til að ná lengd þriggja stafa).</value>
+    <value>Eignanúmer íláts – samanstendur af tveimur samsettum hlutum:\n- Auðkenning stofnunar í samræmi við ISO/IEC 15459 og einstakt auðkenni einingar sem úthlutað er samkvæmt reglum sem útgáfustofnunin setur.\n- Einstakt raðnúmer sem einingin úthlutar, sem endar á 3 stafa ílátsgerðarkóða úr EDIFACT kóðalista 8053 eða UPU staðli M82-3. (Ef skráður ílátsgerðarkóði er styttri en þrír stafir, er reiturinn fylltur með bandstriki '-' vinstra megin upp í þrjá stafi).</value>
   </data>
   <data name="di2007" xml:space="preserve">
-    <value>Gáma raðnúmer.\nSamkvæmt ISO 6346. OC EI CSN CD, þar sem OC er þriggja stafa eigendakóði gefinn út í samvinnu við BIC, EI er einn bókstafur sem táknar búnaðarflokk, CSN er 6-stafa einstakt gámaauðkenni gefið út af eiganda búnaðarins, og CD er módúll 11 athugunarstafur reiknaður í samræmi við viðauka A, ISO 6346.</value>
+    <value>Raðnúmer gáms.\nSamkvæmt ISO 6346. OC EI CSN CD, þar sem OC er þriggja stafa eigandakóði sem úthlutað er í samvinnu við BIC, EI er eins stafs auðkenni búnaðarflokks, CSN er 6 stafa einstakt auðkennisnúmer gáms sem úthlutað er af eiganda búnaðarins, og CD er modulus 11 próftala reiknuð í samræmi við viðauka A, ISO 6346.</value>
   </data>
   <data name="di2008" xml:space="preserve">
-    <value>Auðkenning eiganda endurhæfrar gámu gefin út í samvinnu við BIC.</value>
+    <value>Auðkenning eiganda skilagjaldsskylds íláts sem úthlutað er í samvinnu við BIC.</value>
   </data>
   <data name="di2009" xml:space="preserve">
-    <value>Gáma stærðar-/tegundarkóði.\nSamkvæmt ISO 6346, kafla 4.2.</value>
+    <value>Gáma-/gerðarkóði gáms.\nSamkvæmt ISO 6346, kafla 4.2.</value>
   </data>
   <data name="di2010" xml:space="preserve">
-    <value>Eignarhaldskóði gáma. Raunveruleg fjögurra stafa skammstöfun merkt á gáminni af eiganda. Fyrir gáma í eigu DOD sjá Defense Transportation Regulation App EE-6.\n2020 Uppfærsla: heimild vísað til Defense Transportation Regulation, Part II, App TT staðsett á:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
+    <value>Eignarhaldskóði gáms. Raunveruleg fjögurra stafa skammstöfun sem eigandinn merkir á gáminn. Fyrir gáma í eigu DOD, sjá Defense Transportation Regulation App EE-6.\nUppfærsla 2020: tilvísun í gagnagjafa uppfærð í Defense Transportation Regulation, Part II, App TT, sem er að finna á:\nhttps://www.ustranscom.mil/dtr/dtrp2.cfm</value>
   </data>
   <data name="di2011" xml:space="preserve">
-    <value>Númer vöruflutningsbíls (fullt númer án athugunarstafs).</value>
+    <value>VAN-númer (heildarnúmer án próftölu).</value>
   </data>
   <data name="di2012" xml:space="preserve">
-    <value>Athugunarstafur númers vöruflutningsbíls greindur í 11B.</value>
+    <value>Athugaðu próftölu VAN-númersins sem er tilgreind í 11B.</value>
   </data>
   <data name="di2013" xml:space="preserve">
-    <value>Kóði númers gáma (síðustu 5 tölustafir númersins án athugunarstafs).</value>
+    <value>Gátnúmer gáms (síðustu 5 tölustafir númerisins, án gáttölustafs).</value>
   </data>
   <data name="di2014" xml:space="preserve">
-    <value>Merki um stöðu.\nY=Heimilt / N=Óheimilt.</value>
+    <value>Staða merkis.\nY=Heimilað / N=Óheimilað.</value>
   </data>
   <data name="di2015" xml:space="preserve">
-    <value>Flokkur hættulegs farmgóðs.\nIMDG flokkur á formi 'n.na' þar sem n = tölustafur, tugapunktur sérstaklega kóðaður, og a = skilyrt bókstafskenni. http://docs.imo.org/.</value>
+    <value>Hættulegur farmflokkur.\nIMDG-flokkur á sniðinu „n.na“ þar sem n = tölustafur, tugabrotspunktur er sérstaklega kóðaður og a = skilyrt bókstafleg viðbót. http://docs.imo.org/.</value>
   </data>
   <data name="di2016" xml:space="preserve">
-    <value>UN kóði fyrir hættuleg góðs.\nFyrir hættulegan farm sem skipað er af farmflytjanda í samræmi við UN kóða.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\n2020 Uppfærsla: Vefslóð breytt í http://www.unece.org/trans/danger/danger.html</value>
+    <value>SÞ-númer fyrir hættulegan varning.\nFyrir hættulegan farm sem sendandi lætur í té í samræmi við SÞ-númer.\nwww.unece.org/trans/danger/publi/unrec/English/part3.pdf\nUppfærsla 2020: Vefslóð breytt í http://www.unece.org/trans/danger/danger.html</value>
   </data>
   <data name="di2017" xml:space="preserve">
-    <value>Nafn flutningsaðila.\nSkipanafn eða ökutækjakóði/lestarnúmer á ensku.</value>
+    <value>Heiti flutningsviðfangs.\nNafn skips eða kóði ökutækis/lestarferðanúmer á ensku.</value>
   </data>
   <data name="di2018" xml:space="preserve">
-    <value>Skipaskráningar númer.\nÞrír bókstafir 'IMO' fylgt af sjö tölustafa númeri úthlutað öllum skipum af IHS Fairplay þegar þau eru byggð. http://www.imonumbers.lrfairplay.com/.</value>
+    <value>Skráningarnúmer skips.\nÞrír stafirnir „IMO“ á eftir sjö stafa númerinu sem IHS Fairplay úthlutar öllum skipum við smíði. http://www.imonumbers.lrfairplay.com/.</value>
   </data>
   <data name="di2019" xml:space="preserve">
-    <value>Ferðanúmer/Ferðanúmer.\nBókstafur og númer.</value>
+    <value>Ferðarnúmer.\nBókstafur og tala.</value>
   </data>
   <data name="di2020" xml:space="preserve">
-    <value>Skipa land.\nISO 3166-1 Alpha 2 Kóði.</value>
+    <value>Land skipsins.\nISO 3166-1 Alpha 2 kóði.</value>
   </data>
   <data name="di2021" xml:space="preserve">
-    <value>Frátekið fyrir rafraennar innsigli númer.\nSamanstendur af 18185-1 innsigli merkimiða ID - 32 bitar og ISO 14816 16 bita framleiðenda ID (ISO 646).</value>
+    <value>Frátekið fyrir rafrænar innsiglisnúmer.\nSamanstendur af 18185-1 innsiglismerkjaauðkenni – 32 bitar og 16 bita framleiðandaauðkenni samkvæmt ISO 14816 (ISO 646).</value>
   </data>
   <data name="di2022" xml:space="preserve">
-    <value>Inngangsnúmer/Tegund.\nSamanstendur af þriggja stafa skráningar kóða, fylgt af sjö tölustafa inngangsnúmeri, og lokið með einum athugunarstaf. Inngangsskráningar kóði táknar þriggja stafa bókstaf/tölustafa skráningar kóða úthlutað skrásetjara eða innflytjanda af CBP. Inngangsnúmer táknar sjö tölustafa númer úthlutað af skrásetjara. Númerið má úthluta á hvaða hátt sem er þægilegt, að því gefnu að sama númerið sé ekki úthlutað meira en einu CBP Formi 7501. Forystu núll verður að sýna. Athugunarstafur er reiknaður út frá fyrri 10 stöfum. Formúlan fyrir útreikningi athugunarstafsins má finna í viðauka 1, CBP 7501 leiðbeiningar.\nTegund inngangs er tveggja stafa kóði í samræmi við Blokk 2, CBP 7501 leiðbeiningar.</value>
+    <value>Færslunúmer/gerð.\nSamsett úr þriggja stafa skráningaraðilakóða, á eftir kemur sjö stafa færslunúmer og að lokum einn stafs staðfestingartala. Skráningaraðilakóði færslu er þriggja stafa bókstafa- og tölustafakóði sem CBP úthlutar skráningaraðila eða innflytjanda. Færslunúmer er sjö stafa númer sem skráningaraðili úthlutar. Númerinu má úthluta á hvaða hátt sem hentar, að því gefnu að sama númer sé ekki úthlutað fleiri en einu CBP eyðublaði 7501. Leiðandi núll verða að koma fram. Staðfestingartalan er reiknuð út frá fyrri 10 stöfum. Formúlu til að reikna staðfestingartöluna má finna í Viðauka 1, leiðbeiningum CBP 7501.\nFærslugerð er tveggja stafa kóði í samræmi við reit 2 í leiðbeiningum CBP 7501.</value>
   </data>
   <data name="di2023" xml:space="preserve">
-    <value>Ábyrgðarnúmer.\nÞriggja stafa tölulegur kóði sem auðkennir ábyrgðarfyrirtækið á Tollarbondinu. Þessi kóði má finna í reit 7 af CBP Formi 301, eða er fáanlegur í gegnum sjálfvirka kerfið til ABI skrásetjara, í gegnum fyrirspurn um bond innflytjanda. Fyrir innflutning Bandaríkjanna stjórnvalda og inngangstegundir sem ekki krefjast ábyrgðar, ætti kóði 999 að birtast í þessum reit. Þegar reiðufé eða ríkisöryggi eru notuð í stað ábyrgðar, nota kóða 998.</value>
+    <value>Ábyrgðarnúmer.\nÞriggja stafa tölukóði sem auðkennir ábyrgðarfélagið á tolltryggingunni. Þennan kóða má finna í reit 7 á CBP eyðublaði 301, eða hann er aðgengilegur ABI-skráningaraðilum í gegnum sjálfvirkt kerfi CBP, með fyrirspurnarfærslu um innflytjendatryggingu. Fyrir innflutning fyrir bandarísk stjórnvöld og færslutegundir sem ekki krefjast ábyrgðar skal kóði 999 birtast í þessum reit. Þegar reiðufé eða ríkisverðbréf eru notuð í stað ábyrgðar skal nota kóða 998.</value>
   </data>
   <data name="di2024" xml:space="preserve">
-    <value>Erlendur farmstaður.\n'Schedule K' (Flokkun erlendra hafna eftir landfræðilegu viðskiptasvæði og landi) fyrir erlenda höfnina þar sem varningurinn var í raun hlaðinn á skipið sem flutti varninginn til Bandaríkjanna. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\n2020 Uppfærsla: Vefslóð breytt í: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
+    <value>Erlend lestunarhöfn.\n„Schedule K“ (flokkun erlendra hafna eftir landfræðilegu viðskiptasvæði og landi) fyrir þá erlendu höfn þar sem varan var í raun lestuð um borð í skipið sem flutti vöruna til Bandaríkjanna. http://www.navigationdatacenter.us/wcsc/scheduleK/schedule k.htm.\nUppfærsla 2020: Vefslóð breytt í: https://www.cbp.gov/sites/default/files/assets/documents/2017-Feb/appendix_f_0.pdf</value>
   </data>
   <data name="di2025" xml:space="preserve">
-    <value>Auðkenning aðila að viðskiptum eins og skilgreint í ISO 17364, úthlutað af eiganda Fyrirtækisauðkennisnúmers (CIN) og inniheldur viðkomandi Útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá sína, uppbyggt sem röð af 3 samsettum gagnaeiningum: IAC, fylgt af CIN, fylgt af RTI raðnúmeri sem er einstakt innan CIN eiganda sviðsins.</value>
+    <value>Auðkenning aðila að viðskiptum eins og skilgreint er í ISO 17364, úthlutað af handhafa fyrirtækjaauðkennisnúmers (CIN) og með tilheyrandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggt sem röð af 3 samtengdum gagnaþáttum: IAC, síðan CIN, síðan RTI-raðnúmerið sem er einstakt innan léns handhafa CIN.</value>
   </data>
   <data name="di2026" xml:space="preserve">
-    <value>Einstakt endurhæft flutningstæki auðkenni samanstendur af röð af 5 gagnaeiningum: 'IAC', fylgt af 'CIN', fylgt af 'RTI Númer' (RTIN), fylgt af plús tákninu '+', fylgt af birgja úthlutaðu (eða stjórnaðu) 'RTI Raðnúmeri' (RTISN) sem er alþjóðlega einstakt innan CIN eiganda sviðsins; á formi IAC CIN RTIN + RTISN (bil sett inn fyrir sjónræna skýrleika einungis; þau eru ekki hluti af gögnunum). Sjá Viðauka C.11.</value>
+    <value>Einstakt auðkenni endurnýtanlegs flutningseiningar (Returnable Transport Item) sem samanstendur af röð 5 gagnaþátta: „IAC“, á eftir „CIN“, á eftir „RTI-númeri“ (RTIN), á eftir „+“-tákninu, á eftir raðnúmeri RTI (RTISN) sem birgir úthlutar (eða stýrir) og er alþjóðlega einstakt innan léns CIN-handhafans; á sniðinu IAC CIN RTIN + RTISN (bil eru aðeins sett inn til að auðvelda lestur; þau eru ekki hluti af gögnunum). Sjá viðauka C.11.</value>
   </data>
   <data name="di2027" xml:space="preserve">
-    <value>Alþjóðlega einstakt eignarauðkenni stórs flutningsíláts (LLC) Endurhæft Flutningstæki (RTI) með hliðargrunn = 1000 mm, eins og skilgreint í ISO 17365:2013, þriðja pakkaþrep, samanstendur af röð af 5 gagnaeiningum: 'IAC', fylgt af 'CIN', fylgt af RTI Tegundarkóða 'RTITC', fylgt af plús tákninu '+', fylgt af eiganda úthlutaðu (eða stjórnaðu) RTI Raðnúmeri 'RTISN' sem er alþjóðlega einstakt innan CIN eiganda sviðsins á formi IAC CIN RTITC + RTISN (bil sett inn fyrir sjónræna skýrleika einungis; þau eru ekki hluti af gögnunum).</value>
+    <value>Alþjóðlega einstakt auðkenni eignar fyrir stóran burðarbera (LLC) endurnýtanlegan flutningshlut (RTI) með hliðargrunni = 1000 mm, eins og skilgreint er í ISO 17365:2013, þriðjastigs umbúðir, lag 3, sem samanstendur af röð 5 gagnaþátta: „IAC“, á eftir „CIN“, á eftir RTI-tegðarkóða „RTITC“, á eftir „+“-tákninu, á eftir raðnúmeri RTI „RTISN“ sem eigandi úthlutar (eða stýrir) og er alþjóðlega einstakt innan léns CIN-handhafans, á sniðinu IAC CIN RTITC + RTISN (bil eru aðeins bætt við til að auðvelda sjónrænan lestur; þau eru ekki hluti af gögnunum).</value>
   </data>
   <data name="di2028" xml:space="preserve">
-    <value>Alþjóðlega einstakt eignarauðkenni smárra flutningsíláta (SLC) Endurhæft Flutningstæki með hliðargrunn &lt; 1000 mm, eins og skilgreint í ISO 17364:2013 (RTI), þriðja pakkaþrep, samanstendur af röð af 5 gagnaeiningum: 'IAC', fylgt af 'CIN', fylgt af RTI Tegundarkóða 'RTITC', fylgt af plús tákninu '+', fylgt af eiganda úthlutaðu (eða stjórnaðu) RTI Raðnúmeri 'RTISN' sem er alþjóðlega einstakt innan CIN eiganda sviðsins á formi IAC CIN RTITC + RTISN (bil sett inn fyrir sjónræna skýrleika einungis; þau eru ekki hluti af gögnunum).</value>
+    <value>Alþjóðlega einstakt auðkenni eignar fyrir endurnýtanlegan flutningahlut (RTI) af gerðinni Small Load Carrier (SLC) með hliðargrunni &lt; 1000 mm, eins og skilgreint er í ISO 17364:2013 (RTI), þriðja stigs umbúðir, lag 2, sem samanstendur af röð 5 gagnaþátta: „IAC“, á eftir „CIN“, á eftir RTI-gerðarkóða „RTITC“, á eftir „+“ stafnum, á eftir raðnúmeri RTI „RTISN“ sem eigandi úthlutar (eða stýrir) og er alþjóðlega einstakt innan léns CIN-hafa, á sniðinu IAC CIN RTITC + RTISN (bil eru aðeins sett inn til að auðvelda lestur; þau eru ekki hluti af gögnunum).</value>
   </data>
   <data name="di2029" xml:space="preserve">
-    <value>Alþjóðlega einstakt Endurhæft Pakkningarhlut auðkenni (RPI) flokks pakkningaraðstoðar (loki, blöðru, innleggi, ...) samanstendur af röð af 5 gagnaeiningum: 'IAC', fylgt af 'CIN', fylgt af 'RPI Númeri' RPIN, fylkt af plús tákninu '+', fylgt af eiganda úthlutaðu (eða stjórnaðu) 'RPI Raðnúmeri' RPISN sem er alþjóðlega einstakt innan CIN eiganda sviðsins á formi IAC CIN RPIN + RPISN (bil sett inn fyrir sjónræna skýrleika einungis; þau eru ekki hluti af gögnunum).</value>
+    <value>Alþjóðlega einstakt auðkenni endurnýtanlegrar umbúðaeiningar (RPI) fyrir umbúðahjálpartæki í flokki (lok, blöðruumbúðir, innlegg, ...) sem samanstendur af röð 5 gagnaþátta: „IAC“, á eftir „CIN“, á eftir „RPI-númeri“ RPIN, á eftir „+“-tákninu, á eftir eigandaúthlutuðu (eða -stýrðu) „RPI-raðnúmeri“ RPISN sem er alþjóðlega einstakt innan léns CIN-handhafa, á sniðinu IAC CIN RPIN + RPISN (bil eru aðeins bætt við til að auðvelda sjónrænan lestur; þau eru ekki hluti af gögnunum).</value>
   </data>
   <data name="di2030" xml:space="preserve">
-    <value>Pakkningarhlutarnúmer.\nNúmer til að auðkenna tegund pakkningarhlutar (efnis) notað við pökkun vöru og pakka.\nNúmerið mun gera kleift að auðkenna pakkningarhlut (efni) og aðskilja það frá vörum, pökkum, Endurhæfum Flutningstækjum (RTIs) og Endurhæfum Pakkningarhlutum (RPIs) við pökkun.\nNúmerið er byggt upp sem röð af lágmarki 1 gagnaeiningu:\nPakkningarhlutarnúmer (efni) sem er einstakt innan eiganda sviðsins.</value>
+    <value>Númer umbúðahlutar.\nNúmer til að auðkenna tegund umbúðahlutar (efnis) sem notuð er við pökkun vara og pakkninga.\nNúmerið gerir kleift að auðkenna umbúðahlut (efni) og aðgreina hann frá vörum, pakkningum, endurnýtanlegum flutningseiningum (RTI) og endurnýtanlegum umbúðaeiningum (RPI) við pökkun.\nNúmerið er sett saman sem runa af að lágmarki 1 gagnahluta:\nNúmer umbúðahlutar (efnis) sem er einstakt innan sviðs handhafa.</value>
   </data>
   <data name="di2031" xml:space="preserve">
-    <value>Alheims Einstakt Pakkningar Númer\nAlheims einstakt númer til að auðkenna tegund pakkningarhlutar (efnis) notað við pökkun vöru og pakka.\nAlheims einstaka númerið mun gera kleift að auðkenna pakkningarhluti (efni) og aðskilja þá frá vörum, pökkum, Endurhæfum Flutningstækjum (RTIs) og Endurhæfum Pakkningarhlutum (RPIs) við pökkun.\nNúmerið er byggt upp sem röð af 3 samsettum gagnaeiningum:\nIAC, fylgt af CIN, fylgt af Pakkningarhlutarnúmerinu (efni) sem er einstakt innan CIN eiganda sviðsins.</value>
+    <value>Alþjóðlegt einstakt umbúðanúmer
+
+Alþjóðlegt einstakt númer til að auðkenna tegund umbúðahlutar (efnis) sem notaður er við pökkun vara og pakkninga.
+Alþjóðlega einstaka númerið gerir kleift að auðkenna og aðgreina umbúðahluti (efni) frá vörum, pakkningum, endurnýtanlegum flutningseiningum (RTI) og endurnýtanlegum umbúðaeiningum (RPI) við pökkun.
+Númerið er sett saman sem röð af 3 samtengdum gagnaþáttum:
+IAC, síðan CIN, síðan umbúðahluta- (efnis) númerið sem er einstakt innan sviðs CIN-handhafa.</value>
   </data>
   <data name="di2055" xml:space="preserve">
-    <value>Alheims Einstakt Endurhæft Pakkningarhlut (RPI) eins og skilgreint í ISO 17364, úthlutað af eiganda Fyrirtækisauðkennisnúmers (CIN) og inniheldur viðkomandi Útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá sína, uppbyggt sem röð af 3 samsettum gagnaeiningum: IAC, fylgt af CIN, fylkt af RPI raðnúmerinu sem er einstakt innan CIN eiganda sviðsins.</value>
+    <value>Alþjóðlegt einstakt endurnýtanlegt umbúðaeiningaauðkenni (RPI) eins og skilgreint er í ISO 17364, úthlutað af aðila sem hefur fyrirtækjaauðkennisnúmer (CIN) og inniheldur viðeigandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggt sem röð þriggja samtengdra gagnaþátta: IAC, síðan CIN, síðan raðnúmer RPI sem er einstakt innan sviðs CIN-hafans.</value>
   </data>
   <data name="di21005" xml:space="preserve">
-    <value>Tilgreining póstþjónustu og tengdra ferilgagna í samræmi við UPU staðal S25 gagnabyggingu 'Þjónustugögn'</value>
+    <value>Upplýsingar um póstþjónustu og tengd ferlisgögn í samræmi við UPU-staðal S25 gagnasmíðina „Service Data“</value>
   </data>
   <data name="di21006" xml:space="preserve">
-    <value>Leyfis Póstgögn, í samræmi við tilgreiningu í UPU staðli S25.</value>
+    <value>Birta færslugögn um leyfisveitingu, í samræmi við forskriftina í UPU-staðli S25.</value>
   </data>
   <data name="di21015" xml:space="preserve">
-    <value>Tilgreining aukapóstþjónustu og tengdra ferilgagna í samræmi við UPU staðal S25 gagnabyggingu 'Aukapóstþjónustugögn'.</value>
+    <value>Upplýsingar um viðbótar póstþjónustu og tengd ferlisgögn í samræmi við UPU-staðal S25 gagnasmíðina „Supplementary Service Data“.</value>
   </data>
   <data name="di21016" xml:space="preserve">
-    <value>Auðkenni Póststjórnunar, vera auðkenning, túlkuð í samræmi við tilgreiningu í UPU staðli S25, á einni eða fleiri póststjórnum sem koma að meðhöndlun sendingar eða hóps.</value>
+    <value>Auðkenni póststjórna, þ.e. auðkenni, sett fram í samræmi við forskriftina í UPU-staðli S25, fyrir eina eða fleiri póststjórnir sem koma að vinnslu póstsendingar eða póstlots.</value>
   </data>
   <data name="di21017" xml:space="preserve">
-    <value>UPU Staðsetningarkóði, vera kóði sem auðkennir staðsetningu eða landfræðilegt svæði, eða tengdan hóp slíkra staðsetninga eða svæða, sem hefur þýðingu fyrir viðkomandi viðskipti og sem samræmist einu af þeim uppbyggingum sem skilgreindar eru í a) til g) hér að neðan:\na) tveir hástafir samkvæmt ISO 3166-1 tveggja stafa landakóða þess lands sem staðsetning(ar) eða svæði(s) eru staðsett í eða samanstendur af;\nb) þrír hástafir samkvæmt IATA kóða flugvallar eða borgar í, nálægt eða samanstendur af þeirri staðsetningu(r) eða svæði(s) sem um ræðir;\nc) fjórir eða fleiri stafir þar sem fyrstu þrír samræmast ISO 3166-1 landakóða fylgt af bandstriki (-), með afganginum sem póstnúmer í viðkomandi landi;\nd) fjórir eða fleiri stafir þar sem fyrstu þrír samræmast ISO 3166-1 landakóða fylgt af punkti (.), með afganginum sem ISO 3166-2 landsundirkóði í viðkomandi landi;\ne) fimm hástafir samkvæmt UN/LOCODE svæðisins í, nálægt eða samanstendur af því, staðsetningu(r) eða svæði(s) sem um ræðir;\nf) sex hástafir eða bókstafir samkvæmt UPU IMPC kóða úthlutað í samræmi við UPU staðal S34;\ng) samsetning, vera ekki styttri en sjö né lengri en 25 stafir, af:\n - úthlutaður útgefandakóði í samræmi við UPU staðla S31;\n - staðsetningarkóði, samanstendur af stöfum dregnum úr settinu {A-Z; 0-9} sem samræmist tilgreiningum útgefandans.</value>
+    <value>UPU-staðsetningarkóði, sem er kóði sem auðkennir staðsetningu eða landfræðilegt svæði, eða tengdan hóp slíkra staðsetninga eða svæða, sem skiptir máli fyrir viðkomandi viðskipti og uppfyllir eina af þeim uppbyggingum sem skilgreindar eru í a) til g) hér að neðan:
+a) tveir hástafir sem samsvara ISO 3166-1 tveggja stafa landkóða (alpha-2) þess lands þar sem, eða sem samanstendur af, viðkomandi staðsetning(ar) eða svæði(n) eru;
+b) þrír hástafir sem samsvara IATA-kóða flugvallar eða borgar þar sem, nálægt, eða sem samanstendur af, viðkomandi staðsetning(ar) eða svæði(n) eru;
+c) fjórir eða fleiri stafir þar sem fyrstu þrír samsvara ISO 3166-1 landkóða, á eftir bandstriki (-), og afgangurinn er póstnúmer í viðkomandi landi;
+d) fjórir eða fleiri stafir þar sem fyrstu þrír samsvara ISO 3166-1 landkóða, á eftir punkti (.), og afgangurinn er ISO 3166-2 kóði fyrir stjórnsýslueiningu í viðkomandi landi;
+e) fimm hástafir sem samsvara UN/LOCODE-kóða svæðisins þar sem, nálægt, eða sem samanstendur af, viðkomandi staðsetning(ar) eða svæði(n) eru;
+f) sex hástafir og/eða tölustafir sem samsvara UPU IMPC-kóða sem úthlutað er í samræmi við UPU-staðal S34;
+g) samsetning, sem er ekki styttri en sjö og ekki lengri en 25 stafir, af:
+ - útgefandakóða sem úthlutað er í samræmi við UPU-staðla S31;
+ - staðsetningarkóða, sem samanstendur af stöfum úr menginu {A-Z; 0-9} og er í samræmi við forskriftir viðkomandi útgefanda.</value>
   </data>
   <data name="di21018" xml:space="preserve">
-    <value>Hæfur UPU Staðsetningarkóði, samsetning af:\n - staðsetningarflokk dregnum úr UPU kóðalista 139;\n - gögna auðkenni 17U UPU staðsetningarkóði.</value>
+    <value>Hæfur UPU-staðsetningarkóði, samsetning af:\n - staðsetningarflokki úr UPU-kóðalista 139;\n - gagnakenni 17U UPU-staðsetningarkóða.</value>
   </data>
   <data name="di21019" xml:space="preserve">
-    <value>Númeraplata með Þjónustugögnum og Staðsetningarkóða er samsett gagnabygging, í samræmi við tilgreiningu í UPU staðli S25, sem inniheldur tilgreiningu á:\n - auðkennara hlutar í samræmi við ISO/IEC 15459;\n - gögna auðkenni 5U samræmt tilgreiningu þjónustu sem veitt er í tengslum við hlutinn;\n - gögna auðkenni 17U samræmt UPU staðsetningarkóða eða gögna auðkenni 18U samræmt hæfan UPU staðsetningarkóða.\n Athugið - Nánari upplýsingar má finna í UPU staðli S25. Greinarmunur milli einfalds UPU staðsetningarkóða (DI 17U) og hæfs UPU staðsetningarkóða (DI 18U) má ákvarða frá fyrsta staf. Ef þetta er tölustafur, á 18U við; ef það er hástafur, á 17U við.</value>
+    <value>Númeraplata með þjónustugögnum og staðsetningarkóða er samsettur gagnastrúktúr, í samræmi við forskrift í UPU-staðli S25, sem felur í sér skilgreiningu á:\n - vöruauðkenni sem er í samræmi við ISO/IEC 15459;\n - gagnaauðkenni 5U sem er í samræmi við forskrift um þá þjónustu sem veita á fyrir viðkomandi hlut;\n - gagnaauðkenni 17U sem er í samræmi við UPU-staðsetningarkóða eða gagnaauðkenni 18U sem er í samræmi við hæfan UPU-staðsetningarkóða.\n Athugasemd – Nánari upplýsingar má finna í UPU-staðli S25. Greina má á milli einfalds UPU-staðsetningarkóða (DI 17U) og hæfs UPU-staðsetningarkóða (DI 18U) út frá fyrsta stafnum. Ef hann er tölustafur á 18U við; ef hann er bókstafur á 17U við.</value>
   </data>
   <data name="di21055" xml:space="preserve">
-    <value>OCR Gagnaleitari.</value>
+    <value>OCR gagnastaðsetningartæki.</value>
   </data>
   <data name="di22000" xml:space="preserve">
-    <value>Birgjakóði Úthlutaður af Viðskiptavini.</value>
+    <value>Birgðakóði úthlutaður af viðskiptavini.</value>
   </data>
   <data name="di22001" xml:space="preserve">
-    <value>Birgjakóði Úthlutaður af Birgja.</value>
+    <value>Kóði birgja úthlutaður af birgja.</value>
   </data>
   <data name="di22002" xml:space="preserve">
-    <value>U.P.C. Fyrirtækisforskeyti.\n2020 Uppfærsla: GS1 mælir með því að þetta DI sé ekki lengur notað og að notendur þessa DI færist yfir í GS1 gögn auðkenni (Umsóknaraðila) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.\nSamkvæmt GS1, er hugtakið "U.P.C." ekki lengur notað og gögnin (an2+n8) eru ekki lengur rétt. GS1 mælir með því að þetta DI sé ekki notað fyrir framtíðarforrit.</value>
+    <value>Fyrirtækisforskeyti U.P.C.\nUppfærsla 2020: GS1 mælir með að þessi DI sé ekki lengur notaður og að notendur þessa DI flytji yfir í GS1 gagnakvarða (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.\nSamkvæmt GS1 er hugtakið „U.P.C.“ ekki lengur notað og lýsigögnin (an2+n8) eru ekki lengur rétt. GS1 mælir með að þessi DI verði ekki notaður í framtíðarforritum.</value>
   </data>
   <data name="di22003" xml:space="preserve">
-    <value>GS1 Fyrirtækisforskeyti.\n2020 Uppfærsla: GS1 mælir með því að þetta DI sé ekki lengur notað og að notendur þessa DI færist yfir í GS1 gögn auðkenni (Umsóknaraðila) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.\nSamkvæmt GS1, eru gögnin (an2+n9) ekki lengur rétt. GS1 mælir með því að þetta DI sé ekki notað fyrir framtíðarforrit.</value>
+    <value>GS1-fyrirtækisforskeyti.\nUppfærsla 2020: GS1 mælir með að þessi DI sé ekki lengur notuð og að notendur þessarar DI flytji yfir í GS1 gagnakvarða (Application Identifiers) samkvæmt ISO/IEC 15418 og ISO/IEC 15459-3.\nSamkvæmt GS1 eru lýsigögnin (an2+n9) ekki lengur rétt. GS1 mælir með að þessi DI verði ekki notuð í framtíðarforritum.</value>
   </data>
   <data name="di22004" xml:space="preserve">
-    <value>Flutningsaðilakóði úthlutaður af iðnaðarstaðli sameiginlega skilgreindum af Birgja, Flutningsaðila og Viðskiptavini.</value>
+    <value>Auðkenningarkóði flutningsaðila sem er úthlutaður samkvæmt iðnaðarstaðli sem birgir, flutningsaðili og viðskiptavinur skilgreina sameiginlega.</value>
   </data>
   <data name="di22005" xml:space="preserve">
-    <value>Fjármálastofnunarkóði (sameiginlega skilgreindur).</value>
+    <value>Auðkenningarkóði fjármálastofnunar (skilgreindur í sameiningu).</value>
   </data>
   <data name="di22006" xml:space="preserve">
-    <value>Framleiðandakóði (sameiginlega skilgreindur).</value>
+    <value>Auðkenningarkóði framleiðanda (skilgreindur í sameiningu).</value>
   </data>
   <data name="di22007" xml:space="preserve">
-    <value>Kóði úthlutaður aðila sem ber fjárhagslega ábyrgð á einingu eða hópi eininga (t.d., eigandi birgða) (sameiginlega skilgreindur).</value>
+    <value>Kóði úthlutaður aðila sem ber fjárhagslega ábyrgð á einingu eða hópi eininga (t.d. eiganda birgða) (gagnkvæmt skilgreint).</value>
   </data>
   <data name="di22008" xml:space="preserve">
-    <value>Viðskiptavina kóði Úthlutaður af Viðskiptavini.</value>
+    <value>Viðskiptavinakóði úthlutaður af viðskiptavininum.</value>
   </data>
   <data name="di22009" xml:space="preserve">
-    <value>Viðskiptavina kóði Úthlutaður af Birgja.</value>
+    <value>Viðskiptavinakóði úthlutaður af birgjanum.</value>
   </data>
   <data name="di22010" xml:space="preserve">
-    <value>Framleiðanda ID\nATH - Sjá Viðauka 2, CBP 7501 Leiðbeiningar.</value>
+    <value>Auðkenni framleiðanda\nATHUGIÐ – Sjá viðauka 2, leiðbeiningar fyrir CBP 7501.</value>
   </data>
   <data name="di22011" xml:space="preserve">
-    <value>Stofnun með fjárhagsábyrgð fyrir einingu, ferli, eða aðgerð (t.d., verslun, deild, deild)(innanríkis úthlutað).</value>
+    <value>Skipulagseining með fjárhagsábyrgð fyrir einingu, ferli eða verklagi (t.d. verslun, deild, svið) (úthlutað innan fyrirtækis).</value>
   </data>
   <data name="di22012" xml:space="preserve">
-    <value>DUNS Númer sem auðkennir Framleiðanda.</value>
+    <value>DUNS-númer sem auðkennir framleiðanda.</value>
   </data>
   <data name="di22013" xml:space="preserve">
-    <value>DUNS Númer sem auðkennir Birgja.</value>
+    <value>DUNS-númer sem auðkennir birgja.</value>
   </data>
   <data name="di22014" xml:space="preserve">
-    <value>DUNS Númer sem auðkennir Viðskiptavin.</value>
+    <value>DUNS-númer sem auðkennir viðskiptavin.</value>
   </data>
   <data name="di22015" xml:space="preserve">
-    <value>Flutningsaðila-Úthlutað Sendingarnúmer.</value>
+    <value>Flutningsaðilanum úthlutað sendandanúmer.</value>
   </data>
   <data name="di22016" xml:space="preserve">
-    <value>VMRS Birgja ID.</value>
+    <value>Birgðaaðilakenni VMRS.</value>
   </data>
   <data name="di22017" xml:space="preserve">
-    <value>U.S. DoD CAGE Kóði.</value>
+    <value>CAGE-kóði varnarmálaráðuneytis Bandaríkjanna.</value>
   </data>
   <data name="di22018" xml:space="preserve">
-    <value>Auðkenning aðila að viðskiptum þar sem gagnaformat samanstendur af tveimur samsettum hlutum. Fyrri hlutinn er Útgáfustofnunarkóði (IAC) í samræmi við ISO/IEC 15459, annar hlutinn er einstakt auðkenni Fyrirtækisauðkennisnúmers (CIN) úthlutað í samræmi við reglur sem útgáfustofnunin hefur sett (sjá http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSearchTerms=%22IAC%22).</value>
+    <value>Auðkenning aðila í viðskiptum þar sem gagnasniðið samanstendur af tveimur samtengdum hlutum. Fyrri hlutinn er kóði útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459, seinni hlutinn er einstakt auðkenni einingar, fyrirtækjaauðkennisnúmer (CIN), úthlutað í samræmi við reglur sem útgáfustofnunin setur (sjá http://www.aimglobal.org/?page=Reg_Authority15459&amp;hhSear chTerms=%22IAC%22).</value>
   </data>
   <data name="di22019" xml:space="preserve">
-    <value>Tilgreining hlutverks aðila, í viðskiptum, samanstendur af einu eða fleiri kóðagildum frá EDIFACT Kóðalista 3035 'Aðila Kvóti', aðskildum með plús (+) táknunum (Aldrei að vera samsett með öðrum DIs í línulegu tákni eða öðru miðli þar sem samsetningartákn er plús (+) tákn).</value>
+    <value>Tilgreining á hlutverki/hutverkum aðila í viðskiptum, sem samanstendur af einu eða fleiri kóðagildum úr EDIFACT kóðalista 3035 „Party Qualifier“, aðskildum með plús (+) táknum (má aldrei sameina við önnur DI í línulegu tákni eða öðrum miðlum þar sem sameiningartáknið er plús (+) tákn).</value>
   </data>
   <data name="di22020" xml:space="preserve">
-    <value>Auðkenning aðila að viðskiptum úthlutað af eiganda Fyrirtækisauðkennisnúmers (CIN) og inniheldur viðkomandi Útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá sína, uppbyggt sem röð af 3 samsettum gagnaeiningum: IAC, fylgt af CIN, fylgt af plús (+) tákninu fylgt af einu eða fleiri kóðagildum frá EDIFACT Kóðalista 3035 'Aðila Kvóti', aðskildum með plús (+) táknunum (Aldrei að vera samsett með öðrum DIs í línulegu tákni eða öðru miðli þar sem samsetningartákn er plús (+) tákn).</value>
+    <value>Auðkenning aðila í viðskiptum sem úthlutað er af handhafa fyrirtækjaauðkennisnúmers (CIN) og felur í sér viðkomandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggð sem röð af 3 samtengdum gagnaþáttum: IAC, síðan CIN, síðan plúsmerki (+) og síðan eitt eða fleiri kóðagildi úr EDIFACT-kóðalista 3035 „Party Qualifier“, aðskilin með plúsmerkjum (+) (Aldrei má samtengja þetta við önnur DI í línulegu tákni eða öðrum miðlum þar sem samtengingartáknið er plúsmerki (+)).</value>
   </data>
   <data name="di22021" xml:space="preserve">
-    <value>Auðkenning aðila að viðskiptum, t.d., 21V IAC CIN OSU, úthlutað af eiganda Fyrirtækisauðkennisnúmers (CIN) og inniheldur viðkomandi Útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá sína, uppbyggt sem röð af 3 samsettum gagnaeiningum: IAC, fylgt af CIN, síðan fylgt af auðkenni skipulagseiningar úthlutað af CIN sem er einstakt innan sviðs eiganda CIN.</value>
+    <value>Auðkenning aðila í viðskiptum, t.d. 21V IAC CIN OSU, úthlutað af handhafa fyrirtækjaauðkennisnúmers (CIN) og með tilheyrandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggt sem röð af 3 samtengdum gagnaþáttum: IAC, síðan CIN, síðan auðkenning skipulagseiningar (OSU) sem CIN úthlutar og er einstök innan sviðs handhafa CIN.</value>
   </data>
   <data name="di22022" xml:space="preserve">
-    <value>Flutningsaðili SCAC.\nStaðlaður Flutningsaðili Alfa Kóði - The National Motor Freight Traffic Association, Inc., (NMFTA) úthlutar SCAC fyrir öll fyrirtæki nema þau kóða sem notuð eru til auðkenningar á flutningsgámum sem starfa ekki eingöngu í Norður-Ameríku, millilandaskeiðum og vögnunum, ekki-lestareignuðum flutningsvögnum og lestarfyrirtækjum. http://www.nmfta.org/Pages/welcome.aspx\nFyrirtæki sem leita að auðkenniskóðum fyrir flutningsgáma sem ekki starfa í Norður-Ameríku ættu að hafa samband við Bureau International des Containers, 38, rue des Blancs Manteaux, F75004 Paris, France, tölvupóst: bic@bic-code.org, vefsíða www.biccode.org. Lestar og eigendur millilandaskeiða, vagna og ekki-lestar eignuðum flutningsvögnum ættu að hafa samband við Railinc Customer Service, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, tölvupóst: private.marks@railinc.com.</value>
+    <value>SCAC flutningsaðila.\nStandard Carrier Alpha Code – National Motor Freight Traffic Association, Inc. (NMFTA) úthlutar SCAC-kóðum fyrir öll fyrirtæki, nema þeim kóðum sem notaðir eru til auðkenningar á flutningagámum sem starfa ekki eingöngu í Norður-Ameríku, milliflutningaundirvögnum (intermodal chassis) og eftirvögnum, járnbrautarvögnum sem ekki eru í eigu járnbrautarfélaga og járnbrautarfélögum. http://www.nmfta.org/Pages/welcome.aspx\nFyrirtæki sem óska eftir auðkenningarkóðum fyrir flutningagáma sem starfa ekki í Norður-Ameríku ættu að hafa samband við Bureau International des Containers, 38, rue des Blancs Manteaux, F75004 Paris, France, netfang: bic@bic-code.org, vefur www.biccode.org. Járnbrautarfélög og eigendur milliflutningaundirvagna, eftirvagna og járnbrautarvagna sem ekki eru í eigu járnbrautarfélaga ættu að hafa samband við Railinc Customer Service, Attn: Private Marks, 7001 Weston Parkway, Suite 200, Cary, NC 27513, (800) 544-7245, netfang: private.marks@railinc.com.</value>
   </data>
   <data name="di22023" xml:space="preserve">
-    <value>Ríkisúthlutað virðisaukaskattsnúmer sem auðkennir birgja, hefst á ISO 3166-1 alfa-2 landakóða (nema fyrir Grikkland, sem notar ISO 639-1 tungumálakóðann EL), fylgt af ríkisúthlutaðri VSK númeri.\nDæmi:\n23VIE6388047V úthlutað til Google Írlandi.</value>
+    <value>Virðisaukaskattskennitölu (VSK) sem stjórnvöld úthluta og auðkennir birgja; hún byrjar á ISO 3166-1 alpha-2 landskóða (nema fyrir Grikkland, sem notar ISO 639-1 tungumálakóðann EL), og er síðan fylgt af VSK-númerinu sem stjórnvöld úthluta.\nDæmi:\n23VIE6388047V  úthlutað til Google IrelanD.</value>
   </data>
   <data name="di22024" xml:space="preserve">
-    <value>Ríkisúthlutað virðisaukaskattsnúmer sem auðkennir viðskiptavin, hefst á ISO 3166-1 alfa-2 landakóða (nema fyrir Grikkland, sem notar ISO 639-1 tungumálakóðann EL), fylkt af ríkisúthlutaðri VSK númeri.\nDæmi:\n24VIE6388047V úthlutað til Google Írlandi.</value>
+    <value>Virðisaukaskattskennitölu (VSK) sem stjórnvöld úthluta og auðkennir viðskiptavin, sem byrjar á ISO 3166-1 alpha-2 landskóða (nema fyrir Grikkland, sem notar ISO 639-1 tungumálakóðann EL), á eftir kemur VSK-númerið sem stjórnvöld úthluta.\nDæmi:\n24VIE6388047V  úthlutað til Google Ireland.</value>
   </data>
   <data name="di22025" xml:space="preserve">
-    <value>Yfirlýsing um að NCAGE/CAGE kóðinn sem fylgir DI 25V sé framleiðandi. Aðili að viðskiptum þar sem NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE) kóðinn notaður á eftir DI 25V er lýstur vera framleiðandi hlutarins/hlutanna sem koma við sögu í viðskiptunum. Gögn sem fylgja DI 25V munu samanstanda af fimm hástöfum eða tölustöfum, utan bókstafanna "I" og "O".</value>
+    <value>Yfirlýsing um að NCAGE/CAGE-kóðinn sem fylgir DI 25V sé framleiðandinn. Aðili að viðskiptum þar sem NATO Commercial And Government Entity (NCAGE) / Commercial And Government Entity (CAGE)-kóðinn sem notaður er á eftir DI 25V er lýstur sem framleiðandi hlutar/hluta sem viðskiptin varða. Gögnin sem fylgja DI 25V munu samanstanda af fimm hástöfum og tölustöfum, að undanskildum stöfunum „I“ og „O“.</value>
   </data>
   <data name="di23000" xml:space="preserve">
-    <value>Verkefnisnúmer (t.d., 'Framleiðslupappír') (innanríkis úthlutað).</value>
+    <value>Vinnupöntunarnúmer (t.d. „framleiðsluskjal“) (úthlutað innanhúss).</value>
   </data>
   <data name="di23001" xml:space="preserve">
-    <value>Röðunaraðgerðanúmer. Númer sem skilgreinir röð sérstakrar aðgerðar í röð aðgerða, yfirleitt í framleiðslu- eða samsetningarferli.</value>
+    <value>Raðnúmer aðgerðar. Númer sem skilgreinir röð tiltekinnar aðgerðar í röð aðgerða, yfirleitt í framleiðslu- eða samsetningarferli.</value>
   </data>
   <data name="di23002" xml:space="preserve">
-    <value>Aðgerðarkóði/Vinnukóði - tegund vinnu sem á að framkvæma (innanríkis úthlutað eða sameiginlega skilgreint).</value>
+    <value>Aðgerðarkóði/Vinnukóði – tegund vinnu sem á að framkvæma (úthlutað innanhúss eða skilgreint í sameiningu).</value>
   </data>
   <data name="di23003" xml:space="preserve">
-    <value>Samsett verkefnisnúmer og röðunaraðgerðanúmer á formi nn...n+nn...n þar sem plús tákn (+) er notað sem skil á milli verkefnisnúmers og röðunaraðgerðanúmers.</value>
+    <value>Samsett vinnupöntunarnúmer og aðgerðarraðnúmer á sniðinu nn...n+nn...n þar sem plústákn (+) er notað sem aðgreinir milli vinnupöntunarnúmers og aðgerðarraðnúmers.</value>
   </data>
   <data name="di23004" xml:space="preserve">
-    <value>Stöðukóði (innanríkis úthlutað eða sameiginlega skilgreint).</value>
+    <value>Stöðukóði (úthlutaður innanhúss eða skilgreindur í sameiningu).</value>
   </data>
   <data name="di23005" xml:space="preserve">
-    <value>Vinnueiningarkóði - auðkennir kerfi, undirkerfi, samsetningu, hluta o.s.frv. þar sem viðhald er framkvæmt.</value>
+    <value>Kóði vinnueiningar – auðkennir kerfi, undirkerfi, samsetningu, íhlut o.s.frv. sem viðhald er framkvæmt á.</value>
   </data>
   <data name="di23006" xml:space="preserve">
-    <value>Heiti - (innanríkis úthlutað eða sameiginlega skilgreint).</value>
+    <value>Nafnakerfi – (úthlutað innanhúss eða skilgreint í sameiningu).</value>
   </data>
   <data name="di23010" xml:space="preserve">
-    <value>Formstjórnunar númer - Fyrirfram prentað stjórnunar númer á eyðublöðum.</value>
+    <value>Stjórnarnúmer eyðublaðs – Fyrirfram prentað stjórnarnúmer á eyðublöðum.</value>
   </data>
   <data name="di23011" xml:space="preserve">
-    <value>Gæðaeftirlitsaðili - Eftirnafn.</value>
+    <value>Gæðaeftirlitsmaður - Eftirnafn.</value>
   </data>
   <data name="di23012" xml:space="preserve">
-    <value>Símanúmer þess aðila/verkefnis sem fyllir út eyðublaðið - tjáð á formi (landsnúmer) svæðisnúmer eða borgarkóði plús staðarnúmer t.d. (1) 319 555 1212.</value>
+    <value>Símanúmer þess sem/eða þeirrar starfsemi sem fyllir út eyðublaðið – gefið upp á sniðinu (landskóði) borgar- eða svæðisnúmer ásamt staðarnúmeri, t.d. (1) 319 555 1212.</value>
   </data>
   <data name="di26000" xml:space="preserve">
-    <value>Sameiginlega Skilgreint Á Milli Viðskiptavinar og Birgja</value>
+    <value>Gagnkvæmt skilgreint milli viðskiptavinar og birgja</value>
   </data>
   <data name="di26001" xml:space="preserve">
-    <value>Sameiginlega Skilgreint Á Milli Flutningsaðila og Birgja</value>
+    <value>Gagnkvæmt skilgreint milli flutningsaðila og birgja</value>
   </data>
   <data name="di26002" xml:space="preserve">
-    <value>Sameiginlega Skilgreint Á Milli Viðskiptavinar og Flutningsaðila</value>
+    <value>Gagnkvæmt skilgreint milli viðskiptavinar og flutningsaðila</value>
   </data>
   <data name="di26003" xml:space="preserve">
-    <value>Frjálst Textasvæði</value>
+    <value>Frjáls texti</value>
   </data>
   <data name="di26004" xml:space="preserve">
-    <value>Sameiginlega Skilgreint Á Milli Flutningsaðila og Viðskiptafélaga</value>
+    <value>Gagnkvæmt skilgreint milli flutningsaðila og viðskiptaaðila</value>
   </data>
   <data name="di26010" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Hausagögn)</value>
+    <value>Skipulagður frjáls texti (hausgögn)</value>
   </data>
   <data name="di26011" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 1 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 1)</value>
   </data>
   <data name="di26012" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 2 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 2)</value>
   </data>
   <data name="di26013" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 3 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 3)</value>
   </data>
   <data name="di26014" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 4 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 4)</value>
   </data>
   <data name="di26015" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 5 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 5)</value>
   </data>
   <data name="di26016" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 6 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 6)</value>
   </data>
   <data name="di26017" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 7 Gögn)</value>
+    <value>Skipulagt frjáls texti (gögn í línu 7)</value>
   </data>
   <data name="di26018" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 8 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 8 gögn)</value>
   </data>
   <data name="di26019" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 9 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 9)</value>
   </data>
   <data name="di26020" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 10 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 10 gögn)</value>
   </data>
   <data name="di26021" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 11 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 11)</value>
   </data>
   <data name="di26022" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 12 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 12 gögn)</value>
   </data>
   <data name="di26023" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 13 Gögn)</value>
+    <value>Skipulagt frjáls texti (gögn í línu 13)</value>
   </data>
   <data name="di26024" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 14 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 14)</value>
   </data>
   <data name="di26025" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 15 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 15)</value>
   </data>
   <data name="di26026" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 16 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 16)</value>
   </data>
   <data name="di26027" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 17 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 17)</value>
   </data>
   <data name="di26028" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 18 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 18)</value>
   </data>
   <data name="di26029" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 19 Gögn)</value>
+    <value>Skipulagt frjáls texti (gögn í línu 19)</value>
   </data>
   <data name="di26030" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 20 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 20)</value>
   </data>
   <data name="di26031" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 21 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 21)</value>
   </data>
   <data name="di26032" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 22 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 22)</value>
   </data>
   <data name="di26033" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 23 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 23)</value>
   </data>
   <data name="di26034" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 24 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 24)</value>
   </data>
   <data name="di26035" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 25 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 25)</value>
   </data>
   <data name="di26036" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 26 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 26 gögn)</value>
   </data>
   <data name="di26037" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 27 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 27 gögn)</value>
   </data>
   <data name="di26038" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 28 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 28)</value>
   </data>
   <data name="di26039" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 29 Gögn)</value>
+    <value>Skipulagt frjáls texti (lína 29 gögn)</value>
   </data>
   <data name="di26040" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 30 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 30)</value>
   </data>
   <data name="di26041" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 31 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 31)</value>
   </data>
   <data name="di26042" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 32 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 32)</value>
   </data>
   <data name="di26043" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 33 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 33)</value>
   </data>
   <data name="di26044" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 34 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 34)</value>
   </data>
   <data name="di26045" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 35 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 35 gögn)</value>
   </data>
   <data name="di26046" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 36 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 36 gögn)</value>
   </data>
   <data name="di26047" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 37 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 37)</value>
   </data>
   <data name="di26048" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 38 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 38)</value>
   </data>
   <data name="di26049" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 39 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 39 gögn)</value>
   </data>
   <data name="di26050" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 40 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 40)</value>
   </data>
   <data name="di26051" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 41 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 41 gögn)</value>
   </data>
   <data name="di26052" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 42 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 42)</value>
   </data>
   <data name="di26053" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 43 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 43 gögn)</value>
   </data>
   <data name="di26054" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 44 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 44 gögn)</value>
   </data>
   <data name="di26055" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 45 Gögn)</value>
+    <value>Skipulagt frjáls texti (lína 45 gögn)</value>
   </data>
   <data name="di26056" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 46 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 46 gögn)</value>
   </data>
   <data name="di26057" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 47 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 47 gögn)</value>
   </data>
   <data name="di26058" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 48 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 48)</value>
   </data>
   <data name="di26059" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 49 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 49 gögn)</value>
   </data>
   <data name="di26060" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 50 Gögn)</value>
+    <value>Skipulagður frjáls texti (gögn í línu 50)</value>
   </data>
   <data name="di26061" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 51 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 51 gögn)</value>
   </data>
   <data name="di26062" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 52 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 52 gögn)</value>
   </data>
   <data name="di26063" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 53 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 53 gögn)</value>
   </data>
   <data name="di26064" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 54 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 54 gögn)</value>
   </data>
   <data name="di26065" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 55 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 55 gögn)</value>
   </data>
   <data name="di26066" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 56 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 56 gögn)</value>
   </data>
   <data name="di26067" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 57 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 57 gögn)</value>
   </data>
   <data name="di26068" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 58 Gögn)</value>
+    <value>Skipulögð frjáls texti (lína 58 gögn)</value>
   </data>
   <data name="di26069" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 59 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 59 gögn)</value>
   </data>
   <data name="di26070" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 60 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 60 gögn)</value>
   </data>
   <data name="di26071" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 61 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 61 gögn)</value>
   </data>
   <data name="di26072" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 62 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 62 gögn)</value>
   </data>
   <data name="di26073" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 63 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 63 gögn)</value>
   </data>
   <data name="di26074" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 64 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 64 gögn)</value>
   </data>
   <data name="di26075" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 65 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 65 gögn)</value>
   </data>
   <data name="di26076" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 66 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 66 gögn)</value>
   </data>
   <data name="di26077" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 67 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 67 gögn)</value>
   </data>
   <data name="di26078" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 68 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 68 gögn)</value>
   </data>
   <data name="di26079" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 69 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 69 gögn)</value>
   </data>
   <data name="di26080" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 70 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 70 gögn)</value>
   </data>
   <data name="di26081" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 71 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 71 gögn)</value>
   </data>
   <data name="di26082" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 72 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 72 gögn)</value>
   </data>
   <data name="di26083" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 73 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 73 gögn)</value>
   </data>
   <data name="di26084" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 74 Gögn)</value>
+    <value>Skipulögð frjáls texti (lína 74 gögn)</value>
   </data>
   <data name="di26085" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 75 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 75 gögn)</value>
   </data>
   <data name="di26086" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 76 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 76 gögn)</value>
   </data>
   <data name="di26087" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 77 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 77 gögn)</value>
   </data>
   <data name="di26088" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 78 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 78 gögn)</value>
   </data>
   <data name="di26089" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 79 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 79 gögn)</value>
   </data>
   <data name="di26090" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 80 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 80 gögn)</value>
   </data>
   <data name="di26091" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 81 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 81 gögn)</value>
   </data>
   <data name="di26092" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 82 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 82 gögn)</value>
   </data>
   <data name="di26093" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 83 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 83 gögn)</value>
   </data>
   <data name="di26094" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 84 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 84 gögn)</value>
   </data>
   <data name="di26095" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 85 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 85 gögn)</value>
   </data>
   <data name="di26096" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 86 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 86 gögn)</value>
   </data>
   <data name="di26097" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 87 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 87 gögn)</value>
   </data>
   <data name="di26098" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 88 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 88 gögn)</value>
   </data>
   <data name="di26099" xml:space="preserve">
-    <value>Skipulagður Frjáls Texti (Lína 89 Gögn)</value>
+    <value>Skipulagður frjáls texti (lína 89 gögn)</value>
   </data>
   <data name="di3" xml:space="preserve">
-    <value>Jafnaðartákn. ICCBB</value>
+    <value>„EQUAL“-stafurinn. ICCBB</value>
   </data>
   <data name="di3000" xml:space="preserve">
-    <value>Framhald af Vörukóða (Flokkur 16) úthlutað af Viðskiptavini sem er of langur fyrir nauðsynlegt reitastærð.</value>
+    <value>Framhald af vörunúmeri (flokkur 16) sem viðskiptavinur úthlutaði og er of langt fyrir nauðsynlega reitastærð.</value>
   </data>
   <data name="di3001" xml:space="preserve">
-    <value>Framhald af Rekjanleikakóða (Flokkur 20) úthlutað af Birgja.</value>
+    <value>Framhald rekjanleikakóða (flokkur 20) sem birgir úthlutaði.</value>
   </data>
   <data name="di3002" xml:space="preserve">
-    <value>Framhald af Raðnúmeri (Flokkur 19) úthlutað af Birgja.</value>
+    <value>Framhald raðnúmers (flokkur 19) sem birgir úthlutaði.</value>
   </data>
   <data name="di3003" xml:space="preserve">
-    <value>Framhald af Frjálsum Texta (Flokkur 26) sameiginlega skilgreint á milli Birgja/Flutningsaðila/Viðskiptavinar.</value>
+    <value>Framhald frjáls texta (flokkur 26) skilgreint í sameiningu af birgi/flutningsaðila/viðskiptavini.</value>
   </data>
   <data name="di3004" xml:space="preserve">
-    <value>Framhald af Viðskiptatilvísun (Flokkur 11) sameiginlega skilgreint á milli Birgja/Flutningsaðila/Viðskiptavinar.</value>
+    <value>Framhald af tilvísun í færslu (flokkur 11) skilgreint í sameiningu af birgi/flutningsaðila/viðskiptavini.</value>
   </data>
   <data name="di3005" xml:space="preserve">
-    <value>Framhald af Vörukóða (Flokkur 16) Úthlutað af Birgja.</value>
+    <value>Framhald vörunúmers (flokkur 16) úthlutað af birgi.</value>
   </data>
   <data name="di4" xml:space="preserve">
-    <value>FUNC1 (Function 1) tákn. Birtist í fyrsta sæti á eftir upphafstákni symbology af Code 128, Code 49, eða Code 16K Tákni til að tákna GS1-stjórnað tákn.</value>
+    <value>FNC1 (FUNC1) stafur. Birtist í fyrstu stöðu á eftir upphafsstaf táknmáls í Code 128, Code 49 eða Code 16K tákni til að gefa til kynna GS1-stýrt tákn.</value>
   </data>
   <data name="di4000" xml:space="preserve">
-    <value>Formað YYMMDD.</value>
+    <value>Snið YYMMDD.</value>
   </data>
   <data name="di4001" xml:space="preserve">
-    <value>Formað DDMMYY.</value>
+    <value>Snið DDMMÁÁ.</value>
   </data>
   <data name="di4002" xml:space="preserve">
-    <value>Formað MMDDYY.</value>
+    <value>Snið MMDDYY.</value>
   </data>
   <data name="di4003" xml:space="preserve">
-    <value>Formað YDDD (Julian).</value>
+    <value>Snið YDDD (Júlíanskt).</value>
   </data>
   <data name="di4004" xml:space="preserve">
-    <value>Formað YYDDD (Julian).</value>
+    <value>Snið YYDDD (Júlíanskt).</value>
   </data>
   <data name="di4005" xml:space="preserve">
-    <value>ISO formið YYMMDD strax fylgt af ANSI X12.3 Gögn Atriði Númer 374 Kvóti sem veitir kóða tilgreiningu á tegund dagsetningar (t.d., sendingardagur, framleiðsludagur).</value>
+    <value>ISO-snið YYMMDD strax á eftir ANSI X12.3 gagnastaksnúmeri 374 (Qualifier) sem gefur kóða sem tilgreinir tegund dagsetningar (t.d. sendingardagur, framleiðsludagur).</value>
   </data>
   <data name="di4006" xml:space="preserve">
-    <value>ISO formið YYYYMMDD strax fylgt af ANSI X12.3 Gögn Atriði Númer 374 Kvóti sem veitir kóða tilgreiningu á tegund dagsetningar (t.d., sendingardagur, framleiðsludagur).</value>
+    <value>ISO-snið YYYYMMDD strax á eftir fylgt af ANSI X12.3 gagnastakeiningarnúmeri 374 (Qualifier) sem gefur kóða sem tilgreinir tegund dagsetningar (t.d. sendingardagur, framleiðsludagur).</value>
   </data>
   <data name="di4007" xml:space="preserve">
-    <value>Formað MMYY.</value>
+    <value>Snið MMÁÁ.</value>
   </data>
   <data name="di4008" xml:space="preserve">
-    <value>Atburður, Dagsetning, Og Tími.\nISO formið YYYYMMDDHHMM (24 klukkustunda klukka - UTC) strax fylgt af UN/EDIFACT Kóða Kvóta 2005 sem veitir kóða tilgreiningu á tegund dagsetningar), t.d.,\n11 [Dagsetning þegar vænta má að vörur séu sendar/afskipaðar skilaboð eru gefin út.];\n17 [Áætluð afhendingardagsetning/tími þegar vænta má að vörur verði afhentar];\n35 [Dagsetning þegar vörur eru afhentar á áfangastað.];\n118 [Bókun Staðfest];\n129 [Dagsetning þegar skip/farmur fór úr síðasta erlenda höfn í útflytjandi landi.];\n132 [Dagsetning/tími þegar flutningsaðili áætlar að samgöngutæki ætti að koma á afhendingarhöfn eða áfangastað.];\n133 [Dagsetning/tími þegar flutningsaðili áætlar að samgöngutæki ætti að fara frá brottfararstað];\n137 [Dagsetning/tími þegar birgir sendir hluti út byggt á beiðni viðskiptavinar. (Dagsetning þegar DESADV skilaboð eru gefin út. Mælt er með því að DESADV séu gefin út innan 30 mínútna frá því að vörur eru sóttar hjá ShipFrom aðila];\n146 [Áætluð Inngangsdagsetning (Tollar) dagsetning þegar opinber dagsetning Tollainngangs er væntanleg.];\n151 [Innflutningsdagur (Kominn að höfn með því að hleypa af)];\n186 Fer út úr Aðstöðu ('Hlið út');\n204 [Dagsetningin þegar Tollur gefur farm frjálsan til flutningsaðila eða innflytjanda];\n253 [Fer úr Höfn ('Skipafar')] ;\n252 [Kemur að Höfn ('Skipakoma')];\n283 [Kemur að Aðstöðu ('Hlið inn')];\n342 [Farartæki Hlaðið];\n351 [Hliðarskoðun í Terminal];\n411 [Pantað Stúffun];\n412 [Pantað Strippun];\n420 [Farartæki Afhlaðið];\n534 [Viðgert];\n677 [Staðfest Stúffun];\n678 [Staðfest Strippun];\n696 [Filing Dagsetning].</value>
+    <value>Viðburður, dagsetning og tími.\nISO-snið YYYYMMDDHHMM (24 stunda klukka – UTC) strax á eftir UN/EDIFACT kóðaviðmiði 2005 sem gefur kóða sem tilgreinir tegund dagsetningar), t.d.,\n11 [Dagsetning þegar búist er við að vörur verði sendar/afhentar; skilaboð eru gefin út.];\n17 [Áætluð afhendingardagsetning/-tími þegar búist er við að vörur verði afhentar];\n35 [Dagsetning þegar vörur eru afhentar á áfangastað.];\n118 [Bókun staðfest];\n129 [Dagsetning þegar skip/vörur fóru frá síðustu erlendu höfn í útflutningslandi.];\n132 [Dagsetning/tími þegar flutningsaðili áætlar að flutningatæki eigi að koma til losunarhafnar eða á áfangastað.];\n133 [Dagsetning/tími þegar flutningsaðili áætlar að flutningatæki eigi að fara frá brottfararstað];\n137 [Dagsetning/tími þegar birgir sendir hluti samkvæmt beiðni viðskiptavinar. (Dagsetning þegar DESADV-skilaboð eru gefin út. Mælt er með að DESADV sé gefið út innan 30 mínútna frá því að vörur eru sóttar hjá ShipFrom-aðila];\n146 [Áætluð innflutningsskráningardagsetning (tollur) dagsetning sem gert er ráð fyrir sem opinber dagsetning tollskráningar.];\n151 [Innflutningsdagsetning (komið í höfn með ásetningi um að losa)];\n186 Fer frá aðstöðu („Gate-out“)];\n204 [Dagsetning þegar tollur leysir vörur til flutningsaðila eða innflytjanda];\n253 [Fer frá höfn („Brottför skips“)];\n252 [Kemur til hafnar („Koma skips“)];\n283 [Kemur til aðstöðu („Gate-in“)];\n342 [Flutningatæki hlaðið];\n351 [Hliðaskoðun flugstöðvar];\n411 [Pökkun í gám pöntuð];\n412 [Tæming gáms pöntuð];\n420 [Flutningatæki losað];\n534 [Viðgert];\n677 [Pökkun í gám staðfest];\n678 [Tæming gáms staðfest];\n696 [Innskráningardagsetning].</value>
   </data>
   <data name="di4009" xml:space="preserve">
-    <value>Dagsetning (uppbygging og þýðing sameiginlega skilgreind).</value>
+    <value>Dagsetning (bygging og merking skilgreind gagnkvæmt).</value>
   </data>
   <data name="di4010" xml:space="preserve">
-    <value>Formað YYWW.</value>
+    <value>Sníða YYWW.</value>
   </data>
   <data name="di4011" xml:space="preserve">
-    <value>Formað YYYYWW.</value>
+    <value>Snið YYYYWW.</value>
   </data>
   <data name="di4012" xml:space="preserve">
-    <value>Formað YYYYMMDD.</value>
+    <value>Snið YYYYMMDD.</value>
   </data>
   <data name="di4013" xml:space="preserve">
-    <value>Elsta og Nýjasta Framleiðsludagsetning á formi YYWWYYWW.</value>
+    <value>Elsta og nýjasta framleiðsludagsetning á sniðinu YYWWYYWW.</value>
   </data>
   <data name="di4014" xml:space="preserve">
-    <value>Rennur út Dagsetning (YYYYMMDD).</value>
+    <value>Gildistími (ÁÁÁÁMMDD).</value>
   </data>
   <data name="di4015" xml:space="preserve">
-    <value>Rennur út Dagsetning (DDMMYYYY).</value>
+    <value>Gildistími (DDMMÁÁÁÁ).</value>
   </data>
   <data name="di4016" xml:space="preserve">
-    <value>Framleiðsludagsetning (YYYYMMDD) - Dagsetning framleiðslu.</value>
+    <value>Framleiðsludagsetning (ÁÁÁÁMMDD) – Framleiðsludagsetning.</value>
   </data>
   <data name="di4017" xml:space="preserve">
-    <value>Framleiðsludagsetning (DDMMYYYY).</value>
+    <value>Framleiðsludagsetning (DDMMÁÁÁÁ).</value>
   </data>
   <data name="di4018" xml:space="preserve">
-    <value>Merkingar Virkjunartími.\nYYYYMMDDHHMM (24 klukkustunda klukka - UTC).</value>
+    <value>Virkjunartími merkis.\nYYYYMMDDHHMM (24 stunda klukka - UTC).</value>
   </data>
   <data name="di4019" xml:space="preserve">
-    <value>Merkingar Afvirkjunartími.\nYYYYMMDDHHMM (24 klukkustunda klukka - UTC).</value>
+    <value>Tími afvirkjunar merkis.\nYYYYMMDDHHMM (24 stunda klukka - UTC).</value>
   </data>
   <data name="di4020" xml:space="preserve">
-    <value>Eftirlitsdagsetning (DDMMYYYY).</value>
+    <value>Skoðunardagsetning (DDMMÁÁÁÁ).</value>
   </data>
   <data name="di4021" xml:space="preserve">
-    <value>Áskilin Afhendingardagsetning (DDD Julian) eða DOD MILSTAMP Kóði.</value>
+    <value>Áskilinn afhendingardagur (DDD Julian) eða DOD MILSTAMP-kóði.</value>
   </data>
   <data name="di4022" xml:space="preserve">
-    <value>Skráningartími.\nYYYYMMDDHHMM (24 klukkustunda klukka - UTC).</value>
+    <value>Skráningartími.\nÁÁÁÁMMDDKKMM (24 stunda klukka - UTC).</value>
   </data>
   <data name="di4023" xml:space="preserve">
-    <value>Dagsetning, túlkuð í breyttu UTC samræmi formi:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] þar sem hornklofar tákna valkvæði og yyyy er árið, mmdd mánuðurinn og dagurinn, hhmmss tími dags í klukkustundum mínútum og sekúndum, fff eru brot af sekúndum og poooo er frávik frá UTC tjáð í klukkustundum og mínútum, frávikið er jákvætt ef p er punktur (.), neikvætt ef P er mínusmerki (-).\nDÆMI:\n2005 - (UTC) almanaksár 2005;\n200505 - (UTC) almanaksmánuður maí 2005;\n20050518 - (UTC) 18. maí 2005;\n200505181247 - 12:47 UTC á 18. maí 2005;\n200505181247.0100 - 12:47 staðartími, sem er 11:47 UTC, á 18. maí 2005;\n20050518124723099 - 99 millisekúndur eftir 12:47:23 UTC á 18. maí 2005.</value>
+    <value>Dagsetning, sett fram á breyttu UTC-samhæfu sniði:\nyyyy[mm[dd[hh[mm[ss[fff]]]]]][poooo] þar sem hornklofar gefa til kynna valkvæðni og yyyy er árið, mmdd mánuður og dagur, hhmmss tími dags í klukkustundum, mínútum og sekúndum, fff brot úr sekúndum og poooo frávik frá UTC gefið upp í klukkustundum og mínútum; frávikið er jákvætt ef p er punktur (.), neikvætt ef P er mínusmerki (-).\nDÆMI:\n2005 - (UTC) almanaksárið 2005;\n200505 - (UTC) almanaksmánuðurinn maí 2005;\n20050518 - (UTC) 18. maí 2005;\n200505181247 - 12:47 UTC þann 18. maí 2005;\n200505181247.0100 - 12:47 staðartími, sem er 11:47 UTC, þann 18. maí 2005;\n20050518124723099 - 99 millisekúndum eftir UTC 12:47:23 þann 18. maí 200.</value>
   </data>
   <data name="di4024" xml:space="preserve">
-    <value>Hæf Dagsetning, sem samanstendur af:\n- útgáfustofnunarkóða ISO/IEC 15459;\n- dagsetningarkvóta í samræmi við tilgreiningar þeirrar útgáfustofnunar;\n- dagsetningu sem format og túlkun eru í samræmi við tilgreiningar þeirrar útgáfustofnunar fyrir þann dagsetningarkvóta.</value>
+    <value>Hæf dagsetning, sem samanstendur af samsetningu á:\n- ISO/IEC 15459 útgáfustofnunarkóða;\n- dagsetningarauðkenni sem samræmist forskriftum þeirrar útgáfustofnunar;\n- dagsetningu þar sem snið og túlkun samræmist forskriftum útgáfustofnunarinnar fyrir það dagsetningarauðkenni.</value>
   </data>
   <data name="di4025" xml:space="preserve">
-    <value>Best fyrir dagsetning: (YYYYMMDD).\nDæmi: 25D20170202 = 2. febrúar 2017</value>
+    <value>Best fyrir dagsetningu: (ÁÁÁÁMMDD).\nDæmi: 25D20170202 = 2. febrúar 2017.</value>
   </data>
   <data name="di4026" xml:space="preserve">
-    <value>Fyrsta frystidagsetning (YYYYMMDD).\nFyrsta frystidagsetning er skilgreind sem dagsetningin þegar vörur eru frystar strax eftir slátrun, uppskeru, veiði eða eftir upphaflega vinnslu.\nDæmi: 26D20170721 = 21. júlí 2017.</value>
+    <value>Fyrsti frystingardagur (ÁÁÁÁMMDD).\nFyrsti frystingardagur er skilgreindur sem dagsetningin þegar vörur eru frystar beint eftir slátrun, uppskeru, veiði eða eftir fyrstu vinnslu.\nDæmi: 26D20170721 = 21. júlí 2017.</value>
   </data>
   <data name="di4027" xml:space="preserve">
-    <value>Uppskerudagsetning (YYYYMMDD).\nDagsetningin þegar dýr var slátrað eða drepin, fiskur var veiddur, eða uppskera varð.\nDæmi: 27D20170615 = 15. júní 2017.</value>
+    <value>Uppskerudagur (ÁÁÁÁMMDD).\nDagsetningin þegar dýr var slátrað eða drepið, fiskur var veiddur eða uppskera var tekin.\nDæmi: 27D20170615 = 15. júní 2017.</value>
   </data>
   <data name="di4028" xml:space="preserve">
-    <value>Uppskerutímabil (YYYYMMDDYYYYMMDD).\nUpphafsdagur og lokadagur tímabilsins þegar uppskeru fór fram.\nTil dæmis; dýr voru slátruð eða drepin, fiskar veiddir, eða uppskera varð.\nGagnaröðin er skilgreind sem fyrsti YYYYMMDD sem upphafsdagur og síðasti YYYYMMDD sem lokadagur.\nDæmi:\n28D2017012320170214 = Byrjar; 23. janúar 2017. Endar; 14. febrúar 2017.</value>
+    <value>Dagsetningabil uppskeru (ÁÁÁÁMMDDÁÁÁÁMMDD).\nUpphafs- og lokadagsetningabil sem uppskeran átti sér stað á.\nTil dæmis; dýr voru slátruð eða drepin, fiskur var veiddur eða uppskera var tekin.\nGagnastraumurinn er skilgreindur þannig að fyrsta ÁÁÁÁMMDD er upphafsdagsetning og síðasta ÁÁÁÁMMDD er lokadagsetning.\nDæmi:\n28D2017012320170214 = Upphaf; 23. janúar 2017. Lok; 14. febrúar 2017.</value>
   </data>
   <data name="di5" xml:space="preserve">
-    <value>'Vinstri hornklofi', 'Hægri svigi', 'Stærra en tákn', 'Skráningarskiljari' tákn. Gagnagrind í samræmi við ISO/IEC 15434, Upplýsingatækni - Sjálfvirkt Auðkenni og Gögnatöku Tækni - Málfræði fyrir Hágetu ADC Miðla.</value>
+    <value>stafirnir „vinstri hornklofi“, „hægri svigi“, „stærra en“-tákn og „færsluaðskiljari“. Gagnaskipan í samræmi við ISO/IEC 15434, Upplýsingatækni – Sjálfvirk auðkenning og gagnasöfnun (AIDC) – Setningafræði fyrir háafkastamiðla fyrir AIDC.</value>
   </data>
   <data name="di5000" xml:space="preserve">
-    <value>Takmarkaðar efni Flokkun - 'Umhverfisflokkunarkóði' þar með talið Blylaust (Pb-Free) yfirborðsfrágangsflokkar skilgreindir í JESD97 (IPC JEDEC J-STD-609), og framtíðar iðnaðar eða stjórnvalda úthlutaðir kóðar tengdir umhverfisreglugerðum og hættulegu efni innihaldi.</value>
+    <value>Flokkun takmarkaðra efna – „umhverfisflokkunarkóði“, þar á meðal flokkar blýlausrar (Pb-lausrar) yfirborðsfrágangs sem skilgreindir eru í JESD97 (IPC JEDEC J-STD-609), og framtíðarkóðar sem iðnaður eða opinberar stofnanir úthluta og tengjast samræmi við umhverfisreglugerðir og innihaldi hættulegra efna.</value>
   </data>
   <data name="di5001" xml:space="preserve">
-    <value>Loftþrýstingur - (hæð) tjáður í Pascal sem alþjóðlegur mælikvarði.</value>
+    <value>Loftþrýstingur – (hæð) gefinn upp í paskölum sem alþjóðleg staðalmælieining.</value>
   </data>
   <data name="di5002" xml:space="preserve">
-    <value>Hámarks Leyfilegur Hitastig. Hámarks leyfður hiti; gráður Celsius, '-' (mínus) kóðað, ef þörf krefur.</value>
+    <value>Hámarksleyfilegt hitastig. Hámarkshiti sem er leyfður; gráður á Celsíus, „-“ (mínus) kóðað, ef þörf krefur.</value>
   </data>
   <data name="di5003" xml:space="preserve">
-    <value>Lágmarks Leyfilegur Hitastig.\nLágmarks leyfður hiti; gráður Celsius, '-' (mínus) kóðað, ef þörf krefur.</value>
+    <value>Lágmarkshiti sem er leyfður.\nLágmarkshiti sem er heimilaður; gráður á Celsíus, „-“ (mínus) kóðað, ef þörf krefur.</value>
   </data>
   <data name="di5004" xml:space="preserve">
-    <value>Hámarks Leyfileg Afstæð Raki.\nHámarks leyfður afstæður raki, gefið til kynna sem prósent.</value>
+    <value>Hámarksleyfilegur rakastigshlutfall.\nHámarksleyfilegt rakastigshlutfall, gefið upp sem prósenta.</value>
   </data>
   <data name="di5005" xml:space="preserve">
-    <value>Lágmarks Leyfileg Afstæð Raki.\nLágmarks leyfður afstæður raki, tjáð sem prósent.</value>
+    <value>Lágmarks leyfilegur rakastigshlutfall.\nHámarks leyfilegt rakastigshlutfall, gefið upp í prósentum.</value>
   </data>
   <data name="di5006" xml:space="preserve">
-    <value>Kæligáma Hitastig.\nFyrir hitastýrðan farm, markmið tilgreint af farmflytjanda, gráður Celsius, '-' (mínus) kóðað, ef þörf krefur.</value>
+    <value>Hitastig í kæligámi.
+Fyrir hitastýrðan farm, markhitastig tilgreint af sendanda, gráður á Celsíus, „-“ (mínus) kóðað, ef þörf krefur.</value>
   </data>
   <data name="di5010" xml:space="preserve">
-    <value>Samtals Tími Hitastigs Vísitala - tjáð sem fjöldi mælinga eða teljari.</value>
+    <value>Uppsöfnuð tíma- og hitastigsvísitala – gefin upp sem fjöldi mælinga eða talninga.</value>
   </data>
   <data name="di5011" xml:space="preserve">
-    <value>Tími Hitastigs Vísitala - Næsta Hærri Samsetning - tjáð sem fjöldi mælinga eða teljari.</value>
+    <value>Tímahitastuðull - næsta hærra samsetning - gefið upp sem fjöldi mælinga eða talninga.</value>
   </data>
   <data name="di5012" xml:space="preserve">
-    <value>Yfirlýsing um Pakkningarefni Flokk*, Kóða* og Þyngd fyrir tiltekið pakkningarefni notað í tiltekinni pökkun samkvæmt tilskipun ESB um pakkningar og pakkningaúrgang. (Efni flokkur og kóði skilgreindir í Viðauka M).\n12ECCMMMMMMNNNNNUU þar sem: - '12E' (an3) er Gögn Auðkennari;\n - 'CC' (n2) er Efnisflokkur samkvæmt Viðauka M;\n - 'MMMMMM' (an1...6) er Efniskóði samkvæmt Viðauka M;\n - 'NNNNN' (n5) Efnaþyngd, með tugapunkti (t.d., 12.12);\n - 'UU' (an2) er Mælieining fyrir þyngd (t.d., KG, GR, LB eða OZ samkvæmt ANSI X12.3 eins og í Viðauka D).</value>
+    <value>Yfirlýsing um flokk umbúðaefnis*, kóða* og þyngd fyrir tiltekið umbúðaefni sem notað er í tilteknum umbúðum samkvæmt tilskipun ESB um umbúðir og umbúðaúrgang. (Efnisflokkur og kóði skilgreind í viðauka M).\n12ECCMMMMMMNNNNNUU þar sem:  - „12E“ (an3) er gagnakennið;\n  - „CC“ (n2) er efnisflokkur samkvæmt viðauka M;\n  - „MMMMMM“ (an1...6) er efniskóði samkvæmt viðauka M;\n  - „NNNNN“ (n5) er efnisþyngd, þar með talið tugabrotspunktur (t.d. 12.12);\n - „UU“ (an2) er mælieining fyrir þyngd (t.d. KG, GR, LB eða OZ samkvæmt ANSI X12.3 eins og í viðauka D).</value>
   </data>
   <data name="di5013" xml:space="preserve">
-    <value>Gögnin sem fylgja DI 13E verða eitt af MSL vísitölunum (1, 2, 2a, 3, 4, 5, 5a, 6) eins og sýnt er í DÁLKANUM LEVEL í Töflu 5-1 af JEDEC staðli IPC/JEDEC J-STD-020E. Taflan er sýnd hér að neðan aðeins til viðmiðunar; núverandi útgáfa af viðkomandi staðli skal nota til að fá rétta MSL fyrir raunverulega íhluti. Dæmi: 13E2a</value>
+    <value>Gögnin sem fylgja DI 13E verða einn af MSL-vísunum (1, 2, 2a, 3, 4, 5, 5a, 6) eins og sýnt er í LEVEL-dálkinum í töflu 5-1 í JEDEC-staðlinum IPC/JEDEC J-STD-020E. Taflan er sýnd hér að neðan eingöngu til viðmiðunar; nota skal þá útgefnu útgáfu staðalsins sem vísað er til til að fá rétt MSL fyrir viðkomandi íhlut. Dæmi: 13E2a</value>
   </data>
   <data name="di6" xml:space="preserve">
-    <value>'HYPHEN' eða 'MÍNUS' tákn. Lyfjamiðstöðvarnúmer (PZN), stjórnað af IFA-ABDATA, Þýskalandi (Skráning þessa kerfis auðkennis rennur út á 2016-07-01). Kemur í staðinn fyrir '9N'.</value>
+    <value>Stafurinn „BANDSTRIK“ eða „MÍNUS“. Lyfjamiðstöðvunúmer (PZN), stjórnað af IFA-ABDATA, Þýskalandi (skráning þessa kerfisauðkennis rennur út 2016-07-01). Skipt út fyrir „9N“.</value>
   </data>
   <data name="di6000" xml:space="preserve">
-    <value>Lykkjuhaus.</value>
+    <value>Endurtekinn haus.</value>
   </data>
   <data name="di6001" xml:space="preserve">
-    <value>Foreldri mitt ______ er . . . Einstakt auðkenni fylgt af Gögn Auðkenni og tengdum gögnum (notað með endurhæfum pakkningum). Þetta Gögn Auðkenni verður að fylgja strax eftir sviðinu (samsett úr Gögn Auðkenni, gögnum og hópaskiljara) með því sem það er tengt.</value>
+    <value>Yfirgefið ______ mitt er . . . Einstakt auðkenni sem fylgt er eftir af gagnaauðkenni og tilheyrandi gögnum (til notkunar með endurskiljanlegum umbúðum). Þetta gagnaauðkenni verður að koma strax á eftir reitnum (samsettum úr gagnaauðkenni, gögnum og hópaskilju) sem það tengist.</value>
   </data>
   <data name="di6003" xml:space="preserve">
-    <value>Ég hef ______ börn . . . (notað með endurhæfum pakkningum, t.d.; 3F10, fyrir tíu börn). Þetta Gögn Auðkenni verður að fylgja strax eftir sviðinu (samsett úr Gögn Auðkenni, gögnum og hópaskiljara) með því sem það er tengt.</value>
+    <value>Ég á ______ börn . . . (til notkunar með endurvinnanlegum umbúðum, t.d.; 3F10, fyrir tíu börn). Þetta gagnakenni verður að koma strax á eftir reitnum (samsettum úr gagnakenni, gögnum og hópaskilju) sem það tengist.</value>
   </data>
   <data name="di6004" xml:space="preserve">
-    <value>Rökrétt úthlutun á síðu upplýsinga innan hóps síðna sem dreifðar eru á milli nokkurra gagna beranna, uppbyggt sem röð af allt að þremur (3) samsettum gagnaeiningum, aðskildum með skástriku ( / ) :\n Síðunúmer (skylt), fylgt af síðufjölda (valkvætt, skylt fyrir síðustu síðu), fylgt af bókstaflegum hópkóða (valkvætt; ef notað þá skylt fyrir allar síður og uppbyggt í samræmi við ISO/IEC 15459-3 sem röð af 3 gagnaeiningum: Útgáfustofnunarkóði, fylgt af Fyrirtækisauðkennisnúmeri, fylkt af bókstaflegum kóða einstökum innan útgefendasviðsins).\n Trailing slashes eru valkvæð.</value>
+    <value>Rökræn úthlutun á upplýsingasíðu innan hóps síðna sem dreifast yfir nokkra gagnamiðla, sett fram sem röð allt að þriggja (3) samtengdra gagnaþátta, aðskildra með skástriki ( / ) :\n  Síðunúmer (áskilið), á eftir kemur síðufjöldi (valfrjálst, áskilið fyrir síðustu síðu), á eftir kemur bókstafa- og tölustafasamsett hópauðkenni (valfrjálst; ef notað þá áskilið fyrir allar síður og sett fram í samræmi við ISO/IEC 15459-3 sem röð 3 gagnaþátta: kóði útgáfustofnunar, á eftir kemur fyrirtækjaauðkennisnúmer, á eftir kemur bókstafa- og tölustafakóði sem er einstakur innan sviðs útgefandans).\n Skástrik í lokin eru valfrjáls.</value>
   </data>
   <data name="di6005" xml:space="preserve">
-    <value>Ég hef ______ börn og þau eru . . . (notað með endurhæfum pakkningum) Þetta Gögn Auðkenni verður að fylgja strax eftir sviðinu (samsett úr Gögn Auðkenni, gögnum og hópaskiljara) með því sem það er tengt.</value>
+    <value>Þessi gagnakennir verður að koma strax á eftir reitnum (sem er samsettur úr gagnakenninum, gögnum og hópaskilju) sem hann tengist.</value>
   </data>
   <data name="di7" xml:space="preserve">
-    <value>'UPPHRÓPUNARMERKI'. Eurocode-IBLS</value>
+    <value>„UPPHRÓPUNARMERKIÐ“. Eurocode-IBLS</value>
   </data>
   <data name="di8000" xml:space="preserve">
-    <value>Nafn Aðila.\nNafn aðila fylgt af plús (+) tákninu fylgt af einu eða fleiri kóðagildum frá EDIFACT Kóðalista 3035 'Aðila Kvóti', t.d.;\nBY [Kaupandi];\nCF [Gámaumsjónarmaður];\nCN [Viðtakandi];\nCS [Sameiningaraðili];\nDEI [Skipstjóri/skipseigandi];\nFA [Starfsliðskóði];\nIM [Innflytjandi];\nMF [Framleiðandi];\nOS [Skipaðili];\nSE [Seljandi];\nST [Send til];\nUC [Lokaviðtakandi].</value>
+    <value>Heiti aðila.\nHeiti aðila á eftir plúsmerki (+) og einu eða fleiri kóðagildum úr EDIFACT kóðalista 3035 „Party Qualifier“, t.d.;\nBY [Kaupandi];\nCF [Rekstraraðili gáma];\nCN [Móttakandi];\nCS [Samsteypuaðili];\nDEI [Rekstraraðili skips/skipsstjóri];\nFA [Kóði rekstrarstarfsfólks];\nIM [Innflytjandi];\nMF [Framleiðandi];\nOS [Sendandi];\nSE [Seljandi];\nST [Afhenda til];\nUC [Endanlegur móttakandi].</value>
   </data>
   <data name="di8001" xml:space="preserve">
-    <value>Starfsmannakennitala úthlutað af atvinnurekanda.</value>
+    <value>Starfsmannaauðkenningarkóði úthlutaður af vinnuveitanda.</value>
   </data>
   <data name="di8002" xml:space="preserve">
-    <value>Bandarísk félagsöryggisnúmer.</value>
+    <value>Bandarískt almannatrygginganúmer.</value>
   </data>
   <data name="di8003" xml:space="preserve">
-    <value>Kennitala fyrir ekki-starfsmann (innanríkis úthlutað eða sameiginlega skilgreint) (t.d., verktakar, seljendur, þjónustu- og afhendingaraðilar).</value>
+    <value>Kennitölunúmer fyrir aðila sem er ekki starfsmaður (úthlutað innanhúss eða skilgreint í sameiningu) (t.d. verktakar, söluaðilar, þjónustu- og afhendingarfólk).</value>
   </data>
   <data name="di8004" xml:space="preserve">
-    <value>Þjóðleg félagsöryggisnúmer.</value>
+    <value>Kennitala.</value>
   </data>
   <data name="di8005" xml:space="preserve">
     <value>Eftirnafn.</value>
   </data>
   <data name="di8006" xml:space="preserve">
-    <value>Aðilanafn (Lína 2).</value>
+    <value>Nafn veislu (lína 2).</value>
   </data>
   <data name="di8007" xml:space="preserve">
-    <value>Símanúmer tengiliðs.\nLandakóði, svæðiskóði, skiptistöð, númer [XX YYY ZZZ ZZZZ].</value>
+    <value>Símanúmer tengiliðar.\nLandsnúmer, svæðisnúmer, skiptinúmer, númer [XX YYY ZZZ ZZZZ].</value>
   </data>
   <data name="di8008" xml:space="preserve">
-    <value>Tölvupóstfang.</value>
+    <value>Netfang tölvupóstur.</value>
   </data>
   <data name="di8009" xml:space="preserve">
-    <value>Viðtakendanúmer.\nEinstakt auðkenninúmer getur verið IRS, EIN, SSN, eða CBP úthlutað númer, eins og krafist er á Öryggisskýrslu. Aðeins eftirfarandi snið skal nota: IRS EIN: NN-NNNNNNN;\nIRS EIN með viðskeyti:\nNN-NNNNNNNXX;\nSSN: NNN-NN-NNNN;\nCBP úthlutað númer: YYDDPP-NNNNN.</value>
+    <value>Númer viðtakanda.\nEinstakt auðkennisnúmer getur verið IRS, EIN, SSN eða númer úthlutað af CBP, eins og krafist er í öryggisskráningu. Aðeins eftirfarandi snið skulu notuð: IRS EIN: NN-NNNNNNN;\nIRS EIN með viðskeyti:\nNN-NNNNNNNXX;\nSSN:   NNN-NN-NNNN;\nNúmer úthlutað af CBP: YYDDPP-NNNNN.</value>
   </data>
   <data name="di8010" xml:space="preserve">
-    <value>Persónuauðkenniskóði (fyrsta stafur, síðasti stafur, síðustu fjórir af SSN).</value>
+    <value>Persónuauðkenningarkóði (fyrsti stafur í fornafni, fyrsti stafur í eftirnafni, síðustu fjórir stafir í kennitölu).</value>
   </data>
   <data name="di8011" xml:space="preserve">
-    <value>Fornafn og millinafn.</value>
+    <value>Fornafn og millinafnsstafur.</value>
   </data>
   <data name="di8012" xml:space="preserve">
-    <value>Herflokkur (E1-E9, W1-W5, og O1-O10).\n2020 Uppfærsla: Metadata snið hefur verið breytt til að samræmast raunverulegum herflokkum sem herinn notar: "an2+an3". Upplýsingaupplýsingum hefur verið breytt til: "Herflokkur (E1-E9, W1-W5, og O1-O11).</value>
+    <value>Hernaðarstig (E1–E9, W1–W5 og O1–O10).\nUppfærsla 2020: Lýsigagnasniði hefur verið breytt til að samræmast raunverulegum liðsforingjastigum sem herinn notar: „an2+an3“. Skýringarupplýsingum hefur verið breytt í: „Hernaðarstig (E1–E9, W1–W5 og O1–O11)“.</value>
   </data>
   <data name="di8015" xml:space="preserve">
-    <value>Þjóðleg auðkennisnúmer, þjóðleg kennitala, eða þjóðleg trygginganúmer notað sem leið til að auðkenna einstaklinga innan lands fyrir tilgangi vinnu, skattlagningar, ríkisbóta, heilbrigðisþjónustu, og annarra ríkislega tengdra aðgerða.\nStrúktúr auðkennisins er DI (15H) fylgt af ISO 3166-1 Alpha2 Landakóða fylgt af ríkjandi ríkisúthlutaðri auðkenniskóða fyrir einstaklinga.</value>
+    <value>Þjóðarauðkennisnúmer, þjóðkennitala eða þjóðtrygginganúmer sem er notað til að bera kennsl á einstaklinga innan lands í tengslum við vinnu, skattlagningu, opinberar bætur, heilbrigðisþjónustu og önnur opinber tengd verkefni.\nUppbygging auðkennisins er DI (15H) á eftir ISO 3166-1 Alpha2 landskóða og síðan ríkjandi, af stjórnvöldum úthlutaðri persónuauðkenningarkóða fyrir einstaklinga.</value>
   </data>
   <data name="di8025" xml:space="preserve">
-    <value>Alþjóðlega Einstakt Persónuauðkenni úthlutað af eiganda Fyrirtækisauðkennisnúmers (CIN) og inniheldur viðkomandi Útgáfustofnunarkóða (IAC) í samræmi við ISO/IEC 15459 og skrá sína, uppbyggt sem röð af 3 samsettum gagnaeiningum: IAC fylgt af CIN, fylkt af auðkenni einstakt innan eiganda sviðsins.</value>
+    <value>Alþjóðlega einstakt persónuauðkenni, úthlutað af handhafa fyrirtækjaauðkenningarkóða (CIN) og sem inniheldur viðkomandi kóða útgáfustofnunar (IAC) í samræmi við ISO/IEC 15459 og skrá þess, uppbyggt sem röð þriggja samtengdra gagnaþátta: IAC á undan CIN, á undan auðkenninu sem er einstakt innan léns handhafans.</value>
   </data>
   <data name="di8026" xml:space="preserve">
-    <value>Alþjóðlega Einstakt Persónuauðkenni, með "Aðila Kvóta" kóðagildi frá EDIFACT Kóðalista 3035</value>
+    <value>Alþjóðlegt einstakt persónuauðkenni, með kóðagildi „Party Qualifier“ úr EDIFACT-kóðalista 3035</value>
   </data>
   <data name="di9000" xml:space="preserve">
-    <value>Einkaréttur úthlutun - Ökutækjaauðkenni (VIN) eins og skilgreint er í Bandaríkjunum undir 49 CFR, Kafla 565 og alþjóðlega af ISO 3779. (Þetta eru fullkomlega samrýmanleg gögnaskipulög).</value>
+    <value>Einkarétt úthlutun – Auðkennisnúmer ökutækis (VIN) eins og það er skilgreint í Bandaríkjunum samkvæmt 49 CFR, kafla 565 og á alþjóðavettvangi samkvæmt ISO 3779. (Þetta eru fullkomlega samhæfðar gagnaskipanir).</value>
   </data>
   <data name="di9002" xml:space="preserve">
-    <value>Stytting VIN Kóða.</value>
+    <value>Stytt VIN-númer.</value>
   </data>
   <data name="di9004" xml:space="preserve">
-    <value>Alþjóðlega einstakt ökutækjaauðkenni (t.d., vörubílar) sem samanstendur af Ökutækjaauðkenni (VIN) eins og skilgreint er í Bandaríkjunum undir 49 CFR Kafla 565, og alþjóðlega af ISO 3779, fylgt af '+' tákninu, þá fylgt af ríkisúthlutaðri Ökutækjaskráningar Númeraplötu á formi '4I' 'VIN' '+' 'ríkisúthlutað Ökutækjaskráningar Númeraplötu' (gæsalöpp og bil eru sýnd til skýringar aðeins; þau eru ekki hluti af gögnunum).</value>
+    <value>Alþjóðlega einstakt auðkenni flutningatækis (t.d. vörubíla) sem samanstendur af auðkennisnúmeri ökutækis (VIN) eins og það er skilgreint í Bandaríkjunum samkvæmt 49 CFR, kafla 565, og á alþjóðavísu samkvæmt ISO 3779, á eftir kemur „+“-táknið og síðan skráningarnúmer ökutækis á númeraplötu sem stjórnvöld gefa út, á forminu „4I“ „VIN“ „+“ „skráningarnúmer ökutækis á númeraplötu sem stjórnvöld gefa út“ (gæsalappir og bil eru aðeins sýnd til skýringar; þau eru ekki hluti af gögnunum).</value>
   </data>
   <data name="di9005" xml:space="preserve">
-    <value>Einstakt framleiðslu ökutækjaauðkenni sem verður notað í ökutækjaframleiðsluferlinu, sem samanstendur af Body Tag Number (BTN; eða hvaða annar lýsandi þáttur sem notaður er til að auðkenna hráa bílkroppinn, eða öðrum orðum, samsetningu hluta sem notuð er til að hefja framleiðslu ökutækisins), fylgt af '+' tákninu, síðan fylgt af Framleiðslupöntunar Númeri (PON), fylgt af '+' tákninu, og síðan fylgt af Framleiðanda-úthlutað Seríanúmeri (SN). ATH - SN hlutinn skal skipta út fyrir VIN um leið og VIN er tiltækt í samsetningarferlinu.\nByggingin verður sem hér segir;\n"5I" "BTN" "+" "PON" "+" "SN"\nbreytist í (þegar VIN er tiltækt)\n"5I" "BTN" "+" "PON" "+" "VIN"\nATH - Gæsalappir og bil eru sýnd til skýringar aðeins; þau eru ekki hluti af gögnunum.\nATH - Þessi DI er aldrei að vera samsett með öðrum DIs í línulegu tákn eða öðru miðli þar sem samsetningartákn er plús (+) tákn.\nDæmi:\nSN útgáfa: 5IABCD1234+CO1234+W0L201600500001\nVIN útgáfa: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+    <value>Einstakt framleiðsluauðkenni ökutækis sem verður notað í framleiðsluferlum ökutækisins og samanstendur af Body Tag Number (BTN; eða annarri lýsingu sem notuð er til að auðkenna hráa yfirbyggingu bílsins, eða með öðrum orðum samsetningu þeirra hluta sem notuð eru til að hefja framleiðslu ökutækisins), á eftir „+“ stafnum, síðan á eftir Production Order Number (PON), á eftir „+“ stafnum, og síðan á eftir raðnúmeri (SN) sem framleiðandi úthlutar. ATHUGIÐ – SN-hlutanum skal skipt út fyrir VIN um leið og VIN er tiltækt í samsetningarferlinu.\nUppbyggingin verður sem hér segir;\n\5I" "BTN" "+" "PON" "+" "SN"\nbreytist í (þegar VIN er tiltækt)\n"5I" "BTN" "+" "PON" "+" "VIN"\nATHUGIÐ – Gæsalappir og bil eru aðeins sýnd til skýringar; þau eru ekki hluti af gögnunum.\nATHUGIÐ – Þetta DI má aldrei vera samtengt við önnur DI í línulegu tákni eða öðrum miðli þar sem samtengingarstafurinn er plús (+).\nDæmi:\nSN-útgáfa: 5IABCD1234+CO1234+W0L201600500001\nVIN-útgáfa: 5IABCD1234+CO1234+W0L0XAP68F4050901</value>
+  </data>
+  <data name="di17013" xml:space="preserve">
+    <value># af # (þetta er n-ta stykkið af x stykkjum í þessari sendingu).\nSýnt á sniðinu „n/x“, þar sem „/“ (skástrik) er notað sem aðgreinir á milli tveggja gilda.</value>
   </data>
 </root>

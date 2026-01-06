@@ -166,7 +166,9 @@
     <comment>Error</comment>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>La valeur {0} ne correspond pas au motif spécifié pour l'élément de données.</value>
-    <comment>Error</comment>
+    <value>La valeur {0} ne correspond pas au modèle spécifié pour l’élément de données {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>La position implicite du point décimal (exposant inverse) est spécifiée incorrectement.</value>
   </data>
 </root>

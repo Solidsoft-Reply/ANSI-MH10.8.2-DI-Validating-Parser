@@ -154,6 +154,9 @@
     <value>Ongeldige gegevensidentificatie.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>De waarde{0} komt niet overeen met het gespecificeerde patroon voor het datagegeven.</value>
+    <value>De waarde{0} komt niet overeen met het opgegeven patroon voor gegevenselement {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>De positie van de impliciete decimale komma (inverse exponent) is onjuist opgegeven.</value>
   </data>
 </root>

@@ -154,6 +154,9 @@
     <value>Identifikatur tad-data invalidu.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Il-valur{0} ma jaqbilx mal-mudell speċifikat għall-element tad-data.</value>
+    <value>Il-valur{0} ma jaqbilx mal-mudell speċifikat għall-element tad-dejta {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Il-pożizzjoni tal-punt deċimali impliċita (esponent invers) hija speċifikata b’mod żbaljat.</value>
   </data>
 </root>

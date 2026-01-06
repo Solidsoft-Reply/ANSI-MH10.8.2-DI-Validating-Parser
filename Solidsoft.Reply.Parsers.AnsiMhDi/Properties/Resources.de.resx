@@ -166,7 +166,9 @@
     <comment>Error</comment>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Der Wert{0} entspricht nicht dem spezifizierten Muster für das Datenelement.</value>
-    <comment>Error</comment>
+    <value>Der Wert{0} entspricht nicht dem angegebenen Muster für das Datenelement {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Die implizite Dezimalpunktposition (inverser Exponent) ist falsch angegeben.</value>
   </data>
 </root>

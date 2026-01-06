@@ -154,6 +154,9 @@
     <value>Ogiltigt dataidentifierare.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Värdet{0} stämmer inte överens med det angivna mönstret för datadelen.</value>
+    <value>Värdet{0} matchar inte det angivna mönstret för dataelementet {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Den underförstådda decimalpunktens position (invers exponent) är angiven felaktigt.</value>
   </data>
 </root>

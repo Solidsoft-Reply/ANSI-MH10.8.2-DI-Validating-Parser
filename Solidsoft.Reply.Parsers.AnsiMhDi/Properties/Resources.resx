@@ -166,7 +166,11 @@
     <comment>Error</comment>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>The value{0} does not match the specified pattern for the data element.</value>
+    <value>The value{0} does not match the specified pattern for data element {1}.</value>
+    <comment>Error</comment>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>The implied decimal point position (inverse exponent) is specified incorrectly.</value>
     <comment>Error</comment>
   </data>
 </root>

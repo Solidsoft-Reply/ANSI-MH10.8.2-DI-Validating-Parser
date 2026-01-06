@@ -154,6 +154,9 @@
     <value>Identificatore di dati non valido.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Il valore{0} non corrisponde al modello specificato per l'elemento di dati.</value>
+    <value>Il valore {0} non corrisponde al modello specificato per l'elemento dati {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>La posizione implicita del punto decimale (esponente inverso) è specificata in modo errato.</value>
   </data>
 </root>

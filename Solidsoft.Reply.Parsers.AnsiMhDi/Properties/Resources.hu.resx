@@ -154,6 +154,9 @@
     <value>Érvénytelen adatazonosító.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Az érték{0} nem felel meg a megadott mintának az adatelemre.</value>
+    <value>A(z) {0} érték nem felel meg a(z) {1} adatelemhez megadott mintának.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>A feltételezett tizedesvessző pozíciója (inverz kitevő) helytelenül van megadva.</value>
   </data>
 </root>

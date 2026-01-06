@@ -154,6 +154,9 @@
     <value>Identificator de date invalid.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Valoarea{0} nu se potrivește cu modelul specificat pentru elementul de date.</value>
+    <value>Valoarea {0} nu corespunde modelului specificat pentru elementul de date {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Poziția punctului zecimal implicit (exponentul invers) este specificată incorect.</value>
   </data>
 </root>

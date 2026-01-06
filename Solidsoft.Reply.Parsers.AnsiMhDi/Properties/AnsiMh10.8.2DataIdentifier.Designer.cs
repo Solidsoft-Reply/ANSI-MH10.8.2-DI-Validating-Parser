@@ -19,7 +19,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class AnsiMh10_8_2DataIdentifier {
@@ -1654,7 +1654,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Advance Shipment Notification (ASN) Shipment ID (SID) corresponds to ANSI ASC X12 Data Element 396.
+        ///   Looks up a localized string similar to Advance Shipment Notification (ASN) Shipment ID (SID) corresponds to ANSI ASC X12 Data Element 396..
         /// </summary>
         internal static string di19002 {
             get {
@@ -1672,7 +1672,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Package Identification Assigned by Supplier to master packaging containing like items on a single customer order.
+        ///   Looks up a localized string similar to Package Identification Assigned by Supplier to master packaging containing like items on a single customer order..
         /// </summary>
         internal static string di19004 {
             get {
@@ -1771,7 +1771,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Serial Number Assigned by the Vendor Entity, that can only be used in conjunction with &apos;13V&apos;.
+        ///   Looks up a localized string similar to Serial Number Assigned by the Vendor Entity, that can only be used in conjunction with &apos;13V&apos;..
         /// </summary>
         internal static string di19015 {
             get {
@@ -1807,7 +1807,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Combined Dun &amp; Bradstreet company identification of the supplier followed by a unique package identification assigned by the supplier, in the format nn...nn+nn...n where a plus symbol (+) is used as a delimiter between the DUNS Number and unique package identification.
+        ///   Looks up a localized string similar to Combined Dun &amp; Bradstreet company identification of the supplier followed by a unique package identification assigned by the supplier, in the format nn...nn+nn...n where a plus symbol (+) is used as a delimiter between the DUNS Number and unique package identification..
         /// </summary>
         internal static string di19019 {
             get {
@@ -1861,7 +1861,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Identification of a party to a transaction assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 3 concatenated data elements:  IAC, followed by CIN, followed by the supplier assign serial number that is unique within the CIN holder&apos;s domain  (See Annex C.11).
+        ///   Looks up a localized string similar to Identification of a party to a transaction assigned by a holder of a Company Identification Number (CIN) and including the related Issuing Agency Code (IAC) in accordance with ISO/IEC 15459 and its registry, structured as a sequence of 3 concatenated data elements:  IAC, followed by CIN, followed by the supplier assign serial number that is unique within the CIN holder&apos;s domain  (See Annex C.11)..
         /// </summary>
         internal static string di19025 {
             get {
@@ -1897,7 +1897,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Additional Traceability Code For An Entity Assigned by the Supplier in addition to or different from the traceability code(s) provided by &apos;S&apos; or &apos;1S&apos;.
+        ///   Looks up a localized string similar to Additional Traceability Code For An Entity Assigned by the Supplier in addition to or different from the traceability code(s) provided by &apos;S&apos; or &apos;1S&apos;..
         /// </summary>
         internal static string di19030 {
             get {
@@ -2032,7 +2032,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to EPC number (Typically Serialized Global Trade Identification Number - SGTIN)\n2020 Update: The term &quot;EPC number&quot; is no longer used by GS1. Refer to GS1 General Specifications and the Tag Data Standard for current terminology.
+        ///   Looks up a localized string similar to EPC number (Typically Serialized Global Trade Identification Number - SGTIN)\n2020 Update: The term &quot;EPC number&quot; is no longer used by GS1. Refer to GS1 General Specifications and the Tag Data Standard for current terminology..
         /// </summary>
         internal static string di19096 {
             get {
@@ -4039,7 +4039,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Best before date: (YYYYMMDD).\nExample: 25D20170202 = February 2, 2017.
+        ///   Looks up a localized string similar to Best before date: (YYYYMMDD).\nExample: 25D20170202 = February 2, 2017..
         /// </summary>
         internal static string di4025 {
             get {

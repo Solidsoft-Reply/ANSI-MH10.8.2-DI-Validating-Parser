@@ -154,6 +154,9 @@
     <value>Nevažeći identifikator podataka.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Vrijednost{0} se ne podudara sa specificiranim uzorkom za element podatka.</value>
+    <value>Vrijednost {0} ne odgovara navedenom uzorku za podatkovni element {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Implicirani položaj decimalne točke (inverzni eksponent) pogrešno je naveden.</value>
   </data>
 </root>

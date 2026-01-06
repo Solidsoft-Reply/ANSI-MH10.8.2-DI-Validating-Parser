@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="EntityDescriptors.cs" company="Solidsoft Reply Ltd">
+// <copyright file="EntityDescriptor.cs" company="Solidsoft Reply Ltd">
 // Copyright (c) 2018-2024 Solidsoft Reply Ltd. All rights reserved.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -78,10 +78,11 @@ public class EntityDescriptors(string? dataTitle, string? description, Func<Rege
     /// <summary>
     ///   Validate data against the descriptor.
     /// </summary>
+    /// <param name="identifier">The identifier (DI) of the data to be validated.</param>
     /// <param name="value">The data to be validated.</param>
     /// <param name="validationErrors">A list of validation errors.</param>
     /// <returns>True, if valid. Otherwise, false.</returns>
-    public virtual bool IsValid(string? value, out IList<ParserException>? validationErrors) {
+    public virtual bool IsValid(string? identifier, string? value, out IList<ParserException>? validationErrors) {
         validationErrors = null;
         var result = Pattern.IsMatch(value ?? string.Empty);
 
@@ -91,12 +92,44 @@ public class EntityDescriptors(string? dataTitle, string? description, Func<Rege
 
         var valueString = (value ?? string.Empty).Length > 0 ? " " + value : string.Empty;
         validationErrors = [];
+        identifier ??= string.Empty;
 
         validationErrors.Add(
             new ParserException(
+                identifier,
                 3100,
-                string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_011, valueString),
+                string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_011, valueString, identifier),
                 false));
         return false;
     }
+
+#if NET7_0_OR_GREATER
+    /// <summary>
+    ///   Validate data against the descriptor.
+    /// </summary>
+    /// <param name="identifier">The identifier (DI) of the data to be validated.</param>
+    /// <param name="value">The data to be validated.</param>
+    /// <param name="validationErrors">A list of validation errors.</param>
+    /// <returns>True, if valid. Otherwise, false.</returns>
+    public virtual bool IsValid(Span<char> identifier, Span<char> value, out IList<ParserException>? validationErrors) {
+        validationErrors = null;
+        var result = Pattern.IsMatch(value);
+
+        if (result) {
+            return true;
+        }
+
+        var valueString = value.TrimEnd('\0').Length > 0 ? " " + value.Trim('\0').ToString() : string.Empty;
+        validationErrors = [];
+        var identifierString = identifier.TrimEnd('\0').ToString() ?? string.Empty;
+
+        validationErrors.Add(
+            new ParserException(
+                identifierString,
+                3100,
+                string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_011, valueString, identifierString),
+                false));
+        return false;
+    }
+#endif
 }

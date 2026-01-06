@@ -154,6 +154,9 @@
     <value>Virheellinen datatunniste.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Arvo{0} ei vastaa datan elementille määriteltyä mallia.</value>
+    <value>Arvo{0} ei vastaa määritettyä tietoelementin {1} mallia.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Implisiittisen desimaalipisteen sijainti (käänteinen eksponentti) on määritetty virheellisesti.</value>
   </data>
 </root>

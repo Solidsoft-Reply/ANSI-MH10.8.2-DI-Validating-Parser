@@ -154,6 +154,9 @@
     <value>Nieprawidłowy identyfikator danych.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Wartość {0} nie pasuje do określonego wzoru dla elementu danych.</value>
+    <value>Wartość {0} nie pasuje do określonego wzorca dla elementu danych {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Domyślna pozycja przecinka dziesiętnego (odwrotny wykładnik) jest określona nieprawidłowo.</value>
   </data>
 </root>

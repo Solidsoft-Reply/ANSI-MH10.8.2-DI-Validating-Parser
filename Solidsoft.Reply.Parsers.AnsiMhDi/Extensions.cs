@@ -20,6 +20,7 @@
 
 namespace Solidsoft.Reply.Parsers.AnsiMhDi;
 
+using System;
 using System.Globalization;
 
 /// <summary>
@@ -43,5 +44,41 @@ public static class Extensions {
     /// <returns>A string converted to uppercase.</returns>
     public static string ToInvariantUpper(this string thisString) {
         return thisString.ToUpper(CultureInfo.InvariantCulture);
+    }
+
+    /// <summary>
+    ///   Writes the invariant uppercase form of the source span into the destination buffer without allocations.
+    /// </summary>
+    /// <param name="source">The read-only character span to convert.</param>
+    /// <param name="destination">The buffer that receives the uppercase characters.</param>
+    /// <returns>True if the conversion succeeded; otherwise, false when destination is too small.</returns>
+    public static bool TryToInvariantUpper(this ReadOnlySpan<char> source, Span<char> destination) {
+        if (destination.Length < source.Length) {
+            return false;
+        }
+
+        for (int i = 0; i < source.Length; i++) {
+            destination[i] = char.ToUpper(source[i], CultureInfo.InvariantCulture);
+        }
+
+        return true;
+    }
+
+    /// <summary>
+    /// Determines whether the specified character span is null, empty, or consists only of white-space or null
+    /// characters.
+    /// </summary>
+    /// <remarks>This method treats null characters ('\0') as white-space for the purpose of evaluation. It is
+    /// intended for use with spans that may contain embedded nulls or be empty.</remarks>
+    /// <param name="span">The read-only character span to evaluate for null, empty, or white-space content.</param>
+    /// <returns>true if the span is empty or contains only white-space or null characters; otherwise, false.</returns>
+    internal static bool IsNullOrWhiteSpace(this ReadOnlySpan<char> span) {
+        foreach (var c in span) {
+            if (c != '\0' && !char.IsWhiteSpace(c)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }

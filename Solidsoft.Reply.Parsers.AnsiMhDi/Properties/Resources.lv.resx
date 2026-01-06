@@ -154,6 +154,9 @@
     <value>Nederīgs datu identifikators.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Vērtība{0} neatbilst noteiktajam modelim datu elementam.</value>
+    <value>Vērtība{0} neatbilst norādītajam datu elementa {1} paraugam.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Netieši norādītā decimālpunkta pozīcija (apgrieztais eksponents) ir norādīta nepareizi.</value>
   </data>
 </root>

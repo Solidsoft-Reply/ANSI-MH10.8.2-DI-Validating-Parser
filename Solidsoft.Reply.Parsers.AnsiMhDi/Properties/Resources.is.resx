@@ -154,6 +154,9 @@
     <value>Ógilt gögn auðkenni.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Gildið{0} passar ekki við tilgreint mynstur fyrir gagnaþátt.</value>
+    <value>Gildið {0} samsvarar ekki tilgreindu mynstri fyrir gagnaþátt {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Óbeina staðsetning óbeina aukastafarpunktsins (andhverfur veldisvísir) er tilgreind.</value>
   </data>
 </root>

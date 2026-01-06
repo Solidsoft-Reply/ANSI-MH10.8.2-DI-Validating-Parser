@@ -154,6 +154,9 @@
     <value>Aitheantóir sonraí neamhbhailí.</value>
   </data>
   <data name="Ansi_Mh10_8_2_Error_011" xml:space="preserve">
-    <value>Ní mheaitseálann an luach{0} an patrún sonraithe don eilimint sonraí.</value>
+    <value>Ní mheaitseálann an luach {0} an patrún sonraithe don eilimint sonraí {1}.</value>
+  </data>
+  <data name="Ansi_Mh10_8_2_Error_012" xml:space="preserve">
+    <value>Tá suíomh an phointe dheachúil intuigthe (easpónant inbhéartach) sonraithe go mícheart.</value>
   </data>
 </root>

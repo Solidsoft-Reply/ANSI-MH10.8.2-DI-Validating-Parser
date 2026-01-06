@@ -6338,7 +6338,37 @@ public static class EntityResolver {
     /// </returns>
     public static ResolvedDataIdentifier Resolve(
         this string data,
-        string? dataIdentifier,
+        string dataIdentifier,
+        int currentPosition,
+        bool includeDescriptors = true) {
+        return Resolve(
+            data.AsSpan(),
+            dataIdentifier.AsSpan(),
+            currentPosition,
+            includeDescriptors);
+    }
+
+    /// <summary>
+    ///   Resolve a first two digits of the data identifier into an entity.
+    /// </summary>
+    /// <param name="data">
+    ///   The data buffer.
+    /// </param>
+    /// <param name="dataIdentifier">
+    ///   The data identifier.
+    /// </param>
+    /// <param name="currentPosition">
+    ///   The position of the data identifier for the current field.
+    /// </param>
+    /// <param name="includeDescriptors">
+    ///   Indicates whether the descriptors should be included in the resolved identifier.
+    /// </param>
+    /// <returns>
+    ///   An entity.
+    /// </returns>
+    public static ResolvedDataIdentifier Resolve(
+        this ReadOnlySpan<char> data,
+        ReadOnlySpan<char> dataIdentifier,
         int currentPosition,
         bool includeDescriptors = true) {
         // Get the last character of the data identifier
@@ -6377,36 +6407,47 @@ public static class EntityResolver {
                     break;
                 }
 
-                if (dataIdentifier?.Length == 0) {
+                if (dataIdentifier.Length == 0) {
                     return new ResolvedDataIdentifier(
-                        new ParserException(3002, Resources.Ansi_Mh10_8_2_Error_010, false),
+                        new ParserException(dataIdentifier.ToString(), 3002, Resources.Ansi_Mh10_8_2_Error_010, false),
                         currentPosition);
                 }
 
+                var lastCharSpanOut = (new char[1]).AsSpan<char>();
 #if NET6_0_OR_GREATER
-                var lastChar = dataIdentifier?[^1..]?.ToInvariantUpper();
+                var lastCharSpanIn = dataIdentifier[^1..];
 #else
-                var lastChar = dataIdentifier?.Substring(dataIdentifier.Length - 1, 1).ToInvariantUpper();
+                var lastCharSpanIn = dataIdentifier.Slice(dataIdentifier.Length - 1, 1);
 #endif
 
-                var ascii = lastChar?[0] - 64;
+                var lastChar = lastCharSpanIn.TryToInvariantUpper(lastCharSpanOut)
+                    ? lastCharSpanOut[0]
+                    : char.MinValue;
+
+                var lowerChar = lastChar - 64;
+                int? ascii = lowerChar >= 0
+                    ? lowerChar
+                    : null;
 
                 if (ascii is < 1 or > 65) {
                     break;
                 }
 
-                if (dataIdentifier?.Length > 1) {
+                if (dataIdentifier.Length > 1) {
 #if NET6_0_OR_GREATER
                     var entityValuePart = dataIdentifier[..^1];
 #else
-                    var entityValuePart = dataIdentifier.Substring(0, dataIdentifier.Length - 1);
+                    var entityValuePart = dataIdentifier.Slice(0, dataIdentifier.Length - 1);
 #endif
 
                     if (entityValuePart.Length > 3) {
                         break;
                     }
-
+#if NET6_0_OR_GREATER
                     if (!int.TryParse(entityValuePart, out var entityValue)) {
+#else
+                    if (!int.TryParse(entityValuePart.ToString(), out var entityValue)) {
+#endif
                         break;
                     }
 
@@ -6420,21 +6461,23 @@ public static class EntityResolver {
         }
 
         if (descriptorKey <= -1) {
+            var diString = dataIdentifier.ToString();
             return new ResolvedDataIdentifier(
                 new ParserException(
+                    diString,
                     3002,
-                    string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_009, dataIdentifier ?? "<unknown>"),
+                    string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_009, diString ?? "<unknown>"),
                     false),
                 currentPosition,
-                data);
+                data.ToString());
         }
 
         if (!includeDescriptors) {
             return new ResolvedDataIdentifier(
                 descriptorKey,
-                dataIdentifier ?? string.Empty,
+                dataIdentifier.ToString() ?? string.Empty,
                 numberOfDecimalPlaces,
-                data,
+                data.ToString(),
                 string.Empty,
                 string.Empty,
                 currentPosition);
@@ -6446,14 +6489,15 @@ public static class EntityResolver {
             descriptors = descriptorKey.GetDescriptors();
         }
         catch (KeyNotFoundException) {
+            var diString = dataIdentifier.ToString();
             return new ResolvedDataIdentifier(
-                new ParserException(3002, $"Invalid data identifier {dataIdentifier}.", false),
+                new ParserException(diString, 3002, $"Invalid data identifier {diString}.", false),
                 currentPosition,
                 new ResolvedDataIdentifier(
                     -1,
-                    dataIdentifier ?? string.Empty,
+                    diString ?? string.Empty,
                     numberOfDecimalPlaces,
-                    data,
+                    data.ToString(),
                     string.Empty,
                     string.Empty,
                     currentPosition));
@@ -6462,15 +6506,179 @@ public static class EntityResolver {
         return Validate(
             new ResolvedDataIdentifier(
                 descriptorKey,
-                dataIdentifier ?? string.Empty,
+                dataIdentifier.ToString() ?? string.Empty,
                 numberOfDecimalPlaces,
-                data,
+                data.ToString(),
                 descriptors.DataTitle,
                 descriptors.Description,
                 currentPosition));
     }
 
 #if NET7_0_OR_GREATER
+    /// <summary>
+    ///   Resolve a first two digits of the data identifier into an entity.
+    /// </summary>
+    /// <param name="data">
+    ///   The data buffer.
+    /// </param>
+    /// <param name="diRef">The  resolved data identifier reference.</param>
+    /// <param name="dataIdentifier">
+    ///   The data identifier.
+    /// </param>
+    /// <param name="currentPosition">
+    ///   The position of the data identifier for the current field.
+    /// </param>
+    /// <param name="includeDescriptors">
+    ///   Indicates whether the descriptors should be included in the resolved identifier.
+    /// </param>
+    /// <returns>
+    ///   An entity.
+    /// </returns>
+    public static ResolvedDataIdentifierRef ResolveEx(
+        this ReadOnlySpan<char> data,
+        ResolvedDataIdentifierRef diRef,
+        ReadOnlySpan<char> dataIdentifier,
+        int currentPosition,
+        bool includeDescriptors = true) {
+        // Get the last character of the data identifier
+        var descriptorKey = -1;
+        const int numberOfDecimalPlaces = -1;
+
+        var fnc1 = ((char)29).ToInvariantString();
+        var isoIec15434Preamble = "[)>" + (char)30;
+
+        // Resolve the descriptor key
+        switch (dataIdentifier) {
+            case "+":
+                descriptorKey = 0;
+                break;
+            case "&":
+                descriptorKey = 2;
+                break;
+            case "=":
+                descriptorKey = 3;
+                break;
+            case "-":
+                descriptorKey = 6;
+                break;
+            case "!":
+                descriptorKey = 7;
+                break;
+            default:
+                // Resolve the remaining category 0 DIs
+                if (dataIdentifier == fnc1) {
+                    descriptorKey = 4;
+                    break;
+                }
+
+                if (dataIdentifier == isoIec15434Preamble) {
+                    descriptorKey = 5;
+                    break;
+                }
+
+                if (dataIdentifier.Length == 0) {
+                    return new ResolvedDataIdentifierRef(
+                        new ParserException(dataIdentifier.ToString(), 3002, Resources.Ansi_Mh10_8_2_Error_010, false),
+                        currentPosition);
+                }
+
+                var lastCharSpanOut = (new char[1]).AsSpan<char>();
+#if NET6_0_OR_GREATER
+                var lastCharSpanIn = dataIdentifier[^1..];
+#else
+                var lastCharSpanIn = dataIdentifier.Slice(dataIdentifier.Length - 1, 1);
+#endif
+
+                var lastChar = lastCharSpanIn.TryToInvariantUpper(lastCharSpanOut)
+                    ? lastCharSpanOut[0]
+                    : char.MinValue;
+
+                var lowerChar = lastChar - 64;
+                int? ascii = lowerChar >= 0
+                    ? lowerChar
+                    : null;
+
+                if (ascii is < 1 or > 65) {
+                    break;
+                }
+
+                if (dataIdentifier.Length > 1) {
+#if NET6_0_OR_GREATER
+                    var entityValuePart = dataIdentifier[..^1];
+#else
+                    var entityValuePart = dataIdentifier.Slice(0, dataIdentifier.Length - 1);
+#endif
+
+                    if (entityValuePart.Length > 3) {
+                        break;
+                    }
+#if NET6_0_OR_GREATER
+                    if (!int.TryParse(entityValuePart, out var entityValue)) {
+#else
+                    if (!int.TryParse(entityValuePart.ToString(), out var entityValue)) {
+#endif
+                        break;
+                    }
+
+                    descriptorKey = ((ascii ?? 0) * 1000) + entityValue;
+                }
+                else {
+                    descriptorKey = (ascii ?? 0) * 1000;
+                }
+
+                break;
+        }
+
+        if (descriptorKey <= -1) {
+            var diString = dataIdentifier.ToString();
+            return new ResolvedDataIdentifierRef(
+                new ParserException(
+                    diString,
+                    3002,
+                    string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_009, diString ?? "<unknown>"),
+                    false),
+                currentPosition);
+        }
+
+        if (!includeDescriptors) {
+            diRef.Entity = descriptorKey;
+            dataIdentifier.CopyTo(diRef.Identifier);
+            diRef.InverseExponent = numberOfDecimalPlaces;
+            data.CopyTo(diRef.Value);
+            diRef.CharacterPosition = currentPosition;
+            return Validate(diRef);
+        }
+
+        EntityDescriptors descriptors;
+
+        try {
+            descriptors = descriptorKey.GetDescriptors();
+        }
+        catch (KeyNotFoundException) {
+            var diString = dataIdentifier.ToString();
+            diRef.Entity = -1;
+            dataIdentifier.CopyTo(diRef.Identifier);
+            diRef.InverseExponent = numberOfDecimalPlaces;
+            data.CopyTo(diRef.Value);
+            diRef.CharacterPosition = currentPosition;
+
+            return new ResolvedDataIdentifierRef(
+                new ParserException(diString, 3002, $"Invalid data identifier {diString}.", false),
+                currentPosition,
+                diRef);
+        }
+
+        diRef.Entity = descriptorKey;
+        dataIdentifier.CopyTo(diRef.Identifier);
+        diRef.InverseExponent = numberOfDecimalPlaces;
+        data.CopyTo(diRef.Value);
+        descriptors?.DataTitle?.CopyTo(diRef.DataTitle);
+        descriptors?.Description?.CopyTo(diRef.Description);
+        diRef.CharacterPosition = currentPosition;
+
+        return Validate(diRef);
+    }
+
     /// <summary>
     ///   A regular expression for six-digit date representation - DDMMYY.
     /// </summary>
@@ -7236,6 +7444,7 @@ public static class EntityResolver {
             if (resolvedEntity is null) {
                 return new ResolvedDataIdentifier(
                     new ParserException(
+                        identifierString,
                         3005,
                         string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_008, identifierString),
                         false),
@@ -7248,11 +7457,13 @@ public static class EntityResolver {
 
             var identifier =
                 Descriptors[resolvedEntity.Entity].IsValid(
+                    resolvedEntity.Identifier,
                     resolvedEntity.Value,
                     out var validationErrors)
                     ? resolvedEntity
                     : new ResolvedDataIdentifier(
                         new ParserException(
+                            resolvedEntity.Identifier.Trim(),
                             3005,
                             string.Format(
                                 CultureInfo.CurrentCulture,
@@ -7281,6 +7492,7 @@ public static class EntityResolver {
 
             return new ResolvedDataIdentifier(
                 new ParserException(
+                    identifierString,
                     3006,
                     string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_006, identifierString),
                     false),
@@ -7294,6 +7506,7 @@ public static class EntityResolver {
 
             return new ResolvedDataIdentifier(
                 new ParserException(
+                    resolvedEntity?.Identifier.Trim() ?? string.Empty,
                     3007,
                     string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_005, identifierString),
                     true),
@@ -7301,4 +7514,91 @@ public static class EntityResolver {
                 resolvedEntity);
         }
     }
+
+#if NET7_0_OR_GREATER
+    /// <summary>
+    ///   Validates a resolved entity.
+    /// </summary>
+    /// <param name="resolvedEntity">The resolved entity to be validated.</param>
+    /// <returns>A resolved entity object. If the value is invalid, the object records the error.</returns>
+    private static ResolvedDataIdentifierRef Validate(ResolvedDataIdentifierRef resolvedEntity) {
+        try {
+            if (resolvedEntity.Value.TrimEnd('\0').Length == 0) {
+                var identifierString = resolvedEntity.Identifier.ToString();
+                identifierString = (identifierString ?? string.Empty).Length > 0
+                                       ? " " + identifierString
+                                       : string.Empty;
+                return new ResolvedDataIdentifierRef(
+                    new ParserException(
+                        identifierString,
+                        3005,
+                        string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_008, identifierString),
+                        false),
+                    0);
+            }
+
+#pragma warning disable SA1118 // Parameter should not span multiple lines
+            var identifier =
+                Descriptors[resolvedEntity.Entity].IsValid(
+                    resolvedEntity.Identifier,
+                    resolvedEntity.Value,
+                    out var validationErrors)
+                    ? resolvedEntity
+                    : new ResolvedDataIdentifierRef(
+                        new ParserException(
+                            resolvedEntity.Identifier.TrimEnd('\0').ToString(),
+                            3005,
+                            string.Format(
+                                CultureInfo.CurrentCulture,
+                                Resources.Ansi_Mh10_8_2_Error_007,
+                                resolvedEntity.Value.TrimEnd('\0').Length > 0
+                                  ? " " + resolvedEntity.Value.TrimEnd('\0').ToString()
+                                  : string.Empty,
+                                resolvedEntity.Identifier.TrimEnd('\0').ToString()),
+                            false),
+                        resolvedEntity.CharacterPosition,
+                        resolvedEntity);
+#pragma warning restore SA1118 // Parameter should not span multiple lines
+
+            if (validationErrors is null || validationErrors.Count == 0) {
+                return identifier;
+            }
+
+            // Add additional resolver exceptions to the collection
+            foreach (var parserException in validationErrors) {
+                identifier.AddException(parserException);
+            }
+
+            return identifier;
+        }
+        catch (ArgumentNullException) {
+            var identifierString = resolvedEntity.Identifier.TrimEnd('\0').Length > 0
+                ? " " + resolvedEntity.Identifier.TrimEnd('\0').ToString()
+                : string.Empty;
+
+            return new ResolvedDataIdentifierRef(
+                new ParserException(
+                    identifierString,
+                    3006,
+                    string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_006, identifierString),
+                    false),
+                resolvedEntity.CharacterPosition,
+                resolvedEntity);
+        }
+        catch (RegexMatchTimeoutException) {
+            var identifierString = resolvedEntity.Identifier.TrimEnd('\0').Length > 0
+                ? " " + resolvedEntity.Identifier.TrimEnd('\0').ToString()
+                : string.Empty;
+
+            return new ResolvedDataIdentifierRef(
+                new ParserException(
+                    identifierString,
+                    3007,
+                    string.Format(CultureInfo.CurrentCulture, Resources.Ansi_Mh10_8_2_Error_005, identifierString),
+                    true),
+                resolvedEntity.CharacterPosition,
+                resolvedEntity);
+        }
+    }
+#endif
 }

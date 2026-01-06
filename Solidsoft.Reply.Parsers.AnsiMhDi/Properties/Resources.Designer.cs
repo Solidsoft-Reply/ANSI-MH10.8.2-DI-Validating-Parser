@@ -19,7 +19,7 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -169,11 +169,20 @@ namespace Solidsoft.Reply.Parsers.AnsiMhDi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The value{0} does not match the specified pattern for the data element..
+        ///   Looks up a localized string similar to The value{0} does not match the specified pattern for data element {1}..
         /// </summary>
         internal static string Ansi_Mh10_8_2_Error_011 {
             get {
                 return ResourceManager.GetString("Ansi_Mh10_8_2_Error_011", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The implied decimal point position (inverse exponent) is specified incorrectly..
+        /// </summary>
+        internal static string Ansi_Mh10_8_2_Error_012 {
+            get {
+                return ResourceManager.GetString("Ansi_Mh10_8_2_Error_012", resourceCulture);
             }
         }
     }
